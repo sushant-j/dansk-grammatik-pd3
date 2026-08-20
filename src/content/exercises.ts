@@ -334,6 +334,178 @@ export const EXERCISES: Exercise[] = [
     takeaway:
       'Danish has no subjectless clause. Weather verbs take the dummy subject "det".',
   },
+
+  // ─── Complex sentences: double objects ──────────────────────────────────
+  {
+    id: 'ex-sendte-chef-mail',
+    clause: 'helsætning',
+    gloss: 'She sent her boss an email yesterday.',
+    tokens: [
+      t('w1', 'hun'),
+      t('w2', 'sendte'),
+      t('w3', 'sin chef', true),
+      t('w4', 'en mail', true),
+      t('w5', 'i går', true),
+    ],
+    solution: {
+      forfelt: ['w1'],
+      finitVerbum: ['w2'],
+      objekt: ['w3', 'w4'],
+      indholdsadverbial: ['w5'],
+    },
+    alternatives: [
+      {
+        forfelt: ['w5'],
+        finitVerbum: ['w2'],
+        subjekt: ['w1'],
+        objekt: ['w3', 'w4'],
+      },
+    ],
+    targets: ['finit-verb-second', 'object-order'],
+    cefr: 'B2',
+    exams: ['PD3'],
+    takeaway:
+      'Two objects, fixed order: the receiver ("sin chef") before the thing sent ("en mail") — the same order English uses here.',
+  },
+  {
+    id: 'ex-vil-give-raad',
+    clause: 'helsætning',
+    gloss: 'I would like to give you a good piece of advice.',
+    tokens: [
+      t('w1', 'jeg'),
+      t('w2', 'vil'),
+      t('w3', 'gerne'),
+      t('w4', 'give'),
+      t('w5', 'dig'),
+      t('w6', 'et godt råd', true),
+    ],
+    solution: {
+      forfelt: ['w1'],
+      finitVerbum: ['w2'],
+      centraladverbial: ['w3'],
+      infinitVerbum: ['w4'],
+      objekt: ['w5', 'w6'],
+    },
+    targets: ['verb-cluster-order', 'object-order'],
+    cefr: 'B2',
+    exams: ['PD3'],
+    takeaway:
+      'The object order holds even when the verb is split by a modal: "give dig et godt råd", receiver first.',
+  },
+  {
+    id: 'ex-laereren-eleverne',
+    clause: 'helsætning',
+    gloss: 'Yesterday the teacher gave the students a difficult assignment.',
+    tokens: [
+      t('w1', 'i går', true),
+      t('w2', 'gav'),
+      t('w3', 'læreren'),
+      t('w4', 'eleverne'),
+      t('w5', 'en svær opgave', true),
+    ],
+    solution: {
+      forfelt: ['w1'],
+      finitVerbum: ['w2'],
+      subjekt: ['w3'],
+      objekt: ['w4', 'w5'],
+    },
+    alternatives: [
+      {
+        forfelt: ['w3'],
+        finitVerbum: ['w2'],
+        objekt: ['w4', 'w5'],
+        indholdsadverbial: ['w1'],
+      },
+    ],
+    targets: ['v2-inversion', 'object-order'],
+    cefr: 'B2',
+    exams: ['PD3'],
+    takeaway:
+      'Two rules at once: fronting "i går" pushes the subject after the verb, and the two objects still need their own fixed order.',
+  },
+
+  // ─── Complex sentences: stacked content adverbials ──────────────────────
+  {
+    id: 'ex-cyklede-skole',
+    clause: 'helsætning',
+    gloss: 'She cycled quickly to school every day.',
+    tokens: [
+      t('w1', 'hun'),
+      t('w2', 'cyklede'),
+      t('w3', 'hurtigt'),
+      t('w4', 'til skole', true),
+      t('w5', 'hver dag', true),
+    ],
+    solution: {
+      forfelt: ['w1'],
+      finitVerbum: ['w2'],
+      indholdsadverbial: ['w3', 'w4', 'w5'],
+    },
+    targets: ['adverbial-order'],
+    cefr: 'B2',
+    exams: ['PD3'],
+    takeaway:
+      'Three adverbials in one slot, one fixed sequence: manner, then place, then time.',
+  },
+  {
+    id: 'ex-talte-telefonen',
+    clause: 'helsætning',
+    gloss: 'He spoke calmly on the phone last night.',
+    tokens: [
+      t('w1', 'han'),
+      t('w2', 'talte'),
+      t('w3', 'roligt'),
+      t('w4', 'i telefonen', true),
+      t('w5', 'i aftes', true),
+    ],
+    solution: {
+      forfelt: ['w1'],
+      finitVerbum: ['w2'],
+      indholdsadverbial: ['w3', 'w4', 'w5'],
+    },
+    targets: ['adverbial-order'],
+    cefr: 'B2',
+    exams: ['PD3'],
+    takeaway:
+      'Same sequence regardless of topic: how he spoke, where, then when.',
+  },
+
+  // ─── Complex sentences: relative clauses with "som" ─────────────────────
+  {
+    id: 'ex-som-ikke-loese',
+    clause: 'ledsætning',
+    gloss: '…that I cannot solve.',
+    tokens: [t('w1', 'som'), t('w2', 'jeg'), t('w3', 'ikke'), t('w4', 'kan'), t('w5', 'løse')],
+    solution: {
+      konjunktional: ['w1'],
+      subjekt: ['w2'],
+      centraladverbial: ['w3'],
+      finitVerbum: ['w4'],
+      infinitVerbum: ['w5'],
+    },
+    targets: ['relative-clause', 'ikke-regel', 'verb-cluster-order'],
+    cefr: 'B2',
+    exams: ['PD3'],
+    takeaway:
+      '"Som" opens a relative clause exactly like "fordi" opens a causal one — same schema, same rules, including where "ikke" goes.',
+  },
+  {
+    id: 'ex-som-laeste-igaar',
+    clause: 'ledsætning',
+    gloss: '…that I read yesterday.',
+    tokens: [t('w1', 'som'), t('w2', 'jeg'), t('w3', 'læste'), t('w4', 'i går', true)],
+    solution: {
+      konjunktional: ['w1'],
+      subjekt: ['w2'],
+      finitVerbum: ['w3'],
+      indholdsadverbial: ['w4'],
+    },
+    targets: ['relative-clause'],
+    cefr: 'B1',
+    exams: ['PD3'],
+    takeaway:
+      'A one-word relative pronoun still opens a full subordinate clause — "som" fills the konjunktional slot on its own.',
+  },
 ];
 
 export function exerciseById(id: string): Exercise | undefined {

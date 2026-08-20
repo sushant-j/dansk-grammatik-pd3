@@ -8,6 +8,10 @@
  *
  * Strength decays with time, so mastery has to be genuine rather than crammed —
  * but decay is framed as "needs a refresh", never as punishment or loss.
+ *
+ * The decay/leveling math itself lives in `mastery.ts`, shared with the
+ * vocabulary flashcard store — grammar and vocabulary are different domains
+ * but the same anti-streak idea, and they should behave identically.
  */
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -16,46 +20,19 @@ import { createJSONStorage, persist } from 'zustand/middleware';
 import { ALL_RULE_IDS, type RuleId } from '../grammar/rules';
 import { EXERCISES } from '../content/exercises';
 import type { Exercise } from '../grammar/types';
+import {
+  applyOutcome,
+  decayedStrength,
+  EMPTY_STAT,
+  levelOf,
+  progressFor,
+  type ItemStat,
+  type MasteryLevel,
+} from './mastery';
 
-export type MasteryLevel = 'unseen' | 'shaky' | 'developing' | 'solid' | 'mastered';
-
-export interface RuleStat {
-  attempts: number;
-  correct: number;
-  /** Rolling window of recent outcomes, newest last. */
-  recent: boolean[];
-  /** Epoch ms of last practice, or 0. */
-  lastSeen: number;
-  /** 0..1 mastery before time decay is applied. */
-  raw: number;
-}
-
-const EMPTY: RuleStat = {
-  attempts: 0,
-  correct: 0,
-  recent: [],
-  lastSeen: 0,
-  raw: 0,
-};
-
-/** Days after which an untouched rule has decayed to roughly half strength. */
-const HALF_LIFE_DAYS = 12;
-const RECENT_WINDOW = 6;
-
-export function decayedStrength(s: RuleStat, now = Date.now()): number {
-  if (!s.attempts || !s.lastSeen) return 0;
-  const days = (now - s.lastSeen) / 86_400_000;
-  const factor = Math.pow(0.5, days / HALF_LIFE_DAYS);
-  return s.raw * factor;
-}
-
-export function levelOf(strength: number, attempts: number): MasteryLevel {
-  if (!attempts) return 'unseen';
-  if (strength >= 0.9) return 'mastered';
-  if (strength >= 0.7) return 'solid';
-  if (strength >= 0.4) return 'developing';
-  return 'shaky';
-}
+export type { MasteryLevel };
+export type RuleStat = ItemStat;
+export { decayedStrength, levelOf };
 
 interface SessionResult {
   exerciseId: string;
@@ -77,7 +54,7 @@ interface ProfileState {
 }
 
 function emptyStats(): Record<RuleId, RuleStat> {
-  return Object.fromEntries(ALL_RULE_IDS.map((id) => [id, { ...EMPTY }])) as Record<
+  return Object.fromEntries(ALL_RULE_IDS.map((id) => [id, { ...EMPTY_STAT }])) as Record<
     RuleId,
     RuleStat
   >;
@@ -100,26 +77,9 @@ export const useProfile = create<ProfileState>()(
           // learner did not violate on a mixed exercise still counts as
           // evidence — they navigated it correctly.
           for (const ruleId of ex.targets) {
-            const prev = stats[ruleId] ?? { ...EMPTY };
+            const prev = stats[ruleId] ?? { ...EMPTY_STAT };
             const ok = correct || !violated.includes(ruleId);
-            const recent = [...prev.recent, ok].slice(-RECENT_WINDOW);
-
-            // Strength tracks the recent window, weighted toward newer
-            // evidence, and starts from the decayed value rather than the
-            // stale raw one so a long absence genuinely costs something.
-            const base = decayedStrength(prev, now);
-            const windowScore =
-              recent.reduce((acc, r, i) => acc + (r ? i + 1 : 0), 0) /
-              recent.reduce((acc, _, i) => acc + i + 1, 0);
-            const raw = prev.attempts === 0 ? (ok ? 0.45 : 0.1) : base * 0.35 + windowScore * 0.65;
-
-            stats[ruleId] = {
-              attempts: prev.attempts + 1,
-              correct: prev.correct + (ok ? 1 : 0),
-              recent,
-              lastSeen: now,
-              raw: Math.max(0, Math.min(1, raw)),
-            };
+            stats[ruleId] = applyOutcome(prev, ok, now);
           }
 
           return {
@@ -161,16 +121,8 @@ export function ruleProgress(
   now = Date.now(),
 ): RuleProgress[] {
   return ALL_RULE_IDS.map((ruleId) => {
-    const s = stats[ruleId] ?? EMPTY;
-    const strength = decayedStrength(s, now);
-    return {
-      ruleId,
-      strength,
-      level: levelOf(strength, s.attempts),
-      attempts: s.attempts,
-      lastSeen: s.lastSeen,
-      needsRefresh: s.raw >= 0.7 && strength < 0.7,
-    };
+    const p = progressFor(ruleId, stats[ruleId] ?? EMPTY_STAT, now);
+    return { ...p, ruleId: p.id };
   });
 }
 

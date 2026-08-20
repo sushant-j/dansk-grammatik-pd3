@@ -1,8 +1,11 @@
 import { Link, useRouter } from 'expo-router';
 import React, { useMemo } from 'react';
-import { Pressable, ScrollView, View } from 'react-native';
+import { Pressable, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { Screen } from '../src/ui/Screen';
 import { RULES, type RuleId } from '../src/grammar/rules';
+import { allYears, TOPICS } from '../src/content/topics';
+import { VOCABULARY } from '../src/content/vocabulary';
 import {
   ruleProgress,
   summarize,
@@ -34,8 +37,7 @@ export default function Home() {
   const focus = summary.openGaps[0] ?? summary.refreshing[0];
 
   return (
-    <ScrollView
-      style={{ flex: 1, backgroundColor: t.c.bg }}
+    <Screen
       contentContainerStyle={{
         padding: t.space(4),
         paddingBottom: insets.bottom + t.space(8),
@@ -92,6 +94,48 @@ export default function Home() {
         </Card>
       </Pressable>
 
+      {/* ── Oral exam topic archive ────────────────────────────────── */}
+      <Pressable onPress={() => router.push('/topics')}>
+        <Card>
+          <View style={s.rowBetween}>
+            <View style={{ flex: 1, paddingRight: t.space(3) }}>
+              <Label>Mundtlig kommunikation</Label>
+              <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
+                Emnearkiv, {Math.min(...allYears())}–{Math.max(...allYears())}
+              </Txt>
+              <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
+                {TOPICS.length} rigtige eksamensemner med modelsvar. Søg hvad der er blevet
+                spurgt om, og hvornår.
+              </Txt>
+            </View>
+            <Txt variant="title" color={t.c.textFaint}>
+              →
+            </Txt>
+          </View>
+        </Card>
+      </Pressable>
+
+      {/* ── Vocabulary flashcards ─────────────────────────────────── */}
+      <Pressable onPress={() => router.push('/vocab')}>
+        <Card>
+          <View style={s.rowBetween}>
+            <View style={{ flex: 1, paddingRight: t.space(3) }}>
+              <Label>Svære ord</Label>
+              <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
+                Ordforråd
+              </Txt>
+              <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
+                {VOCABULARY.length} argumenterende ord og vendinger, hver med et eksempel fra en
+                rigtig eksamensbesvarelse.
+              </Txt>
+            </View>
+            <Txt variant="title" color={t.c.textFaint}>
+              →
+            </Txt>
+          </View>
+        </Card>
+      </Pressable>
+
       <Divider />
 
       {/* ── The map ────────────────────────────────────────────────── */}
@@ -116,7 +160,7 @@ export default function Home() {
           AI-reviewed letters with rule-linked corrections.
         </Txt>
       </Card>
-    </ScrollView>
+    </Screen>
   );
 }
 

@@ -1,7 +1,8 @@
 import { useRouter } from 'expo-router';
 import React, { useCallback, useState } from 'react';
-import { ScrollView, TextInput, View } from 'react-native';
+import { TextInput, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { Screen } from '../src/ui/Screen';
 import { RULES } from '../src/grammar/rules';
 import { activeProvider } from '../src/feedback/claudeCoach';
 import type { WritingFeedback, WritingTask } from '../src/feedback/types';
@@ -64,8 +65,7 @@ export default function Write() {
   }, [provider, task, text]);
 
   return (
-    <ScrollView
-      style={{ flex: 1, backgroundColor: t.c.bg }}
+    <Screen
       contentContainerStyle={{
         padding: t.space(4),
         paddingBottom: insets.bottom + t.space(10),
@@ -195,6 +195,6 @@ export default function Write() {
           ))}
         </View>
       ) : null}
-    </ScrollView>
+    </Screen>
   );
 }

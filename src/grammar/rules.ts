@@ -19,7 +19,10 @@ export type RuleId =
   | 'finit-verb-second'
   | 'subject-required'
   | 'verb-cluster-order'
-  | 'central-vs-content-adverbial';
+  | 'central-vs-content-adverbial'
+  | 'object-order'
+  | 'relative-clause'
+  | 'adverbial-order';
 
 export type Exam = 'PD1' | 'PD2' | 'PD3' | 'FVU';
 
@@ -238,6 +241,84 @@ export const RULES: Record<RuleId, Rule> = {
       },
     ],
     fields: ['centraladverbial', 'indholdsadverbial'],
+    cefr: 'B2',
+    exams: ['PD3'],
+  },
+
+  'object-order': {
+    id: 'object-order',
+    da: 'Rækkefølgen af to objekter',
+    en: 'Indirect object before direct object',
+    statement:
+      'When a sentence has two objects, the indirect object (the receiver) comes before the direct object (the thing given).',
+    explanation:
+      'The objekt field can hold more than one constituent, and when it does, Danish has a fixed internal order: who receives it, then what is received. "Jeg gav ham bogen" — "ham" (indirect, the receiver) precedes "bogen" (direct, the thing handed over). This is the same order English uses in "I gave him the book", which makes it one of the easier complex-sentence rules to transfer — but it still trips learners who default to the direct object first because that is the constituent that feels more central to the action.',
+    whyHard:
+      'Some languages mark the indirect object with a preposition or case ending, which frees its position. Danish marks it by word order alone, so getting the order backwards is not stylistically odd — it is simply wrong.',
+    examples: [
+      {
+        wrong: 'Jeg gav bogen ham.',
+        right: 'Jeg gav ham bogen.',
+        note: 'The receiver "ham" comes first; the thing given, "bogen", comes second.',
+      },
+      {
+        right: 'Hun sendte sin chef en mail.',
+        note: '"sin chef" (indirect) before "en mail" (direct) — the same pattern with full nouns.',
+      },
+    ],
+    fields: ['objekt'],
+    cefr: 'B2',
+    exams: ['PD3'],
+  },
+
+  'relative-clause': {
+    id: 'relative-clause',
+    da: 'Relativsætning med "som"',
+    en: 'Object relative clauses with "som"',
+    statement:
+      '"Som" opens a relative clause and follows the ledsætning schema — subject and any adverb still come before the finite verb.',
+    explanation:
+      'A relative clause describing something ("the letter that I wrote") is a subordinate clause in Danish, introduced by "som", and it obeys every rule a ledsætning obeys — including the ikke-regel. "Som" itself fills the konjunktional slot, exactly like "fordi" or "hvis"; what follows it is ordinary subordinate-clause word order. Chaining a relative clause onto a main clause is one of the most reliable ways to raise a PD3 answer from a string of short sentences into one that reads as genuinely complex.',
+    whyHard:
+      'Learners often keep main-clause order inside the relative clause because "som" does not feel like "fordi" — it reads more like a connector than a conjunction. But the schema does not care what the word means, only what position it opens.',
+    examples: [
+      {
+        wrong: 'Bogen, som jeg læste den i går, var god.',
+        right: 'Bogen, som jeg læste i går, var god.',
+        note: '"som" already stands for the object being read — a second pronoun ("den") is not needed.',
+      },
+      {
+        right: 'Det er et problem, som jeg ikke kan løse.',
+        note: 'Ordinary ledsætning order after "som": subject, then "ikke", then the finite verb.',
+      },
+    ],
+    fields: ['konjunktional', 'subjekt', 'centraladverbial', 'finitVerbum'],
+    cefr: 'B2',
+    exams: ['PD3'],
+  },
+
+  'adverbial-order': {
+    id: 'adverbial-order',
+    da: 'Rækkefølge af flere indholdsadverbialer',
+    en: 'Order among several content adverbials',
+    statement:
+      'When a sentence stacks more than one content adverbial, they go in a fixed sequence: manner, then place, then time.',
+    explanation:
+      'The A slot can hold several adverbials at once, and like the double object, it has its own internal order. Danish sequences them by type — how, then where, then when — regardless of how long each phrase is. "Hun cyklede hurtigt til skole hver dag": manner ("hurtigt"), place ("til skole"), time ("hver dag"). Getting every adverbial into the A slot is only half the task; a native reader also notices when they arrive in the wrong sequence.',
+    whyHard:
+      'This order is arbitrary from an English speaker\'s point of view — English tolerates far more freedom here — so there is no logic to reason through, only a sequence to memorise.',
+    examples: [
+      {
+        wrong: 'Hun cyklede hver dag hurtigt til skole.',
+        right: 'Hun cyklede hurtigt til skole hver dag.',
+        note: 'Manner ("hurtigt") comes first among the three, time ("hver dag") last.',
+      },
+      {
+        right: 'Han talte roligt i telefonen i aftes.',
+        note: 'Manner, then place, then time — the same sequence regardless of topic.',
+      },
+    ],
+    fields: ['indholdsadverbial'],
     cefr: 'B2',
     exams: ['PD3'],
   },

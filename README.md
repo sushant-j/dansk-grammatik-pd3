@@ -27,39 +27,81 @@ Three commitments follow from that:
 
 - **Sætningsskema trainer** — tap-to-place word ordering across both clause
   topologies, with a live preview reading your arrangement back as a sentence.
+  Includes complex sentences: double objects with fixed receiver-then-thing
+  order, three-way stacked adverbials (manner/place/time), and "som" relative
+  clauses that obey the same subordinate-clause rules as "fordi" and "hvis".
 - **Diagnostic engine** — classifies a wrong answer into the specific rule it
   violates (V2, the ikke-regel, Forfelt overload, verb-cluster splitting,
-  adverbial type confusion, missing subject) and explains it in the learner's
-  own words. Accepts genuinely valid alternative word orders.
+  adverbial type confusion, missing subject, object order, adverbial order,
+  relative clauses) and explains it in the learner's own words. Attributes
+  errors by which fields are actually involved, not by the exercise's headline
+  rule — a misplaced adverbial is never reported as an inversion error just
+  because inversion is what the sentence was built to drill. Accepts
+  genuinely valid alternative word orders.
 - **Rule cards** — statement, mechanism, why-it's-hard, and contrasting
-  wrong/right pairs, with a schema diagram. The `ikke-regel` card shows both
-  topologies side by side so the mirror-image rule is visible at a glance.
+  wrong/right pairs, with a schema diagram that renders against whichever
+  clause topology the rule actually constrains. The `ikke-regel` card shows
+  both topologies side by side so the mirror-image rule is visible at a
+  glance.
 - **Grammar map** — per-rule mastery with time decay and "needs a refresh"
   states, driving what the trainer serves next.
 - **Writing studio** — PD3-style letter and essay prompts with an offline,
   deterministic checker for word order and the `at`/`og` trap.
+- **Emnearkiv (oral-exam topic archive)** — 57 real PD3 *mundtlig
+  kommunikation* topics transcribed from actual exam sessions, 2011–2020, each
+  with its obligatory questions, follow-ups, and full model answers, plus the
+  two most recent official sessions (2023) transcribed from the exam prompt
+  sheets. Full-text search across titles, questions, and answers, filterable
+  by year — "what has this exam actually asked, and when." A separate
+  practice-topic set, clearly labelled as not-a-real-exam-question, covers
+  registers the archive doesn't reach yet (politics, inequality, parental
+  leave), written to the exam's own question pattern (Årsag, Konsekvens,
+  Fordele/Ulemper, Holdning).
+- **Ordforråd (vocabulary flashcards)** — 35 hard words and discourse
+  connectors pulled from the real corpus above, each carrying the actual
+  sentence it came from rather than a bare translation. Flip-and-self-grade,
+  with the same decaying-mastery model as the grammar map (`profile/mastery.ts`
+  is shared between the two) — a word "known" once and never revisited fades
+  back to "needs review" instead of a false permanent green checkmark.
+- **Responsive web build** — content is capped at a comfortable reading width
+  and centered, so the same screens that were designed at phone width don't
+  stretch edge-to-edge on a desktop browser. `npm run build:web` produces a
+  fully static export deployable to any static host.
 
 ## Architecture
 
 ```
 app/                       expo-router screens
-  index.tsx                grammar map (home)
+  index.tsx                home: grammar map + module links
   train.tsx                the schema trainer
   write.tsx                writing studio
+  vocab.tsx                vocabulary flashcards
   rule/[id].tsx            rule card
+  topics/index.tsx         oral-exam archive search
+  topics/[id].tsx          one archive topic, full Q&A
+  topics/practice.tsx      practice-topic index (clearly marked non-exam)
+  topics/practice/[id].tsx one practice topic
 src/
   grammar/
     fields.ts              the two field topologies
     rules.ts               rule catalogue — the unit of both feedback and mastery
     analyze.ts             diagnostic engine
     types.ts
-  content/exercises.ts     PD3 sentence bank
-  profile/store.ts         learner model (zustand + AsyncStorage)
+  content/
+    exercises.ts           PD3 sentence bank (schema trainer)
+    topics.ts              oral-exam archive: TOPICS, OFFICIAL_SESSIONS, PRACTICE_TOPICS
+    vocabulary.ts           hard-word bank, each entry traced to a real sentence
+  profile/
+    mastery.ts              shared decay/leveling math (grammar + vocabulary)
+    store.ts                grammar learner model (zustand + AsyncStorage)
+    vocabStore.ts            vocabulary learner model, same mastery math
   feedback/
     types.ts               provider contract
     offlineRules.ts        deterministic checker
-    claudeCoach.ts         AI coach — interface complete, transport stubbed
-  ui/                      theme, primitives, SchemaBoard
+    claudeCoach.ts          AI coach — interface complete, transport stubbed
+  ui/
+    Screen.tsx              max-width wrapper — the phone→web responsive seam
+    theme.ts, primitives.tsx, SchemaBoard.tsx
 ```
 
 Key design decisions and their rationale live in the header comment of each
@@ -97,6 +139,17 @@ npm test && npm run typecheck
 > dependency — it is not hoisted from `expo` and Metro fails to construct its
 > transformer without it.
 
+### Web build
+
+```bash
+npm run build:web
+```
+
+Produces a fully static `dist/` — no server-side rendering, no API routes —
+deployable as-is to Netlify, Vercel, GitHub Pages, S3, or any static host.
+`npm run serve:web` serves that build locally to sanity-check it before
+deploying.
+
 ## Wiring up the AI writing coach
 
 `src/feedback/claudeCoach.ts` is complete except for the transport. It talks to
@@ -120,12 +173,25 @@ which provider reviewed the text.
 - **Android** — builds and runs; SDK is installed on the dev machine.
 - **iOS** — one codebase away, but needs Xcode (not just Command Line Tools) or
   an EAS cloud build.
-- **Web** — runs, and is the fastest way to iterate.
+- **Web** — runs in dev, and `npm run build:web` produces a verified static
+  export (zero console errors on a cold static-file-server load).
+
+## Content provenance
+
+The oral-exam archive and vocabulary bank are transcribed from a learner's own
+study materials: exam-session PDFs (official *Mundtlig kommunikation* prompt
+sheets, Undervisningsministeriet / Niels Roland illustrations) and a
+hand-compiled 2011–2024 Q&A document. `TOPICS` in `src/content/topics.ts`
+carries only sessions with a real transcribed Q&A; `OFFICIAL_SESSIONS` carries
+the two most recent sessions title-only, because those source sheets are
+picture prompts with no printed answer key; `PRACTICE_TOPICS` is clearly
+separated because it was written to match the exam's question pattern rather
+than transcribed from one, and every screen that shows it says so.
 
 ## Roadmap
 
-The schema engine generalises; the next modules reuse the rule catalogue and the
-mastery map wholesale.
+The schema engine and the mastery model both generalise; the next modules
+reuse them wholesale rather than rebuilding parallel systems.
 
 - En/et gender and the definite suffix, including double definiteness
   (*den røde bil*, not *den røde bilen*)
@@ -135,3 +201,5 @@ mastery map wholesale.
 - Live AI review of full letters, with corrections linked to rule cards
 - PD2 and FVU level tagging (the content schema already carries `exams` and
   `cefr` on every item)
+- Extend the archive search to the FVU/PD2 written-exam materials once
+  transcribed, using the same `Topic`/search pattern

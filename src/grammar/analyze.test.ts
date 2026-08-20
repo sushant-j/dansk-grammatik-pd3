@@ -264,6 +264,69 @@ describe('partial credit and unfinished boards', () => {
   });
 });
 
+describe('double objects', () => {
+  const ex = exerciseById('ex-sendte-chef-mail')!;
+
+  it('flags the objects swapped', () => {
+    const attempt: Placement = {
+      forfelt: ['w1'],
+      finitVerbum: ['w2'],
+      objekt: ['w4', 'w3'], // "en mail" before "sin chef" — backwards
+      indholdsadverbial: ['w5'],
+    };
+    const res = evaluate(ex, attempt);
+    expect(res.correct).toBe(false);
+    expect(res.diagnoses.map((d) => d.ruleId)).toContain('object-order');
+  });
+
+  it('accepts the correct receiver-then-thing order', () => {
+    expect(evaluate(ex, ex.solution).correct).toBe(true);
+  });
+});
+
+describe('stacked content adverbials', () => {
+  const ex = exerciseById('ex-cyklede-skole')!;
+
+  it('flags every word in the right field but the wrong internal order', () => {
+    // time, manner, place instead of manner, place, time
+    const attempt: Placement = {
+      forfelt: ['w1'],
+      finitVerbum: ['w2'],
+      indholdsadverbial: ['w5', 'w3', 'w4'],
+    };
+    const res = evaluate(ex, attempt);
+    expect(res.correct).toBe(false);
+    expect(res.diagnoses.map((d) => d.ruleId)).toContain('adverbial-order');
+    // and it must not be silently empty, which was the gap this rule closed
+    expect(res.diagnoses.length).toBeGreaterThan(0);
+  });
+
+  it('accepts manner-place-time order', () => {
+    expect(evaluate(ex, ex.solution).correct).toBe(true);
+  });
+});
+
+describe('relative clauses with som', () => {
+  const ex = exerciseById('ex-som-ikke-loese')!;
+
+  it('treats "som" as an ordinary subordinator and still enforces the ikke-regel', () => {
+    // "ikke" wrongly dumped in the non-finite slot instead of before the verb
+    const wrong: Placement = {
+      konjunktional: ['w1'],
+      subjekt: ['w2'],
+      finitVerbum: ['w4'],
+      infinitVerbum: ['w3'],
+    };
+    const res = evaluate(ex, wrong);
+    expect(res.correct).toBe(false);
+    expect(res.diagnoses.length).toBeGreaterThan(0);
+  });
+
+  it('accepts the correct subordinate order', () => {
+    expect(evaluate(ex, ex.solution).correct).toBe(true);
+  });
+});
+
 describe('trayTokens', () => {
   it('returns the unplaced tokens in presentation order', () => {
     const ex = exerciseById('ex-igaar')!;

@@ -243,6 +243,21 @@ function diagnose(ex: Exercise, p: Placement, solution: Placement): Diagnosis[] 
     }
   }
 
+  // ---- Two objects: indirect before direct -------------------------------
+  const objExpected = solution.objekt ?? [];
+  const objActual = p.objekt ?? [];
+  if (objExpected.length === 2 && objActual.length === 2) {
+    if (objActual[0] !== objExpected[0]) {
+      push({
+        ruleId: 'object-order',
+        severity: 'error',
+        message: `Two objects, wrong order — the receiver "${tokenText(ex, objExpected[0])}" (indirect object) belongs before "${tokenText(ex, objExpected[1])}" (direct object), not after it.`,
+        fields: ['objekt'],
+        tokenIds: objExpected,
+      });
+    }
+  }
+
   // ---- Adverbial type confusion (main clause) ---------------------------
   for (const id of solution.indholdsadverbial ?? []) {
     const actual = fieldOf(p, id);
@@ -281,6 +296,43 @@ function diagnose(ex: Exercise, p: Placement, solution: Placement): Diagnosis[] 
         tokenIds: missing,
       });
     }
+  }
+
+  // ---- Same words, wrong internal order ----------------------------------
+  // A multi-item field (double object, stacked adverbials, a relative clause's
+  // own multi-word phrases) can have every token in the *right field* while
+  // still being wrong, because Danish also fixes the order *within* that
+  // field. Field-membership checks above are blind to this — every id is
+  // "correctly" placed — so without this pass a sentence like "hun cyklede
+  // hver dag hurtigt til skole" would silently produce zero diagnoses.
+  const sameSetWrongOrder = (field: FieldId): boolean => {
+    const exp = solution[field] ?? [];
+    const act = p[field] ?? [];
+    if (exp.length < 2 || act.length !== exp.length) return false;
+    const sameSet = [...exp].sort().join(',') === [...act].sort().join(',');
+    const sameOrder = exp.every((id, i) => id === act[i]);
+    return sameSet && !sameOrder;
+  };
+
+  if (sameSetWrongOrder('indholdsadverbial')) {
+    const exp = solution.indholdsadverbial!;
+    push({
+      ruleId: 'adverbial-order',
+      severity: 'error',
+      message: `All the right words are in the content-adverbial slot, but in the wrong sequence. Danish orders them manner, then place, then time: "${join(ex, exp)}".`,
+      fields: ['indholdsadverbial'],
+      tokenIds: exp,
+    });
+  }
+  if (sameSetWrongOrder('objekt') && !out.some((d) => d.ruleId === 'object-order')) {
+    const exp = solution.objekt!;
+    push({
+      ruleId: 'object-order',
+      severity: 'error',
+      message: `Both objects are in the right slot but swapped — the receiver comes first: "${join(ex, exp)}".`,
+      fields: ['objekt'],
+      tokenIds: exp,
+    });
   }
 
   // ---- Generic fallback -------------------------------------------------

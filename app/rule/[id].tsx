@@ -1,7 +1,8 @@
 import { Stack, useLocalSearchParams, useRouter } from 'expo-router';
 import React from 'react';
-import { ScrollView, View } from 'react-native';
+import { View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { Screen } from '../../src/ui/Screen';
 import { fieldsFor } from '../../src/grammar/fields';
 import { RULES, type RuleId } from '../../src/grammar/rules';
 import { ruleProgress, useProfile } from '../../src/profile/store';
@@ -38,12 +39,18 @@ export default function RuleCard() {
   const helFields = fieldsFor('helsætning');
   const ledFields = fieldsFor('ledsætning');
   const showsBothSchemas = r.id === 'ikke-regel';
+  // 'konjunktional' exists only in the subordinate schema. A rule that
+  // constrains it (e.g. 'relative-clause') must be diagrammed against
+  // ledsætning, not the helsætning default — showing it against helsætning
+  // would highlight nothing there and silently mislead the learner about
+  // which schema the rule even applies to. Every other rule's fields exist in
+  // both schemas or are helsætning-only, so helsætning stays the right default.
+  const singleSchemaFields = r.fields.includes('konjunktional') ? ledFields : helFields;
 
   return (
     <>
       <Stack.Screen options={{ title: r.en }} />
-      <ScrollView
-        style={{ flex: 1, backgroundColor: t.c.bg }}
+      <Screen
         contentContainerStyle={{
           padding: t.space(4),
           paddingBottom: insets.bottom + t.space(8),
@@ -110,9 +117,9 @@ export default function RuleCard() {
           ) : (
             <View style={{ marginTop: t.space(3) }}>
               <SchemaStrip
-                title="Helsætning"
-                fields={helFields.map((f) => f.abbr)}
-                ids={helFields.map((f) => f.id)}
+                title={singleSchemaFields === ledFields ? 'Ledsætning' : 'Helsætning'}
+                fields={singleSchemaFields.map((f) => f.abbr)}
+                ids={singleSchemaFields.map((f) => f.id)}
                 emphasise={r.fields}
               />
             </View>
@@ -168,7 +175,7 @@ export default function RuleCard() {
         ))}
 
         <Button label="Practise this" onPress={() => router.push('/train')} />
-      </ScrollView>
+      </Screen>
     </>
   );
 }

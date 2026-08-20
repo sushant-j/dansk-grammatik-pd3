@@ -1,8 +1,9 @@
 import { useRouter } from 'expo-router';
 import React, { useCallback, useMemo, useState } from 'react';
-import { ScrollView, View } from 'react-native';
+import { View } from 'react-native';
 
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { Screen } from '../src/ui/Screen';
 import { evaluate, renderSentence, trayTokens } from '../src/grammar/analyze';
 import { fieldsFor, type FieldId } from '../src/grammar/fields';
 import { RULES } from '../src/grammar/rules';
@@ -90,8 +91,7 @@ export default function Train() {
   const errorTokens = result?.diagnoses.flatMap((d) => d.tokenIds) ?? [];
 
   return (
-    <ScrollView
-      style={{ flex: 1, backgroundColor: t.c.bg }}
+    <Screen
       contentContainerStyle={{
         padding: t.space(4),
         paddingBottom: insets.bottom + t.space(10),
@@ -269,6 +269,6 @@ export default function Train() {
           ))}
         </View>
       </Card>
-    </ScrollView>
+    </Screen>
   );
 }
