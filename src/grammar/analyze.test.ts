@@ -1,0 +1,277 @@
+import { describe, expect, it } from 'vitest';
+import { EXERCISES, exerciseById } from '../content/exercises';
+import { evaluate, renderSentence, trayTokens } from './analyze';
+import { fieldsFor } from './fields';
+import type { Placement } from './types';
+
+/**
+ * These tests protect the thing the whole app rests on: that a wrong answer
+ * gets named as the right rule. A trainer that mislabels an error is worse
+ * than one that says nothing.
+ */
+
+describe('content integrity', () => {
+  it('every exercise places all its tokens exactly once in the solution', () => {
+    for (const ex of EXERCISES) {
+      const placed = Object.values(ex.solution).flat();
+      expect(placed.sort(), `solution for ${ex.id}`).toEqual(
+        ex.tokens.map((t) => t.id).sort(),
+      );
+    }
+  });
+
+  it('every alternative also places all tokens exactly once', () => {
+    for (const ex of EXERCISES) {
+      for (const [i, alt] of (ex.alternatives ?? []).entries()) {
+        const placed = Object.values(alt).flat();
+        expect(placed.sort(), `${ex.id} alternative ${i}`).toEqual(
+          ex.tokens.map((t) => t.id).sort(),
+        );
+      }
+    }
+  });
+
+  it('only uses fields that exist in the clause schema', () => {
+    for (const ex of EXERCISES) {
+      const legal = new Set(fieldsFor(ex.clause).map((f) => f.id));
+      for (const cand of [ex.solution, ...(ex.alternatives ?? [])]) {
+        for (const key of Object.keys(cand)) {
+          expect(legal.has(key as never), `${ex.id} uses ${key}`).toBe(true);
+        }
+      }
+    }
+  });
+
+  it('respects the declared capacity of each field', () => {
+    for (const ex of EXERCISES) {
+      const defs = fieldsFor(ex.clause);
+      for (const cand of [ex.solution, ...(ex.alternatives ?? [])]) {
+        for (const [key, ids] of Object.entries(cand)) {
+          const d = defs.find((f) => f.id === key)!;
+          expect(ids!.length, `${ex.id} ${key}`).toBeLessThanOrEqual(d.capacity);
+        }
+      }
+    }
+  });
+
+  it('the canonical solution always evaluates as correct', () => {
+    for (const ex of EXERCISES) {
+      const res = evaluate(ex, ex.solution);
+      expect(res.correct, `${ex.id}`).toBe(true);
+      expect(res.viaAlternative).toBe(false);
+      expect(res.diagnoses).toHaveLength(0);
+    }
+  });
+
+  it('every declared alternative is accepted, and flagged as an alternative', () => {
+    for (const ex of EXERCISES) {
+      for (const [i, alt] of (ex.alternatives ?? []).entries()) {
+        const res = evaluate(ex, alt);
+        expect(res.correct, `${ex.id} alt ${i}`).toBe(true);
+        expect(res.viaAlternative, `${ex.id} alt ${i}`).toBe(true);
+      }
+    }
+  });
+});
+
+describe('renderSentence', () => {
+  it('reads the schema left to right and capitalises a main clause', () => {
+    const ex = exerciseById('ex-igaar')!;
+    expect(renderSentence(ex, ex.solution)).toBe('I går gik jeg ikke på arbejde.');
+  });
+
+  it('leaves a subordinate clause uncapitalised and unpunctuated', () => {
+    const ex = exerciseById('ex-fordi-ikke')!;
+    expect(renderSentence(ex, ex.solution)).toBe('fordi jeg ikke kan komme i morgen');
+  });
+
+  it('renders the learner arrangement, not the answer', () => {
+    const ex = exerciseById('ex-igaar')!;
+    const wrong: Placement = {
+      forfelt: ['w3'],
+      finitVerbum: ['w2'],
+      centraladverbial: ['w4'],
+      indholdsadverbial: ['w1', 'w5'],
+    };
+    expect(renderSentence(ex, wrong)).toBe('Jeg gik ikke i går på arbejde.');
+  });
+});
+
+describe('the ikke-regel', () => {
+  const ex = exerciseById('ex-fordi-ikke')!;
+
+  it('flags a central adverb placed after the finite verb', () => {
+    // The main-clause pattern misapplied: "fordi jeg kan komme ikke i morgen"
+    const attempt: Placement = {
+      konjunktional: ['w1'],
+      subjekt: ['w2'],
+      finitVerbum: ['w4'],
+      infinitVerbum: ['w5'],
+      indholdsadverbial: ['w3', 'w6'],
+    };
+    const res = evaluate(ex, attempt);
+    expect(res.correct).toBe(false);
+    expect(res.diagnoses.map((d) => d.ruleId)).toContain('ikke-regel');
+    const d = res.diagnoses.find((x) => x.ruleId === 'ikke-regel')!;
+    expect(d.message).toContain('BEFORE');
+    expect(d.tokenIds).toContain('w3');
+  });
+
+  it('accepts the correct pre-verbal placement without complaint', () => {
+    expect(evaluate(ex, ex.solution).diagnoses).toHaveLength(0);
+  });
+});
+
+describe('inversion in a main clause', () => {
+  const ex = exerciseById('ex-derfor')!;
+
+  it('flags the subject taking the Forfelt when something else is fronted', () => {
+    // "Jeg kan ikke deltage derfor i mødet" — subject wrongly fronted.
+    const attempt: Placement = {
+      forfelt: ['w3'],
+      finitVerbum: ['w2'],
+      centraladverbial: ['w4'],
+      infinitVerbum: ['w5'],
+      indholdsadverbial: ['w1', 'w6'],
+    };
+    const res = evaluate(ex, attempt);
+    expect(res.correct).toBe(false);
+    expect(res.diagnoses.map((d) => d.ruleId)).toContain('v2-inversion');
+  });
+});
+
+describe('the Forfelt holds one constituent', () => {
+  const ex = exerciseById('ex-igaar')!;
+
+  it('flags two constituents crammed in front of the verb', () => {
+    // The signature error: "I går jeg gik ikke på arbejde."
+    const attempt: Placement = {
+      forfelt: ['w1', 'w3'],
+      finitVerbum: ['w2'],
+      centraladverbial: ['w4'],
+      indholdsadverbial: ['w5'],
+    };
+    const res = evaluate(ex, attempt);
+    expect(res.correct).toBe(false);
+    expect(res.diagnoses.map((d) => d.ruleId)).toContain('forfelt-single');
+    expect(res.diagnoses[0].severity).toBe('error');
+  });
+
+  it('is expressible on the board — the Forfelt accepts a second word', () => {
+    const forfelt = fieldsFor('helsætning').find((f) => f.id === 'forfelt')!;
+    expect(forfelt.capacity).toBeGreaterThan(1);
+  });
+});
+
+describe('adverbial type confusion', () => {
+  const ex = exerciseById('ex-kantinen')!;
+
+  it('flags a content adverbial put in the central slot', () => {
+    const attempt: Placement = {
+      forfelt: ['w1'],
+      finitVerbum: ['w2'],
+      centraladverbial: ['w4'],
+      indholdsadverbial: ['w3'],
+    };
+    const res = evaluate(ex, attempt);
+    expect(res.correct).toBe(false);
+    expect(res.diagnoses.map((d) => d.ruleId)).toContain('central-vs-content-adverbial');
+  });
+});
+
+describe('the verb cluster', () => {
+  const ex = exerciseById('ex-har-spist')!;
+
+  it('flags a participle left outside the non-finite slot', () => {
+    // "Jeg har ikke morgenmad spist i dag" — participle dumped in the object slot.
+    const attempt: Placement = {
+      forfelt: ['w1'],
+      finitVerbum: ['w2'],
+      centraladverbial: ['w3'],
+      objekt: ['w5', 'w4'],
+      indholdsadverbial: ['w6'],
+    };
+    const res = evaluate(ex, attempt);
+    expect(res.correct).toBe(false);
+    expect(res.diagnoses.map((d) => d.ruleId)).toContain('verb-cluster-order');
+  });
+});
+
+describe('partial credit and unfinished boards', () => {
+  const ex = exerciseById('ex-igaar')!;
+
+  it('reports accuracy as the fraction of tokens in the right field', () => {
+    const attempt: Placement = {
+      forfelt: ['w1'],
+      finitVerbum: ['w2'],
+      subjekt: ['w3'],
+      centraladverbial: ['w5'],
+      indholdsadverbial: ['w4'],
+    };
+    const res = evaluate(ex, attempt);
+    expect(res.accuracy).toBeCloseTo(3 / 5, 5);
+  });
+
+  it('names the words still in the tray', () => {
+    const res = evaluate(ex, { forfelt: ['w1'], finitVerbum: ['w2'] });
+    const d = res.diagnoses.find((x) => x.message.includes('Still to place'))!;
+    expect(d).toBeDefined();
+    expect(d.tokenIds.sort()).toEqual(['w3', 'w4', 'w5']);
+  });
+
+  it('grades against the closest accepted answer, not always the canonical one', () => {
+    // Subject-first is a declared alternative for this exercise. An attempt
+    // that is subject-first but otherwise flawed must not be told to invert.
+    const ex2 = exerciseById('ex-om-sommeren')!;
+    const attempt: Placement = {
+      forfelt: ['w3'],
+      finitVerbum: ['w2'],
+      centraladverbial: ['w1'],
+      indholdsadverbial: ['w5', 'w4'],
+    };
+    const res = evaluate(ex2, attempt);
+    expect(res.correct).toBe(false);
+    expect(res.diagnoses.map((d) => d.ruleId)).not.toContain('v2-inversion');
+  });
+
+  it('does not blame inversion for a plain misplaced adverbial', () => {
+    // ex-om-sommeren is *built* to drill inversion, but this attempt gets the
+    // inversion right and only misfiles "til Skagen". Attributing the error to
+    // the exercise's headline rule would teach the wrong lesson.
+    const ex2 = exerciseById('ex-om-sommeren')!;
+    const attempt: Placement = {
+      forfelt: ['w1'],
+      finitVerbum: ['w2'],
+      subjekt: ['w3'],
+      centraladverbial: ['w4'],
+      objekt: ['w5'], // "til Skagen" misfiled as an object
+    };
+    const res = evaluate(ex2, attempt);
+    expect(res.correct).toBe(false);
+    expect(res.diagnoses.map((d) => d.ruleId)).not.toContain('v2-inversion');
+    // and the message should say where it actually belongs
+    expect(res.diagnoses[0].message).toContain('Indholdsadverbial');
+  });
+
+  it('never returns an empty diagnosis list for a wrong answer', () => {
+    for (const ex2 of EXERCISES) {
+      const shuffled: Placement = { forfelt: ex2.tokens.map((t) => t.id).slice(0, 2) };
+      const res = evaluate(ex2, shuffled);
+      if (!res.correct) {
+        expect(res.diagnoses.length, `${ex2.id}`).toBeGreaterThan(0);
+      }
+    }
+  });
+});
+
+describe('trayTokens', () => {
+  it('returns the unplaced tokens in presentation order', () => {
+    const ex = exerciseById('ex-igaar')!;
+    expect(trayTokens(ex, { forfelt: ['w1'] }).map((t) => t.id)).toEqual([
+      'w2',
+      'w3',
+      'w4',
+      'w5',
+    ]);
+  });
+});
