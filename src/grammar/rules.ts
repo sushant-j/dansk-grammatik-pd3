@@ -58,16 +58,16 @@ export const RULES: Record<RuleId, Rule> = {
     da: 'Inversion (omvendt ordstilling)',
     en: 'Inversion after a fronted element',
     statement:
-      'If anything other than the subject occupies the Forfelt, the subject moves to the right of the finite verb.',
+      'If anything other than the subject occupies the Forfelt — the one slot before the verb — the subject moves to the right of the finite verb instead.',
     explanation:
-      'Danish permits almost any constituent in the Forfelt — a time expression, a place, an object, even a whole subordinate clause. But the finite verb refuses to move: it stays in slot 2. So when you front something that is not the subject, the subject is pushed out of first position and lands directly after the verb. The schema makes this mechanical rather than mysterious: the Forfelt holds exactly one thing, the verb sits in the next slot, and whatever is left over falls into place.',
+      'Danish permits almost any constituent in the Forfelt (front slot) — a time expression, a place, an object, even a whole subordinate clause. But the finite verb refuses to move: it stays in slot 2. So when you front something that is not the subject, the subject is pushed out of first position and lands directly after the verb. The schema makes this mechanical rather than mysterious: the Forfelt holds exactly one thing, the verb sits in the next slot, and whatever is left over falls into place.',
     whyHard:
       'English fronts freely without touching the subject–verb order ("Yesterday I went home"), so the inversion feels gratuitous and is easy to forget under time pressure in the written exam.',
     examples: [
       {
         wrong: 'I går jeg gik i skole.',
         right: 'I går gik jeg i skole.',
-        note: '"I går" takes the Forfelt, so "gik" must come before "jeg".',
+        note: '"I går" takes the front slot, so "gik" must come before "jeg".',
       },
       {
         wrong: 'Derfor jeg kan ikke komme.',
@@ -76,7 +76,7 @@ export const RULES: Record<RuleId, Rule> = {
       },
       {
         right: 'Jeg gik i skole i går.',
-        note: 'No inversion here — the subject itself is in the Forfelt, so nothing is displaced.',
+        note: 'No inversion here — the subject itself is in the front slot, so nothing is displaced.',
       },
     ],
     fields: ['forfelt', 'finitVerbum', 'subjekt'],
@@ -119,7 +119,7 @@ export const RULES: Record<RuleId, Rule> = {
     id: 'forfelt-single',
     da: 'Kun ét led i forfeltet',
     en: 'One constituent only in the front slot',
-    statement: 'The Forfelt holds exactly one constituent — never two.',
+    statement: 'The Forfelt — the one slot before the verb — holds exactly one constituent, never two.',
     explanation:
       'A constituent can be long ("den mand jeg mødte i går") but it still counts as one unit. Placing two separate elements before the finite verb — a time phrase and the subject, say — breaks the V2 rule, because the verb is then no longer second.',
     whyHard:
@@ -252,7 +252,7 @@ export const RULES: Record<RuleId, Rule> = {
     statement:
       'When a sentence has two objects, the indirect object (the receiver) comes before the direct object (the thing given).',
     explanation:
-      'The objekt field can hold more than one constituent, and when it does, Danish has a fixed internal order: who receives it, then what is received. "Jeg gav ham bogen" — "ham" (indirect, the receiver) precedes "bogen" (direct, the thing handed over). This is the same order English uses in "I gave him the book", which makes it one of the easier complex-sentence rules to transfer — but it still trips learners who default to the direct object first because that is the constituent that feels more central to the action.',
+      'The object slot can hold more than one constituent, and when it does, Danish has a fixed internal order: who receives it, then what is received. "Jeg gav ham bogen" — "ham" (indirect, the receiver) precedes "bogen" (direct, the thing handed over). This is the same order English uses in "I gave him the book", which makes it one of the easier complex-sentence rules to transfer — but it still trips learners who default to the direct object first because that is the constituent that feels more central to the action.',
     whyHard:
       'Some languages mark the indirect object with a preposition or case ending, which frees its position. Danish marks it by word order alone, so getting the order backwards is not stylistically odd — it is simply wrong.',
     examples: [
@@ -276,9 +276,9 @@ export const RULES: Record<RuleId, Rule> = {
     da: 'Relativsætning med "som"',
     en: 'Object relative clauses with "som"',
     statement:
-      '"Som" opens a relative clause and follows the ledsætning schema — subject and any adverb still come before the finite verb.',
+      '"Som" opens a relative clause — which in Danish is a subordinate clause (a "ledsætning"), so subject and any adverb still come before the finite verb, exactly as after "fordi" or "hvis".',
     explanation:
-      'A relative clause describing something ("the letter that I wrote") is a subordinate clause in Danish, introduced by "som", and it obeys every rule a ledsætning obeys — including the ikke-regel. "Som" itself fills the konjunktional slot, exactly like "fordi" or "hvis"; what follows it is ordinary subordinate-clause word order. Chaining a relative clause onto a main clause is one of the most reliable ways to raise a PD3 answer from a string of short sentences into one that reads as genuinely complex.',
+      'A relative clause describing something ("the letter that I wrote") is a subordinate clause in Danish — a ledsætning — introduced by "som", and it obeys every rule a subordinate clause obeys, including the ikke-regel. "Som" itself occupies the same opening position as "fordi" or "hvis"; what follows it is ordinary subordinate-clause word order. Chaining a relative clause onto a main clause is one of the most reliable ways to raise a PD3 answer from a string of short sentences into one that reads as genuinely complex.',
     whyHard:
       'Learners often keep main-clause order inside the relative clause because "som" does not feel like "fordi" — it reads more like a connector than a conjunction. But the schema does not care what the word means, only what position it opens.',
     examples: [
@@ -289,7 +289,7 @@ export const RULES: Record<RuleId, Rule> = {
       },
       {
         right: 'Det er et problem, som jeg ikke kan løse.',
-        note: 'Ordinary ledsætning order after "som": subject, then "ikke", then the finite verb.',
+        note: 'Ordinary subordinate-clause order after "som": subject, then "ikke", then the finite verb.',
       },
     ],
     fields: ['konjunktional', 'subjekt', 'centraladverbial', 'finitVerbum'],
