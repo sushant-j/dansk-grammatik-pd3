@@ -178,7 +178,7 @@ export default function Write() {
               {c.ruleId ? (
                 <Button
                   tone="ghost"
-                  label={`Rule: ${RULES[c.ruleId].en}`}
+                  label={`Rule: ${RULES[c.ruleId].da}`}
                   onPress={() => router.push(`/rule/${c.ruleId}` as never)}
                   style={{ marginTop: t.space(3) }}
                 />

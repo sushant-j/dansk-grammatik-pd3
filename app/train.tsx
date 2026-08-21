@@ -207,7 +207,7 @@ export default function Train() {
                   </Txt>
                   <Button
                     tone="ghost"
-                    label={`Read the rule: ${RULES[d.ruleId].en}`}
+                    label={`Read the rule: ${RULES[d.ruleId].da}`}
                     onPress={() => router.push(`/rule/${d.ruleId}` as never)}
                     style={{ marginTop: t.space(3) }}
                   />

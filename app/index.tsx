@@ -60,7 +60,10 @@ export default function Home() {
           {focus ? (focus.needsRefresh ? 'Needs a refresh' : 'Your widest gap') : 'Start here'}
         </Label>
         <Txt variant="title" style={{ marginTop: t.space(2) }}>
-          {focus ? RULES[focus.ruleId].en : 'The verb sits in slot two'}
+          {focus ? RULES[focus.ruleId].da : 'Verbet på plads nummer to (V2)'}
+        </Txt>
+        <Txt variant="body" color={t.c.textFaint} style={{ marginTop: 2, fontStyle: 'italic' }}>
+          {focus ? RULES[focus.ruleId].en : 'The finite verb sits in slot two'}
         </Txt>
         <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1.5) }}>
           {focus
@@ -136,6 +139,27 @@ export default function Home() {
         </Card>
       </Pressable>
 
+      {/* ── En/et and double definiteness ────────────────────────────── */}
+      <Pressable onPress={() => router.push('/nouns')}>
+        <Card>
+          <View style={s.rowBetween}>
+            <View style={{ flex: 1, paddingRight: t.space(3) }}>
+              <Label>Køn og bestemthed</Label>
+              <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
+                En-ord og et-ord
+              </Txt>
+              <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
+                Gender, the definite suffix, and double definiteness — "den røde bil", never
+                "den røde bilen".
+              </Txt>
+            </View>
+            <Txt variant="title" color={t.c.textFaint}>
+              →
+            </Txt>
+          </View>
+        </Card>
+      </Pressable>
+
       <Divider />
 
       {/* ── The map ────────────────────────────────────────────────── */}
@@ -156,7 +180,7 @@ export default function Home() {
       <Card tone="sunken">
         <Label>Coming next</Label>
         <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(2) }}>
-          En/et and definiteness · adjective agreement · the tense system · komma rules ·
+          Adjective agreement across all three forms · the tense system · komma rules ·
           AI-reviewed letters with rule-linked corrections.
         </Txt>
       </Card>
@@ -176,10 +200,10 @@ function RuleRow({ p }: { p: RuleProgress }) {
           <View style={s.rowBetween}>
             <View style={{ flex: 1, paddingRight: t.space(3) }}>
               <Txt variant="heading" numberOfLines={1}>
-                {r.en}
-              </Txt>
-              <Txt variant="body" color={t.c.textFaint} style={{ fontSize: 13, marginTop: 2 }}>
                 {r.da}
+              </Txt>
+              <Txt variant="body" color={t.c.textFaint} style={{ fontSize: 13, marginTop: 2, fontStyle: 'italic' }}>
+                {r.en}
               </Txt>
             </View>
             <View style={{ alignItems: 'flex-end' }}>

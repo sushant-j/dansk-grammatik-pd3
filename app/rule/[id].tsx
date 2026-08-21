@@ -49,7 +49,7 @@ export default function RuleCard() {
 
   return (
     <>
-      <Stack.Screen options={{ title: r.en }} />
+      <Stack.Screen options={{ title: r.da }} />
       <Screen
         contentContainerStyle={{
           padding: t.space(4),
@@ -57,9 +57,17 @@ export default function RuleCard() {
           gap: t.space(4),
         }}
       >
+        {/* Danish term leads; the English gloss is a brief caption under it,
+            never the headline — mixing which language is "primary" from
+            screen to screen is exactly the confusion this layout avoids. */}
         <View>
-          <Label>{r.da}</Label>
-          <Txt variant="display" style={{ marginTop: t.space(2), fontSize: 26 }}>
+          <Txt variant="display" style={{ fontSize: 28 }}>
+            {r.da}
+          </Txt>
+          <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1), fontStyle: 'italic' }}>
+            {r.en}
+          </Txt>
+          <Txt variant="title" style={{ marginTop: t.space(3), fontSize: 20 }}>
             {r.statement}
           </Txt>
           <View style={[s.row, { gap: t.space(2), marginTop: t.space(3) }]}>
