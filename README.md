@@ -67,6 +67,12 @@ Three commitments follow from that:
   and centered, so the same screens that were designed at phone width don't
   stretch edge-to-edge on a desktop browser. `npm run build:web` produces a
   fully static export deployable to any static host.
+- **En-ord og et-ord (gender & double definiteness)** — multiple-choice, not
+  tap-to-place, because gender is a lexical fact to recognise rather than a
+  position to arrange. Three rules (en/et gender, the definite suffix,
+  double definiteness), each wrong option the specific mistake that noun
+  invites rather than an arbitrary distractor, mastery tracked per rule via
+  the same shared `mastery.ts`.
 
 ## Architecture
 
@@ -76,6 +82,7 @@ app/                       expo-router screens
   train.tsx                the schema trainer
   write.tsx                writing studio
   vocab.tsx                vocabulary flashcards
+  nouns.tsx                en/et gender & double-definiteness trainer
   rule/[id].tsx            rule card
   topics/index.tsx         oral-exam archive search
   topics/[id].tsx          one archive topic, full Q&A
@@ -84,17 +91,21 @@ app/                       expo-router screens
 src/
   grammar/
     fields.ts              the two field topologies
-    rules.ts               rule catalogue — the unit of both feedback and mastery
-    analyze.ts             diagnostic engine
+    rules.ts               sætningsskema rule catalogue (word order)
+    nounRules.ts            noun-phrase rule catalogue (gender, definiteness)
+    analyze.ts              diagnostic engine (word order)
+    nounExercise.ts          multiple-choice question builder (nouns)
     types.ts
   content/
     exercises.ts           PD3 sentence bank (schema trainer)
-    topics.ts              oral-exam archive: TOPICS, OFFICIAL_SESSIONS, PRACTICE_TOPICS
-    vocabulary.ts           hard-word bank, each entry traced to a real sentence
+    nouns.ts                noun bank with hand-verified definite/wrong forms
+    topics.ts               oral-exam archive: TOPICS, OFFICIAL_SESSIONS, PRACTICE_TOPICS
+    vocabulary.ts            hard-word bank, each entry traced to a real sentence
   profile/
-    mastery.ts              shared decay/leveling math (grammar + vocabulary)
+    mastery.ts              shared decay/leveling math (grammar + vocabulary + nouns)
     store.ts                grammar learner model (zustand + AsyncStorage)
     vocabStore.ts            vocabulary learner model, same mastery math
+    nounStore.ts             noun-rule learner model, same mastery math
   feedback/
     types.ts               provider contract
     offlineRules.ts        deterministic checker
@@ -193,9 +204,7 @@ than transcribed from one, and every screen that shows it says so.
 The schema engine and the mastery model both generalise; the next modules
 reuse them wholesale rather than rebuilding parallel systems.
 
-- En/et gender and the definite suffix, including double definiteness
-  (*den røde bil*, not *den røde bilen*)
-- Adjective agreement across the three forms
+- Adjective agreement across the three forms (en/et/plural — *rød/rødt/røde*)
 - The tense system, and the -te/-ede weak split against the strong verbs
 - Komma rules, and FVU-oriented spelling
 - Live AI review of full letters, with corrections linked to rule cards

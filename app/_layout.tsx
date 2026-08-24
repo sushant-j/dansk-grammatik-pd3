@@ -30,6 +30,7 @@ export default function RootLayout() {
             <Stack.Screen name="write" options={{ title: 'Writing studio' }} />
             <Stack.Screen name="vocab" options={{ title: 'Ordforråd' }} />
             <Stack.Screen name="nouns" options={{ title: 'En-ord og et-ord' }} />
+            <Stack.Screen name="adjectives" options={{ title: 'Adjektivets former' }} />
             <Stack.Screen name="rule/[id]" options={{ title: 'Rule' }} />
             <Stack.Screen name="topics/index" options={{ title: 'Emnearkiv' }} />
             <Stack.Screen name="topics/[id]" options={{ title: 'Emne', headerBackTitle: 'Arkiv' }} />
