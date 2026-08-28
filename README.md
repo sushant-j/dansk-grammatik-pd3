@@ -73,6 +73,20 @@ Three commitments follow from that:
   double definiteness), each wrong option the specific mistake that noun
   invites rather than an arbitrary distractor, mastery tracked per rule via
   the same shared `mastery.ts`.
+- **Adjektivets former (adjective agreement)** — the same multiple-choice
+  shape, one level up: base form before an en-word, -t before an et-word, -e
+  for every plural or definite phrase regardless of gender. Distractors are
+  built by deduping an adjective's three real forms against whichever is
+  correct, so the two deliberately irregular entries ("dansk", "lille")
+  produce a clean two-option question instead of two identical buttons —
+  no special-casing needed.
+- **Datid og førnutid (tense)** — three rules that are genuinely different in
+  kind, not just in vocabulary: the weak -ede/-te suffix choice (a leaky
+  phonological pattern), strong-verb forms (pure memorisation, the verb
+  equivalent of en/et gender), and the er/har perfect auxiliary (a semantic
+  fact — motion or change of state — that cuts across weak and strong verbs
+  alike). Every distractor is the specific error a learner actually produces:
+  the other weak suffix, or an over-regularised guess at a strong verb's form.
 
 ## Architecture
 
@@ -83,6 +97,8 @@ app/                       expo-router screens
   write.tsx                writing studio
   vocab.tsx                vocabulary flashcards
   nouns.tsx                en/et gender & double-definiteness trainer
+  adjectives.tsx           adjective agreement trainer
+  verbs.tsx                tense trainer (weak suffix, strong verbs, er/har)
   rule/[id].tsx            rule card
   topics/index.tsx         oral-exam archive search
   topics/[id].tsx          one archive topic, full Q&A
@@ -93,19 +109,27 @@ src/
     fields.ts              the two field topologies
     rules.ts               sætningsskema rule catalogue (word order)
     nounRules.ts            noun-phrase rule catalogue (gender, definiteness)
+    adjectiveRules.ts        adjective-agreement rule catalogue
+    verbRules.ts              tense rule catalogue
     analyze.ts              diagnostic engine (word order)
     nounExercise.ts          multiple-choice question builder (nouns)
+    adjectiveExercise.ts      multiple-choice question builder (adjectives)
+    verbExercise.ts            multiple-choice question builder (verbs)
     types.ts
   content/
     exercises.ts           PD3 sentence bank (schema trainer)
     nouns.ts                noun bank with hand-verified definite/wrong forms
+    adjectives.ts             adjective bank (base/-t/-e forms)
+    verbs.ts                   verb bank (weak/strong, past + participle + aux)
     topics.ts               oral-exam archive: TOPICS, OFFICIAL_SESSIONS, PRACTICE_TOPICS
     vocabulary.ts            hard-word bank, each entry traced to a real sentence
   profile/
-    mastery.ts              shared decay/leveling math (grammar + vocabulary + nouns)
+    mastery.ts              shared decay/leveling math (grammar + vocabulary + nouns + adjectives + verbs)
     store.ts                grammar learner model (zustand + AsyncStorage)
     vocabStore.ts            vocabulary learner model, same mastery math
     nounStore.ts             noun-rule learner model, same mastery math
+    adjectiveStore.ts         adjective-rule learner model, same mastery math
+    verbStore.ts               verb-rule learner model, same mastery math
   feedback/
     types.ts               provider contract
     offlineRules.ts        deterministic checker
@@ -204,8 +228,6 @@ than transcribed from one, and every screen that shows it says so.
 The schema engine and the mastery model both generalise; the next modules
 reuse them wholesale rather than rebuilding parallel systems.
 
-- Adjective agreement across the three forms (en/et/plural — *rød/rødt/røde*)
-- The tense system, and the -te/-ede weak split against the strong verbs
 - Komma rules, and FVU-oriented spelling
 - Live AI review of full letters, with corrections linked to rule cards
 - PD2 and FVU level tagging (the content schema already carries `exams` and
