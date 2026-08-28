@@ -202,6 +202,27 @@ export default function Home() {
         </Card>
       </Pressable>
 
+      {/* ── Comma rules ───────────────────────────────────────────────── */}
+      <Pressable onPress={() => router.push('/comma')}>
+        <Card>
+          <View style={s.rowBetween}>
+            <View style={{ flex: 1, paddingRight: t.space(3) }}>
+              <Label>Tegnsætning</Label>
+              <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
+                Kommaregler
+              </Txt>
+              <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
+                Comma before "men", never before "og" — and no comma before the last item in a
+                list. Full sentences, not single words: read the whole thing before choosing.
+              </Txt>
+            </View>
+            <Txt variant="title" color={t.c.textFaint}>
+              →
+            </Txt>
+          </View>
+        </Card>
+      </Pressable>
+
       <Divider />
 
       {/* ── The map ────────────────────────────────────────────────── */}
@@ -222,7 +243,7 @@ export default function Home() {
       <Card tone="sunken">
         <Label>Coming next</Label>
         <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(2) }}>
-          Komma rules · AI-reviewed letters with rule-linked corrections.
+          AI-reviewed letters with rule-linked corrections.
         </Txt>
       </Card>
     </Screen>

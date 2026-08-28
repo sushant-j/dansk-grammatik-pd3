@@ -87,6 +87,16 @@ Three commitments follow from that:
   fact — motion or change of state — that cuts across weak and strong verbs
   alike). Every distractor is the specific error a learner actually produces:
   the other weak suffix, or an over-regularised guess at a strong verb's form.
+- **Kommaregler (comma rules)** — a different shape from every other module:
+  a comma decision depends on the structure of a whole sentence, not a
+  property of one word, so there is no per-word generator — the exercise
+  bank is hand-written correct/incorrect sentence pairs, and the options
+  shown are full sentences rather than single words. Scoped to three rules
+  that are genuinely unambiguous (comma before "men" but never before "og";
+  no comma before the final item in a list; commas around a non-defining
+  relative clause). The contested "startkomma" — optional under the modern
+  1996 rules, not a hard requirement — is deliberately left out rather than
+  graded as a right/wrong answer it isn't.
 
 ## Architecture
 
@@ -99,6 +109,7 @@ app/                       expo-router screens
   nouns.tsx                en/et gender & double-definiteness trainer
   adjectives.tsx           adjective agreement trainer
   verbs.tsx                tense trainer (weak suffix, strong verbs, er/har)
+  comma.tsx                comma trainer (full-sentence multiple choice)
   rule/[id].tsx            rule card
   topics/index.tsx         oral-exam archive search
   topics/[id].tsx          one archive topic, full Q&A
@@ -111,25 +122,29 @@ src/
     nounRules.ts            noun-phrase rule catalogue (gender, definiteness)
     adjectiveRules.ts        adjective-agreement rule catalogue
     verbRules.ts              tense rule catalogue
+    commaRules.ts               comma rule catalogue
     analyze.ts              diagnostic engine (word order)
     nounExercise.ts          multiple-choice question builder (nouns)
     adjectiveExercise.ts      multiple-choice question builder (adjectives)
     verbExercise.ts            multiple-choice question builder (verbs)
+    commaExercise.ts             packages a comma-example entry into a question
     types.ts
   content/
     exercises.ts           PD3 sentence bank (schema trainer)
     nouns.ts                noun bank with hand-verified definite/wrong forms
     adjectives.ts             adjective bank (base/-t/-e forms)
     verbs.ts                   verb bank (weak/strong, past + participle + aux)
+    commaExamples.ts             hand-written correct/incorrect sentence pairs
     topics.ts               oral-exam archive: TOPICS, OFFICIAL_SESSIONS, PRACTICE_TOPICS
     vocabulary.ts            hard-word bank, each entry traced to a real sentence
   profile/
-    mastery.ts              shared decay/leveling math (grammar + vocabulary + nouns + adjectives + verbs)
+    mastery.ts              shared decay/leveling math (grammar + vocabulary + nouns + adjectives + verbs + comma)
     store.ts                grammar learner model (zustand + AsyncStorage)
     vocabStore.ts            vocabulary learner model, same mastery math
     nounStore.ts             noun-rule learner model, same mastery math
     adjectiveStore.ts         adjective-rule learner model, same mastery math
     verbStore.ts               verb-rule learner model, same mastery math
+    commaStore.ts                comma-rule learner model, same mastery math
   feedback/
     types.ts               provider contract
     offlineRules.ts        deterministic checker
@@ -228,7 +243,7 @@ than transcribed from one, and every screen that shows it says so.
 The schema engine and the mastery model both generalise; the next modules
 reuse them wholesale rather than rebuilding parallel systems.
 
-- Komma rules, and FVU-oriented spelling
+- FVU-oriented spelling
 - Live AI review of full letters, with corrections linked to rule cards
 - PD2 and FVU level tagging (the content schema already carries `exams` and
   `cefr` on every item)
