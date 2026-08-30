@@ -223,6 +223,27 @@ export default function Home() {
         </Card>
       </Pressable>
 
+      {/* ── FVU spelling ─────────────────────────────────────────────── */}
+      <Pressable onPress={() => router.push('/spelling')}>
+        <Card>
+          <View style={s.rowBetween}>
+            <View style={{ flex: 1, paddingRight: t.space(3) }}>
+              <Label>Stavning · FVU</Label>
+              <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
+                Stavning
+              </Txt>
+              <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
+                "Hund", not "hun" — a different failure mode from every other module here: sound
+                not matching spelling, not a grammar choice.
+              </Txt>
+            </View>
+            <Txt variant="title" color={t.c.textFaint}>
+              →
+            </Txt>
+          </View>
+        </Card>
+      </Pressable>
+
       <Divider />
 
       {/* ── The map ────────────────────────────────────────────────── */}

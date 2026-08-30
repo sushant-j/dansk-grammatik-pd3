@@ -97,6 +97,17 @@ Three commitments follow from that:
   relative clause). The contested "startkomma" — optional under the modern
   1996 rules, not a hard requirement — is deliberately left out rather than
   graded as a right/wrong answer it isn't.
+- **Stavning (FVU-oriented spelling)** — a different audience from every
+  other module: FVU targets adult literacy, including for some native
+  speakers, so the failure mode is sound not matching spelling, not a
+  grammar choice. Three unambiguous rules — silent d after l/n/r ("hund" vs
+  "hun", real minimal-pair words a learner can accidentally spell into),
+  silent h in hv-words ("hvad" vs "vad", pronounced identically either way),
+  and "nogen" vs "nogle" (sentence-type-dependent, one of the most commonly
+  confused spellings even among native speakers). Same hand-written,
+  fill-in-the-blank shape as the comma module, for the same reason: a
+  spelling confusion is tied to a specific real word pair, not a property a
+  generator can derive.
 
 ## Architecture
 
@@ -110,6 +121,7 @@ app/                       expo-router screens
   adjectives.tsx           adjective agreement trainer
   verbs.tsx                tense trainer (weak suffix, strong verbs, er/har)
   comma.tsx                comma trainer (full-sentence multiple choice)
+  spelling.tsx             FVU spelling trainer (silent d, silent h, nogen/nogle)
   rule/[id].tsx            rule card
   topics/index.tsx         oral-exam archive search
   topics/[id].tsx          one archive topic, full Q&A
@@ -123,11 +135,13 @@ src/
     adjectiveRules.ts        adjective-agreement rule catalogue
     verbRules.ts              tense rule catalogue
     commaRules.ts               comma rule catalogue
+    spellingRules.ts              FVU spelling rule catalogue
     analyze.ts              diagnostic engine (word order)
     nounExercise.ts          multiple-choice question builder (nouns)
     adjectiveExercise.ts      multiple-choice question builder (adjectives)
     verbExercise.ts            multiple-choice question builder (verbs)
     commaExercise.ts             packages a comma-example entry into a question
+    spellingExercise.ts            packages a spelling-example entry into a question
     types.ts
   content/
     exercises.ts           PD3 sentence bank (schema trainer)
@@ -135,16 +149,18 @@ src/
     adjectives.ts             adjective bank (base/-t/-e forms)
     verbs.ts                   verb bank (weak/strong, past + participle + aux)
     commaExamples.ts             hand-written correct/incorrect sentence pairs
+    spellingExamples.ts            hand-written fill-in-the-blank word pairs
     topics.ts               oral-exam archive: TOPICS, OFFICIAL_SESSIONS, PRACTICE_TOPICS
     vocabulary.ts            hard-word bank, each entry traced to a real sentence
   profile/
-    mastery.ts              shared decay/leveling math (grammar + vocabulary + nouns + adjectives + verbs + comma)
+    mastery.ts              shared decay/leveling math (all seven domains below)
     store.ts                grammar learner model (zustand + AsyncStorage)
     vocabStore.ts            vocabulary learner model, same mastery math
     nounStore.ts             noun-rule learner model, same mastery math
     adjectiveStore.ts         adjective-rule learner model, same mastery math
     verbStore.ts               verb-rule learner model, same mastery math
     commaStore.ts                comma-rule learner model, same mastery math
+    spellingStore.ts               spelling-rule learner model, same mastery math
   feedback/
     types.ts               provider contract
     offlineRules.ts        deterministic checker
@@ -243,7 +259,6 @@ than transcribed from one, and every screen that shows it says so.
 The schema engine and the mastery model both generalise; the next modules
 reuse them wholesale rather than rebuilding parallel systems.
 
-- FVU-oriented spelling
 - Live AI review of full letters, with corrections linked to rule cards
 - PD2 and FVU level tagging (the content schema already carries `exams` and
   `cefr` on every item)
