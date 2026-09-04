@@ -155,4 +155,45 @@ describe('choosing what to practise next', () => {
     }
     expect(resolvedAgain / runs).toBeLessThan(0.5);
   });
+
+  it('leans toward the target exam without ever fully excluding others', () => {
+    // Only two exercises in the bank are tagged PD1. With every rule at equal
+    // (untouched) strength, the exam bonus should be the deciding signal and
+    // PD1-tagged exercises should dominate draws — but not every single one,
+    // since jitter and the unseen bonus still apply to everything else too.
+    const stats = statsWith({});
+    let pd1Hits = 0;
+    const runs = 60;
+    for (let i = 0; i < runs; i++) {
+      const ex = nextExercise(stats, [], undefined, NOW, 'PD1');
+      if (ex.exams.includes('PD1')) pd1Hits++;
+    }
+    expect(pd1Hits / runs).toBeGreaterThan(0.5);
+  });
+
+  it('a rule the learner is weak on can still win over the exam bonus', () => {
+    // The exam tag breaks ties; it does not override mastery. A PD3-only
+    // exercise targeting a rule at rock-bottom strength should still beat a
+    // PD1-tagged exercise whose rules are already solid.
+    const strong = stat({ attempts: 8, raw: 0.95, lastSeen: NOW });
+    const stats = statsWith(
+      Object.fromEntries(ALL_RULE_IDS.map((id) => [id, strong])) as Record<RuleId, RuleStat>,
+    );
+    stats['ikke-regel'] = stat({ attempts: 8, raw: 0.02, lastSeen: NOW });
+
+    let hits = 0;
+    const runs = 60;
+    for (let i = 0; i < runs; i++) {
+      if (nextExercise(stats, [], undefined, NOW, 'PD1').targets.includes('ikke-regel')) hits++;
+    }
+    expect(hits / runs).toBeGreaterThan(0.5);
+  });
+
+  it('with no target exam set, behaves exactly as before', () => {
+    const stats = statsWith({});
+    const withNull = nextExercise(stats, [], 'ex-igaar', NOW, null);
+    const withUndefined = nextExercise(stats, [], 'ex-igaar', NOW, undefined);
+    expect(withNull.id).not.toBe('ex-igaar');
+    expect(withUndefined.id).not.toBe('ex-igaar');
+  });
 });

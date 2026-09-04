@@ -17,7 +17,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
-import { ALL_RULE_IDS, type RuleId } from '../grammar/rules';
+import { ALL_RULE_IDS, type Exam, type RuleId } from '../grammar/rules';
 import { EXERCISES } from '../content/exercises';
 import type { Exercise } from '../grammar/types';
 import {
@@ -152,12 +152,18 @@ export function summarize(stats: Record<RuleId, RuleStat>, now = Date.now()): Ma
  * that has decayed, then something genuinely new. Within a tier, prefer an
  * exercise they have not already answered correctly — repeating solved content
  * is the specific thing that makes daily practice feel hollow.
+ *
+ * `targetExam` is a bias, not a filter: an exercise outside the selected exam
+ * can still win if it targets a rule the learner is genuinely weaker on. A
+ * rule you are shaky on is worth practising regardless of which exam tagged
+ * the sentence — the exam tag breaks ties, it does not override mastery.
  */
 export function nextExercise(
   stats: Record<RuleId, RuleStat>,
   seen: string[],
   lastExerciseId?: string,
   now = Date.now(),
+  targetExam?: Exam | null,
 ): Exercise {
   const progress = ruleProgress(stats, now);
   const byRule = new Map(progress.map((p) => [p.ruleId, p]));
@@ -171,11 +177,12 @@ export function nextExercise(
     const unseenBonus = targets.some((p) => p.attempts === 0) ? 0.25 : 0;
     const freshBonus = seen.includes(ex.id) ? 0 : 0.3;
     const repeatPenalty = ex.id === lastExerciseId ? -1 : 0;
+    const examBonus = targetExam && ex.exams.includes(targetExam) ? 0.2 : 0;
     const jitter = Math.random() * 0.12;
 
     return {
       ex,
-      score: (1 - weakest) + unseenBonus + freshBonus + repeatPenalty + jitter,
+      score: (1 - weakest) + unseenBonus + freshBonus + repeatPenalty + examBonus + jitter,
     };
   }).sort((a, b) => b.score - a.score);
 

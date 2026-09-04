@@ -108,6 +108,14 @@ Three commitments follow from that:
   fill-in-the-blank shape as the comma module, for the same reason: a
   spelling confusion is tied to a specific real word pair, not a property a
   generator can derive.
+- **Eksamensfokus (exam-target setting)** — a bias, not a filter. Picking
+  PD2, PD3, or FVU never removes anything from the grammar map; it sorts
+  exam-relevant rules to the top, marks the rest "NOT ON {exam}", and leans
+  the sætningsskema trainer toward exercises tagged for that exam — but a
+  rule the learner is genuinely weak on can still win the draw, because the
+  exam tag breaks ties, it doesn't override mastery. Scoped to what's
+  actually tagged (`rules.ts` + `exercises.ts`); vocabulary carries CEFR
+  levels, not exam tags, and isn't force-fit into this.
 
 ## Architecture
 
@@ -122,6 +130,7 @@ app/                       expo-router screens
   verbs.tsx                tense trainer (weak suffix, strong verbs, er/har)
   comma.tsx                comma trainer (full-sentence multiple choice)
   spelling.tsx             FVU spelling trainer (silent d, silent h, nogen/nogle)
+  settings.tsx             exam-target picker (bias, not a filter)
   rule/[id].tsx            rule card
   topics/index.tsx         oral-exam archive search
   topics/[id].tsx          one archive topic, full Q&A
@@ -161,6 +170,7 @@ src/
     verbStore.ts               verb-rule learner model, same mastery math
     commaStore.ts                comma-rule learner model, same mastery math
     spellingStore.ts               spelling-rule learner model, same mastery math
+    settings.ts                     target-exam preference (persisted, biases the two above)
   feedback/
     types.ts               provider contract
     offlineRules.ts        deterministic checker
@@ -260,7 +270,9 @@ The schema engine and the mastery model both generalise; the next modules
 reuse them wholesale rather than rebuilding parallel systems.
 
 - Live AI review of full letters, with corrections linked to rule cards
-- PD2 and FVU level tagging (the content schema already carries `exams` and
-  `cefr` on every item)
+  (needs a live backend proxy holding the API key — infrastructure to stand
+  up, not something to scaffold blind)
 - Extend the archive search to the FVU/PD2 written-exam materials once
   transcribed, using the same `Topic`/search pattern
+- Extend the exam-target bias to vocabulary once it carries `exams` tags of
+  its own (today it's CEFR-only, a genuinely different axis)

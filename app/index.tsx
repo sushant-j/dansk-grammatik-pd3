@@ -3,7 +3,7 @@ import React, { useMemo } from 'react';
 import { Pressable, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Screen } from '../src/ui/Screen';
-import { RULES, type RuleId } from '../src/grammar/rules';
+import { RULES, type Exam, type RuleId } from '../src/grammar/rules';
 import { allYears, TOPICS } from '../src/content/topics';
 import { VOCABULARY } from '../src/content/vocabulary';
 import {
@@ -13,6 +13,7 @@ import {
   type MasteryLevel,
   type RuleProgress,
 } from '../src/profile/store';
+import { EXAM_LABELS, useSettings } from '../src/profile/settings';
 import { Button, Card, Divider, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
 
@@ -29,8 +30,19 @@ export default function Home() {
   const t = useTheme();
   const insets = useSafeAreaInsets();
   const stats = useProfile((st) => st.stats);
+  const targetExam = useSettings((st) => st.targetExam);
 
-  const progress = useMemo(() => ruleProgress(stats), [stats]);
+  const progress = useMemo(() => {
+    const base = ruleProgress(stats);
+    if (!targetExam) return base;
+    // A bias, not a filter — see settings.ts. Exam-relevant rules sort first;
+    // nothing drops off the map.
+    return [...base].sort((a, b) => {
+      const aMatch = RULES[a.ruleId].exams.includes(targetExam) ? 0 : 1;
+      const bMatch = RULES[b.ruleId].exams.includes(targetExam) ? 0 : 1;
+      return aMatch - bMatch;
+    });
+  }, [stats, targetExam]);
   const summary = useMemo(() => summarize(stats), [stats]);
   const started = progress.some((p) => p.attempts > 0);
 
@@ -46,7 +58,24 @@ export default function Home() {
     >
       {/* ── Orientation ────────────────────────────────────────────── */}
       <View>
-        <Txt variant="display">Din grammatik</Txt>
+        <View style={s.rowBetween}>
+          <Txt variant="display">Din grammatik</Txt>
+          <Link href="/settings" asChild>
+            <Pressable
+              style={{
+                borderWidth: 1,
+                borderColor: t.c.border,
+                borderRadius: 999,
+                paddingHorizontal: t.space(3),
+                paddingVertical: t.space(1.5),
+              }}
+            >
+              <Txt variant="label" color={t.c.textMuted}>
+                {targetExam ? EXAM_LABELS[targetExam] : 'ALLE'}
+              </Txt>
+            </Pressable>
+          </Link>
+        </View>
         <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
           {started
             ? `${summary.solid} of ${summary.total} rules solid. No streaks here — just what you know and what is still open.`
@@ -248,7 +277,7 @@ export default function Home() {
 
       {/* ── The map ────────────────────────────────────────────────── */}
       <View>
-        <Label>Grammar map · PD3 word order</Label>
+        <Label>Grammar map{targetExam ? ` · sorted for ${EXAM_LABELS[targetExam]}` : ' · PD3 word order'}</Label>
         <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1.5) }}>
           Each rule fills as you demonstrate it across different sentences — and fades if you
           leave it alone, because knowing a rule once is not the same as owning it.
@@ -257,7 +286,7 @@ export default function Home() {
 
       <View style={{ gap: t.space(2.5) }}>
         {progress.map((p) => (
-          <RuleRow key={p.ruleId} p={p} />
+          <RuleRow key={p.ruleId} p={p} targetExam={targetExam} />
         ))}
       </View>
 
@@ -271,15 +300,16 @@ export default function Home() {
   );
 }
 
-function RuleRow({ p }: { p: RuleProgress }) {
+function RuleRow({ p, targetExam }: { p: RuleProgress; targetExam: Exam | null }) {
   const t = useTheme();
   const r = RULES[p.ruleId];
   const color = levelColor(p.level, t);
+  const offTarget = targetExam !== null && !r.exams.includes(targetExam);
 
   return (
     <Link href={`/rule/${p.ruleId}` as never} asChild>
       <Pressable>
-        <Card style={{ padding: t.space(3.5) }}>
+        <Card style={{ padding: t.space(3.5), opacity: offTarget ? 0.55 : 1 }}>
           <View style={s.rowBetween}>
             <View style={{ flex: 1, paddingRight: t.space(3) }}>
               <Txt variant="heading" numberOfLines={1}>
@@ -288,6 +318,11 @@ function RuleRow({ p }: { p: RuleProgress }) {
               <Txt variant="body" color={t.c.textFaint} style={{ fontSize: 13, marginTop: 2, fontStyle: 'italic' }}>
                 {r.en}
               </Txt>
+              {offTarget ? (
+                <Txt variant="label" color={t.c.textFaint} style={{ marginTop: t.space(1.5) }}>
+                  NOT ON {EXAM_LABELS[targetExam!]}
+                </Txt>
+              ) : null}
             </View>
             <View style={{ alignItems: 'flex-end' }}>
               <Txt variant="label" color={color}>

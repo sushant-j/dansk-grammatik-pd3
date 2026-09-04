@@ -9,6 +9,7 @@ import { fieldsFor, type FieldId } from '../src/grammar/fields';
 import { RULES } from '../src/grammar/rules';
 import type { Evaluation, Exercise, Placement } from '../src/grammar/types';
 import { nextExercise, useProfile } from '../src/profile/store';
+import { useSettings } from '../src/profile/settings';
 import { SchemaBoard, WordTray } from '../src/ui/SchemaBoard';
 import { Button, Card, Label, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
@@ -29,8 +30,11 @@ export default function Train() {
   const stats = useProfile((st) => st.stats);
   const seen = useProfile((st) => st.seen);
   const record = useProfile((st) => st.record);
+  const targetExam = useSettings((st) => st.targetExam);
 
-  const [exercise, setExercise] = useState<Exercise>(() => nextExercise(stats, seen));
+  const [exercise, setExercise] = useState<Exercise>(() =>
+    nextExercise(stats, seen, undefined, Date.now(), targetExam),
+  );
   const [placement, setPlacement] = useState<Placement>({});
   const [selected, setSelected] = useState<string | null>(null);
   const [result, setResult] = useState<Evaluation | null>(null);
@@ -79,6 +83,8 @@ export default function Train() {
       useProfile.getState().stats,
       useProfile.getState().seen,
       exercise.id,
+      Date.now(),
+      useSettings.getState().targetExam,
     );
     setExercise(nxt);
     setPlacement({});
