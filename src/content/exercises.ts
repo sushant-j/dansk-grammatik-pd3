@@ -506,6 +506,161 @@ export const EXERCISES: Exercise[] = [
     takeaway:
       'A one-word relative pronoun still opens a full subordinate clause — "som" fills the konjunktional slot on its own.',
   },
+
+  // ─── PD2-level everyday register ────────────────────────────────────────
+  // The exam-focus setting leans the trainer toward exercises tagged for the
+  // learner's exam. PD2 (A2–B1) was thin — most of the bank targets the B2
+  // rules PD3 tests — so these fill it out at the level PD2 actually assesses:
+  // inversion, V2, the verb cluster, and placeholder subjects, in the plain
+  // everyday and workplace register PD2 uses rather than argumentative prose.
+  {
+    id: 'ex-idag-arbejder',
+    clause: 'helsætning',
+    gloss: 'Today I work from home.',
+    tokens: [t('w1', 'i dag', true), t('w2', 'arbejder'), t('w3', 'jeg'), t('w4', 'hjemme')],
+    solution: {
+      forfelt: ['w1'],
+      finitVerbum: ['w2'],
+      subjekt: ['w3'],
+      indholdsadverbial: ['w4'],
+    },
+    alternatives: [
+      {
+        forfelt: ['w3'],
+        finitVerbum: ['w2'],
+        indholdsadverbial: ['w4', 'w1'],
+      },
+    ],
+    targets: ['v2-inversion', 'finit-verb-second'],
+    cefr: 'A2',
+    exams: ['PD2', 'PD3'],
+    takeaway:
+      'Front "i dag" and the subject moves behind the verb — or keep it simple and start with "jeg". Both are correct.',
+  },
+  {
+    id: 'ex-om-morgenen',
+    clause: 'helsætning',
+    gloss: 'In the morning I drink coffee.',
+    tokens: [t('w1', 'om morgenen', true), t('w2', 'drikker'), t('w3', 'jeg'), t('w4', 'kaffe')],
+    solution: {
+      forfelt: ['w1'],
+      finitVerbum: ['w2'],
+      subjekt: ['w3'],
+      objekt: ['w4'],
+    },
+    alternatives: [
+      {
+        forfelt: ['w3'],
+        finitVerbum: ['w2'],
+        objekt: ['w4'],
+        indholdsadverbial: ['w1'],
+      },
+    ],
+    targets: ['v2-inversion', 'finit-verb-second'],
+    cefr: 'A2',
+    exams: ['PD2', 'PD3'],
+    takeaway:
+      'A fronted time phrase triggers inversion just like any other constituent — the verb stays in slot 2.',
+  },
+  {
+    id: 'ex-hver-morgen',
+    clause: 'helsætning',
+    gloss: 'Every morning I read the newspaper.',
+    tokens: [t('w1', 'hver morgen', true), t('w2', 'læser'), t('w3', 'jeg'), t('w4', 'avisen')],
+    solution: {
+      forfelt: ['w1'],
+      finitVerbum: ['w2'],
+      subjekt: ['w3'],
+      objekt: ['w4'],
+    },
+    alternatives: [
+      {
+        forfelt: ['w3'],
+        finitVerbum: ['w2'],
+        objekt: ['w4'],
+        indholdsadverbial: ['w1'],
+      },
+    ],
+    targets: ['v2-inversion', 'forfelt-single', 'finit-verb-second'],
+    cefr: 'A2',
+    exams: ['PD2', 'PD3'],
+    takeaway:
+      '"Hver morgen" is two words but one constituent — it fills the Forfelt alone, and the subject follows the verb.',
+  },
+  {
+    id: 'ex-har-ikke-koebt',
+    clause: 'helsætning',
+    gloss: 'I have not bought a new car.',
+    tokens: [
+      t('w1', 'jeg'),
+      t('w2', 'har'),
+      t('w3', 'ikke'),
+      t('w4', 'købt'),
+      t('w5', 'en ny bil', true),
+    ],
+    solution: {
+      forfelt: ['w1'],
+      finitVerbum: ['w2'],
+      centraladverbial: ['w3'],
+      infinitVerbum: ['w4'],
+      objekt: ['w5'],
+    },
+    targets: ['verb-cluster-order'],
+    cefr: 'B1',
+    exams: ['PD2', 'PD3'],
+    takeaway:
+      '"har" is finite and stays in slot 2; "købt" waits in V, with "ikke" splitting the two halves of the verb.',
+  },
+  {
+    id: 'ex-skal-holde-moede',
+    clause: 'helsætning',
+    gloss: 'We are going to hold a meeting tomorrow.',
+    tokens: [
+      t('w1', 'vi'),
+      t('w2', 'skal'),
+      t('w3', 'holde'),
+      t('w4', 'et møde', true),
+      t('w5', 'i morgen', true),
+    ],
+    solution: {
+      forfelt: ['w1'],
+      finitVerbum: ['w2'],
+      infinitVerbum: ['w3'],
+      objekt: ['w4'],
+      indholdsadverbial: ['w5'],
+    },
+    alternatives: [
+      {
+        forfelt: ['w5'],
+        finitVerbum: ['w2'],
+        subjekt: ['w1'],
+        infinitVerbum: ['w3'],
+        objekt: ['w4'],
+      },
+    ],
+    targets: ['verb-cluster-order', 'v2-inversion', 'finit-verb-second'],
+    cefr: 'B1',
+    exams: ['PD2', 'PD3'],
+    takeaway:
+      '"skal" holds slot 2 and "holde" waits in V. Front "i morgen" and the subject moves behind "skal".',
+  },
+  {
+    id: 'ex-der-er-problem',
+    clause: 'helsætning',
+    gloss: 'There is a problem today.',
+    tokens: [t('w1', 'der'), t('w2', 'er'), t('w3', 'et problem', true), t('w4', 'i dag', true)],
+    solution: {
+      forfelt: ['w1'],
+      finitVerbum: ['w2'],
+      subjekt: ['w3'],
+      indholdsadverbial: ['w4'],
+    },
+    targets: ['subject-required', 'finit-verb-second'],
+    cefr: 'A2',
+    exams: ['PD1', 'PD2', 'PD3'],
+    takeaway:
+      '"Der" holds the Forfelt open so the real subject "et problem" can follow the verb — Danish never leaves the subject out.',
+  },
 ];
 
 export function exerciseById(id: string): Exercise | undefined {

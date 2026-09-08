@@ -11,6 +11,17 @@ import type { Placement } from './types';
  */
 
 describe('content integrity', () => {
+  it('gives every offered exam a pool the exam-focus feature can actually lean on', () => {
+    // The exam-focus setting biases the trainer toward the learner's exam. If
+    // a level's pool is near-empty, that bias has nothing to select and the
+    // feature is a promise the content can't keep. Guards against the pool
+    // quietly thinning back out as PD3-only exercises are added over time.
+    for (const exam of ['PD2', 'PD3'] as const) {
+      const pool = EXERCISES.filter((e) => e.exams.includes(exam));
+      expect(pool.length, `${exam} exercise pool`).toBeGreaterThanOrEqual(8);
+    }
+  });
+
   it('every exercise places all its tokens exactly once in the solution', () => {
     for (const ex of EXERCISES) {
       const placed = Object.values(ex.solution).flat();
