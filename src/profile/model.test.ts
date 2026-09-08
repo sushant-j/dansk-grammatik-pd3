@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { ALL_RULE_IDS, type RuleId } from '../grammar/rules';
+import { ALL_RULE_IDS, RULES, type RuleId } from '../grammar/rules';
 import {
   decayedStrength,
   levelOf,
@@ -69,6 +69,18 @@ describe('levels', () => {
 describe('the grammar map', () => {
   it('reports every rule, so the map is never partially drawn', () => {
     expect(ruleProgress(statsWith({}), NOW)).toHaveLength(ALL_RULE_IDS.length);
+  });
+
+  it('keeps at least one rule tagged for every offered exam, including FVU', () => {
+    // The exam-focus setting dims and marks "NOT ON {exam}" every rule not
+    // tagged for the chosen exam. If no rule carries a given exam, picking it
+    // greys out the entire map — a dead-end. FVU is the one at risk: its real
+    // trainer is spelling, so only the two most basic sentence rules are
+    // tagged, but there must always be at least one.
+    for (const exam of ['PD2', 'PD3', 'FVU'] as const) {
+      const tagged = ALL_RULE_IDS.filter((id) => RULES[id].exams.includes(exam));
+      expect(tagged.length, `rules tagged ${exam}`).toBeGreaterThanOrEqual(1);
+    }
   });
 
   it('marks a decayed but previously solid rule as needing a refresh', () => {

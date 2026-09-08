@@ -14,7 +14,7 @@
  * a rule risks being wrong for some speakers.
  */
 
-export type SpellingRuleId = 'silent-d' | 'silent-h-hv' | 'nogen-vs-nogle';
+export type SpellingRuleId = 'silent-d' | 'silent-h-hv' | 'nogen-vs-nogle' | 'og-vs-at';
 
 export interface SpellingRuleExample {
   wrong: string;
@@ -101,6 +101,30 @@ export const SPELLING_RULES: Record<SpellingRuleId, SpellingRule> = {
         wrong: 'Er der nogle herinde?',
         right: 'Er der nogen herinde?',
         note: 'A question meaning "anyone" takes "nogen", not "nogle".',
+      },
+    ],
+  },
+
+  'og-vs-at': {
+    id: 'og-vs-at',
+    da: '"og" eller "at" foran et udsagnsord',
+    en: '"og" or "at" before a verb',
+    statement:
+      'Before an infinitive you write the marker "at" (to), not the conjunction "og" (and) — even though the two sound almost identical.',
+    explanation:
+      'In everyday Danish speech "og" and "at" are pronounced nearly the same — both roughly "å" — so the ear gives no help at all in choosing between them. But they do different jobs. "Og" joins two equal things ("brød og mælk", "han spiser og drikker"). "At" marks an infinitive that depends on the verb before it: "jeg prøver at komme", "hun plejer at løbe", "det er svært at forstå". A quick test: if you can replace the word with "in order to" or "to", it is "at"; if it simply adds a second, parallel item, it is "og".',
+    whyHard:
+      'This is one of the most common written errors in Danish, and it is an error of the ear, not of grammar knowledge: because the two words are homophones in normal speech, even confident speakers write the one they hear rather than the one the sentence needs.',
+    examples: [
+      {
+        wrong: 'Jeg prøver og komme til tiden.',
+        right: 'Jeg prøver at komme til tiden.',
+        note: '"komme" is an infinitive depending on "prøver", so it takes the marker "at", not "og".',
+      },
+      {
+        wrong: 'Det er svært og forstå.',
+        right: 'Det er svært at forstå.',
+        note: 'Swap in "to": "difficult to understand" — that confirms it is "at".',
       },
     ],
   },

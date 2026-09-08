@@ -22,6 +22,16 @@ describe('content integrity', () => {
     }
   });
 
+  it('never lets FVU become a focus dead-end on the word-order map', () => {
+    // FVU's real trainer is spelling, not the sætningsskema, so it does not
+    // need the ≥8 pool the PD exams do. But it must light up *something*:
+    // if zero exercises carry FVU, picking FVU dims the entire map to "NOT ON
+    // FVU" and biases toward nothing — a broken option. At least the basic
+    // sentence-construction exercises stay tagged.
+    const fvu = EXERCISES.filter((e) => e.exams.includes('FVU'));
+    expect(fvu.length, 'FVU exercise pool').toBeGreaterThanOrEqual(1);
+  });
+
   it('every exercise places all its tokens exactly once in the solution', () => {
     for (const ex of EXERCISES) {
       const placed = Object.values(ex.solution).flat();

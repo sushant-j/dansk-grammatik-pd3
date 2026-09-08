@@ -306,7 +306,7 @@ export const EXERCISES: Exercise[] = [
     },
     targets: ['subject-required', 'finit-verb-second'],
     cefr: 'A2',
-    exams: ['PD1', 'PD2', 'PD3'],
+    exams: ['PD1', 'PD2', 'PD3', 'FVU'],
     takeaway:
       '"Der" is a placeholder holding the Forfelt open so the real subject can follow the verb.',
   },
@@ -330,7 +330,7 @@ export const EXERCISES: Exercise[] = [
     ],
     targets: ['subject-required'],
     cefr: 'A1',
-    exams: ['PD1', 'PD2', 'PD3'],
+    exams: ['PD1', 'PD2', 'PD3', 'FVU'],
     takeaway:
       'Danish has no subjectless clause. Weather verbs take the dummy subject "det".',
   },
@@ -657,7 +657,7 @@ export const EXERCISES: Exercise[] = [
     },
     targets: ['subject-required', 'finit-verb-second'],
     cefr: 'A2',
-    exams: ['PD1', 'PD2', 'PD3'],
+    exams: ['PD1', 'PD2', 'PD3', 'FVU'],
     takeaway:
       '"Der" holds the Forfelt open so the real subject "et problem" can follow the verb — Danish never leaves the subject out.',
   },

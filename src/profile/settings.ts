@@ -52,5 +52,5 @@ export const EXAM_DESCRIPTIONS: Record<Exam, string> = {
   PD1: 'A1 — beginning literacy and everyday phrases.',
   PD2: 'A2–B1 — everyday and workplace Danish.',
   PD3: 'B1–B2 — the level this app was originally built around: argumentative writing, complex sentences.',
-  FVU: 'Adult basic education — includes native speakers building literacy, not just L2 learners.',
+  FVU: 'Adult basic education — literacy for adults, including native speakers. Your main practice here is the Stavning (spelling) trainer; on the word-order map only the two most basic sentence rules are tagged FVU.',
 };

@@ -22,8 +22,8 @@ function strongStat(): ItemStat {
 }
 
 describe('spellingRuleProgress', () => {
-  it('covers all three rules', () => {
-    expect(spellingRuleProgress(statsWith({}), NOW)).toHaveLength(3);
+  it('covers every spelling rule', () => {
+    expect(spellingRuleProgress(statsWith({}), NOW)).toHaveLength(ALL_SPELLING_RULE_IDS.length);
   });
 });
 
@@ -35,11 +35,16 @@ describe('nextSpellingQuestion', () => {
   });
 
   it('prefers the weakest rule over strong ones', () => {
-    const stats = statsWith({
-      'silent-d': strongStat(),
-      'silent-h-hv': strongStat(),
-      'nogen-vs-nogle': { ...EMPTY_STAT },
-    });
+    // Make every rule strong except the target, so it is the sole weak one —
+    // otherwise a second untouched rule would split the draws with it.
+    const strong = strongStat();
+    const stats = statsWith(
+      Object.fromEntries(ALL_SPELLING_RULE_IDS.map((id) => [id, strong])) as Record<
+        SpellingRuleId,
+        ItemStat
+      >,
+    );
+    stats['nogen-vs-nogle'] = { ...EMPTY_STAT };
     let hits = 0;
     const runs = 40;
     for (let i = 0; i < runs; i++) {

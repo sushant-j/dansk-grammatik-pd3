@@ -56,6 +56,22 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
     incorrect: 'hån',
     explanation: '"Hånd" (hand) keeps its silent d after n — "hån" (without the d) means scorn, a different word entirely.',
   },
+  {
+    id: 's-bord',
+    ruleId: 'silent-d',
+    prompt: 'Maden står på ___.',
+    correct: 'bordet',
+    incorrect: 'boret',
+    explanation: '"Bord" (table) has a silent d after r — drop it and "boret" reads like "the drill" (bor), not the table.',
+  },
+  {
+    id: 's-vild',
+    ruleId: 'silent-d',
+    prompt: 'Hunden er helt ___.',
+    correct: 'vild',
+    incorrect: 'vil',
+    explanation: '"Vild" (wild) keeps its silent d after l — without it you get "vil" (will/want), a completely different word.',
+  },
 
   // ── silent h in hv-words ─────────────────────────────────────────────
   {
@@ -90,6 +106,22 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
     incorrect: 'Vorfor',
     explanation: 'Every hv-question-word follows the same pattern: silent h, spelled anyway.',
   },
+  {
+    id: 's-hvordan',
+    ruleId: 'silent-h-hv',
+    prompt: '___ har du det?',
+    correct: 'Hvordan',
+    incorrect: 'Vordan',
+    explanation: 'The h is silent but required — "vordan" is not a word, so this one is purely a spelling habit to build.',
+  },
+  {
+    id: 's-hvis',
+    ruleId: 'silent-h-hv',
+    prompt: '___ bog er det?',
+    correct: 'Hvis',
+    incorrect: 'Vis',
+    explanation: '"Hvis" (whose) carries the silent h — "vis" without it is a real word (wise / show), so the ear cannot warn you.',
+  },
 
   // ── nogen vs. nogle ──────────────────────────────────────────────────
   {
@@ -123,6 +155,67 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
     correct: 'nogle',
     incorrect: 'nogen',
     explanation: 'A positive statement about a plural amount — "nogle" again, not "nogen".',
+  },
+  {
+    id: 's-nogen-3',
+    ruleId: 'nogen-vs-nogle',
+    prompt: 'Der er ikke ___ mælk tilbage.',
+    correct: 'nogen',
+    incorrect: 'nogle',
+    explanation: 'A negative statement ("ikke … tilbage") takes "nogen", not "nogle".',
+  },
+  {
+    id: 's-nogle-3',
+    ruleId: 'nogen-vs-nogle',
+    prompt: 'Han læste ___ bøger i ferien.',
+    correct: 'nogle',
+    incorrect: 'nogen',
+    explanation: 'A plain positive statement about a plural amount — "nogle".',
+  },
+
+  // ── og vs. at before an infinitive ───────────────────────────────────
+  // Includes genuine "og" cases on purpose: the skill is discriminating,
+  // not defaulting to "at". A pool that only ever answered "at" would teach
+  // a habit, not the rule.
+  {
+    id: 's-at-1',
+    ruleId: 'og-vs-at',
+    prompt: 'Jeg prøver ___ komme til tiden.',
+    correct: 'at',
+    incorrect: 'og',
+    explanation: '"komme" is an infinitive depending on "prøver", so it takes the marker "at", not "og".',
+  },
+  {
+    id: 's-at-2',
+    ruleId: 'og-vs-at',
+    prompt: 'Det er svært ___ forstå.',
+    correct: 'at',
+    incorrect: 'og',
+    explanation: 'Swap in "to" — "difficult to understand" — and it confirms "at", not "og".',
+  },
+  {
+    id: 's-at-3',
+    ruleId: 'og-vs-at',
+    prompt: 'Hun plejer ___ løbe om morgenen.',
+    correct: 'at',
+    incorrect: 'og',
+    explanation: '"løbe" is an infinitive after "plejer" — the marker "at" is required.',
+  },
+  {
+    id: 's-og-1',
+    ruleId: 'og-vs-at',
+    prompt: 'Jeg købte brød ___ mælk.',
+    correct: 'og',
+    incorrect: 'at',
+    explanation: 'Here two equal things are joined ("bread and milk"), so it really is "og" — not every gap is "at".',
+  },
+  {
+    id: 's-og-2',
+    ruleId: 'og-vs-at',
+    prompt: 'Han spiser ___ drikker for meget.',
+    correct: 'og',
+    incorrect: 'at',
+    explanation: 'Two parallel verbs with the same subject ("eats and drinks") are joined by "og".',
   },
 ];
 

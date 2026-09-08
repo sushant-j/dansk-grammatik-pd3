@@ -163,7 +163,7 @@ export const RULES: Record<RuleId, Rule> = {
     ],
     fields: ['forfelt', 'finitVerbum'],
     cefr: 'A2',
-    exams: ['PD1', 'PD2', 'PD3'],
+    exams: ['PD1', 'PD2', 'PD3', 'FVU'],
   },
 
   'subject-required': {
@@ -190,7 +190,7 @@ export const RULES: Record<RuleId, Rule> = {
     ],
     fields: ['subjekt'],
     cefr: 'A1',
-    exams: ['PD1', 'PD2', 'PD3'],
+    exams: ['PD1', 'PD2', 'PD3', 'FVU'],
   },
 
   'verb-cluster-order': {

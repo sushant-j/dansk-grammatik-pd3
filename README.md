@@ -100,14 +100,17 @@ Three commitments follow from that:
 - **Stavning (FVU-oriented spelling)** — a different audience from every
   other module: FVU targets adult literacy, including for some native
   speakers, so the failure mode is sound not matching spelling, not a
-  grammar choice. Three unambiguous rules — silent d after l/n/r ("hund" vs
+  grammar choice. Four unambiguous rules — silent d after l/n/r ("hund" vs
   "hun", real minimal-pair words a learner can accidentally spell into),
   silent h in hv-words ("hvad" vs "vad", pronounced identically either way),
-  and "nogen" vs "nogle" (sentence-type-dependent, one of the most commonly
-  confused spellings even among native speakers). Same hand-written,
-  fill-in-the-blank shape as the comma module, for the same reason: a
-  spelling confusion is tied to a specific real word pair, not a property a
-  generator can derive.
+  "nogen" vs "nogle" (sentence-type-dependent, one of the most commonly
+  confused spellings even among native speakers), and "og" vs "at" before an
+  infinitive (near-homophones — "jeg prøver at komme", not "og komme" — an
+  error of the ear, not of grammar). 25 hand-written fill-in-the-blank
+  sentences, and the "og"/"at" pool deliberately includes genuine "og" cases
+  ("brød og mælk") so the skill is discriminating, not defaulting to "at".
+  Same shape as the comma module, for the same reason: a spelling confusion
+  is tied to a specific real word pair, not a property a generator can derive.
 - **Eksamensfokus (exam-target setting)** — a bias, not a filter. Picking
   PD2, PD3, or FVU never removes anything from the grammar map; it sorts
   exam-relevant rules to the top, marks the rest "NOT ON {exam}", and leans
@@ -115,7 +118,12 @@ Three commitments follow from that:
   rule the learner is genuinely weak on can still win the draw, because the
   exam tag breaks ties, it doesn't override mastery. Scoped to what's
   actually tagged (`rules.ts` + `exercises.ts`); vocabulary carries CEFR
-  levels, not exam tags, and isn't force-fit into this.
+  levels, not exam tags, and isn't force-fit into this. FVU is handled
+  honestly: its real trainer is the spelling module, so on the word-order map
+  only the two most basic sentence rules (subject required, verb in slot two)
+  are tagged FVU rather than pretending the full sætningsskema is FVU-level —
+  the picker's own copy says as much, and a regression guard keeps every
+  offered exam, FVU included, from ever dimming the whole map to a dead-end.
 
 ## Architecture
 
