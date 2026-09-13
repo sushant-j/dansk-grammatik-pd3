@@ -13,6 +13,13 @@ import {
   type MasteryLevel,
   type RuleProgress,
 } from '../src/profile/store';
+import { useVocabProfile } from '../src/profile/vocabStore';
+import { useNounProfile } from '../src/profile/nounStore';
+import { useAdjectiveProfile } from '../src/profile/adjectiveStore';
+import { useVerbProfile } from '../src/profile/verbStore';
+import { useCommaProfile } from '../src/profile/commaStore';
+import { useSpellingProfile } from '../src/profile/spellingStore';
+import { crossDomainReview, summarizeOverview } from '../src/profile/overview';
 import { EXAM_LABELS, useSettings } from '../src/profile/settings';
 import { Button, Card, Divider, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
@@ -32,6 +39,28 @@ export default function Home() {
   const stats = useProfile((st) => st.stats);
   const targetExam = useSettings((st) => st.targetExam);
 
+  // Every trainer's mastery, rolled up so "what to do next" reflects the whole
+  // app rather than just the word-order map. See profile/overview.ts.
+  const vocabStats = useVocabProfile((st) => st.stats);
+  const nounStats = useNounProfile((st) => st.stats);
+  const adjectiveStats = useAdjectiveProfile((st) => st.stats);
+  const verbStats = useVerbProfile((st) => st.stats);
+  const commaStats = useCommaProfile((st) => st.stats);
+  const spellingStats = useSpellingProfile((st) => st.stats);
+
+  const overview = useMemo(() => {
+    const domains = crossDomainReview({
+      grammar: stats,
+      verbs: verbStats,
+      nouns: nounStats,
+      adjectives: adjectiveStats,
+      comma: commaStats,
+      spelling: spellingStats,
+      vocab: vocabStats,
+    });
+    return summarizeOverview(domains);
+  }, [stats, verbStats, nounStats, adjectiveStats, commaStats, spellingStats, vocabStats]);
+
   const progress = useMemo(() => {
     const base = ruleProgress(stats);
     if (!targetExam) return base;
@@ -44,9 +73,15 @@ export default function Home() {
     });
   }, [stats, targetExam]);
   const summary = useMemo(() => summarize(stats), [stats]);
-  const started = progress.some((p) => p.attempts > 0);
 
-  const focus = summary.openGaps[0] ?? summary.refreshing[0];
+  // The app-wide widest gap drives the headline card. When that gap is in the
+  // word-order map, we keep the rich per-rule detail (drilling to the exact
+  // rule); when it is in another trainer, we hand off to that trainer honestly
+  // instead of pretending the priority is word order.
+  const widest = overview.widestGap;
+  const wordOrderGap = summary.openGaps[0] ?? summary.refreshing[0];
+  const grammarIsWidest = widest?.key === 'grammar' && !!wordOrderGap;
+  const focus = grammarIsWidest ? wordOrderGap : undefined;
 
   return (
     <Screen
@@ -77,34 +112,83 @@ export default function Home() {
           </Link>
         </View>
         <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
-          {started
-            ? `${summary.solid} of ${summary.total} rules solid. No streaks here — just what you know and what is still open.`
-            : 'Danish word order, taught the way Danish schools teach it: with the sætningsskema. Start anywhere.'}
+          {overview.started
+            ? `${overview.totalSolid} of ${overview.totalItems} solid across every trainer. No streaks here — just what you know and what is still open.`
+            : 'Danish grammar, taught the way Danish schools teach it: with the sætningsskema. Start anywhere.'}
         </Txt>
       </View>
 
-      {/* ── What to do next ────────────────────────────────────────── */}
-      <Card tone={focus ? 'accent' : 'surface'}>
-        <Label color={focus ? t.c.accent : t.c.textFaint}>
-          {focus ? (focus.needsRefresh ? 'Needs a refresh' : 'Your widest gap') : 'Start here'}
-        </Label>
-        <Txt variant="title" style={{ marginTop: t.space(2) }}>
-          {focus ? RULES[focus.ruleId].da : 'Verbet på plads nummer to (V2)'}
-        </Txt>
-        <Txt variant="body" color={t.c.textFaint} style={{ marginTop: 2, fontStyle: 'italic' }}>
-          {focus ? RULES[focus.ruleId].en : 'The finite verb sits in slot two'}
-        </Txt>
-        <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1.5) }}>
-          {focus
-            ? RULES[focus.ruleId].statement
-            : 'Six rules govern almost every word-order error at PD3 level. This is the one everything else hangs off.'}
-        </Txt>
-        <Button
-          label={focus ? 'Close this gap' : 'Begin training'}
-          onPress={() => router.push('/train')}
-          style={{ marginTop: t.space(4) }}
-        />
-      </Card>
+      {/* ── What to do next ─────────────────────────────────────────────
+          App-wide: the headline follows the widest gap wherever it is. Three
+          shapes — a rich word-order rule card, a hand-off to another trainer,
+          or (nothing open) a start / caught-up state. */}
+      {focus ? (
+        <Card tone="accent">
+          <Label color={t.c.accent}>
+            {focus.needsRefresh ? 'Needs a refresh' : 'Your widest gap'}
+          </Label>
+          <Txt variant="title" style={{ marginTop: t.space(2) }}>
+            {RULES[focus.ruleId].da}
+          </Txt>
+          <Txt variant="body" color={t.c.textFaint} style={{ marginTop: 2, fontStyle: 'italic' }}>
+            {RULES[focus.ruleId].en}
+          </Txt>
+          <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1.5) }}>
+            {RULES[focus.ruleId].statement}
+          </Txt>
+          <Button
+            label="Close this gap"
+            onPress={() => router.push('/train')}
+            style={{ marginTop: t.space(4) }}
+          />
+        </Card>
+      ) : widest ? (
+        <Card tone="accent">
+          <Label color={t.c.accent}>Your widest gap</Label>
+          <Txt variant="title" style={{ marginTop: t.space(2) }}>
+            {widest.label}
+          </Txt>
+          <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1.5) }}>
+            {widest.attention} {widest.attention === 1 ? 'rule' : 'rules'} still open here —
+            your weakest spot across the whole app right now.
+          </Txt>
+          <Button
+            label="Close this gap"
+            onPress={() => router.push(widest.route as never)}
+            style={{ marginTop: t.space(4) }}
+          />
+        </Card>
+      ) : overview.started ? (
+        <Card tone="success">
+          <Label color={t.c.success}>All caught up</Label>
+          <Txt variant="title" style={{ marginTop: t.space(2) }}>
+            Nothing open right now
+          </Txt>
+          <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1.5) }}>
+            Every rule you have practised is solid. Keep one warm, or open a trainer you have not
+            started yet — the map below shows what is still unseen.
+          </Txt>
+        </Card>
+      ) : (
+        <Card tone="surface">
+          <Label color={t.c.textFaint}>Start here</Label>
+          <Txt variant="title" style={{ marginTop: t.space(2) }}>
+            Verbet på plads nummer to (V2)
+          </Txt>
+          <Txt variant="body" color={t.c.textFaint} style={{ marginTop: 2, fontStyle: 'italic' }}>
+            The finite verb sits in slot two
+          </Txt>
+          <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1.5) }}>
+            Six rules govern almost every word-order error at PD3 level. This is the one
+            everything else hangs off.
+          </Txt>
+          <Button
+            label="Begin training"
+            onPress={() => router.push('/train')}
+            style={{ marginTop: t.space(4) }}
+          />
+        </Card>
+      )}
 
       {/* ── Writing studio ─────────────────────────────────────────── */}
       <Pressable onPress={() => router.push('/write')}>

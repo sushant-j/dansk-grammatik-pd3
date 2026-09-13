@@ -124,6 +124,15 @@ Three commitments follow from that:
   are tagged FVU rather than pretending the full sætningsskema is FVU-level —
   the picker's own copy says as much, and a regression guard keeps every
   offered exam, FVU included, from ever dimming the whole map to a dead-end.
+- **App-wide "widest gap"** — the home screen's headline recommendation rolls
+  up every trainer, not just the word-order map. A learner solid on word order
+  but shaky on verbs is now pointed at verbs, not told "you're doing great"
+  and handed a word-order card that isn't their real gap. `profile/overview.ts`
+  aggregates all seven mastery stores to one honest picture (roll-up count,
+  and the single domain with the most open gaps), working at the domain level
+  so per-word vocabulary doesn't drown out the per-rule trainers. The headline
+  card keeps its rich per-rule detail when word order *is* the priority, and
+  hands off to the right trainer when it isn't.
 
 ## Architecture
 
@@ -179,6 +188,7 @@ src/
     commaStore.ts                comma-rule learner model, same mastery math
     spellingStore.ts               spelling-rule learner model, same mastery math
     settings.ts                     target-exam preference (persisted, biases the two above)
+    overview.ts                      cross-domain roll-up — the app-wide "widest gap"
   feedback/
     types.ts               provider contract
     offlineRules.ts        deterministic checker
