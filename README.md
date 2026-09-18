@@ -145,6 +145,18 @@ Three commitments follow from that:
   iOS, and Expo Go. `profile/studyplan.ts` is a pure function over the
   overview summary; `profile/settings.ts` holds the persisted date and the
   shared day-maths both the plan and the settings display read from.
+- **First-open welcome** — the app is shared with PD3, PD2, and FVU learners
+  at once, so a newcomer's first decision is "which exam am I here for",
+  landing them on the right focus instead of leaving them to find the level
+  pill. Shown exactly once (a persisted `onboarded` flag, gated on `hydrated`
+  so it never flashes for a returning user), with a first-class "just show me
+  everything" for people not sitting a specific exam. Same honesty as the
+  settings screen: it tailors order, hides nothing, changeable anytime.
+- **Shareable static build** — `npm run build:web` produces a self-contained
+  `dist/` with no backend and no login; each person's progress lives in their
+  own browser, which is exactly right for handing one URL to many people.
+  `public/_redirects` + `public/vercel.json` ship SPA fallback so deep links
+  and refreshes survive on any static host.
 
 ## Architecture
 
@@ -207,6 +219,7 @@ src/
     offlineRules.ts        deterministic checker
     claudeCoach.ts          AI coach — interface complete, transport stubbed
   ui/
+    Onboarding.tsx           first-open "which exam?" welcome (shown once)
     Screen.tsx              max-width wrapper — the phone→web responsive seam
     theme.ts, primitives.tsx, SchemaBoard.tsx
 ```
