@@ -101,6 +101,8 @@ export interface OverviewSummary {
   totalSolid: number;
   totalItems: number;
   totalAttention: number;
+  /** Items never attempted — solid + attention + unseen === total. */
+  totalUnseen: number;
   /** True once anything anywhere has been attempted. */
   started: boolean;
   /** The domain with the most open gaps, or undefined when all are clear. */
@@ -111,9 +113,10 @@ export function summarizeOverview(domains: DomainReview[]): OverviewSummary {
   const totalSolid = domains.reduce((n, d) => n + d.solid, 0);
   const totalItems = domains.reduce((n, d) => n + d.total, 0);
   const totalAttention = domains.reduce((n, d) => n + d.attention, 0);
+  const totalUnseen = totalItems - totalSolid - totalAttention;
   const started = domains.some((d) => d.started);
   // domains is pre-sorted by crossDomainReview; the first with an open gap is
   // the widest.
   const widestGap = domains.find((d) => d.attention > 0);
-  return { totalSolid, totalItems, totalAttention, started, widestGap };
+  return { totalSolid, totalItems, totalAttention, totalUnseen, started, widestGap };
 }

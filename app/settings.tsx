@@ -2,12 +2,49 @@ import React from 'react';
 import { Pressable, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import type { Exam } from '../src/grammar/rules';
-import { EXAM_DESCRIPTIONS, EXAM_LABELS, useSettings } from '../src/profile/settings';
-import { Card, Label, Txt, s } from '../src/ui/primitives';
+import {
+  EXAM_DESCRIPTIONS,
+  EXAM_LABELS,
+  daysUntil,
+  formatExamDate,
+  shiftIso,
+  todayIso,
+  useSettings,
+} from '../src/profile/settings';
+import { Button, Card, Label, Txt, s } from '../src/ui/primitives';
 import { Screen } from '../src/ui/Screen';
 import { useTheme } from '../src/ui/theme';
 
 const EXAMS: Exam[] = ['PD2', 'PD3', 'FVU'];
+
+/** Preset "in N days from today" offsets for first-time date setting. */
+const PRESETS: { label: string; days: number }[] = [
+  { label: 'Om 2 uger', days: 14 },
+  { label: 'Om 1 måned', days: 30 },
+  { label: 'Om 6 uger', days: 42 },
+  { label: 'Om 3 måneder', days: 90 },
+];
+
+function Chip({ label, onPress }: { label: string; onPress: () => void }) {
+  const t = useTheme();
+  return (
+    <Pressable
+      onPress={onPress}
+      style={({ pressed }) => ({
+        borderWidth: 1,
+        borderColor: t.c.borderStrong,
+        borderRadius: t.radius.md,
+        paddingHorizontal: t.space(3),
+        paddingVertical: t.space(2),
+        opacity: pressed ? 0.7 : 1,
+      })}
+    >
+      <Txt variant="label" color={t.c.text}>
+        {label}
+      </Txt>
+    </Pressable>
+  );
+}
 
 /**
  * The exam-target picker.
@@ -23,6 +60,8 @@ export default function Settings() {
   const insets = useSafeAreaInsets();
   const targetExam = useSettings((st) => st.targetExam);
   const setTargetExam = useSettings((st) => st.setTargetExam);
+  const examDate = useSettings((st) => st.examDate);
+  const setExamDate = useSettings((st) => st.setExamDate);
 
   return (
     <Screen
@@ -91,6 +130,62 @@ export default function Settings() {
           shaky on is still worth practising.
         </Txt>
       </Card>
+
+      {/* ── Exam date → paced study plan ─────────────────────────────── */}
+      <View style={{ marginTop: t.space(2) }}>
+        <Txt variant="display" style={{ fontSize: 22 }}>
+          Din eksamensdato
+        </Txt>
+        <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
+          Set when you sit the exam and the home screen paces what is still open. This tracks the
+          grammar this app teaches — a readiness signal, not a guarantee of passing.
+        </Txt>
+      </View>
+
+      {examDate ? (
+        <Card tone="accent">
+          <Label color={t.c.accent}>Eksamen</Label>
+          <Txt variant="title" style={{ marginTop: t.space(1.5) }}>
+            {formatExamDate(examDate)}
+          </Txt>
+          <Txt variant="body" color={t.c.textMuted} style={{ marginTop: 2 }}>
+            {(() => {
+              const d = daysUntil(examDate);
+              if (d < 0) return `${-d} ${-d === 1 ? 'day' : 'days'} ago`;
+              if (d === 0) return 'Today';
+              return `${d} ${d === 1 ? 'day' : 'days'} away`;
+            })()}
+          </Txt>
+          <View style={[s.row, { gap: t.space(2), marginTop: t.space(3), flexWrap: 'wrap' }]}>
+            <Chip label="−1 uge" onPress={() => setExamDate(shiftIso(examDate, -7))} />
+            <Chip label="−1 dag" onPress={() => setExamDate(shiftIso(examDate, -1))} />
+            <Chip label="+1 dag" onPress={() => setExamDate(shiftIso(examDate, 1))} />
+            <Chip label="+1 uge" onPress={() => setExamDate(shiftIso(examDate, 7))} />
+          </View>
+          <Button
+            tone="ghost"
+            label="Ryd dato"
+            onPress={() => setExamDate(null)}
+            style={{ marginTop: t.space(3) }}
+          />
+        </Card>
+      ) : (
+        <Card>
+          <Label>Ingen dato sat</Label>
+          <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1.5) }}>
+            Vælg hvornår du skal til eksamen — juster bagefter dag for dag.
+          </Txt>
+          <View style={[s.wrap, { gap: t.space(2), marginTop: t.space(3) }]}>
+            {PRESETS.map((p) => (
+              <Chip
+                key={p.days}
+                label={p.label}
+                onPress={() => setExamDate(shiftIso(todayIso(), p.days))}
+              />
+            ))}
+          </View>
+        </Card>
+      )}
     </Screen>
   );
 }

@@ -20,6 +20,7 @@ import { useVerbProfile } from '../src/profile/verbStore';
 import { useCommaProfile } from '../src/profile/commaStore';
 import { useSpellingProfile } from '../src/profile/spellingStore';
 import { crossDomainReview, summarizeOverview } from '../src/profile/overview';
+import { buildStudyPlan, type Readiness } from '../src/profile/studyplan';
 import { EXAM_LABELS, useSettings } from '../src/profile/settings';
 import { Button, Card, Divider, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
@@ -83,6 +84,10 @@ export default function Home() {
   const grammarIsWidest = widest?.key === 'grammar' && !!wordOrderGap;
   const focus = grammarIsWidest ? wordOrderGap : undefined;
 
+  // Exam countdown → paced study plan. Only shown once a date is set.
+  const examDate = useSettings((st) => st.examDate);
+  const plan = useMemo(() => buildStudyPlan(examDate, overview), [examDate, overview]);
+
   return (
     <Screen
       contentContainerStyle={{
@@ -117,6 +122,31 @@ export default function Home() {
             : 'Danish grammar, taught the way Danish schools teach it: with the sætningsskema. Start anywhere.'}
         </Txt>
       </View>
+
+      {/* ── Exam countdown / study plan ─────────────────────────────────
+          Only when a date is set. The pace is arithmetic the learner can
+          check (things not yet solid ÷ weeks left), never a claim of passing. */}
+      {plan.readiness !== 'no-date' && (
+        <Pressable onPress={() => router.push('/settings')}>
+          <Card tone={readinessTone(plan.readiness)}>
+            <View style={s.rowBetween}>
+              <Label color={readinessColor(plan.readiness, t)}>
+                {plan.readiness === 'past'
+                  ? 'Exam date passed'
+                  : plan.daysLeft === 0
+                    ? 'Exam is today'
+                    : `${plan.daysLeft} ${plan.daysLeft === 1 ? 'day' : 'days'} to exam`}
+              </Label>
+              <Txt variant="label" color={t.c.textFaint}>
+                {readinessLabel(plan.readiness)}
+              </Txt>
+            </View>
+            <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(2), lineHeight: 22 }}>
+              {plan.message}
+            </Txt>
+          </Card>
+        </Pressable>
+      )}
 
       {/* ── What to do next ─────────────────────────────────────────────
           App-wide: the headline follows the widest gap wherever it is. Three
@@ -442,6 +472,49 @@ function levelColor(level: MasteryLevel, t: ReturnType<typeof useTheme>): string
       return t.c.accent;
     default:
       return t.c.textFaint;
+  }
+}
+
+function readinessTone(r: Readiness): 'success' | 'warning' | 'accent' | 'sunken' {
+  switch (r) {
+    case 'ready':
+    case 'on-track':
+      return 'success';
+    case 'tight':
+      return 'warning';
+    case 'behind':
+      return 'accent';
+    default:
+      return 'sunken'; // past
+  }
+}
+
+function readinessColor(r: Readiness, t: ReturnType<typeof useTheme>): string {
+  switch (r) {
+    case 'ready':
+    case 'on-track':
+      return t.c.success;
+    case 'tight':
+      return t.c.warning;
+    case 'behind':
+      return t.c.accent;
+    default:
+      return t.c.textFaint;
+  }
+}
+
+function readinessLabel(r: Readiness): string {
+  switch (r) {
+    case 'ready':
+      return 'KLAR';
+    case 'on-track':
+      return 'PÅ SPORET';
+    case 'tight':
+      return 'STRAMT';
+    case 'behind':
+      return 'BAGUD';
+    default:
+      return '';
   }
 }
 

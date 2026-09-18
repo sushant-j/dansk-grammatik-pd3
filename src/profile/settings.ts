@@ -19,27 +19,65 @@ import type { Exam } from '../grammar/rules';
 
 interface SettingsState {
   targetExam: Exam | null;
+  /** Exam day as 'YYYY-MM-DD', or null when unset. Drives the study plan. */
+  examDate: string | null;
   hydrated: boolean;
   setTargetExam: (exam: Exam | null) => void;
+  setExamDate: (date: string | null) => void;
 }
 
 export const useSettings = create<SettingsState>()(
   persist(
     (set) => ({
       targetExam: null,
+      examDate: null,
       hydrated: false,
       setTargetExam: (exam) => set({ targetExam: exam }),
+      setExamDate: (date) => set({ examDate: date }),
     }),
     {
       name: 'skema-settings-v1',
       storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ targetExam: s.targetExam }),
+      partialize: (s) => ({ targetExam: s.targetExam, examDate: s.examDate }),
       onRehydrateStorage: () => (state) => {
         if (state) state.hydrated = true;
       },
     },
   ),
 );
+
+/** Format an ISO 'YYYY-MM-DD' as a short human date, e.g. "18 Sep 2026". */
+export function formatExamDate(iso: string): string {
+  const d = new Date(iso + 'T00:00:00');
+  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+}
+
+/** Today as 'YYYY-MM-DD' in local time. */
+export function todayIso(now = new Date()): string {
+  const y = now.getFullYear();
+  const m = String(now.getMonth() + 1).padStart(2, '0');
+  const d = String(now.getDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
+}
+
+/** Shift an ISO date by whole days, returning a new ISO date. */
+export function shiftIso(iso: string, days: number): string {
+  const d = new Date(iso + 'T00:00:00');
+  d.setDate(d.getDate() + days);
+  return todayIso(d);
+}
+
+/**
+ * Whole days from now until an ISO exam date, at day granularity (the time of
+ * day is ignored, so "the exam is today" reads as 0). Negative once past.
+ * Matches the study planner's own day maths so the two never disagree.
+ */
+export function daysUntil(iso: string, now = Date.now()): number {
+  const exam = new Date(iso + 'T00:00:00').getTime();
+  const t = new Date(now);
+  const todayMidnight = new Date(t.getFullYear(), t.getMonth(), t.getDate()).getTime();
+  return Math.floor((exam - todayMidnight) / 86_400_000);
+}
 
 export const EXAM_LABELS: Record<Exam, string> = {
   PD1: 'PD1',

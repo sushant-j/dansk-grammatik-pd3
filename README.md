@@ -133,6 +133,18 @@ Three commitments follow from that:
   so per-word vocabulary doesn't drown out the per-rule trainers. The headline
   card keeps its rich per-rule detail when word order *is* the priority, and
   hands off to the right trainer when it isn't.
+- **Exam study plan** — set your exam date and the home screen turns the
+  cross-domain roll-up into a paced, time-bound plan: a countdown, and a
+  readiness band (on-track / tight / behind / ready) with a message whose
+  maths the learner can check — things not yet solid ÷ weeks left. Two
+  honesty rules hold throughout: "ready" means solid on everything *this app
+  teaches*, never a guarantee of passing (the app doesn't test speaking,
+  task fulfilment, or examiner judgement), and the pace is arithmetic, not a
+  hidden model. The date is set with presets plus day/week adjusters — no
+  native date-picker dependency, so it behaves identically on web, Android,
+  iOS, and Expo Go. `profile/studyplan.ts` is a pure function over the
+  overview summary; `profile/settings.ts` holds the persisted date and the
+  shared day-maths both the plan and the settings display read from.
 
 ## Architecture
 
@@ -187,8 +199,9 @@ src/
     verbStore.ts               verb-rule learner model, same mastery math
     commaStore.ts                comma-rule learner model, same mastery math
     spellingStore.ts               spelling-rule learner model, same mastery math
-    settings.ts                     target-exam preference (persisted, biases the two above)
+    settings.ts                     target-exam preference + exam date (persisted); shared day-maths
     overview.ts                      cross-domain roll-up — the app-wide "widest gap"
+    studyplan.ts                     exam date + roll-up → paced, honest readiness plan
   feedback/
     types.ts               provider contract
     offlineRules.ts        deterministic checker
