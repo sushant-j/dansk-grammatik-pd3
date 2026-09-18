@@ -21,9 +21,18 @@ interface SettingsState {
   targetExam: Exam | null;
   /** Exam day as 'YYYY-MM-DD', or null when unset. Drives the study plan. */
   examDate: string | null;
+  /**
+   * Whether the first-open welcome has been completed. Persisted, so a shared
+   * newcomer sees the "which exam?" prompt once and never again — while a
+   * returning user is never interrupted by it.
+   */
+  onboarded: boolean;
+  /** True once persisted state has loaded; gates the welcome so it never
+   *  flashes before we know whether the user has onboarded already. */
   hydrated: boolean;
   setTargetExam: (exam: Exam | null) => void;
   setExamDate: (date: string | null) => void;
+  setOnboarded: (done: boolean) => void;
 }
 
 export const useSettings = create<SettingsState>()(
@@ -31,14 +40,20 @@ export const useSettings = create<SettingsState>()(
     (set) => ({
       targetExam: null,
       examDate: null,
+      onboarded: false,
       hydrated: false,
       setTargetExam: (exam) => set({ targetExam: exam }),
       setExamDate: (date) => set({ examDate: date }),
+      setOnboarded: (done) => set({ onboarded: done }),
     }),
     {
       name: 'skema-settings-v1',
       storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ targetExam: s.targetExam, examDate: s.examDate }),
+      partialize: (s) => ({
+        targetExam: s.targetExam,
+        examDate: s.examDate,
+        onboarded: s.onboarded,
+      }),
       onRehydrateStorage: () => (state) => {
         if (state) state.hydrated = true;
       },

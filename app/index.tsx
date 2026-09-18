@@ -22,6 +22,7 @@ import { useSpellingProfile } from '../src/profile/spellingStore';
 import { crossDomainReview, summarizeOverview } from '../src/profile/overview';
 import { buildStudyPlan, type Readiness } from '../src/profile/studyplan';
 import { EXAM_LABELS, useSettings } from '../src/profile/settings';
+import { Onboarding } from '../src/ui/Onboarding';
 import { Button, Card, Divider, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
 
@@ -87,6 +88,25 @@ export default function Home() {
   // Exam countdown → paced study plan. Only shown once a date is set.
   const examDate = useSettings((st) => st.examDate);
   const plan = useMemo(() => buildStudyPlan(examDate, overview), [examDate, overview]);
+
+  // First-open welcome. Gated on `hydrated` so it never flashes before we know
+  // whether this person has already onboarded (a returning user must not see
+  // it). All hooks run above this line — the conditional return is last.
+  const settingsHydrated = useSettings((st) => st.hydrated);
+  const onboarded = useSettings((st) => st.onboarded);
+  const setTargetExam = useSettings((st) => st.setTargetExam);
+  const setOnboarded = useSettings((st) => st.setOnboarded);
+
+  if (settingsHydrated && !onboarded) {
+    return (
+      <Onboarding
+        onPick={(exam) => {
+          setTargetExam(exam);
+          setOnboarded(true);
+        }}
+      />
+    );
+  }
 
   return (
     <Screen
