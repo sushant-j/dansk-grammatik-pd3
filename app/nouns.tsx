@@ -1,4 +1,5 @@
 import React, { useCallback, useState } from 'react';
+import { useActivity } from '../src/profile/activity';
 import { Pressable, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { NOUN_RULES } from '../src/grammar/nounRules';
@@ -35,6 +36,7 @@ export default function Nouns() {
       if (picked !== null) return;
       setPicked(i);
       record(question.ruleId, i === question.correctIndex);
+      useActivity.getState().markToday();
     },
     [picked, question, record],
   );
@@ -57,10 +59,10 @@ export default function Nouns() {
     >
       <View>
         <Txt variant="display" style={{ fontSize: 26 }}>
-          En-ord og et-ord
+          Gender: en / et
         </Txt>
         <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
-          {summary.solid} af {summary.total} regler solide. Gender is memorised per word — this
+          {summary.solid} of {summary.total} rules solid. Gender is memorised per word — this
           drills the two rules that follow from it.
         </Txt>
       </View>
@@ -137,13 +139,13 @@ export default function Nouns() {
         <View style={{ gap: t.space(3) }}>
           <Card tone={picked === question.correctIndex ? 'success' : 'warning'}>
             <Label color={picked === question.correctIndex ? t.c.success : t.c.warning}>
-              {picked === question.correctIndex ? 'Rigtigt' : 'Ikke helt'}
+              {picked === question.correctIndex ? 'Correct' : 'Not quite'}
             </Label>
             <Txt variant="body" style={{ marginTop: t.space(2), lineHeight: 22 }}>
               {question.explanation}
             </Txt>
           </Card>
-          <Button label="Næste ord" onPress={advance} />
+          <Button label="Next" onPress={advance} />
         </View>
       ) : null}
     </Screen>

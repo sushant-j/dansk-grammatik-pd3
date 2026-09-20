@@ -1,4 +1,5 @@
 import { useRouter } from 'expo-router';
+import { useActivity } from '../src/profile/activity';
 import React, { useCallback, useMemo, useState } from 'react';
 import { View } from 'react-native';
 
@@ -76,6 +77,7 @@ export default function Train() {
     setResult(evaluation);
     const violated = [...new Set(evaluation.diagnoses.map((d) => d.ruleId))];
     record(exercise, evaluation.correct, violated);
+    useActivity.getState().markToday();
   }, [exercise, placement, record]);
 
   const advance = useCallback(() => {

@@ -21,18 +21,20 @@ import { useCommaProfile } from '../src/profile/commaStore';
 import { useSpellingProfile } from '../src/profile/spellingStore';
 import { crossDomainReview, summarizeOverview } from '../src/profile/overview';
 import { buildStudyPlan, type Readiness } from '../src/profile/studyplan';
+import { computeStreak, useActivity } from '../src/profile/activity';
 import { EXAM_LABELS, useSettings } from '../src/profile/settings';
 import { Onboarding } from '../src/ui/Onboarding';
 import { Button, Card, Divider, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
 
 /**
- * Home is the grammar map, not a streak dashboard.
+ * Home — the app-wide "what do I do next" screen.
  *
  * The organising promise: you can see exactly which rules you own and which
- * are still open, and the app tells you what to do about it. Nothing here
- * counts consecutive days, and nothing is lost by taking a week off — a decayed
- * rule simply asks for a refresh.
+ * are still open, and the app tells you what to do about it. Nothing is lost
+ * by taking a week off — a decayed rule simply asks for a refresh. The daily
+ * streak and full progress breakdown live on their own /progress page; home
+ * just surfaces the streak as an entry point.
  */
 export default function Home() {
   const router = useRouter();
@@ -89,6 +91,10 @@ export default function Home() {
   const examDate = useSettings((st) => st.examDate);
   const plan = useMemo(() => buildStudyPlan(examDate, overview), [examDate, overview]);
 
+  // Daily streak, for the progress entry point.
+  const activeDays = useActivity((st) => st.activeDays);
+  const streak = useMemo(() => computeStreak(activeDays), [activeDays]);
+
   // First-open welcome. Gated on `hydrated` so it never flashes before we know
   // whether this person has already onboarded (a returning user must not see
   // it). All hooks run above this line — the conditional return is last.
@@ -119,7 +125,7 @@ export default function Home() {
       {/* ── Orientation ────────────────────────────────────────────── */}
       <View>
         <View style={s.rowBetween}>
-          <Txt variant="display">Din grammatik</Txt>
+          <Txt variant="display">Your grammar</Txt>
           <Link href="/settings" asChild>
             <Pressable
               style={{
@@ -131,14 +137,14 @@ export default function Home() {
               }}
             >
               <Txt variant="label" color={t.c.textMuted}>
-                {targetExam ? EXAM_LABELS[targetExam] : 'ALLE'}
+                {targetExam ? EXAM_LABELS[targetExam] : 'ALL'}
               </Txt>
             </Pressable>
           </Link>
         </View>
         <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
           {overview.started
-            ? `${overview.totalSolid} of ${overview.totalItems} solid across every trainer. No streaks here — just what you know and what is still open.`
+            ? `${overview.totalSolid} of ${overview.totalItems} solid across every trainer — what you know, and what is still open.`
             : 'Danish grammar, taught the way Danish schools teach it: with the sætningsskema. Start anywhere.'}
         </Txt>
       </View>
@@ -240,12 +246,34 @@ export default function Home() {
         </Card>
       )}
 
+      {/* ── Progress & streak ──────────────────────────────────────── */}
+      <Pressable onPress={() => router.push('/progress')}>
+        <Card>
+          <View style={s.rowBetween}>
+            <View style={{ flex: 1, paddingRight: t.space(3) }}>
+              <Label>Progress</Label>
+              <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
+                {streak.current > 0
+                  ? `${streak.current}-day streak${streak.activeToday ? '' : ' · practice today to keep it'}`
+                  : 'Your progress & streak'}
+              </Txt>
+              <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
+                Overall mastery, your daily streak, and how each trainer is coming along.
+              </Txt>
+            </View>
+            <Txt variant="title" color={t.c.textFaint}>
+              →
+            </Txt>
+          </View>
+        </Card>
+      </Pressable>
+
       {/* ── Writing studio ─────────────────────────────────────────── */}
       <Pressable onPress={() => router.push('/write')}>
         <Card>
           <View style={s.rowBetween}>
             <View style={{ flex: 1, paddingRight: t.space(3) }}>
-              <Label>Skriftlig fremstilling</Label>
+              <Label>Written</Label>
               <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
                 Writing studio
               </Txt>
@@ -265,13 +293,13 @@ export default function Home() {
         <Card>
           <View style={s.rowBetween}>
             <View style={{ flex: 1, paddingRight: t.space(3) }}>
-              <Label>Mundtlig kommunikation</Label>
+              <Label>Speaking</Label>
               <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
-                Emnearkiv, {Math.min(...allYears())}–{Math.max(...allYears())}
+                Topic archive, {Math.min(...allYears())}–{Math.max(...allYears())}
               </Txt>
               <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
-                {TOPICS.length} rigtige eksamensemner med modelsvar. Søg hvad der er blevet
-                spurgt om, og hvornår.
+                {TOPICS.length} real exam topics with model answers. Search what has been asked,
+                and when.
               </Txt>
             </View>
             <Txt variant="title" color={t.c.textFaint}>
@@ -286,13 +314,12 @@ export default function Home() {
         <Card>
           <View style={s.rowBetween}>
             <View style={{ flex: 1, paddingRight: t.space(3) }}>
-              <Label>Svære ord</Label>
+              <Label>Hard words</Label>
               <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
-                Ordforråd
+                Vocabulary
               </Txt>
               <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
-                {VOCABULARY.length} argumenterende ord og vendinger, hver med et eksempel fra en
-                rigtig eksamensbesvarelse.
+                {VOCABULARY.length} argumentative words and phrases, each with an example from a real exam answer.
               </Txt>
             </View>
             <Txt variant="title" color={t.c.textFaint}>
@@ -307,9 +334,9 @@ export default function Home() {
         <Card>
           <View style={s.rowBetween}>
             <View style={{ flex: 1, paddingRight: t.space(3) }}>
-              <Label>Køn og bestemthed</Label>
+              <Label>Gender & definiteness</Label>
               <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
-                En-ord og et-ord
+                Gender: en / et
               </Txt>
               <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
                 Gender, the definite suffix, and double definiteness — "den røde bil", never
@@ -328,9 +355,9 @@ export default function Home() {
         <Card>
           <View style={s.rowBetween}>
             <View style={{ flex: 1, paddingRight: t.space(3) }}>
-              <Label>Bøjning</Label>
+              <Label>Inflection</Label>
               <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
-                Adjektivets former
+                Adjective agreement
               </Txt>
               <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
                 Base, -t, or -e — "en rød bil", "et rødt hus", "de røde biler". The same fact
@@ -349,9 +376,9 @@ export default function Home() {
         <Card>
           <View style={s.rowBetween}>
             <View style={{ flex: 1, paddingRight: t.space(3) }}>
-              <Label>Tid</Label>
+              <Label>Tense</Label>
               <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
-                Datid og førnutid
+                Verb tenses
               </Txt>
               <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
                 "Gik", not "gåede" — and "han ER gået" but "hun HAR set". Weak verbs take a
@@ -370,9 +397,9 @@ export default function Home() {
         <Card>
           <View style={s.rowBetween}>
             <View style={{ flex: 1, paddingRight: t.space(3) }}>
-              <Label>Tegnsætning</Label>
+              <Label>Punctuation</Label>
               <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
-                Kommaregler
+                Comma rules
               </Txt>
               <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
                 Comma before "men", never before "og" — and no comma before the last item in a
@@ -391,9 +418,9 @@ export default function Home() {
         <Card>
           <View style={s.rowBetween}>
             <View style={{ flex: 1, paddingRight: t.space(3) }}>
-              <Label>Stavning · FVU</Label>
+              <Label>Spelling · FVU</Label>
               <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
-                Stavning
+                Spelling
               </Txt>
               <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
                 "Hund", not "hun" — a different failure mode from every other module here: sound
@@ -526,13 +553,13 @@ function readinessColor(r: Readiness, t: ReturnType<typeof useTheme>): string {
 function readinessLabel(r: Readiness): string {
   switch (r) {
     case 'ready':
-      return 'KLAR';
+      return 'READY';
     case 'on-track':
-      return 'PÅ SPORET';
+      return 'ON TRACK';
     case 'tight':
-      return 'STRAMT';
+      return 'TIGHT';
     case 'behind':
-      return 'BAGUD';
+      return 'BEHIND';
     default:
       return '';
   }

@@ -1,4 +1,5 @@
 import React, { useCallback, useState } from 'react';
+import { useActivity } from '../src/profile/activity';
 import { Pressable, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ADJECTIVE_RULES } from '../src/grammar/adjectiveRules';
@@ -43,6 +44,7 @@ export default function Adjectives() {
       if (picked !== null) return;
       setPicked(i);
       record(question.ruleId, i === question.correctIndex);
+      useActivity.getState().markToday();
     },
     [picked, question, record],
   );
@@ -65,10 +67,10 @@ export default function Adjectives() {
     >
       <View>
         <Txt variant="display" style={{ fontSize: 26 }}>
-          Adjektivets former
+          Adjective agreement
         </Txt>
         <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
-          {summary.solid} af {summary.total} regler solide. One adjective, three forms — which one
+          {summary.solid} of {summary.total} rules solid. One adjective, three forms — which one
           depends on the noun's gender, number, and definiteness, never on the adjective itself.
         </Txt>
       </View>
@@ -145,13 +147,13 @@ export default function Adjectives() {
         <View style={{ gap: t.space(3) }}>
           <Card tone={picked === question.correctIndex ? 'success' : 'warning'}>
             <Label color={picked === question.correctIndex ? t.c.success : t.c.warning}>
-              {picked === question.correctIndex ? 'Rigtigt' : 'Ikke helt'}
+              {picked === question.correctIndex ? 'Correct' : 'Not quite'}
             </Label>
             <Txt variant="body" style={{ marginTop: t.space(2), lineHeight: 22 }}>
               {question.explanation}
             </Txt>
           </Card>
-          <Button label="Næste ord" onPress={advance} />
+          <Button label="Next" onPress={advance} />
         </View>
       ) : null}
     </Screen>

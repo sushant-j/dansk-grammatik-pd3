@@ -20,7 +20,7 @@ export default function PracticeTopics() {
 
   return (
     <>
-      <Stack.Screen options={{ title: 'Øvelsesemner' }} />
+      <Stack.Screen options={{ title: 'Practice topics' }} />
       <Screen
         contentContainerStyle={{
           padding: t.space(4),
@@ -30,12 +30,10 @@ export default function PracticeTopics() {
       >
         <View>
           <Txt variant="display" style={{ fontSize: 26 }}>
-            Øvelsesemner
+            Practice topics
           </Txt>
           <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1.5) }}>
-            Ikke rigtige eksamensopgaver. Skrevet i det officielle mønster — årsag,
-            konsekvens, fordele/ulemper, holdning — om emner arkivet endnu ikke dækker, så du
-            kan øve dig bredere end det, der allerede har været spurgt om.
+            Not real exam tasks. Written in the official pattern — cause, consequence, pros/cons, opinion — on subjects the archive does not cover yet, so you can practise more broadly than what has already been asked.
           </Txt>
         </View>
 

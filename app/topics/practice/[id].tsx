@@ -8,12 +8,12 @@ import { Card, Divider, Label, Txt, s } from '../../../src/ui/primitives';
 import { useTheme } from '../../../src/ui/theme';
 
 const KIND_LABEL: Record<string, string> = {
-  'first-a': 'Første obligatoriske spørgsmål · A',
-  'first-a-follow': 'Opfølgende spørgsmål',
-  'first-b': 'Første obligatoriske spørgsmål · B',
-  'first-b-follow': 'Opfølgende spørgsmål',
-  second: 'Andet obligatoriske spørgsmål',
-  'second-follow': 'Opfølgende spørgsmål',
+  'first-a': 'First required question · A',
+  'first-a-follow': 'Follow-up question',
+  'first-b': 'First required question · B',
+  'first-b-follow': 'Follow-up question',
+  second: 'Second required question',
+  'second-follow': 'Follow-up question',
 };
 
 /**
@@ -33,7 +33,7 @@ export default function PracticeTopicDetail() {
   if (!topic) {
     return (
       <View style={{ flex: 1, backgroundColor: t.c.bg, padding: t.space(4) }}>
-        <Txt variant="title">Øvelsesemne ikke fundet</Txt>
+        <Txt variant="title">Practice topic not found</Txt>
       </View>
     );
   }
@@ -112,10 +112,9 @@ export default function PracticeTopicDetail() {
 
         <Divider />
         <Card tone="accent">
-          <Label color={t.c.accent}>Husk</Label>
+          <Label color={t.c.accent}>Remember</Label>
           <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(2), lineHeight: 22 }}>
-            Dette emne er ikke sat til en rigtig eksamen. Det følger mønsteret, men brug det til
-            at øve strukturen og argumentationen — ikke til at forudsige den næste eksamen.
+            This topic was not set for a real exam. It follows the pattern, but use it to practise structure and argument — not to predict the next exam.
           </Txt>
         </Card>
       </Screen>

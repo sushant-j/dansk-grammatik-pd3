@@ -38,7 +38,7 @@ export function Onboarding({ onPick }: { onPick: (exam: Exam | null) => void }) 
       }}
     >
       <View>
-        <Txt variant="display">Velkommen til Skema</Txt>
+        <Txt variant="display">Welcome to Skema</Txt>
         <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(2), lineHeight: 22 }}>
           Danish grammar, taught the way Danish schools teach it — with the sætningsskema, plus
           spelling, verbs, commas and the words the exams actually use.
@@ -46,7 +46,7 @@ export function Onboarding({ onPick }: { onPick: (exam: Exam | null) => void }) 
       </View>
 
       <View>
-        <Txt variant="title">Hvilken prøve forbereder du dig til?</Txt>
+        <Txt variant="title">Which exam are you preparing for?</Txt>
         <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
           This just tailors the order and what you are shown first. Nothing is hidden, and you can
           change it anytime.
@@ -75,7 +75,7 @@ export function Onboarding({ onPick }: { onPick: (exam: Exam | null) => void }) 
         <Card tone="sunken">
           <View style={s.rowBetween}>
             <View style={{ flex: 1, paddingRight: t.space(3) }}>
-              <Txt variant="heading">Bare vis mig det hele</Txt>
+              <Txt variant="heading">Just show me everything</Txt>
               <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
                 Not sitting a specific exam, or not sure yet? Start with everything in view.
               </Txt>

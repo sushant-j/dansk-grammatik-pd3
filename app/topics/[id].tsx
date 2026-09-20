@@ -24,7 +24,7 @@ export default function TopicDetail() {
   if (!topic) {
     return (
       <View style={{ flex: 1, backgroundColor: t.c.bg, padding: t.space(4) }}>
-        <Txt variant="title">Emne ikke fundet</Txt>
+        <Txt variant="title">Topic not found</Txt>
       </View>
     );
   }
@@ -49,7 +49,7 @@ export default function TopicDetail() {
         <View>
           <Label>
             {topic.year}-{topic.term}
-            {topic.label ? ` · Emne ${topic.label}` : ''}
+            {topic.label ? ` · Topic ${topic.label}` : ''}
           </Label>
           <Txt variant="display" style={{ marginTop: t.space(2), fontSize: 26 }}>
             {topic.title}
@@ -60,10 +60,10 @@ export default function TopicDetail() {
           <Card key={i} tone={q.kind === 'follow' ? 'sunken' : 'surface'}>
             <Label color={q.kind === 'follow' ? t.c.textFaint : t.c.accent}>
               {q.kind === 'follow'
-                ? 'Opfølgende spørgsmål'
+                ? 'Follow-up question'
                 : q.kind === 'obligatory'
-                  ? 'Andet obligatoriske spørgsmål'
-                  : 'Spørgsmål'}
+                  ? 'Second required question'
+                  : 'Question'}
             </Label>
             <Txt variant="heading" style={{ marginTop: t.space(2), lineHeight: 24 }}>
               {q.q}
@@ -99,11 +99,9 @@ export default function TopicDetail() {
 
         <Divider />
         <Card tone="sunken">
-          <Label>Sådan bruger du et modelsvar</Label>
+          <Label>How to use a model answer</Label>
           <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(2), lineHeight: 22 }}>
-            Læs spørgsmålet højt, svar selv i 20–30 sekunder, og tjek derefter modelsvaret. De
-            fremhævede ord er linkeord — øv dig i at genbruge dem i dit eget svar frem for at
-            lære modelsvaret udenad.
+            Read the question aloud, answer it yourself for 20–30 seconds, then check the model answer. The highlighted words are linking words — practise reusing them in your own answer rather than memorising the model.
           </Txt>
         </Card>
       </Screen>

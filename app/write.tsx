@@ -79,7 +79,7 @@ export default function Write() {
           <Button
             key={i}
             tone={i === taskIdx ? 'primary' : 'ghost'}
-            label={tk.kind === 'essay' ? 'Opgave' : tk.register === 'formel' ? 'Formel' : 'Uformel'}
+            label={tk.kind === 'essay' ? 'Essay' : tk.register === 'formel' ? 'Formal' : 'Informal'}
             onPress={() => {
               setTaskIdx(i);
               setFeedback(null);
@@ -92,8 +92,8 @@ export default function Write() {
       <Card tone="sunken">
         <Label>
           {task.kind === 'essay'
-            ? `Skriftlig fremstilling · min. ${task.minWords} ord`
-            : `Brev · ${task.register}`}
+            ? `Essay · min. ${task.minWords} words`
+            : `Letter · ${task.register === 'formel' ? 'formal' : 'informal'}`}
         </Label>
         <Txt variant="body" style={{ marginTop: t.space(2), lineHeight: 23 }}>
           {task.prompt}
@@ -103,9 +103,9 @@ export default function Write() {
       {/* Editor */}
       <View>
         <View style={s.rowBetween}>
-          <Label>Din tekst</Label>
+          <Label>Your text</Label>
           <Txt variant="label" color={words ? t.c.textMuted : t.c.textFaint}>
-            {words} ORD
+            {words} WORDS
           </Txt>
         </View>
         <TextInput
@@ -115,7 +115,7 @@ export default function Write() {
             setText(v);
             setFeedback(null);
           }}
-          placeholder="Skriv her…"
+          placeholder="Write here…"
           placeholderTextColor={t.c.textFaint}
           textAlignVertical="top"
           style={{

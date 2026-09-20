@@ -36,7 +36,7 @@ export type DomainKey =
 
 export interface DomainReview {
   key: DomainKey;
-  /** Danish module name, matching the trainer's own screen title. */
+  /** English module name, matching the trainer's own screen title. */
   label: string;
   /** expo-router path the "review this" action should push. */
   route: string;
@@ -81,13 +81,13 @@ export interface OverviewStats {
 
 export function crossDomainReview(s: OverviewStats, now = Date.now()): DomainReview[] {
   const domains: DomainReview[] = [
-    { key: 'grammar', label: 'Sætningsskema', route: '/train', ...tally(ruleProgress(s.grammar, now)) },
-    { key: 'verbs', label: 'Datid og førnutid', route: '/verbs', ...tally(verbRuleProgress(s.verbs, now)) },
-    { key: 'nouns', label: 'En-ord og et-ord', route: '/nouns', ...tally(nounRuleProgress(s.nouns, now)) },
-    { key: 'adjectives', label: 'Adjektivets former', route: '/adjectives', ...tally(adjectiveRuleProgress(s.adjectives, now)) },
-    { key: 'comma', label: 'Kommaregler', route: '/comma', ...tally(commaRuleProgress(s.comma, now)) },
-    { key: 'spelling', label: 'Stavning', route: '/spelling', ...tally(spellingRuleProgress(s.spelling, now)) },
-    { key: 'vocab', label: 'Ordforråd', route: '/vocab', ...tally(vocabProgress(s.vocab, now)) },
+    { key: 'grammar', label: 'Word order', route: '/train', ...tally(ruleProgress(s.grammar, now)) },
+    { key: 'verbs', label: 'Verb tenses', route: '/verbs', ...tally(verbRuleProgress(s.verbs, now)) },
+    { key: 'nouns', label: 'Gender: en / et', route: '/nouns', ...tally(nounRuleProgress(s.nouns, now)) },
+    { key: 'adjectives', label: 'Adjective agreement', route: '/adjectives', ...tally(adjectiveRuleProgress(s.adjectives, now)) },
+    { key: 'comma', label: 'Comma rules', route: '/comma', ...tally(commaRuleProgress(s.comma, now)) },
+    { key: 'spelling', label: 'Spelling', route: '/spelling', ...tally(spellingRuleProgress(s.spelling, now)) },
+    { key: 'vocab', label: 'Vocabulary', route: '/vocab', ...tally(vocabProgress(s.vocab, now)) },
   ];
 
   // Most open gaps first; ties broken by the smaller solid fraction, so a

@@ -85,18 +85,17 @@ export default function TopicsIndex() {
       <View style={{ padding: t.space(4), paddingBottom: t.space(2), gap: t.space(3) }}>
         <View>
           <Txt variant="display" style={{ fontSize: 26 }}>
-            Emnearkiv
+            Topic archive
           </Txt>
           <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
-            {TOPICS.length} emner fra rigtige eksamener, 2011–2020, plus de seneste officielle
-            emner. Søg for at se, hvad der allerede er blevet spurgt om.
+            {TOPICS.length} real exam topics, 2011–2020, plus the most recent official ones. Search to see what has already been asked.
           </Txt>
         </View>
 
         <TextInput
           value={query}
           onChangeText={setQuery}
-          placeholder="Søg emne, spørgsmål eller ord…"
+          placeholder="Search topic, question or word…"
           placeholderTextColor={t.c.textFaint}
           style={{
             backgroundColor: t.c.surface,
@@ -129,7 +128,7 @@ export default function TopicsIndex() {
               }}
             >
               <Txt variant="chip" color={yearFilter === y ? t.c.accent : t.c.textMuted}>
-                {y === null ? 'Alle år' : y}
+                {y === null ? 'All years' : y}
               </Txt>
             </Pressable>
           )}
@@ -159,14 +158,12 @@ export default function TopicsIndex() {
         ListFooterComponent={
           <Pressable onPress={() => router.push('/topics/practice')} style={{ marginTop: t.space(2) }}>
             <Card tone="accent">
-              <Label color={t.c.accent}>{PRACTICE_TOPICS.length} ØVELSESEMNER</Label>
+              <Label color={t.c.accent}>{PRACTICE_TOPICS.length} PRACTICE TOPICS</Label>
               <Txt variant="heading" style={{ marginTop: t.space(2) }}>
-                Emner der endnu ikke har været sat
+                Topics the archive does not cover yet
               </Txt>
               <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1.5) }}>
-                Skrevet i eksamenens eget mønster (årsag, konsekvens, fordele/ulemper,
-                holdning) om emner som politik, ulighed og forældreskab — for at holde dig
-                skarp på emner, arkivet endnu ikke dækker.
+                Written in the exam’s own pattern (cause, consequence, pros/cons, opinion) on subjects like politics, inequality and parenthood — to keep you sharp on areas the archive does not cover yet.
               </Txt>
             </Card>
           </Pressable>
@@ -185,9 +182,9 @@ function TopicRow({ row }: { row: Row }) {
       <Card tone="sunken">
         <View style={s.rowBetween}>
           <Label>
-            {row.year}-{row.term} · Emne {row.label}
+            {row.year}-{row.term} · Topic {row.label}
           </Label>
-          <Label color={t.c.textFaint}>OFFICIEL</Label>
+          <Label color={t.c.textFaint}>OFFICIAL</Label>
         </View>
         <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
           {row.title}
@@ -196,7 +193,7 @@ function TopicRow({ row }: { row: Row }) {
           {row.scenes.join(' · ')}
         </Txt>
         <Txt variant="body" color={t.c.textFaint} style={{ marginTop: t.space(1.5), fontSize: 12 }}>
-          Eksamensark uden trykt facitliste — eksaminator bygger spørgsmål ud fra billederne.
+          Exam sheet with no printed answer key — the examiner builds questions from the pictures.
         </Txt>
       </Card>
     );
@@ -210,9 +207,9 @@ function TopicRow({ row }: { row: Row }) {
           <View style={s.rowBetween}>
             <Label>
               {topic.year}-{topic.term}
-              {topic.label ? ` · Emne ${topic.label}` : ''}
+              {topic.label ? ` · Topic ${topic.label}` : ''}
             </Label>
-            <Label color={t.c.textFaint}>{topic.questions.length} SPØRGSMÅL</Label>
+            <Label color={t.c.textFaint}>{topic.questions.length} QUESTIONS</Label>
           </View>
           <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
             {topic.title}

@@ -10,6 +10,7 @@ import {
   shiftIso,
   todayIso,
   useSettings,
+  type ThemeMode,
 } from '../src/profile/settings';
 import { Button, Card, Label, Txt, s } from '../src/ui/primitives';
 import { Screen } from '../src/ui/Screen';
@@ -19,10 +20,10 @@ const EXAMS: Exam[] = ['PD2', 'PD3', 'FVU'];
 
 /** Preset "in N days from today" offsets for first-time date setting. */
 const PRESETS: { label: string; days: number }[] = [
-  { label: 'Om 2 uger', days: 14 },
-  { label: 'Om 1 måned', days: 30 },
-  { label: 'Om 6 uger', days: 42 },
-  { label: 'Om 3 måneder', days: 90 },
+  { label: 'In 2 weeks', days: 14 },
+  { label: 'In 1 month', days: 30 },
+  { label: 'In 6 weeks', days: 42 },
+  { label: 'In 3 months', days: 90 },
 ];
 
 function Chip({ label, onPress }: { label: string; onPress: () => void }) {
@@ -62,6 +63,14 @@ export default function Settings() {
   const setTargetExam = useSettings((st) => st.setTargetExam);
   const examDate = useSettings((st) => st.examDate);
   const setExamDate = useSettings((st) => st.setExamDate);
+  const themeMode = useSettings((st) => st.themeMode);
+  const setThemeMode = useSettings((st) => st.setThemeMode);
+
+  const THEME_OPTIONS: { mode: ThemeMode; label: string }[] = [
+    { mode: 'system', label: 'System' },
+    { mode: 'light', label: 'Light' },
+    { mode: 'dark', label: 'Dark' },
+  ];
 
   return (
     <Screen
@@ -71,9 +80,42 @@ export default function Settings() {
         gap: t.space(4),
       }}
     >
+      {/* ── Appearance ───────────────────────────────────────────────── */}
       <View>
         <Txt variant="display" style={{ fontSize: 26 }}>
-          Dit eksamensfokus
+          Appearance
+        </Txt>
+        <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
+          Light, dark, or follow your device.
+        </Txt>
+      </View>
+      <View style={[s.row, { gap: t.space(2) }]}>
+        {THEME_OPTIONS.map((o) => {
+          const active = themeMode === o.mode;
+          return (
+            <Pressable key={o.mode} onPress={() => setThemeMode(o.mode)} style={{ flex: 1 }}>
+              <View
+                style={{
+                  borderWidth: 1.5,
+                  borderColor: active ? t.c.accent : t.c.border,
+                  backgroundColor: active ? t.c.accentSoft : t.c.surface,
+                  borderRadius: t.radius.md,
+                  paddingVertical: t.space(3),
+                  alignItems: 'center',
+                }}
+              >
+                <Txt variant="heading" color={active ? t.c.accent : t.c.text} style={{ fontSize: 15 }}>
+                  {o.label}
+                </Txt>
+              </View>
+            </Pressable>
+          );
+        })}
+      </View>
+
+      <View style={{ marginTop: t.space(2) }}>
+        <Txt variant="display" style={{ fontSize: 26 }}>
+          Your exam focus
         </Txt>
         <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
           This does not hide anything. Every rule stays on the map regardless of what you pick —
@@ -85,7 +127,7 @@ export default function Settings() {
         <Card tone={targetExam === null ? 'accent' : 'surface'}>
           <View style={s.rowBetween}>
             <View style={{ flex: 1, paddingRight: t.space(3) }}>
-              <Txt variant="heading">Intet fokus</Txt>
+              <Txt variant="heading">No focus</Txt>
               <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
                 See everything in the order it naturally comes up. The default.
               </Txt>
@@ -134,7 +176,7 @@ export default function Settings() {
       {/* ── Exam date → paced study plan ─────────────────────────────── */}
       <View style={{ marginTop: t.space(2) }}>
         <Txt variant="display" style={{ fontSize: 22 }}>
-          Din eksamensdato
+          Your exam date
         </Txt>
         <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
           Set when you sit the exam and the home screen paces what is still open. This tracks the
@@ -144,7 +186,7 @@ export default function Settings() {
 
       {examDate ? (
         <Card tone="accent">
-          <Label color={t.c.accent}>Eksamen</Label>
+          <Label color={t.c.accent}>Exam</Label>
           <Txt variant="title" style={{ marginTop: t.space(1.5) }}>
             {formatExamDate(examDate)}
           </Txt>
@@ -157,23 +199,23 @@ export default function Settings() {
             })()}
           </Txt>
           <View style={[s.row, { gap: t.space(2), marginTop: t.space(3), flexWrap: 'wrap' }]}>
-            <Chip label="−1 uge" onPress={() => setExamDate(shiftIso(examDate, -7))} />
-            <Chip label="−1 dag" onPress={() => setExamDate(shiftIso(examDate, -1))} />
-            <Chip label="+1 dag" onPress={() => setExamDate(shiftIso(examDate, 1))} />
-            <Chip label="+1 uge" onPress={() => setExamDate(shiftIso(examDate, 7))} />
+            <Chip label="−1 week" onPress={() => setExamDate(shiftIso(examDate, -7))} />
+            <Chip label="−1 day" onPress={() => setExamDate(shiftIso(examDate, -1))} />
+            <Chip label="+1 day" onPress={() => setExamDate(shiftIso(examDate, 1))} />
+            <Chip label="+1 week" onPress={() => setExamDate(shiftIso(examDate, 7))} />
           </View>
           <Button
             tone="ghost"
-            label="Ryd dato"
+            label="Clear date"
             onPress={() => setExamDate(null)}
             style={{ marginTop: t.space(3) }}
           />
         </Card>
       ) : (
         <Card>
-          <Label>Ingen dato sat</Label>
+          <Label>No date set</Label>
           <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1.5) }}>
-            Vælg hvornår du skal til eksamen — juster bagefter dag for dag.
+            Choose roughly when your exam is — then fine-tune it day by day.
           </Txt>
           <View style={[s.wrap, { gap: t.space(2), marginTop: t.space(3) }]}>
             {PRESETS.map((p) => (

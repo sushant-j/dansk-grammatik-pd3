@@ -3,6 +3,7 @@ import {
   EXAM_DESCRIPTIONS,
   EXAM_LABELS,
   daysUntil,
+  resolveThemeMode,
   shiftIso,
   todayIso,
   useSettings,
@@ -47,6 +48,25 @@ describe('date helpers', () => {
 
   it('todayIso formats local Y-M-D with zero padding', () => {
     expect(todayIso(new Date('2026-03-05T10:00:00'))).toBe('2026-03-05');
+  });
+});
+
+describe('resolveThemeMode', () => {
+  it('an explicit preference always wins over the OS scheme', () => {
+    expect(resolveThemeMode('light', 'dark')).toBe('light');
+    expect(resolveThemeMode('dark', 'light')).toBe('dark');
+  });
+
+  it('system follows the OS, defaulting to light for anything not "dark"', () => {
+    expect(resolveThemeMode('system', 'dark')).toBe('dark');
+    expect(resolveThemeMode('system', 'light')).toBe('light');
+    expect(resolveThemeMode('system', null)).toBe('light');
+    expect(resolveThemeMode('system', undefined)).toBe('light');
+    expect(resolveThemeMode('system', 'unspecified')).toBe('light');
+  });
+
+  it('defaults themeMode to system', () => {
+    expect(useSettings.getState().themeMode).toBe('system');
   });
 });
 

@@ -1,4 +1,5 @@
 import React, { useCallback, useState } from 'react';
+import { useActivity } from '../src/profile/activity';
 import { Pressable, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { SPELLING_RULES } from '../src/grammar/spellingRules';
@@ -40,6 +41,7 @@ export default function Spelling() {
       if (picked !== null) return;
       setPicked(i);
       record(question.ruleId, i === question.correctIndex);
+      useActivity.getState().markToday();
     },
     [picked, question, record],
   );
@@ -62,10 +64,10 @@ export default function Spelling() {
     >
       <View>
         <Txt variant="display" style={{ fontSize: 26 }}>
-          Stavning
+          Spelling
         </Txt>
         <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
-          {summary.solid} af {summary.total} regler solide. These words are pronounced one way
+          {summary.solid} of {summary.total} rules solid. These words are pronounced one way
           and spelled another — the ear cannot always be trusted here.
         </Txt>
       </View>
@@ -142,13 +144,13 @@ export default function Spelling() {
         <View style={{ gap: t.space(3) }}>
           <Card tone={picked === question.correctIndex ? 'success' : 'warning'}>
             <Label color={picked === question.correctIndex ? t.c.success : t.c.warning}>
-              {picked === question.correctIndex ? 'Rigtigt' : 'Ikke helt'}
+              {picked === question.correctIndex ? 'Correct' : 'Not quite'}
             </Label>
             <Txt variant="body" style={{ marginTop: t.space(2), lineHeight: 22 }}>
               {question.explanation}
             </Txt>
           </Card>
-          <Button label="Næste ord" onPress={advance} />
+          <Button label="Next" onPress={advance} />
         </View>
       ) : null}
     </Screen>

@@ -1,4 +1,5 @@
 import React, { useCallback, useMemo, useState } from 'react';
+import { useActivity } from '../src/profile/activity';
 import { Pressable, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Screen } from '../src/ui/Screen';
@@ -8,11 +9,11 @@ import { Button, Card, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
 
 const CATEGORY_LABEL: Record<VocabCategory, string> = {
-  connector: 'Linkeord',
-  noun: 'Substantiv',
-  verb: 'Udsagnsord',
-  adjective: 'Tillægsord',
-  phrase: 'Fast udtryk',
+  connector: 'Connector',
+  noun: 'Noun',
+  verb: 'Verb',
+  adjective: 'Adjective',
+  phrase: 'Phrase',
 };
 
 /**
@@ -38,6 +39,7 @@ export default function Vocab() {
   const grade = useCallback(
     (knewIt: boolean) => {
       record(word.id, knewIt);
+      useActivity.getState().markToday();
       const nxt = nextWord(useVocabProfile.getState().stats, word.id);
       setWord(nxt);
       setFlipped(false);
@@ -55,11 +57,10 @@ export default function Vocab() {
     >
       <View>
         <Txt variant="display" style={{ fontSize: 26 }}>
-          Ordforråd
+          Vocabulary
         </Txt>
         <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
-          {summary.mastered} af {summary.total} ord sidder fast. Ingen serie at beskytte — bare
-          ord, der enten sidder, eller som trænger til et gensyn.
+          {summary.mastered} of {summary.total} words are solid — the rest either stick or are due for another look.
         </Txt>
       </View>
 
@@ -77,19 +78,19 @@ export default function Vocab() {
                 {word.word}
               </Txt>
               <Txt variant="body" color={t.c.textFaint} style={{ marginTop: t.space(3) }}>
-                Tryk for at vende kortet
+                Tap to flip the card
               </Txt>
             </View>
           ) : (
             <View style={{ gap: t.space(3) }}>
               <View>
-                <Label color={t.c.accent}>ENGELSK</Label>
+                <Label color={t.c.accent}>ENGLISH</Label>
                 <Txt variant="heading" style={{ marginTop: t.space(1) }}>
                   {word.glossEn}
                 </Txt>
               </View>
               <View>
-                <Label color={t.c.textFaint}>PÅ DANSK</Label>
+                <Label color={t.c.textFaint}>IN DANISH</Label>
                 <Txt variant="body" style={{ marginTop: t.space(1), lineHeight: 22 }}>
                   {word.definitionDa}
                 </Txt>
@@ -117,13 +118,13 @@ export default function Vocab() {
       {flipped ? (
         <View style={[s.row, { gap: t.space(3) }]}>
           <Button
-            label="Vidste det ikke"
+            label="Didn’t know it"
             tone="ghost"
             onPress={() => grade(false)}
             style={{ flex: 1 }}
           />
           <Button
-            label="Vidste det"
+            label="Knew it"
             tone="success"
             onPress={() => grade(true)}
             style={{ flex: 1 }}
@@ -131,12 +132,12 @@ export default function Vocab() {
         </View>
       ) : (
         <Txt variant="body" color={t.c.textFaint} style={{ textAlign: 'center' }}>
-          Prøv at gætte betydningen, før du vender kortet.
+          Try to guess the meaning before you flip the card.
         </Txt>
       )}
 
       <Txt variant="label" color={t.c.textFaint} style={{ textAlign: 'center' }}>
-        {VOCABULARY.length} ORD I ALT · {summary.dueForReview.length} KLAR TIL GENSYN
+        {VOCABULARY.length} WORDS TOTAL · {summary.dueForReview.length} DUE FOR REVIEW
       </Txt>
     </Screen>
   );

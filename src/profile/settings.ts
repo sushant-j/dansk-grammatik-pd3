@@ -17,10 +17,15 @@ import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 import type { Exam } from '../grammar/rules';
 
+/** How the app chooses light vs dark. 'system' follows the OS setting. */
+export type ThemeMode = 'system' | 'light' | 'dark';
+
 interface SettingsState {
   targetExam: Exam | null;
   /** Exam day as 'YYYY-MM-DD', or null when unset. Drives the study plan. */
   examDate: string | null;
+  /** Light/dark preference; 'system' defers to the OS. */
+  themeMode: ThemeMode;
   /**
    * Whether the first-open welcome has been completed. Persisted, so a shared
    * newcomer sees the "which exam?" prompt once and never again — while a
@@ -32,6 +37,7 @@ interface SettingsState {
   hydrated: boolean;
   setTargetExam: (exam: Exam | null) => void;
   setExamDate: (date: string | null) => void;
+  setThemeMode: (mode: ThemeMode) => void;
   setOnboarded: (done: boolean) => void;
 }
 
@@ -40,10 +46,12 @@ export const useSettings = create<SettingsState>()(
     (set) => ({
       targetExam: null,
       examDate: null,
+      themeMode: 'system',
       onboarded: false,
       hydrated: false,
       setTargetExam: (exam) => set({ targetExam: exam }),
       setExamDate: (date) => set({ examDate: date }),
+      setThemeMode: (mode) => set({ themeMode: mode }),
       setOnboarded: (done) => set({ onboarded: done }),
     }),
     {
@@ -52,6 +60,7 @@ export const useSettings = create<SettingsState>()(
       partialize: (s) => ({
         targetExam: s.targetExam,
         examDate: s.examDate,
+        themeMode: s.themeMode,
         onboarded: s.onboarded,
       }),
       onRehydrateStorage: () => (state) => {
@@ -60,6 +69,20 @@ export const useSettings = create<SettingsState>()(
     },
   ),
 );
+
+/**
+ * Resolve the concrete light/dark mode from the preference + OS scheme.
+ * `systemScheme` is typed loosely because RN's useColorScheme can return
+ * values beyond light/dark (null, undefined, 'unspecified'); anything that is
+ * not explicitly 'dark' falls back to light.
+ */
+export function resolveThemeMode(
+  pref: ThemeMode,
+  systemScheme: string | null | undefined,
+): 'light' | 'dark' {
+  if (pref === 'light' || pref === 'dark') return pref;
+  return systemScheme === 'dark' ? 'dark' : 'light';
+}
 
 /** Format an ISO 'YYYY-MM-DD' as a short human date, e.g. "18 Sep 2026". */
 export function formatExamDate(iso: string): string {
