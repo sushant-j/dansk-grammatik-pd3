@@ -1638,7 +1638,7 @@ export const PRACTICE_TOPICS: PracticeTopic[] = [
       {
         kind: 'first-a-follow',
         q: 'Mener du, der kan være nogen problemer ved, at det er så let og billigt at købe nyt tøj?',
-        a: 'Jeg tror, mange gør det, fordi fast fashion er økonomisk tilgængeligt og opfylder et hurtigt behov for fornyelse. Det er let at retfærdiggøre et køb, når prisen er lav. På den anden side er det et resultat af en aggressiv markedsføring fra tøjproducenter, der opfordrer til konstant udskiftning. Jeg mener, dette er et strukturelt problem, der kræver mere end individuel handling.',
+        a: 'Ja, det mener jeg helt klart. Når tøj er så billigt, bliver det næsten et engangsprodukt, som vi smider ud efter få gange. Det skaber enorme mængder affald og bruger meget vand og energi i produktionen. Derudover bliver tøjet ofte produceret af arbejdere i fattige lande, som får en meget lav løn og arbejder under dårlige forhold. Derfor synes jeg, at den lave pris har en høj pris for både klimaet og mennesker.',
       },
       {
         kind: 'first-b',
@@ -1648,7 +1648,7 @@ export const PRACTICE_TOPICS: PracticeTopic[] = [
       {
         kind: 'first-b-follow',
         q: 'Hvad tror du, det betyder for butikker og tøjproducenter, at genbrug bliver så populært?',
-        a: 'Jeg tror, det skyldes en voksende klimabevidsthed hos forbrugerne, der ønsker at handle mere cirkulært. Samtidig er det en nem måde at tjene penge på og spare penge ved at købe billigere. Jeg tror, de digitale platforme har gjort genbrug socialt accepteret og let tilgængeligt.',
+        a: 'Jeg tror, det betyder, at de bliver nødt til at tænke anderledes. Hvis flere køber brugt tøj, sælger butikkerne mindre nyt tøj, og det kan gå ud over deres indtjening. På den anden side kan det også være en mulighed. Nogle kæder er allerede begyndt at tage brugt tøj tilbage og sælge det igen eller tilbyde reparationer. Jeg tror, at de producenter, der satser på kvalitet og holdbarhed, vil klare sig bedst i fremtiden.',
       },
       {
         kind: 'second',
@@ -1658,7 +1658,7 @@ export const PRACTICE_TOPICS: PracticeTopic[] = [
       {
         kind: 'second-follow',
         q: 'Hvad tror du, der skal til for at få danskerne til at reparere og genanvende mere tøj?',
-        a: 'Fordele er, at politiske krav kan tvinge branchen til at bruge bæredygtige materialer og designe tøj til længere holdbarhed, hvilket reducerer affald. Ulemperne kan være, at det fører til højere priser for forbrugerne og kan udkonkurrere danske virksomheder, hvis reglerne bliver for strikse.',
+        a: 'Jeg tror, det vigtigste er, at det bliver nemt og billigt. I dag koster det ofte næsten det samme at få repareret et par bukser som at købe nye, og det skal ændres, for eksempel med lavere moms på reparationer. Derudover kunne man lære børn i skolen at sy en knap i eller lappe et hul. Endelig tror jeg, at kampagner og gode eksempler på sociale medier kan gøre det mere populært at gå i brugt og repareret tøj.',
       },
     ],
   },
@@ -1678,7 +1678,7 @@ export const PRACTICE_TOPICS: PracticeTopic[] = [
       {
         kind: 'first-a-follow',
         q: 'Hvad tror du, det betyder for demokratiet i et land, hvis kun halvdelen af borgerne stemmer?',
-        a: 'Jeg tror, det skyldes en stærk demokratisk tradition og en udbredt følelse af borgerpligt. Mange danskere ser det som en måde at sikre velfærdsstaten og den sociale lighed på. På den anden side betyder den høje valgdeltagelse, at resultatet er mere repræsentativt for hele befolkningen end i lande med lav deltagelse.',
+        a: 'Jeg tror, det svækker demokratiet. Hvis kun halvdelen stemmer, er det ikke sikkert, at politikerne repræsenterer hele befolkningen. Ofte er det de unge og de svageste grupper, der bliver hjemme, og så bliver deres interesser overset. Det kan føre til, at folk føler sig endnu mere glemt af politikerne, og så bliver det en ond cirkel. Derfor synes jeg, det er vigtigt at gøre en indsats for at få flere til at stemme.',
       },
       {
         kind: 'first-b',
@@ -1688,7 +1688,7 @@ export const PRACTICE_TOPICS: PracticeTopic[] = [
       {
         kind: 'first-b-follow',
         q: 'Mener du, det er et problem for demokratiet, hvis vælgerne skifter parti fra valg til valg (partihoppere)?',
-        a: 'Jeg tror, det skyldes politikerlede og en følelse af, at partiernes politik ligger for tæt på hinanden. Mange føler, at deres stemme ikke gør en forskel, eller at politikken er for kompliceret at sætte sig ind i. På den anden side kan sofavælgere også være udtryk for, at man generelt er tilfreds med samfundet.',
+        a: 'Nej, det mener jeg egentlig ikke. Det viser, at vælgerne tænker selv og vurderer partiernes politik i stedet for bare at stemme, som de altid har gjort. På den måde holder vælgerne politikerne til ansvar for det, de har lavet. Ulempen kan dog være, at politikerne bliver mere optaget af meningsmålinger og hurtige løfter end af langsigtede løsninger. Men samlet set synes jeg, at det er et sundt tegn i et demokrati.',
       },
       {
         kind: 'second',
@@ -1698,7 +1698,7 @@ export const PRACTICE_TOPICS: PracticeTopic[] = [
       {
         kind: 'second-follow',
         q: 'Hvad tror du, det betyder for vælgernes tillid, at partierne ofte indgår kompromiser, der går imod deres valgløfter?',
-        a: 'Fordele er, at brede kompromiser skaber stabile og langtidsholdbare løsninger, som ikke ændres ved næste valg. Ulemperne er på den anden side, at det kan føre til langsomme beslutningsprocesser og mindre gennemsigtighed for vælgerne. Jeg mener, kompromiser er nødvendige for at styre landet, men de skal være ærlige.',
+        a: 'Jeg tror, det kan skade tilliden, fordi vælgerne føler sig snydt, når et parti gør det modsatte af det, de lovede. Det kan få nogle til at tro, at det ikke nytter noget at stemme. På den anden side forstår de fleste danskere godt, at man er nødt til at samarbejde, når intet parti har flertal alene. Derfor tror jeg, det vigtigste er, at partierne er ærlige og forklarer, hvorfor de har indgået kompromiset.',
       },
     ],
   },
@@ -1718,7 +1718,7 @@ export const PRACTICE_TOPICS: PracticeTopic[] = [
       {
         kind: 'first-a-follow',
         q: 'Hvad tror du, det betyder for et samfund, hvis de rigeste bliver rigere, mens de fattigste står stille (økonomisk ulighed)?',
-        a: 'Jeg tror, de mener, at incitamentet til at stræbe efter succes er afgørende for økonomisk vækst og innovation. Hvis der ikke er en stor belønning for hårdt arbejde, kan folk blive demotiverede. På den anden side kan for stor ulighed føre til social uro og mistillid i samfundet, hvilket kan skade solidariteten.',
+        a: 'Jeg tror, det kan skabe en stor afstand mellem befolkningsgrupperne. Hvis de fattigste føler, at de aldrig kan få del i væksten, kan de miste troen på samfundet og blive vrede eller opgivende. Det kan føre til mere kriminalitet og mindre tillid mellem mennesker. Desuden får børn fra fattige familier dårligere muligheder for uddannelse. Derfor mener jeg, at et samfund hænger bedst sammen, når forskellen mellem rig og fattig ikke bliver for stor.',
       },
       {
         kind: 'first-b',
@@ -1728,7 +1728,7 @@ export const PRACTICE_TOPICS: PracticeTopic[] = [
       {
         kind: 'first-b-follow',
         q: 'Hvilken rolle tror du, at sociale medier spiller for folks opfattelse af deres egen økonomiske situation?',
-        a: 'Jeg tror, det skyldes, at de sociale ydelser ofte ikke dækker alle udgifter i et dyrt land som Danmark. Der er en frygt for at miste status og en følelse af, at samfundet stigmatiserer modtagere af offentlig støtte. Desuden betyder kontanthjælpsloftet og andre stramninger, at ydelserne er lavere end tidligere.',
+        a: 'Jeg tror, de spiller en stor rolle. På sociale medier ser vi hele tiden andre, der rejser til eksotiske steder, køber nyt tøj og bor i flotte huse. Det kan give en følelse af, at alle andre har flere penge end en selv, selvom billederne ikke viser hele sandheden. Det kan gøre folk utilfredse og få nogle til at bruge penge, de ikke har, for eksempel på lån. Derfor er det vigtigt at huske, at sociale medier kun viser et lille udsnit af virkeligheden.',
       },
       {
         kind: 'second',
@@ -1738,7 +1738,7 @@ export const PRACTICE_TOPICS: PracticeTopic[] = [
       {
         kind: 'second-follow',
         q: 'Mener du, at Danmark bør sænke skatten for de højeste indkomster for at fremme vækst?',
-        a: 'Fordele er, at ansatte har en høj tryghed via A-kasser og dagpenge, hvilket gør dem mere åbne over for forandringer og nye job. Ulemper er på den anden side, at usikkerheden er højere, da man lettere kan miste jobbet. Jeg tror dog, den høje sikkerhed opvejer den øgede fleksibilitet og er vigtig for at bevare tilliden på arbejdsmarkedet.',
+        a: 'Det er jeg i tvivl om. På den ene side kan lavere skat gøre det mere attraktivt at arbejde ekstra og få højtuddannede udlændinge til at blive i Danmark, hvilket kan skabe vækst. På den anden side mister staten penge, som bruges på velfærd som skoler og hospitaler, og uligheden kan blive større. Jeg mener derfor, at hvis man sænker skatten, skal det ske forsigtigt og kun, hvis man kan vise, at det faktisk skaber flere arbejdspladser.',
       },
     ],
   },
@@ -1758,7 +1758,7 @@ export const PRACTICE_TOPICS: PracticeTopic[] = [
       {
         kind: 'first-a-follow',
         q: 'Hvad tror du, det betyder for et samfunds sammenhængskraft, at der er stor tolerance over for forskellige minoriteter?',
-        a: 'Jeg tror, det skyldes en stærk sekulær tradition og en historisk vægt på lighed og individuel frihed i Norden. Den høje tillid i samfundet har på den anden side gjort det lettere at acceptere forskelle. Jeg mener, frisind er en kulturel grundværdi, som aktivt understøttes i skoler og lovgivning.',
+        a: 'Jeg tror, det styrker sammenhængskraften. Når folk føler sig accepteret, som de er, får de lyst til at bidrage til fællesskabet, for eksempel ved at arbejde, engagere sig i foreninger og stemme. Hvis man derimod føler sig udelukket, kan man trække sig tilbage til sin egen gruppe. Tolerance betyder dog ikke, at alt er i orden. Der skal stadig være fælles regler og værdier, som alle respekterer, ellers kan samfundet blive splittet.',
       },
       {
         kind: 'first-b',
@@ -1768,7 +1768,7 @@ export const PRACTICE_TOPICS: PracticeTopic[] = [
       {
         kind: 'first-b-follow',
         q: 'Mener du, at Danmark bør sætte en klarere juridisk grænse for ytringsfriheden, hvis den krænker religiøse minoriteter?',
-        a: 'Jeg tror, man tillader det, fordi ytringsfrihed anses for at være en fundamental søjle i demokratiet og et værn mod magtmisbrug. Den stærke tradition bygger på princippet om, at alle holdninger skal kunne debatteres. På den anden side er der en lov mod hadprædiken, der sætter en grænse for, hvad der er tilladt.',
+        a: 'Det er et svært spørgsmål. Jeg mener, at ytringsfriheden er så vigtig for demokratiet, at man skal være meget forsigtig med at begrænse den. Hvis man forbyder kritik af religion, kan det være svært at vide, hvor grænsen går, og det kan blive brugt til at lukke munden på kritikere. På den anden side skal minoriteter beskyttes mod trusler og had. Derfor synes jeg, at de nuværende regler mod trusler og hadefulde udtalelser er tilstrækkelige.',
       },
       {
         kind: 'second',
@@ -1778,7 +1778,7 @@ export const PRACTICE_TOPICS: PracticeTopic[] = [
       {
         kind: 'second-follow',
         q: 'Hvad tror du, der skal til for at få en multikulturel arbejdsplads til at fungere godt?',
-        a: 'Fordele er, at mangfoldighed bringer nye perspektiver og innovation til virksomheden. Ulemper kan være kulturelle misforståelser og vanskeligheder med kommunikation. Jeg mener, at for at det skal fungere godt, er det vigtigt at investere i inklusionsstrategier og sikre, at alle føler sig hørt og værdsat.',
+        a: 'Jeg tror, det først og fremmest kræver god kommunikation. Alle skal kunne forstå hinanden, så det er en god idé, at arbejdspladsen tilbyder danskundervisning eller har et fælles sprog. Derudover er det vigtigt, at lederen er tydelig om, hvilke regler og forventninger der gælder for alle. Det hjælper også, hvis kollegerne lærer hinanden at kende socialt, for eksempel til fællesspisning, fordi det mindsker fordomme. Endelig skal der være plads til at tale åbent om misforståelser.',
       },
     ],
   },
@@ -1798,7 +1798,7 @@ export const PRACTICE_TOPICS: PracticeTopic[] = [
       {
         kind: 'first-a-follow',
         q: 'Hvilke problemer tror du, det skaber i sundhedsvæsenet, at de rigeste kan springe køen over i det private?',
-        a: 'Jeg tror, de gør det primært for at undgå lange ventetider i det offentlige system og få hurtigere adgang til specialister. Nogle værdsætter også den ekstra service og komfort i det private sundhedsvæsen. Jeg mener, det er et udtryk for, at det offentlige system er under pres.',
+        a: 'Jeg tror, det kan skabe et sundhedsvæsen i to hastigheder, hvor dem med penge eller en sundhedsforsikring bliver behandlet hurtigt, mens andre må vente. Det strider mod princippet om, at alle har lige adgang til behandling. Desuden kan de private hospitaler trække læger og sygeplejersker væk fra det offentlige, hvor manglen i forvejen er stor. På den anden side kan det private aflaste de offentlige ventelister. Men jeg mener, at det offentlige skal være det bærende.',
       },
       {
         kind: 'first-b',
@@ -1808,7 +1808,7 @@ export const PRACTICE_TOPICS: PracticeTopic[] = [
       {
         kind: 'first-b-follow',
         q: 'Mener du, at adgangen til læge og hospitaler skal være helt gratis for alle borgere i Danmark?',
-        a: 'Jeg tror, de mener, at brugerbetaling kan reducere antallet af unødvendige lægebesøg og dermed spare ressourcer. På den anden side vil et gebyr sikre, at brugerne er mere bevidste om at udnytte sundhedssystemet. Jeg mener dog, at dette vil skabe stor ulighed for de lavtlønnede.',
+        a: 'Ja, det mener jeg. Hvis man skal betale for at gå til lægen, risikerer man, at folk med lav indkomst venter for længe, og så bliver sygdommen måske mere alvorlig og dyrere at behandle. Gratis adgang er med til at sikre, at alle bliver behandlet efter behov og ikke efter pengepung. Det er en vigtig del af den danske velfærdsmodel. Man kan dog godt diskutere, om der skal være betaling, hvis man udebliver fra en aftale uden at melde afbud.',
       },
       {
         kind: 'second',
@@ -1818,7 +1818,7 @@ export const PRACTICE_TOPICS: PracticeTopic[] = [
       {
         kind: 'second-follow',
         q: 'Hvad tror du, det betyder for ligheden i et samfund, at alle har adgang til gratis velfærdsydelser?',
-        a: 'Fordele er, at det sikrer social lighed og universel adgang til essentielle ydelser som sundhed og uddannelse. Ulemper er på den anden side, at det kan svække vækstincitamenter for de højestlønnede. Jeg mener, de sociale fordele, der skabes af den høje lighed, opvejer ulemperne ved det høje skattetryk.',
+        a: 'Jeg tror, det betyder meget for ligheden. Når uddannelse og sundhed er gratis, har børn fra fattige familier de samme muligheder som børn fra rige familier, i hvert fald i princippet. Det gør det muligt at bryde den sociale arv. Desuden skaber det tryghed, at man ved, at man får hjælp, hvis man bliver syg eller mister sit arbejde. Derfor mener jeg, at gratis velfærd er en af de vigtigste grunde til, at Danmark er et af de mest lige lande i verden.',
       },
     ],
   },
@@ -1838,7 +1838,7 @@ export const PRACTICE_TOPICS: PracticeTopic[] = [
       {
         kind: 'first-a-follow',
         q: 'Hvad tror du, det betyder for barnet, at faderen tager en lang del af barslen?',
-        a: 'Jeg tror, det er blevet mere almindeligt på grund af lovgivning om øremærket barsel, som tvinger fædre til at tage orlov, samt et øget fokus på ligestilling i familien. Samtidig ønsker mange mænd at opbygge et tæt bånd til deres barn tidligt i livet.',
+        a: 'Jeg tror, det er godt for barnet, fordi det får en tæt relation til begge forældre fra starten. Forskning viser, at fædre, der har været på barsel, ofte er mere involverede i barnets liv senere, for eksempel når det gælder skole og fritid. Barnet lærer også, at både mor og far kan tage sig af det. Derudover kan det betyde, at familien har mere overskud, fordi moren ikke står alene med ansvaret i det første år.',
       },
       {
         kind: 'first-b',
@@ -1848,7 +1848,7 @@ export const PRACTICE_TOPICS: PracticeTopic[] = [
       {
         kind: 'first-b-follow',
         q: 'Hvilke konsekvenser tror du, det har for kvindens karriere at tage en lang barselsorlov?',
-        a: 'Jeg tror, nogle kvinder vælger det for at undgå at miste karrieremomentum i et konkurrencepræget erhvervsliv. Det kan også være et økonomisk valg, hvor familien har brug for begge indkomster. På den anden side har mange kvinder et stærkt ønske om at arbejde og kan finde tilfredsstillelse i deres professionelle liv.',
+        a: 'Jeg tror, det kan have negative konsekvenser. Når en kvinde er væk fra arbejdet i lang tid, kan hun gå glip af forfremmelser, lønstigninger og vigtige projekter. Undersøgelser viser også, at kvinder ofte tjener mindre end mænd efter at have fået børn. Nogle arbejdsgivere vælger måske endda en mand frem for en kvinde, fordi de forventer, at hun skal på barsel. Derfor tror jeg, at en mere lige fordeling af barslen ville gavne kvinders karriere.',
       },
       {
         kind: 'second',
@@ -1858,7 +1858,7 @@ export const PRACTICE_TOPICS: PracticeTopic[] = [
       {
         kind: 'second-follow',
         q: 'Hvad tror du, det betyder for ligestillingen i samfundet, at kvinder stadig holder den største del af barselsorloven?',
-        a: 'Fordele er, at øremærket barsel øger ligestillingen på arbejdsmarkedet og normaliserer mænds omsorgsrolle. Ulemper er på den anden side, at det begrænser familiens frihed til at planlægge barslen efter deres eget behov. Jeg mener, det er et nødvendigt skridt for at bryde de traditionelle kønsrollemønstre.',
+        a: 'Jeg tror, det er en af de vigtigste grunde til, at der stadig ikke er fuld ligestilling. Når kvinder holder det meste af barslen, er det også ofte dem, der går ned i tid og tager sig af børnene, når de er syge. Det betyder lavere løn og pension for kvinder og færre kvinder i ledende stillinger. Samtidig fastholder det et billede af, at børn primært er morens ansvar. Derfor mener jeg, at en mere lige fordeling er afgørende.',
       },
     ],
   },

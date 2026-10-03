@@ -159,9 +159,9 @@ export const offlineProvider: FeedbackProvider = {
     const words = text.trim().split(/\s+/).filter(Boolean).length;
 
     const notes: string[] = [];
-    if (task.kind === 'essay' && words < task.minWords) {
+    if (task.minWords && words < task.minWords) {
       notes.push(
-        `You wrote ${words} words; this task asks for at least ${task.minWords}. Length is scored directly at PD3.`,
+        `You wrote ${words} words; this task asks for at least ${task.minWords}. Falling short of the minimum costs marks in the exam.`,
       );
     }
     notes.push(

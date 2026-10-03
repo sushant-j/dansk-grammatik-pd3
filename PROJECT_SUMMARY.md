@@ -1,6 +1,6 @@
 # Skema (`dansk-grammatik`): Project Summary
 
-Interview-prep notes. Everything below is checked against the code as of commit `0023dfa` (Oct 2026). Every claim names the file it comes from.
+Interview-prep notes. Everything below is checked against the code as of October 2026. Every claim names the file it comes from.
 
 Status labels used throughout:
 - ✅ **Implemented**: the code exists and runs.
@@ -97,9 +97,9 @@ The noun, adjective, verb, comma, spelling and vocabulary trainers follow the sa
 | `app/train.tsx` | Word-order trainer (the core loop) |
 | `app/rule/[id].tsx` | Rule card: explanation, common mistakes, wrong/right pairs, learner's mastery |
 | `app/nouns.tsx`, `adjectives.tsx`, `verbs.tsx`, `comma.tsx`, `spelling.tsx`, `vocab.tsx` | Six more trainers (multiple choice or flashcards) |
-| `app/write.tsx` | Writing studio: official PD3 2022 tasks plus practice tasks, checked by `activeProvider()` |
+| `app/write.tsx` | Writing studio: tasks grouped by exam (`src/content/writingTasks.ts`: official PD3 2022 and PD2 2023 tasks, plus labelled practice tasks including FVU), checked by `activeProvider()` |
 | `app/topics/index.tsx`, `[id].tsx`, `practice.tsx`, `practice/[id].tsx` | Oral-exam topic archive with search and year filter, topic Q&A with model answers, practice topics |
-| `app/exam.tsx` | PD3 exam guide (format, timings, tips, links to official sample PDFs) |
+| `app/exam.tsx` | Exam guide with a PD3 / PD2 / FVU switcher, driven by `src/content/examGuides.ts` (format, timings, tips, links to official sample PDFs and the FVU rules) |
 | `app/progress.tsx` | Overall mastery, daily streak, per-trainer progress |
 | `app/settings.tsx` | Theme (System/Light/Dark), target exam, exam date |
 | `src/grammar/fields.ts` | Field definitions for main clauses (helsætning) and subordinate clauses (ledsætning) |
@@ -176,7 +176,7 @@ The noun, adjective, verb, comma, spelling and vocabulary trainers follow the sa
 - Progress page and daily streak (`app/progress.tsx`, `src/profile/activity.ts`)
 - System/Light/Dark theme (`src/profile/settings.ts`)
 - Onboarding exam picker (`src/ui/Onboarding.tsx`)
-- PD3 exam guide (`app/exam.tsx`)
+- Exam guides for PD3, PD2 and FVU-dansk (`app/exam.tsx`, `src/content/examGuides.ts`)
 
 ---
 
@@ -229,7 +229,7 @@ The README says Android builds and runs, and that iOS needs Xcode or EAS (`READM
 
 ## 9. Tests
 
-The test runner is Vitest with a Node environment (`vitest.config.ts`). It runs `src/**/*.test.ts`, with AsyncStorage aliased to an in-memory mock (`src/test/asyncStorageMock.ts`). Current state: **19 test files, 187 tests, all passing.**
+The test runner is Vitest with a Node environment (`vitest.config.ts`). It runs `src/**/*.test.ts`, with AsyncStorage aliased to an in-memory mock (`src/test/asyncStorageMock.ts`). Current state: **20 test files, 193 tests, all passing.**
 
 What the tests cover:
 - **Diagnostic engine:** `src/grammar/analyze.test.ts`
@@ -238,7 +238,7 @@ What the tests cover:
 - **Per-store behaviour:** `src/profile/*Store.test.ts`
 - **Overview, study plan, streak and settings:** `src/profile/{overview,studyplan,activity,settings}.test.ts`
 - **Offline checker:** `src/feedback/offlineRules.test.ts`
-- **Topic data integrity:** `src/content/topics.test.ts`
+- **Content integrity:** `src/content/topics.test.ts`, `src/content/examContent.test.ts`
 
 What isn't tested:
 - No UI or component tests, and no end-to-end tests. Screens were checked by hand in a browser.
@@ -252,9 +252,8 @@ What isn't tested:
 - **The AI coach is a stub.** No proxy exists; `focusRules` and `targetExam` are hard-coded (`src/feedback/claudeCoach.ts`).
 - **The offline writing checker is narrow.** It only knows 3 regex patterns. It can't judge style, register or task fulfilment, and it says so in its notes (`src/feedback/offlineRules.ts`).
 - **The content pool is small.** There are 25 word-order exercises (`src/content/exercises.ts`), so the "never repeat a solved one" bonus runs out quickly.
-- **Content bug in practice topics.** In all 6 `PRACTICE_TOPICS`, the answer for each follow-up question is a copy of the main answer above it (`src/content/topics.ts`).
 - **Speaking can't be practised with a partner.** There's no speech or conversation feature.
-- **Exam coverage is uneven.** PD2 and FVU have tags and the spelling trainer, but no exam guide or official material like PD3 now has (`app/exam.tsx` is PD3-only).
+- **Exam coverage is uneven.** PD2 and FVU now have guides, but there's no official FVU sample material (FVU papers aren't published), and PD2 has no oral topic archive (`src/content/examGuides.ts`).
 - **The noun trainer ignores per-noun history.** `nextNounQuestion()` picks a random noun inside the weakest rule (`src/profile/nounStore.ts`).
 
 **Risks**
@@ -269,7 +268,7 @@ What isn't tested:
 3. Add speaking practice: TTS for model answers, then speech-to-text plus LLM role-play.
 4. Add export/import or cloud sync for progress.
 5. Add component and E2E tests (e.g. React Native Testing Library or Playwright on the web build).
-6. Add PD2 and FVU exam guides and official material.
+6. Add a PD2 oral picture-topic bank and FVU-style spelling and reading exercises.
 
 ---
 

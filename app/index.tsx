@@ -272,12 +272,12 @@ export default function Home() {
         <Card>
           <View style={s.rowBetween}>
             <View style={{ flex: 1, paddingRight: t.space(3) }}>
-              <Label>PD3 · All sections</Label>
+              <Label>PD3 · PD2 · FVU</Label>
               <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
                 Exam guide
               </Txt>
               <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
-                Reading, writing and speaking: format, timing, tips and the official sample papers.
+                Format, timing, tips and the official sample papers for each exam.
               </Txt>
             </View>
             <Txt variant="title" color={t.c.textFaint}>

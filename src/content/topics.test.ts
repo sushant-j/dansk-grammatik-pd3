@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { TOPICS, allYears, topicById } from './topics';
+import { PRACTICE_TOPICS, TOPICS, allYears, topicById } from './topics';
 
 describe('official 2024-S oral set', () => {
   const official = TOPICS.filter((t) => t.year === 2024 && t.term === 'S');
@@ -23,5 +23,15 @@ describe('official 2024-S oral set', () => {
     expect(new Set(ids).size).toBe(ids.length);
     expect(topicById('2024-s-mangel-paa-arbejdskraft')?.title).toBe('Mangel på arbejdskraft');
     expect(allYears()[0]).toBe(2024);
+  });
+});
+
+describe('practice topics', () => {
+  it('gives every follow-up its own answer rather than repeating the previous one', () => {
+    for (const t of PRACTICE_TOPICS) {
+      t.questions.forEach((q, i) => {
+        if (i > 0) expect(q.a).not.toBe(t.questions[i - 1].a);
+      });
+    }
   });
 });

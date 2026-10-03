@@ -16,6 +16,10 @@ interface TaskBody {
   focus?: string[];
   /** Where an official task comes from, shown to the learner. */
   source?: string;
+  /** Header shown above the prompt, e.g. "Job application · formal". */
+  label?: string;
+  /** Minimum length the exam sets for this task, when it sets one. */
+  minWords?: number;
 }
 
 export type WritingTask =

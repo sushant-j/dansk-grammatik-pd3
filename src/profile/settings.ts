@@ -126,7 +126,7 @@ export const EXAM_LABELS: Record<Exam, string> = {
 
 export const EXAM_DESCRIPTIONS: Record<Exam, string> = {
   PD1: 'A1 — beginning literacy and everyday phrases.',
-  PD2: 'A2–B1 — everyday and workplace Danish.',
-  PD3: 'B1–B2 — the level this app was originally built around: argumentative writing, complex sentences.',
-  FVU: 'Adult basic education — literacy for adults, including native speakers. Your main practice here is the Stavning (spelling) trainer; on the word-order map only the two most basic sentence rules are tagged FVU.',
+  PD2: 'B1 (speaking B1+) — everyday and workplace Danish: reading, a semi-formal text plus a 100-word e-mail, and a paired oral exam.',
+  PD3: 'B2 — argumentative writing (200-word essay), complex sentences, and an oral exam on social topics.',
+  FVU: 'FVU-dansk, levels 1–4 — reading, spelling and writing for adults, including native speakers. Pass/fail written tests. Your main practice here is the spelling trainer; on the word-order map only the two most basic sentence rules are tagged FVU.',
 };
