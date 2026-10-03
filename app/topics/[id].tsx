@@ -1,6 +1,6 @@
 import { Stack, useLocalSearchParams } from 'expo-router';
 import React, { useMemo, useState } from 'react';
-import { Pressable, View } from 'react-native';
+import { Linking, Pressable, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Screen } from '../../src/ui/Screen';
 import { topicById } from '../../src/content/topics';
@@ -56,6 +56,20 @@ export default function TopicDetail() {
           </Txt>
         </View>
 
+        {topic.scenes ? (
+          <Card tone="sunken">
+            <Label>The two pictures</Label>
+            {topic.scenes.map((sc, i) => (
+              <Txt key={i} variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1.5) }}>
+                Situation {i === 0 ? 'A' : 'B'}: {sc}
+              </Txt>
+            ))}
+            <Txt variant="body" color={t.c.textFaint} style={{ marginTop: t.space(2), fontSize: 13 }}>
+              The examiner picks one picture for the first required question, so prepare both.
+            </Txt>
+          </Card>
+        ) : null}
+
         {topic.questions.map((q, i) => (
           <Card key={i} tone={q.kind === 'follow' ? 'sunken' : 'surface'}>
             <Label color={q.kind === 'follow' ? t.c.textFaint : t.c.accent}>
@@ -63,8 +77,15 @@ export default function TopicDetail() {
                 ? 'Follow-up question'
                 : q.kind === 'obligatory'
                   ? 'Second required question'
-                  : 'Question'}
+                  : q.situation
+                    ? `First required question · Situation ${q.situation}`
+                    : 'Question'}
             </Label>
+            {q.intro ? (
+              <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(2), fontStyle: 'italic' }}>
+                {q.intro}
+              </Txt>
+            ) : null}
             <Txt variant="heading" style={{ marginTop: t.space(2), lineHeight: 24 }}>
               {q.q}
             </Txt>
@@ -83,7 +104,7 @@ export default function TopicDetail() {
                 ]}
               >
                 <Txt variant="label" color={t.c.textMuted}>
-                  {revealed.has(i) ? 'SKJUL MODELSVAR' : 'VIS MODELSVAR'}
+                  {revealed.has(i) ? 'HIDE MODEL ANSWER' : 'SHOW MODEL ANSWER'}
                 </Txt>
                 <Txt variant="body" color={t.c.textFaint}>
                   {revealed.has(i) ? '▲' : '▼'}
@@ -98,6 +119,16 @@ export default function TopicDetail() {
         ))}
 
         <Divider />
+        {topic.source ? (
+          <Pressable onPress={() => Linking.openURL(topic.source!.url)}>
+            <Card tone="accent">
+              <Label color={t.c.accent}>Official source</Label>
+              <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(2), lineHeight: 22 }}>
+                Questions are verbatim from the {topic.source.label}. The model answers are written for this app and are not part of the official booklet. Tap to open the PDF.
+              </Txt>
+            </Card>
+          </Pressable>
+        ) : null}
         <Card tone="sunken">
           <Label>How to use a model answer</Label>
           <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(2), lineHeight: 22 }}>

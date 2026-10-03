@@ -10,9 +10,17 @@
 
 import type { RuleId } from '../grammar/rules';
 
+interface TaskBody {
+  prompt: string;
+  /** The task sheet's "Opgave" bullet points, verbatim when official. */
+  focus?: string[];
+  /** Where an official task comes from, shown to the learner. */
+  source?: string;
+}
+
 export type WritingTask =
-  | { kind: 'letter'; prompt: string; register: 'formel' | 'uformel' }
-  | { kind: 'essay'; prompt: string; minWords: number };
+  | ({ kind: 'letter'; register: 'formel' | 'uformel' } & TaskBody)
+  | ({ kind: 'essay'; minWords: number } & TaskBody);
 
 export interface Correction {
   /** Character range in the submitted text. */

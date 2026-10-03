@@ -268,6 +268,25 @@ export default function Home() {
         </Card>
       </Pressable>
 
+      <Pressable onPress={() => router.push('/exam')}>
+        <Card>
+          <View style={s.rowBetween}>
+            <View style={{ flex: 1, paddingRight: t.space(3) }}>
+              <Label>PD3 · All sections</Label>
+              <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
+                Exam guide
+              </Txt>
+              <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
+                Reading, writing and speaking: format, timing, tips and the official sample papers.
+              </Txt>
+            </View>
+            <Txt variant="title" color={t.c.textFaint}>
+              →
+            </Txt>
+          </View>
+        </Card>
+      </Pressable>
+
       {/* ── Writing studio ─────────────────────────────────────────── */}
       <Pressable onPress={() => router.push('/write')}>
         <Card>

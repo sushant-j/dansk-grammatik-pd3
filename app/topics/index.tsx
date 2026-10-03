@@ -88,7 +88,7 @@ export default function TopicsIndex() {
             Topic archive
           </Txt>
           <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
-            {TOPICS.length} real exam topics, 2011–2020, plus the most recent official ones. Search to see what has already been asked.
+            {TOPICS.length} real exam topics (2011–2020 and the official May–June 2024 set, with full questions) plus the 2023 topic titles. Search to see what has already been asked.
           </Txt>
         </View>
 
@@ -135,7 +135,7 @@ export default function TopicsIndex() {
         />
 
         <Txt variant="label" color={t.c.textFaint}>
-          {filtered.length} RESULTAT{filtered.length === 1 ? '' : 'ER'}
+          {filtered.length} RESULT{filtered.length === 1 ? '' : 'S'}
         </Txt>
       </View>
 
@@ -151,7 +151,7 @@ export default function TopicsIndex() {
         ListEmptyComponent={
           <Card tone="sunken" style={{ marginTop: t.space(4) }}>
             <Txt variant="body" color={t.c.textMuted}>
-              Ingen emner matcher "{query}". Prøv et andet ord, eller ryd årsfilteret.
+              No topics match "{query}". Try another word, or clear the year filter.
             </Txt>
           </Card>
         }
@@ -209,7 +209,9 @@ function TopicRow({ row }: { row: Row }) {
               {topic.year}-{topic.term}
               {topic.label ? ` · Topic ${topic.label}` : ''}
             </Label>
-            <Label color={t.c.textFaint}>{topic.questions.length} QUESTIONS</Label>
+            <Label color={topic.source ? t.c.accent : t.c.textFaint}>
+              {topic.source ? 'OFFICIAL · ' : ''}{topic.questions.length} QUESTIONS
+            </Label>
           </View>
           <Txt variant="heading" style={{ marginTop: t.space(1.5) }}>
             {topic.title}

@@ -11,6 +11,11 @@
  * Two more sessions (2023-S, 2023-V) are in `officialSessions` below, official titles
  * only, because the source PDFs are exam prompt sheets keyed to two images
  * per topic (`Emne A/B/C`) rather than a Q&A key.
+ *
+ * 2024-S is the one recent session whose examiner booklet SIRI has published:
+ * its questions are verbatim; the model answers are written for this app.
+ * No 2024-V or 2025 booklet is public, so those sessions are absent rather
+ * than guessed.
  */
 
 export type Term = 'S' | 'V';
@@ -19,6 +24,10 @@ export interface TopicQuestion {
   kind: 'main' | 'follow' | 'obligatory';
   q: string;
   a: string;
+  /** Which picture a first obligatory question belongs to (the examiner picks one). */
+  situation?: 'A' | 'B';
+  /** The examiner's suggested one-line introduction to that picture. */
+  intro?: string;
 }
 
 export interface Topic {
@@ -29,9 +38,153 @@ export interface Topic {
   label: string;
   title: string;
   questions: TopicQuestion[];
+  /** The two pictures on the candidate's sheet, when known. */
+  scenes?: [string, string];
+  /** Set when questions are verbatim from a published official booklet. */
+  source?: { label: string; url: string };
 }
 
+const OFFICIAL_2024_S = {
+  label: 'Censor- og eksaminatorhæfte, PD3 mundtlig, maj-juni 2024 (SIRI)',
+  url: 'https://danskogproever.dk/media/prob2ifo/censor-og-eksaminatorhaefte-pd3-mdt.pdf',
+};
+
 export const TOPICS: Topic[] = [
+  {
+    id: '2024-s-stoette-til-kultur',
+    year: 2024,
+    term: 'S',
+    label: 'A',
+    title: `Støtte til kultur`,
+    scenes: ['En familie på vej ind på et kunstmuseum med gratis adgang for børn', 'En biograf, der reklamerer for en ny dansk film'],
+    source: OFFICIAL_2024_S,
+    questions: [
+      {
+        kind: 'main',
+        situation: 'A',
+        intro: `Situation A viser en familie, der er på vej ind på et kunstmuseum, hvor der er gratis adgang for børn.`,
+        q: `Børn kan ofte få gratis adgang eller rabat til kulturinstitutioner som fx museer eller teatre. Hvorfor tror du, de kan det?`,
+        a: `Jeg tror, der er flere grunde til det. For det første vil man gerne have, at børn møder kunst og kultur tidligt i livet, så de får interesse for det og bliver ved med at bruge museer og teatre, når de bliver voksne. For det andet gør det det billigere for familier at tage afsted sammen, så det ikke kun er familier med god økonomi, der har råd til det. Derudover får museerne flere besøgende, fordi forældrene jo betaler fuld pris.`,
+      },
+      {
+        kind: 'follow',
+        q: `Synes du, det er en god idé at tage børn med på museum? Hvorfor?/Hvorfor ikke?`,
+        a: `Ja, det synes jeg helt klart. Børn lærer rigtig meget af at se tingene i virkeligheden i stedet for bare at læse om dem i en bog. Mange museer har i dag aktiviteter for børn, hvor de selv må røre ved tingene eller prøve noget, og det gør det sjovt at lære. Det kræver dog, at man ikke bliver for længe, for små børn bliver hurtigt trætte. Derfor skal man vælge en udstilling, der passer til barnets alder.`,
+      },
+      {
+        kind: 'main',
+        situation: 'B',
+        intro: `Situation B viser en biograf, der reklamerer for en ny dansk film.`,
+        q: `I Danmark kan kunstnere få støtte af staten til at lave film. Hvorfor tror du, de kan det?`,
+        a: `Jeg tror, det skyldes, at Danmark er et lille land med et lille sprog. Det er meget dyrt at lave en film, og fordi kun omkring seks millioner mennesker taler dansk, kan en dansk film sjældent tjene pengene hjem. Uden støtte ville der sandsynligvis næsten kun blive vist amerikanske film i biograferne. Desuden er film en vigtig del af den danske kultur, fordi de fortæller historier om danske forhold, som vi kan genkende os selv i.`,
+      },
+      {
+        kind: 'follow',
+        q: `Synes du, det er vigtigt, at staten støtter danske film? Hvorfor?/Hvorfor ikke?`,
+        a: `Ja, overordnet set synes jeg det. Danske film er med til at bevare det danske sprog og den danske kultur, og nogle af dem er blevet kendt i hele verden, hvilket også er god reklame for Danmark. På den anden side er det skatteydernes penge, og der er andre områder som sundhed og ældrepleje, der også mangler penge. Derfor er det vigtigt, at støtten bliver fordelt fornuftigt, og at det ikke kun er de samme få instruktører, der får pengene.`,
+      },
+      {
+        kind: 'obligatory',
+        q: `Nogle kommuner vælger at bruge mange penge på store, internationale sportsbegivenheder som europamesterskaber og verdensmesterskaber. Hvilke fordele og ulemper mener du, der kan være ved det for kommunerne?`,
+        a: `En af fordelene er, at kommunen bliver kendt i udlandet, og at der kommer mange turister, som bruger penge på hoteller, restauranter og butikker. Det kan skabe arbejdspladser og give borgerne en stor fælles oplevelse. Derudover kan det inspirere børn og unge til at dyrke mere sport. Ulempen er derimod, at det er meget dyrt, og at det ikke er sikkert, at man tjener pengene hjem igen. Hvis kommunen bruger mange penge på et stort arrangement, kan der blive færre penge til skoler og ældrepleje. Samlet set mener jeg, at det kan være en god idé, hvis kommunen har en realistisk plan og samarbejder med private sponsorer.`,
+      },
+      {
+        kind: 'follow',
+        q: `Mener du, at en kommune hellere skulle prioritere at bruge penge på andre områder end store, internationale sportsbegivenheder – fx børnepasning eller ældrepleje? Hvorfor?/Hvorfor ikke?`,
+        a: `Ja, som udgangspunkt mener jeg det. Kommunens vigtigste opgave er velfærden for borgerne, og børnepasning og ældrepleje er noget, som rigtig mange er afhængige af hver dag. En sportsbegivenhed varer kun et par uger, mens dårlige normeringer i daginstitutionerne påvirker børnene i mange år. Når det er sagt, behøver det ikke at være enten-eller. Hvis begivenheden skaber indtægter, kan den måske ligefrem give penge tilbage til velfærden.`,
+      },
+    ],
+  },
+  {
+    id: '2024-s-mangel-paa-arbejdskraft',
+    year: 2024,
+    term: 'S',
+    label: 'B',
+    title: `Mangel på arbejdskraft`,
+    scenes: ['En travl sygeplejerske med ansvar for mange patienter', 'En byggeplads, hvor arbejdet endnu ikke er gået i gang'],
+    source: OFFICIAL_2024_S,
+    questions: [
+      {
+        kind: 'main',
+        situation: 'A',
+        intro: `Situation A viser en sygeplejerske, der har ansvar for mange patienter og har travlt.`,
+        q: `Der mangler arbejdskraft i sundhedssektoren, fx sygeplejersker og social- og sundhedsassistenter. Hvorfor tror du, der gør det?`,
+        a: `Jeg tror, der er flere årsager. For det første bliver der flere og flere ældre i Danmark, som har brug for pleje og behandling, så behovet for personale stiger hele tiden. For det andet er arbejdet hårdt, både fysisk og psykisk, og mange arbejder om aftenen, om natten og i weekenderne. Derudover synes mange, at lønnen ikke står mål med det store ansvar. Derfor vælger færre unge uddannelsen, og nogle af dem, der er uddannet, skifter til et andet job.`,
+      },
+      {
+        kind: 'follow',
+        q: `Hvilke problemer mener du, der kan være ved, at der mangler sygeplejersker og social- og sundhedsassistenter?`,
+        a: `Det største problem er, at det går ud over patienterne. Hvis der er for få ansatte, bliver ventetiderne længere, og personalet har mindre tid til den enkelte patient, så der kan ske flere fejl. Samtidig bliver de ansatte, der er tilbage, mere stressede og bliver måske sygemeldt, hvilket gør manglen endnu større. Det bliver en ond cirkel. Desuden kan det betyde, at ældre ikke får den hjælp i hjemmet, de har brug for.`,
+      },
+      {
+        kind: 'main',
+        situation: 'B',
+        intro: `Situation B viser en byggeplads, hvor arbejdet endnu ikke er gået i gang.`,
+        q: `Der mangler arbejdskraft i byggebranchen, fx tømrere og jord- og betonarbejdere. Hvorfor tror du, der gør det?`,
+        a: `Jeg tror især, det skyldes, at mange unge hellere vil gå i gymnasiet og læse videre end tage en erhvervsuddannelse. Håndværksfag har måske ikke så høj status, som de burde have. Desuden er arbejdet fysisk hårdt, og man arbejder ofte udenfor i al slags vejr. Samtidig bliver der bygget rigtig meget i Danmark i disse år, både boliger og infrastruktur, så efterspørgslen efter håndværkere er meget høj.`,
+      },
+      {
+        kind: 'follow',
+        q: `Hvilke problemer mener du, der kan være ved, at der mangler arbejdskraft inden for byggebranchen?`,
+        a: `Et problem er, at byggeprojekter bliver forsinkede og dyrere, fordi firmaerne ikke kan få folk nok. Det kan for eksempel betyde, at der bliver bygget færre boliger, så det bliver endnu sværere at finde et sted at bo i de store byer. Derudover kan virksomhederne blive nødt til at sige nej til opgaver, hvilket går ud over deres økonomi. På længere sigt kan det skade væksten i hele samfundet.`,
+      },
+      {
+        kind: 'obligatory',
+        q: `Ved mangel på arbejdskraft kan man fra politisk side vælge at gøre det nemmere for virksomheder at rekruttere udenlandsk arbejdskraft. Hvilke fordele og ulemper mener du, der kan være ved det for samfundet?`,
+        a: `Den største fordel er, at virksomhederne hurtigt kan få de medarbejdere, de mangler, så de kan blive ved med at producere og vokse. Det giver flere skatteindtægter, og velfærden kan opretholdes, selvom der bliver flere ældre. Udenlandske medarbejdere kan også bidrage med nye idéer og kompetencer. På den anden side kan det presse lønningerne ned i nogle brancher, hvis arbejdsgiverne udnytter, at udenlandske arbejdere vil arbejde for mindre. Der kan også være sproglige barrierer og udfordringer med integration. Jeg mener derfor, at det er en god løsning, så længe der er ordentlige løn- og arbejdsvilkår, og man samtidig uddanner flere i Danmark.`,
+      },
+      {
+        kind: 'follow',
+        q: `Mener du, det er i orden at rekruttere udenlandsk arbejdskraft, selvom der er borgere i Danmark, der er arbejdsløse? Hvorfor?/Hvorfor ikke?`,
+        a: `Ja, det mener jeg godt kan være i orden. De arbejdsløse har ikke altid de kompetencer, som virksomhederne efterspørger, eller de bor måske et andet sted i landet end der, hvor jobbene er. Det tager lang tid at omskole folk, og i mellemtiden har virksomhederne brug for hjælp. Men samtidig synes jeg, det er vigtigt, at jobcentrene gør mere for at opkvalificere de ledige, så udenlandsk arbejdskraft bliver et supplement og ikke en erstatning.`,
+      },
+    ],
+  },
+  {
+    id: '2024-s-paedagogik-i-folkeskolen',
+    year: 2024,
+    term: 'S',
+    label: 'C',
+    title: `Pædagogik i folkeskolen`,
+    scenes: ['En folkeskoleklasse, hvor flere børn er urolige og uopmærksomme', 'En klasse, hvor eleverne arbejder sammen om en opgave'],
+    source: OFFICIAL_2024_S,
+    questions: [
+      {
+        kind: 'main',
+        situation: 'A',
+        intro: `Situation A viser en folkeskoleklasse, hvor flere af børnene er urolige og uopmærksomme.`,
+        q: `I nogle klasser i folkeskolen er der meget uro. Hvorfor tror du, der er det?`,
+        a: `Jeg tror, der kan være mange forskellige årsager. En af dem er, at der ofte er mange elever i klasserne, og at nogle elever har brug for særlig støtte, som læreren ikke har tid til at give. Derudover bruger børn i dag meget tid på mobiltelefoner og skærme, og det kan gøre det sværere for dem at koncentrere sig i længere tid. Det kan også handle om, at undervisningen er for stillesiddende, så eleverne ikke får brugt deres energi.`,
+      },
+      {
+        kind: 'follow',
+        q: `Hvad mener du, lærerne kan gøre for at begrænse uroen i klasserne?`,
+        a: `Jeg mener, at lærerne kan lave klare regler og rutiner sammen med eleverne, så alle ved, hvad der forventes. Det kan også hjælpe at variere undervisningen med bevægelse og gruppearbejde, så eleverne ikke skal sidde stille i flere timer. Mange skoler har desuden indført, at mobiltelefonerne skal afleveres om morgenen, og det synes jeg er en god idé. Endelig er et godt samarbejde med forældrene vigtigt, fordi det er lettere at løse problemerne, når skole og hjem trækker i samme retning.`,
+      },
+      {
+        kind: 'main',
+        situation: 'B',
+        intro: `Situation B viser en klasse, hvor eleverne sidder og arbejder sammen om en opgave.`,
+        q: `Eleverne får ikke karakterer i de første klasser i folkeskolen. Hvorfor tror du, det er sådan?`,
+        a: `Jeg tror, det er, fordi man i Danmark lægger stor vægt på, at små børn skal lære med lyst og ikke føle sig presset. Hvis børn får karakterer allerede som syvårige, begynder de måske at sammenligne sig med hinanden, og de svage elever kan miste selvtilliden. I stedet får elever og forældre mundtlig feedback, for eksempel til skole-hjem-samtaler. Desuden handler de første skoleår meget om at udvikle sig socialt og lære at samarbejde, og det kan man ikke give en karakter for.`,
+      },
+      {
+        kind: 'follow',
+        q: `Kan der være nogen problemer ved, at der ikke gives karakterer i de første klasser i folkeskolen?`,
+        a: `Ja, det kan der godt. Et problem kan være, at hverken eleverne eller forældrene får et klart billede af, hvordan barnet klarer sig fagligt. Hvis feedbacken er for uklar, risikerer man, at problemer først bliver opdaget sent. Nogle elever bliver også mere motiverede af at have et konkret mål. Derfor synes jeg, det er vigtigt, at lærerne giver tydelig og konkret feedback, selvom der ikke er karakterer.`,
+      },
+      {
+        kind: 'obligatory',
+        q: `I folkeskolen går eleverne typisk i samme klasse i de fleste fag, selvom de har forskelligt fagligt niveau. Hvilke fordele og ulemper mener du, der kan være ved det i forhold til børnenes faglige og sociale udvikling?`,
+        a: `Fordelen er især social. Når børn med forskellige baggrunde og forskelligt niveau går i klasse sammen, lærer de at respektere hinanden og at samarbejde, hvilket er vigtigt i et demokratisk samfund. De dygtige elever kan også lære meget af at forklare tingene til de andre. Ulempen er derimod faglig. Det er svært for én lærer at undervise både de stærkeste og de svageste elever på samme tid, så de dygtige kan komme til at kede sig, mens de svage kan føle, at de ikke kan følge med. Efter min mening er det bedste en blanding, hvor man for det meste går i samme klasse, men nogle gange bliver delt op efter niveau i fag som matematik.`,
+      },
+      {
+        kind: 'follow',
+        q: `Hvad mener du, det betyder for samfundet, at børn går i samme klasse, selvom de har forskelligt fagligt niveau?`,
+        a: `Jeg mener, det er med til at skabe sammenhængskraft i samfundet. Når børn fra forskellige sociale lag går i skole sammen, får de forståelse for hinanden, og det kan mindske forskellene mellem rige og fattige på længere sigt. Det er en del af den danske tradition for lighed. På den anden side kan samfundet miste noget, hvis de mest talentfulde elever ikke bliver udfordret nok. Derfor er det vigtigt, at lærerne har ressourcer til at differentiere undervisningen.`,
+      },
+    ],
+  },
   {
     id: '2011-s-velg-rende-arbejde',
     year: 2011,

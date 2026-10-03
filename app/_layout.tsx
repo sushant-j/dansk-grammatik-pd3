@@ -39,6 +39,7 @@ export default function RootLayout() {
             <Stack.Screen name="spelling" options={{ title: 'Spelling' }} />
             <Stack.Screen name="settings" options={{ title: 'Settings' }} />
             <Stack.Screen name="progress" options={{ title: 'Progress' }} />
+            <Stack.Screen name="exam" options={{ title: 'Exam guide' }} />
             <Stack.Screen name="rule/[id]" options={{ title: 'Rule' }} />
             <Stack.Screen name="topics/index" options={{ title: 'Topic archive' }} />
             <Stack.Screen name="topics/[id]" options={{ title: 'Topic', headerBackTitle: 'Archive' }} />

@@ -56,7 +56,7 @@ export default function PracticeTopicDetail() {
         }}
       >
         <View>
-          <Label color={t.c.textFaint}>ØVELSESEMNE — IKKE EN RIGTIG EKSAMENSOPGAVE</Label>
+          <Label color={t.c.textFaint}>PRACTICE TOPIC — NOT A REAL EXAM TOPIC</Label>
           <Txt variant="display" style={{ marginTop: t.space(2), fontSize: 26 }}>
             {topic.title}
           </Txt>
@@ -66,7 +66,7 @@ export default function PracticeTopicDetail() {
           <Label>Scenario</Label>
           {topic.scenario.map((sc, i) => (
             <Txt key={i} variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1.5) }}>
-              Billede {i + 1}: {sc}
+              Picture {i + 1}: {sc}
             </Txt>
           ))}
         </Card>
@@ -94,7 +94,7 @@ export default function PracticeTopicDetail() {
                 ]}
               >
                 <Txt variant="label" color={t.c.textMuted}>
-                  {revealed.has(i) ? 'SKJUL MODELSVAR' : 'VIS MODELSVAR'}
+                  {revealed.has(i) ? 'HIDE MODEL ANSWER' : 'SHOW MODEL ANSWER'}
                 </Txt>
                 <Txt variant="body" color={t.c.textFaint}>
                   {revealed.has(i) ? '▲' : '▼'}
