@@ -5,6 +5,7 @@ import {
   daysUntil,
   resolveThemeMode,
   shiftIso,
+  toggledThemeMode,
   todayIso,
   useSettings,
 } from './settings';
@@ -48,6 +49,20 @@ describe('date helpers', () => {
 
   it('todayIso formats local Y-M-D with zero padding', () => {
     expect(todayIso(new Date('2026-03-05T10:00:00'))).toBe('2026-03-05');
+  });
+});
+
+describe('toggledThemeMode', () => {
+  it('flips whatever is currently on screen', () => {
+    expect(toggledThemeMode('light')).toBe('dark');
+    expect(toggledThemeMode('dark')).toBe('light');
+  });
+
+  it('from system, pins the opposite of the OS scheme so the tap is visible', () => {
+    const shown = resolveThemeMode('system', 'dark');
+    const next = toggledThemeMode(shown);
+    expect(next).toBe('light');
+    expect(resolveThemeMode(next, 'dark')).toBe('light');
   });
 });
 
