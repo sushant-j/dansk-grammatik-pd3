@@ -64,7 +64,7 @@ export function Onboarding({ onPick }: { onPick: (exam: Exam | null) => void }) 
                 </Txt>
               </View>
               <Txt variant="title" color={t.c.textFaint}>
-                →
+                ›
               </Txt>
             </View>
           </Card>
@@ -81,7 +81,7 @@ export function Onboarding({ onPick }: { onPick: (exam: Exam | null) => void }) 
               </Txt>
             </View>
             <Txt variant="title" color={t.c.textFaint}>
-              →
+              ›
             </Txt>
           </View>
         </Card>

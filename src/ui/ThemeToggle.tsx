@@ -1,5 +1,7 @@
+import Ionicons from '@expo/vector-icons/Ionicons';
+import { useRouter } from 'expo-router';
 import React from 'react';
-import { Pressable, Text } from 'react-native';
+import { Pressable, View } from 'react-native';
 import { toggledThemeMode, useSettings } from '../profile/settings';
 import { useResolvedMode, useTheme } from './theme';
 
@@ -18,12 +20,33 @@ export function ThemeToggle() {
     <Pressable
       accessibilityRole="button"
       accessibilityLabel={`Switch to ${next} mode`}
-      hitSlop={10}
+      hitSlop={8}
       onPress={() => setThemeMode(toggledThemeMode(mode))}
-      style={{ paddingHorizontal: t.space(2) }}
+      style={{ padding: t.space(1.5) }}
     >
-      {/* ︎ forces the text (non-emoji) glyph so it takes the header tint. */}
-      <Text style={{ fontSize: 20, color: t.c.text }}>{mode === 'dark' ? '☀︎' : '☾︎'}</Text>
+      <Ionicons name={mode === 'dark' ? 'sunny-outline' : 'moon-outline'} size={21} color={t.c.text} />
     </Pressable>
+  );
+}
+
+/** Header actions on the tab screens: theme switch, then Settings. */
+export function HeaderActions({ settings = true }: { settings?: boolean }) {
+  const t = useTheme();
+  const router = useRouter();
+  return (
+    <View style={{ flexDirection: 'row', alignItems: 'center', gap: t.space(1), paddingRight: t.space(2) }}>
+      <ThemeToggle />
+      {settings ? (
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel="Settings"
+          hitSlop={8}
+          onPress={() => router.push('/settings')}
+          style={{ padding: t.space(1.5) }}
+        >
+          <Ionicons name="settings-outline" size={21} color={t.c.text} />
+        </Pressable>
+      ) : null}
+    </View>
   );
 }

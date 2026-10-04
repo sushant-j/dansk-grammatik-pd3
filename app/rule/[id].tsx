@@ -225,7 +225,7 @@ function SchemaStrip({
   return (
     <View>
       <Txt variant="label" color={t.c.textMuted}>
-        {title.toUpperCase()}
+        {title}
       </Txt>
       <View style={[s.row, { gap: 4, marginTop: t.space(2) }]}>
         {fields.map((abbr, i) => {

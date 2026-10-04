@@ -9,7 +9,19 @@ import {
   type TextStyle,
   type ViewStyle,
 } from 'react-native';
+import { fontFamilyFor } from '../theme';
 import { useTheme } from './theme';
+
+/**
+ * Resolve a text style to the right font file. Each weight of the app face is
+ * its own family on native, so fontWeight/fontStyle are folded into
+ * fontFamily and then dropped — otherwise web would fake-bold a bold file.
+ */
+export function withFont(style: StyleProp<TextStyle>): TextStyle {
+  const flat = StyleSheet.flatten(style) ?? {};
+  const { fontWeight, fontStyle, ...rest } = flat;
+  return { ...rest, fontFamily: fontFamilyFor(fontWeight, fontStyle === 'italic') };
+}
 
 export function Card({
   children,
@@ -75,7 +87,7 @@ export function Txt({
   return (
     <Text
       numberOfLines={numberOfLines}
-      style={[t.font[variant] as TextStyle, { color: color ?? t.c.text }, style]}
+      style={withFont([t.font[variant] as TextStyle, { color: color ?? t.c.text }, style])}
     >
       {children}
     </Text>
@@ -126,20 +138,16 @@ export function Button({
       {loading ? (
         <ActivityIndicator color={fg} />
       ) : (
-        <Text style={{ color: fg, fontSize: 15, fontWeight: '700' }}>{label}</Text>
+        <Text style={withFont({ color: fg, fontSize: 16, fontWeight: '700' })}>{label}</Text>
       )}
     </Pressable>
   );
 }
 
-/** Small uppercase field/section label. */
+/** Small sentence-case section label. */
 export function Label({ children, color }: { children: React.ReactNode; color?: string }) {
   const t = useTheme();
-  return (
-    <Text style={[t.font.label, { color: color ?? t.c.textFaint, textTransform: 'uppercase' }]}>
-      {children}
-    </Text>
-  );
+  return <Text style={withFont([t.font.label, { color: color ?? t.c.textMuted }])}>{children}</Text>;
 }
 
 export function Divider() {
@@ -161,7 +169,9 @@ export function StrengthBar({ value, color }: { value: number; color: string }) 
     >
       <View
         style={{
-          width: `${Math.max(3, Math.min(100, value * 100))}%`,
+          // A sliver for any progress at all, but truly empty at zero so an
+          // untouched trainer doesn't look like it has started.
+          width: value > 0 ? `${Math.max(3, Math.min(100, value * 100))}%` : 0,
           height: '100%',
           backgroundColor: color,
           borderRadius: 3,
@@ -180,3 +190,90 @@ export const s = StyleSheet.create({
   },
   wrap: { flexDirection: 'row', flexWrap: 'wrap' },
 });
+
+/**
+ * A grouped list: one sheet, rows divided by hairlines. Used for hub screens
+ * (Practise, Exam, Progress) so a list of destinations reads as one list, not
+ * a stack of separate cards competing for attention.
+ */
+export function ListGroup({ title, children }: { title?: string; children: React.ReactNode }) {
+  const t = useTheme();
+  const rows = React.Children.toArray(children).filter(Boolean);
+  return (
+    <View style={{ gap: t.space(2) }}>
+      {title ? (
+        <Txt variant="heading" color={t.c.textMuted} style={{ paddingHorizontal: t.space(1) }}>
+          {title}
+        </Txt>
+      ) : null}
+      <View
+        style={{
+          backgroundColor: t.c.surface,
+          borderRadius: t.radius.lg,
+          borderWidth: 1,
+          borderColor: t.c.border,
+          overflow: 'hidden',
+        }}
+      >
+        {rows.map((row, i) => (
+          <View key={i} style={i > 0 ? { borderTopWidth: 1, borderTopColor: t.c.border } : undefined}>
+            {row}
+          </View>
+        ))}
+      </View>
+    </View>
+  );
+}
+
+/** A tappable row in a ListGroup: title, optional detail line, optional trailing meta. */
+export function ListRow({
+  title,
+  detail,
+  meta,
+  metaColor,
+  onPress,
+  children,
+  accessibilityLabel,
+}: {
+  title: string;
+  detail?: string;
+  meta?: string;
+  metaColor?: string;
+  onPress: () => void;
+  children?: React.ReactNode;
+  accessibilityLabel?: string;
+}) {
+  const t = useTheme();
+  return (
+    <Pressable
+      accessibilityRole="button"
+      accessibilityLabel={accessibilityLabel ?? title}
+      onPress={onPress}
+      style={({ pressed }) => ({
+        paddingHorizontal: t.space(4),
+        paddingVertical: t.space(3.5),
+        backgroundColor: pressed ? t.c.surfaceSunken : 'transparent',
+      })}
+    >
+      <View style={[s.row, { gap: t.space(3) }]}>
+        <View style={{ flex: 1 }}>
+          <Txt variant="heading">{title}</Txt>
+          {detail ? (
+            <Txt variant="body" color={t.c.textMuted} style={{ fontSize: 14, lineHeight: 20, marginTop: 2 }}>
+              {detail}
+            </Txt>
+          ) : null}
+        </View>
+        {meta ? (
+          <Txt variant="label" color={metaColor ?? t.c.textFaint}>
+            {meta}
+          </Txt>
+        ) : null}
+        <Txt variant="title" color={t.c.textFaint} style={{ fontSize: 20, lineHeight: 22 }}>
+          ›
+        </Txt>
+      </View>
+      {children ? <View style={{ marginTop: t.space(2.5) }}>{children}</View> : null}
+    </Pressable>
+  );
+}

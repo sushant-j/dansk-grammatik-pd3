@@ -8,6 +8,7 @@ import { nextNounQuestion, nounRuleProgress, summarizeNouns, useNounProfile } fr
 import { Screen } from '../src/ui/Screen';
 import { Button, Card, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
+import { levelLabel } from '../src/profile/mastery';
 
 /**
  * The en/et trainer.
@@ -75,7 +76,7 @@ export default function Nouns() {
                 {NOUN_RULES[p.id].da}
               </Txt>
               <Txt variant="label" color={t.c.textFaint}>
-                {p.level.toUpperCase()}
+                {levelLabel(p.level)}
               </Txt>
             </View>
             <StrengthBar

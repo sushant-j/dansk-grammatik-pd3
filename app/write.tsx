@@ -100,7 +100,7 @@ export default function Write() {
         </Label>
         {task.source ? (
           <Txt variant="label" color={t.c.accent} style={{ marginTop: t.space(1.5) }}>
-            {task.source.toUpperCase()}
+            {task.source}
           </Txt>
         ) : null}
         <Txt variant="body" style={{ marginTop: t.space(2), lineHeight: 23 }}>
@@ -169,7 +169,7 @@ export default function Write() {
                 : 'Nothing flagged'}
             </Label>
             <Txt variant="label" color={t.c.textFaint}>
-              {provider.label.toUpperCase()}
+              {provider.label}
             </Txt>
           </View>
 
