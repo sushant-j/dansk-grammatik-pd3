@@ -89,7 +89,11 @@ export default function Today() {
             {widest.attention} {widest.attention === 1 ? 'rule is' : 'rules are'} still open here — your
             weakest area across the app right now.
           </Txt>
-          <Button label={`Practise ${widest.label.toLowerCase()}`} onPress={() => router.push(widest.route as never)} style={{ marginTop: t.space(5) }} />
+          <Button
+            label={widest.attention === 1 ? 'Review this rule' : 'Review these rules'}
+            onPress={() => router.push(widest.route as never)}
+            style={{ marginTop: t.space(5) }}
+          />
         </Card>
       ) : overview.started ? (
         <Card tone="success" style={{ padding: t.space(5) }}>
@@ -177,9 +181,15 @@ function NextUp({
       <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(2) }}>
         {note ?? r.statement}
       </Txt>
-      <View style={[s.row, { gap: t.space(2), marginTop: t.space(5) }]}>
-        <Button label={action} onPress={onPress} style={{ flex: 1 }} />
-        <Button label="Read the rule" tone="ghost" onPress={() => router.push(`/rule/${ruleId}` as never)} />
+      {/* Side by side when there is room; stacked on narrow phones. */}
+      <View style={[s.wrap, { gap: t.space(2), marginTop: t.space(5) }]}>
+        <Button label={action} onPress={onPress} style={{ flexGrow: 1, minWidth: 190 }} />
+        <Button
+          label="Read the rule"
+          tone="ghost"
+          onPress={() => router.push(`/rule/${ruleId}` as never)}
+          style={{ flexGrow: 1 }}
+        />
       </View>
     </Card>
   );

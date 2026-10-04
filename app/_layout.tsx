@@ -26,10 +26,17 @@ import { HeaderActions } from '../src/ui/ThemeToggle';
  * came from. Group folders don't change URLs: /progress, /exam and every
  * trainer route are the same paths as before.
  */
+/**
+ * Screens that open with their own large heading. The header keeps only the
+ * Back arrow and actions so the title isn't printed twice; `title` is kept
+ * as the screen's name.
+ */
+const OWN_HEADING = { headerTitle: () => null };
+
 export const unstable_settings = { initialRouteName: '(tabs)' };
 
 export default function RootLayout() {
-  const [fontsLoaded] = useFonts({
+  const [fontsLoaded, fontError] = useFonts({
     AtkinsonHyperlegibleNext_400Regular,
     AtkinsonHyperlegibleNext_400Regular_Italic,
     AtkinsonHyperlegibleNext_500Medium,
@@ -37,7 +44,9 @@ export default function RootLayout() {
     AtkinsonHyperlegibleNext_700Bold,
     AtkinsonHyperlegibleNext_800ExtraBold,
   });
-  if (!fontsLoaded) return null;
+  // Wait for the face, but never forever: if a font file fails to load, render
+  // with the system font rather than leaving a blank screen.
+  if (!fontsLoaded && !fontError) return null;
 
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
@@ -92,18 +101,18 @@ function RootStack() {
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="train" options={{ title: 'Word order' }} />
         <Stack.Screen name="write" options={{ title: 'Writing studio' }} />
-        <Stack.Screen name="vocab" options={{ title: 'Vocabulary' }} />
-        <Stack.Screen name="nouns" options={{ title: 'Gender: en / et' }} />
-        <Stack.Screen name="adjectives" options={{ title: 'Adjective agreement' }} />
-        <Stack.Screen name="verbs" options={{ title: 'Verb tenses' }} />
-        <Stack.Screen name="comma" options={{ title: 'Comma rules' }} />
-        <Stack.Screen name="spelling" options={{ title: 'Spelling' }} />
+        <Stack.Screen name="vocab" options={{ title: 'Vocabulary', ...OWN_HEADING }} />
+        <Stack.Screen name="nouns" options={{ title: 'Gender: en / et', ...OWN_HEADING }} />
+        <Stack.Screen name="adjectives" options={{ title: 'Adjective agreement', ...OWN_HEADING }} />
+        <Stack.Screen name="verbs" options={{ title: 'Verb tenses', ...OWN_HEADING }} />
+        <Stack.Screen name="comma" options={{ title: 'Comma rules', ...OWN_HEADING }} />
+        <Stack.Screen name="spelling" options={{ title: 'Spelling', ...OWN_HEADING }} />
         <Stack.Screen name="settings" options={{ title: 'Settings' }} />
-        <Stack.Screen name="rule/[id]" options={{ title: 'Rule' }} />
-        <Stack.Screen name="topics/index" options={{ title: 'Oral exam topics' }} />
-        <Stack.Screen name="topics/[id]" options={{ title: 'Topic' }} />
-        <Stack.Screen name="topics/practice" options={{ title: 'Practice topics' }} />
-        <Stack.Screen name="topics/practice/[id]" options={{ title: 'Practice' }} />
+        <Stack.Screen name="rule/[id]" options={{ title: 'Rule', ...OWN_HEADING }} />
+        <Stack.Screen name="topics/index" options={{ title: 'Oral exam topics', ...OWN_HEADING }} />
+        <Stack.Screen name="topics/[id]" options={{ title: 'Topic', ...OWN_HEADING }} />
+        <Stack.Screen name="topics/practice" options={{ title: 'Practice topics', ...OWN_HEADING }} />
+        <Stack.Screen name="topics/practice/[id]" options={{ title: 'Practice', ...OWN_HEADING }} />
       </Stack>
     </>
   );
