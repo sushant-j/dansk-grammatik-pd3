@@ -1,0 +1,906 @@
+{
+  "id": "sim-4",
+  "title": "Øvesæt 4 (simuleret)",
+  "format": "current",
+  "source": {
+    "kind": "simulated",
+    "level": "exam"
+  },
+  "lf1Theme": "Vadehavet",
+  "lf2Titles": [
+    "Voksne vender tilbage til skolebænken",
+    "Byens træer er mere end pynt",
+    "Cyklen vinder frem i de danske byer"
+  ],
+  "gradeTable": [
+    [
+      38,
+      "12"
+    ],
+    [
+      33,
+      "10"
+    ],
+    [
+      27,
+      "7"
+    ],
+    [
+      22,
+      "4"
+    ],
+    [
+      20,
+      "02"
+    ],
+    [
+      10,
+      "00"
+    ],
+    [
+      0,
+      "-3"
+    ]
+  ],
+  "lf1": {
+    "theme": "Vadehavet",
+    "sections": [
+      {
+        "title": "Nationalpark Vadehavet",
+        "blocks": [
+          {
+            "t": "p",
+            "runs": [
+              "Nationalpark Vadehavet blev oprettet i 2010 og er med sine knap 1.500 kvadratkilometer Danmarks største nationalpark. Parken strækker sig fra Ho Bugt i nord til den dansk-tyske grænse i syd og omfatter både selve tidevandsområdet, de tre beboede øer Fanø, Mandø og Rømø og store dele af marsken langs fastlandskysten. Sammen med de tyske og hollandske dele af området er det danske vadehav desuden optaget på UNESCO’s verdensarvsliste, fordi hele området tilsammen udgør det største sammenhængende tidevandsområde i verden."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Et landskab i konstant forandring",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Det særlige ved Vadehavet er, at havbunden to gange i døgnet bliver blotlagt, når vandet trækker sig tilbage ved ebbe. På de våde flader, som kaldes vader, lever der en enorm mængde smådyr som muslinger, snegle og børsteorme. De udgør en vigtig fødekilde for de mange millioner trækfugle, der hvert forår og efterår raster i området på vej mellem ynglepladserne i Arktis og vinterkvartererne i Vesteuropa og Afrika. For mange fuglearter er Vadehavet derfor en uundværlig mellemstation, hvor de i løbet af få uger skal opbygge de fedtreserver, der gør det muligt at gennemføre den lange rejse."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Landskabet forandrer sig hele tiden, fordi strøm, vind og bølger flytter rundt på store mængder sand og slik. Det er også grunden til, at nationalparken lægger vægt på, at besøgende færdes hensynsfuldt, holder afstand til rastende fugle og følger anvisningerne på skiltene. Det gælder især i yngletiden fra begyndelsen af april til midten af juli, hvor visse strækninger er lukket for offentligheden."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Gode råd til dit besøg",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Vadehavet kan opleves hele året. Om foråret og efteråret er der flest fugle, mens sommeren er den bedste tid til badning og lange vandreture. Om vinteren er der stille i marsken, og man kan gå i timevis uden at møde andre mennesker. Tag altid vand og mad med, når du går ud i naturen. Der er langt mellem butikkerne, og mange caféer holder lukket uden for sæsonen. Hunde skal føres i snor i hele nationalparken."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Sort sol",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Et af nationalparkens mest kendte naturfænomener er sort sol, som opstår, når hundredtusindvis af stære samles i store flokke over marsken ved solnedgang, inden de slår sig ned for natten i tagrørsskovene. Fænomenet kan opleves i perioden fra midten af marts til slutningen af april og igen fra september til begyndelsen af november. Det er dog umuligt at forudsige præcist, hvor fuglene viser sig den enkelte aften. Derfor anbefaler nationalparken, at man deltager i en guidet tur, hvor lokale naturvejledere følger flokkenes bevægelser og i løbet af eftermiddagen udvælger det sted, hvor chancen for en god oplevelse er størst."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Turene arrangeres af Naturcenter Marskporten ved Ballum og varer cirka to timer. De koster 150 kroner for voksne og 75 kroner for børn under 14 år, mens medlemmer af foreningen Marskportens Venner betaler 110 kroner uanset alder. Tilmelding foregår via naturcentrets hjemmeside senest klokken 12 på turdagen. Når tilmeldingen er registreret, får deltagerne tilsendt en sms med oplysninger om mødestedet. Husk varmt tøj og gerne en kikkert, da man ofte står stille i længere tid i det åbne landskab, hvor det kan blæse kraftigt."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Naturcenter Marskporten",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Naturcenter Marskporten er nationalparkens besøgscenter i den sydlige del af området og henvender sig både til turister, skoleklasser og lokale, der ønsker at vide mere om livet i og omkring Vadehavet. I centrets udstilling kan man blandt andet se, hvordan stormfloder gennem århundreder har formet kystlinjen. I det store akvarium kan børnene komme helt tæt på krabber, søstjerner og fladfisk. I receptionen kan alle gæster gratis låne en kikkert, hvis de vil ud i marsken på egen hånd. Ud over kikkerter kan man i weekenderne låne en rygsæk med lupper, bestemmelsesbøger og net til at fange smådyr i vandkanten."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Centret har åbent alle ugens dage fra klokken 10 til 16 i perioden fra begyndelsen af april til udgangen af oktober. I skolernes sommerferie forlænges åbningstiden til klokken 18. I vinterhalvåret holder centret åbent fra tirsdag til søndag mellem klokken 10 og 15, dog med undtagelse af juleugen, hvor der er lukket. Entréen er gratis for børn under 14 år, mens voksne betaler 60 kroner. Har man købt Vadehavskortet, som er beskrevet under praktisk information, er adgangen til udstillingen inkluderet i prisen."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Naturcenter Marskporten ligger ved landevejen mellem Ballum og Skærbæk. Der er gratis parkering ved indgangen."
+          }
+        ]
+      },
+      {
+        "title": "Ribe – Danmarks ældste by",
+        "blocks": [
+          {
+            "t": "p",
+            "runs": [
+              "Ribe blev grundlagt i begyndelsen af 700-tallet som handelsplads ved Ribe Å og regnes i dag for Danmarks ældste by. Den middelalderlige bykerne med de smalle brostensbelagte gader, de skæve bindingsværkshuse og den mægtige domkirke er bevaret i en grad, der gør byen til en af landets mest besøgte kulturhistoriske attraktioner. Da byen kun ligger få kilometer fra vadehavskysten, er den samtidig et oplagt udgangspunkt for ture ud i nationalparken. Mange vælger derfor at kombinere en dag i byen med en tur i marsken."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Ribe er en lille by, og man kan nemt nå rundt i den gamle bydel på en eftermiddag. Biler skal parkeres på de store pladser uden for centrum, da der kun er få parkeringspladser i de gamle gader. Om lørdagen er der torvedag på Torvet fra morgen til middag. Her sælger lokale landmænd grøntsager, ost og honning fra marsken."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Ribe Domkirke",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Ribe Domkirke blev påbegyndt i 1100-tallet og har siden dannet centrum for byens liv. Fra kirkens høje tårn er der en enestående udsigt over byens tage, åen og marsken helt ud til Vadehavet. Vær dog opmærksom på, at man skal gå op ad mere end 200 trin, og at tårnet ikke er tilgængeligt for kørestolsbrugere og gangbesværede. Inde i kirken bør man især lægge mærke til den moderne udsmykning af koret med mosaikker og farvede glasvinduer, som står i markant kontrast til det gamle murværk."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Kirken har åbent dagligt, men i forbindelse med gudstjenester, koncerter, bryllupper og begravelser kan der være lukket for besøgende i kortere perioder. Adgangen til selve kirkerummet er gratis, mens det koster 25 kroner for voksne og 10 kroner for børn at komme op i tårnet. Billetter til tårnet købes i kirkens butik ved hovedindgangen, hvor man også kan få en folder om kirkens historie på flere sprog."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Nattevægteren",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "En af de mest populære måder at opleve byen på er at følge nattevægteren på hans runde gennem de gamle gader. Traditionen går tilbage til middelalderen, hvor nattevægterne skulle holde øje med brand og uro i byen, og i dag synger vægteren de gamle vægtervers, mens han fortæller om pesten, om de store bybrande og om de stormfloder, der gentagne gange satte gaderne under vand. Rundturen begynder på Torvet og varer cirka 45 minutter. Den er gratis og kræver ingen tilmelding. Turen foregår hver aften klokken 20 og 22 fra maj til midten af september, mens der i april og oktober kun er én tur klokken 20."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "To museer om byens tidlige historie",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Ribe Byhistoriske Museum har til huse i en tidligere købmandsgård i Sortebrødregade og fortæller om byens udvikling fra vikingetidens markedsplads til middelalderens rige bispeby. Her kan man blandt andet se fund fra udgravningerne langs åen, herunder mønter, kamme af hjortetak og perler af farvet glas. I museets kælder er der indrettet en lille biograf, hvor en film viser, hvordan markedspladsen kan have set ud for 1.300 år siden. Museet har åbent fra tirsdag til søndag året rundt."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Ude i engene syd for byen ligger Vikingelandsbyen Sønderå, et levende frilandsmuseum, hvor man i sommerhalvåret kan møde frivillige i vikingedragter, der bager brød over åben ild, smeder kniver og væver stof på gammeldags væve. Børnene kan prøve bueskydning og lege med kopier af legetøj fra vikingetiden, og hver sommer afholdes et stort vikingemarked med håndværkere og krigere fra hele Nordeuropa. I modsætning til museet i byen holder vikingelandsbyen lukket fra november til april."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Ribe Byhistoriske Museum og Vikingelandsbyen Sønderå tilbyder en fælles billet, som gælder i hele sæsonen."
+          }
+        ]
+      },
+      {
+        "title": "Rømø",
+        "blocks": [
+          {
+            "t": "p",
+            "runs": [
+              "Rømø er den sydligste af de danske vadehavsøer og er forbundet med fastlandet via en cirka ti kilometer lang dæmning, som gør øen let at nå i bil, på cykel og med bus. Øen er kendt for sine brede sandstrande på vestkysten, hvor Lakolk Strand og Sønderstrand hører til blandt de bredeste i Nordeuropa, og den er et af de få steder i Danmark, hvor det er tilladt at køre i bil på stranden. Fra Havneby i den sydlige del af øen sejler der desuden færger til den tyske ø Sylt."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Rømø er et populært feriemål, og om sommeren er der mange gæster på øen. Det kan derfor være svært at finde en plads til bilen ved de store strande midt på dagen. Kom tidligt, eller tag bussen. På østsiden af øen er der mere roligt. Her kan man gå ture langs diget og se fugle på vaderne."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Bilkørsel på stranden",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Bilkørsel er tilladt på dele af Lakolk Strand og Sønderstrand, men der gælder en række regler, som skal overholdes af hensyn til både badegæsterne og naturen. Hastigheden må højst være 30 kilometer i timen, og man må kun køre og parkere inden for de afmærkede områder. Det er forbudt at køre i klitterne og på de dele af stranden, der er reserveret til badende, og om natten mellem klokken 22 og 6 er al kørsel på stranden forbudt. Vær desuden opmærksom på, at sandet ved højvande og efter kraftig regn kan være blødt, og at det kan blive en dyr fornøjelse at få bilen trukket fri."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Kitesurfing og strandsejlads",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Rømøs vestkyst er på grund af de stabile vinde og det lave vand et af Europas bedste steder til kitesurfing og strandsejlads. Hos kiteskolen Vestvind ved Lakolk kan begyndere tage et introduktionskursus over to dage, som forudsætter, at man er fyldt 12 år og kan svømme mindst 200 meter. Kurset koster 1.895 kroner inklusive leje af udstyr og våddragt, og ønsker man at fortsætte på egen hånd bagefter, kan man leje udstyr for 450 kroner pr. dag, når en instruktør har godkendt ens færdigheder."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Familier med mindre børn kan i stedet booke en time i strandsejlads, hvor deltagerne kører i små vogne med sejl hen over det hårde sand. Børn fra seks år kan køre i tosædede vogne sammen med en voksen, mens børn under seks år kan følge med fra sidelinjen. Strandsejladsen foregår kun, når vinden er tilstrækkelig, og hvis en time bliver aflyst på grund af vindstille, får man tilbudt en ny tid eller pengene tilbage."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Bunkere fra krigens tid",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Under Anden Verdenskrig byggede den tyske besættelsesmagt en lang række bunkere på Rømø som en del af forsvaret langs den jyske vestkyst. Mange af dem ligger i dag halvt begravet i klitterne, men en enkelt større bunker ved Kongsmark er blevet istandsat og indrettet som udstillingssted af den lokale forening Rømø Bunkerlaug. Her fortæller frivillige om livet for de soldater, der var udstationeret på øen, og om de lokale beboere, som måtte leve side om side med dem i fem år."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I skolernes sommerferie arrangerer foreningen hver onsdag aften en guidet tur gennem bunkerens gange og rum, som ellers ikke er åbne for offentligheden. Turen tager cirka en time og er velegnet til børn fra otte år. Deltagerne bør medbringe en lommelygte og fast fodtøj, da gangene er mørke og gulvene mange steder ujævne. Tilmelding er nødvendig, fordi der højst kan deltage 20 personer pr. tur."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Mandø og tidevandet",
+        "blocks": [
+          {
+            "t": "p",
+            "runs": [
+              "Mandø er den mindste af de beboede danske vadehavsøer med cirka 30 fastboende indbyggere, og øen adskiller sig fra de øvrige ved, at den hverken har fast forbindelse eller færgeforbindelse til fastlandet. Ved lavvande kan man køre til øen ad Låningsvejen, en grusvej hen over havbunden, men ved højvande er vejen oversvømmet, og øen er dermed afskåret fra omverdenen. Da tidspunkterne for ebbe og flod forskyder sig med omkring en time fra dag til dag, er det nødvendigt at planlægge turen nøje på forhånd. Man bør aldrig køre ud på Låningsvejen, hvis man er i tvivl om, hvornår vandet kommer tilbage."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "På øen ligger en lille kirke, en kro og et museum i en gammel kaptajnsgård. Øen er flad, og man kan gå hele vejen rundt på diget på et par timer. Mange gæster kommer kun for en dag. Det er dog også muligt at overnatte på kroen eller på øens lille lejrplads."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Sådan fungerer tidevandet",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Tidevandet skyldes først og fremmest månens tiltrækningskraft, som får havets vandmasser til at bevæge sig. I Vadehavet er forskellen mellem lavvande og højvande typisk mellem halvanden og to meter. Der går godt seks timer fra lavvande til højvande, og vandet kan på de flade vader stige så hurtigt, at det er svært at nå tilbage til land, hvis man er gået for langt ud. Ved kraftig vestenvind kan vandstanden desuden blive væsentligt højere end normalt, og i værste fald kan der opstå stormflod."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Nationalparken fraråder derfor, at man går ud på vaderne alene eller uden kendskab til området. Tidevandstabeller for hele Vadehavet kan findes på nationalparkens hjemmeside, og det er altid en god idé at fortælle andre, hvor man går hen, og hvornår man forventer at være tilbage. Ved tåge bør man helt undlade at gå på vaderne, fordi det er let at miste orienteringen i det flade landskab."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Med traktorbussen til Mandø",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Den enkleste måde at komme til Mandø på er med traktorbussen, en ombygget vogn, der trækkes af en traktor og kører fra parkeringspladsen ved Vester Vedsted ud over vaderne. Turen tager cirka 45 minutter hver vej. Undervejs gør bussen holdt ved en muslingebanke midt på vaderne, hvor passagererne kan stige af og se nærmere på dyrelivet, mens chaufføren fortæller om tidevandet og om livet på øen. Bussen drives af det lokale selskab Mandø Overfart og kører dagligt fra april til oktober. Afgangstiderne afhænger dog af tidevandet og fremgår af køreplanen på selskabets hjemmeside."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "En returbillet koster 200 kroner for voksne og 100 kroner for børn mellem 3 og 11 år, og hunde er velkomne mod et tillæg på 25 kroner. Det er ikke muligt at medbringe cykler i bussen, men på øen kan man leje cykler hos købmanden, som også sælger is, kaffe og lokale specialiteter. Man bør beregne mindst tre timer på øen, inden bussen vender tilbage til fastlandet."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Østerssafari på vaderne",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I vinterhalvåret, hvor østersene har den bedste kvalitet, arrangerer naturvejleder Inger Sønnichsen østerssafarier fra Mandø, hvor deltagerne går ud på vaderne ved lavvande og samler stillehavsøsters, som i løbet af de seneste årtier har bredt sig i store dele af Vadehavet. Turen forudsætter, at man har gummistøvler eller waders, der når mindst op til knæene, og at man kan gå fem kilometer på blødt og glat underlag. Efter turen bliver østersene åbnet og smagt på Mandø Kro, hvor Inger Sønnichsen viser, hvordan man åbner en østers uden at skære sig."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Østerssafarierne foregår i perioden fra oktober til april. Prisen er 395 kroner pr. person inklusive smagning."
+          }
+        ]
+      },
+      {
+        "title": "Overnatning og praktisk information",
+        "blocks": [
+          {
+            "t": "h",
+            "text": "Overnatning",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Området omkring Vadehavet byder på overnatningsmuligheder i alle prisklasser, lige fra hoteller og kroer i Ribe til feriehuse og campingpladser på Rømø og Fanø. Marskens Vandrerhjem i Ballum ligger i en tidligere skolebygning og henvender sig især til familier, grupper og cykelturister, som kan opbevare deres cykler i et aflåst rum. Klitrosen Camping ved Lakolk har både pladser til telte og campingvogne og en række hytter. Om sommeren er det nødvendigt at bestille i god tid, da pladsen ofte er fuldt booket i juli."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "For dem, der ønsker en mere enkel naturoplevelse, har nationalparken opført en række sheltere i marsken og langs diget, som kan benyttes gratis hele året. Shelterne skal bookes på forhånd via nationalparkens hjemmeside. Man må højst overnatte to nætter i træk på samme sted. Der er bålplads og adgang til drikkevand ved de fleste sheltere, mens toiletforholdene varierer. Man skal selv sørge for at tage sit affald med hjem."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Vadehavskortet",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Vadehavskortet er et rabatkort, som gælder i syv dage fra første anvendelse og koster 395 kroner for voksne, mens op til to børn under 12 år følger gratis med. Med kortet får man ikke kun gratis adgang til en række museer og attraktioner, herunder Naturcenter Marskporten og Ribe Byhistoriske Museum, men kan også køre gratis med de regionale busser mellem Ribe, Rømø og Skærbæk. Derudover giver kortet 20 procent rabat på billetter til traktorbussen til Mandø og på leje af cykler hos en række udlejere i området."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Kortet kan købes på turistbureauerne og på den fælles turismehjemmeside for Vadehavskysten, hvorfra det kan hentes som en app på mobiltelefonen. Bemærk, at kortet ikke giver adgang til guidede ture som for eksempel sort sol-ture og østerssafarier, som skal bestilles og betales særskilt hos arrangørerne."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Transport",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Ribe og Skærbæk ligger på jernbanen mellem Esbjerg og Tønder, og fra begge stationer kører der busser videre til Rømø. Busserne kører cirka en gang i timen på hverdage, mens der i weekenderne er længere mellem afgangene. Det kan derfor være en fordel at undersøge køreplanen på forhånd. Området er særdeles velegnet til cykelferie, fordi landskabet er fladt. Vestkystruten, som er en del af det nationale cykelrutenet, følger kysten gennem hele nationalparken."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Husk, at mange spisesteder og butikker i området har kortere åbningstider uden for sæsonen. Nogle steder holder helt lukket fra november til marts. Spørg på turistbureauet, hvis du er i tvivl."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Turistbureauer",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Der er turistbureauer i Ribe og i Havneby på Rømø, og begge har åbent dagligt i sommerhalvåret, mens der i vinterhalvåret kun er åbent på hverdage. Ud over at sælge Vadehavskortet kan turistbureauerne udlevere gratis tidevandstabeller og kort over vandreruter og cykelruter i området. Personalet hjælper gerne med at finde overnatning og bestille billetter til guidede ture. I Ribe kan man desuden leje cykler direkte hos turistbureauet, mens cykeludlejningen på Rømø varetages af private udlejere."
+            ]
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "n": 1,
+        "section": "Nationalpark Vadehavet",
+        "prompt": "Turene til sort sol arrangeres af Naturcenter Marskporten. Hvad får deltagerne tilsendt, når de har tilmeldt sig?",
+        "key": "(En) sms (med oplysninger om mødestedet)"
+      },
+      {
+        "n": 2,
+        "section": "Nationalpark Vadehavet",
+        "prompt": "Hvad kan man i weekenderne låne på Naturcenter Marskporten ud over en kikkert?",
+        "key": "(En) rygsæk (med lupper, bestemmelsesbøger og net)"
+      },
+      {
+        "n": 3,
+        "section": "Nationalpark Vadehavet",
+        "prompt": "En familie vil besøge Naturcenter Marskporten en mandag i januar. Har centret åbent? Svar 'ja' eller 'nej'.",
+        "key": "Nej",
+        "paraphrased": true
+      },
+      {
+        "n": 4,
+        "section": "Ribe – Danmarks ældste by",
+        "prompt": "Hvad skal man betale for i forbindelse med et besøg i Ribe Domkirke?",
+        "key": "(At komme op i) tårnet",
+        "also": [
+          "Kirkens tårn"
+        ]
+      },
+      {
+        "n": 5,
+        "section": "Ribe – Danmarks ældste by",
+        "prompt": "Hvad skulle nattevægterne holde øje med i byen, dengang traditionen begyndte? Nævn begge.",
+        "key": "Brand og uro"
+      },
+      {
+        "n": 6,
+        "section": "Ribe – Danmarks ældste by",
+        "prompt": "I hvilken slags bygning ligger Ribe Byhistoriske Museum?",
+        "key": "(En) tidligere købmandsgård"
+      },
+      {
+        "n": 7,
+        "section": "Rømø",
+        "prompt": "Hvor er det bortset fra i klitterne forbudt at køre bil på Rømøs strande?",
+        "key": "(På de dele af stranden, der er) reserveret til badende",
+        "also": [
+          "Uden for de afmærkede områder"
+        ]
+      },
+      {
+        "n": 8,
+        "section": "Rømø",
+        "prompt": "Kiteskolen Vestvind har et kursus for begyndere. Hvilket krav skal man opfylde ud over at være fyldt 12 år?",
+        "key": "(Kunne) svømme (mindst) 200 meter"
+      },
+      {
+        "n": 9,
+        "section": "Rømø",
+        "prompt": "Hvad bør man have med på den guidede tur gennem bunkeren ved Kongsmark? Nævn begge.",
+        "key": "(En) lommelygte og fast fodtøj"
+      },
+      {
+        "n": 10,
+        "section": "Mandø og tidevandet",
+        "prompt": "Hvorfor kan man ikke køre ad Låningsvejen til Mandø på samme tidspunkt hver dag?",
+        "key": "Tidevandet kommer (cirka en time) senere hver dag",
+        "also": [
+          "(Tidspunkterne for) ebbe og flod forskyder sig (med omkring en time fra dag til dag)",
+          "Tidevandet forskyder sig (fra dag til dag)"
+        ],
+        "paraphrased": true
+      },
+      {
+        "n": 11,
+        "section": "Mandø og tidevandet",
+        "prompt": "Hvor kan passagererne stige af traktorbussen på vej ud til Mandø?",
+        "key": "(Ved) en muslingebanke (midt på vaderne)"
+      },
+      {
+        "n": 12,
+        "section": "Mandø og tidevandet",
+        "prompt": "Hvad sker der med de østers, som deltagerne har samlet på østerssafarien?",
+        "key": "(De bliver) åbnet og smagt (på Mandø Kro)"
+      },
+      {
+        "n": 13,
+        "section": "Overnatning og praktisk information",
+        "prompt": "Hvor længe må man højst blive på samme sted i nationalparkens sheltere?",
+        "key": "(Højst) to nætter (i træk)"
+      },
+      {
+        "n": 14,
+        "section": "Overnatning og praktisk information",
+        "prompt": "Hvilken transport kan man bruge gratis, hvis man har købt Vadehavskortet?",
+        "key": "(Køre gratis med) de regionale busser"
+      },
+      {
+        "n": 15,
+        "section": "Overnatning og praktisk information",
+        "prompt": "Hvilke gratis materialer kan man få udleveret på turistbureauerne i Ribe og Havneby?",
+        "key": "Tidevandstabeller / kort over vandreruter (og cykelruter)"
+      }
+    ]
+  },
+  "lf2": {
+    "tasks": [
+      {
+        "kind": "mc",
+        "label": "2A",
+        "title": "Voksne vender tilbage til skolebænken",
+        "passages": [
+          {
+            "title": "Voksne vender tilbage til skolebænken",
+            "blocks": [
+              {
+                "t": "p",
+                "runs": [
+                  {
+                    "strong": "Flere danskere vælger at tage en uddannelse, længe efter at de har forladt skolen. Det kræver mod, planlægning og ofte en stram økonomi, men for mange bliver det begyndelsen på et nyt arbejdsliv."
+                  }
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Det er mandag morgen på professionshøjskolen i Vejle, og i et af undervisningslokalerne på anden sal sidder 44-årige Lone Bisgaard med sin bærbare computer og en stak noter om anatomi foran sig. Hun er den ældste på holdet, og flere af hendes medstuderende er yngre end hendes egen datter. Alligevel føler hun sig ikke malplaceret. »I starten var jeg bange for, at de unge ville synes, at jeg var en mærkelig gammel dame, der havde forvildet sig ind i klassen,« fortæller hun og griner. »Men de bruger mig faktisk ret meget, når vi skal i praktik, fordi jeg har haft med mennesker at gøre i mange år.«"
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Lone Bisgaard arbejdede i knap tyve år som kontorassistent i et forsikringsselskab, indtil hendes afdeling for tre år siden blev lagt sammen med en anden, og hun blev tilbudt en stilling med færre timer. I stedet for at tage imod tilbuddet besluttede hun at bruge situationen til at gøre noget, hun havde drømt om, siden hun som ung måtte opgive planerne om at blive sygeplejerske, fordi hun skulle tjene penge til at forsørge sin syge mor."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "»Det var ikke, fordi jeg var utilfreds med mit arbejde. Jeg havde gode kolleger og en fornuftig løn. Men da omstruktureringen kom, tænkte jeg, at hvis jeg ikke gjorde det nu, så ville jeg aldrig gøre det,« siger hun. Før hun kunne søge ind, måtte hun dog tage biologi og kemi som enkeltfag på hf, fordi hun ikke opfyldte de adgangskrav, som uddannelsen stiller. Det tog et helt år ved siden af arbejdet, og ifølge hende selv var det den sværeste del af hele forløbet."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Mens Lone Bisgaard havde et fast job, da hun valgte at begynde forfra, var situationen en anden for 38-årige Tariq Hamdan. Han kom til Danmark som 19-årig og har siden arbejdet på forskellige lagre i Trekantområdet, senest som truckfører hos en stor grossist i Fredericia. Arbejdet var fysisk hårdt, og efter en rygskade for to år siden fik han at vide af sin læge, at han ikke kunne fortsætte med at løfte tunge varer ret mange år endnu."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "»Jeg har tre børn, så jeg kunne ikke bare sige mit job op og leve af SU,« fortæller Tariq Hamdan. Løsningen blev en erhvervsuddannelse som elektriker, hvor han som voksenlærling får en løn, der ligger tæt på den, han havde som truckfører. Det er muligt, fordi hans arbejdsgiver, en mindre elinstallatør i Kolding, får et offentligt tilskud for at ansætte en lærling over 25 år. »Uden det tilskud havde jeg ikke haft råd, og ærligt talt tror jeg heller ikke, at mesteren havde valgt mig frem for en på 18,« siger han."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Det vanskeligste har ifølge Tariq Hamdan ikke været det faglige, men at finde tid til lektierne. »Når børnene er lagt i seng, sidder jeg ved køkkenbordet med matematikken. Min kone siger, at jeg er blevet bedre til at hjælpe vores ældste søn med hans opgaver, fordi jeg selv sidder med de samme ting,« siger han."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Ifølge Henrik Mølgaard, der er lektor ved Institut for Voksenlæring og har forsket i voksnes uddannelsesvalg i mere end femten år, er Lone Bisgaard og Tariq Hamdan en del af en tendens, som er blevet tydeligere i løbet af det seneste årti. »Arbejdsmarkedet forandrer sig hurtigere end tidligere, og mange job, som ikke kræver uddannelse, forsvinder eller bliver automatiseret. Derfor er det ikke længere realistisk at forestille sig, at den uddannelse, man tager som tyveårig, skal række et helt arbejdsliv,« siger han."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Han påpeger dog, at det langtfra er alle voksne, der har lige gode muligheder for at vende tilbage til skolebænken. Især personer, der har haft dårlige oplevelser i folkeskolen, holder sig ofte tilbage, selv om de både har evnerne og lysten. »Mange voksne undervurderer, hvor meget de har lært gennem deres arbejdsliv. Erfaring med at samarbejde, tage ansvar og løse problemer er en stor fordel, når man skal i gang med en uddannelse, men det er sjældent noget, de selv lægger vægt på,« siger Henrik Mølgaard."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Det kan Lone Bisgaard genkende. Hun har oplevet, at årene på kontoret har gjort hende bedre til at planlægge sin tid og overholde afleveringsfrister end mange af de yngre studerende. »Jeg tænkte i lang tid, at jeg bare havde siddet og skrevet breve og besvaret telefoner i tyve år. Men jeg har jo tilegnet mig en masse, som jeg kan bruge nu, og det gik først op for mig, da jeg begyndte at studere,« siger hun."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Henrik Mølgaard mener, at uddannelsesinstitutionerne kan gøre langt mere for at gøre det lettere for voksne, for eksempel ved at tilbyde flere forløb på deltid og om aftenen og ved i højere grad at give merit for den erfaring, de studerende har fra arbejdslivet. »Det er spild af tid og ressourcer, når en voksen med femten års erfaring skal sidde og lære noget, vedkommende allerede kan,« siger han."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Tariq Hamdan regner med at være færdiguddannet om to et halvt år. »Når jeg har mit svendebrev, vil jeg gerne selv tage mig af lærlinge en dag. Jeg ved jo, hvordan det er at starte forfra,« siger han."
+                ]
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "prompt": "Hvorfor begyndte Lone Bisgaard på sygeplejerskeuddannelsen?",
+            "options": [
+              "Hun var blevet træt af sit arbejde og sine kolleger i forsikringsselskabet.",
+              "Hendes datter havde opfordret hende til at følge drømmen fra ungdommen.",
+              "Forandringer på jobbet fik hende til at forfølge en gammel drøm."
+            ],
+            "correct": "C"
+          },
+          {
+            "prompt": "Hvilket udsagn er i overensstemmelse med det, der står i teksten?",
+            "options": [
+              "Tariq Hamdan tjener næsten det samme som i sit tidligere job.",
+              "Tariq Hamdan fik af sin læge at vide, at han skulle tage en uddannelse.",
+              "Tariq Hamdan synes, at matematikken er den sværeste del af uddannelsen."
+            ],
+            "correct": "A"
+          },
+          {
+            "prompt": "Hvad er Lone Bisgaard og Henrik Mølgaard enige om?",
+            "options": [
+              "Voksne bør tage deres uddannelse på deltid ved siden af deres arbejde.",
+              "Voksne studerende er bedre end de unge til at overholde afleveringsfrister.",
+              "Voksne har lært mere på jobbet, end de selv tror."
+            ],
+            "correct": "C"
+          }
+        ],
+        "points": 2
+      },
+      {
+        "kind": "insert",
+        "label": "2B",
+        "title": "Byens træer er mere end pynt",
+        "passage": {
+          "title": "Byens træer er mere end pynt",
+          "blocks": [
+            {
+              "t": "p",
+              "runs": [
+                {
+                  "strong": "Træer i byen giver skygge, renser luften og opsuger regnvand. Alligevel bliver mange af dem fældet, når der skal bygges. Nu vil flere kommuner ændre på det."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "På en villavej i udkanten af Nordås står en 120 år gammel blodbøg, som er blevet et lokalt vartegn. Da en entreprenør sidste forår søgte om lov til at fælde træet for at bygge rækkehuse på grunden, samlede naboerne på få dage over 2.000 underskrifter mod planerne. »Træet har stået her længere end nogen af husene. Det ville føles som at miste et familiemedlem,« siger Birthe Kjær, der bor lige overfor."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 1
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Sagen fra Nordås er langt fra enestående. Overalt i landet diskuterer borgere og politikere, hvilken plads træerne skal have i byerne, og forskningen giver dem, der vil bevare træerne, gode argumenter. I flere byer har borgere dannet foreninger, der holder øje med kommunens planer og protesterer, når et gammelt træ er truet."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "»Et stort træ fungerer som byens aircondition,« forklarer Signe Lauritzen, der er biolog og forsker i bynatur. »På en varm sommerdag kan temperaturen under en trækrone være op til otte grader lavere end på en åben plads med asfalt. Det har stor betydning for ældre og andre, som har svært ved at tåle varmen.«"
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 2
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Den evne bliver mere og mere værdifuld, efterhånden som klimaforandringerne giver flere og kraftigere skybrud. Samtidig binder træerne kuldioxid og opfanger støv og partikler fra trafikken. Desuden tyder flere undersøgelser på, at mennesker, der bor tæt på grønne områder, oplever mindre stress."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 3
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Problemet er ifølge Signe Lauritzen, at et nyplantet træ ikke kan erstatte et gammelt. »Der går 40 til 50 år, før et nyt træ gør den samme gavn som det, der blev fældet. Når man fælder et stort træ og planter to små, ser det godt ud i regnskabet. Men i virkeligheden er det et tab for byen i mange år,« siger hun."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 4
+            },
+            {
+              "t": "p",
+              "runs": [
+                "I Nordås Kommune har man for eksempel registreret alle vejtræer i en database på kommunens hjemmeside. Her kan borgerne se, hvor gamle træerne er, og hvornår de sidst er blevet beskåret. »Vi vil gerne have, at borgerne lægger mærke til træerne og føler, at de er fælles. Når folk ved, hvad et træ betyder for deres gade, passer de også bedre på det,« siger stadsgartner Jens Holmgaard."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 5
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Det er netop de forhold, kommunen nu vil forbedre. Når der plantes nye træer langs vejene, får de en større plantegrube med særlig jord, som ikke bliver presset sammen. Det koster mere, men til gengæld lever træerne længere. Desuden plantes der flere forskellige arter, så et angreb af sygdom eller skadedyr ikke kan slå alle træerne i en gade ihjel på én gang. Tidligere plantede man ofte den samme art langs hele vejen, men det har vist sig at være sårbart."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Birthe Kjær er glad for, at blodbøgen på villavejen nu er blevet registreret som bevaringsværdig. »Jeg håber, at mine børnebørn også kan sidde i skyggen under den en dag,« siger hun."
+              ]
+            }
+          ]
+        },
+        "inserts": [
+          {
+            "letter": "A",
+            "text": "Træerne gør også en forskel, når det regner. Rødderne og jorden omkring dem kan opsuge store mængder vand, som ellers ville løbe direkte ned i kloakkerne og i værste fald oversvømme kældre."
+          },
+          {
+            "letter": "B",
+            "text": "Derfor har flere kommuner i de senere år vedtaget en træpolitik. Den skal sikre, at de største og ældste træer bliver registreret og beskyttet, og at de kun fældes, når der ikke findes andre løsninger."
+          },
+          {
+            "letter": "C",
+            "text": "Det har han dog fortrudt, fordi flere af naboerne i dag klager over, at træet tager lyset fra deres haver og stuer det meste af eftermiddagen."
+          },
+          {
+            "letter": "D",
+            "text": "Protesterne virkede. Kommunen afslog ansøgningen, og entreprenøren har i stedet tegnet et nyt projekt, hvor rækkehusene er placeret, så blodbøgen kan blive stående midt i et fælles grønt område."
+          },
+          {
+            "letter": "E",
+            "text": "Hvis træerne skal blive gamle, kræver det dog, at de bliver passet. Mange bytræer lever under hårde forhold med vejsalt om vinteren, for lidt plads til rødderne og jord, som biler har kørt hårdt sammen."
+          },
+          {
+            "letter": "F",
+            "text": "Til gengæld viser de nye målinger fra centrum, at luftforureningen i de indre bydele er steget markant, siden de mange vejtræer blev plantet i 1990’erne."
+          },
+          {
+            "letter": "G",
+            "text": "Men selv om fordelene er velkendte, bliver der stadig fældet mange træer i de danske byer. Ofte sker det, fordi træerne står i vejen for nye boliger, cykelstier eller ledninger under jorden."
+          }
+        ],
+        "correct": [
+          "D",
+          "A",
+          "G",
+          "B",
+          "E"
+        ],
+        "points": 2
+      },
+      {
+        "kind": "cloze",
+        "label": "3",
+        "title": "Cyklen vinder frem i de danske byer",
+        "passage": {
+          "title": "Cyklen vinder frem i de danske byer",
+          "blocks": [
+            {
+              "t": "p",
+              "runs": [
+                {
+                  "strong": "Flere danskere vælger cyklen, når de skal på arbejde eller i skole, og udviklingen ses ikke kun i hovedstaden. "
+                },
+                {
+                  "gap": 0
+                },
+                {
+                  "strong": " er det i en række mellemstore byer, at stigningen har været størst."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "I mange år lå cykeltrafikken i Danmark nogenlunde stille, og i flere kommuner faldt den ligefrem, efterhånden som flere familier fik to biler. Men de seneste tal viser en tydelig ",
+                {
+                  "gap": 1
+                },
+                " i den modsatte retning. I Nordås Kommune er antallet af cyklister, der passerer kommunens automatiske tællestationer, steget med 18 procent på fem år, og lignende tal kendes fra flere andre byer. Udviklingen er særlig tydelig om morgenen. Her er der nu flere cyklister end bilister på flere af de store veje ind mod centrum."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Ifølge trafikforsker Mette Dalsgaard er udviklingen ",
+                {
+                  "gap": 2
+                },
+                " flere forhold på én gang. »Elcyklen har gjort det realistisk at cykle 15 til 20 kilometer til arbejde, også for folk, der ikke er specielt veltrænede. Samtidig har mange kommuner investeret i brede cykelstier mellem forstæderne og bymidten, som gør turen både hurtigere og sikrere,« ",
+                {
+                  "gap": 3
+                },
+                " hun."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Også arbejdspladserne spiller en rolle. Flere virksomheder giver i dag deres medarbejdere mulighed for at lease en elcykel gennem lønnen, og mange har indrettet omklædningsrum med bad, så man kan skifte tøj, når man møder ind. For mange familier kan det betyde en stor besparelse, for en elcykel er langt billigere i drift end en bil. Ifølge Mette Dalsgaard er den slags faciliteter ",
+                {
+                  "gap": 4
+                },
+                ", at især de medarbejdere, der bor langt fra arbejdspladsen, lader bilen stå."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Der er dog stadig ",
+                {
+                  "gap": 5
+                },
+                " at overvinde. Mange forældre tør ikke lade deres børn cykle i skole, fordi de oplever trafikken omkring skolerne som farlig. Det er et problem, fordi vanerne grundlægges i barndommen. I flere byer mangler der sikre cykelstier langs de større indfaldsveje. Hertil kommer vejret. »Om sommeren cykler mange, men når det bliver mørkt og glat, falder antallet af cyklister med op til en tredjedel. ",
+                {
+                  "gap": 6
+                },
+                " er de kommuner, der prioriterer snerydning og saltning af cykelstierne, langt bedre til at fastholde cyklisterne hele året,« siger Mette Dalsgaard."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Cyklen er ",
+                {
+                  "gap": 7
+                },
+                " god for klimaet, men også for folkesundheden. Undersøgelser viser, at personer, der cykler til arbejde, i gennemsnit har færre sygedage end dem, der kører i bil, og at de har mindre risiko for at udvikle en række livsstilssygdomme. Det er en af grundene til, at flere kommuner nu har gjort det til en ",
+                {
+                  "gap": 8
+                },
+                " at få langt flere borgere op på cyklen inden for de næste ti år. Mette Dalsgaard er ikke i tvivl om, at det kan lade sig gøre. »Det handler om at gøre det let at vælge cyklen. Så kommer cyklisterne af sig selv,« siger hun."
+              ]
+            }
+          ]
+        },
+        "example": {
+          "options": [
+            "Faktisk",
+            "Ellers",
+            "Dermed",
+            "Omvendt"
+          ],
+          "correct": "A"
+        },
+        "gaps": [
+          {
+            "options": [
+              "tendens",
+              "barriere",
+              "forudsætning",
+              "undtagelse"
+            ],
+            "correct": "A"
+          },
+          {
+            "options": [
+              "en hindring for",
+              "et alternativ til",
+              "en følge af",
+              "en trussel mod"
+            ],
+            "correct": "C"
+          },
+          {
+            "options": [
+              "beklager",
+              "benægter",
+              "frygter",
+              "påpeger"
+            ],
+            "correct": "D"
+          },
+          {
+            "options": [
+              "en hindring for",
+              "en forudsætning for",
+              "en undskyldning for",
+              "en ulempe ved"
+            ],
+            "correct": "B"
+          },
+          {
+            "options": [
+              "fordele",
+              "traditioner",
+              "barrierer",
+              "rettigheder"
+            ],
+            "correct": "C"
+          },
+          {
+            "options": [
+              "Med andre ord",
+              "Til gengæld",
+              "På samme måde",
+              "For eksempel"
+            ],
+            "correct": "B"
+          },
+          {
+            "options": [
+              "tværtimod",
+              "næsten aldrig",
+              "til dels",
+              "ikke alene"
+            ],
+            "correct": "D"
+          },
+          {
+            "options": [
+              "målsætning",
+              "undtagelse",
+              "forhindring",
+              "beklagelse"
+            ],
+            "correct": "A"
+          }
+        ],
+        "points": 1
+      }
+    ]
+  }
+}

@@ -9,6 +9,8 @@
 
 import type { Session } from '@supabase/supabase-js';
 import { create } from 'zustand';
+import { switchAttemptUser } from '../exam/attemptStore';
+import { startAttemptSync, stopAttemptSync, supabaseAttemptRemote } from '../exam/attemptSync';
 import { useSettings } from '../profile/settings';
 import { switchUser } from '../sync/log';
 import { supabaseRemote } from '../sync/remote';
@@ -51,12 +53,18 @@ async function applySession(session: Session | null): Promise<void> {
   if (current.status !== 'loading' && current.userId === userId) return; // e.g. a token refresh
 
   stopSync();
+  stopAttemptSync();
   if (userId) {
     await switchUser(userId);
+    await switchAttemptUser(userId);
     useSession.setState({ status: 'signedIn', userId, email: session?.user.email ?? null });
-    if (supabase) void startSync(supabaseRemote(supabase));
+    if (supabase) {
+      void startSync(supabaseRemote(supabase));
+      startAttemptSync(supabaseAttemptRemote(supabase));
+    }
   } else {
     await switchUser(null);
+    await switchAttemptUser(null);
     // The exam focus and onboarding belong to the account; the theme stays with the device.
     useSettings.setState({ targetExam: null, examDate: null, onboarded: false });
     useSession.setState({ status: 'signedOut', userId: null, email: null });

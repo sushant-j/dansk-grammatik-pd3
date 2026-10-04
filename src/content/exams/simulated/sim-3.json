@@ -1,0 +1,1316 @@
+{
+  "id": "sim-3",
+  "title": "Øvesæt 3 (simuleret)",
+  "format": "current",
+  "source": {
+    "kind": "simulated"
+  },
+  "lf1Theme": "Frivilligt arbejde i Danmark",
+  "lf2Titles": [
+    "Kunstig intelligens flytter ind på kontoret",
+    "Brugt er blevet det nye nye",
+    "Søvn er undervurderet"
+  ],
+  "gradeTable": [
+    [
+      38,
+      "12"
+    ],
+    [
+      33,
+      "10"
+    ],
+    [
+      27,
+      "7"
+    ],
+    [
+      22,
+      "4"
+    ],
+    [
+      20,
+      "02"
+    ],
+    [
+      10,
+      "00"
+    ],
+    [
+      0,
+      "-3"
+    ]
+  ],
+  "lf1": {
+    "theme": "Frivilligt arbejde i Danmark",
+    "sections": [
+      {
+        "title": "Frivillighed før og nu",
+        "blocks": [
+          {
+            "t": "h",
+            "text": "En lang tradition"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Danmark er et af de lande i verden, hvor flest mennesker er med i en forening. Det har historiske årsager. Allerede i begyndelsen af 1800-tallet begyndte borgere i købstæderne at mødes i klubber og selskaber, hvor de læste aviser, diskuterede politik og holdt baller. Men det var først, da bønderne for alvor begyndte at organisere sig, at foreningslivet bredte sig til hele landet."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Med grundloven fra 1849 fik danskerne ret til at danne foreninger uden at skulle have tilladelse fra staten. I årtierne derefter voksede der tusindvis af foreninger frem: skytteforeninger, gymnastikforeninger, sangforeninger, foredragsforeninger og ikke mindst andelsmejerier, hvor landmændene i fællesskab ejede og drev mejeriet. Mange steder byggede borgerne selv et forsamlingshus, hvor sognets fester, møder og foredrag kunne holdes. Arbejdet blev udført af frivillige, og pengene kom fra medlemmernes kontingenter og fra basarer og lotterier."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I byerne skete en lignende udvikling blandt arbejderne. De dannede fagforeninger, sygekasser og begravelseskasser, som skulle hjælpe medlemmerne, hvis de blev syge eller mistede deres arbejde. På den måde løste frivillige foreninger mange af de opgaver, som staten senere overtog."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Foto: Et forsamlingshus på landet. Mange af husene blev bygget mellem 1880 og 1910 og bruges stadig i dag."
+          },
+          {
+            "t": "h",
+            "text": "Foreningen som demokratiets skole"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Foreningerne har ikke kun haft betydning for fællesskabet, men også for demokratiet. I en forening vælger medlemmerne en bestyrelse på den årlige generalforsamling, og alle medlemmer har ret til at stille forslag og stemme. Mange danskere har derfor lært at holde møder, skrive referater og diskutere uenigheder på en ordentlig måde i deres lokale forening. Derfor bliver foreningerne ofte kaldt „demokratiets skole“."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Historikere peger også på, at foreningerne skabte et tæt netværk af tillid mellem mennesker, som ikke kendte hinanden i forvejen. Når man har stået side om side og solgt pølser til byfesten eller kridtet en fodboldbane op, stoler man lettere på hinanden – også i andre sammenhænge."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Fra velgørenhed til fællesskab"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Da velfærdsstaten blev bygget op efter Anden Verdenskrig, overtog det offentlige en stor del af omsorgen for syge, ældre og fattige. Nogle forudså dengang, at der ikke længere ville være brug for frivillige. Sådan gik det ikke. I stedet fandt de frivillige nye roller ved siden af de offentlige tilbud. I dag er frivillige for eksempel besøgsvenner for ensomme ældre, lektiehjælpere for skolebørn, trænere i idrætsforeninger og vejledere i telefonrådgivninger."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Samtidig har motivationen ændret sig. Hvor man tidligere ofte talte om at hjælpe „de trængende“, fortæller mange frivillige i dag, at de gør det for fællesskabets skyld, for at lære noget nyt eller for at bruge deres faglighed på en anden måde end i deres job. Mange unge ser også frivilligt arbejde som en mulighed for at få erfaring, de kan skrive på deres CV."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Frivillighed i tal"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I efteråret 2025 spurgte Frivilligcenter Nordås 1.200 borgere i kommunen, om de havde udført frivilligt arbejde inden for det seneste år. Svarene viser, at frivilligheden er stor i alle aldersgrupper, men at den er størst blandt borgere midt i livet, hvor mange er aktive i deres børns skole og fritidsliv."
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "Aldersgruppe",
+                "Andel, der har arbejdet frivilligt inden for det seneste år",
+                "Gennemsnitligt antal timer pr. måned"
+              ],
+              [
+                "16-29 år",
+                "38 %",
+                "11 timer"
+              ],
+              [
+                "30-49 år",
+                "47 %",
+                "13 timer"
+              ],
+              [
+                "50-66 år",
+                "44 %",
+                "16 timer"
+              ],
+              [
+                "67 år og derover",
+                "35 %",
+                "19 timer"
+              ]
+            ],
+            "header": true
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Undersøgelsen viser også, at de ældste frivillige er færre, men at de til gengæld bruger flest timer. „De pensionerede frivillige er rygraden i mange af vores besøgstjenester og caféer. De har tid, og de har erfaring,“ siger centerets leder, Mette Brask."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Kilde: Frivilligcenter Nordås, Frivillighedsundersøgelsen 2025. 1.200 borgere deltog."
+          },
+          {
+            "t": "h",
+            "text": "Frivillig Fredag"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Hvert år den sidste fredag i september markeres Frivillig Fredag over hele landet. Dagen skal sige tak til de mange frivillige og samtidig inspirere flere til at blive en del af foreningslivet. I Nordås fejres dagen med et frivilligmarked på Torvet, hvor kommunens foreninger præsenterer sig fra kl. 14 til kl. 18. Der er musik fra scenen, gratis kaffe og kage og mulighed for at tale med foreningerne om ledige frivilligjob."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Kl. 16.30 uddeler borgmesteren prisen som Årets Frivillige i Nordås. Prisen består af et diplom og 10.000 kr., som vinderen kan give videre til sin forening. Sidste år gik prisen til 81-årige Grethe Holm, som i 23 år har drevet strikkeklubben på plejecentret Solvang. Klubben har blandt andet strikket over 3.000 huer til nyfødte på sygehuset."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Indstil en kandidat til Årets Frivillige senest den 1. september på frivilligcentrets hjemmeside."
+          },
+          {
+            "t": "h",
+            "text": "Nyhed: Virksomheder giver fri til frivilligt arbejde"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Flere virksomheder i Nordås giver nu deres medarbejdere mulighed for at arbejde frivilligt i arbejdstiden. Hos maskinfabrikken Holm & Søn kan hver medarbejder bruge to arbejdsdage om året på frivilligt arbejde med fuld løn. I år har medarbejderne blandt andet malet klasselokaler på Vesterby Skole og bygget fuglekasser sammen med børnehavebørn."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "„Vi gør det, fordi vi gerne vil være en del af lokalsamfundet. Men vi kan også se, at det giver et bedre sammenhold på arbejdspladsen, når kolleger fra forskellige afdelinger arbejder sammen om noget helt andet,“ siger personalechef Ulla Berg. Ordningen er populær: Sidste år benyttede 70 procent af medarbejderne sig af den."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Frivilligcenter Nordås",
+        "blocks": [
+          {
+            "t": "h",
+            "text": "Velkommen til Frivilligcenter Nordås"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Frivilligcenter Nordås er et uafhængigt videnscenter for frivillighed i Nordås Kommune. Centret blev oprettet i 2009 af en gruppe lokale foreninger, og i dag er over 140 foreninger medlemmer. Vi arbejder for, at alle borgere – unge som gamle, nytilflyttede som fastboende – kan finde et frivilligt fællesskab, der passer til netop dem."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Vi er ikke selv en forening med frivillige aktiviteter. Vi er et sted, hvor foreninger og frivillige kan få hjælp, rådgivning og inspiration. Centret har fem ansatte og drives med støtte fra Nordås Kommune og medlemsforeningernes kontingent."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Det tilbyder vi",
+            "level": 3
+          },
+          {
+            "t": "list",
+            "items": [
+              "Personlig vejledning, hvis du gerne vil være frivillig, men ikke ved hvor",
+              "Frivilligjobbanken med ledige frivilligjob i hele kommunen",
+              "Hjælp til foreninger med fundraising og ansøgninger til fonde og puljer",
+              "Rådgivning om foreningsjura, vedtægter og regnskab",
+              "Kurser og netværksmøder for frivillige og bestyrelsesmedlemmer",
+              "Lån af mødelokaler, projektor og telte til arrangementer"
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Åbningstider",
+            "level": 3
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "Dag",
+                "Åbent",
+                "Bemærkning"
+              ],
+              [
+                "Mandag",
+                "10.00-15.00",
+                ""
+              ],
+              [
+                "Tirsdag",
+                "10.00-15.00",
+                "Foreningsrådgivning efter aftale"
+              ],
+              [
+                "Onsdag",
+                "10.00-19.00",
+                "Åben vejledning for nye frivillige kl. 16-19"
+              ],
+              [
+                "Torsdag",
+                "10.00-15.00",
+                ""
+              ],
+              [
+                "Fredag",
+                "10.00-13.00",
+                ""
+              ],
+              [
+                "Lørdag og søndag",
+                "Lukket",
+                ""
+              ]
+            ],
+            "header": true
+          },
+          {
+            "t": "small",
+            "text": "Frivilligcenter Nordås, Stationsvej 12, 2. sal, Nordås. Der er elevator i bygningen. Gratis parkering i gården bag huset."
+          },
+          {
+            "t": "h",
+            "text": "Sådan gør du, hvis du vil være frivillig",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Du behøver ikke at bestille tid. Kom forbi til den åbne vejledning, så tager en af vores medarbejdere en snak med dig om, hvad du interesserer dig for, hvor meget tid du har, og hvad du gerne vil lære. Mange har en idé om, at man skal kunne en masse for at blive frivillig. Det er sjældent tilfældet. De fleste foreninger sørger selv for, at nye frivillige bliver lært op."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Du kan også selv søge i Frivilligjobbanken på vores hjemmeside. Her kan du sortere jobbene efter område, for eksempel børn og unge, ældre, natur, kultur eller sport, og efter hvor mange timer om ugen jobbet kræver."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Netværksmøder for foreninger",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Fire gange om året inviterer vi foreningernes formænd og frivillige koordinatorer til netværksmøde. Her udveksler foreningerne erfaringer om alt fra rekruttering af nye frivillige til samarbejde med kommunen. Møderne holdes skiftevis i Nordås og i en af kommunens landsbyer, så alle har mulighed for at deltage. Der er altid et kort oplæg fra en gæst og god tid til at snakke."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "„Centret hjalp os i gang igen“",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Spejdergruppen i landsbyen Vesterby var tæt på at lukke for tre år siden. De gamle ledere ville gerne stoppe, og ingen nye havde meldt sig. „Vi tog kontakt til frivilligcentret, og de hjalp os med at skrive et opslag, der fortalte, hvad det egentlig vil sige at være spejderleder. Vi havde nok gjort det til en større opgave, end det er,“ fortæller gruppeleder Anne Sørensen. Opslaget gav syv nye ledere, og i dag har gruppen flere børn på venteliste."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Ledige frivilligjob lige nu"
+          },
+          {
+            "t": "h",
+            "text": "Lektiehjælper til Nordås Bibliotek",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Bibliotekets lektiecafé har åbent mandag og torsdag kl. 15-17 og søger flere frivillige. Du skal hjælpe elever fra 4. til 9. klasse med deres lektier. Du behøver ikke at være lærer, men du skal have tålmodighed og lyst til at forklare tingene på flere måder. Vi forventer, at du kan komme mindst én eftermiddag om ugen."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Chauffør til Seniorbussen",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Seniorbussen kører ældre borgere til indkøb, frisør og lægebesøg i kommunens landsbyer. Vi søger chauffører, der kan køre en eller to formiddage om måneden. Bussen har plads til otte passagerer og kan køres på et almindeligt kørekort. For at blive chauffør skal man have haft kørekort i mindst fem år og have en ren straffeattest. Du får et kort introduktionskursus, og du kører aldrig alene første gang."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Frivillig i Naturklubben",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Naturklubben Nordås søger voksne, der vil tage med på ture i skoven og ved åen med familier og børn i alderen 3-10 år. Turene foregår den første søndag i hver måned. Du behøver ikke at være ekspert i planter og dyr – nysgerrighed er vigtigere end viden."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Haveven på Plejecenter Solvang",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Plejecentret har en stor have med højbede, frugttræer og et lille drivhus. Vi søger frivillige, der vil hjælpe beboerne med at så, luge og høste i sæsonen fra april til oktober. Mange af beboerne har selv haft have hele livet og nyder at få jord under neglene igen. Du bestemmer selv, hvornår du kommer, men vi vil gerne have, at du kan komme fast mindst to timer om ugen."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Se alle ledige frivilligjob i Frivilligjobbanken på frivilligcentrets hjemmeside."
+          }
+        ]
+      },
+      {
+        "title": "Frivillige fortæller",
+        "blocks": [
+          {
+            "t": "p",
+            "runs": [
+              "Fem frivillige fortæller her om, hvorfor de har valgt at bruge deres fritid på frivilligt arbejde – og hvad de selv får ud af det."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Amira, 27 år – lektiehjælper"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "„Jeg kom til Danmark, da jeg var 12 år, og jeg kunne ikke et ord dansk. Jeg fik selv hjælp i en lektiecafé, og det betød alt for mig. Derfor ville jeg give noget tilbage, da jeg var færdig med min uddannelse som laborant."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Nu er jeg lektiehjælper to gange om ugen. De fleste elever spørger om matematik, men jeg hjælper også med dansk og engelsk. Nogle gange handler det slet ikke om lektierne. Så har en elev bare brug for at snakke med en voksen, der har tid til at lytte. Det bedste er, når en elev, der var ved at give op, pludselig siger: Nå, er det bare sådan! Så kører jeg glad hjem.“"
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Bent, 74 år – besøgsven"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "„Da min kone døde for fire år siden, blev huset meget stille. Min datter foreslog, at jeg skulle blive besøgsven, og jeg var skeptisk. Jeg troede, det handlede om at sidde og drikke kaffe med gamle damer, ha ha. Men så blev jeg sat sammen med Erling."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Erling er 91 år og tidligere skibsmaskinist, og han har sejlet på alle verdenshavene. Vi ses hver tirsdag. Først spiller vi skak – han vinder næsten altid – og bagefter går vi en tur ned til havnen, hvis vejret er til det. Folk tror, at det er mig, der hjælper Erling. Men ærligt talt ved jeg ikke, hvem af os der har mest glæde af det.“"
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Sofie, 19 år – frivillig på festival"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "„Jeg har været frivillig på Engfestivalen tre år i træk. Det første år var det mest, fordi jeg ikke havde råd til en billet. Nu er det, fordi jeg ikke kan undvære det. Jeg arbejdede i baren det første år, men nu er jeg holdleder for 15 frivillige ved indgangen."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Det har lært mig utrolig meget om at tage ansvar. Når der står 2.000 mennesker i kø, og det begynder at regne, skal man kunne holde hovedet koldt. Jeg har skrevet min erfaring som holdleder på mit CV, og jeg blev faktisk spurgt ind til den, da jeg var til jobsamtale i sommer.“"
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Jonas, 35 år – fodboldtræner"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "„Min søn startede til fodbold, da han var fem år, og der manglede en træner. Så var det ligesom afgjort. Nu træner jeg hans hold, U9-drengene i Nordås Boldklub, to gange om ugen. Der er 22 drenge på holdet, og vi er tre trænere, så vi kan dele dem op i mindre grupper."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Det kræver en del planlægning ved siden af et fuldtidsjob, og jeg vil ikke lyve: Der er aftener, hvor jeg helst ville blive hjemme i sofaen. Men når jeg står på banen, og ungerne griner, glemmer jeg alt om det. Og så har jeg fået en hel masse nye venner blandt de andre forældre.“"
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Henrik, 52 år – frivillig rådgiver i en telefonlinje"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "„Jeg arbejder til daglig som revisor, så jeg sidder mest med tal. Men for seks år siden meldte jeg mig som frivillig i en telefonlinje, hvor mennesker, der føler sig ensomme, kan ringe og tale med nogen. Jeg har en vagt på fire timer hver anden uge, og den ligger tit om natten. Det er nemlig tit om natten, at ensomheden er værst."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Før jeg måtte tage telefonen, var jeg på et kursus over to weekender, hvor vi blandt andet øvede os i at lytte uden at give gode råd. Det lyder nemt, men det er det sværeste, jeg har lært. Jeg er blevet en bedre lytter – også derhjemme, siger min kone.“"
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Interviewene er redigeret og forkortet af redaktionen."
+          }
+        ]
+      },
+      {
+        "title": "Frivillig i idræt og kultur",
+        "blocks": [
+          {
+            "t": "h",
+            "text": "Foreningslivet hviler på frivillige"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Idrætten er det område, hvor flest danskere arbejder frivilligt. I næsten alle landets byer og landsbyer er der en idrætsforening, og de fleste af dem ville ikke kunne eksistere uden frivillige trænere, holdledere, bestyrelsesmedlemmer, kasserere og forældre, der kører til kampe og vasker spilletrøjer."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Også inden for kulturen spiller de frivillige en stor rolle. De sælger billetter i det lokale spillested, arrangerer koncerter og foredrag, guider på museer og passer kulturhusenes caféer. Mange mindre musikfestivaler bliver helt eller delvist drevet af frivillige, og overskuddet går ofte til lokale foreninger og gode formål."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Nyt fra Nordås Boldklub: Frivillige gav klubhuset nyt liv"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Efter mere end 40 år med det samme køkken, de samme omklædningsrum og et tag, der lækkede, når det regnede, kunne Nordås Boldklub i august indvie et totalrenoveret klubhus. Arbejdet blev udført af 35 frivillige, som brugte seks weekender på at rive ned og bygge op igen. Blandt de frivillige var både spillere, forældre, tømrere og en pensioneret elektriker."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "„Hvis vi havde fået et firma til at gøre det hele, havde det kostet os omkring 900.000 kroner. Nu endte regningen på lidt over 400.000, og det er især materialer,“ fortæller formand Karsten Nielsen. Pengene kom fra en lokal fond og fra et sponsorløb, hvor klubbens medlemmer løb tilsammen 3.100 kilometer."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Klubhuset ligger på Idrætsvej 4. Det nye mødelokale kan lejes af andre foreninger i kommunen."
+          },
+          {
+            "t": "h",
+            "text": "Engfestivalen søger 600 frivillige"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Engfestivalen holdes hvert år i den første weekend af juli på engen ved Nordås Å og har plads til 8.000 gæster om dagen. Festivalen varer tre dage og drives af en forening, hvor alle – også bestyrelsen – arbejder gratis. Overskuddet går til idræt og kultur for børn og unge i kommunen."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Som frivillig vælger du selv, om du vil arbejde i en af barerne, ved indgangen, i køkkenet, med oprydning eller med at bygge scenerne op. En vagt varer typisk seks timer. Tager du én vagt, får du adgang til festivalen den dag, hvor du har vagt. Tager du tre vagter, får du et armbånd, der giver adgang til alle festivalens dage. Alle frivillige får gratis mad og drikke under vagten og kan bo i Frivilliglejren, hvor der er bad og toiletter."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Du skal være fyldt 16 år for at arbejde som frivillig på festivalen. Unge på 15 år kan være med, hvis de følges med en voksen fra familien."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Tilmelding som frivillig åbner den 1. marts på festivalens hjemmeside."
+          },
+          {
+            "t": "h",
+            "text": "Nordås Rundt: Et løb, der kræver 250 hjælpere"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Når 3.500 løbere den anden søndag i maj løber Nordås Rundt, sker det med hjælp fra omkring 250 frivillige. De står ved væskedepoterne, viser vej i krydsene, deler medaljer ud og rydder op bagefter. Mange af de frivillige kommer fra kommunens idrætsforeninger, som til gengæld får del i overskuddet. Jo flere frivillige en forening stiller med, jo større en del af overskuddet får den."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Løbet har tre distancer: 5, 10 og 21 kilometer. Der er også et børneløb på 1 kilometer for børn under 10 år, som starter en time før de andre løb."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Bio Nordås drives af 80 frivillige"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Da kommunens eneste biograf lukkede i 2016, gik en gruppe borgere sammen og overtog bygningen. I dag drives Bio Nordås af en forening med omkring 80 frivillige, der sælger billetter og popcorn, kører filmene og gør rent efter forestillingerne. Biografen har to sale og viser film seks dage om ugen. Kun direktøren og en enkelt maskinmester er ansat."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "„Folk kommer ikke kun for filmenes skyld. De kommer, fordi det er deres biograf,“ siger formand Birgitte Krag. Biografen holder hvert år en gratis forestilling for alle frivillige og deres familier."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Egnsmuseets frivillige guider"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Egnsmuseet i Nordås har 60 frivillige, som blandt andet passer museets butik, hjælper med at registrere genstande og guider besøgende rundt. De frivillige guider har en særlig opgave i sommerhalvåret: Hver søndag fra maj til september viser de rundt i den gamle vandmølle ved åen, som museet overtog i 1987. Her kan man se, hvordan korn blev malet til mel, og om vandstanden er høj nok, sættes møllehjulet i gang."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "„Mange af vores guider har selv haft et langt arbejdsliv som håndværkere eller landmænd. De kan fortælle historier, som ikke står i nogen bog,“ siger museumsinspektør Lise Thomsen. Museet søger især frivillige, der kan guide på engelsk eller tysk."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Egnsmuseet, Møllevej 2, Nordås. Åbent tirsdag-søndag kl. 11-16. Gratis adgang for børn under 18 år."
+          }
+        ]
+      },
+      {
+        "title": "Praktisk information til frivillige",
+        "blocks": [
+          {
+            "t": "h",
+            "text": "Må jeg arbejde frivilligt, når jeg får dagpenge?"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Ja, som udgangspunkt må du gerne arbejde frivilligt, mens du modtager dagpenge, hvis arbejdet er ulønnet og foregår i en forening eller organisation. Arbejdet må dog ikke være en opgave, som normalt bliver udført af lønnet arbejdskraft. Du skal stadig være til rådighed for arbejdsmarkedet og kunne tage imod et job. Reglerne kan være forskellige fra situation til situation, så tal altid med din a-kasse, før du starter."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Børneattest"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Hvis du som frivillig skal have direkte kontakt med børn under 15 år, for eksempel som træner, spejderleder eller lektiehjælper, skal foreningen indhente en børneattest. Attesten viser, om man er dømt for visse alvorlige forbrydelser mod børn. Det er foreningen, der bestiller attesten, og du skal give dit samtykke digitalt. Det koster ikke noget, og det tager normalt kun få dage. Mange foreninger indhenter en ny attest hvert andet år."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Er jeg forsikret som frivillig?"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Mange foreninger har en ansvars- og ulykkesforsikring, der dækker deres frivillige, men det er ikke alle. Spørg derfor din forening, før du går i gang. Nogle kommuner har desuden en forsikring, der dækker frivillige i kommunale institutioner som plejecentre, skoler og biblioteker. Din egen indboforsikring kan også dække nogle skader."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Kan jeg få penge for mit arbejde?"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Frivilligt arbejde er ulønnet. Foreningen må dog gerne dække dine udgifter, for eksempel til transport, telefon og materialer. Det kan ske ved, at du afleverer kvitteringer, eller ved et fast skattefrit beløb inden for de grænser, som Skattestyrelsen fastsætter. Spørg din forening, hvordan de gør."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Tavshedspligt"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Som frivillig kan du komme til at høre om andre menneskers sygdom, økonomi eller familieforhold. Mange organisationer beder derfor deres frivillige om at skrive under på en erklæring om tavshedspligt. Det betyder, at du ikke må fortælle andre om det, du hører, heller ikke efter at du er stoppet som frivillig."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Hvor meget tid skal jeg bruge?"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Det bestemmer du langt hen ad vejen selv. Nogle frivillige hjælper en enkelt dag om året, for eksempel til et motionsløb eller en indsamling. Andre har en fast ugentlig opgave. Det vigtigste er, at du er ærlig over for foreningen om, hvor meget tid du har. Det er bedre at love lidt og holde det end at love meget og melde afbud."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Kurser for frivillige i efteråret"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Frivilligcenter Nordås tilbyder hvert efterår en række korte kurser for frivillige og bestyrelsesmedlemmer. Kurserne foregår i centrets lokaler på Stationsvej. Tilmelding sker på hjemmesiden senest en uge før kursusstart. Prisen dækker materialer og forplejning."
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "Kursus",
+                "Dato",
+                "Tid",
+                "Pris"
+              ],
+              [
+                "Førstehjælp for frivillige",
+                "Lørdag den 4. oktober",
+                "9.00-15.00",
+                "150 kr."
+              ],
+              [
+                "Den gode samtale med ensomme",
+                "Onsdag den 15. oktober",
+                "17.00-20.00",
+                "Gratis"
+              ],
+              [
+                "Sådan bliver du en god kasserer",
+                "Tirsdag den 28. oktober",
+                "18.00-21.00",
+                "75 kr."
+              ],
+              [
+                "Konflikter i bestyrelsen",
+                "Torsdag den 13. november",
+                "18.00-21.00",
+                "75 kr."
+              ],
+              [
+                "Sociale medier for foreninger",
+                "Lørdag den 22. november",
+                "10.00-14.00",
+                "100 kr."
+              ]
+            ],
+            "header": true
+          },
+          {
+            "t": "small",
+            "text": "Medlemsforeninger får 50 % rabat på alle kurser. Kurset i førstehjælp giver et kursusbevis, der gælder i to år."
+          },
+          {
+            "t": "h",
+            "text": "Når du vil stoppe"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Der kan være mange gode grunde til at stoppe som frivillig: et nyt job, en flytning eller bare lyst til at prøve noget andet. Det er helt i orden. Giv foreningen besked i god tid, så den kan nå at finde en afløser, og tilbyd gerne at sætte den nye frivillige ind i opgaven. Mange foreninger holder en lille afskedsfest for de frivillige, der stopper efter mange år."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Frivillig – også selvom du ikke taler flydende dansk"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Mange nye borgere i Danmark bruger frivilligt arbejde som en vej ind i det danske samfund. Som frivillig møder man mennesker, man ellers ikke ville have mødt, og man får brugt sit dansk i hverdagen. Det kan også give erfaring og kontakter, der kan være nyttige, når man søger job."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I Café Mødestedet på Kirkegade 8 arbejder frivillige fra 14 forskellige lande side om side. Caféen er åben for alle, og de frivillige laver mad, serverer og står i kassen. Nye frivillige, der gerne vil øve sig i dansk, kan få en sprogmakker – en erfaren frivillig, som de har vagter sammen med, og som hjælper med de ord og udtryk, der bruges i caféen. „Ingen forventer perfekt dansk. Det vigtigste er, at du har lyst til at være en del af fællesskabet,“ siger caféens koordinator, Yasmin Aziz."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Café Mødestedet holder åbent tirsdag-lørdag kl. 11-20. Kom forbi og spørg efter Yasmin."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "n": 1,
+        "section": "Frivillighed før og nu",
+        "prompt": "Hvilket år fik danskerne ret til at danne foreninger uden tilladelse fra staten?",
+        "key": "(I) 1849"
+      },
+      {
+        "n": 2,
+        "section": "Frivillighed før og nu",
+        "prompt": "Hvor stor en andel af borgerne i Nordås mellem 16 og 29 år havde arbejdet frivilligt inden for det seneste år?",
+        "key": "38 (%)",
+        "also": [
+          "38%"
+        ]
+      },
+      {
+        "n": 3,
+        "section": "Frivillighed før og nu",
+        "prompt": "Hvor mange penge følger der med prisen som Årets Frivillige i Nordås?",
+        "key": "10.000 (kr.)",
+        "also": [
+          "10.000 kroner"
+        ]
+      },
+      {
+        "n": 4,
+        "section": "Frivilligcenter Nordås",
+        "prompt": "Hvilken dag i ugen har Frivilligcenter Nordås åbent om aftenen?",
+        "key": "(Om) onsdag(en)",
+        "also": ["Onsdage"]
+      },
+      {
+        "n": 5,
+        "section": "Frivilligcenter Nordås",
+        "prompt": "Hvor længe skal man mindst have haft kørekort for at kunne blive chauffør i Seniorbussen?",
+        "key": "(I mindst) fem år"
+      },
+      {
+        "n": 6,
+        "section": "Frivilligcenter Nordås",
+        "prompt": "Kan foreninger få hjælp hos Frivilligcenter Nordås til at søge penge hos fonde? Svar 'ja' eller 'nej'.",
+        "key": "Ja",
+        "paraphrased": true
+      },
+      {
+        "n": 7,
+        "section": "Frivillige fortæller",
+        "prompt": "Hvilket fag spørger eleverne oftest Amira om i lektiecaféen?",
+        "key": "Matematik"
+      },
+      {
+        "n": 8,
+        "section": "Frivillige fortæller",
+        "prompt": "Hvad gør Bent og Erling som det første, når de ses om tirsdagen?",
+        "key": "(De spiller) skak"
+      },
+      {
+        "n": 9,
+        "section": "Frivillige fortæller",
+        "prompt": "Hvor mange drenge er der på det fodboldhold, som Jonas træner?",
+        "key": "22 (drenge)"
+      },
+      {
+        "n": 10,
+        "section": "Frivillig i idræt og kultur",
+        "prompt": "Hvor mange weekender brugte de frivillige på at renovere Nordås Boldklubs klubhus?",
+        "key": "Seks (weekender)"
+      },
+      {
+        "n": 11,
+        "section": "Frivillig i idræt og kultur",
+        "prompt": "Hvor mange vagter skal man tage som frivillig på Engfestivalen for at få adgang til alle festivalens dage?",
+        "key": "Tre (vagter)"
+      },
+      {
+        "n": 12,
+        "section": "Frivillig i idræt og kultur",
+        "prompt": "Hvilken bygning viser Egnsmuseets frivillige guider rundt i om søndagen i sommerhalvåret?",
+        "key": "(Den gamle) vandmølle(n)"
+      },
+      {
+        "n": 13,
+        "section": "Praktisk information til frivillige",
+        "prompt": "Hvor gamle er de børn, som reglerne om børneattest gælder for?",
+        "key": "Under 15 (år)"
+      },
+      {
+        "n": 14,
+        "section": "Praktisk information til frivillige",
+        "prompt": "Hvad koster det at deltage i kurset i førstehjælp for frivillige, hvis man ikke er fra en medlemsforening?",
+        "key": "150 (kr.)",
+        "also": [
+          "150 kroner"
+        ]
+      },
+      {
+        "n": 15,
+        "section": "Praktisk information til frivillige",
+        "prompt": "Hvad kan nye frivillige på Café Mødestedet få, hvis de gerne vil øve sig i dansk?",
+        "key": "(En) sprogmakker"
+      }
+    ]
+  },
+  "lf2": {
+    "tasks": [
+      {
+        "kind": "mc",
+        "label": "2A",
+        "title": "Kunstig intelligens flytter ind på kontoret",
+        "passages": [
+          {
+            "title": "Kunstig intelligens flytter ind på kontoret",
+            "blocks": [
+              {
+                "t": "p",
+                "runs": [
+                  {
+                    "strong": "Programmer, der kan skrive tekster, opsummere møder og besvare kundernes spørgsmål, er på få år blevet en del af hverdagen på mange danske arbejdspladser. Nogle medarbejdere ser teknologien som en kærkommen hjælp, mens andre frygter for deres job. Ifølge forskningen afhænger resultatet dog i høj grad af, hvordan teknologien bliver indført."
+                  }
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Da Karina Lund for halvandet år siden fik at vide, at hendes afdeling skulle begynde at bruge kunstig intelligens, var hun ikke begejstret. Hun arbejder som bogholder i en mellemstor transportvirksomhed i Midtjylland, og dengang gik en stor del af hendes arbejdsdag med at kontrollere fakturaer og taste tal ind i virksomhedens systemer."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "„Min første tanke var, at nu måtte jeg hellere begynde at kigge efter et nyt job. Hvis en maskine kan gøre det, jeg laver, hvorfor skal de så betale mig løn?“ fortæller hun."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Sådan gik det ikke. I dag klarer programmet det meste af kontrollen af fakturaerne, men Karina Lund gennemgår stadig de sager, som programmet markerer som usikre. Og dem er der flere af, end man skulle tro. „Programmet laver ikke flere fejl, end jeg gjorde, men det laver nogle andre fejl. Det kan for eksempel ikke se, at en leverandør har skiftet navn, og så sender det en helt almindelig faktura videre som mistænkelig,“ siger hun."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Den tid, hun har sparet, bruger hun nu på at tale med virksomhedens kunder og på at lave analyser for ledelsen – opgaver, som hun tidligere aldrig nåede. Ingen i afdelingen er blevet fyret, efter at programmet kom, men to kolleger, der gik på pension, er ikke blevet erstattet. „Jeg er faktisk blevet gladere for mit arbejde. Der er ikke længere to dage, der ligner hinanden,“ siger hun. Hun understreger dog, at hun og hendes kolleger blev inddraget fra begyndelsen. Ledelsen brugte et halvt år på at afprøve programmet sammen med medarbejderne, før det blev taget i brug i hele afdelingen. Undervejs var det medarbejderne, der besluttede, hvilke opgaver programmet skulle overtage, og hvilke de selv ville beholde."
+                ]
+              },
+              {
+                "t": "h",
+                "text": "Indflydelse gør forskellen",
+                "level": 3
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Netop medarbejdernes indflydelse er ifølge Lene Dahl Kristensen, der er lektor og forsker i arbejdsliv og ny teknologi, den vigtigste forklaring på, at nogle arbejdspladser får gavn af kunstig intelligens, mens andre ikke gør. Hun har gennem de seneste tre år fulgt 14 danske virksomheder, der har indført forskellige former for kunstig intelligens."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "„Mange ledere tror, at det handler om at købe det nyeste og dyreste program. Men vi ser ikke den store forskel på teknologierne. Forskellen ligger i, om medarbejderne har haft indflydelse på, hvordan programmet skal bruges i deres daglige arbejde,“ siger hun."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "På de arbejdspladser, hvor ledelsen har indført teknologien hen over hovedet på medarbejderne, har hun oplevet både mistillid og modstand. „Medarbejderne finder måder at undgå programmet på, eller de bruger det forkert, fordi ingen har forklaret dem, hvad det er godt til. Så får virksomheden ikke den gevinst, den havde regnet med, og de ansatte får bekræftet deres mistanke om, at det hele handlede om at spare,“ forklarer hun."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Det er heller ikke alderen, der afgør, om medarbejderne tager teknologien til sig. „Man hører tit, at de ældre medarbejdere er imod, men det kan vi ikke se i vores data. Nogle af de mest positive medarbejdere, vi har mødt, var tæt på pensionsalderen. Til gengæld betyder det meget, om man har fået tid til at lære programmet at kende i arbejdstiden,“ siger Lene Dahl Kristensen."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Hun anbefaler derfor, at virksomhederne afsætter tid til oplæring, og at de fra starten gør det klart, hvad den sparede tid skal bruges til. „Hvis medarbejderne ved, at de ikke bliver fyret, men får nye og mere interessante opgaver, er de langt mere villige til at prøve teknologien af,“ siger hun."
+                ]
+              },
+              {
+                "t": "h",
+                "text": "Hvor skal de unge lære faget?",
+                "level": 3
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Selvom forskeren overordnet ser positivt på udviklingen, er hun bekymret på ét punkt. Mange af de opgaver, som kunstig intelligens nu overtager, er netop de enkle rutineopgaver, som nyuddannede tidligere fik i deres første år på arbejdsmarkedet."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "„Det var ved at kontrollere fakturaer eller skrive referater, at man lærte, hvordan en virksomhed hænger sammen. Hvis de opgaver forsvinder, skal vi finde andre måder at lære de unge faget på. Ellers risikerer vi, at der om ti år mangler erfarne medarbejdere, der kan kontrollere maskinernes arbejde,“ siger hun."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Hun har endnu ikke set tegn på, at virksomhederne ansætter færre unge. Faktisk oplever hun, at de nyuddannede ofte er dem, der er hurtigst til at bruge de nye programmer. „Problemet er ikke, at de unge ikke kan finde ud af teknologien. Problemet er, at de kan komme til at stole for meget på den, fordi de aldrig selv har prøvet at løse opgaverne,“ siger hun."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "I Karina Lunds afdeling har man taget konsekvensen. Når en ny elev starter, skal eleven de første tre måneder kontrollere fakturaer i hånden – præcis som Karina Lund selv gjorde, da hun blev ansat for 19 år siden. „Det virker måske gammeldags, men man skal vide, hvad maskinen laver, før man kan opdage, når den tager fejl,“ siger hun."
+                ]
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "prompt": "Hvad fortæller Karina Lund om sit arbejde, efter at afdelingen har fået det nye program?",
+            "options": [
+              "Programmet laver flere fejl, end hun selv gjorde, da hun kontrollerede fakturaerne.",
+              "Hendes arbejdsdage er blevet mere varierede, end de var før.",
+              "Programmet blev taget i brug i hele afdelingen, uden at medarbejderne blev spurgt."
+            ],
+            "correct": "B"
+          },
+          {
+            "prompt": "Hvad er ifølge Lene Dahl Kristensen den vigtigste forklaring på, at nogle arbejdspladser får gavn af kunstig intelligens?",
+            "options": [
+              "At virksomheden har valgt et af de nyeste og mest avancerede programmer.",
+              "At medarbejderne er yngre og derfor hurtigere til at lære teknologien.",
+              "At medarbejderne har været med til at bestemme, hvordan programmet skal bruges."
+            ],
+            "correct": "C"
+          },
+          {
+            "prompt": "Hvad er Lene Dahl Kristensen bekymret for?",
+            "options": [
+              "At nyuddannede mister de enkle opgaver, som man tidligere lærte faget igennem.",
+              "At nyuddannede har sværere ved at bruge de nye programmer end deres ældre kolleger.",
+              "At virksomhederne allerede er begyndt at ansætte færre nyuddannede end tidligere."
+            ],
+            "correct": "A"
+          }
+        ],
+        "points": 2
+      },
+      {
+        "kind": "insert",
+        "label": "2B",
+        "title": "Brugt er blevet det nye nye",
+        "passage": {
+          "title": "Brugt er blevet det nye nye",
+          "blocks": [
+            {
+              "t": "p",
+              "runs": [
+                {
+                  "strong": "Flere og flere danskere køber brugt. Det er godt for pengepungen og for klimaet, men den nye popularitet har også skabt problemer for genbrugsbutikkerne."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "For få år siden var brugt tøj noget, mange forbandt med en stram økonomi eller en helt særlig stil. I dag er det for mange danskere helt almindeligt at tjekke en app eller tage en tur i den lokale genbrugsbutik, før de køber noget nyt. Det gælder ikke kun tøj, men også møbler, cykler, legetøj og elektronik."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 1
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Blandt de 18-29-årige var andelen endnu højere. Her havde hele tre ud af fire handlet brugt, og mange af dem gjorde det flere gange om måneden."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Signe Mørk på 24 år er en af dem. Hun læser til sygeplejerske og vurderer selv, at ni ud af ti stykker tøj i hendes klædeskab er købt brugt. „Det startede som en måde at spare penge på, da jeg flyttede hjemmefra,“ fortæller hun. „Men nu handler det lige så meget om jagten. Man ved aldrig, hvad man finder.“"
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 2
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Alligevel er pengene ikke hele forklaringen. Signe Mørk nævner også klimaet som en vigtig grund til, at hun handler brugt. Tekstilindustrien står for en betydelig del af verdens udledning af drivhusgasser, og der går store mængder vand til at producere bare et enkelt par jeans. „Hver gang jeg køber noget brugt, er der en ny ting, der ikke skal produceres,“ siger hun. Hun er langt fra den eneste, der tænker sådan. Når unge bliver spurgt, hvorfor de køber brugt, er klimaet en af de grunde, de oftest nævner – kun overgået af prisen."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Hanne Vestergaard er leder af en genbrugsbutik i Silkeborg, som drives af en humanitær organisation, og hun har også mærket forandringen. „Kunderne er blevet yngre, og de ved præcis, hvad de leder efter. Tidligere var det mest pensionister og børnefamilier, der kom her,“ siger hun."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 3
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Det har fået nogle butikker til at hæve priserne på mærkevarer, mens andre har indført en regel om, at man højst må købe tre ting ad gangen. Hanne Vestergaard forstår godt de kunder, der synes, at priserne er steget for meget. „Men vi skal huske, at vores overskud går til et godt formål. Og det er stadig langt billigere end at købe nyt,“ siger hun."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Også på nettet er markedet vokset. På apps og hjemmesider sælger private personer tøj, møbler og børneudstyr direkte til hinanden, og her er det ofte sælgeren selv, der sætter prisen. Signe Mørk sælger selv de ting, hun ikke længere bruger. „På den måde betaler mine gamle bukser for mine nye – eller rettere mine nye gamle,“ siger hun med et grin."
+              ]
+            },
+            {
+              "t": "h",
+              "text": "Mere tøj, men dårligere kvalitet",
+              "level": 3
+            },
+            {
+              "t": "p",
+              "runs": [
+                "En anden udfordring handler om selve varerne. Genbrugsbutikkerne modtager i dag større mængder tøj end nogensinde, men en stor del af det kan ikke sælges."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 4
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Hanne Vestergaard anslår, at omkring en tredjedel af de poser, butikken modtager, ender med at blive sendt videre til sortering – eller i værste fald til forbrænding. „Vi plejer at sige, at genbrug kun er så godt som det tøj, folk køber nyt. Hvis kvaliteten er dårlig fra starten, kan vi ikke gøre så meget,“ siger hun. Butikken har derfor opsat skilte, der beder folk om kun at aflevere tøj, de selv ville kunne finde på at gå med."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Flere forbrugsforskere peger desuden på, at brugtkøb ikke automatisk er godt for klimaet."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 5
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Det er Signe Mørk enig i. „Jeg har faktisk lært at lade være med at købe noget, bare fordi det er billigt. Det bedste køb er stadig det, man ikke foretager,“ siger hun."
+              ]
+            }
+          ]
+        },
+        "inserts": [
+          {
+            "letter": "A",
+            "text": "Det skyldes især, at mere og mere tøj bliver produceret billigt og hurtigt. Når det bliver afleveret i butikken, er det ofte allerede slidt, fnuldret eller gået op i sømmene."
+          },
+          {
+            "letter": "B",
+            "text": "Den store interesse har dog også en bagside. Mange butikker oplever, at de bedste varer bliver købt op af folk, der sælger dem videre på nettet med fortjeneste."
+          },
+          {
+            "letter": "C",
+            "text": "Derfor har butikken besluttet helt at stoppe med at tage imod tøj. I stedet vil den fremover kun sælge møbler og ting til hjemmet."
+          },
+          {
+            "letter": "D",
+            "text": "Udviklingen kan også aflæses i tallene. I en undersøgelse fra sidste år svarede næsten seks ud af ti danskere, at de inden for det seneste år havde købt mindst én brugt vare."
+          },
+          {
+            "letter": "E",
+            "text": "Hvis de penge, man sparer, bliver brugt på flere ting eller på en ekstra flyrejse, kan gevinsten hurtigt forsvinde. Det afgørende er altså ikke, om man køber brugt, men om man samlet set køber mindre."
+          },
+          {
+            "letter": "F",
+            "text": "For Signe er økonomien dog stadig vigtig. Hun har regnet ud, at hun sidste år brugte under 2.000 kroner på tøj, og det er langt mindre end de fleste af hendes veninder."
+          },
+          {
+            "letter": "G",
+            "text": "De to forskere bag undersøgelsen havde selv regnet med et langt lavere tal. De peger på, at især kvinderne har ændret vaner."
+          }
+        ],
+        "correct": [
+          "D",
+          "F",
+          "B",
+          "A",
+          "E"
+        ],
+        "points": 2
+      },
+      {
+        "kind": "cloze",
+        "label": "3",
+        "title": "Søvn er undervurderet",
+        "passage": {
+          "title": "Søvn er undervurderet",
+          "blocks": [
+            {
+              "t": "p",
+              "runs": [
+                {
+                  "strong": "De fleste ved, at kost og motion har stor betydning for helbredet. Søvn bliver "
+                },
+                {
+                  "gap": 0
+                },
+                {
+                  "strong": " ofte overset, selvom den er mindst lige så vigtig."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Voksne har brug for mellem syv og ni timers søvn hver nat, men mange danskere sover mindre end det. Søvnen er kroppens tid til at komme sig: Musklerne bliver repareret, og immunforsvaret bliver styrket. På kort sigt kan for lidt søvn føre til træthed, irritabilitet og dårlig koncentration. På længere sigt øger mangel på søvn ",
+                {
+                  "gap": 1
+                },
+                " for en række sygdomme."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Forskning har ",
+                {
+                  "gap": 2
+                },
+                " vist, at personer, der gennem lang tid sover for lidt, oftere udvikler type 2-diabetes og hjerte-kar-sygdomme. Søvnen har også stor betydning ",
+                {
+                  "gap": 3
+                },
+                " vores psykiske trivsel. Når vi sover, bearbejder hjernen dagens indtryk, og derfor har mennesker, der sover dårligt, sværere ved at håndtere stress og modgang."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Mange søvnproblemer hænger sammen med vores vaner. Især brugen af mobiltelefon og computer om aftenen får ofte skylden. Det blå lys fra skærmen kan ",
+                {
+                  "gap": 4
+                },
+                " kroppens produktion af søvnhormonet melatonin, og det gør det sværere at falde i søvn. Desuden holder sociale medier og nyheder hjernen i gang, ",
+                {
+                  "gap": 5
+                },
+                " vi egentlig burde slappe af. Mange har også for vane at tjekke mobilen, hvis de vågner om natten, og så kan det tage lang tid at falde i søvn igen."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Søvneksperter anbefaler derfor, at man lægger skærmen væk mindst en time før sengetid. Det er også en god idé at gå i seng og stå op på samme tidspunkt hver dag – også i weekenden. Kroppen har ",
+                {
+                  "gap": 6
+                },
+                " et indre ur, som fungerer bedst, når døgnet har en fast rytme."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Mange tror, at et glas vin hjælper på søvnen. Det er ",
+                {
+                  "gap": 7
+                },
+                " kun delvist rigtigt. Alkohol kan godt få en til at falde hurtigere i søvn, men søvnen bliver mere urolig senere på natten, og man vågner ofte mindre udhvilet."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Børn og unge har brug for endnu mere søvn end voksne. En teenager har typisk brug for omkring ni timer, men mange unge går sent i seng og skal tidligt op til skole. Når de så sover længe i weekenden for at indhente det forsømte, kommer kroppens rytme yderligere i ubalance."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Hvis søvnproblemerne varer ved i mere end et par måneder, bør man søge hjælp hos sin læge. For at kunne behandle problemerne effektivt er det en ",
+                {
+                  "gap": 8
+                },
+                ", at lægen først finder årsagen til dem. Sovepiller kan hjælpe i en kort periode, men de anbefales sjældent som en langvarig løsning. Ofte har samtaler med en psykolog og nye faste vaner en bedre og mere varig effekt."
+              ]
+            }
+          ]
+        },
+        "example": {
+          "options": [
+            "derimod",
+            "desuden",
+            "nemlig",
+            "ligeledes"
+          ],
+          "correct": "A"
+        },
+        "gaps": [
+          {
+            "options": [
+              "muligheden",
+              "fordelen",
+              "risikoen",
+              "årsagen"
+            ],
+            "correct": "C"
+          },
+          {
+            "options": [
+              "blandt andet",
+              "til gengæld",
+              "i stedet",
+              "trods alt"
+            ],
+            "correct": "A"
+          },
+          {
+            "options": [
+              "om",
+              "af",
+              "til",
+              "for"
+            ],
+            "correct": "D"
+          },
+          {
+            "options": [
+              "fremme",
+              "hæmme",
+              "øge",
+              "styrke"
+            ],
+            "correct": "B"
+          },
+          {
+            "options": [
+              "fordi",
+              "medmindre",
+              "selvom",
+              "eftersom"
+            ],
+            "correct": "C"
+          },
+          {
+            "options": [
+              "alligevel",
+              "derimod",
+              "dermed",
+              "nemlig"
+            ],
+            "correct": "D"
+          },
+          {
+            "options": [
+              "imidlertid",
+              "desuden",
+              "derfor",
+              "ligeledes"
+            ],
+            "correct": "A"
+          },
+          {
+            "options": [
+              "ulempe",
+              "forudsætning",
+              "konsekvens",
+              "undtagelse"
+            ],
+            "correct": "B"
+          }
+        ],
+        "points": 1
+      }
+    ]
+  }
+}

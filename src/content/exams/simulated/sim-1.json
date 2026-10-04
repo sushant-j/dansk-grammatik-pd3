@@ -1,0 +1,1244 @@
+{
+  "id": "sim-1",
+  "title": "Øvesæt 1 (simuleret)",
+  "format": "current",
+  "source": {
+    "kind": "simulated"
+  },
+  "lf1Theme": "Aarhus",
+  "lf2Titles": [
+    "Pension? Ikke lige endnu",
+    "Maden, der ender i skraldespanden",
+    "Elbilen kører også på landet"
+  ],
+  "gradeTable": [
+    [
+      38,
+      "12"
+    ],
+    [
+      33,
+      "10"
+    ],
+    [
+      27,
+      "7"
+    ],
+    [
+      22,
+      "4"
+    ],
+    [
+      20,
+      "02"
+    ],
+    [
+      10,
+      "00"
+    ],
+    [
+      0,
+      "-3"
+    ]
+  ],
+  "lf1": {
+    "theme": "Aarhus",
+    "sections": [
+      {
+        "title": "Seværdigheder i Aarhus",
+        "blocks": [
+          {
+            "t": "p",
+            "runs": [
+              "Aarhus er Danmarks næststørste by og samtidig en af landets yngste – gennemsnitsalderen er lav, fordi tusindvis af unge hvert år flytter hertil for at studere. Byen kalder sig selv »verdens mindste storby«, og det er der noget om: Her er museer, koncertsale og restauranter i verdensklasse, men de fleste seværdigheder ligger inden for gå- eller cykelafstand af hinanden. Her har vi samlet nogle af de steder, som ingen besøgende bør gå glip af."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "ARoS Aarhus Kunstmuseum"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "ARoS er et af Nordeuropas største kunstmuseer og byens mest besøgte attraktion med næsten en million gæster om året. Museet flyttede ind i sin nuværende bygning i 2004. Bygningen er tegnet af arkitektfirmaet Schmidt Hammer Lassen og er formet som en stor, rød terning, som man kan se fra næsten hele midtbyen. Indenfor snor en hvid trappe sig op gennem ti etager med kunst fra den danske guldalder og frem til i dag."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Museets mest kendte værk er »Your rainbow panorama« af kunstneren Olafur Eliasson. Den runde gangbro i farvet glas blev indviet på museets tag i 2011 og har en omkreds på 150 meter. Når man går rundt i den, ser man byen i alle regnbuens farver, og på klare dage kan man se helt ud til Mols Bjerge. I museets kælder ligger »De 9 Rum«, en række mørke rum med lys- og videoinstallationer, som især de yngre gæster er glade for."
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "Praktisk information",
+                ""
+              ],
+              [
+                "Åbningstider",
+                "Tirsdag, torsdag–søndag kl. 10–17. Onsdag kl. 10–21. Mandag lukket."
+              ],
+              [
+                "Entré",
+                "Voksne 170 kr. Studerende og unge under 31 år 140 kr. Børn og unge under 18 år gratis."
+              ],
+              [
+                "Adresse",
+                "Aros Allé 2, 8000 Aarhus C"
+              ],
+              [
+                "Café og restaurant",
+                "Caféen i stueetagen har samme åbningstider som museet. Restauranten på 8. etage har åbent onsdag–lørdag til kl. 22."
+              ]
+            ],
+            "header": true
+          },
+          {
+            "t": "h",
+            "text": "Den Gamle By"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Den Gamle By blev grundlagt i 1914 og var verdens første frilandsmuseum for byhistorie. Museet består af omkring 75 historiske bygninger, som er blevet flyttet hertil fra byer i hele landet og genopført sten for sten. Når man går rundt i de brostensbelagte gader, bevæger man sig gennem tre tidsperioder: en købstad fra H.C. Andersens tid omkring 1864, et kvarter fra 1927 og et kvarter fra 1974."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I 1974-kvarteret kan man bl.a. besøge en boghandel, en elektronikforretning, en frisørsalon og en lejlighed, hvor en tyrkisk familie boede, da de første gæstearbejdere kom til Danmark. I sommerperioden går skuespillere rundt i gaderne i tidstypisk tøj, og man kan snakke med købmanden, skrædderen og tjenestepigerne. Bageriet i den gamle købstad bager efter opskrifter fra 1800-tallet, og her kan man smage friskbagte kringler, der kommer direkte ud af ovnen."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Op til jul bliver Den Gamle By pyntet med gran og levende lys, og hver weekend i december er der julemarked i Borgmestergården. Om vinteren er åbningstiden kortere end resten af året, så tjek altid hjemmesiden, inden du tager af sted."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Moesgaard Museum"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Ca. ti kilometer syd for centrum, omgivet af skov og med udsigt over Aarhusbugten, ligger Moesgaard Museum. Den nuværende museumsbygning blev indviet i 2014 og er kendt for sit store, skrånende græstag, som man kan gå op ad fra parken. Om vinteren, når der er sne, bruger byens børn taget som kælkebakke, og om sommeren er det et populært sted at nyde solnedgangen."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Museet fortæller om menneskets historie fra stenalderen til vikingetiden. Den mest berømte »beboer« er Grauballemanden, et moselig fra jernalderen, som blev fundet af tørvegravere i en mose nær landsbyen Grauballe i 1952. Liget er over 2.000 år gammelt, men så velbevaret, at man stadig kan se hans hår og fingeraftryk. Museet har også en stor udstilling om vikingerne med våben, smykker og skibsdele fra hele Østjylland."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Bus 18 kører fra Aarhus H til Moesgaard Museum hver 20. minut. Der er gratis parkering ved museet."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Aarhus Domkirke"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Aarhus Domkirke ligger midt i byen ved Store Torv og er med sine 93 meter Danmarks længste kirke. Tårnet er 96 meter højt, og det gør det til landets højeste kirketårn. Byggeriet begyndte omkring år 1190, men kirken fik først sit nuværende gotiske udseende i slutningen af 1400-tallet. Indenfor finder man en stor, forgyldt altertavle fra 1479, som blev skåret i Lübeck, og kalkmalerier på et samlet areal af over 220 kvadratmeter. Der er gratis adgang til kirken, og om sommeren er der orgelkoncerter hver torsdag kl. 16."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Marselisborg Slot"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Marselisborg Slot ligger i en stor park syd for centrum og er kongefamiliens sommerresidens. Slottet blev i 1902 givet som bryllupsgave fra den danske befolkning til prins Christian og prinsesse Alexandrine, og byggeriet blev betalt gennem en indsamling. Slotsparken er åben for offentligheden, når kongefamilien ikke bor på slottet. Når kongefamilien er til stede, kan man hver dag kl. 12 se Den Kongelige Livgarde marchere til vagtskifte foran hovedbygningen. Den smukke rosenhave med over 200 sorter er især et besøg værd i juli."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Tivoli Friheden"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Byens forlystelsespark, Tivoli Friheden, ligger i udkanten af Marselisborgskovene og har været et udflugtsmål for aarhusianske familier siden 1903. Parken har over 40 forlystelser, bl.a. rutsjebanen »Cobra«, som er parkens hurtigste. Om sommeren er der gratis koncerter på den store scene fredag aften. Parken har lukket i vintersæsonen, men åbner igen i en kort periode op til jul."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Kilde: Bearbejdet til denne øveprøve."
+          }
+        ]
+      },
+      {
+        "title": "Aarhus' historie",
+        "blocks": [
+          {
+            "t": "h",
+            "text": "Fra vikingeby til storby"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Aarhus er en af Danmarks ældste byer. Arkæologiske udgravninger viser, at der allerede i 700-tallet lå en lille handelsplads, hvor åen løber ud i bugten. Byen hed dengang Aros, som betyder »åens munding«. I vikingetiden blev bebyggelsen beskyttet af en halvcirkelformet vold, og arkæologerne har fundet rester af værksteder, hvor håndværkere lavede kamme af hjortetak og smykker af rav og glas."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I middelalderen voksede Aarhus som kirke- og handelsby, men den helt store vækst kom først i 1800-tallet. I 1862 åbnede jernbanen mellem Aarhus og Randers som den første i Jylland, og havnen blev udvidet flere gange. Byen blev et centrum for industri og handel, og befolkningen voksede fra cirka 8.000 indbyggere i 1840 til over 50.000 i 1901. I dag bor der omkring 370.000 mennesker i Aarhus Kommune."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Åen kommer frem i lyset"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I mange år var Aarhus Å skjult under en vej. I 1930'erne blev åen i midtbyen dækket til, dels fordi vandet lugtede, dels fordi man havde brug for mere plads til den voksende biltrafik. Først i slutningen af 1980'erne begyndte politikerne at tale om at åbne den igen. Den første strækning blev frilagt i 1996, og den sidste del ved havnen var færdig i 2008."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Mange var i begyndelsen skeptiske over for projektet, som var både dyrt og besværligt. I dag er åbredderne imidlertid byens mest populære opholdssted, og om sommeren er trapperne ned mod vandet fyldt med mennesker, der spiser, drikker kaffe og nyder solen."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Universitetsbyen"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Aarhus Universitet blev grundlagt i 1928 som Danmarks andet universitet. Den første undervisning foregik i nogle lejede lokaler, og der var kun 78 studerende det første år. Allerede i 1930'erne begyndte man at bygge i Universitetsparken nord for centrum. Bygningerne er tegnet af blandt andre arkitekten C.F. Møller og er alle opført i gule mursten med enkle, skrå tage. Hovedbygningen stod færdig i 1946."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I dag har universitetet omkring 38.000 studerende og over 8.000 ansatte, og det har afdelinger i både Aarhus, Herning, Foulum og København. Universitetsparken med sine store egetræer og den lille sø er fredet og bruges om sommeren til koncerter og fester."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Aarhus under besættelsen"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Under den tyske besættelse af Danmark fra 1940 til 1945 overtog det tyske politi, Gestapo, nogle af kollegiebygningerne i Universitetsparken og brugte dem som hovedkvarter for hele Jylland. Den 31. oktober 1944 blev bygningerne bombet af britiske fly på opfordring fra den danske modstandsbevægelse. Angrebet ødelagde store dele af Gestapos arkiver, og flere fanger nåede at flygte i forvirringen. Et mindesmærke i parken fortæller i dag om begivenheden. Også byens jernbaner og havn var vigtige mål for sabotører, og i 1944 blev et skib med ammunition sprængt i havnen, så mange vinduer i midtbyen blev knust."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Rådhuset"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Aarhus Rådhus blev indviet i 1941 og er tegnet af arkitekterne Arne Jacobsen og Erik Møller. Bygningen er beklædt med grå marmor fra Norge og var i sin tid meget omdiskuteret. I arkitekternes første tegninger var der nemlig slet ikke noget tårn, og det fik mange borgere til at protestere. Tårnet, som i dag er 60 meter højt, blev først tilføjet, efter at byrådet havde givet efter for kritikken. Rådhuset er fredet og regnes i dag for et af hovedværkerne i dansk arkitektur."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Aarhus i dag – en by i vækst"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I de seneste årtier er Aarhus vokset hurtigere end de fleste andre danske byer. Et af de største byggeprojekter er Aarhus Ø, en helt ny bydel på det gamle containerhavneområde nord for centrum. Her er der siden 2007 bygget boliger til flere tusinde mennesker, og bydelen er kendt for sin moderne arkitektur – bl.a. boligbyggeriet »Isbjerget«, hvis hvide og blå facader skal minde om et isbjerg. Samtidig er der bygget en letbane, som åbnede i 2017, og som i dag forbinder midtbyen med Lisbjerg og Grenaa mod nord og Odder mod syd."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Kilde: Bearbejdet til denne øveprøve."
+          }
+        ]
+      },
+      {
+        "title": "Kultur og begivenheder",
+        "blocks": [
+          {
+            "t": "h",
+            "text": "Aarhus Festuge"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Hvert år i slutningen af august og begyndelsen af september forvandles byen under Aarhus Festuge, som er Danmarks største flerkunstneriske festival. Festugen blev holdt første gang i 1965 og har hvert år et nyt tema. I ti dage er der koncerter, teater, kunst, dans og gadeoptræden over hele byen – fra de store scener i centrum til baggårde, biblioteker og skoler i forstæderne. Over halvdelen af de mange arrangementer er gratis."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Festugen begynder traditionelt med en åbningskoncert på Rådhuspladsen, og den slutter med et stort fyrværkeri over havnen. Vil du være frivillig under festugen, kan du melde dig på festivalens hjemmeside fra 1. maj. Som frivillig får du en t-shirt, gratis mad på vagterne og adgang til et afslutningsarrangement for alle hjælperne."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Dokk1 – byens hovedbibliotek"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Dokk1 åbnede i 2015 på havnefronten, hvor åen løber ud i havnen, og er et af de største offentlige biblioteker i Skandinavien. Ud over bøger, film og musik rummer bygningen Borgerservice, legepladser, studiepladser og mødelokaler, som foreninger kan låne gratis. Under bygningen ligger et fuldautomatisk parkeringsanlæg med plads til omkring 1.000 biler."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I biblioteket hænger en stor, rørformet klokke, som hedder »Gong«. Den ringer, hver gang et barn bliver født på Aarhus Universitetshospital. Det er forældrene selv, der trykker på en knap på fødegangen, og lyden kan høres i hele bygningen. Mange aarhusianere har fortalt, at de bliver glade, når de hører klokken, mens de sidder og læser."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Musikhuset Aarhus"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Musikhuset Aarhus blev indviet i 1982 og er et af Skandinaviens største koncerthuse. Her holder Aarhus Symfoniorkester og Den Jyske Opera til, og huset har hvert år over 1.500 arrangementer – fra klassiske koncerter og musicals til stand-up og børneteater. Den store glasfoyer er åben for alle i dagtimerne, og om fredagen er der ofte gratis fyraftenskoncerter. Billetter kan købes i billetsalget, som har åbent mandag til lørdag fra kl. 12, eller på husets hjemmeside."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Latinerkvarteret"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Latinerkvarteret omkring Domkirken er byens ældste kvarter. Her er smalle brostensgader, små gårdhaver og masser af caféer, vintagebutikker og gallerier. Navnet kommer angiveligt fra de latinskoleelever, der i gamle dage gik i skole i området. I dag er kvarteret især kendt for sit hyggelige caféliv, og om sommeren bliver gaderne fyldt med borde og stole."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Europæisk Kulturhovedstad 2017"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I 2017 var Aarhus sammen med byen Paphos på Cypern Europæisk Kulturhovedstad. Programmet havde overskriften »Let's Rethink« og bestod af flere hundrede projekter i hele Region Midtjylland. Et af de mest populære var en stor opsætning af vikingesagaen om Røde Orm, som blev spillet udendørs ved Moesgaard Museum for et udsolgt publikum."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Kort nyt"
+          },
+          {
+            "t": "h",
+            "text": "Skøjtebane på havnen igen i år",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Fra 1. december til 28. februar kan aarhusianerne igen løbe på skøjter på den kunstige skøjtebane foran Dokk1. Der er gratis adgang til banen, men har man ikke selv skøjter med, kan man leje et par for 40 kr. Banen har åbent alle dage fra kl. 10 til 21, dog lukker den kl. 16 juleaften og nytårsaften."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Rekord for jazzfestival",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Aarhus Jazz Festival satte i juli ny rekord med over 120.000 besøgende fordelt på festivalens ni dage. Ifølge arrangørerne skyldes rekorden især det gode vejr og de mange gratis udendørskoncerter i Latinerkvarteret."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Nyt musikhus i Gellerup",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Til efteråret åbner et nyt øvelokalehus for unge musikere i Gellerup vest for centrum. Huset får tolv øvelokaler og et lille koncertrum med plads til 150 tilskuere. Unge under 25 år kan leje et lokale for 300 kr. om måneden."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Godsbanen åbner for nye værksteder",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Kulturcentret Godsbanen, der ligger i den gamle godsbanegård vest for Aarhus H, har fået nye værksteder til keramik, tekstil og træ. Værkstederne kan bruges af alle, der har taget et kort introduktionskursus. Kurset varer tre timer og koster 250 kr. Tilmelding sker på Godsbanens hjemmeside."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Kilde: Bearbejdet til denne øveprøve."
+          }
+        ]
+      },
+      {
+        "title": "Natur og fritid",
+        "blocks": [
+          {
+            "t": "p",
+            "runs": [
+              "Selvom Aarhus er en storby, er der aldrig langt til skov og strand. Fra Rådhuspladsen kan man cykle til både bøgeskov og badestrand på under et kvarter."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Marselisborgskovene og Dyrehaven"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Syd for centrum strækker Marselisborgskovene sig langs kysten. Skovene dækker flere hundrede hektar og har mange afmærkede stier for gående, løbere og mountainbikere. Midt i skoven ligger Dyrehaven, et indhegnet område, hvor man kan komme helt tæt på dådyr, sikahjorte og vildsvin. Det er tilladt at fodre dyrene med gulerødder og æbler, men man må ikke give dem brød, fordi det kan gøre dem syge. Der er gratis adgang til Dyrehaven hele året."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Den Uendelige Bro"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Ved Ballehage Strand ligger Den Uendelige Bro, en cirkelformet træbro med en diameter på 60 meter. Broen blev bygget i 2015 til en udendørs skulpturudstilling og var oprindeligt kun tænkt som et midlertidigt værk. Den blev dog så populær, at man valgte at stille den op igen hver sommer. Halvdelen af broen ligger ude i vandet, og den anden halvdel ligger på land."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Havnebadet"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Havnebadet ved Aarhus Ø åbnede i 2018 og er nu et af byens mest populære sommersteder. Der er gratis adgang til alle bassinerne, og der er livredder til stede hver dag mellem kl. 11 og 19. Badet har et børnebassin, et 50-meter-bassin til motionssvømning og et springtårn på fem meter. Desuden er der en sauna med udsigt over havnen. Saunaen skal bookes på forhånd og koster 75 kr. pr. person, og hver booking giver adgang i 90 minutter."
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "Havnebadet",
+                ""
+              ],
+              [
+                "Sæson",
+                "Midten af juni til midten af august"
+              ],
+              [
+                "Livredder",
+                "Alle dage kl. 11–19"
+              ],
+              [
+                "Sauna",
+                "Hele året. Book på forhånd online."
+              ],
+              [
+                "Adresse",
+                "Bassin 7, Aarhus Ø"
+              ]
+            ],
+            "header": true
+          },
+          {
+            "t": "h",
+            "text": "Strande i og omkring Aarhus"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Aarhus har en lang række strande, som alle har gratis adgang. Mange af dem har det internationale miljømærke Blå Flag, som viser, at vandkvaliteten er god, og at der er toiletter og førstehjælpsudstyr i nærheden. Her er et udvalg:"
+            ]
+          },
+          {
+            "t": "list",
+            "items": [
+              "Bellevue Strand i Risskov – byens mest besøgte strand med badebroer og en stor græsplæne",
+              "Den Permanente – et historisk friluftsbad fra 1933 med separate områder for kvinder og mænd",
+              "Ballehage Strand – roligt vand og god plads til børnefamilier",
+              "Moesgaard Strand – lang sandstrand med udsigt til Mols og Samsø"
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Brabrand Sø"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Vest for byen ligger Brabrand Sø, som er en af Østjyllands største søer. Rundt om søen går en ca. 11 kilometer lang sti, der er populær blandt løbere og familier på cykel. Søen er et vigtigt område for fugle, og om foråret og efteråret kan man se store flokke af trækfugle. Ved søens østlige ende kan man leje kanoer og kajakker fra maj til september. Badning i søen frarådes på grund af vandkvaliteten."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Nationalpark Mols Bjerge"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Under en times kørsel fra Aarhus ligger Nationalpark Mols Bjerge, som blev oprettet i 2009. Landskabet blev formet af isen under den sidste istid, og bakkerne kan nå en højde på op til 137 meter. Fra toppen af Agri Bavnehøj har man en af Danmarks flotteste udsigter. Nationalparken har over 50 kilometer afmærkede vandrestier, og flere steder kan man overnatte i shelters, som skal bookes på forhånd. Man kan også tage bussen fra Aarhus til Ebeltoft og starte vandreturen derfra."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "På cykel rundt i Aarhus"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Aarhus har over 400 kilometer cykelstier, og mange aarhusianere cykler til arbejde og studie hele året. Er du på besøg, kan du leje en cykel på en af de mange udlejningsstationer i centrum. Nedenfor finder du tre forslag til ture."
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "Rute",
+                "Længde",
+                "Start",
+                "Seværdigheder undervejs"
+              ],
+              [
+                "Kystruten",
+                "18 km",
+                "Tangkrogen",
+                "Marselisborg Slot, Den Uendelige Bro, Moesgaard Strand"
+              ],
+              [
+                "Åstien",
+                "12 km",
+                "Dokk1",
+                "Aarhus Å, Brabrand Sø"
+              ],
+              [
+                "Havnerunden",
+                "9 km",
+                "Aarhus H",
+                "Aarhus Ø, Havnebadet, Dokk1"
+              ]
+            ],
+            "header": true
+          },
+          {
+            "t": "small",
+            "text": "Kilde: Bearbejdet til denne øveprøve."
+          }
+        ]
+      },
+      {
+        "title": "At bo og studere i Aarhus",
+        "blocks": [
+          {
+            "t": "h",
+            "text": "Velkommen til Aarhus"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Hvert år flytter tusindvis af mennesker fra hele verden til Aarhus for at arbejde eller studere. Har du lige fået opholdstilladelse, kan du henvende dig hos International Citizen Service på Dokk1. Her kan du på én gang få hjælp til at få et CPR-nummer, et sundhedskort og et skattekort. Husk at bestille tid på forhånd."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Netværket International Community holder to gange om året, i marts og september, en gratis velkomstdag for nye aarhusianere. Her kan du møde andre tilflyttere, høre om danske traditioner og få gode råd om alt fra bolig og børnepasning til danskundervisning."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "At finde en bolig"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Det kan være svært at finde en billig bolig i Aarhus, især i august, hvor mange nye studerende flytter til byen. Studerende kan søge om et kollegieværelse gennem Kollegiernes Kontor, og en del boligforeninger har særlige ungdomsboliger. Huslejen for et kollegieværelse ligger typisk mellem 3.000 og 4.500 kr. om måneden. Kommunen anbefaler, at man skriver sig op på ventelister så tidligt som muligt."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Job i Aarhus"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Aarhus er et vigtigt erhvervscentrum for hele Vestdanmark. De største arbejdspladser er Aarhus Kommune, Aarhus Universitet og Aarhus Universitetshospital, men byen er også hjemsted for en lang række virksomheder inden for energi, IT, fødevarer og design. Mange internationale virksomheder søger medarbejdere, der taler engelsk, men i de fleste job er det en stor fordel at kunne dansk. Jobcentret i Aarhus tilbyder vejledning til nye borgere, der søger arbejde, og hjælper med at oversætte uddannelsesbeviser fra udlandet. Det kan også være en god idé at melde sig ind i en fagforening og en a-kasse, så snart man har fået sit første job."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Danskundervisning"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Som ny i Danmark har du som udgangspunkt ret til danskundervisning. Aarhus har flere sprogcentre, som tilbyder undervisning både om dagen og om aftenen, så du kan kombinere den med arbejde eller studie. Undervisningen er opdelt i moduler, og efter hvert modul går du til en modultest. Der findes også online-hold for dem, der ikke har mulighed for at møde op fysisk. Du tilmelder dig gennem kommunen, som sender dig videre til det sprogcenter, der passer bedst til dig."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Børnepasning og skole"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Har du børn under seks år, kan du søge om en plads i vuggestue eller børnehave gennem kommunens pladsanvisning. Kommunen garanterer en plads, når barnet er 26 uger, hvis man har skrevet sig op i god tid. Børn i den skolepligtige alder kan gå i den lokale folkeskole, som er gratis. Der findes også flere internationale skoler, hvor undervisningen foregår på engelsk, men her skal forældrene betale skolepenge."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Mød tre nye aarhusianere"
+          },
+          {
+            "t": "h",
+            "text": "Lucía fortæller – fra Valencia til Aarhus",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "»Jeg kom til Aarhus i 2019 for at arbejde som ingeniør i en virksomhed, der laver vindmøller. Det første, jeg lagde mærke til, var, hvor mange der cykler – også når det regner! Det sværeste var mørket om vinteren. I december er det mørkt, når jeg tager hjemmefra, og mørkt, når jeg kommer hjem.«"
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "»På arbejdet taler vi mest engelsk, så jeg havde svært ved at komme i gang med dansken. Derfor meldte jeg mig ind i et kor. Vi øver hver tirsdag aften, og der lærte jeg både dansk og en masse nye venner at kende. Nu kan jeg synge mange af de gamle danske sange, og det synes mine kolleger er meget sjovt.«"
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Tomasz fortæller – studerende fra Polen",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "»Jeg læser datalogi på Aarhus Universitet og er på tredje år. Jeg havde skrevet mig op hjemmefra i Polen, men da jeg kom hertil, boede jeg alligevel de første seks uger hos en ven på hans sofa. Jeg stod på venteliste i fire måneder, før jeg fik et kollegieværelse. Nu bor jeg på et kollegium tæt på Universitetsparken sammen med elleve andre studerende, og vi laver mad sammen to gange om ugen.«"
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "»Ved siden af studiet arbejder jeg 12 timer om ugen i en café i Latinerkvarteret. Det var også overraskende for mig, at man siger du til sine undervisere og kalder dem ved fornavn. Det gør man ikke i Polen.«"
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Amira og Karim – en familie fra Jordan",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "»Vi flyttede til Aarhus i 2021, da Karim fik job som læge på Aarhus Universitetshospital. Vi har to børn på seks og ni år, og de går på en international skole i Risskov. Det bedste ved Aarhus er, at der er så kort til både skov og strand. Om sommeren cykler vi ofte til stranden efter skole.«"
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "»I begyndelsen var det svært for mig at finde arbejde, selvom jeg er uddannet økonom,« fortæller Amira. »Gennem kommunen kom jeg med i en mentorordning, hvor jeg mødtes med en dansk økonom en gang om måneden. Hun hjalp mig med at skrive min ansøgning og introducerede mig for folk i branchen. Det var sådan, jeg fandt mit job i en bank. Uden mentorordningen tror jeg ikke, jeg havde fået det.«"
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Kilde: Bearbejdet til denne øveprøve. Personerne er opdigtede."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "n": 1,
+        "section": "Seværdigheder i Aarhus",
+        "prompt": "Hvilken ugedag har ARoS åbent til kl. 21?",
+        "key": "Onsdag",
+        "also": [
+          "(Om) onsdagen"
+        ]
+      },
+      {
+        "n": 2,
+        "section": "Seværdigheder i Aarhus",
+        "prompt": "Hvad kan man smage i bageriet i Den Gamle By?",
+        "key": "(Friskbagte) kringler"
+      },
+      {
+        "n": 3,
+        "section": "Seværdigheder i Aarhus",
+        "prompt": "Hvad bruger børnene taget på Moesgaard Museum til om vinteren?",
+        "key": "(Som) kælkebakke",
+        "also": [
+          "(at) kælke",
+          "kælker"
+        ]
+      },
+      {
+        "n": 4,
+        "section": "Aarhus' historie",
+        "prompt": "Hvad betyder navnet Aros?",
+        "key": "Åens munding"
+      },
+      {
+        "n": 5,
+        "section": "Aarhus' historie",
+        "prompt": "Hvor mange studerende havde Aarhus Universitet det første år?",
+        "key": "78 (studerende)"
+      },
+      {
+        "n": 6,
+        "section": "Aarhus' historie",
+        "prompt": "Hvor kommer marmoren på Aarhus Rådhus fra?",
+        "key": "(Fra) Norge"
+      },
+      {
+        "n": 7,
+        "section": "Kultur og begivenheder",
+        "prompt": "Hvor mange dage varer Aarhus Festuge?",
+        "key": "Ti (dage)"
+      },
+      {
+        "n": 8,
+        "section": "Kultur og begivenheder",
+        "prompt": "Hvornår ringer klokken »Gong« i Dokk1?",
+        "key": "(Hver gang/Når) et barn bliver født (på Aarhus Universitetshospital)",
+        "also": [
+          "Når der bliver født et barn"
+        ]
+      },
+      {
+        "n": 9,
+        "section": "Kultur og begivenheder",
+        "prompt": "Hvad koster det at leje et par skøjter på skøjtebanen foran Dokk1?",
+        "key": "40 kr(oner)"
+      },
+      {
+        "n": 10,
+        "section": "Natur og fritid",
+        "prompt": "Hvad må man ikke fodre dyrene i Dyrehaven med?",
+        "key": "Brød"
+      },
+      {
+        "n": 11,
+        "section": "Natur og fritid",
+        "prompt": "Skal man betale for at bade i bassinerne i Havnebadet? Svar 'ja' eller 'nej'.",
+        "key": "Nej",
+        "paraphrased": true
+      },
+      {
+        "n": 12,
+        "section": "Natur og fritid",
+        "prompt": "Hvor længe må man være i saunaen ved Havnebadet for én booking?",
+        "key": "90 minutter",
+        "also": [
+          "halvanden time"
+        ]
+      },
+      {
+        "n": 13,
+        "section": "At bo og studere i Aarhus",
+        "prompt": "Hvad gjorde Lucía for at komme i gang med at lære dansk?",
+        "key": "(Hun meldte sig ind i et) kor",
+        "also": [
+          "(hun) sang i (et) kor",
+          "gik til kor"
+        ]
+      },
+      {
+        "n": 14,
+        "section": "At bo og studere i Aarhus",
+        "prompt": "Hvor længe stod Tomasz på venteliste til et kollegieværelse?",
+        "key": "(I) fire måneder"
+      },
+      {
+        "n": 15,
+        "section": "At bo og studere i Aarhus",
+        "prompt": "Hvilken ordning hjalp Amira med at finde sit job i en bank?",
+        "key": "(Gennem/Via en) mentorordning",
+        "also": [
+          "mentorordningen"
+        ]
+      }
+    ]
+  },
+  "lf2": {
+    "tasks": [
+      {
+        "kind": "mc",
+        "label": "2A",
+        "title": "Pension? Ikke lige endnu",
+        "passages": [
+          {
+            "title": "Pension? Ikke lige endnu",
+            "blocks": [
+              {
+                "t": "p",
+                "runs": [
+                  {
+                    "strong": "Flere og flere danskere bliver på arbejdsmarkedet, efter at de har nået pensionsalderen. For nogle handler det om økonomi, men for mange er arbejdet først og fremmest en vigtig del af livet, som de ikke har lyst til at give slip på."
+                  }
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Klokken er halv otte en tirsdag morgen, da Bente Kragh låser sig ind på kontoret hos et mellemstort VVS-firma i Vejle. Hun tænder for kaffemaskinen, sætter sig ved sin computer og begynder at gennemgå ugens regninger. Sådan har hendes morgener set ud i over 30 år. Den eneste forskel er, at Bente Kragh i dag er 71 år og kun arbejder tre dage om ugen."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "»Da jeg fyldte 67, holdt firmaet en stor afskedsreception for mig, og jeg glædede mig virkelig til at gå på pension. Jeg havde planlagt rejser og havearbejde og tid med børnebørnene,« fortæller hun. »Men efter et halvt år kunne jeg mærke, at der manglede noget. Det var ikke pengene – min pension er fin nok. Jeg savnede at have et sted at gå hen om morgenen og kollegerne at snakke med i frokostpausen. Ugerne flød ligesom ud i ét.«"
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Det var Bente Kragh selv, der tog telefonen og ringede til sin tidligere chef. Hun spurgte, om der var brug for en ekstra hånd i bogholderiet, og det var der. To uger senere var hun tilbage ved sit gamle skrivebord."
+                ]
+              },
+              {
+                "t": "h",
+                "text": "En voksende gruppe",
+                "level": 3
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Bente Kragh er langt fra den eneste. Antallet af beskæftigede over folkepensionsalderen er vokset markant i løbet af de seneste ti år, og udviklingen ventes at fortsætte, i takt med at pensionsalderen gradvist sættes op. Samtidig mangler mange virksomheder arbejdskraft, og politikerne har ændret reglerne, så det ikke længere koster lige så meget i pension at tjene penge ved siden af."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Seniorforsker Morten Lind fra Center for Arbejdsliv og Aldring har i flere år fulgt udviklingen. Han peger på, at det langtfra er alle seniorer, der har mulighed for at fortsætte."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "»Der er en tydelig social skævhed. Dem, der bliver på arbejdsmarkedet efter pensionsalderen, har typisk en lang uddannelse og et arbejde, som ikke er særlig fysisk krævende – det kan være revisorer, ingeniører, lærere eller kontorfolk. For en murer eller en social- og sundhedsassistent ser det helt anderledes ud. Mange af dem har så ondt i ryggen eller skuldrene, når de nærmer sig de 60, at de slet ikke kan forestille sig at arbejde længere,« siger han."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Morten Lind understreger, at det ikke betyder, at de faglærte ikke har lyst. »I vores interview fortæller mange håndværkere faktisk, at de gerne ville fortsætte, hvis de kunne få lettere opgaver. Problemet er, at den slags stillinger ofte ikke findes i deres branche.«"
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Ifølge Morten Lind er arbejdsgiverne i dag mere positive over for ældre medarbejdere end for 20 år siden. Dengang var det almindeligt at tro, at ældre var mindre omstillingsparate og oftere syge. »Den forestilling holder ikke. Vores tal viser, at seniorerne i gennemsnit har færre sygedage end deres yngre kolleger, og de skifter sjældnere job. Men det kræver, at arbejdspladsen er villig til at tilpasse arbejdet, for eksempel med kortere arbejdsdage eller færre nattevagter,« siger han."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Han anbefaler derfor, at virksomhederne holder såkaldte seniorsamtaler med medarbejdere, når de nærmer sig 60. »Mange ledere synes, det er pinligt at spørge ind til, hvornår en medarbejder vil stoppe, fordi det kan lyde, som om man gerne vil af med vedkommende. Men det er det modsatte. Hvis man taler om det i god tid, kan man sammen finde en løsning, der gør det muligt at blive længere. Mange seniorer stopper simpelthen, fordi ingen har spurgt dem, om de havde lyst til at fortsætte på andre vilkår,« siger Morten Lind."
+                ]
+              },
+              {
+                "t": "h",
+                "text": "Fleksibilitet koster planlægning",
+                "level": 3
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Hos VVS-firmaet i Vejle har indehaveren Kim Thorsen i dag fire ansatte, der er fyldt 67. Ud over Bente Kragh arbejder to af dem som montører og en som lagerchef. Kim Thorsen lægger ikke skjul på, at det kræver en ekstra indsats at have seniorer ansat."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "»De ønsker typisk at arbejde færre dage, og de vil gerne have mulighed for at holde fri, når børnebørnene har ferie, eller når de skal en tur til Spanien. Det betyder, at jeg skal planlægge vagterne mere omhyggeligt end tidligere. Men det er det hele værd,« siger han. »De kender firmaet og kunderne ud og ind, og de har ikke noget at bevise. Det giver ro på arbejdspladsen.«"
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Kim Thorsen fremhæver også, at de ældre medarbejdere helt naturligt hjælper de unge lærlinge, uden at det er en del af deres stillingsbeskrivelse. »Jeg har ikke ansat dem som mentorer. De laver præcis de samme opgaver som alle andre. Men når en lærling står med et problem, er det ofte en af de gamle, han går hen til.«"
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "For Bente Kragh er det vigtigste, at hun selv kan bestemme. »Jeg ved godt, at jeg ikke kan blive ved for evigt. Men så længe jeg har lyst og helbredet holder, bliver jeg her. Og den dag, det ikke er sjovt mere, stopper jeg – men denne gang uden reception,« siger hun og griner."
+                ]
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "prompt": "Hvorfor begyndte Bente Kragh at arbejde igen?",
+            "options": [
+              "Hendes tidligere chef ringede og spurgte, om hun kunne hjælpe i bogholderiet.",
+              "Hendes pension var ikke stor nok til at betale for de rejser, hun havde planlagt.",
+              "Hun manglede kontakten med kolleger og en fast struktur i hverdagen."
+            ],
+            "correct": "C"
+          },
+          {
+            "prompt": "Hvad mener Morten Lind om de seniorer, der bliver på arbejdsmarkedet efter pensionsalderen?",
+            "options": [
+              "Det er især personer med en lang uddannelse og et fysisk let arbejde, der fortsætter.",
+              "Det er især håndværkere, der fortsætter, fordi de er vant til at arbejde hårdt.",
+              "De fleste seniorer vil gerne fortsætte, men arbejdsgiverne vil sjældent ansætte dem."
+            ],
+            "correct": "A"
+          },
+          {
+            "prompt": "Hvad siger Kim Thorsen om sine ældre medarbejdere?",
+            "options": [
+              "De er først og fremmest ansat til at oplære de unge lærlinge i firmaet.",
+              "Deres ønske om at arbejde mindre kræver mere planlægning, men det er det værd.",
+              "De er sjældnere syge end de yngre, men de har svært ved at omstille sig."
+            ],
+            "correct": "B"
+          }
+        ],
+        "points": 2
+      },
+      {
+        "kind": "insert",
+        "label": "2B",
+        "title": "Maden, der ender i skraldespanden",
+        "passage": {
+          "title": "Maden, der ender i skraldespanden",
+          "blocks": [
+            {
+              "t": "p",
+              "runs": [
+                {
+                  "strong": "Danske husholdninger smider hvert år store mængder spiselig mad ud. Det koster både penge og klima. Men små ændringer i hverdagen kan gøre en stor forskel."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Det er søndag aften i familien Holms køkken i Odense. Mette Holm åbner køleskabet og finder en halv agurk, et par kogte kartofler, en pakke skinke, hvor datoen er overskredet med en dag, og en skål ris fra torsdag. »For bare et år siden var det hele røget direkte i skraldespanden,« siger hun."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 1
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Den slags restemåltider er blevet en fast del af familiens uge, efter at Mette Holm og hendes mand sidste år deltog i et projekt, hvor de skulle veje alt det mad, de smed ud. Resultatet chokerede dem. Familien på fire smed i gennemsnit over to kilo spiselig mad ud om ugen. Projektet sluttede efter tre måneder, men familien har vejet deres madaffald lige siden."
+              ]
+            },
+            {
+              "t": "h",
+              "text": "Penge og klima",
+              "level": 3
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Familien Holm er ikke usædvanlig. Danske husholdninger står for en stor del af det samlede madspild i Danmark. Det er især brød, frugt, grøntsager og rester fra aftensmaden, der ender i skraldespanden – og det er ikke småting. Ifølge beregninger smider hver dansker i gennemsnit omkring 40 kilo spiselig mad ud om året."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 2
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Klimaet er nemlig også en vigtig grund til at tage problemet alvorligt. Når mad bliver produceret, forarbejdet, transporteret og opbevaret på køl, udleder det drivhusgasser. Bliver maden smidt ud, har udledningen været helt forgæves. Det gælder især for kød og mejeriprodukter, som belaster klimaet mest. Hvis alle danske husholdninger halverede deres madspild, ville det ifølge eksperterne svare til at fjerne titusindvis af biler fra vejene."
+              ]
+            },
+            {
+              "t": "h",
+              "text": "Ikke et spørgsmål om ligegyldighed",
+              "level": 3
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Line Bjerre er forbrugsforsker og har undersøgt, hvorfor vi smider mad ud. »Det er sjældent, fordi folk er ligeglade,« siger hun. »Langt de fleste synes faktisk, det er forkert at smide mad ud. Problemet opstår i en travl hverdag, hvor der ikke er overskud til at tænke over det. Man kommer sent hjem, er træt og sulten, og så er det lettere at købe noget nyt end at finde ud af, hvad man kan lave af det, der allerede står i køleskabet.«"
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 3
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Begge dele kan ifølge Line Bjerre løses med ret enkle midler. »Hvis man bruger fem minutter om søndagen på at lave en madplan og en indkøbsliste, køber man langt mindre ind på må og få. Og hvis man har en fast hylde i køleskabet til det, der skal spises først, så forsvinder maden ikke ud af syne,« forklarer hun."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Mange smider også mad ud, fordi de misforstår datomærkningen på emballagen. På nogle varer står der »bedst før«, mens der på andre står »sidste anvendelsesdato«."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 4
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Flere danske supermarkeder har derfor suppleret mærkningen på varer som mælk, yoghurt og æg med teksten »ofte god efter«. Formålet er at minde kunderne om, at de skal bruge deres sanser og se, lugte og smage på maden, før de smider den ud."
+              ]
+            },
+            {
+              "t": "h",
+              "text": "Rester bliver til ferie",
+              "level": 3
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Også butikker og restauranter har fået øjnene op for problemet. Via forskellige apps kan man sidst på dagen købe overskudsmad til en brøkdel af den normale pris. Bagerier sælger gårsdagens brød billigt om morgenen, og mange supermarkeder sælger frugt og grønt med små skønhedsfejl billigere end normalt."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Hos familien Holm i Odense har vejningen ændret meget. I dag smider familien kun omkring et halvt kilo mad ud om ugen, og børnene på 10 og 13 år er begyndt at konkurrere om at finde på de bedste retter med rester."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 5
+            },
+            {
+              "t": "p",
+              "runs": [
+                "»Det var lidt sjovt at tænke på, at det var maden fra skraldespanden, der betalte den tur,« siger Mette Holm og griner."
+              ]
+            }
+          ]
+        },
+        "inserts": [
+          {
+            "letter": "A",
+            "text": "Det svarer til, at en almindelig familie på fire hvert år smider mad ud for flere tusinde kroner. Og så er klimaregningen ikke engang talt med."
+          },
+          {
+            "letter": "B",
+            "text": "Familien Holm holdt dog op med at veje maden efter den første måned, fordi det tog for meget tid i hverdagen."
+          },
+          {
+            "letter": "C",
+            "text": "Den første betyder blot, at kvaliteten kan blive lidt ringere efter datoen. Den anden skal man derimod tage alvorligt, fordi maden kan blive sundhedsskadelig."
+          },
+          {
+            "letter": "D",
+            "text": "Men i dag gør hun noget helt andet. Først lugter hun til skinken og smager på risene, og derefter laver hun en hurtig risret med det, der stadig er godt."
+          },
+          {
+            "letter": "E",
+            "text": "Disse tre råd har hun selv fulgt i mange år, og derfor smider hun næsten aldrig mad ud."
+          },
+          {
+            "letter": "F",
+            "text": "Hun peger især på to forhold. For det første køber mange ind uden at have planlagt ugens måltider. For det andet bliver maden ofte glemt bagerst i køleskabet."
+          },
+          {
+            "letter": "G",
+            "text": "De penge, familien har sparet, har de brugt på noget helt andet. Sidste sommer tog de nemlig på en uges ferie i et sommerhus på Fanø."
+          }
+        ],
+        "correct": [
+          "D",
+          "A",
+          "F",
+          "C",
+          "G"
+        ],
+        "points": 2
+      },
+      {
+        "kind": "cloze",
+        "label": "3",
+        "title": "Elbilen kører også på landet",
+        "passage": {
+          "title": "Elbilen kører også på landet",
+          "blocks": [
+            {
+              "t": "p",
+              "runs": [
+                {
+                  "strong": "Salget af elbiler er steget kraftigt i Danmark de seneste år. "
+                },
+                {
+                  "gap": 0
+                },
+                {
+                  "strong": " er det især i de store byer, at elbilerne har vundet frem. I landområderne holder mange stadig fast i benzin- og dieselbilen."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "For mange, der bor langt fra den nærmeste by, er bilen en ",
+                {
+                  "gap": 1
+                },
+                " for at få hverdagen til at hænge sammen. Der er langt til arbejde, skole og indkøb, og bussen kører måske kun et par gange om dagen. Mange har ",
+                {
+                  "gap": 2
+                },
+                " været bekymrede for, om en elbil kan klare de lange afstande."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Den bekymring er dog ved at forsvinde. Batterierne er blevet bedre, og mange nye elbiler kan i dag køre over 400 kilometer på én opladning. Det er langt mere, end de fleste kører på en almindelig dag. ",
+                {
+                  "gap": 3
+                },
+                " har det vist sig, at det ofte er lettere at oplade på landet end i byen. De fleste bor nemlig i hus og kan installere en ladeboks i carporten eller garagen og lade bilen op om natten. I byen er mange, der bor i lejlighed, derimod afhængige ",
+                {
+                  "gap": 4
+                },
+                " de offentlige ladestandere, som ofte er optaget."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Alligevel er der stadig udfordringer. Skal man på en længere tur, kan det være svært at finde en lynlader i de tyndt befolkede områder. De fleste lynladere står langs motorvejene, mens der kan være langt mellem dem på de mindre landeveje. ",
+                {
+                  "gap": 5
+                },
+                " den skævhed er, at det er dyrt at opstille ladere, og at selskaberne helst vil sætte dem op, hvor der kører mange biler forbi."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Flere kommuner har derfor taget sagen i egen hånd og sat ladestandere op ved forsamlingshuse, idrætshaller og købmandsbutikker. Det gør det ikke blot lettere at have elbil. Det kan også give liv til lokalsamfundet, når folk ",
+                {
+                  "gap": 6
+                },
+                " tid på at handle eller drikke en kop kaffe, mens bilen lader. I nogle landsbyer er borgerne endda selv gået sammen om at købe og drive en fælles lader."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Prisen er en anden barriere. Selvom elbiler er blevet billigere, er mange modeller stadig dyrere at købe end tilsvarende benzinbiler. ",
+                {
+                  "gap": 7
+                },
+                " er de billigere i drift, især hvis man lader hjemme om natten, hvor strømmen er billigst. Jo længere man kører, jo mere sparer man. Desuden er vedligeholdelsen af en elbil typisk billigere, fordi motoren har langt færre bevægelige dele end en benzinmotor."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "For mange familier på landet er elbilen derfor ved at blive et reelt ",
+                {
+                  "gap": 8
+                },
+                " til benzinbilen. »Vi kører over 35.000 kilometer om året, så for os gav det god mening at skifte,« siger Hanne Bach, der bor på en gård uden for Ringkøbing. »Det eneste, jeg savner, er en lynlader lidt tættere på.«"
+              ]
+            }
+          ]
+        },
+        "example": {
+          "options": [
+            "Desuden",
+            "Dog",
+            "Derfor",
+            "Ellers"
+          ],
+          "correct": "B"
+        },
+        "gaps": [
+          {
+            "options": [
+              "undtagelse",
+              "begrænsning",
+              "forudsætning",
+              "ulempe"
+            ],
+            "correct": "C"
+          },
+          {
+            "options": [
+              "alligevel",
+              "derfor",
+              "ellers",
+              "endda"
+            ],
+            "correct": "B"
+          },
+          {
+            "options": [
+              "Derimod",
+              "Ellers",
+              "Dermed",
+              "Desuden"
+            ],
+            "correct": "D"
+          },
+          {
+            "options": [
+              "af",
+              "til",
+              "for",
+              "med"
+            ],
+            "correct": "A"
+          },
+          {
+            "options": [
+              "Løsningen på",
+              "Fordelen ved",
+              "Årsagen til",
+              "Formålet med"
+            ],
+            "correct": "C"
+          },
+          {
+            "options": [
+              "tager",
+              "bruger",
+              "spilder",
+              "giver"
+            ],
+            "correct": "B"
+          },
+          {
+            "options": [
+              "Til gengæld",
+              "Derfor",
+              "Endvidere",
+              "Ligeledes"
+            ],
+            "correct": "A"
+          },
+          {
+            "options": [
+              "tilbud",
+              "modsætning",
+              "erstatning",
+              "alternativ"
+            ],
+            "correct": "D"
+          }
+        ],
+        "points": 1
+      }
+    ]
+  }
+}

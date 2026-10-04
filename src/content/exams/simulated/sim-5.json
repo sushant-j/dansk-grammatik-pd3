@@ -1,0 +1,857 @@
+{
+  "id": "sim-5",
+  "title": "Øvesæt 5 (simuleret)",
+  "format": "current",
+  "source": {
+    "kind": "simulated",
+    "level": "exam"
+  },
+  "lf1Theme": "Roskilde",
+  "lf2Titles": [
+    "Flere unge vælger en erhvervsuddannelse",
+    "Ensomhed rammer ikke kun de ældre",
+    "Plantebaseret mad på menuen"
+  ],
+  "gradeTable": [
+    [
+      38,
+      "12"
+    ],
+    [
+      33,
+      "10"
+    ],
+    [
+      27,
+      "7"
+    ],
+    [
+      22,
+      "4"
+    ],
+    [
+      20,
+      "02"
+    ],
+    [
+      10,
+      "00"
+    ],
+    [
+      0,
+      "-3"
+    ]
+  ],
+  "lf1": {
+    "theme": "Roskilde",
+    "sections": [
+      {
+        "title": "Domkirken og byens historie",
+        "blocks": [
+          {
+            "t": "p",
+            "runs": [
+              "Roskilde er en af Danmarks ældste byer og var i store dele af middelalderen landets vigtigste centrum for både kongemagt og kirke. Allerede i vikingetiden lå der en handelsplads ved fjordens inderste ende, og ifølge den mest udbredte forklaring er det kilderne, der springer frem fra skrænterne ned mod vandet, som har givet byen sit navn. I perioden fra 1000-tallet og frem til reformationen i 1536 var Roskilde bispesæde og en af Nordens rigeste købstæder, men byen mistede gradvist sin betydning, efterhånden som kongen og centraladministrationen samledes i København."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Roskilde Domkirke"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Domkirken, der har domineret byens silhuet siden 1200-tallet, er optaget på UNESCO’s verdensarvsliste og regnes for et af de væsentligste eksempler på tidlig teglstensarkitektur i Nordeuropa. Kirken fungerer i dag både som sognekirke for lokalsamfundet og som gravkirke for de danske regenter, og omkring 40 konger og dronninger er begravet i kirkens kapeller og krypter. De ældste gravmæler stammer fra middelalderen, mens de nyeste kapeller er opført i løbet af det 20. århundrede."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Domkirken er åben for besøgende hele året, men åbningstiderne varierer efter sæsonen. I perioden fra april til september er der åbent mandag til lørdag kl. 10–17 og søndag kl. 13–16, mens kirken i vinterhalvåret lukker allerede kl. 16 på hverdage. Da der jævnligt afholdes gudstjenester, bryllupper og begravelser, kan dele af kirken blive lukket for turister med kort varsel, og det anbefales derfor at tjekke kalenderen på kirkens hjemmeside, inden man tager af sted."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Entréen koster 80 kr. for voksne, mens studerende og pensionister betaler 60 kr. mod forevisning af gyldigt studie- eller pensionistkort. Børn og unge under 18 år har gratis adgang. Med billetten kommer man desuden op i Domkirkemuseet på kirkens øverste etage, hvor man blandt andet kan se kongelige dragter, restaurerede altertavler og en detaljeret model af kirken, som den formodentlig så ud omkring år 1300. Kirkens tårn kan derimod kun bestiges i forbindelse med særlige tårnvandringer, som kræver en separat billet."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Omvisninger"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I skolernes sommerferie tilbyder kirken daglige omvisninger på dansk kl. 11 og på engelsk kl. 14. Omvisningerne varer cirka 45 minutter og er inkluderet i entréen, mens tårnvandringerne, som foregår på udvalgte lørdage, koster 50 kr. ekstra og udelukkende kan bookes via hjemmesiden. Grupper på mere end 15 personer, som ønsker en omvisning uden for de faste tidspunkter, skal bestille den mindst tre uger i forvejen hos kirkens kontor, og for skoleklasser gælder der særlige priser. Den populære aftenomvisning »Konger i skumringen«, hvor guiden fortæller om de kongelige begravelser og de sagn, der knytter sig til kirken, foregår kun torsdag aften i juli og henvender sig til voksne og større børn."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Roskilde Museum"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Vil man vide mere om byens historie, kan man besøge Roskilde Museum ved Stændertorvet. Museet ligger i to gamle købmandsgårde. Her fortæller udstillingerne om livet i byen fra vikingetiden og frem til i dag. Der er blandt andet en købmandsbutik fra 1920’erne, hvor børnene kan lege handel. Museet har åbent tirsdag til søndag kl. 11–16. Entréen er 60 kr. for voksne, og børn kommer gratis ind. Har man en billet til domkirken fra samme dag, får man 20 kr. i rabat."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Byvandring i de gamle gader"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Den lokale forening Roskilde Bymiljø arrangerer hver lørdag fra maj til oktober en gratis byvandring, der starter ved Stændertorvet kl. 10.30. Ruten går gennem de smalle gader omkring Algade og ned mod fjorden, hvor man stadig kan se spor efter de klostre og kirker, som prægede middelalderbyen. Undervejs fortæller foreningens frivillige guider om, hvordan Roskilde har udviklet sig fra bispeby til moderne universitets- og pendlerby. Det er ikke nødvendigt at tilmelde sig på forhånd, men man bør medbringe fornuftigt fodtøj, eftersom en stor del af ruten foregår på brosten og grusstier."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Vikingeskibsmuseet og fjorden",
+        "blocks": [
+          {
+            "t": "h",
+            "text": "Fem skibe fra fjordens bund"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Ved havnen, kun et kvarters gang fra domkirken, ligger Vikingeskibsmuseet, som er bygget op omkring fem originale skibe fra vikingetiden. Skibene blev omkring år 1070 fyldt med sten og sænket i fjorden for at spærre sejlrenden og beskytte byen mod angreb fra søsiden. De blev først gravet ud i begyndelsen af 1960’erne, da arkæologerne byggede en dæmning omkring fundstedet og pumpede vandet væk. I dag er de bevarede skibsdele udstillet i Vikingeskibshallen, hvor store glaspartier giver udsigt over den fjord, som skibene engang sejlede på."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Ud over udstillingen i hallen består museet af en museumsø med et bådeværft, hvor bådebyggere arbejder med de samme værktøjer og teknikker, som man anvendte for tusind år siden. Her er der gennem de seneste årtier bygget kopier i fuld størrelse af alle fem skibe, og de besøgende er velkomne til at følge arbejdet og stille spørgsmål til håndværkerne. Værftet er dog kun bemandet i højsæsonen fra maj til september, og på dage med kraftig regn kan arbejdet være flyttet indendørs i et værksted, der ikke er åbent for offentligheden."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Sejlads i vikingeskib"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Et af museets mest populære tilbud er muligheden for selv at komme ud at sejle i en kopi af et vikingeskib. Sejladserne foregår fra midten af maj til slutningen af september og varer omkring 50 minutter, hvor deltagerne under vejledning af museets skippere selv skal ro og hjælpe med at sætte sejlet. Det forudsætter ingen tidligere erfaring med sejlads, men alle deltagere skal kunne svømme, og børn under 12 år skal være ledsaget af en voksen. Turen koster 100 kr. oven i museumsbilletten og kan kun bookes samme dag i museets billetsalg, fordi antallet af afgange afhænger af vejret og vindforholdene."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Billetter og åbningstider"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Museet har åbent alle ugens dage kl. 10–17 i sommerhalvåret og kl. 10–16 i resten af året. Voksne betaler 160 kr. i højsæsonen og 115 kr. uden for sæsonen, mens børn og unge under 18 år kommer gratis ind. Køber man et årskort til 250 kr., kan man besøge museet så mange gange, man ønsker, i tolv måneder, og kortholdere får samtidig 10 procent rabat i museumsbutikken og på museets restaurant, Knarren, som serverer retter tilberedt af nordiske råvarer. Studerende og pensionister kan få et tilsvarende årskort til nedsat pris, hvis de henvender sig i billetsalget."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Mad og drikke ved havnen"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Havneområdet er et godt sted at holde pause. Om sommeren er der liv på kajen fra morgen til aften. Ved siden af museet ligger en lille iskiosk, og længere henne ad kajen finder man en fiskerestaurant med udsigt over fjorden. Restauranten har åbent hele året, men om vinteren holder den lukket mandag og tirsdag. Det anbefales at bestille bord, hvis man vil spise der en weekend i sommerferien. Har man selv mad med, kan man bruge bænkene og bordene i den lille park bag museet."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Oplevelser på Roskilde Fjord"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Roskilde Fjord strækker sig over 40 kilometer fra byen mod nord og er et af landets største sammenhængende naturområder ved vand. Fjorden er lavvandet og forholdsvis beskyttet mod vind og bølger, hvilket gør den velegnet til kajak, kano og windsurfing, også for begyndere. Hos udlejningsfirmaet Fjordpagajen ved havnen kan man leje en kajak fra 200 kr. for tre timer, mens en hel dag koster 450 kr. Firmaet tilbyder desuden introduktionskurser for nybegyndere hver weekend i sommerhalvåret, og har man gennemført et introduktionskursus hos firmaet, kan man efterfølgende leje kajakker med 20 procent rabat resten af sæsonen."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Foretrækker man at blive sejlet, afgår turbåden M/S Fjordfalken i perioden fra juni til august flere gange dagligt fra havnen og sejler nordpå langs fjordens skovklædte kyster. Den længste tur går til Frederikssund og tager omkring to timer hver vej. Man kan tage cyklen med om bord mod et mindre tillæg, hvilket gør det muligt at sejle den ene vej og cykle hjem ad den afmærkede fjordsti."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Roskilde Festival og kulturlivet",
+        "blocks": [
+          {
+            "t": "h",
+            "text": "Roskilde Festival"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Roskilde Festival er en af Europas største musikfestivaler og har siden 1971 fundet sted på dyrskuepladsen syd for byen i overgangen mellem juni og juli. Festivalen varer otte dage, hvoraf de første fire udgør en opvarmningsperiode, hvor det primært er nye og mindre kendte navne, der optræder på de små scener, mens de store koncerter først begynder om onsdagen. Hvert år deltager mere end 100.000 mennesker, når man medregner frivillige, kunstnere og pressefolk, og i festivalugen bliver campingområdet dermed midlertidigt en af Danmarks største byer."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Festivalen drives af en almennyttig forening, og hele overskuddet går til humanitære og kulturelle formål med særligt fokus på børn og unge. Det er kun muligt, fordi størstedelen af arbejdet varetages af frivillige, der hjælper til med alt fra billetkontrol og rengøring til madboder og førstehjælp. Som frivillig skal man arbejde mindst 32 timer i løbet af festivalen, og til gengæld får man gratis adgang til alle koncerter samt mad under sine vagter. Mange af de frivillige er medlemmer af foreninger og idrætsklubber, som modtager et økonomisk tilskud for hver frivillig, de stiller med, og for mange mindre klubber udgør pengene en væsentlig del af årets budget."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Ragnarock og bydelen Musicon"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I bydelen Musicon, der er opstået på et tidligere industriområde i den sydlige del af byen, ligger museet Ragnarock, som i interaktive udstillinger fortæller om, hvordan populærmusikken siden 1950’erne har påvirket den måde, unge klæder sig, danser og gør oprør på. Her kan de besøgende blandt andet indspille deres egen sang og lære danse fra forskellige årtier, ligesom der jævnligt arrangeres workshops for skoleklasser. Museet holder lukket om mandagen, men har til gengæld åbent til kl. 21 hver torsdag, hvor der ofte er koncerter eller debatarrangementer i museets foyer."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Omkring museet har kreative virksomheder, øvelokaler, værksteder og en stor skatehal slået sig ned i de gamle fabriksbygninger. Hver anden fredag i sommerhalvåret arrangerer bydelens beboerforening et gademarked, hvor lokale designere og kunsthåndværkere sælger deres produkter, og hvor der er livemusik fra sidst på eftermiddagen og til langt ud på aftenen."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Sommerkoncerter i Klosterhaven"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Hver tirsdag aften i juli og august er der gratis koncerter i den gamle klosterhave tæt ved domkirken. Programmet spænder bredt. Den ene uge kan der være jazz, og den næste kan det være folkemusik eller et lokalt kor. Koncerterne begynder kl. 19.30 og varer cirka en time. Man skal selv medbringe tæppe eller stol, da der kun er få bænke. Ved dårligt vejr flyttes koncerten ind i et forsamlingshus i nærheden. Det bliver meddelt på kommunens hjemmeside senest kl. 15 samme dag."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Kulturhuset Bryggen"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Kulturhuset Bryggen, der har til huse i et tidligere mejeri tæt ved stationen, er byens samlingspunkt for koncerter, stand-up og foredrag. Huset råder over to sale, hvoraf den største har plads til 600 stående gæster, mens den lille sal især benyttes til lokale bands og mere intime arrangementer. Unge mellem 15 og 25 år kan købe et ungdomskort, der koster 150 kr. om året og giver halv pris på billetter til alle arrangementer i den lille sal. Arrangementerne i den store sal er ikke omfattet af ordningen, da de som regel planlægges af eksterne koncertarrangører, der selv fastsætter billetpriserne."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Kulturnatten"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Den sidste fredag i september holder byen kulturnat. Fra kl. 17 til midnat holder museer, kirker, biblioteker og butikker åbent med særlige arrangementer. Der er blandt andet fortællinger for børn i domkirken, lysshows i Musicon og smagsprøver i byens caféer. Det kræver et kulturpas at deltage. Passet koster 50 kr. og kan købes på biblioteket fra 1. september. Børn under 12 år har gratis adgang, når de er sammen med en voksen. Med passet kan man også køre gratis med de særlige kulturnatbusser mellem bydelene."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Natur og friluftsliv",
+        "blocks": [
+          {
+            "t": "p",
+            "runs": [
+              "Selvom Roskilde er en travl handels- og uddannelsesby, er der kort afstand til både skov, fjord og åbent land. Kommunen har i de senere år investeret i nye stier, shelterpladser og naturformidling, så flere borgere og turister kan få glæde af de grønne områder i hele kommunen."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Boserup Skov"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Boserup Skov ligger ned til fjorden få kilometer nordøst for centrum og kan nås på cykel ad en natursti, der begynder ved havnen. Skoven er kendt for sine gamle bøgetræer og for de græssende køer på strandengene, og om foråret er skovbunden dækket af hvide anemoner. I den nordlige del af skoven ligger Naturskolen Fjordlyst, som først og fremmest henvender sig til skoler og daginstitutioner, der kan booke undervisningsforløb om alt fra fugle og insekter til livet i fjorden. I weekenderne har naturskolen imidlertid også åbent for andre, idet naturvejlederne arrangerer guidede ture for børnefamilier, hvor man for eksempel kan fange krabber, bygge insekthoteller eller lave mad over bål."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Overnatning i shelter"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I en lysning i skoven tæt ved vandet har kommunen opført tre sheltere, hvor man kan overnatte gratis. Shelterne skal bookes på forhånd via kommunens hjemmeside, og man kan højst reservere to nætter i træk. Ved shelterpladsen findes en bålplads og et muldtoilet, men man skal selv medbringe brænde og drikkevand, da der hverken er vandhaner eller brændeskur i området. Af hensyn til dyrelivet er det ikke tilladt at medbringe hunde i perioden fra 1. april til 31. august, og hele året skal bålet være slukket senest kl. 23."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Fjordstien"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Fjordstien er en afmærket rute for cyklister og gående langs Roskilde Fjord. Hele ruten er over 150 kilometer lang og går rundt om fjorden. De fleste vælger dog at cykle en kortere strækning. En populær tur går fra havnen gennem Boserup Skov og videre til en lille landsby cirka 15 kilometer mod nord. Undervejs er der flere steder med borde og bænke. Ruten er for det meste flad, men nogle steder er stien smal og dækket af grus. Et kort over ruten kan hentes gratis på turistbureauet."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Hedeland"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Syd for byen ligger Hedeland, et tidligere grusgravsområde, som gennem de sidste årtier er blevet omdannet til et rekreativt landskab med søer, skove og bakker. Området er især populært blandt mountainbikere, der kan vælge mellem flere afmærkede ruter i forskellige sværhedsgrader, men der er også ridestier, en golfbane og et stort friluftsteater, hvor der om sommeren opføres musicals og koncerter. Gennem området kører desuden en veteranjernbane med smalsporede damplokomotiver, men toget kører kun på søn- og helligdage i juli og august, og billetterne kan udelukkende købes ved perronen."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "At bo og arbejde i Roskilde",
+        "blocks": [
+          {
+            "t": "p",
+            "runs": [
+              "Roskilde Kommune har omkring 90.000 indbyggere, og hvert år flytter flere tusinde nye borgere til, blandt andet på grund af den korte afstand til hovedstaden og de mange uddannelsesinstitutioner i byen."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Borgerservice"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Borgerservice ligger i rådhuset og hjælper blandt andet med pas, kørekort, sygesikring og flytning. Der er åbent mandag til onsdag kl. 10–15 og torsdag kl. 10–17.30, mens der er lukket om fredagen. Ansøgninger om pas og kørekort forudsætter, at man har bestilt tid på forhånd, hvorimod man kan henvende sig uden tidsbestilling, hvis man har brug for hjælp til digital post eller til at melde flytning."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Bolig"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Der bygges i disse år mange nye boliger i Roskilde, men efterspørgslen er stadig større end udbuddet, og det gælder især for de almene boliger. Hos boligselskabet Fjordbo, der administrerer omkring 4.000 lejligheder i kommunen, er ventetiden til de mest efterspurgte afdelinger i midtbyen ofte mellem fem og ti år, og selskabet opfordrer derfor alle, der overvejer at flytte til en almen bolig, til at skrive sig op i god tid. Opskrivningen koster 300 kr. det første år og derefter 150 kr. årligt. Studerende ved byens universitet og øvrige videregående uddannelser kan i stedet søge om en ungdomsbolig gennem Kollegiekontoret, hvor ventetiden normalt er mellem tre og seks måneder."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Arbejde og pendling"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Mange af kommunens indbyggere arbejder i hovedstadsområdet, og fra Roskilde Station kører der tog til København H op til seks gange i timen i myldretiden. Rejsen tager knap 25 minutter med de hurtigste tog. Samtidig er Roskilde selv en betydelig arbejdsplads med et sygehus, et universitet og en række større virksomheder inden for blandt andet logistik, byggeri og grøn energi, og mange af dem har vanskeligt ved at rekruttere kvalificeret arbejdskraft."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Er du ny i byen og på udkig efter arbejde, kan du hver tirsdag eftermiddag besøge Jobcaféen på hovedbiblioteket, hvor frivillige med erfaring fra erhvervslivet hjælper med at skrive CV og ansøgninger. Desuden kan man i Jobcaféen få vejledning i at få sin udenlandske uddannelse vurderet af de danske myndigheder, hvilket ofte er en forudsætning for at kunne søge job inden for sit fag. Jobcaféen er gratis og kræver ingen tilmelding, men den henvender sig udelukkende til personer, der er bosat i kommunen."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Danskundervisning"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Er du ny i Danmark, kan du få danskundervisning på sprogskolen tæt ved stationen. Man kan vælge mellem hold om dagen og om aftenen. Aftenholdene er især for dem, der arbejder. Der findes også et onlinetilbud for dem, der har svært ved at møde op. For at blive optaget skal man først henvende sig til kommunen. Derefter bliver man indkaldt til en samtale på sprogskolen. Her bliver man testet og placeret på det niveau, der passer til ens baggrund."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Fritid og foreningsliv"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Roskilde har over 400 foreninger inden for sport, kultur og fritid. Mange af dem søger frivillige, og det er en god måde at lære nye mennesker at kende på. Hvert år i august holder kommunen en foreningsdag på Stændertorvet. Her kan man møde foreningerne og prøve forskellige aktiviteter. Nye borgere får desuden et velkomstbrev med et fritidspas. Det giver gratis prøvetræning i en række idrætsklubber i de første tre måneder."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Pasning af børn"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Flytter man til kommunen med børn under seks år, skal man skrive barnet op til en plads i dagpleje, vuggestue eller børnehave via kommunens pladsanvisning. Kommunen har pasningsgaranti, hvilket betyder, at barnet skal tilbydes en plads senest tre måneder efter, at forældrene har søgt, dog tidligst når barnet er 26 uger gammelt. Man kan søge om plads i en bestemt institution, men har man brug for pasning hurtigt, kan det være en fordel at være fleksibel, da der ofte er ventelister til institutionerne i midtbyen."
+            ]
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "n": 1,
+        "section": "Domkirken og byens historie",
+        "prompt": "Roskilde var engang landets vigtigste by. Hvad har ifølge teksten givet byen sit navn?",
+        "key": "(De) kilder/kilderne (der springer frem fra skrænterne)"
+      },
+      {
+        "n": 2,
+        "section": "Domkirken og byens historie",
+        "prompt": "Kan man følge en engelsk omvisning en onsdag i juli uden at betale ekstra? Svar 'ja' eller 'nej'.",
+        "key": "Ja",
+        "paraphrased": true
+      },
+      {
+        "n": 3,
+        "section": "Domkirken og byens historie",
+        "prompt": "Hvad kan man ud over selve kirken også se med en billet til domkirken?",
+        "key": "Domkirkemuseet (på kirkens øverste etage)"
+      },
+      {
+        "n": 4,
+        "section": "Domkirken og byens historie",
+        "prompt": "Hvor lang tid i forvejen skal en skoleklasse med 25 elever bestille en omvisning i oktober?",
+        "key": "Mindst tre uger i forvejen"
+      },
+      {
+        "n": 5,
+        "section": "Vikingeskibsmuseet og fjorden",
+        "prompt": "Hvorfor sænkede man oprindeligt de fem vikingeskibe i fjorden ved Roskilde?",
+        "key": "(For) at spærre sejlrenden (og beskytte byen)"
+      },
+      {
+        "n": 6,
+        "section": "Vikingeskibsmuseet og fjorden",
+        "prompt": "Hvad skal alle deltagere kunne for at komme med på en sejlads i vikingeskib?",
+        "key": "(Alle deltagere skal) kunne svømme"
+      },
+      {
+        "n": 7,
+        "section": "Vikingeskibsmuseet og fjorden",
+        "prompt": "Hvilken rabat får man på museet, hvis man køber et årskort?",
+        "key": "10 procent rabat (i museumsbutikken og på museets restaurant)"
+      },
+      {
+        "n": 8,
+        "section": "Vikingeskibsmuseet og fjorden",
+        "prompt": "Hvad skal man have gjort for at leje kajakker billigere hos Fjordpagajen?",
+        "key": "(Gennemført et) introduktionskursus (hos firmaet)"
+      },
+      {
+        "n": 9,
+        "section": "Roskilde Festival og kulturlivet",
+        "prompt": "Hvad får de idrætsklubber, der sender frivillige til Roskilde Festival, til gengæld?",
+        "key": "(Et) økonomisk tilskud (for hver frivillig)"
+      },
+      {
+        "n": 10,
+        "section": "Roskilde Festival og kulturlivet",
+        "prompt": "Ahmed på 19 år har et ungdomskort. Får han halv pris i Bryggens store sal? Svar 'ja' eller 'nej'.",
+        "key": "Nej",
+        "paraphrased": true
+      },
+      {
+        "n": 11,
+        "section": "Roskilde Festival og kulturlivet",
+        "prompt": "Hvad kan man som besøgende selv prøve på museet Ragnarock? Nævn begge.",
+        "key": "(At) indspille deres/sin egen sang og (at) lære danse (fra forskellige årtier)"
+      },
+      {
+        "n": 12,
+        "section": "Natur og friluftsliv",
+        "prompt": "Hvad skal man selv medbringe, når man overnatter i shelterne i Boserup Skov? Nævn begge.",
+        "key": "Brænde og drikkevand"
+      },
+      {
+        "n": 13,
+        "section": "Natur og friluftsliv",
+        "prompt": "Naturskolen henvender sig ikke kun til skoler og institutioner. Hvad tilbyder den også?",
+        "key": "Guidede ture for børnefamilier (i weekenderne)"
+      },
+      {
+        "n": 14,
+        "section": "At bo og arbejde i Roskilde",
+        "prompt": "Hvad kan man i Jobcaféen få hjælp til, bortset fra CV og ansøgninger?",
+        "key": "(Vejledning i at få sin) udenlandske uddannelse vurderet"
+      },
+      {
+        "n": 15,
+        "section": "At bo og arbejde i Roskilde",
+        "prompt": "Hvorfor opfordrer boligselskabet Fjordbo folk til at skrive sig op i god tid?",
+        "key": "(Fordi der er) lang ventetid (til de mest efterspurgte afdelinger)",
+        "paraphrased": true,
+        "also": [
+          "(Fordi) ventetiden (ofte) er (mellem) fem og/til ti år"
+        ]
+      }
+    ]
+  },
+  "lf2": {
+    "tasks": [
+      {
+        "kind": "mc",
+        "label": "2A",
+        "title": "Flere unge vælger en erhvervsuddannelse",
+        "passages": [
+          {
+            "title": "Flere unge vælger en erhvervsuddannelse",
+            "blocks": [
+              {
+                "t": "p",
+                "runs": [
+                  {
+                    "strong": "Efter mange års tilbagegang er søgningen til erhvervsuddannelserne igen stigende. For nogle unge er det et bevidst fravalg af gymnasiet, for andre en vej tilbage efter et forkert første valg."
+                  }
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Det lugter af savsmuld og kaffe i værkstedshallen på erhvervsskolen i Holbæk, hvor en gruppe tømrerelever er i gang med at rejse spærene til et lille træhus. Blandt dem er 17-årige Mathilde Brandt, der som en af de få piger på holdet har valgt at uddanne sig til tømrer. »Jeg har altid været mere til at bruge hænderne end til at sidde stille og læse,« siger hun og tørrer støvet af sikkerhedsbrillerne. »Da jeg gik i niende klasse, var der alligevel en forventning om, at jeg skulle i gymnasiet, fordi jeg havde gode karakterer. Men jeg kunne ikke se, hvad jeg skulle bruge tre år mere på skolebænken til.«"
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Mathilde Brandt er en del af en udvikling, som har overrasket mange. Efter at andelen af unge, der vælger en erhvervsuddannelse direkte efter grundskolen, i en lang årrække har ligget lavt, er søgningen nu steget flere år i træk. Det glæder både skolerne og de virksomheder, som i stigende grad mangler faglært arbejdskraft."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Hendes far, Søren Brandt, der selv er uddannet ingeniør, indrømmer, at han i begyndelsen var skeptisk. »Jeg var bange for, at hun lukkede nogle døre, som hun senere ville fortryde,« fortæller han. »Men hun har nok forstået noget, som vi forældre har haft svært ved at se. En faglært har i dag gode muligheder for at læse videre, hvis hun senere får lyst til det, og i mellemtiden tjener hun sine egne penge.« Han tilføjer, at han især har bemærket, hvor meget mere motiveret datteren er blevet, siden hun begyndte på uddannelsen."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "For 20-årige Yusuf Demir gik vejen til erhvervsskolen gennem gymnasiet. Han begyndte på en studenteruddannelse, fordi de fleste af hans venner gjorde det samme, men efter halvandet år valgte han at stoppe. »Det var ikke, fordi jeg ikke kunne klare det faglige. Jeg savnede bare at kunne se, hvad jeg brugte min tid på,« siger han. I dag er han i lære som elektriker hos en mellemstor installationsvirksomhed i Ringsted, hvor han blandt andet monterer solceller og ladestandere. »Når jeg kører hjem efter en arbejdsdag, kan jeg pege på noget, jeg har lavet. Det giver en helt anden tilfredsstillelse end en karakter på et stykke papir.«"
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Yusuf Demirs mor, Aylin Demir, var ikke i tvivl om, at sønnen traf det rigtige valg, men hun understreger, at det ikke var nemt at finde en læreplads. »Han skrev over tredive ansøgninger, inden han fik ja,« siger hun. »Jeg tror ikke, at de unge altid bliver forberedt på, hvor stor en indsats det kræver at finde en virksomhed, der vil tage dem i lære.«"
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Ifølge Lone Vestergaard, der forsker i ungdomsuddannelser ved en af landets professionshøjskoler, skyldes den stigende interesse flere forhold. »Det handler blandt andet om, at mange unge er blevet mere opmærksomme på, at faglærte har gode beskæftigelsesmuligheder, og at den grønne omstilling kræver mange hænder. Men det handler også om, at selve uddannelserne er blevet mere attraktive, fordi skolerne i højere grad samarbejder med virksomhederne og tilbyder forløb, hvor eleverne kan kombinere praktisk arbejde med mere teoretiske fag,« forklarer hun."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Lone Vestergaard advarer dog mod at tro, at udfordringerne er løst. Selvom flere begynder på en erhvervsuddannelse, er der stadig en betydelig andel, der falder fra undervejs, og den største barriere er efter hendes vurdering manglen på lærepladser inden for visse fag. »Det nytter ikke, at vi får flere unge til at vælge en erhvervsuddannelse, hvis virksomhederne ikke samtidig tager et større ansvar for at uddanne dem,« siger hun. Hun mener desuden, at forældrene spiller en afgørende rolle, når de unge skal vælge uddannelse. »Mange forældre har selv taget en lang videregående uddannelse og betragter den som den sikre vej. Det er en forestilling, vi er nødt til at udfordre, hvis flere unge skal turde vælge anderledes.«"
+                ]
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "prompt": "Hvorfor stoppede Yusuf Demir i gymnasiet?",
+            "options": [
+              "Han syntes, at de faglige krav i gymnasiet var for svære at klare.",
+              "Han savnede at kunne se, hvad hans tid i skolen førte til.",
+              "Hans venner var begyndt på en erhvervsuddannelse som elektriker."
+            ],
+            "correct": "B"
+          },
+          {
+            "prompt": "Hvilket udsagn er i overensstemmelse med det, der står i teksten?",
+            "options": [
+              "Mathilde Brandt havde karakterer, der også var gode nok til gymnasiet.",
+              "Søren Brandt mente fra starten, at datteren traf det rigtige valg.",
+              "Yusuf Demir fik en læreplads i den første virksomhed, han søgte hos."
+            ],
+            "correct": "A"
+          },
+          {
+            "prompt": "Hvad er Søren Brandt og Lone Vestergaard enige om?",
+            "options": [
+              "At virksomhederne bør tage et større ansvar for at uddanne de unge.",
+              "At faglærte har bedre muligheder for at læse videre end studenter.",
+              "At forældre ofte undervurderer, hvad en faglig uddannelse kan give."
+            ],
+            "correct": "C"
+          }
+        ],
+        "points": 2
+      },
+      {
+        "kind": "insert",
+        "label": "2B",
+        "title": "Ensomhed rammer ikke kun de ældre",
+        "passage": {
+          "title": "Ensomhed rammer ikke kun de ældre",
+          "blocks": [
+            {
+              "t": "p",
+              "runs": [
+                {
+                  "strong": "Når talen falder på ensomhed, tænker de fleste på ældre mennesker, der sidder alene i deres lejlighed. Men undersøgelser viser, at det i dag især er de unge, der føler sig ensomme."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Sofie Lund på 23 år flyttede for to år siden fra Thisted til Aarhus for at læse medicin. Hun fik et værelse på et kollegium i udkanten af byen og glædede sig til at komme til en stor by med mange unge og et rigt studieliv. Men sådan blev det ikke helt."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 1
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Sofie Lund er langt fra den eneste. I en ny landsdækkende undersøgelse svarer omkring hver femte i alderen 16 til 29 år, at de ofte eller altid føler sig ensomme. Det er en markant højere andel end blandt de 65–79-årige, hvor det gælder for omkring hver tyvende."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 2
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Ifølge psykolog Henrik Mortensen, der i mange år har arbejdet med unge i en rådgivning for studerende, er ensomhed ikke det samme som at være alene. »Man kan sagtens være omgivet af mange mennesker og alligevel føle sig ensom. Ensomhed handler om, at man savner nogen at dele sine tanker med, og at man ikke føler sig set,« forklarer han."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 3
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Henrik Mortensen understreger dog, at de sociale medier ikke kan stå alene som forklaring. Mange unge flytter hjemmefra for at studere og skal bygge et helt nyt netværk op. Samtidig oplever mange et stort pres for at præstere i uddannelsen, og det kan betyde, at der bliver mindre tid og overskud til fællesskaber."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 4
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Vendepunktet kom, da en studievejleder fortalte hende om en frivillig forening, der arrangerer fællesspisning for unge hver onsdag. Hun var nervøs den første gang, men i dag er hun selv blevet frivillig og hjælper med at lave mad. »Det er meget nemmere at tale med nye mennesker, når man har noget konkret at lave sammen,« siger hun."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 5
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Han understreger samtidig, at ansvaret ikke kun ligger hos de unge selv. Uddannelsesinstitutionerne kan gøre meget ved at skabe faste rammer for samvær, for eksempel ved at lade de studerende arbejde i faste grupper gennem hele studiet. »Ensomhed er ikke en personlig fiasko. Det er en følelse, som de fleste kender, og jo mere åbent vi taler om det, desto lettere bliver det at gøre noget ved det,« siger han."
+              ]
+            }
+          ]
+        },
+        "inserts": [
+          {
+            "letter": "A",
+            "text": "Han mener, at de sociale medier spiller en rolle. Når man hele tiden ser billeder af andre, der hygger sig med vennerne, får man let indtryk af, at alle andre har det sjovere."
+          },
+          {
+            "letter": "B",
+            "text": "Derfor besluttede hun allerede efter den første måned at flytte hjem til Thisted igen, hvor hun stadig havde sine gamle venner fra folkeskolen og sin familie tæt på."
+          },
+          {
+            "letter": "C",
+            "text": "»De første måneder var der introfester og studiegrupper, og jeg havde travlt hele tiden. Men da hverdagen kom, opdagede jeg, at jeg ikke havde nogen rigtige venner i byen,« fortæller hun."
+          },
+          {
+            "letter": "D",
+            "text": "Den erfaring kan Henrik Mortensen genkende. Han opfordrer unge, der føler sig ensomme, til at søge fællesskaber, der er bygget op omkring en aktivitet, for eksempel en sportsklub, et kor eller frivilligt arbejde."
+          },
+          {
+            "letter": "E",
+            "text": "Tallene har overrasket mange, fordi ungdommen normalt opfattes som den periode i livet, hvor man har flest venner. Men forskerne peger på, at netop den forventning kan gøre ensomheden værre."
+          },
+          {
+            "letter": "F",
+            "text": "Den metode har han dog siden opgivet, fordi mange af de unge, han talte med, syntes, at det var alt for pinligt at deltage sammen med deres klassekammerater."
+          },
+          {
+            "letter": "G",
+            "text": "Det oplevede Sofie Lund også. Hun brugte de fleste aftener på at læse, fordi hun var bange for at dumpe til eksamen, og hun takkede nej til de få invitationer, hun fik."
+          }
+        ],
+        "correct": [
+          "C",
+          "E",
+          "A",
+          "G",
+          "D"
+        ],
+        "points": 2
+      },
+      {
+        "kind": "cloze",
+        "label": "3",
+        "title": "Plantebaseret mad på menuen",
+        "passage": {
+          "title": "Plantebaseret mad på menuen",
+          "blocks": [
+            {
+              "t": "p",
+              "runs": [
+                {
+                  "strong": "Flere og flere danskere spiser mindre kød. "
+                },
+                {
+                  "gap": 0
+                },
+                {
+                  "strong": " er der sket store ændringer i de offentlige køkkener, hvor plantebaserede retter er blevet en fast del af menuen."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "I kantinen i et stort kontorfællesskab i Odense står dagens ret på tavlen: linsegryde med bagte rodfrugter og frisk koriander. For fem år siden ville det have været en ",
+                {
+                  "gap": 1
+                },
+                ", at der ikke var kød i hovedretten, men i dag er det helt almindeligt. »Vi serverer kød to gange om ugen, men de øvrige dage er maden plantebaseret, og vi har faktisk ikke fået nogen klager,« siger køkkenchef Birgitte Holm. Hun ",
+                {
+                  "gap": 2
+                },
+                ", at nøglen er at lave mad, der smager godt i sig selv, og ikke mad, der forsøger at efterligne kød."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Udviklingen er ",
+                {
+                  "gap": 3
+                },
+                " en bredere tendens i samfundet. Ifølge en ny undersøgelse har næsten hver tredje dansker skåret ned på kødet inden for de seneste to år, og det er især hensynet til klimaet og sundheden, der får forbrugerne til at ændre vaner. En plantebaseret ret har typisk et klimaaftryk, der kun er en brøkdel af aftrykket fra en tilsvarende ret med oksekød, og for en kantine, der serverer flere hundrede måltider om dagen, giver omlægningen derfor en mærkbar reduktion af udledningen af drivhusgasser."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Plantebaseret mad har ",
+                {
+                  "gap": 4
+                },
+                " længe haft ry for at være kedelig og dyr, og mange forbinder den stadig med tør tofu og salat uden smag. Men den forestilling er ved at ændre sig, ",
+                {
+                  "gap": 5
+                },
+                " kokke og fødevarevirksomheder er blevet langt dygtigere til at bruge bælgfrugter, korn og grøntsager."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Ifølge Jonas Riis, der er ernæringsforsker ved et dansk universitet, er det dog ikke tilstrækkeligt, at maden smager godt. »Prisen og tilgængeligheden er stadig de største ",
+                {
+                  "gap": 6
+                },
+                " for, at flere vælger de plantebaserede alternativer. Hvis den vegetariske ret er dyrere end den med kød, vælger de fleste stadig kødet,« siger han. Han henviser til, at flere supermarkeder i de senere år har sænket priserne på bønner og linser, og at det allerede har fået salget til at stige."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Han peger på, at de offentlige køkkener kan spille en vigtig rolle. ",
+                {
+                  "gap": 7
+                },
+                " serverer skoler, plejehjem og hospitaler hver dag mad til hundredtusindvis af danskere, og når mange mennesker oplever, at en plantebaseret ret både mætter og smager godt, kan det på sigt ",
+                {
+                  "gap": 8
+                },
+                ", at de også begynder at lave den slags mad derhjemme."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "I Odense er Birgitte Holm ikke i tvivl om, at udviklingen vil fortsætte. »Vi kommer ikke til at fjerne kødet helt, for der skal være plads til forskellige ønsker. Men jeg tror, at de plantebaserede retter om ti år vil være lige så naturlige på menuen som frikadeller og kartofler,« siger hun."
+              ]
+            }
+          ]
+        },
+        "example": {
+          "options": [
+            "Alligevel",
+            "Derimod",
+            "Samtidig",
+            "Ellers"
+          ],
+          "correct": "C"
+        },
+        "gaps": [
+          {
+            "options": [
+              "nødvendighed",
+              "selvfølge",
+              "undtagelse",
+              "målsætning"
+            ],
+            "correct": "C"
+          },
+          {
+            "options": [
+              "benægter",
+              "påpeger",
+              "tvivler på",
+              "frygter"
+            ],
+            "correct": "B"
+          },
+          {
+            "options": [
+              "i modstrid med",
+              "uafhængig af",
+              "en undtagelse fra",
+              "en del af"
+            ],
+            "correct": "D"
+          },
+          {
+            "options": [
+              "nemlig",
+              "ellers",
+              "derfor",
+              "altså"
+            ],
+            "correct": "B"
+          },
+          {
+            "options": [
+              "på trods af at",
+              "medmindre",
+              "i takt med at",
+              "selv om"
+            ],
+            "correct": "C"
+          },
+          {
+            "options": [
+              "barrierer",
+              "argumenter",
+              "drivkræfter",
+              "garantier"
+            ],
+            "correct": "A"
+          },
+          {
+            "options": [
+              "Tværtimod",
+              "Til gengæld",
+              "Ikke desto mindre",
+              "Tilsammen"
+            ],
+            "correct": "D"
+          },
+          {
+            "options": [
+              "forhindre",
+              "betyde",
+              "udelukke",
+              "forsinke"
+            ],
+            "correct": "B"
+          }
+        ],
+        "points": 1
+      }
+    ]
+  }
+}

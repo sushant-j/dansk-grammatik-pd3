@@ -18,6 +18,7 @@ import { ALL_SPELLING_RULE_IDS } from '../grammar/spellingRules';
 import { ALL_VERB_RULE_IDS } from '../grammar/verbRules';
 import { ADJECTIVE_BANK } from './adjectives';
 import { COMMA_EXAMPLES } from './commaExamples';
+import { SIMULATED_PAPERS } from './exams/simulated';
 import { EXERCISES } from './exercises';
 import { NOUN_BANK } from './nouns';
 import { RETIRED_IDS, RULE_ALIASES } from './retired';
@@ -43,6 +44,8 @@ const current: Record<string, string[]> = {
   adjectives: ids(ADJECTIVE_BANK),
   comma: ids(COMMA_EXAMPLES),
   spelling: ids(SPELLING_EXAMPLES),
+  // Attempts point at paper ids, so a simulated paper's id must never change.
+  simulatedPapers: ids(SIMULATED_PAPERS),
 };
 
 function readLock(): Record<string, string[]> {

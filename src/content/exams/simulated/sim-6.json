@@ -1,0 +1,1026 @@
+{
+  "id": "sim-6",
+  "title": "Øvesæt 6 (simuleret)",
+  "format": "current",
+  "source": {
+    "kind": "simulated",
+    "level": "exam"
+  },
+  "lf1Theme": "Nordjylland",
+  "lf2Titles": [
+    "Udenlandske medarbejdere på danske arbejdspladser",
+    "Fællesspisning samler nabolaget",
+    "Grundvandet er under pres"
+  ],
+  "gradeTable": [
+    [
+      38,
+      "12"
+    ],
+    [
+      33,
+      "10"
+    ],
+    [
+      27,
+      "7"
+    ],
+    [
+      22,
+      "4"
+    ],
+    [
+      20,
+      "02"
+    ],
+    [
+      10,
+      "00"
+    ],
+    [
+      0,
+      "-3"
+    ]
+  ],
+  "lf1": {
+    "theme": "Nordjylland",
+    "sections": [
+      {
+        "title": "Skagen og Grenen",
+        "blocks": [
+          {
+            "t": "p",
+            "runs": [
+              "Skagen er Danmarks nordligste by og har i mere end hundrede år tiltrukket kunstnere, fiskere og feriegæster, som alle er blevet betaget af det særlige lys, der opstår, når solen spejler sig i havet fra to sider på samme tid. Byen har i dag godt 7.000 indbyggere, men i sommermånederne stiger befolkningstallet kraftigt, fordi tusindvis af turister indlogerer sig i sommerhuse, på hoteller og på de omkringliggende campingpladser."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Grenen – hvor to have mødes"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Grenen er den smalle sandodde, der udgør Danmarks nordligste punkt, og den er uden sammenligning områdets mest besøgte seværdighed. På spidsen af odden kan man stå med det ene ben i Skagerrak og det andet i Kattegat og iagttage, hvordan bølgerne fra de to farvande støder sammen. Selvom vandet på stille sommerdage kan se fristende ud, er badning ved spidsen strengt forbudt på grund af de kraftige strømforhold, som hvert år overrasker uforsigtige besøgende."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Fra parkeringspladsen ved Grenen er der omkring to kilometer ud til spidsen, og turen tager cirka en halv time til fods gennem det bløde sand. Ønsker man at spare kræfterne, kan man i perioden fra april til oktober i stedet tage traktorbussen Sandormen, som kører med jævne mellemrum, når vejret tillader det. En returbillet koster 40 kr. for voksne og 20 kr. for børn, og billetterne købes hos chaufføren, der modtager både kontanter og betalingskort."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Skagensmalernes Hus"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I en ombygget købmandsgård tæt på Skagens gamle bydel ligger Skagensmalernes Hus, som fortæller historien om den kunstnerkoloni, der opstod i byen i slutningen af 1800-tallet. Malerne kom hertil fra København og udlandet for at skildre fiskernes hårde hverdag og det skiftende lys over klitterne, og mange af deres billeder hænger i dag i husets otte udstillingssale. Foruden de mange malerier rummer samlingen kunstnernes egne skitsebøger og breve, der giver et usædvanligt indblik i, hvordan de kendte værker blev til."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Museet har åbent alle dage fra kl. 10 til 17 i sommerhalvåret, mens det i vinterhalvåret kun holder åbent fra torsdag til søndag. Voksne betaler 130 kr. i entré, og børn under 18 år har gratis adgang. I forbindelse med særudstillingerne arrangerer museet desuden omvisninger på dansk, tysk og engelsk, som skal bestilles i receptionen."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Fiskeri- og Redningsmuseet"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Lidt længere nede ad havnen finder man Fiskeri- og Redningsmuseet, som er indrettet i en tidligere redningsstation fra 1890'erne. Her kan man se redningsbåde, fiskeredskaber og fotografier fra de mange forlis, der gennem tiderne har fundet sted ud for den farlige kyst. Museet henvender sig især til børnefamilier, og i skoleferierne kan børnene lære at binde fiskenet og hejse signalflag under vejledning af frivillige, der selv har arbejdet til søs."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Mad og havneliv"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Skagen Havn er stadig en af Danmarks største fiskerihavne. Tidligt om morgenen bliver fangsten solgt på auktion i den store hal ved kajen. Senere på dagen fylder turisterne de små restauranter i de røde fiskehuse. Her kan man få friske rejer, stegt fisk og fiskefrikadeller. Mange af stederne har udendørs borde, og på varme aftener kan det være svært at finde en plads. Det er derfor en god idé at bestille bord, hvis man er mange. Fiskebutikkerne på havnen har åbent hver dag i sommerperioden, men resten af året holder de fleste lukket om mandagen."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Den Tilsandede Kirke"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Syd for byen står tårnet fra Den Tilsandede Kirke, som oprindeligt var egnens største kirke. I løbet af 1700-tallet blev kirken gradvist begravet af sandflugten, og til sidst måtte menigheden grave sig vej gennem sandet for at komme ind til gudstjenesterne. I 1795 blev kirken endegyldigt lukket, og kun tårnet, der i dag står hvidkalket midt i en lille plantage, blev bevaret som sømærke for de forbipasserende skibe."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Selve området er tilgængeligt hele året, men tårnet kan kun bestiges på hverdage i perioden fra 1. juni til 31. august, hvor frivillige fra den lokalhistoriske forening sørger for at låse op og fortælle om stedets dramatiske historie. Adgangen til tårnet koster 20 kr., og billetten købes ved indgangen."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Kilde: Skrevet til denne øveprøve. Virksomheder og personer er opdigtede."
+          }
+        ]
+      },
+      {
+        "title": "Vandreklitter og natur",
+        "blocks": [
+          {
+            "t": "p",
+            "runs": [
+              "Nordjylland rummer nogle af Danmarks mest dramatiske landskaber, og det skyldes ikke mindst vinden, som gennem århundreder har flyttet enorme mængder sand fra kysten og ind over landet. Hvor sandflugten tidligere var en katastrofe for de lokale bønder, betragtes vandreklitterne i dag som en enestående naturattraktion, der hvert år besøges af flere hundrede tusinde mennesker fra ind- og udland."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Råbjerg Mile"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Råbjerg Mile mellem Skagen og Frederikshavn er Nordeuropas største vandreklit, og den bevæger sig i gennemsnit omkring 15 meter mod nordøst hvert år. Klitten er op mod 40 meter høj. Den dækker et areal svarende til omkring 140 fodboldbaner, og den er et yndet udflugtsmål for både børnefamilier og fotografer. På selve milen må man gerne løbe, rulle og lege i sandet, men i klitlandskabet omkring milen bedes man holde sig på de afmærkede stier, så man ikke træder på den sårbare vegetation, som binder sandet."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Rubjerg Knude Fyr"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "På kysten ved Lønstrup står Rubjerg Knude Fyr, som i mange år var i fare for at styrte i havet, fordi skrænten under fyret gradvist blev ædt af bølgerne. I 2019 blev det 23 meter høje fyrtårn derfor flyttet omkring 70 meter længere ind i landet på skinner, og begivenheden blev fulgt af tusindvis af tilskuere. Fra parkeringspladsen er der en kilometer ad en sandet sti op til fyret, og stien er desværre ikke egnet til barnevogne og kørestole."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Nordsøakvariet i Hirtshals"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I Hirtshals ligger Nordsøakvariet, som er et af de største akvarier i Nordeuropa. Det store bassin rummer omkring fire millioner liter havvand, og her svømmer stimer af sild og makrel side om side med hajer og rokker. Hver dag kl. 11 dykker en medarbejder ned i bassinet og fodrer fiskene, mens publikum følger med gennem de store glasvinduer. Akvariet har også et udendørs sælbassin, hvor sælerne trænes to gange dagligt. Billetten gælder hele dagen, så man kan gå ud og spise frokost på havnen og komme tilbage senere."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Lille Vildmose"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Lille Vildmose sydøst for Aalborg er et af Nordeuropas største højmoseområder, og store dele af området er indhegnet, så de vilde dyr kan færdes frit. Her lever der i dag både kronhjorte, vildsvin og elge, men det er især elgene og havørnene, der tiltrækker besøgende fra hele landet. Fra det 15 meter høje udsigtstårn ved søen har man gode chancer for at se dyrene, særligt tidligt om morgenen og i skumringen, hvor de er mest aktive. Hunde er ikke tilladt i de indhegnede områder, heller ikke i snor."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Nationalpark Thy"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Længere mod sydvest ligger Nationalpark Thy, som var Danmarks første nationalpark. Parken strækker sig langs Vesterhavet fra Hanstholm til Agger Tange. Her finder man klitter, hede, søer og store plantager. Mange steder er naturen næsten uberørt. Om foråret kommer der tusindvis af trækfugle til området, og ved Agger Tange kan man se dem fra et fugletårn. I parken er der mange afmærkede stier for gående og cyklister. Man må gerne overnatte i de shelters, der ligger i plantagerne, men man må ikke slå telt op i klitterne."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Ture med naturvejlederen"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Naturcenter Nordkysten arrangerer i perioden fra maj til september en række guidede ture, som henvender sig til alle, der ønsker at vide mere om områdets plante- og dyreliv. Hver onsdag kl. 10 kan man deltage i en klitvandring på cirka tre timer med en af centrets naturvejledere. Turen er gratis, men det er nødvendigt at tilmelde sig senest dagen før via naturcentrets hjemmeside, eftersom antallet af deltagere er begrænset til 25."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Fredag aften arrangerer naturcentret desuden en aftentur på heden, hvor deltagerne lytter efter natteravne og ser solen gå ned over Vesterhavet. Aftenturen koster 50 kr. for voksne og kræver ikke tilmelding, men man skal medbringe varmt tøj og en lommelygte, eftersom turen først slutter efter mørkets frembrud."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Kilde: Skrevet til denne øveprøve. Virksomheder og personer er opdigtede."
+          }
+        ]
+      },
+      {
+        "title": "Aalborg ved Limfjorden",
+        "blocks": [
+          {
+            "t": "p",
+            "runs": [
+              "Aalborg er Nordjyllands største by og landets fjerdestørste, og byen har i løbet af de seneste årtier gennemgået en markant forvandling fra industriby til uddannelses- og kulturby. Hvor havnefronten tidligere var præget af værfter, kornsiloer og fabrikker, finder man i dag boliger, promenader og kulturinstitutioner, som forbinder byens centrum med Limfjorden."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Havnefronten"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Den knap tre kilometer lange havnepromenade er et populært opholdssted for både studerende, børnefamilier og turister, som kan bade i havnebadet, spille petanque eller blot nyde udsigten over fjorden til Nørresundby. Langs promenaden ligger flere af byens nyere kulturinstitutioner, bl.a. kulturhuset Fjordværket, der i en tidligere maskinhal fra 1930'erne huser koncertsale, værksteder og en stor restaurant med udsigt over vandet."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Kunsthallen Nord"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Ved den østlige ende af havnen ligger Kunsthallen Nord, som skifter udstillinger fire gange om året og primært viser samtidskunst fra de nordiske lande. Entréen koster 110 kr. for voksne, mens børn og unge under 18 år altid kommer gratis ind. Hver torsdag efter kl. 17 er der desuden gratis adgang for alle, og i den forbindelse arrangerer kunsthallen ofte foredrag og omvisninger med de udstillende kunstnere."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Lindholm Høje"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "På en bakketop i Nørresundby ligger Lindholm Høje, som er en af Danmarks største gravpladser fra jernalderen og vikingetiden. Her er fundet omkring 700 grave, hvoraf mange er markeret med sten, der er sat i form af skibe, ovaler eller trekanter. Selve gravpladsen er åben hele døgnet og gratis at besøge."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I det tilhørende museum kan man se smykker, våben og redskaber, der er fundet i forbindelse med udgravningerne, og i museets aktivitetsværksted kan både børn og voksne prøve at slå mønter og væve bånd, ligesom man gjorde i vikingetiden. Museet har gratis adgang den første søndag i hver måned, mens entréen de øvrige dage er 75 kr. for voksne."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Aalborghus Slot"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Midt i byen ligger Aalborghus Slot, som blev bygget i 1500-tallet. Slottet var i mange år bolig for kongens lensmand. I dag bruges bygningerne af statens forvaltning, og selve slottet er ikke åbent for publikum. Man kan dog gå en tur i slotsgården og ned i de gamle kældre under volden. Her lå engang slottets fængsel. Kældrene er åbne fra maj til oktober, og der er gratis adgang."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Aalborg Zoo"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Aalborg Zoo ligger i den sydlige del af byen og har dyr fra hele verden. Især isbjørnene og giraferne er populære hos de yngste gæster. Hver dag kl. 13 kan man se dyrepasserne fodre sælerne. Børn under tre år kommer gratis ind. Har man årskort, får man desuden rabat i zooens café."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Jomfru Ane Gade"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Jomfru Ane Gade i den gamle bydel er landskendt for sine mange barer, restauranter og natklubber, som ligger side om side i de gamle købmandshuse. Gaden er især populær blandt de mange studerende fra Aalborg Universitet, og i weekenderne kan der være flere tusinde mennesker i gaden på samme tid. For at mindske støjgenerne for de omkringboende har kommunen indført en ordning, hvor musikken på udeserveringerne skal slukkes kl. 24 fredag og lørdag, mens restauranterne indendørs må holde åbent til kl. 5."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Kilde: Skrevet til denne øveprøve. Virksomheder og personer er opdigtede."
+          }
+        ]
+      },
+      {
+        "title": "Aktiviteter og begivenheder",
+        "blocks": [
+          {
+            "t": "h",
+            "text": "Aalborg Karneval"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Hvert år i slutningen af maj forvandles Aalborgs gader til et farverigt festområde, når Aalborg Karneval, der regnes for Nordeuropas største karneval, løber af stablen. Højdepunktet er det store optog lørdag eftermiddag. Her danser tusindvis af udklædte deltagere gennem byen til rytmerne fra orkestre og lastvogne med højttalere. Ønsker man at deltage i optoget med en gruppe, skal tilmeldingen ske inden udgangen af februar, mens enkeltpersoner kan melde sig helt frem til ugen før. Allerede om onsdagen holdes der et særligt børnekarneval, hvor byens børnehaver og skoler deltager."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Surfing ved Vesterhavet"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Kysten ved Klitmøller og Hanstholm kaldes i folkemunde »Cold Hawaii«, fordi bølgerne her hører til de bedste i Nordeuropa. Områdets surfskole tilbyder i perioden fra juni til september begynderkurser over tre dage, hvor deltagerne lærer at håndtere brættet og at aflæse vind, strøm og bølger. Kurset henvender sig til alle, der er fyldt 12 år, men det forudsætter, at man kan svømme mindst 200 meter. Prisen er 1.450 kr., og den omfatter både leje af våddragt og bræt samt et let måltid efter hver undervisningsgang."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Lystfiskeri"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Nordjylland er et eldorado for lystfiskere, som kan fiske efter havørred langs kysterne, efter sild og makrel fra molerne i havnene og efter gedder i de mange søer. Alle mellem 18 og 65 år skal have løst et gyldigt fisketegn, når de fisker i havet, i fjordene og i de fleste søer. Fisketegnet kan købes på internettet for et år, en uge eller en enkelt dag. Børn og unge under 18 år samt personer over 65 år er fritaget for kravet. De skal dog naturligvis overholde de gældende mindstemål og fredningsperioder. Fiskeri i private søer og i put and take-anlæg forudsætter desuden et særskilt fiskekort, som udstedes af ejeren."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Ridning på stranden"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Flere rideskoler langs Vesterhavet tilbyder ture på islandske heste, hvor man rider langs vandkanten og gennem klitterne. Turene varer typisk to timer og passer både til begyndere og øvede ryttere. Man skal dog veje under 90 kilo, og børn under ti år må kun deltage sammen med en voksen. Hjelm kan lånes på stedet. Om sommeren er turene ofte udsolgt, så det anbefales at bestille i god tid."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Skagen Viser og Folk"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Den første weekend i juli holder Skagen sin årlige festival for folkemusik og viser, som samler både danske og udenlandske musikere. Om formiddagen holdes der workshops i visesang og guitarspil på byens bibliotek, og om eftermiddagen er der gratis koncerter på havnen, mens aftenkoncerterne i festivalteltet kræver billet. Mange gæster vælger et festivalpas, som giver adgang til samtlige arrangementer, og som sælges med rabat frem til 1. maj."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Julemarked i Frederikshavn"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I de fire weekender op til jul holdes der julemarked på torvet i Frederikshavn. Her sælger lokale håndværkere keramik, strik og ting af træ. Der er også boder med gløgg, æbleskiver og brændte mandler. Om søndagen kommer julemanden forbi kl. 14, og han deler godter ud til børnene. Der er gratis adgang til markedet, som har åbent fra kl. 11 til 17."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Cykelferie langs kysten"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Den nationale cykelrute langs Vesterhavet fører gennem nogle af regionens smukkeste kystlandskaber, og strækningen mellem Hanstholm og Skagen er særlig populær blandt cykelturister. Ruten er skiltet hele vejen, og undervejs finder man rastepladser, overnatningssteder og cykelværksteder, som er vant til at hjælpe cykelturister med fuld oppakning. Turistbureauerne i regionen udleverer gratis kort over ruten og kan desuden hjælpe med at arrangere transport af bagage mellem overnatningsstederne."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Kilde: Skrevet til denne øveprøve. Virksomheder og personer er opdigtede."
+          }
+        ]
+      },
+      {
+        "title": "Transport og overnatning",
+        "blocks": [
+          {
+            "t": "p",
+            "runs": [
+              "Nordjylland er let at komme til, uanset om man foretrækker tog, bus, fly eller bil, og regionen har et veludbygget net af lokale forbindelser, som gør det muligt at opleve egnen uden egen bil."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Tog og bus"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Fra Aalborg kører der regionaltog til Frederikshavn cirka hver halve time, og herfra fortsætter lokaltoget til Skagen. Cykler kan medbringes gratis i lokaltoget på hverdage, men i weekender og på helligdage i perioden fra maj til september skal man købe en cykelbillet og reservere plads på forhånd, eftersom pladsen i togvognene er begrænset. Fra Aalborg Lufthavn kører bus 12 til centrum hvert 20. minut i dagtimerne, mens rejsende, der lander efter kl. 22, må tage en taxa eller benytte flybussen, som er tilrettelagt efter de sene ankomster."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Bil og parkering"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Mange vælger at udforske regionen i bil. Afstandene er ikke store, og vejene er gode. Om sommeren kan det dog være svært at finde en parkeringsplads i Skagen. Kommunen anbefaler derfor, at man parkerer i byens udkant. Herfra kører en gratis bus ind til centrum hvert kvarter. Ved Grenen og Råbjerg Mile koster det 30 kr. at parkere en hel dag. Man betaler med en app eller ved automaten."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Færgen til Læsø"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Øen Læsø i Kattegat kan nås med færge fra Frederikshavn, og overfarten varer omkring halvanden time. Gående passagerer og cyklister behøver ikke at reservere, men i juli og august er færgen ofte fuldt booket med biler flere dage i forvejen, og man anbefales derfor kraftigt at bestille plads til bilen i god tid. Fastboende og sommerhusejere på øen kan købe et rabatkort, som giver nedsat pris på samtlige overfarter."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Turistbureauer"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Turistbureauerne i Skagen, Frederikshavn og Aalborg hjælper gerne med at finde overnatning og planlægge udflugter i regionen. De sælger også billetter til færger, koncerter og guidede ture. Om sommeren har turistbureauet i Skagen åbent alle ugens dage, mens det i resten af året holder lukket i weekenden."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Overnatning"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Regionen har et bredt udvalg af overnatningsmuligheder, der spænder fra badehoteller og kroer til vandrerhjem, campingpladser og shelters i naturen. På Grenen Strandcamping kan man leje hytter med plads til fire til seks personer. Hytterne er udstyret med køkken, køleskab og terrasse, men man skal selv medbringe sengelinned og håndklæder eller leje dem i receptionen for 75 kr. pr. person. I højsæsonen fra midten af juni til midten af august udlejes hytterne udelukkende for mindst tre nætter ad gangen."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Danhostel Fjordbyen i Aalborg ligger få minutters gang fra havnefronten og tilbyder både familieværelser og sovesale. En seng i sovesalen koster 260 kr. pr. nat for medlemmer af Danhostel, mens øvrige gæster betaler 320 kr. Morgenmad kan tilkøbes for 85 kr., og gæster med medlemskort får desuden gratis adgang til vandrerhjemmets vaskeri."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Ønsker man en mere naturnær oplevelse, findes der flere hundrede shelters i Nordjylland, hvoraf de fleste er gratis at benytte. Nogle shelters skal bookes på forhånd via Naturstyrelsens hjemmeside, mens andre fungerer efter princippet »først til mølle«. Uanset hvilken shelter man vælger, skal man selv medbringe liggeunderlag og sovepose, og det er ikke tilladt at tænde bål uden for de anviste bålpladser."
+            ]
+          },
+          {
+            "t": "small",
+            "text": "Kilde: Skrevet til denne øveprøve. Virksomheder og personer er opdigtede."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "n": 1,
+        "section": "Skagen og Grenen",
+        "prompt": "Ved Grenen mødes Skagerrak og Kattegat. Hvorfor er det forbudt at bade ved spidsen af odden?",
+        "key": "(På grund af de) kraftige strømforhold",
+        "also": [
+          "(fordi der er) stærk strøm"
+        ]
+      },
+      {
+        "n": 2,
+        "section": "Skagen og Grenen",
+        "prompt": "Hvad kan man ud over malerierne også se i Skagensmalernes Hus?",
+        "key": "(Kunstnernes egne) skitsebøger og breve"
+      },
+      {
+        "n": 3,
+        "section": "Skagen og Grenen",
+        "prompt": "Kan man komme op i tårnet på Den Tilsandede Kirke en tirsdag i august? Svar 'ja' eller 'nej'.",
+        "key": "Ja",
+        "paraphrased": true
+      },
+      {
+        "n": 4,
+        "section": "Vandreklitter og natur",
+        "prompt": "Hvad skal man undgå, når man går i klitlandskabet omkring Råbjerg Mile?",
+        "key": "(At træde på) den sårbare vegetation",
+        "also": [
+          "(at) gå uden for (de afmærkede) stier(ne)"
+        ]
+      },
+      {
+        "n": 5,
+        "section": "Vandreklitter og natur",
+        "prompt": "Hvilke to dyr er det især, der lokker besøgende til Lille Vildmose? Nævn begge.",
+        "key": "Elgene og havørnene",
+        "also": [
+          "elge og havørne"
+        ]
+      },
+      {
+        "n": 6,
+        "section": "Vandreklitter og natur",
+        "prompt": "Hvad skal man huske, hvis man vil deltage i naturvejlederens klitvandring om onsdagen?",
+        "key": "(At) tilmelde sig (senest dagen før)",
+        "also": [
+          "(at) melde sig til (via hjemmesiden)"
+        ]
+      },
+      {
+        "n": 7,
+        "section": "Aalborg ved Limfjorden",
+        "prompt": "Hvad kan man ud over at se fundene også prøve på museet ved Lindholm Høje?",
+        "key": "(At) slå mønter og væve bånd"
+      },
+      {
+        "n": 8,
+        "section": "Aalborg ved Limfjorden",
+        "prompt": "Hvornår kan voksne komme gratis ind i udstillingerne på Kunsthallen Nord?",
+        "key": "(Hver) torsdag efter kl. 17",
+        "also": [
+          "torsdag aften"
+        ]
+      },
+      {
+        "n": 9,
+        "section": "Aalborg ved Limfjorden",
+        "prompt": "Hvorfor skal musikken på udeserveringerne i Jomfru Ane Gade slukkes ved midnat i weekenden?",
+        "key": "(For at) mindske støjgenerne (for de omkringboende)",
+        "also": [
+          "(af hensyn til) naboerne",
+          "(af hensyn til) de omkringboende"
+        ]
+      },
+      {
+        "n": 10,
+        "section": "Aktiviteter og begivenheder",
+        "prompt": "Aalborg Karneval holdes hvert år i maj. Hvornår skal man senest tilmelde en gruppe til optoget?",
+        "key": "(Inden) udgangen af februar",
+        "also": [
+          "(i) februar"
+        ]
+      },
+      {
+        "n": 11,
+        "section": "Aktiviteter og begivenheder",
+        "prompt": "Hvad skal man kunne for at deltage i surfkurset?",
+        "key": "(At) svømme (mindst) 200 meter"
+      },
+      {
+        "n": 12,
+        "section": "Aktiviteter og begivenheder",
+        "prompt": "En 16-årig dreng vil fiske fra en mole. Skal han have fisketegn? Svar 'ja' eller 'nej'.",
+        "key": "Nej",
+        "paraphrased": true
+      },
+      {
+        "n": 13,
+        "section": "Transport og overnatning",
+        "prompt": "Hvorfor bør man bestille plads til bilen i god tid, hvis man skal til Læsø i juli?",
+        "key": "(Fordi) færgen ofte er fuldt booket",
+        "also": [
+          "(fordi) der ofte er udsolgt"
+        ],
+        "paraphrased": true
+      },
+      {
+        "n": 14,
+        "section": "Transport og overnatning",
+        "prompt": "Hvad skal man selv have med, når man lejer en hytte på Grenen Strandcamping?",
+        "key": "Sengelinned og håndklæder",
+        "also": [
+          "(at) leje sengelinned og håndklæder (i receptionen)"
+        ]
+      },
+      {
+        "n": 15,
+        "section": "Transport og overnatning",
+        "prompt": "Hvad skal man gøre for at have sin cykel med i lokaltoget en lørdag i juni?",
+        "key": "Købe en cykelbillet og reservere plads (på forhånd)"
+      }
+    ]
+  },
+  "lf2": {
+    "tasks": [
+      {
+        "kind": "mc",
+        "label": "2A",
+        "title": "Udenlandske medarbejdere på danske arbejdspladser",
+        "passages": [
+          {
+            "title": "Udenlandske medarbejdere på danske arbejdspladser",
+            "blocks": [
+              {
+                "t": "p",
+                "runs": [
+                  {
+                    "strong": "Uden medarbejdere fra udlandet ville mange danske virksomheder have svært ved at få hverdagen til at hænge sammen. Men selvom behovet er stort, kræver det en indsats fra begge parter, hvis samarbejdet skal lykkes på længere sigt."
+                  }
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Klokken er lidt over seks om morgenen, da Tomas Petrauskas parkerer sin bil uden for produktionshallen hos en mellemstor virksomhed i Hobro. Virksomheden fremstiller vinduer og døre. Tomas Petrauskas kom til Danmark fra Litauen for elleve år siden og arbejdede de første år som ufaglært ved samlebåndet. I dag er han værkfører og har ansvaret for 14 medarbejdere fra fem forskellige lande."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "»Da jeg kom hertil, kunne jeg ikke et ord dansk. Egentlig ville jeg kun blive et år og tjene penge til et hus derhjemme,« fortæller han. »Men virksomheden tilbød mig danskundervisning i arbejdstiden. Efterhånden begyndte jeg at føle, at jeg hørte til her. Det afgørende var ikke lønnen, men at mine kolleger inviterede mig med til fodbold og julefrokost, selvom jeg kun forstod halvdelen af, hvad de sagde.«"
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Virksomhedens direktør, Lene Bisgaard, lægger ikke skjul på, at produktionen ville gå i stå uden de udenlandske medarbejdere. De udgør i dag omkring en tredjedel af arbejdsstyrken. »Vi har i mange år haft svært ved at rekruttere lokalt, fordi de unge i området hellere vil tage en uddannelse og flytte til de større byer,« siger hun. »Derfor er vi afhængige af arbejdskraft fra udlandet. Det har vi efterhånden lært at betragte som en styrke frem for en nødløsning.«"
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Ifølge Lene Bisgaard har virksomheden dog også begået fejl undervejs. »I begyndelsen troede vi, at det var nok at give folk en kontrakt og et job. Men mange rejste hjem igen efter kort tid. De følte sig ensomme. I dag får alle nye medarbejdere tilknyttet en fast kollega, som hjælper dem med alt fra sikkerhedsreglerne til at finde en læge,« forklarer hun."
+                ]
+              },
+              {
+                "t": "h",
+                "text": "Sproget mellem linjerne",
+                "level": 3
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "På et privathospital i Aalborg arbejder den spanske sygeplejerske Lucía Ferrer, som flyttede til Danmark for fire år siden. Hun havde allerede en uddannelse og flere års erfaring fra et hospital i Valencia. Men før hun kunne få dansk autorisation, skulle hun bestå en sprogprøve og gennemføre et praktikforløb på en medicinsk afdeling."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "»Det var en hård tid. Jeg var vant til at være god til mit arbejde, og pludselig følte jeg mig som en nybegynder igen,« siger hun. »Fagsproget, som jeg havde lært på sprogskolen, var ikke det store problem. Det svære var alt det, der ligger mellem linjerne – de små vittigheder i frokoststuen og den måde, patienterne beskriver deres smerter på.« Lucía Ferrer understreger, at hendes kolleger har været tålmodige. Men hun mener, at arbejdspladserne ofte undervurderer, hvor lang tid det tager at blive fortrolig med et nyt sprog."
+                ]
+              },
+              {
+                "t": "h",
+                "text": "Forventninger på begge sider",
+                "level": 3
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Arbejdsmarkedsforsker Henrik Damgaard fra Center for Integration og Arbejdsliv har undersøgt, hvad der får udenlandske medarbejdere til at blive i Danmark. Han peger på, at lønnen sjældent er den vigtigste faktor, når medarbejderne først er kommet hertil."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "»Lønnen er ofte grunden til, at folk kommer, men den er sjældent grunden til, at de bliver. Det, der fastholder medarbejderne, er især et velfungerende socialt netværk og muligheden for at udvikle sig fagligt,« siger han. »Mange virksomheder bruger store beløb på at finde folk. Men de glemmer, at den første tid efter ansættelsen er mindst lige så afgørende.«"
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Henrik Damgaard påpeger desuden, at ansvaret ikke alene ligger hos de udenlandske medarbejdere. »Mange forventer, at de nye skal tilpasse sig. Det er selvfølgelig rimeligt, at man lærer sproget og de uskrevne regler. Men de danske kolleger bliver også nødt til at være nysgerrige og imødekommende. Når integrationen lykkes bedst, er det, fordi begge parter har gjort en indsats,« siger han."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Han tilføjer, at de virksomheder, der formår at fastholde deres medarbejdere, typisk har en klar plan for de første måneder. De afsætter også tid til sprogundervisning i arbejdstiden. »Det koster penge på kort sigt. Men det betaler sig hurtigt, når man tænker på, hvad det koster at skulle finde og oplære nye folk igen og igen.«"
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Tilbage i Hobro er Tomas Petrauskas netop blevet far for anden gang, og familien har købt hus i udkanten af byen. »Huset i Litauen blev aldrig til noget,« siger han og smiler. »Nu er det her, vi hører til.«"
+                ]
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "prompt": "Hvad var ifølge Tomas Petrauskas årsagen til, at han blev i Danmark?",
+            "options": [
+              "Han fik en højere løn, da han blev forfremmet til værkfører i virksomheden.",
+              "Han følte sig efterhånden som en del af fællesskabet på arbejdspladsen.",
+              "Han ville tjene penge nok til at købe et hus i udkanten af Hobro."
+            ],
+            "correct": "B"
+          },
+          {
+            "prompt": "Hvilket udsagn er i overensstemmelse med det, der står i teksten?",
+            "options": [
+              "Lene Bisgaard betragter i dag arbejdskraften fra udlandet som en fordel for firmaet.",
+              "Lucía Ferrer synes, at hendes kolleger var for utålmodige med hende i starten.",
+              "Lucía Ferrer havde mest besvær med det fagsprog, hun skulle bruge på hospitalet."
+            ],
+            "correct": "A"
+          },
+          {
+            "prompt": "Hvad er Lene Bisgaard og Henrik Damgaard enige om?",
+            "options": [
+              "At udenlandske medarbejdere først og fremmest vælger at blive i Danmark på grund af lønnen.",
+              "At virksomhederne bør investere flere penge i at rekruttere medarbejdere fra udlandet.",
+              "At det er vigtigt at tage sig godt af de nye i den første tid."
+            ],
+            "correct": "C"
+          }
+        ],
+        "points": 2
+      },
+      {
+        "kind": "insert",
+        "label": "2B",
+        "title": "Fællesspisning samler nabolaget",
+        "passage": {
+          "title": "Fællesspisning samler nabolaget",
+          "blocks": [
+            {
+              "t": "p",
+              "runs": [
+                {
+                  "strong": "I hele landet er fællesspisning blevet et populært tilbud i boligområder, landsbyer og kulturhuse. For mange af deltagerne handler det om langt mere end billig aftensmad."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Det er tirsdag aften i beboerhuset i en almen boligafdeling i Viborg, og duften af kylling i karry breder sig fra køkkenet. Ved de lange borde sidder omkring 80 beboere i alle aldre – pensionister, børnefamilier og studerende, som ellers sjældent møder hinanden andre steder end på trappen."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 1
+            },
+            {
+              "t": "p",
+              "runs": [
+                "»Jeg flyttede hertil, efter at min mand døde, og jeg kendte ingen,« fortæller hun. »Det første år spiste jeg alene foran fjernsynet de fleste aftener. I dag kender jeg halvdelen af afdelingen, og der går ikke en dag, uden at nogen banker på for at låne et æg eller få en snak.«"
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Fællesspisningen blev startet for seks år siden af beboerforeningen, som manglede en måde at få nye og gamle beboere til at mødes på. I begyndelsen kom der kun en håndfuld deltagere, men i dag er der ofte venteliste."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 2
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Det er dog ikke kun økonomien, der trækker. Mange af deltagerne fortæller, at de først og fremmest kommer for selskabets skyld."
+              ]
+            },
+            {
+              "t": "h",
+              "text": "Ensomhed er et udbredt problem",
+              "level": 3
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Ifølge sociolog Mette Vinther, som forsker i lokale fællesskaber, er det ikke tilfældigt, at fællesspisning er blevet så populært. »Vi ved, at mange danskere føler sig ensomme, og det gælder ikke kun de ældre. Også unge, der er flyttet hjemmefra, og forældre, der er gået fra hinanden, kan have svært ved at finde nye fællesskaber,« siger hun."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 3
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Samtidig peger Mette Vinther på, at det kræver en bevidst indsats, hvis alle skal føle sig velkomne. »Der er en risiko for, at de samme mennesker sætter sig ved de samme borde hver gang. Derfor er det en god idé at have nogle værter, der tager imod de nye og præsenterer dem for de andre,« siger hun."
+              ]
+            },
+            {
+              "t": "h",
+              "text": "Børnene laver desserten",
+              "level": 3
+            },
+            {
+              "t": "p",
+              "runs": [
+                "I beboerhuset i Viborg har man taget rådet til sig. Hver gang er der to værter, som byder velkommen ved døren og sørger for, at ingen sidder alene. Desuden har man indført, at børnene på skift hjælper med at lave desserten."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 4
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Christian Holm, der er far til to piger på syv og ti år, er en af dem. »Vi flyttede hertil for to år siden, og det var gennem fællesspisningen, at pigerne fandt legekammerater i afdelingen. Nu leger de i gården hver dag efter skole,« siger han."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 5
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Klokken nærmer sig otte, og de sidste tallerkener bliver båret ud i køkkenet. Inger Mølgaard tørrer bordene af og kigger på listen over næste uges frivillige. »Den er allerede fuld,« siger hun tilfreds."
+              ]
+            }
+          ]
+        },
+        "inserts": [
+          {
+            "letter": "A",
+            "text": "Hun mener, at måltidet har en særlig styrke, fordi det er lettere at tale sammen, når man har noget konkret at samles om. Så behøver man nemlig ikke selv at finde på et samtaleemne."
+          },
+          {
+            "letter": "B",
+            "text": "Han er også selv begyndt at hjælpe til i køkkenet en gang om måneden, og det havde han aldrig forestillet sig, da familien flyttede ind i afdelingen."
+          },
+          {
+            "letter": "C",
+            "text": "Maden er lavet af et hold på fem frivillige, som har stået i køkkenet siden klokken tre. En af dem er 68-årige Inger Mølgaard, der har været med lige fra starten."
+          },
+          {
+            "letter": "D",
+            "text": "Derfor besluttede beboerforeningen at holde lukket i sommerferien, hvor mange af de faste deltagere alligevel er bortrejst, og hvor det er svært at finde frivillige til køkkenet."
+          },
+          {
+            "letter": "E",
+            "text": "Hun har selv besøgt alle tre afdelinger og har bemærket, at det især er de ældre beboere, der kommer i god tid for at sikre sig de bedste pladser."
+          },
+          {
+            "letter": "F",
+            "text": "Prisen er en af forklaringerne på succesen. Et måltid koster 35 kroner for voksne og 15 kroner for børn, og for mange er det billigere end at lave mad selv."
+          },
+          {
+            "letter": "G",
+            "text": "Det har fået flere børnefamilier til at komme regelmæssigt. Børnene er stolte, når de bærer deres æblekage ind, og forældrene får samtidig lejlighed til at lære naboerne at kende."
+          }
+        ],
+        "correct": [
+          "C",
+          "F",
+          "A",
+          "G",
+          "B"
+        ],
+        "points": 2
+      },
+      {
+        "kind": "cloze",
+        "label": "3",
+        "title": "Grundvandet er under pres",
+        "passage": {
+          "title": "Grundvandet er under pres",
+          "blocks": [
+            {
+              "t": "p",
+              "runs": [
+                {
+                  "strong": "Næsten alt det vand, der kommer ud af hanerne i Danmark, er grundvand. "
+                },
+                {
+                  "gap": 0
+                },
+                {
+                  "strong": " er det danske drikkevand blevet regnet for noget af det reneste i verden. Men flere steder i landet er grundvandet under pres."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "I mange andre lande hentes drikkevandet fra søer og floder, og det skal renses grundigt. I Danmark har man kunnet nøjes med en enkel behandling, før vandet sendes ud i hanerne. Men det er ikke en selvfølge, at det kan fortsætte. I de senere år har vandværkerne nemlig fundet rester af sprøjtemidler i et stigende antal boringer, og ",
+                {
+                  "gap": 1
+                },
+                " har boringerne måttet lukkes."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Forureningen stammer især fra stoffer, som blev brugt i landbruget og i private haver for mange år siden. I dag er de fleste af dem forbudt. Men vandet siver langsomt ned gennem jorden, og der kan gå 30 til 50 år, før stofferne når grundvandet. Forskerne ",
+                {
+                  "gap": 2
+                },
+                " derfor, at man vil finde endnu flere stoffer i de kommende år, selvom de ikke længere bliver brugt. Det er en arv fra fortiden, som vi ikke kan slippe af med."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Det er dog ikke kun forureningen, der udgør en trussel. Også forbruget spiller en rolle. Når det er tørt i lang tid, skal der bruges meget vand på marker og i haver, og ",
+                {
+                  "gap": 3
+                },
+                " kan grundvandsspejlet falde så meget, at vandløb og vådområder tørrer ud."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Klimaforandringerne gør ",
+                {
+                  "gap": 4
+                },
+                " endnu mere kompliceret. Før frygtede man mangel på vand. Nu oplever flere kommuner det modsatte problem. Kraftige regnskyl får grundvandet til at stige, så kældre bliver oversvømmet. Samtidig kan regnvandet skylle gift ud fra gamle lossepladser."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "For at beskytte drikkevandet har myndighederne udpeget særlige områder omkring boringerne, hvor det er forbudt at sprøjte. Landmændene får erstatning for det, de mister. Men ordningen er blevet kritiseret for at gå for langsomt. Ifølge en talsmand for de mindre vandværker er problemet, at forhandlingerne med de enkelte lodsejere ofte trækker ud i flere år. ",
+                {
+                  "gap": 5
+                },
+                " kan forureningen nå at sive ned, før aftalerne er på plads."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Nogle vandværker har allerede taget sagen i egen hånd. De opkøber jord omkring boringerne og planter skov, så der ikke længere bliver sprøjtet i nærheden. Det er en bekostelig løsning, men den giver forbrugerne en langsigtet sikkerhed."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Mange eksperter mener, at en effektiv beskyttelse af grundvandet er en ",
+                {
+                  "gap": 6
+                },
+                ", at danskerne også i fremtiden kan drikke vandet direkte fra hanen. Det er nemlig dyrt at rense vandet, og det er ",
+                {
+                  "gap": 7
+                },
+                " sikkert, at alle stoffer kan fjernes. Derfor ",
+                {
+                  "gap": 8
+                },
+                " flere forskere, at den bedste løsning er at forhindre forureningen i at opstå. Det kræver en fælles indsats fra landbruget, kommunerne og de enkelte husejere, som stadig kan finde gamle dunke med ukrudtsmidler i garagen."
+              ]
+            }
+          ]
+        },
+        "example": {
+          "options": [
+            "Pludselig",
+            "Traditionelt",
+            "Sjældent",
+            "Midlertidigt"
+          ],
+          "correct": "B"
+        },
+        "gaps": [
+          {
+            "options": [
+              "til gengæld",
+              "på forhånd",
+              "i flere tilfælde",
+              "i modsat fald"
+            ],
+            "correct": "C"
+          },
+          {
+            "options": [
+              "afviser",
+              "forudser",
+              "udelukker",
+              "fortryder"
+            ],
+            "correct": "B"
+          },
+          {
+            "options": [
+              "i bedste fald",
+              "til sammenligning",
+              "på samme måde",
+              "i værste fald"
+            ],
+            "correct": "D"
+          },
+          {
+            "options": [
+              "billedet",
+              "beviset",
+              "forbruget",
+              "forbuddet"
+            ],
+            "correct": "A"
+          },
+          {
+            "options": [
+              "Bagefter",
+              "Derimod",
+              "Imens",
+              "Tværtimod"
+            ],
+            "correct": "C"
+          },
+          {
+            "options": [
+              "følge af",
+              "forudsætning for",
+              "forklaring på",
+              "undtagelse fra"
+            ],
+            "correct": "B"
+          },
+          {
+            "options": [
+              "ikke engang",
+              "helt",
+              "derudover",
+              "næsten altid"
+            ],
+            "correct": "A"
+          },
+          {
+            "options": [
+              "bestrider",
+              "betvivler",
+              "skjuler",
+              "påpeger"
+            ],
+            "correct": "D"
+          }
+        ],
+        "points": 1
+      }
+    ]
+  }
+}
