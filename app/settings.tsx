@@ -12,6 +12,8 @@ import {
   useSettings,
   type ThemeMode,
 } from '../src/profile/settings';
+import { ALL_LEVELS, LEVELS } from '../src/content/levels';
+import { DOMAIN_LABELS, LEVEL_DOMAINS, useCurrentLevel, useLevels, type LevelDomain } from '../src/profile/levelStore';
 import { Button, Card, Label, Txt, s } from '../src/ui/primitives';
 import { Screen } from '../src/ui/Screen';
 import { useTheme } from '../src/ui/theme';
@@ -44,6 +46,55 @@ function Chip({ label, onPress }: { label: string; onPress: () => void }) {
         {label}
       </Txt>
     </Pressable>
+  );
+}
+
+/** Pick a trainer's niveau directly: 1 (Begynder) to 5 (PD3). */
+function NiveauPicker({ domain }: { domain: LevelDomain }) {
+  const t = useTheme();
+  const current = useCurrentLevel(domain);
+  const setLevel = useLevels((st) => st.setLevel);
+  return (
+    <View style={{ gap: t.space(2) }}>
+      <View style={s.rowBetween}>
+        <Txt variant="heading" style={{ fontSize: 15 }}>
+          {DOMAIN_LABELS[domain]}
+        </Txt>
+        <Label>
+          {LEVELS[current].name} · {LEVELS[current].cefr}
+        </Label>
+      </View>
+      <View style={[s.row, { gap: t.space(1.5) }]}>
+        {ALL_LEVELS.map((level) => {
+          const active = level === current;
+          return (
+            <Pressable
+              key={level}
+              accessibilityRole="button"
+              accessibilityState={{ selected: active }}
+              accessibilityLabel={`${DOMAIN_LABELS[domain]}: niveau ${level}, ${LEVELS[level].name}`}
+              onPress={() => setLevel(domain, level)}
+              style={{ flex: 1 }}
+            >
+              <View
+                style={{
+                  borderWidth: 1.5,
+                  borderColor: active ? t.c.accent : t.c.border,
+                  backgroundColor: active ? t.c.accentSoft : t.c.surface,
+                  borderRadius: t.radius.md,
+                  paddingVertical: t.space(2),
+                  alignItems: 'center',
+                }}
+              >
+                <Txt variant="heading" color={active ? t.c.accent : t.c.text} style={{ fontSize: 15 }}>
+                  {level}
+                </Txt>
+              </View>
+            </Pressable>
+          );
+        })}
+      </View>
+    </View>
   );
 }
 
@@ -171,6 +222,24 @@ export default function Settings() {
           will still occasionally give you something outside that tag, because a rule you are
           shaky on is still worth practising.
         </Txt>
+      </Card>
+
+      {/* ── Niveau per trainer ───────────────────────────────────────── */}
+      <View style={{ marginTop: t.space(2) }}>
+        <Txt variant="display" style={{ fontSize: 22 }}>
+          Your niveau
+        </Txt>
+        <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
+          Each trainer serves exercises up to your niveau there, and moves you up as you prove it.
+          Already further along? Set it here. Changing it restarts the climb to the next niveau.
+        </Txt>
+      </View>
+      <Card>
+        <View style={{ gap: t.space(4) }}>
+          {LEVEL_DOMAINS.map((domain) => (
+            <NiveauPicker key={domain} domain={domain} />
+          ))}
+        </View>
       </Card>
 
       {/* ── Exam date → paced study plan ─────────────────────────────── */}

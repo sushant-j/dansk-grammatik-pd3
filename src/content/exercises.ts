@@ -41,7 +41,7 @@ export const EXERCISES: Exercise[] = [
       },
     ],
     targets: ['v2-inversion', 'finit-verb-second', 'forfelt-single'],
-    cefr: 'A2',
+    level: 2,
     exams: ['PD2', 'PD3'],
     takeaway:
       'Front "I går" and the subject is pushed behind the verb. The verb never moves — everything else arranges itself around it.',
@@ -67,7 +67,7 @@ export const EXERCISES: Exercise[] = [
       indholdsadverbial: ['w6'],
     },
     targets: ['v2-inversion', 'verb-cluster-order'],
-    cefr: 'B1',
+    level: 3,
     exams: ['PD3'],
     takeaway:
       '"kan" is finite and holds slot 2; "deltage" is non-finite and waits in V — with "ikke" between them.',
@@ -99,7 +99,7 @@ export const EXERCISES: Exercise[] = [
       },
     ],
     targets: ['v2-inversion', 'finit-verb-second'],
-    cefr: 'A2',
+    level: 2,
     exams: ['PD2', 'PD3'],
     takeaway:
       'Any constituent can be fronted — a time phrase is just as legal in the Forfelt as the subject.',
@@ -127,7 +127,7 @@ export const EXERCISES: Exercise[] = [
       indholdsadverbial: ['w6'],
     },
     targets: ['ikke-regel', 'verb-cluster-order'],
-    cefr: 'B1',
+    level: 3,
     exams: ['PD3'],
     takeaway:
       'Inside a ledsætning, "ikke" jumps in front of the finite verb. Compare the main clause: "Jeg kan ikke komme."',
@@ -153,7 +153,7 @@ export const EXERCISES: Exercise[] = [
       indholdsadverbial: ['w6'],
     },
     targets: ['ikke-regel'],
-    cefr: 'B1',
+    level: 3,
     exams: ['PD3'],
     takeaway:
       '"om" opens a subordinate clause, so the adverb precedes the verb — exactly as after "fordi", "hvis", "at", "når".',
@@ -177,7 +177,7 @@ export const EXERCISES: Exercise[] = [
       indholdsadverbial: ['w5'],
     },
     targets: ['ikke-regel'],
-    cefr: 'B1',
+    level: 3,
     exams: ['PD3'],
     takeaway:
       'The rule is about the class of adverb, not the word "ikke" — "aldrig", "altid", "måske" and "kun" all behave the same way.',
@@ -215,7 +215,7 @@ export const EXERCISES: Exercise[] = [
       },
     ],
     targets: ['verb-cluster-order', 'central-vs-content-adverbial'],
-    cefr: 'B1',
+    level: 3,
     exams: ['PD2', 'PD3'],
     takeaway:
       '"har spist" is not a block. The adverb lands between the two halves — that is what the schema is showing you.',
@@ -239,7 +239,7 @@ export const EXERCISES: Exercise[] = [
       objekt: ['w5'],
     },
     targets: ['verb-cluster-order'],
-    cefr: 'A2',
+    level: 2,
     exams: ['PD2', 'PD3'],
     takeaway:
       '"gerne" sits in the central slot, splitting "vil" from "købe" — the standard shape of every modal sentence.',
@@ -263,7 +263,7 @@ export const EXERCISES: Exercise[] = [
       indholdsadverbial: ['w4'],
     },
     targets: ['central-vs-content-adverbial'],
-    cefr: 'B2',
+    level: 4,
     exams: ['PD3'],
     takeaway:
       'Two adverbials, two different slots: "aldrig" comments on the clause (a), "i kantinen" says where (A).',
@@ -286,7 +286,7 @@ export const EXERCISES: Exercise[] = [
       indholdsadverbial: ['w4', 'w5'],
     },
     targets: ['central-vs-content-adverbial'],
-    cefr: 'B2',
+    level: 4,
     exams: ['PD3'],
     takeaway:
       'The content slot can hold several adverbials, and their internal order is place before time.',
@@ -305,7 +305,7 @@ export const EXERCISES: Exercise[] = [
       indholdsadverbial: ['w4'],
     },
     targets: ['subject-required', 'finit-verb-second'],
-    cefr: 'A2',
+    level: 2,
     exams: ['PD1', 'PD2', 'PD3', 'FVU'],
     takeaway:
       '"Der" is a placeholder holding the Forfelt open so the real subject can follow the verb.',
@@ -329,7 +329,7 @@ export const EXERCISES: Exercise[] = [
       },
     ],
     targets: ['subject-required'],
-    cefr: 'A1',
+    level: 1,
     exams: ['PD1', 'PD2', 'PD3', 'FVU'],
     takeaway:
       'Danish has no subjectless clause. Weather verbs take the dummy subject "det".',
@@ -362,7 +362,7 @@ export const EXERCISES: Exercise[] = [
       },
     ],
     targets: ['finit-verb-second', 'object-order'],
-    cefr: 'B2',
+    level: 4,
     exams: ['PD3'],
     takeaway:
       'Two objects, fixed order: the receiver ("sin chef") before the thing sent ("en mail") — the same order English uses here.',
@@ -387,7 +387,7 @@ export const EXERCISES: Exercise[] = [
       objekt: ['w5', 'w6'],
     },
     targets: ['verb-cluster-order', 'object-order'],
-    cefr: 'B2',
+    level: 4,
     exams: ['PD3'],
     takeaway:
       'The object order holds even when the verb is split by a modal: "give dig et godt råd", receiver first.',
@@ -418,7 +418,7 @@ export const EXERCISES: Exercise[] = [
       },
     ],
     targets: ['v2-inversion', 'object-order'],
-    cefr: 'B2',
+    level: 4,
     exams: ['PD3'],
     takeaway:
       'Two rules at once: fronting "i går" pushes the subject after the verb, and the two objects still need their own fixed order.',
@@ -442,7 +442,7 @@ export const EXERCISES: Exercise[] = [
       indholdsadverbial: ['w3', 'w4', 'w5'],
     },
     targets: ['adverbial-order'],
-    cefr: 'B2',
+    level: 4,
     exams: ['PD3'],
     takeaway:
       'Three adverbials in one slot, one fixed sequence: manner, then place, then time.',
@@ -464,7 +464,7 @@ export const EXERCISES: Exercise[] = [
       indholdsadverbial: ['w3', 'w4', 'w5'],
     },
     targets: ['adverbial-order'],
-    cefr: 'B2',
+    level: 4,
     exams: ['PD3'],
     takeaway:
       'Same sequence regardless of topic: how he spoke, where, then when.',
@@ -484,7 +484,7 @@ export const EXERCISES: Exercise[] = [
       infinitVerbum: ['w5'],
     },
     targets: ['relative-clause', 'ikke-regel', 'verb-cluster-order'],
-    cefr: 'B2',
+    level: 4,
     exams: ['PD3'],
     takeaway:
       '"Som" opens a relative clause exactly like "fordi" opens a causal one — same schema, same rules, including where "ikke" goes.',
@@ -501,7 +501,7 @@ export const EXERCISES: Exercise[] = [
       indholdsadverbial: ['w4'],
     },
     targets: ['relative-clause'],
-    cefr: 'B1',
+    level: 3,
     exams: ['PD3'],
     takeaway:
       'A one-word relative pronoun still opens a full subordinate clause — "som" fills the konjunktional slot on its own.',
@@ -532,7 +532,7 @@ export const EXERCISES: Exercise[] = [
       },
     ],
     targets: ['v2-inversion', 'finit-verb-second'],
-    cefr: 'A2',
+    level: 2,
     exams: ['PD2', 'PD3'],
     takeaway:
       'Front "i dag" and the subject moves behind the verb — or keep it simple and start with "jeg". Both are correct.',
@@ -557,7 +557,7 @@ export const EXERCISES: Exercise[] = [
       },
     ],
     targets: ['v2-inversion', 'finit-verb-second'],
-    cefr: 'A2',
+    level: 2,
     exams: ['PD2', 'PD3'],
     takeaway:
       'A fronted time phrase triggers inversion just like any other constituent — the verb stays in slot 2.',
@@ -582,7 +582,7 @@ export const EXERCISES: Exercise[] = [
       },
     ],
     targets: ['v2-inversion', 'forfelt-single', 'finit-verb-second'],
-    cefr: 'A2',
+    level: 2,
     exams: ['PD2', 'PD3'],
     takeaway:
       '"Hver morgen" is two words but one constituent — it fills the Forfelt alone, and the subject follows the verb.',
@@ -606,7 +606,7 @@ export const EXERCISES: Exercise[] = [
       objekt: ['w5'],
     },
     targets: ['verb-cluster-order'],
-    cefr: 'B1',
+    level: 3,
     exams: ['PD2', 'PD3'],
     takeaway:
       '"har" is finite and stays in slot 2; "købt" waits in V, with "ikke" splitting the two halves of the verb.',
@@ -639,7 +639,7 @@ export const EXERCISES: Exercise[] = [
       },
     ],
     targets: ['verb-cluster-order', 'v2-inversion', 'finit-verb-second'],
-    cefr: 'B1',
+    level: 3,
     exams: ['PD2', 'PD3'],
     takeaway:
       '"skal" holds slot 2 and "holde" waits in V. Front "i morgen" and the subject moves behind "skal".',
@@ -656,7 +656,7 @@ export const EXERCISES: Exercise[] = [
       indholdsadverbial: ['w4'],
     },
     targets: ['subject-required', 'finit-verb-second'],
-    cefr: 'A2',
+    level: 2,
     exams: ['PD1', 'PD2', 'PD3', 'FVU'],
     takeaway:
       '"Der" holds the Forfelt open so the real subject "et problem" can follow the verb — Danish never leaves the subject out.',

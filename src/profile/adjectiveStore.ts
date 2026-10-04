@@ -8,6 +8,7 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { ADJECTIVE_BANK } from '../content/adjectives';
 import { NOUN_BANK } from '../content/nouns';
+import { MAX_LEVEL, poolForLevel, type Level } from '../content/levels';
 import {
   buildAdjectiveQuestion,
   type AdjectiveQuestion,
@@ -103,6 +104,7 @@ export function nextAdjectiveQuestion(
   stats: Record<AdjectiveRuleId, ItemStat>,
   lastAdjectiveId?: string,
   now = Date.now(),
+  level: Level = MAX_LEVEL,
 ): AdjectiveQuestion {
   const progress = adjectiveRuleProgress(stats, now);
 
@@ -116,11 +118,20 @@ export function nextAdjectiveQuestion(
   const ruleId = scoredRules[0].ruleId;
   const kind = KIND_FOR_RULE[ruleId];
 
-  const adjCandidates = ADJECTIVE_BANK.filter((a) => a.id !== lastAdjectiveId);
-  const adjective = adjCandidates[Math.floor(Math.random() * adjCandidates.length)] ?? ADJECTIVE_BANK[0];
+  const adjPool = poolForLevel(ADJECTIVE_BANK, level);
+  const adjCandidates = adjPool.filter((a) => a.id !== lastAdjectiveId);
+  const adjective = adjCandidates[Math.floor(Math.random() * adjCandidates.length)] ?? adjPool[0];
 
-  const nounPool = kind === 'common-form' ? EN_NOUNS : kind === 'neuter-form' ? ET_NOUNS : NOUN_BANK;
+  const nounPool = poolForLevel(
+    kind === 'common-form' ? EN_NOUNS : kind === 'neuter-form' ? ET_NOUNS : NOUN_BANK,
+    level,
+  );
   const noun = nounPool[Math.floor(Math.random() * nounPool.length)];
 
   return buildAdjectiveQuestion(noun, adjective, kind);
+}
+
+/** A question is as hard as the harder of its two words. */
+export function adjectiveQuestionLevel(q: AdjectiveQuestion): Level {
+  return Math.max(q.adjective.level, q.noun.level) as Level;
 }

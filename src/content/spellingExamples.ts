@@ -11,9 +11,12 @@
  */
 
 import type { SpellingRuleId } from '../grammar/spellingRules';
+import type { Level } from './levels';
 
 export interface SpellingEntry {
   id: string;
+  /** Niveau 1–5 (see levels.ts): when the trainer starts serving this item. */
+  level: Level;
   ruleId: SpellingRuleId;
   /** Sentence with "___" marking the blank. */
   prompt: string;
@@ -26,6 +29,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   // ── silent d ──────────────────────────────────────────────────────────
   {
     id: 's-hund',
+    level: 1,
     ruleId: 'silent-d',
     prompt: 'Jeg har en ___ derhjemme.',
     correct: 'hund',
@@ -34,6 +38,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-mand',
+    level: 1,
     ruleId: 'silent-d',
     prompt: 'Han er en god ___.',
     correct: 'mand',
@@ -42,6 +47,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-guld',
+    level: 2,
     ruleId: 'silent-d',
     prompt: 'Ringen er lavet af ___.',
     correct: 'guld',
@@ -50,6 +56,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-haand',
+    level: 2,
     ruleId: 'silent-d',
     prompt: 'Ræk mig din ___.',
     correct: 'hånd',
@@ -58,6 +65,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-bord',
+    level: 2,
     ruleId: 'silent-d',
     prompt: 'Maden står på ___.',
     correct: 'bordet',
@@ -66,6 +74,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-vild',
+    level: 2,
     ruleId: 'silent-d',
     prompt: 'Hunden er helt ___.',
     correct: 'vild',
@@ -76,6 +85,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   // ── silent h in hv-words ─────────────────────────────────────────────
   {
     id: 's-hvad',
+    level: 1,
     ruleId: 'silent-h-hv',
     prompt: '___ hedder du?',
     correct: 'Hvad',
@@ -84,6 +94,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-hvor',
+    level: 1,
     ruleId: 'silent-h-hv',
     prompt: '___ bor du?',
     correct: 'Hvor',
@@ -92,6 +103,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-hvem',
+    level: 1,
     ruleId: 'silent-h-hv',
     prompt: '___ er det?',
     correct: 'Hvem',
@@ -100,6 +112,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-hvorfor',
+    level: 2,
     ruleId: 'silent-h-hv',
     prompt: '___ kommer du ikke?',
     correct: 'Hvorfor',
@@ -108,6 +121,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-hvordan',
+    level: 2,
     ruleId: 'silent-h-hv',
     prompt: '___ har du det?',
     correct: 'Hvordan',
@@ -116,6 +130,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-hvis',
+    level: 3,
     ruleId: 'silent-h-hv',
     prompt: '___ bog er det?',
     correct: 'Hvis',
@@ -126,6 +141,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   // ── nogen vs. nogle ──────────────────────────────────────────────────
   {
     id: 's-nogle-1',
+    level: 3,
     ruleId: 'nogen-vs-nogle',
     prompt: 'Jeg har ___ gode venner.',
     correct: 'nogle',
@@ -134,6 +150,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-nogen-1',
+    level: 3,
     ruleId: 'nogen-vs-nogle',
     prompt: 'Er der ___ herinde?',
     correct: 'nogen',
@@ -142,6 +159,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-nogen-2',
+    level: 3,
     ruleId: 'nogen-vs-nogle',
     prompt: 'Har du ___ penge, jeg kan låne?',
     correct: 'nogen',
@@ -150,6 +168,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-nogle-2',
+    level: 3,
     ruleId: 'nogen-vs-nogle',
     prompt: 'Vi købte ___ æbler i går.',
     correct: 'nogle',
@@ -158,6 +177,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-nogen-3',
+    level: 4,
     ruleId: 'nogen-vs-nogle',
     prompt: 'Der er ikke ___ mælk tilbage.',
     correct: 'nogen',
@@ -166,6 +186,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-nogle-3',
+    level: 3,
     ruleId: 'nogen-vs-nogle',
     prompt: 'Han læste ___ bøger i ferien.',
     correct: 'nogle',
@@ -179,6 +200,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   // a habit, not the rule.
   {
     id: 's-at-1',
+    level: 2,
     ruleId: 'og-vs-at',
     prompt: 'Jeg prøver ___ komme til tiden.',
     correct: 'at',
@@ -187,6 +209,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-at-2',
+    level: 2,
     ruleId: 'og-vs-at',
     prompt: 'Det er svært ___ forstå.',
     correct: 'at',
@@ -195,6 +218,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-at-3',
+    level: 3,
     ruleId: 'og-vs-at',
     prompt: 'Hun plejer ___ løbe om morgenen.',
     correct: 'at',
@@ -203,6 +227,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-og-1',
+    level: 1,
     ruleId: 'og-vs-at',
     prompt: 'Jeg købte brød ___ mælk.',
     correct: 'og',
@@ -211,6 +236,7 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
   },
   {
     id: 's-og-2',
+    level: 2,
     ruleId: 'og-vs-at',
     prompt: 'Han spiser ___ drikker for meget.',
     correct: 'og',

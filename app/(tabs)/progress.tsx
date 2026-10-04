@@ -7,6 +7,19 @@ import { EXAM_LABELS, useSettings } from '../../src/profile/settings';
 import { ruleProgress, useProfile, type MasteryLevel, type RuleProgress } from '../../src/profile/store';
 import { useOverview } from '../../src/profile/useOverview';
 import { levelLabel } from '../../src/profile/mastery';
+import { LEVELS, MAX_LEVEL, niveauLabel } from '../../src/content/levels';
+import {
+  climbProgress,
+  DOMAIN_LABELS,
+  DOMAIN_ROUTES,
+  EMPTY_DOMAIN_LEVEL,
+  LEVEL_DOMAINS,
+  LEVEL_UP_ACCURACY,
+  LEVEL_UP_ATTEMPTS,
+  useCurrentLevel,
+  useLevels,
+  type LevelDomain,
+} from '../../src/profile/levelStore';
 import { DomainMeter, domainStatus } from '../../src/ui/DomainMeter';
 import { Screen } from '../../src/ui/Screen';
 import { SchemaStrip } from '../../src/ui/SchemaStrip';
@@ -100,6 +113,19 @@ export default function Progress() {
         })}
       </ListGroup>
 
+      {/* ── Niveau per trainer ───────────────────────────────────────── */}
+      <View style={{ gap: t.space(2) }}>
+        <ListGroup title="Niveau">
+          {LEVEL_DOMAINS.map((domain) => (
+            <NiveauRow key={domain} domain={domain} />
+          ))}
+        </ListGroup>
+        <Txt variant="label" color={t.c.textFaint} style={{ paddingHorizontal: t.space(1) }}>
+          Each trainer climbs from Begynder (niveau 1) to PD3 (niveau 5). Answer {LEVEL_UP_ATTEMPTS} exercises
+          at your niveau with {Math.round(LEVEL_UP_ACCURACY * 100)}% right to unlock the next.
+        </Txt>
+      </View>
+
       {/* ── Grammar map ──────────────────────────────────────────────── */}
       <View style={{ gap: t.space(2) }}>
         <ListGroup title={targetExam ? `Word-order rules, ${EXAM_LABELS[targetExam]} first` : 'Word-order rules'}>
@@ -116,6 +142,31 @@ export default function Progress() {
         Progress is saved on this device. Clearing your browser data resets it.
       </Txt>
     </Screen>
+  );
+}
+
+function NiveauRow({ domain }: { domain: LevelDomain }) {
+  const t = useTheme();
+  const router = useRouter();
+  const current = useCurrentLevel(domain);
+  const d = useLevels((st) => st.domains[domain]) ?? EMPTY_DOMAIN_LEVEL;
+  const climb = climbProgress(d.current === current ? d : EMPTY_DOMAIN_LEVEL);
+  const top = current === MAX_LEVEL;
+  return (
+    <ListRow
+      title={DOMAIN_LABELS[domain]}
+      detail={
+        top
+          ? `${LEVELS[current].name}. The top niveau.`
+          : `${LEVELS[current].name}. ${climb.attempts} of ${LEVEL_UP_ATTEMPTS} at this niveau` +
+            (climb.attempts ? `, ${Math.round(climb.hitRate * 100)}% right.` : '.')
+      }
+      meta={niveauLabel(current)}
+      metaColor={t.c.text}
+      onPress={() => router.push(DOMAIN_ROUTES[domain] as never)}
+    >
+      <StrengthBar value={top ? 1 : climb.value} color={t.c.success} />
+    </ListRow>
   );
 }
 

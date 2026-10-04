@@ -8,6 +8,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { VERB_BANK } from '../content/verbs';
+import { MAX_LEVEL, poolForLevel, type Level } from '../content/levels';
 import { buildVerbQuestion, type VerbQuestion, type VerbQuestionKind } from '../grammar/verbExercise';
 import { ALL_VERB_RULE_IDS, type VerbRuleId } from '../grammar/verbRules';
 import {
@@ -98,6 +99,7 @@ export function nextVerbQuestion(
   stats: Record<VerbRuleId, ItemStat>,
   lastVerbId?: string,
   now = Date.now(),
+  level: Level = MAX_LEVEL,
 ): VerbQuestion {
   const progress = verbRuleProgress(stats, now);
 
@@ -111,7 +113,10 @@ export function nextVerbQuestion(
   const ruleId = scoredRules[0].ruleId;
   const kind = KIND_FOR_RULE[ruleId];
 
-  const pool = kind === 'weak-suffix' ? WEAK_VERBS : kind === 'strong-form' ? STRONG_VERBS : VERB_BANK;
+  const pool = poolForLevel(
+    kind === 'weak-suffix' ? WEAK_VERBS : kind === 'strong-form' ? STRONG_VERBS : VERB_BANK,
+    level,
+  );
   const candidates = pool.filter((v) => v.id !== lastVerbId);
   const verb = candidates[Math.floor(Math.random() * candidates.length)] ?? pool[0];
 

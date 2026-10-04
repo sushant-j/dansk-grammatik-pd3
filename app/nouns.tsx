@@ -9,6 +9,8 @@ import { Screen } from '../src/ui/Screen';
 import { Button, Card, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
 import { levelLabel } from '../src/profile/mastery';
+import { currentLevelNow, recordLevelAttempt } from '../src/profile/levelStore';
+import { LevelBadge, LevelUpNotice } from '../src/ui/LevelBadge';
 
 /**
  * The en/et trainer.
@@ -26,7 +28,9 @@ export default function Nouns() {
   const stats = useNounProfile((st) => st.stats);
   const record = useNounProfile((st) => st.record);
 
-  const [question, setQuestion] = useState<NounQuestion>(() => nextNounQuestion(stats));
+  const [question, setQuestion] = useState<NounQuestion>(() =>
+    nextNounQuestion(stats, undefined, Date.now(), currentLevelNow('nouns')),
+  );
   const [picked, setPicked] = useState<number | null>(null);
 
   const progress = nounRuleProgress(stats);
@@ -37,13 +41,19 @@ export default function Nouns() {
       if (picked !== null) return;
       setPicked(i);
       record(question.ruleId, i === question.correctIndex);
+      recordLevelAttempt('nouns', question.noun.level, i === question.correctIndex);
       useActivity.getState().markToday();
     },
     [picked, question, record],
   );
 
   const advance = useCallback(() => {
-    const nxt = nextNounQuestion(useNounProfile.getState().stats, question.noun.id);
+    const nxt = nextNounQuestion(
+      useNounProfile.getState().stats,
+      question.noun.id,
+      Date.now(),
+      currentLevelNow('nouns'),
+    );
     setQuestion(nxt);
     setPicked(null);
   }, [question.noun.id]);
@@ -87,8 +97,13 @@ export default function Nouns() {
         ))}
       </View>
 
+      <LevelUpNotice domain="nouns" />
+
       <Card tone="sunken">
-        <Label>{rule.da}</Label>
+        <View style={s.rowBetween}>
+          <Label>{rule.da}</Label>
+          <LevelBadge level={question.noun.level} />
+        </View>
         <Txt variant="title" style={{ marginTop: t.space(2) }}>
           {question.prompt}
         </Txt>

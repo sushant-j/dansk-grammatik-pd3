@@ -7,6 +7,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { commaExamplesForRule } from '../content/commaExamples';
+import { MAX_LEVEL, poolForLevel, type Level } from '../content/levels';
 import { buildCommaQuestion, type CommaQuestion } from '../grammar/commaExercise';
 import { ALL_COMMA_RULE_IDS, type CommaRuleId } from '../grammar/commaRules';
 import {
@@ -85,6 +86,7 @@ export function nextCommaQuestion(
   stats: Record<CommaRuleId, ItemStat>,
   lastEntryId?: string,
   now = Date.now(),
+  level: Level = MAX_LEVEL,
 ): CommaQuestion {
   const progress = commaRuleProgress(stats, now);
 
@@ -96,7 +98,7 @@ export function nextCommaQuestion(
     .sort((a, b) => b.score - a.score);
 
   const ruleId = scoredRules[0].ruleId;
-  const pool = commaExamplesForRule(ruleId);
+  const pool = poolForLevel(commaExamplesForRule(ruleId), level);
   const candidates = pool.filter((e) => e.id !== lastEntryId);
   const entry = candidates[Math.floor(Math.random() * candidates.length)] ?? pool[0];
 

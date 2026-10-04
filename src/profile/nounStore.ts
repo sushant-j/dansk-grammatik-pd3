@@ -10,6 +10,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { NOUN_BANK } from '../content/nouns';
+import { MAX_LEVEL, poolForLevel, type Level } from '../content/levels';
 import { buildQuestion, type NounQuestion, type NounQuestionKind } from '../grammar/nounExercise';
 import { ALL_NOUN_RULE_IDS, type NounRuleId } from '../grammar/nounRules';
 import {
@@ -93,6 +94,7 @@ export function nextNounQuestion(
   stats: Record<NounRuleId, ItemStat>,
   lastNounId?: string,
   now = Date.now(),
+  level: Level = MAX_LEVEL,
 ): NounQuestion {
   const progress = nounRuleProgress(stats, now);
 
@@ -106,8 +108,9 @@ export function nextNounQuestion(
   const ruleId = scoredRules[0].ruleId;
   const kind = KIND_FOR_RULE[ruleId];
 
-  const candidates = NOUN_BANK.filter((n) => n.id !== lastNounId);
-  const noun = candidates[Math.floor(Math.random() * candidates.length)] ?? NOUN_BANK[0];
+  const pool = poolForLevel(NOUN_BANK, level);
+  const candidates = pool.filter((n) => n.id !== lastNounId);
+  const noun = candidates[Math.floor(Math.random() * candidates.length)] ?? pool[0];
 
   return buildQuestion(noun, kind);
 }

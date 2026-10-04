@@ -1,4 +1,5 @@
 import type { ClauseType, FieldId } from './fields';
+import type { Level } from '../content/levels';
 import type { Exam, RuleId } from './rules';
 
 /** One draggable word (or fixed multi-word constituent) in an exercise. */
@@ -32,7 +33,8 @@ export interface Exercise {
   alternatives?: Placement[];
   /** Rules this exercise is designed to exercise. */
   targets: RuleId[];
-  cefr: 'A1' | 'A2' | 'B1' | 'B2';
+  /** Niveau 1–5 (see content/levels.ts); gates when the trainer serves it. */
+  level: Level;
   exams: Exam[];
   /** Shown after a correct answer — the "why", in one line. */
   takeaway: string;

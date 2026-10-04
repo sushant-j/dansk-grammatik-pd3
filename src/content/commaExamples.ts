@@ -14,9 +14,12 @@
  */
 
 import type { CommaRuleId } from '../grammar/commaRules';
+import type { Level } from './levels';
 
 export interface CommaEntry {
   id: string;
+  /** Niveau 1–5 (see levels.ts): when the trainer starts serving this item. */
+  level: Level;
   ruleId: CommaRuleId;
   correct: string;
   incorrect: string;
@@ -27,6 +30,7 @@ export const COMMA_EXAMPLES: CommaEntry[] = [
   // ── men vs. og ──────────────────────────────────────────────────────
   {
     id: 'c-men-1',
+    level: 2,
     ruleId: 'comma-men-vs-og',
     correct: 'Jeg vil gerne komme, men jeg har ikke tid.',
     incorrect: 'Jeg vil gerne komme men jeg har ikke tid.',
@@ -34,6 +38,7 @@ export const COMMA_EXAMPLES: CommaEntry[] = [
   },
   {
     id: 'c-men-2',
+    level: 2,
     ruleId: 'comma-men-vs-og',
     correct: 'Hun elsker at rejse, men hun har ikke mange penge.',
     incorrect: 'Hun elsker at rejse men hun har ikke mange penge.',
@@ -41,6 +46,7 @@ export const COMMA_EXAMPLES: CommaEntry[] = [
   },
   {
     id: 'c-men-3',
+    level: 2,
     ruleId: 'comma-men-vs-og',
     correct: 'Det var koldt, men solen skinnede.',
     incorrect: 'Det var koldt men solen skinnede.',
@@ -48,6 +54,7 @@ export const COMMA_EXAMPLES: CommaEntry[] = [
   },
   {
     id: 'c-og-1',
+    level: 2,
     ruleId: 'comma-men-vs-og',
     correct: 'Han spiste morgenmad og gik i skole.',
     incorrect: 'Han spiste morgenmad, og gik i skole.',
@@ -55,6 +62,7 @@ export const COMMA_EXAMPLES: CommaEntry[] = [
   },
   {
     id: 'c-og-2',
+    level: 2,
     ruleId: 'comma-men-vs-og',
     correct: 'Vi kan tage bussen eller gå til fods.',
     incorrect: 'Vi kan tage bussen, eller gå til fods.',
@@ -64,6 +72,7 @@ export const COMMA_EXAMPLES: CommaEntry[] = [
   // ── list items ────────────────────────────────────────────────────────
   {
     id: 'c-list-1',
+    level: 2,
     ruleId: 'comma-list-items',
     correct: 'Jeg købte mælk, brød, æg og smør.',
     incorrect: 'Jeg købte mælk, brød, æg, og smør.',
@@ -71,6 +80,7 @@ export const COMMA_EXAMPLES: CommaEntry[] = [
   },
   {
     id: 'c-list-2',
+    level: 2,
     ruleId: 'comma-list-items',
     correct: 'Hun kan tale engelsk, tysk og fransk.',
     incorrect: 'Hun kan tale engelsk, tysk, og fransk.',
@@ -78,6 +88,7 @@ export const COMMA_EXAMPLES: CommaEntry[] = [
   },
   {
     id: 'c-list-3',
+    level: 2,
     ruleId: 'comma-list-items',
     correct: 'Vi skal besøge Danmark, Sverige og Norge i sommer.',
     incorrect: 'Vi skal besøge Danmark, Sverige, og Norge i sommer.',
@@ -85,6 +96,7 @@ export const COMMA_EXAMPLES: CommaEntry[] = [
   },
   {
     id: 'c-list-4',
+    level: 2,
     ruleId: 'comma-list-items',
     correct: 'Han arbejder om mandag, tirsdag og onsdag.',
     incorrect: 'Han arbejder om mandag, tirsdag, og onsdag.',
@@ -94,6 +106,7 @@ export const COMMA_EXAMPLES: CommaEntry[] = [
   // ── non-defining relative clause ──────────────────────────────────────
   {
     id: 'c-rel-1',
+    level: 3,
     ruleId: 'comma-relative-clause',
     correct: 'Min bror, som bor i Aarhus, kommer på besøg i morgen.',
     incorrect: 'Min bror som bor i Aarhus kommer på besøg i morgen.',
@@ -101,6 +114,7 @@ export const COMMA_EXAMPLES: CommaEntry[] = [
   },
   {
     id: 'c-rel-2',
+    level: 3,
     ruleId: 'comma-relative-clause',
     correct: 'Min mor, som er 65 år, arbejder stadig.',
     incorrect: 'Min mor som er 65 år arbejder stadig.',
@@ -108,6 +122,7 @@ export const COMMA_EXAMPLES: CommaEntry[] = [
   },
   {
     id: 'c-rel-3',
+    level: 3,
     ruleId: 'comma-relative-clause',
     correct: 'København, som er Danmarks hovedstad, har mange museer.',
     incorrect: 'København som er Danmarks hovedstad har mange museer.',
@@ -115,6 +130,7 @@ export const COMMA_EXAMPLES: CommaEntry[] = [
   },
   {
     id: 'c-rel-4',
+    level: 4,
     ruleId: 'comma-relative-clause',
     correct: 'Min chef, som lige er kommet tilbage fra ferie, holder møde i dag.',
     incorrect: 'Min chef som lige er kommet tilbage fra ferie holder møde i dag.',

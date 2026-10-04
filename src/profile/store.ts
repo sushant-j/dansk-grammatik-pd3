@@ -18,6 +18,7 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { ALL_RULE_IDS, type Exam, type RuleId } from '../grammar/rules';
 import { EXERCISES } from '../content/exercises';
+import { MAX_LEVEL, poolForLevel, type Level } from '../content/levels';
 import type { Exercise } from '../grammar/types';
 import {
   applyOutcome,
@@ -157,11 +158,12 @@ export function nextExercise(
   lastExerciseId?: string,
   now = Date.now(),
   targetExam?: Exam | null,
+  level: Level = MAX_LEVEL,
 ): Exercise {
   const progress = ruleProgress(stats, now);
   const byRule = new Map(progress.map((p) => [p.ruleId, p]));
 
-  const scored = EXERCISES.map((ex) => {
+  const scored = poolForLevel(EXERCISES, level).map((ex) => {
     const targets = ex.targets.map((r) => byRule.get(r)).filter(Boolean) as RuleProgress[];
     const weakest = targets.reduce(
       (min, p) => Math.min(min, p.attempts ? p.strength : 0.5),

@@ -9,6 +9,8 @@ import { Screen } from '../src/ui/Screen';
 import { Button, Card, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
 import { levelLabel } from '../src/profile/mastery';
+import { currentLevelNow, recordLevelAttempt } from '../src/profile/levelStore';
+import { LevelBadge, LevelUpNotice } from '../src/ui/LevelBadge';
 
 /**
  * The comma trainer.
@@ -26,7 +28,9 @@ export default function Comma() {
   const stats = useCommaProfile((st) => st.stats);
   const record = useCommaProfile((st) => st.record);
 
-  const [question, setQuestion] = useState<CommaQuestion>(() => nextCommaQuestion(stats));
+  const [question, setQuestion] = useState<CommaQuestion>(() =>
+    nextCommaQuestion(stats, undefined, Date.now(), currentLevelNow('comma')),
+  );
   const [picked, setPicked] = useState<number | null>(null);
 
   const progress = commaRuleProgress(stats);
@@ -37,13 +41,19 @@ export default function Comma() {
       if (picked !== null) return;
       setPicked(i);
       record(question.ruleId, i === question.correctIndex);
+      recordLevelAttempt('comma', question.entry.level, i === question.correctIndex);
       useActivity.getState().markToday();
     },
     [picked, question, record],
   );
 
   const advance = useCallback(() => {
-    const nxt = nextCommaQuestion(useCommaProfile.getState().stats, question.entry.id);
+    const nxt = nextCommaQuestion(
+      useCommaProfile.getState().stats,
+      question.entry.id,
+      Date.now(),
+      currentLevelNow('comma'),
+    );
     setQuestion(nxt);
     setPicked(null);
   }, [question.entry.id]);
@@ -87,8 +97,13 @@ export default function Comma() {
         ))}
       </View>
 
+      <LevelUpNotice domain="comma" />
+
       <Card tone="sunken">
-        <Label>{rule.da}</Label>
+        <View style={s.rowBetween}>
+          <Label>{rule.da}</Label>
+          <LevelBadge level={question.entry.level} />
+        </View>
         <Txt variant="title" style={{ marginTop: t.space(2) }}>
           {question.prompt}
         </Txt>

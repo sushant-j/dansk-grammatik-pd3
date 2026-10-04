@@ -23,11 +23,15 @@
  * takes "er", "se" is also strong but takes "har".
  */
 
+import type { Level } from './levels';
+
 export type VerbClass = 'weak-ede' | 'weak-te' | 'strong';
 export type PerfectAux = 'har' | 'er';
 
 export interface VerbEntry {
   id: string;
+  /** Niveau 1–5 (see levels.ts): when the trainer starts serving this item. */
+  level: Level;
   infinitive: string;
   present: string;
   /** Datid — simple past. */
@@ -43,39 +47,39 @@ export interface VerbEntry {
 
 export const VERB_BANK: VerbEntry[] = [
   // ── Weak, -ede group ─────────────────────────────────────────────────
-  { id: 'v-arbejde', infinitive: 'arbejde', present: 'arbejder', past: 'arbejdede', wrongPast: 'arbejdte', participle: 'arbejdet', verbClass: 'weak-ede', perfectAux: 'har', glossEn: 'to work' },
-  { id: 'v-snakke', infinitive: 'snakke', present: 'snakker', past: 'snakkede', wrongPast: 'snakte', participle: 'snakket', verbClass: 'weak-ede', perfectAux: 'har', glossEn: 'to chat' },
-  { id: 'v-huske', infinitive: 'huske', present: 'husker', past: 'huskede', wrongPast: 'huskte', participle: 'husket', verbClass: 'weak-ede', perfectAux: 'har', glossEn: 'to remember' },
-  { id: 'v-cykle', infinitive: 'cykle', present: 'cykler', past: 'cyklede', wrongPast: 'cyklte', participle: 'cyklet', verbClass: 'weak-ede', perfectAux: 'har', glossEn: 'to cycle' },
-  { id: 'v-vaske', infinitive: 'vaske', present: 'vasker', past: 'vaskede', wrongPast: 'vaskte', participle: 'vasket', verbClass: 'weak-ede', perfectAux: 'har', glossEn: 'to wash' },
-  { id: 'v-ønske', infinitive: 'ønske', present: 'ønsker', past: 'ønskede', wrongPast: 'ønskte', participle: 'ønsket', verbClass: 'weak-ede', perfectAux: 'har', glossEn: 'to wish' },
-  { id: 'v-elske', infinitive: 'elske', present: 'elsker', past: 'elskede', wrongPast: 'elskte', participle: 'elsket', verbClass: 'weak-ede', perfectAux: 'har', glossEn: 'to love' },
-  { id: 'v-lave', infinitive: 'lave', present: 'laver', past: 'lavede', wrongPast: 'lavte', participle: 'lavet', verbClass: 'weak-ede', perfectAux: 'har', glossEn: 'to make, to do' },
+  { id: 'v-arbejde', level: 1, infinitive: 'arbejde', present: 'arbejder', past: 'arbejdede', wrongPast: 'arbejdte', participle: 'arbejdet', verbClass: 'weak-ede', perfectAux: 'har', glossEn: 'to work' },
+  { id: 'v-snakke', level: 2, infinitive: 'snakke', present: 'snakker', past: 'snakkede', wrongPast: 'snakte', participle: 'snakket', verbClass: 'weak-ede', perfectAux: 'har', glossEn: 'to chat' },
+  { id: 'v-huske', level: 2, infinitive: 'huske', present: 'husker', past: 'huskede', wrongPast: 'huskte', participle: 'husket', verbClass: 'weak-ede', perfectAux: 'har', glossEn: 'to remember' },
+  { id: 'v-cykle', level: 2, infinitive: 'cykle', present: 'cykler', past: 'cyklede', wrongPast: 'cyklte', participle: 'cyklet', verbClass: 'weak-ede', perfectAux: 'har', glossEn: 'to cycle' },
+  { id: 'v-vaske', level: 2, infinitive: 'vaske', present: 'vasker', past: 'vaskede', wrongPast: 'vaskte', participle: 'vasket', verbClass: 'weak-ede', perfectAux: 'har', glossEn: 'to wash' },
+  { id: 'v-ønske', level: 3, infinitive: 'ønske', present: 'ønsker', past: 'ønskede', wrongPast: 'ønskte', participle: 'ønsket', verbClass: 'weak-ede', perfectAux: 'har', glossEn: 'to wish' },
+  { id: 'v-elske', level: 2, infinitive: 'elske', present: 'elsker', past: 'elskede', wrongPast: 'elskte', participle: 'elsket', verbClass: 'weak-ede', perfectAux: 'har', glossEn: 'to love' },
+  { id: 'v-lave', level: 2, infinitive: 'lave', present: 'laver', past: 'lavede', wrongPast: 'lavte', participle: 'lavet', verbClass: 'weak-ede', perfectAux: 'har', glossEn: 'to make, to do' },
 
   // ── Weak, -te group ──────────────────────────────────────────────────
-  { id: 'v-spise', infinitive: 'spise', present: 'spiser', past: 'spiste', wrongPast: 'spisede', participle: 'spist', verbClass: 'weak-te', perfectAux: 'har', glossEn: 'to eat' },
-  { id: 'v-købe', infinitive: 'købe', present: 'køber', past: 'købte', wrongPast: 'købede', participle: 'købt', verbClass: 'weak-te', perfectAux: 'har', glossEn: 'to buy' },
-  { id: 'v-læse', infinitive: 'læse', present: 'læser', past: 'læste', wrongPast: 'læsede', participle: 'læst', verbClass: 'weak-te', perfectAux: 'har', glossEn: 'to read' },
-  { id: 'v-rejse', infinitive: 'rejse', present: 'rejser', past: 'rejste', wrongPast: 'rejsede', participle: 'rejst', verbClass: 'weak-te', perfectAux: 'har', glossEn: 'to travel' },
-  { id: 'v-betale', infinitive: 'betale', present: 'betaler', past: 'betalte', wrongPast: 'betalede', participle: 'betalt', verbClass: 'weak-te', perfectAux: 'har', glossEn: 'to pay' },
-  { id: 'v-vise', infinitive: 'vise', present: 'viser', past: 'viste', wrongPast: 'visede', participle: 'vist', verbClass: 'weak-te', perfectAux: 'har', glossEn: 'to show' },
-  { id: 'v-høre', infinitive: 'høre', present: 'hører', past: 'hørte', wrongPast: 'hørede', participle: 'hørt', verbClass: 'weak-te', perfectAux: 'har', glossEn: 'to hear' },
+  { id: 'v-spise', level: 1, infinitive: 'spise', present: 'spiser', past: 'spiste', wrongPast: 'spisede', participle: 'spist', verbClass: 'weak-te', perfectAux: 'har', glossEn: 'to eat' },
+  { id: 'v-købe', level: 1, infinitive: 'købe', present: 'køber', past: 'købte', wrongPast: 'købede', participle: 'købt', verbClass: 'weak-te', perfectAux: 'har', glossEn: 'to buy' },
+  { id: 'v-læse', level: 1, infinitive: 'læse', present: 'læser', past: 'læste', wrongPast: 'læsede', participle: 'læst', verbClass: 'weak-te', perfectAux: 'har', glossEn: 'to read' },
+  { id: 'v-rejse', level: 2, infinitive: 'rejse', present: 'rejser', past: 'rejste', wrongPast: 'rejsede', participle: 'rejst', verbClass: 'weak-te', perfectAux: 'har', glossEn: 'to travel' },
+  { id: 'v-betale', level: 2, infinitive: 'betale', present: 'betaler', past: 'betalte', wrongPast: 'betalede', participle: 'betalt', verbClass: 'weak-te', perfectAux: 'har', glossEn: 'to pay' },
+  { id: 'v-vise', level: 3, infinitive: 'vise', present: 'viser', past: 'viste', wrongPast: 'visede', participle: 'vist', verbClass: 'weak-te', perfectAux: 'har', glossEn: 'to show' },
+  { id: 'v-høre', level: 2, infinitive: 'høre', present: 'hører', past: 'hørte', wrongPast: 'hørede', participle: 'hørt', verbClass: 'weak-te', perfectAux: 'har', glossEn: 'to hear' },
 
   // ── Strong / irregular ───────────────────────────────────────────────
-  { id: 'v-gå', infinitive: 'gå', present: 'går', past: 'gik', wrongPast: 'gåede', participle: 'gået', verbClass: 'strong', perfectAux: 'er', glossEn: 'to go, to walk' },
-  { id: 'v-se', infinitive: 'se', present: 'ser', past: 'så', wrongPast: 'seede', participle: 'set', verbClass: 'strong', perfectAux: 'har', glossEn: 'to see' },
-  { id: 'v-komme', infinitive: 'komme', present: 'kommer', past: 'kom', wrongPast: 'kommede', participle: 'kommet', verbClass: 'strong', perfectAux: 'er', glossEn: 'to come' },
-  { id: 'v-give', infinitive: 'give', present: 'giver', past: 'gav', wrongPast: 'givede', participle: 'givet', verbClass: 'strong', perfectAux: 'har', glossEn: 'to give' },
-  { id: 'v-tage', infinitive: 'tage', present: 'tager', past: 'tog', wrongPast: 'tagede', participle: 'taget', verbClass: 'strong', perfectAux: 'har', glossEn: 'to take' },
-  { id: 'v-sige', infinitive: 'sige', present: 'siger', past: 'sagde', wrongPast: 'sigede', participle: 'sagt', verbClass: 'strong', perfectAux: 'har', glossEn: 'to say' },
-  { id: 'v-få', infinitive: 'få', present: 'får', past: 'fik', wrongPast: 'fåede', participle: 'fået', verbClass: 'strong', perfectAux: 'har', glossEn: 'to get, to receive' },
-  { id: 'v-blive', infinitive: 'blive', present: 'bliver', past: 'blev', wrongPast: 'blivede', participle: 'blevet', verbClass: 'strong', perfectAux: 'er', glossEn: 'to become, to stay' },
-  { id: 'v-finde', infinitive: 'finde', present: 'finder', past: 'fandt', wrongPast: 'findede', participle: 'fundet', verbClass: 'strong', perfectAux: 'har', glossEn: 'to find' },
-  { id: 'v-falde', infinitive: 'falde', present: 'falder', past: 'faldt', wrongPast: 'faldede', participle: 'faldet', verbClass: 'strong', perfectAux: 'er', glossEn: 'to fall' },
-  { id: 'v-stå', infinitive: 'stå', present: 'står', past: 'stod', wrongPast: 'ståede', participle: 'stået', verbClass: 'strong', perfectAux: 'har', glossEn: 'to stand' },
-  { id: 'v-sidde', infinitive: 'sidde', present: 'sidder', past: 'sad', wrongPast: 'siddede', participle: 'siddet', verbClass: 'strong', perfectAux: 'har', glossEn: 'to sit' },
-  { id: 'v-sove', infinitive: 'sove', present: 'sover', past: 'sov', wrongPast: 'sovede', participle: 'sovet', verbClass: 'strong', perfectAux: 'har', glossEn: 'to sleep' },
-  { id: 'v-drikke', infinitive: 'drikke', present: 'drikker', past: 'drak', wrongPast: 'drikkede', participle: 'drukket', verbClass: 'strong', perfectAux: 'har', glossEn: 'to drink' },
+  { id: 'v-gå', level: 1, infinitive: 'gå', present: 'går', past: 'gik', wrongPast: 'gåede', participle: 'gået', verbClass: 'strong', perfectAux: 'er', glossEn: 'to go, to walk' },
+  { id: 'v-se', level: 1, infinitive: 'se', present: 'ser', past: 'så', wrongPast: 'seede', participle: 'set', verbClass: 'strong', perfectAux: 'har', glossEn: 'to see' },
+  { id: 'v-komme', level: 1, infinitive: 'komme', present: 'kommer', past: 'kom', wrongPast: 'kommede', participle: 'kommet', verbClass: 'strong', perfectAux: 'er', glossEn: 'to come' },
+  { id: 'v-give', level: 2, infinitive: 'give', present: 'giver', past: 'gav', wrongPast: 'givede', participle: 'givet', verbClass: 'strong', perfectAux: 'har', glossEn: 'to give' },
+  { id: 'v-tage', level: 1, infinitive: 'tage', present: 'tager', past: 'tog', wrongPast: 'tagede', participle: 'taget', verbClass: 'strong', perfectAux: 'har', glossEn: 'to take' },
+  { id: 'v-sige', level: 1, infinitive: 'sige', present: 'siger', past: 'sagde', wrongPast: 'sigede', participle: 'sagt', verbClass: 'strong', perfectAux: 'har', glossEn: 'to say' },
+  { id: 'v-få', level: 2, infinitive: 'få', present: 'får', past: 'fik', wrongPast: 'fåede', participle: 'fået', verbClass: 'strong', perfectAux: 'har', glossEn: 'to get, to receive' },
+  { id: 'v-blive', level: 2, infinitive: 'blive', present: 'bliver', past: 'blev', wrongPast: 'blivede', participle: 'blevet', verbClass: 'strong', perfectAux: 'er', glossEn: 'to become, to stay' },
+  { id: 'v-finde', level: 2, infinitive: 'finde', present: 'finder', past: 'fandt', wrongPast: 'findede', participle: 'fundet', verbClass: 'strong', perfectAux: 'har', glossEn: 'to find' },
+  { id: 'v-falde', level: 3, infinitive: 'falde', present: 'falder', past: 'faldt', wrongPast: 'faldede', participle: 'faldet', verbClass: 'strong', perfectAux: 'er', glossEn: 'to fall' },
+  { id: 'v-stå', level: 2, infinitive: 'stå', present: 'står', past: 'stod', wrongPast: 'ståede', participle: 'stået', verbClass: 'strong', perfectAux: 'har', glossEn: 'to stand' },
+  { id: 'v-sidde', level: 2, infinitive: 'sidde', present: 'sidder', past: 'sad', wrongPast: 'siddede', participle: 'siddet', verbClass: 'strong', perfectAux: 'har', glossEn: 'to sit' },
+  { id: 'v-sove', level: 1, infinitive: 'sove', present: 'sover', past: 'sov', wrongPast: 'sovede', participle: 'sovet', verbClass: 'strong', perfectAux: 'har', glossEn: 'to sleep' },
+  { id: 'v-drikke', level: 1, infinitive: 'drikke', present: 'drikker', past: 'drak', wrongPast: 'drikkede', participle: 'drukket', verbClass: 'strong', perfectAux: 'har', glossEn: 'to drink' },
 ];
 
 export function verbById(id: string): VerbEntry | undefined {

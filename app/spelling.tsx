@@ -14,6 +14,8 @@ import { Screen } from '../src/ui/Screen';
 import { Button, Card, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
 import { levelLabel } from '../src/profile/mastery';
+import { currentLevelNow, recordLevelAttempt } from '../src/profile/levelStore';
+import { LevelBadge, LevelUpNotice } from '../src/ui/LevelBadge';
 
 /**
  * The spelling trainer — FVU-oriented, not PD3.
@@ -31,7 +33,9 @@ export default function Spelling() {
   const stats = useSpellingProfile((st) => st.stats);
   const record = useSpellingProfile((st) => st.record);
 
-  const [question, setQuestion] = useState<SpellingQuestion>(() => nextSpellingQuestion(stats));
+  const [question, setQuestion] = useState<SpellingQuestion>(() =>
+    nextSpellingQuestion(stats, undefined, Date.now(), currentLevelNow('spelling')),
+  );
   const [picked, setPicked] = useState<number | null>(null);
 
   const progress = spellingRuleProgress(stats);
@@ -42,13 +46,19 @@ export default function Spelling() {
       if (picked !== null) return;
       setPicked(i);
       record(question.ruleId, i === question.correctIndex);
+      recordLevelAttempt('spelling', question.entry.level, i === question.correctIndex);
       useActivity.getState().markToday();
     },
     [picked, question, record],
   );
 
   const advance = useCallback(() => {
-    const nxt = nextSpellingQuestion(useSpellingProfile.getState().stats, question.entry.id);
+    const nxt = nextSpellingQuestion(
+      useSpellingProfile.getState().stats,
+      question.entry.id,
+      Date.now(),
+      currentLevelNow('spelling'),
+    );
     setQuestion(nxt);
     setPicked(null);
   }, [question.entry.id]);
@@ -92,8 +102,13 @@ export default function Spelling() {
         ))}
       </View>
 
+      <LevelUpNotice domain="spelling" />
+
       <Card tone="sunken">
-        <Label>{rule.da}</Label>
+        <View style={s.rowBetween}>
+          <Label>{rule.da}</Label>
+          <LevelBadge level={question.entry.level} />
+        </View>
         <Txt variant="title" style={{ marginTop: t.space(2) }}>
           {question.prompt}
         </Txt>

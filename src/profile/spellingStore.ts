@@ -7,6 +7,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { spellingExamplesForRule } from '../content/spellingExamples';
+import { MAX_LEVEL, poolForLevel, type Level } from '../content/levels';
 import { buildSpellingQuestion, type SpellingQuestion } from '../grammar/spellingExercise';
 import { ALL_SPELLING_RULE_IDS, type SpellingRuleId } from '../grammar/spellingRules';
 import {
@@ -88,6 +89,7 @@ export function nextSpellingQuestion(
   stats: Record<SpellingRuleId, ItemStat>,
   lastEntryId?: string,
   now = Date.now(),
+  level: Level = MAX_LEVEL,
 ): SpellingQuestion {
   const progress = spellingRuleProgress(stats, now);
 
@@ -99,7 +101,7 @@ export function nextSpellingQuestion(
     .sort((a, b) => b.score - a.score);
 
   const ruleId = scoredRules[0].ruleId;
-  const pool = spellingExamplesForRule(ruleId);
+  const pool = poolForLevel(spellingExamplesForRule(ruleId), level);
   const candidates = pool.filter((e) => e.id !== lastEntryId);
   const entry = candidates[Math.floor(Math.random() * candidates.length)] ?? pool[0];
 
