@@ -1,0 +1,1307 @@
+{
+  "id": "sim-2",
+  "title": "Øvesæt 2 (simuleret)",
+  "format": "current",
+  "source": {
+    "kind": "simulated"
+  },
+  "lf1Theme": "Danske slotte og herregårde",
+  "lf2Titles": [
+    "Unge og sociale medier – mere end skærmtid",
+    "Kortere dage, færre lektier",
+    "Flere danskere pendler længere"
+  ],
+  "gradeTable": [
+    [
+      38,
+      "12"
+    ],
+    [
+      33,
+      "10"
+    ],
+    [
+      27,
+      "7"
+    ],
+    [
+      22,
+      "4"
+    ],
+    [
+      20,
+      "02"
+    ],
+    [
+      10,
+      "00"
+    ],
+    [
+      0,
+      "-3"
+    ]
+  ],
+  "lf1": {
+    "theme": "Danske slotte og herregårde",
+    "sections": [
+      {
+        "title": "Herregårdenes historie",
+        "blocks": [
+          {
+            "t": "h",
+            "text": "Fra borg til herregård"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I middelalderen byggede konger, bisper og stormænd borge, der først og fremmest skulle kunne forsvares. Tykke mure, tårne og dybe voldgrave skulle holde fjender ude, og mange borge blev anlagt på en naturlig banke eller på en lille ø i en sø. Borgene var kolde, mørke og trange at bo i, men til gengæld var de svære at indtage."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Omkring år 1500 ændrede det sig. Kanoner og krudt blev almindelige i Europa, og selv de tykkeste borgmure kunne ikke længere modstå et angreb. Samtidig var landet blevet mere fredeligt, fordi kongemagten var blevet stærkere. Adelen begyndte derfor at bygge boliger, hvor komfort og repræsentation betød mere end forsvar. Store vinduer, varme stuer og lange sale afløste skydeskår og smalle vindeltrapper. Voldgravene blev ofte bevaret, men nu mere som pynt og som et tegn på ejerens rang end som beskyttelse."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Særligt i perioden mellem 1550 og 1625 blev der bygget mange nye hovedbygninger. De blev opført i renæssancestil med røde mursten, trappegavle, spir og udsmykninger i sandsten, og mange af dem står stadig i dag. Det er derfor ikke tilfældigt, at netop renæssancen er den stilart, som de fleste danskere forbinder med en ’rigtig’ herregård."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Herregården som et lille samfund"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "En herregård var langt mere end en stor bolig for en adelig familie. Den var midtpunkt for et stort landbrug med marker, skove, enge og fiskedamme, og den ejede som regel også gårdene i de omkringliggende landsbyer. Bønderne, der boede på disse gårde, var fæstebønder. De ejede ikke selv deres gård, men lejede den af godsejeren og betalte for det med afgifter i form af korn, smør og penge."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Derudover skulle fæstebønderne arbejde gratis på herregårdens jord. Dette arbejde blev kaldt hoveri, og det var meget forhadt. I de travle måneder om sommeren og efteråret kunne en bonde være nødt til at sende både sig selv, sine karle og sine heste til herregården flere dage om ugen – også selvom hans egen høst stod og ventede derhjemme."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "På selve herregården arbejdede desuden en lang række ansatte: forvaltere, skrivere, kuske, gartnere, staldkarle, kokke og piger, der malkede, bryggede og bagte. En stor herregård kunne således have over hundrede mennesker tilknyttet i det daglige, og mange af dem boede i små kamre over staldene eller i udhusene."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Bygningerne omkring hovedbygningen",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Når man i dag besøger en herregård, er det som regel hovedbygningen, man lægger mærke til. Men den var kun en del af et større anlæg. Foran hovedbygningen lå ladegården med lader, stalde og kostalde, hvor høsten blev opbevaret, og hvor dyrene stod om vinteren. Ladegården var bygget rundt om en stor gårdsplads, og på de største godser kunne den være lige så stor som en hel landsby."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Bag hovedbygningen lå som regel haven. I 1600-tallet var det mest køkkenhaver og frugthaver, der skulle forsyne husholdningen, men i løbet af 1700-tallet blev det moderne at anlægge store lysthaver efter fransk forbillede med lige gange, klippede hække og springvand. Senere kom de engelske landskabshaver på mode. Her skulle naturen se vild og tilfældig ud, selvom alt i virkeligheden var nøje planlagt."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Stavnsbåndet"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I 1733 indførte kong Christian 6. stavnsbåndet. Loven betød, at mænd på landet ikke måtte forlade det gods, hvor de var født. Officielt skulle loven sikre, at hæren kunne skaffe soldater nok, men den gav også godsejerne en billig og stabil arbejdskraft. I første omgang gjaldt stavnsbåndet for mænd mellem 14 og 36 år, men senere blev det udvidet, så det omfattede alle mænd mellem 4 og 40 år."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Stavnsbåndet blev ophævet i 1788 som en del af de store landboreformer. Begivenheden blev fejret i hele landet, og i København blev Frihedsstøtten rejst til minde om reformerne."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Landboreformerne og tiden efter",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Landboreformerne i slutningen af 1700-tallet ændrede det danske landbrug fra bunden. Ved udskiftningen blev landsbyernes fælles jord delt op, så hver bonde fik sin jord samlet ét sted, og mange gårde blev flyttet ud af landsbyen og ud på deres egne marker. Samtidig fik bønderne mulighed for at købe deres fæstegårde, og i løbet af 1800-tallet blev langt de fleste danske bønder selvejere."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "For herregårdene betød udviklingen, at de mistede en stor del af deres indtægter og den gratis arbejdskraft. Mange godsejere begyndte i stedet at drive landbruget mere moderne med lønnede landarbejdere, nye redskaber og større besætninger af køer."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Et andet vendepunkt kom med lensafløsningsloven fra 1919. De største godser var indtil da såkaldte len og stamhuse, som ikke måtte sælges eller deles, men skulle gå videre i familien fra generation til generation. Med loven blev denne ordning afskaffet. Til gengæld måtte ejerne betale en stor afgift til staten og afstå en del af deres jord, som blev delt op i mindre husmandsbrug."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Herregårdene i dag"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I dag findes der stadig flere hundrede herregårde i Danmark. De fleste er privatejede og drives som landbrug og skovbrug, men mange har måttet finde nye indtægtskilder. Nogle er blevet hoteller eller konferencesteder, andre lejer deres sale ud til bryllupper og fester, og en del holder åbent for turister i sommerhalvåret. Enkelte er ejet af fonde eller af staten og fungerer som museer."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Fem slotte, der er et besøg værd",
+        "blocks": [
+          {
+            "t": "h",
+            "text": "Kronborg"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Kronborg i Helsingør ligger på det sted, hvor Øresund er smallest – kun omkring fire kilometer fra den svenske kyst. Den beliggenhed har gjort slottet til et af de mest kendte i Nordeuropa. I flere hundrede år skulle alle skibe, der sejlede gennem Øresund, stoppe ud for Helsingør og betale Sundtolden til den danske konge. Indtægterne var så store, at de i perioder udgjorde en betydelig del af kongens samlede indtægter."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Det nuværende slot blev bygget af Frederik 2. i årene 1574-85 som et prægtigt renæssanceslot. Allerede i 1629 brændte det, men Christian 4. lod det genopbygge. I 2000 kom Kronborg på UNESCO’s liste over verdensarv."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Mange besøgende kommer på grund af William Shakespeare, der lod sit berømte skuespil ",
+              {
+                "em": "Hamlet"
+              },
+              " foregå på slottet. Om sommeren bliver der opført teater på slottet, og i ferierne kan man møde skuespillere, der optræder som personer fra stykket. Nede i de mørke kasematter under slottet sidder Holger Danske og sover. Ifølge sagnet vågner han, hvis Danmark kommer i fare."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Frederiksborg Slot"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Frederiksborg Slot i Hillerød er Skandinaviens største renæssanceslot. Det blev bygget af Christian 4. i begyndelsen af 1600-tallet og ligger på tre små øer i Slotssøen. Christian 4. var selv født på det ældre slot, der lå på stedet, og han havde et særligt forhold til det."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I 1859 blev store dele af slottet ødelagt af en brand. Slottet blev genopbygget i årene efter, og brygger J.C. Jacobsen, der havde grundlagt Carlsberg, tog initiativ til, at det skulle huse Det Nationalhistoriske Museum. Museet åbnede i 1878."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Museet fortæller Danmarkshistorien gennem portrætter, malerier, møbler og kunsthåndværk fra de sidste 500 år. Særligt populær er Slotskirken, hvor de danske konger blev salvet i enevældens tid, og som rummer et berømt orgel fra 1610. Uden for slottet ligger Barokhaven, der blev genskabt i 1990’erne efter tegninger fra begyndelsen af 1700-tallet."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Egeskov Slot"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Egeskov på Fyn er et af Europas bedst bevarede vandslotte. Det blev bygget i 1554 og står midt i en lille sø. Ifølge fortællingen fik slottet sit navn, fordi der blev fældet en hel skov af egetræer for at skaffe materiale nok til fundamentet. Slottet står nemlig på pæle af egetræ, som blev slået ned i bunden af søen."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Der bor stadig en familie på slottet, men en del af rummene er åbne for publikum. Mange gæster kommer dog lige så meget for at se det store parkanlæg med labyrinter, haver og legepladser. På Egeskov findes desuden udstillinger med veteranbiler, motorcykler og fly, så der er noget for hele familien."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Koldinghus"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Koldinghus i Kolding blev grundlagt i 1200-tallet som en borg ved grænsen mod Slesvig og blev senere ombygget til et kongeligt slot. I 1808 var der indkvarteret spanske soldater på slottet. De var i Danmark som allierede af Napoleon, og en kold marts-dag gik der ild i bygningen. Slottet brændte næsten helt ned, og i mere end 150 år lå det hen som en ruin."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Fra 1970’erne blev ruinen restaureret på en meget usædvanlig måde. I stedet for at genskabe det gamle slot præcist valgte arkitekterne at bygge de nye dele i træ, stål og glas, så man tydeligt kan se forskel på det gamle og det nye. Restaureringen blev afsluttet i begyndelsen af 1990’erne, og i dag rummer Koldinghus et museum for kunst, kulturhistorie og design. Fra slottets tårn er der en flot udsigt over byen og fjorden."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Rosenborg Slot"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Midt i København ligger Rosenborg Slot omgivet af Kongens Have, som er byens ældste park. Slottet blev opført af Christian 4. i begyndelsen af 1600-tallet, oprindeligt som et lysthus uden for byens volde, hvor kongen kunne slappe af om sommeren. Det blev hurtigt udvidet og blev en af kongens foretrukne boliger."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "I dag er Rosenborg et museum, der viser de danske kongers kunstskatte og møbler fra omkring 300 år. Mest kendt er skatkammeret i kælderen, hvor man kan se kronjuvelerne og de danske kongekroner. Om sommeren er Kongens Have et populært sted for picnic, og i parken ligger der også en legeplads og en lille teaterscene."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Herregårdsruten – praktisk information",
+        "blocks": [
+          {
+            "t": "h",
+            "text": "Om ruten"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Herregårdsruten er en 64 kilometer lang cykelrute, der forbinder seks herregårde i det sydlige Midtjylland. Ruten er afmærket med brune skilte med en hvid herregård og kan cykles i begge retninger. Det meste af vejen kører man på små landeveje og grusveje gennem skov og åbent land, men på en strækning på ca. 4 kilometer ved Storeskov skal man følge en større vej med cykelsti. Ruten er velegnet til familier, men der er enkelte stigninger ved Kragsbjerg, hvor mindre børn kan få brug for at trække cyklen."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Man kan sagtens cykle hele ruten på én dag, men vi anbefaler, at man bruger to dage og overnatter undervejs, så man får tid til at besøge herregårdene. Et gratis kort over ruten kan hentes på det lokale turistkontor og på alle seks herregårde."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Åbningstider og priser"
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "Herregård",
+                "Åben",
+                "Lukket",
+                "Entré voksne",
+                "Entré børn (3-14 år)"
+              ],
+              [
+                "Ellemose Gods",
+                "1. maj – 30. september kl. 10-17",
+                "mandag",
+                "95 kr.",
+                "50 kr."
+              ],
+              [
+                "Hvidsholm",
+                "1. april – 31. oktober kl. 11-16",
+                "mandag og tirsdag",
+                "80 kr.",
+                "40 kr."
+              ],
+              [
+                "Lindholt Herregård",
+                "Parken: hele året. Hovedbygningen: kun med guide",
+                "–",
+                "Parken: gratis",
+                "Parken: gratis"
+              ],
+              [
+                "Storeskov Gods",
+                "15. juni – 15. august kl. 10-18",
+                "–",
+                "110 kr.",
+                "60 kr."
+              ],
+              [
+                "Kragsbjerg Hovedgård",
+                "Weekender i maj – september kl. 12-17",
+                "hverdage",
+                "70 kr.",
+                "gratis"
+              ],
+              [
+                "Bøgholm Slot",
+                "1. april – 31. oktober kl. 10-17",
+                "fredag",
+                "120 kr.",
+                "65 kr."
+              ]
+            ],
+            "header": true
+          },
+          {
+            "t": "small",
+            "text": "Børn under 3 år har gratis adgang alle steder. Hunde i snor er velkomne i parkerne, men ikke indendørs."
+          },
+          {
+            "t": "h",
+            "text": "Herregårdspasset",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Hvis man vil besøge flere af herregårdene, kan det betale sig at købe Herregårdspasset. Passet giver fri entré til alle seks herregårde i en hel sæson og koster 295 kr. for voksne og 150 kr. for børn. Desuden får man 10 procent rabat i herregårdenes caféer. Passet kan købes på alle herregårdene og på turistkontoret."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Cykler og transport"
+          },
+          {
+            "t": "h",
+            "text": "Cykeludlejning",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Har man ikke selv en cykel med, kan man leje en hos cykelforhandleren, der ligger lige ved siden af turistkontoret. En almindelig cykel koster 120 kr. pr. dag, mens en elcykel koster 250 kr. pr. dag. Cykelhjelm og cykeltaske er inkluderet i prisen. Husk at bestille i god tid, hvis du vil cykle i juli."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Sådan kommer du frem",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Der er gratis parkering ved alle seks herregårde. Kommer man med offentlig transport, kører der regionalbus fra den nærmeste togstation til Ellemose Gods og Storeskov Gods en gang i timen på hverdage og hver anden time i weekenden. Cykler kan medtages i bussen uden for myldretiden, så længe der er plads."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Overnatning og mad"
+          },
+          {
+            "t": "h",
+            "text": "Overnatning undervejs",
+            "level": 3
+          },
+          {
+            "t": "list",
+            "items": [
+              "Ellemose Gods: 8 værelser i den gamle forvalterbolig, fra 950 kr. pr. nat inkl. morgenmad",
+              "Hvidsholm: shelterplads i parken med plads til 12 personer, gratis og uden booking",
+              "Storeskov Gods: bed and breakfast i Kuskehuset, fra 650 kr. pr. nat",
+              "Kragsbjerg Kro (1 km fra Kragsbjerg Hovedgård): 14 værelser, fra 1.050 kr. pr. nat"
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Mad undervejs",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Der er café på Ellemose Gods, Hvidsholm og Bøgholm Slot. På Storeskov Gods kan man købe is og kaffe i gårdbutikken, som også sælger gårdens egne æg, honning og æblemost. På Lindholt og Kragsbjerg er der ingen servering, men der er bænke og borde i parkerne, hvor man er velkommen til at spise sin medbragte mad."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Ture og arrangementer"
+          },
+          {
+            "t": "h",
+            "text": "Guidede ture",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Hovedbygningen på Lindholt Herregård kan kun ses på en guidet tur. Turene foregår hver onsdag og lørdag kl. 14 i perioden fra 1. maj til 30. september og varer ca. 1½ time. Prisen er 125 kr. pr. person, og man skal tilmelde sig senest dagen før på herregårdens hjemmeside. Turen går ad mange trapper og er desværre ikke egnet for kørestolsbrugere."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Børn under 12 år kommer gratis med på turen, men skal være sammen med en voksen. For skoleklasser og andre grupper på mindst 15 personer kan der arrangeres særlige ture efter aftale."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Arrangementer i sæsonen",
+            "level": 3
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "Dato",
+                "Arrangement",
+                "Sted"
+              ],
+              [
+                "Lørdag den 24. maj",
+                "Plantemarked med salg af stauder og krydderurter",
+                "Hvidsholm"
+              ],
+              [
+                "Mandag den 23. juni",
+                "Sankthansfest med bål og fællessang",
+                "Ellemose Gods"
+              ],
+              [
+                "Hver tirsdag i juli",
+                "Børnenes slotsdag: kostumer, skattejagt og ridderskole",
+                "Bøgholm Slot"
+              ],
+              [
+                "Lørdag den 9. august",
+                "Høstmarked med heste og gamle landbrugsmaskiner",
+                "Kragsbjerg Hovedgård"
+              ],
+              [
+                "Søndag den 14. september",
+                "Svampetur i skoven med naturvejleder",
+                "Storeskov Gods"
+              ]
+            ],
+            "header": true
+          }
+        ]
+      },
+      {
+        "title": "Nyt fra slotte og herregårde",
+        "blocks": [
+          {
+            "t": "h",
+            "text": "Overraskelser på godserne"
+          },
+          {
+            "t": "h",
+            "text": "Sjælden ring fundet i voldgrav",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Da voldgraven omkring Hvidsholm i efteråret blev renset for mudder for første gang i over 80 år, fik arbejdsfolkene en overraskelse. I mudderet lå en guldring med et indgraveret våbenskjold. Ifølge egnsmuseet er der tale om en signetring – en ring, som adelsmænd brugte til at sætte deres segl på breve og dokumenter. Ringen er fra omkring 1620 og har sandsynligvis tilhørt Jørgen Rosenkilde, der ejede Hvidsholm på det tidspunkt."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "– Det er utroligt, at den har ligget dér i 400 år, uden at nogen har fundet den, siger museumsinspektør Lene Bach. Ringen kan ses på museet fra 1. marts."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Flagermus udskyder nyt tag",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Det nye stråtag på Kragsbjerg Hovedgård bliver alligevel ikke lagt i år. Under et eftersyn i foråret opdagede man nemlig, at en koloni af den sjældne bredøret flagermus har slået sig ned på loftet over hovedbygningens østfløj. Flagermus er fredede i Danmark, og man må ikke forstyrre dem, mens de har unger. Arbejdet med taget kan derfor tidligst gå i gang i oktober, når flagermusene er fløjet videre til deres vinterkvarter."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "– Det er selvfølgelig ærgerligt, for taget trænger virkelig, men vi er også lidt stolte af vores nye beboere, siger ejer Henrik Kragh."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Haver og natur"
+          },
+          {
+            "t": "h",
+            "text": "Rosenhaven genåbner",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Efter tre års arbejde kan Bøgholm Slot igen åbne sin rosenhave for publikum. Haven blev anlagt i 1912 af slottets daværende ejer, grevinde Augusta Bøgh, men i de senere år var mange af rosenbuskene blevet syge. Gartnerne har nu plantet over 1.200 nye roser i 140 forskellige sorter, og mange af dem er gamle sorter, som også var med i den oprindelige have. Den officielle genåbning finder sted lørdag den 14. juni kl. 11, hvor alle gæster får gratis kaffe og en rose med hjem."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Ny vandresti åbner gennem godsskoven",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Fra 1. maj kan vandrere for første gang gå gennem hele skoven på Storeskov Gods. Den nye sti er 11 kilometer lang og går forbi godsets tre nye søer og en gammel kalkovn fra 1800-tallet. Stien er markeret med gule pæle, og undervejs er der fire bålpladser og to shelters, som kan lejes for 50 kr. pr. person pr. nat. Hunde skal føres i snor hele året, fordi der er mange rådyr i skoven."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Kultur og fester"
+          },
+          {
+            "t": "h",
+            "text": "Koncerter i riddersalen",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Også i år kan man opleve klassisk musik i Ellemose Gods’ gamle riddersal. Sommerens seks koncerter finder sted hver anden søndag fra midten af juni. Billetter koster 220 kr. og inkluderer et glas mousserende vin i pausen. Da der kun er plads til 90 tilhørere, anbefaler godset, at man køber billet i god tid."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Herregårdsbryllupper er populære som aldrig før",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Flere og flere par vælger at holde bryllup på en herregård. På Storeskov Gods er der i år booket 41 bryllupper, og det er næsten dobbelt så mange som for fem år siden. – Mange par drømmer om de smukke rammer, og de vil gerne have, at gæsterne kan blive og overnatte samme sted, fortæller godsets eventkoordinator, Sara Mølgaard. Næste års lørdage i juni, juli og august er allerede udsolgt."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Gammel lade bliver til egnsteater",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Den store lade på Ellemose Gods har stået tom siden 1980’erne, men nu skal den have nyt liv. Godset har indgået en aftale med det lokale amatørteater, som fremover får lov at bruge laden til forestillinger og prøver. Til gengæld hjælper teatrets medlemmer med at sætte bygningen i stand. Den første forestilling forventes at få premiere til jul."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Gamle bygninger får nyt liv"
+          },
+          {
+            "t": "h",
+            "text": "Stort tilskud til gamle staldbygninger",
+            "level": 3
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Lindholt Herregård har fået 2,4 millioner kroner fra en privat fond til at restaurere de to gamle hestestalde fra 1780’erne. Staldene har i mange år kun været brugt som lager, og murene er begyndt at slå revner. Når arbejdet er færdigt om cirka to år, skal den ene stald bruges til udstillinger, mens den anden skal lejes ud til lokale kunsthåndværkere."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Livet på herregården i dag",
+        "blocks": [
+          {
+            "t": "h",
+            "text": "Karen Rosenkilde, godsejer på Hvidsholm, fortæller"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Jeg overtog Hvidsholm efter min far i 2016. Inden da havde jeg arbejdet som dyrlæge i Aarhus i 12 år, og jeg havde egentlig aldrig forestillet mig, at jeg skulle flytte hjem igen. Men min bror ville ikke overtage gården, og jeg kunne ikke bære at se den blive solgt til fremmede."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Det, der overraskede mig mest, var, hvor meget det koster at holde en gammel bygning ved lige. Hovedbygningen har 34 værelser, og bare det at varme den op om vinteren koster en formue. Derfor har vi lukket hele anden sal af fra november til marts, så vi kun varmer de rum op, vi bruger."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "For at få økonomien til at hænge sammen har vi åbnet en café i det gamle vognhus og lavet en shelterplads i parken. Caféen var min mands idé, og den er blevet en større succes, end vi havde turdet håbe på. Om sommeren har vi seks unge ansat, og de fleste af dem kommer fra landsbyen."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Jonas Bech, gartner på Bøgholm Slot, fortæller"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Jeg har været gartner på Bøgholm i ni år, og jeg elsker, at mit arbejde aldrig er det samme. Om foråret beskærer vi rosenbuskene og sår i drivhuset, om sommeren slår vi græs og luger, og om efteråret samler vi blade og planter løg. Det er hårdt fysisk arbejde, men jeg får lov at være ude hele dagen."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Det mest krævende er de lange buksbomhække i den franske have. De skal klippes med håndkraft to gange om året, og det tager tre mand omkring en måned hver gang. Hvis bare én hæk bliver skæv, kan man se det fra slottets vinduer."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Det bedste ved jobbet er, når gæsterne kommer hen og spørger om navnet på en rose, eller når et barn står og kigger på fiskene i søen. Så kan jeg mærke, at det, vi laver, betyder noget for andre."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Amira Haddad, guide på Lindholt Herregård, fortæller"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Jeg læser historie på universitetet og arbejder som guide på Lindholt om sommeren. Jeg kom til Danmark som 11-årig, og det var faktisk på en skoletur til en herregård, at jeg blev interesseret i dansk historie. Jeg kunne ikke forstå, at én familie havde boet i det samme hus i over 300 år."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "På mine ture fortæller jeg både om de adelige og om tjenestefolkene. Det er vigtigt for mig, at gæsterne forstår, at der stod mange hårdtarbejdende mennesker bag luksussen. Mange bliver overraskede, når de hører, at en kokkepige typisk arbejdede fra klokken fem om morgenen til sent om aftenen."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Børnene spørger altid om det samme: om der spøger på herregården. Og ja, der er faktisk en gammel historie om en hvid dame i biblioteket – men den gemmer jeg til sidst på turen."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Mads og Signe holdt bryllup på Storeskov Gods"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Vi havde været til en vens bryllup på en herregård og var enige om, at det skulle være sådan, hvis vi selv blev gift. Det var ikke billigt, men vi sparede til gengæld på andre ting. For eksempel lavede Signes mor alle blomsterdekorationerne, og vores venner stod for musikken. Det bedste var, at alle vores 85 gæster kunne sove i godsets gamle staldbygning, så ingen behøvede at køre hjem midt om natten."
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Peter Nygaard, skovfoged på Storeskov Gods, fortæller"
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Storeskov har omkring 600 hektar skov, og det er mig, der har ansvaret for den. Jeg planlægger, hvilke træer der skal fældes, og hvor der skal plantes nyt. Det er et arbejde, hvor man skal tænke langt frem, for en bøg, som jeg planter i dag, bliver først fældet om 120 år. Så det er mine oldebørn, der får glæde af den."
+            ]
+          },
+          {
+            "t": "p",
+            "runs": [
+              "Tidligere handlede skovbrug mest om at producere tømmer, men i dag fylder naturen meget mere. Vi lader gamle træer stå og rådne, fordi de giver plads til svampe, insekter og fugle, og vi har lavet tre nye søer. Jeg bliver tit spurgt, om det ikke er spild af penge. Men en god skov er ikke kun en fabrik – den skal også være et sted, hvor dyrene og menneskene har lyst til at være."
+            ]
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "n": 1,
+        "section": "Herregårdenes historie",
+        "prompt": "Hvorfor kunne borgmurene ikke længere beskytte borgene omkring år 1500?",
+        "key": "Kanoner (og krudt) (blev almindelige)"
+      },
+      {
+        "n": 2,
+        "section": "Herregårdenes historie",
+        "prompt": "Hvad blev det arbejde kaldt, som fæstebønderne skulle udføre gratis på herregårdens jord?",
+        "key": "Hoveri"
+      },
+      {
+        "n": 3,
+        "section": "Herregårdenes historie",
+        "prompt": "Gjaldt stavnsbåndet for en 38-årig mand, da det blev indført i 1733? Svar ’ja’ eller ’nej’.",
+        "key": "Nej",
+        "paraphrased": true
+      },
+      {
+        "n": 4,
+        "section": "Fem slotte, der er et besøg værd",
+        "prompt": "Hvad skulle skibene betale ud for Helsingør, når de sejlede gennem Øresund?",
+        "key": "Sundtold(en)"
+      },
+      {
+        "n": 5,
+        "section": "Fem slotte, der er et besøg værd",
+        "prompt": "Hvad er der i Slotskirken på Frederiksborg Slot, som er fra 1610?",
+        "key": "(Et berømt) orgel"
+      },
+      {
+        "n": 6,
+        "section": "Fem slotte, der er et besøg værd",
+        "prompt": "Hvilke materialer brugte arkitekterne, da de byggede nye dele på ruinen af Koldinghus?",
+        "key": "Træ/stål/glas"
+      },
+      {
+        "n": 7,
+        "section": "Herregårdsruten – praktisk information",
+        "prompt": "På hvilken herregård kan man overnatte gratis?",
+        "key": "Hvidsholm",
+        "also": [
+          "shelterplads",
+          "shelterplads på Hvidsholm"
+        ]
+      },
+      {
+        "n": 8,
+        "section": "Herregårdsruten – praktisk information",
+        "prompt": "Hvor stor rabat giver Herregårdspasset i herregårdenes caféer?",
+        "key": "10 procent",
+        "also": [
+          "10 %",
+          "10%"
+        ]
+      },
+      {
+        "n": 9,
+        "section": "Herregårdsruten – praktisk information",
+        "prompt": "Hvilke ugedage kan man komme på guidet tur i hovedbygningen på Lindholt Herregård?",
+        "key": "(Hver) onsdag og lørdag",
+        "also": [
+          "(Hver) onsdag(e) og lørdag(e)"
+        ]
+      },
+      {
+        "n": 10,
+        "section": "Nyt fra slotte og herregårde",
+        "prompt": "Hvad brugte adelsmænd en signetring til?",
+        "key": "(At sætte deres) segl (på breve og dokumenter)",
+        "also": [
+          "(Til) (at) sætte segl (på breve/dokumenter)"
+        ]
+      },
+      {
+        "n": 11,
+        "section": "Nyt fra slotte og herregårde",
+        "prompt": "Hvorfor kan arbejdet med det nye tag på Kragsbjerg Hovedgård tidligst begynde i oktober?",
+        "key": "(En koloni af) flagermus (har slået sig ned på loftet)",
+        "also": [
+          "flagermus på loftet",
+          "der bor flagermus på loftet",
+          "flagermus har unger",
+          "flagermusene",
+          "flagermus(ene) har unger",
+          "flagermus(ene) er fredede",
+          "flagermusene (er) fløjet/flyver (videre) til (deres) vinterkvarter"
+        ]
+      },
+      {
+        "n": 12,
+        "section": "Nyt fra slotte og herregårde",
+        "prompt": "Hvor mange forskellige sorter roser er der plantet i rosenhaven på Bøgholm Slot?",
+        "key": "140"
+      },
+      {
+        "n": 13,
+        "section": "Livet på herregården i dag",
+        "prompt": "Hvad arbejdede Karen Rosenkilde som, før hun overtog Hvidsholm?",
+        "key": "Dyrlæge"
+      },
+      {
+        "n": 14,
+        "section": "Livet på herregården i dag",
+        "prompt": "Hvad har Karen Rosenkilde gjort for at spare på varmen fra november til marts?",
+        "key": "(Lukket) (hele) anden sal (af)",
+        "also": [
+          "(Lukket) (hele) 2. sal (af)"
+        ]
+      },
+      {
+        "n": 15,
+        "section": "Livet på herregården i dag",
+        "prompt": "Hvad spørger børnene altid om på Amira Haddads ture?",
+        "key": "(Om der) spøger (på herregården)",
+        "also": [
+          "spøgelse(r)"
+        ]
+      }
+    ]
+  },
+  "lf2": {
+    "tasks": [
+      {
+        "kind": "mc",
+        "label": "2A",
+        "title": "Unge og sociale medier – mere end skærmtid",
+        "passages": [
+          {
+            "title": "Unge og sociale medier – mere end skærmtid",
+            "blocks": [
+              {
+                "t": "p",
+                "runs": [
+                  "Danske unge bruger i gennemsnit flere timer om dagen på sociale medier. Det viser den ene undersøgelse efter den anden, og tallene får jævnligt forældre, lærere og politikere til at slå alarm. Mange frygter, at de unge bliver ensomme, får dårligere selvværd og sover for lidt, fordi de ikke kan lægge telefonen fra sig. Men ifølge Maja Kjeldsen, der er lektor i medievidenskab og har forsket i unges digitale liv i over ti år, er debatten ofte alt for unuanceret."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "– Vi taler næsten kun om, hvor mange timer de unge bruger på skærmen. Men tiden i sig selv siger ikke ret meget. Det afgørende er, hvad de laver, og hvordan de har det bagefter, siger hun."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Hun peger på, at en time brugt på at chatte med en god ven eller på at følge en video om, hvordan man spiller guitar, er noget helt andet end en time, hvor man passivt scroller gennem billeder af andre menneskers tilsyneladende perfekte liv. Forskningen tyder på, at netop den passive brug hænger sammen med mistrivsel, mens den aktive brug, hvor de unge skaber noget eller taler med andre, i mange tilfælde kan styrke deres sociale liv."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Billedet bekræftes af en undersøgelse blandt 1.500 gymnasieelever, som Maja Kjeldsen og hendes kolleger gennemførte sidste år. Her svarede de elever, der mest brugte de sociale medier til at holde kontakt med venner, at de var lige så tilfredse med deres liv som deres klassekammerater. De elever, der mest sad og kiggede på andres opslag, var derimod markant mindre tilfredse."
+                ]
+              },
+              {
+                "t": "h",
+                "text": "De unge kender selv problemet",
+                "level": 3
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Når Maja Kjeldsen interviewer unge, bliver hun ofte overrasket over, hvor reflekterede de er. De fleste ved godt, at de bruger mere tid på telefonen, end de har godt af, og mange har på eget initiativ prøvet at begrænse forbruget. Nogle sletter apps i eksamensperioden, andre slår notifikationerne fra, og en del lægger telefonen i et andet rum, når de skal sove."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "– Det er en myte, at de unge er ligeglade. Mange af dem er faktisk mere kritiske over for de sociale medier end deres forældre. Problemet er, at det er svært at gøre noget ved det alene, fordi så meget af deres sociale liv foregår dér. Hvis man logger af, risikerer man at gå glip af aftaler, jokes og invitationer, siger hun."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Det kan 17-årige Emil Sørensen fra Odense nikke genkendende til. Sidste vinter besluttede han at slette alle sine sociale medier i en måned."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "– De første dage var det befriende. Jeg sov bedre og fik læst mere. Men efter en uges tid fandt jeg ud af, at mine venner havde lavet en gruppe, hvor de planlagde en tur i sommerhus, og jeg havde ikke set noget af det. Det var ikke, fordi de ville holde mig udenfor. De havde bare glemt, at jeg ikke var på. Så jeg lagde én app tilbage igen – kun den, vi bruger til at skrive sammen, fortæller han."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "I dag har Emil en aftale med sig selv om, at telefonen ligger i køkkenet efter klokken 22. Han føler sig ikke afhængig, men han kan godt mærke, at det kræver selvdisciplin at overholde aftalen."
+                ]
+              },
+              {
+                "t": "h",
+                "text": "Fælles aftaler virker bedst",
+                "level": 3
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Emils oplevelse er ifølge Maja Kjeldsen et godt eksempel på, hvorfor løsninger, som den enkelte skal klare på egen hånd, sjældent holder. Hun anbefaler i stedet, at man laver fælles aftaler – i familien, i klassen eller i sportsklubben."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "– Når hele klassen er enige om, at telefonerne ligger i en kasse i frikvartererne, er der ingen, der går glip af noget. Det fjerner presset fra den enkelte. Flere skoler, der har prøvet det, fortæller, at eleverne begynder at lege og snakke mere sammen, og at det faktisk er eleverne selv, der sørger for, at reglerne bliver overholdt, siger hun."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Hun advarer dog mod at tro, at forbud alene kan løse problemet. Hvis de voksne kun fokuserer på at fjerne telefonerne, lærer de unge ikke at bruge de sociale medier fornuftigt. Det er nemlig også på de sociale medier, at de skal lære at håndtere konflikter, gennemskue reklamer og vurdere, om en nyhed er troværdig."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "– Vi lærer børn at cykle i trafikken i stedet for at forbyde dem at cykle. Sådan bør vi også tænke om de sociale medier. De unge har brug for voksne, der interesserer sig for, hvad de laver online, og som tør tale med dem om det – uden at løfte pegefingeren hele tiden, siger Maja Kjeldsen."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Forældrene spiller derfor en vigtig rolle. Men her peger hun på et problem, som mange voksne nødigt vil høre om: – Mange forældre bruger selv telefonen ved middagsbordet og i bilen. Det er svært at bede sine børn om at lægge telefonen væk, hvis man ikke selv gør det. Unge er meget opmærksomme på dobbeltmoral."
+                ]
+              },
+              {
+                "t": "p",
+                "runs": [
+                  "Emil er enig. – Min mor siger altid, at jeg skal lægge telefonen væk, men hun tjekker selv sin mail, mens vi spiser. Nu har vi aftalt, at ingen af os har telefonen med ved bordet. Det er faktisk ret hyggeligt."
+                ]
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "prompt": "Hvad mener Maja Kjeldsen om debatten om unges brug af sociale medier?",
+            "options": [
+              "Hun mener, at den undervurderer, hvor mange timer de unge bruger på sociale medier.",
+              "Hun mener, at det er vigtigere at se på, hvad de unge bruger tiden til, end på hvor meget tid de bruger.",
+              "Hun mener, at den overser, at brugen af sociale medier generelt styrker de unges sociale liv."
+            ],
+            "correct": "B"
+          },
+          {
+            "prompt": "Hvorfor lagde Emil Sørensen en af sine apps tilbage på telefonen?",
+            "options": [
+              "Fordi hans venner var blevet sure over, at han ikke længere var på de sociale medier.",
+              "Fordi han havde fået sværere ved at sove og koncentrere sig om at læse uden den.",
+              "Fordi han ikke fik at vide, hvad vennerne aftalte, når han ikke var på."
+            ],
+            "correct": "C"
+          },
+          {
+            "prompt": "Hvilket af følgende udsagn er i overensstemmelse med det, Maja Kjeldsen siger om regler for brug af mobiltelefoner?",
+            "options": [
+              "Forbud kan ikke stå alene, fordi de unge også skal lære at bruge de sociale medier fornuftigt.",
+              "Reglerne virker kun, hvis det er lærerne og forældrene, der sørger for, at de bliver overholdt.",
+              "Det er bedst, når hver enkelt ung selv bestemmer, hvornår telefonen skal lægges væk."
+            ],
+            "correct": "A"
+          }
+        ],
+        "points": 2
+      },
+      {
+        "kind": "insert",
+        "label": "2B",
+        "title": "Kortere dage, færre lektier",
+        "passage": {
+          "title": "Kortere dage, færre lektier",
+          "blocks": [
+            {
+              "t": "p",
+              "runs": [
+                "Klokken er lidt over et, og i 4.B på Rønnebakkeskolen pakker eleverne deres tasker. For bare to år siden ville de have haft mindst to lektioner mere, men i dag slutter skoledagen tidligere for de fleste klasser. Skolen er en af de første i landet, der har skåret i både antallet af timer og mængden af lektier – og erfaringerne er indtil videre gode."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Baggrunden er en lang debat om skoledagens længde. Da folkeskolereformen trådte i kraft i 2014, blev skoledagen markant længere for alle elever. Tanken var, at mere tid i skolen ville give mere læring, særligt for de elever, der ikke får hjælp med skolearbejdet derhjemme."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 1
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Den udvikling kunne skoleleder Lars Holm også se på Rønnebakkeskolen. – De sidste timer om eftermiddagen var nærmest spildt. Eleverne kunne ikke koncentrere sig, og lærerne brugte mere tid på at skabe ro end på at undervise, siger han."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Derfor besluttede skolen sammen med skolebestyrelsen at prøve noget nyt. Skoledagen blev i gennemsnit forkortet med fem timer om ugen, og samtidig blev det besluttet, at eleverne i indskolingen slet ikke skal have lektier for."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 2
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Det betyder i praksis, at der ikke længere bliver givet lektier for bare for at fylde tiden ud. – Tidligere kunne eleverne få 20 regnestykker for, som lignede dem, de allerede havde lavet i timen. Nu skal en lektie give eleverne noget nyt. Det kan for eksempel være, at de skal interviewe en bedsteforælder eller læse en bog, de selv har valgt, fortæller matematiklærer Sofie Lund."
+              ]
+            },
+            {
+              "t": "h",
+              "text": "Mere tid til fritiden",
+              "level": 3
+            },
+            {
+              "t": "p",
+              "runs": [
+                "For mange familier har ændringen gjort hverdagen lettere. Lise Andersen er mor til to drenge på henholdsvis 8 og 12 år."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "– Før kom de hjem klokken halv tre og skulle så lave lektier, inden de skulle til fodbold. Det endte tit med konflikter ved køkkenbordet, fordi alle var trætte. Nu har de tid til at lege, og når der er lektier, er de til at overskue, siger hun."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 3
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Den bekymring deler flere forældre. Når eleverne går tidligere fra skole, kommer de yngste nemlig til at tilbringe flere timer i SFO’en, og det stiller nye krav til personalet. På Rønnebakkeskolen har man derfor brugt en del af de sparede penge på at ansætte flere pædagoger om eftermiddagen."
+              ]
+            },
+            {
+              "t": "h",
+              "text": "Forskerne er forsigtige",
+              "level": 3
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Selvom erfaringerne fra Rønnebakkeskolen er gode, advarer forskere mod at drage for hurtige konklusioner. En af dem er Thomas Riis, der er lektor i pædagogik og har fulgt forsøg med kortere skoledage på 12 skoler, blandt andet Rønnebakkeskolen."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "– Det er for tidligt at sige, om eleverne lærer mere eller mindre. Vi kan se, at de trives bedre, og at fraværet er faldet. Men det er ikke det samme, som at de bliver dygtigere, siger han."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 4
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Det var netop disse elever, som de lange skoledage i sin tid skulle hjælpe. Thomas Riis mener derfor, at skolerne bør tilbyde lektiehjælp eller faglig fordybelse efter skoletid, så de elever, der har brug for det, stadig kan få støtte."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "På Rønnebakkeskolen er man opmærksom på problemet. To eftermiddage om ugen er der lektiecafé, hvor lærere og ældre elever hjælper til. – Vi kan se, at det især er de elever, der har allermest brug for det, som kommer. Det er vi meget glade for, siger Lars Holm."
+              ]
+            },
+            {
+              "t": "gap",
+              "n": 5
+            },
+            {
+              "t": "p",
+              "runs": [
+                "I 4.B er der i hvert fald ingen tvivl. – Det er meget bedre nu. Man er ikke så træt, og man har tid til at være sammen med sine venner, siger 10-årige Ida."
+              ]
+            }
+          ]
+        },
+        "inserts": [
+          {
+            "letter": "A",
+            "text": "Hun er dog ikke helt ukritisk. Hendes yngste søn går i SFO om eftermiddagen, og hun er bekymret for, om tiden dér bliver brugt fornuftigt, nu hvor skoledagen er blevet kortere."
+          },
+          {
+            "letter": "B",
+            "text": "Det gælder også for de ældste elever, der fremover heller ikke skal have lektier for. I stedet skal de lave alt skolearbejde i timerne."
+          },
+          {
+            "letter": "C",
+            "text": "Sådan gik det imidlertid ikke. Flere undersøgelser har siden vist, at de lange dage ikke har gjort eleverne fagligt dygtigere, og at mange af dem er blevet mere trætte og mindre motiverede."
+          },
+          {
+            "letter": "D",
+            "text": "Om forsøget skal fortsætte, tager skolebestyrelsen stilling til næste forår. Indtil da indsamler skolen tal for både trivsel, fravær og karakterer. Men hvis det står til eleverne, er sagen allerede afgjort."
+          },
+          {
+            "letter": "E",
+            "text": "De ældre elever får stadig lektier, men kun i begrænset omfang. Til gengæld skal lektierne være meningsfulde, og lærerne skal kunne forklare, hvad formålet med dem er."
+          },
+          {
+            "letter": "F",
+            "text": "Fraværet er til gengæld det samme som før forsøget begyndte. Det undrer både lærere og forældre, som havde regnet med, at det ville falde."
+          },
+          {
+            "letter": "G",
+            "text": "Han peger især på én gruppe, som man skal holde øje med: de elever, der ikke får hjælp hjemmefra. For dem kan færre timer i skolen betyde, at de kommer endnu mere bagud."
+          }
+        ],
+        "correct": [
+          "C",
+          "E",
+          "A",
+          "G",
+          "D"
+        ],
+        "points": 2
+      },
+      {
+        "kind": "cloze",
+        "label": "3",
+        "title": "Flere danskere pendler længere",
+        "passage": {
+          "title": "Flere danskere pendler længere",
+          "blocks": [
+            {
+              "t": "p",
+              "runs": [
+                {
+                  "strong": "Danskerne bruger mere og mere tid på at komme på arbejde. Mange vælger bevidst en lang transporttid, "
+                },
+                {
+                  "gap": 0
+                },
+                {
+                  "strong": " det giver dem mulighed for at bo billigere eller tættere på naturen."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Antallet af danskere, der har mere end 50 kilometer til deres arbejdsplads, er vokset støt gennem de seneste årtier. En af de vigtigste ",
+                {
+                  "gap": 1
+                },
+                " til udviklingen er boligpriserne i de store byer. I København og Aarhus er det blevet så dyrt at købe bolig, at mange børnefamilier flytter ud på landet eller til mindre byer, hvor de kan få et større hus for de samme penge."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Arbejdspladserne bliver ",
+                {
+                  "gap": 2
+                },
+                " ikke flyttet med. Tværtimod er mange af de højtuddannede job samlet i og omkring de største byer. Resultatet er, at stadig flere bruger en til to timer om dagen i bil, tog eller bus."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "For nogle er den lange transport en belastning. Forskning viser, at lang pendling kan gå ud ",
+                {
+                  "gap": 3
+                },
+                " både søvnen, motionen og familielivet. Når man først kommer hjem klokken 18 eller senere, er der ikke meget tid tilbage til aftensmad, lektier og sengetid."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Andre ser ",
+                {
+                  "gap": 4
+                },
+                " transporttiden som et frirum. Især de mange, der pendler med tog, fortæller, at de bruger tiden til at læse, høre podcasts eller forberede sig til dagens møder. – Turen er min egen tid. Når jeg står af toget, har jeg allerede klaret mine mails, siger Henrik Lauritsen, der hver dag pendler fra Odense til København."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Coronapandemien gav mange pendlere en ny mulighed. Da store dele af Danmark arbejdede hjemmefra, opdagede både ansatte og ledere, at mange opgaver sagtens kan ",
+                {
+                  "gap": 5
+                },
+                " uden at man er på kontoret. I dag har mange virksomheder indført faste hjemmearbejdsdage, og det har gjort det mere overkommeligt at bo langt fra arbejdet."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Hjemmearbejde er dog ikke en ",
+                {
+                  "gap": 6
+                },
+                " for alle. Sygeplejersker, pædagoger og håndværkere kan ikke udføre deres arbejde hjemmefra, og for dem er der ingen vej uden om den daglige transport."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Pendlingen har også konsekvenser for klimaet. Langt de fleste pendlere kører i bil, og transportsektoren står ",
+                {
+                  "gap": 7
+                },
+                " en stor del af Danmarks udledning af CO2. Derfor arbejder både staten og kommunerne på at gøre det mere attraktivt at tage toget eller at dele bil med kolleger."
+              ]
+            },
+            {
+              "t": "p",
+              "runs": [
+                "Flere eksperter mener dog, at det ikke er nok at forbedre den kollektive trafik. Hvis man for alvor vil ",
+                {
+                  "gap": 8
+                },
+                " pendlingen, er man nødt til at flytte flere arbejdspladser ud af de store byer, så folk kan arbejde tæt på, hvor de bor."
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          {
+            "options": [
+              "fordele",
+              "betingelser",
+              "løsninger",
+              "årsager"
+            ],
+            "correct": "D"
+          },
+          {
+            "options": [
+              "dog",
+              "derfor",
+              "også",
+              "dermed"
+            ],
+            "correct": "A"
+          },
+          {
+            "options": [
+              "med",
+              "fra",
+              "over",
+              "af"
+            ],
+            "correct": "C"
+          },
+          {
+            "options": [
+              "altså",
+              "derimod",
+              "således",
+              "dermed"
+            ],
+            "correct": "B"
+          },
+          {
+            "options": [
+              "bruges",
+              "tages",
+              "gives",
+              "løses"
+            ],
+            "correct": "D"
+          },
+          {
+            "options": [
+              "ulempe",
+              "mulighed",
+              "hindring",
+              "belastning"
+            ],
+            "correct": "B"
+          },
+          {
+            "options": [
+              "med",
+              "over",
+              "for",
+              "til"
+            ],
+            "correct": "C"
+          },
+          {
+            "options": [
+              "mindske",
+              "øge",
+              "forlænge",
+              "udvide"
+            ],
+            "correct": "A"
+          }
+        ],
+        "example": {
+          "options": [
+            "selvom",
+            "fordi",
+            "medmindre",
+            "mens"
+          ],
+          "correct": "B"
+        },
+        "points": 1
+      }
+    ]
+  }
+}

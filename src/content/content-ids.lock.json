@@ -3576,5 +3576,13 @@
     "s-vaerd-3",
     "s-vild",
     "s-vinden-1"
+  ],
+  "simulatedPapers": [
+    "sim-1",
+    "sim-2",
+    "sim-3",
+    "sim-4",
+    "sim-5",
+    "sim-6"
   ]
 }

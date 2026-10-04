@@ -7,3 +7,6 @@ node_modules
 .expo
 dist
 scripts/sources
+# Official exam papers (see .gitignore)
+data-from-past-tests-pdf
+content-private

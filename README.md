@@ -334,6 +334,27 @@ derived by replaying it (`src/sync/replay.ts`). Consequences:
 Schema changes go in a new numbered file in `supabase/migrations/` and only
 ever **add** — never drop or rewrite a column progress lives in.
 
+### Reading papers (official PD3 papers)
+
+The official reading papers are not in this repo or the app bundle; they are
+served from Supabase to signed-in users only. To set them up:
+
+1. In the SQL editor, run `supabase/migrations/0002_exam.sql` (the
+   `exam_papers` and `exam_attempts` tables).
+2. Add the project's **secret** key to `.env.local` — server-side only, never
+   with an `EXPO_PUBLIC_` prefix, never in Vercel:
+
+   ```
+   SUPABASE_SECRET_KEY=<secret / service-role key>
+   ```
+
+3. With the transcribed papers in `content-private/exams/` (gitignored), run
+   `npm run exam:upload`. It validates every paper, then uploads the ones that
+   changed.
+
+Simulated papers ship with the app (`src/content/exams/simulated/`) and need
+none of this.
+
 ## Content
 
 Every bank item has a stable `id`, a `level` (niveau 1–5) and, for drafted
@@ -392,6 +413,23 @@ the two most recent sessions title-only, because those source sheets are
 picture prompts with no printed answer key; `PRACTICE_TOPICS` is clearly
 separated because it was written to match the exam's question pattern rather
 than transcribed from one, and every screen that shows it says so.
+
+The **reading papers** come in two kinds. Official PD3 papers (2015–2024) are
+transcribed from the learner's own copies of the SIRI exam booklets, with the
+censor booklets' answer keys and each session's point-to-grade table. Because
+this repo is public and the web build is a static bundle, the transcriptions
+live in a gitignored folder (`content-private/`) and are served from Supabase
+only to signed-in users; each paper is labelled with its session. Simulated
+papers (`src/content/exams/simulated/`) are written for the app in the current
+format, modelled on the official ones, and are labelled as simulated wherever
+they appear. sim-1–3 turned out easier than the official papers and are listed
+as warm-ups; sim-4 on are marked `level: 'exam'` and must stay within the
+official current-format papers' range on readability (LIX), question shape and
+answer cues: `npm run exam:difficulty` measures every paper against the
+official ones (when `content-private/` is present) and fails if an exam-level
+paper falls outside. A simulated paper's content never changes once shipped —
+attempts store answers by question position — so harder papers are added under
+new ids, never written over old ones.
 
 ## Roadmap
 

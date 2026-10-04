@@ -46,3 +46,8 @@ coverage/
 .vercel
 scripts/sources/
 .e2e-accounts.local
+
+# Official exam papers: source PDFs and their transcriptions stay local (public repo).
+# Transcriptions are served to signed-in users from Supabase instead.
+data-from-past-tests-pdf/
+content-private/

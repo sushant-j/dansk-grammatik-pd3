@@ -140,6 +140,10 @@ function RootStack() {
         <Stack.Screen name="topics/[id]" options={{ title: 'Topic', ...OWN_HEADING }} />
         <Stack.Screen name="topics/practice" options={{ title: 'Practice topics', ...OWN_HEADING }} />
         <Stack.Screen name="topics/practice/[id]" options={{ title: 'Practice', ...OWN_HEADING }} />
+        <Stack.Screen name="exam/papers" options={{ title: 'Reading papers', ...OWN_HEADING }} />
+        <Stack.Screen name="exam/[paperId]/index" options={{ title: 'Paper', ...OWN_HEADING }} />
+        <Stack.Screen name="exam/[paperId]/[part]" options={{ title: 'Reading', ...OWN_HEADING }} />
+        <Stack.Screen name="exam/[paperId]/result" options={{ title: 'Result', ...OWN_HEADING }} />
       </Stack>
     </>
   );

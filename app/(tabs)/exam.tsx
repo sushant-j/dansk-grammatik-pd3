@@ -4,6 +4,7 @@ import { Linking, Pressable, View } from 'react-native';
 import { EXAM_GUIDES, GUIDE_ORDER, type GuideExam } from '../../src/content/examGuides';
 import { useSettings } from '../../src/profile/settings';
 import { Screen } from '../../src/ui/Screen';
+import { Segmented } from '../../src/ui/Segmented';
 import { Card, Divider, Label, ListGroup, ListRow, Txt, s } from '../../src/ui/primitives';
 import { allYears, TOPICS } from '../../src/content/topics';
 import { useTheme } from '../../src/ui/theme';
@@ -26,31 +27,16 @@ export default function ExamGuideScreen() {
         gap: t.space(4),
       }}
     >
-      <View style={[s.row, { gap: t.space(2) }]}>
-        {GUIDE_ORDER.map((e) => (
-          <Pressable
-            key={e}
-            onPress={() => setExam(e)}
-            accessibilityRole="button"
-            accessibilityState={{ selected: e === exam }}
-            style={{
-              flex: 1,
-              alignItems: 'center',
-              borderWidth: 1,
-              borderColor: e === exam ? t.c.accent : t.c.border,
-              backgroundColor: e === exam ? t.c.accentSoft : t.c.surface,
-              borderRadius: 999,
-              paddingVertical: t.space(2),
-            }}
-          >
-            <Txt variant="chip" color={e === exam ? t.c.accent : t.c.textMuted}>
-              {e}
-            </Txt>
-          </Pressable>
-        ))}
-      </View>
+      <Segmented options={GUIDE_ORDER.map((e) => ({ key: e, label: e }))} value={exam} onChange={setExam} />
 
       <ListGroup title="Practise for it">
+        {exam === 'PD3' ? (
+        <ListRow
+          title="Reading papers"
+          detail="Real PD3 reading papers from 2015–2024 and simulated ones, timed or as practice."
+          onPress={() => router.push('/exam/papers' as never)}
+        />
+        ) : null}
         {exam === 'PD3' ? (
         <ListRow
           title="Oral exam topics"
