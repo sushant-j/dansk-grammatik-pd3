@@ -7,6 +7,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { buildTheme } from '../src/theme';
 import { resolveThemeMode, useSettings } from '../src/profile/settings';
 import { ThemeProvider } from '../src/ui/theme';
+import { ThemeToggle } from '../src/ui/ThemeToggle';
 
 export default function RootLayout() {
   const scheme = useColorScheme();
@@ -26,6 +27,7 @@ export default function RootLayout() {
               headerTitleStyle: { fontWeight: '700' },
               headerShadowVisible: false,
               contentStyle: { backgroundColor: t.c.bg },
+              headerRight: () => <ThemeToggle />,
             }}
           >
             <Stack.Screen name="index" options={{ title: 'Skema' }} />

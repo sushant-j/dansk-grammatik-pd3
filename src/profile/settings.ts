@@ -84,6 +84,15 @@ export function resolveThemeMode(
   return systemScheme === 'dark' ? 'dark' : 'light';
 }
 
+/**
+ * The preference a one-tap toggle should set: the opposite of what is on
+ * screen right now. Takes the *resolved* mode, so tapping while on 'system'
+ * always visibly flips the UI (and pins an explicit choice from then on).
+ */
+export function toggledThemeMode(current: 'light' | 'dark'): ThemeMode {
+  return current === 'dark' ? 'light' : 'dark';
+}
+
 /** Format an ISO 'YYYY-MM-DD' as a short human date, e.g. "18 Sep 2026". */
 export function formatExamDate(iso: string): string {
   const d = new Date(iso + 'T00:00:00');
