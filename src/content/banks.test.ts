@@ -20,6 +20,7 @@ import { ALL_LEVELS, isLevel, type Level } from './levels';
 import { NOUN_BANK } from './nouns';
 import { SPELLING_EXAMPLES } from './spellingExamples';
 import { VERB_BANK } from './verbs';
+import { VOCABULARY } from './vocabulary';
 
 const BANKS: Record<string, { id: string; level: Level; reviewed?: boolean }[]> = {
   exercises: EXERCISES,
@@ -28,6 +29,7 @@ const BANKS: Record<string, { id: string; level: Level; reviewed?: boolean }[]> 
   adjectives: ADJECTIVE_BANK,
   comma: COMMA_EXAMPLES,
   spelling: SPELLING_EXAMPLES,
+  vocabulary: VOCABULARY,
 };
 
 describe('every bank', () => {

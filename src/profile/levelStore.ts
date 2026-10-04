@@ -21,9 +21,9 @@ import type { Exam } from '../grammar/rules';
 import { recordSetLevel } from '../sync/bus';
 import { useSettings } from './settings';
 
-export type LevelDomain = 'grammar' | 'nouns' | 'verbs' | 'adjectives' | 'comma' | 'spelling';
+export type LevelDomain = 'grammar' | 'nouns' | 'verbs' | 'adjectives' | 'comma' | 'spelling' | 'vocab';
 
-export const LEVEL_DOMAINS: LevelDomain[] = ['grammar', 'nouns', 'verbs', 'adjectives', 'comma', 'spelling'];
+export const LEVEL_DOMAINS: LevelDomain[] = ['grammar', 'nouns', 'verbs', 'adjectives', 'comma', 'spelling', 'vocab'];
 
 export const DOMAIN_LABELS: Record<LevelDomain, string> = {
   grammar: 'Word order',
@@ -32,6 +32,7 @@ export const DOMAIN_LABELS: Record<LevelDomain, string> = {
   adjectives: 'Adjectives',
   comma: 'Commas',
   spelling: 'Spelling',
+  vocab: 'Vocabulary',
 };
 
 /** Attempts at the current niveau needed before a climb, and the window the hit rate is measured over. */
@@ -126,4 +127,5 @@ export const DOMAIN_ROUTES: Record<LevelDomain, string> = {
   adjectives: '/adjectives',
   comma: '/comma',
   spelling: '/spelling',
+  vocab: '/vocab',
 };
