@@ -1,6 +1,7 @@
 import { useRouter } from 'expo-router';
 import React, { useMemo } from 'react';
 import { View } from 'react-native';
+import { useSession } from '../../src/auth/session';
 import { RULES } from '../../src/grammar/rules';
 import { computeStreak, useActivity } from '../../src/profile/activity';
 import { EXAM_LABELS, useSettings } from '../../src/profile/settings';
@@ -41,6 +42,7 @@ export default function Progress() {
   const targetExam = useSettings((st) => st.targetExam);
   const activeDays = useActivity((st) => st.activeDays);
   const streak = useMemo(() => computeStreak(activeDays), [activeDays]);
+  const email = useSession((st) => st.email);
 
   const pct = overview.totalItems ? Math.round((overview.totalSolid / overview.totalItems) * 100) : 0;
 
@@ -139,7 +141,7 @@ export default function Progress() {
       </View>
 
       <Txt variant="label" color={t.c.textFaint} style={{ paddingHorizontal: t.space(1) }}>
-        Progress is saved on this device. Clearing your browser data resets it.
+        {email ? `Progress is saved to your account (${email}) and follows you to any device.` : 'Progress is saved to your account.'}
       </Txt>
     </Screen>
   );

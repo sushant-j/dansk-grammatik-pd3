@@ -13,10 +13,9 @@
  */
 
 import { create } from 'zustand';
-import { persist } from 'zustand/middleware';
 import { MAX_LEVEL, startLevelFor, type Level } from '../content/levels';
 import type { Exam } from '../grammar/rules';
-import { persistOptions } from './persistOptions';
+import { recordSetLevel } from '../sync/bus';
 import { useSettings } from './settings';
 
 export type LevelDomain = 'grammar' | 'nouns' | 'verbs' | 'adjectives' | 'comma' | 'spelling';
@@ -83,50 +82,23 @@ export function climbProgress(d: DomainLevel): { attempts: number; hitRate: numb
 }
 
 interface LevelState {
+  /** Derived from the progress log (sync/log.ts publishes it here). */
   domains: Partial<Record<LevelDomain, DomainLevel>>;
-  /** Set when an attempt unlocks a niveau, so the trainer can say so once. */
+  /** Set when an answer unlocks a niveau, so the trainer can say so once. */
   justUnlocked: { domain: LevelDomain; level: Level } | null;
   hydrated: boolean;
-  record: (domain: LevelDomain, itemLevel: Level, correct: boolean, exam: Exam | null) => void;
-  /** Learner-chosen niveau (Settings). Resets the climb toward the next one. */
+  /** Learner-chosen niveau (Settings). Logged, so it syncs; restarts the climb toward the next one. */
   setLevel: (domain: LevelDomain, level: Level) => void;
   dismissUnlock: () => void;
-  reset: () => void;
 }
 
-export const useLevels = create<LevelState>()(
-  persist(
-    (set) => ({
-      domains: {},
-      justUnlocked: null,
-      hydrated: false,
-
-      record: (domain, itemLevel, correct, exam) =>
-        set((state) => {
-          const { next, unlocked } = applyLevelOutcome(
-            state.domains[domain] ?? EMPTY_DOMAIN_LEVEL,
-            itemLevel,
-            correct,
-            exam,
-          );
-          return {
-            domains: { ...state.domains, [domain]: next },
-            justUnlocked: unlocked ? { domain, level: unlocked } : state.justUnlocked,
-          };
-        }),
-
-      setLevel: (domain, level) =>
-        set((state) => ({
-          domains: { ...state.domains, [domain]: { current: level, recent: [], attempts: 0 } },
-        })),
-
-      dismissUnlock: () => set({ justUnlocked: null }),
-
-      reset: () => set({ domains: {}, justUnlocked: null }),
-    }),
-    persistOptions('skema-levels-v1', (s: LevelState) => ({ domains: s.domains })),
-  ),
-);
+export const useLevels = create<LevelState>()((set) => ({
+  domains: {},
+  justUnlocked: null,
+  hydrated: true,
+  setLevel: (domain, level) => recordSetLevel(domain, level),
+  dismissUnlock: () => set({ justUnlocked: null }),
+}));
 
 // ── Wiring for trainer screens ────────────────────────────────────────────
 
@@ -142,10 +114,6 @@ export function currentLevelNow(domain: LevelDomain): Level {
   return resolveLevel(useLevels.getState().domains[domain], useSettings.getState().targetExam);
 }
 
-/** Count one answered item toward the domain's climb. */
-export function recordLevelAttempt(domain: LevelDomain, itemLevel: Level, correct: boolean): void {
-  useLevels.getState().record(domain, itemLevel, correct, useSettings.getState().targetExam);
-}
 
 /** Trainer route for each domain, for rows that link into practice. */
 export const DOMAIN_ROUTES: Record<LevelDomain, string> = {

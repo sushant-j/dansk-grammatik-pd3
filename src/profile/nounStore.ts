@@ -8,19 +8,17 @@
  */
 
 import { create } from 'zustand';
-import { persist } from 'zustand/middleware';
 import { NOUN_BANK } from '../content/nouns';
 import { MAX_LEVEL, poolForLevel, type Level } from '../content/levels';
 import { buildQuestion, type NounQuestion, type NounQuestionKind } from '../grammar/nounExercise';
 import { ALL_NOUN_RULE_IDS, type NounRuleId } from '../grammar/nounRules';
 import {
-  applyOutcome,
   EMPTY_STAT,
   progressFor,
   type ItemProgress,
   type ItemStat,
 } from './mastery';
-import { persistOptions } from './persistOptions';
+import { recordAnswer, recordReset } from '../sync/bus';
 
 const KIND_FOR_RULE: Record<NounRuleId, NounQuestionKind> = {
   'en-et-gender': 'gender',
@@ -31,33 +29,30 @@ const KIND_FOR_RULE: Record<NounRuleId, NounQuestionKind> = {
 interface NounState {
   stats: Record<NounRuleId, ItemStat>;
   hydrated: boolean;
-  record: (ruleId: NounRuleId, correct: boolean) => void;
+  /** `item` is what was answered: its id and niveau go into the log. */
+  record: (ruleId: NounRuleId, correct: boolean, item: { id: string; level: Level }) => void;
   reset: () => void;
 }
 
-function emptyStats(): Record<NounRuleId, ItemStat> {
+export function emptyStats(): Record<NounRuleId, ItemStat> {
   return Object.fromEntries(ALL_NOUN_RULE_IDS.map((id) => [id, { ...EMPTY_STAT }])) as Record<
     NounRuleId,
     ItemStat
   >;
 }
 
-export const useNounProfile = create<NounState>()(
-  persist(
-    (set) => ({
-      stats: emptyStats(),
-      hydrated: false,
-
-      record: (ruleId, correct) =>
-        set((state) => ({
-          stats: { ...state.stats, [ruleId]: applyOutcome(state.stats[ruleId] ?? { ...EMPTY_STAT }, correct) },
-        })),
-
-      reset: () => set({ stats: emptyStats() }),
-    }),
-    persistOptions('skema-nouns-v1', (s: NounState) => ({ stats: s.stats })),
-  ),
-);
+/**
+ * Mastery per rule, derived from the progress log (sync/log.ts publishes it
+ * here). `record` adds an answer to the log rather than editing stats, so
+ * progress syncs and replays exactly.
+ */
+export const useNounProfile = create<NounState>()(() => ({
+  stats: emptyStats(),
+  hydrated: true,
+  record: (ruleId, correct, item) =>
+    recordAnswer({ domain: 'nouns', itemId: item.id, level: item.level, outcomes: { [ruleId]: correct }, correct }),
+  reset: () => recordReset('nouns'),
+}));
 
 export type NounRuleProgress = ItemProgress<NounRuleId>;
 

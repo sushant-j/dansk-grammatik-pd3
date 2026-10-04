@@ -2,29 +2,25 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { describe, expect, it } from 'vitest';
 import { RULE_ALIASES, remapAliases } from '../content/retired';
 import { EMPTY_STAT } from './mastery';
-import { useNounProfile } from './nounStore';
 import { mergeSaved, STORE_VERSION } from './persistOptions';
+import { useSettings } from './settings';
 
 const practised = { attempts: 4, correct: 3, recent: [true, false, true, true], lastSeen: 1_700_000_000_000, raw: 0.6 };
 
 describe('versioned persistence', () => {
-  it('loads progress saved before stores were versioned, unchanged', async () => {
-    // Exactly what zustand wrote for skema-nouns-v1 before `version` existed.
-    await AsyncStorage.setItem(
-      'skema-nouns-v1',
-      JSON.stringify({ state: { stats: { 'en-et-gender': practised } }, version: 0 }),
-    );
-    await useNounProfile.persist.rehydrate();
+  it('loads settings saved before stores were versioned, unchanged', async () => {
+    // Exactly what zustand wrote for skema-settings-v1 before `version` existed.
+    const saved = { targetExam: 'PD3', examDate: '2026-11-20', themeMode: 'dark', onboarded: true };
+    await AsyncStorage.setItem('skema-settings-v1', JSON.stringify({ state: saved, version: 0 }));
+    await useSettings.persist.rehydrate();
 
-    const { stats, hydrated } = useNounProfile.getState();
-    expect(hydrated).toBe(true);
-    expect(stats['en-et-gender']).toEqual(practised);
-    // Rules missing from the save get an empty stat instead of vanishing.
-    expect(stats['definite-suffix']).toEqual(EMPTY_STAT);
+    const s = useSettings.getState();
+    expect(s.hydrated).toBe(true);
+    expect({ targetExam: s.targetExam, examDate: s.examDate, themeMode: s.themeMode, onboarded: s.onboarded }).toEqual(saved);
 
-    const saved = JSON.parse((await AsyncStorage.getItem('skema-nouns-v1'))!);
-    expect(saved.version).toBe(STORE_VERSION);
-    expect(saved.state.stats['en-et-gender']).toEqual(practised);
+    const rewritten = JSON.parse((await AsyncStorage.getItem('skema-settings-v1'))!);
+    expect(rewritten.version).toBe(STORE_VERSION);
+    expect(rewritten.state).toEqual(saved);
   });
 });
 

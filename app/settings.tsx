@@ -1,7 +1,11 @@
-import React from 'react';
-import { Pressable, View } from 'react-native';
+import React, { useState } from 'react';
+import { Pressable, TextInput, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { changePassword, signOut, useSession } from '../src/auth/session';
 import type { Exam } from '../src/grammar/rules';
+import { recordReset } from '../src/sync/bus';
+import { useLog } from '../src/sync/log';
+import { useSyncStatus } from '../src/sync/sync';
 import {
   EXAM_DESCRIPTIONS,
   EXAM_LABELS,
@@ -46,6 +50,122 @@ function Chip({ label, onPress }: { label: string; onPress: () => void }) {
         {label}
       </Txt>
     </Pressable>
+  );
+}
+
+/** Who is signed in, whether their progress is uploaded, and the account actions. */
+function AccountSection() {
+  const t = useTheme();
+  const email = useSession((st) => st.email);
+  const sync = useSyncStatus();
+  const pending = useLog((st) => st.outbox.length);
+  const [panel, setPanel] = useState<'none' | 'password' | 'reset'>('none');
+  const [password, setPassword] = useState('');
+  const [note, setNote] = useState<string | null>(null);
+  const [busy, setBusy] = useState(false);
+
+  const status =
+    sync.state === 'syncing'
+      ? 'Syncing…'
+      : pending
+        ? `${pending} ${pending === 1 ? 'answer' : 'answers'} waiting to upload${sync.state === 'offline' ? ' — offline, will retry' : ''}`
+        : sync.lastSyncedAt
+          ? 'All progress saved to your account'
+          : sync.state === 'offline'
+            ? 'Offline — progress is kept on this device until it can upload'
+            : 'Saved to your account';
+
+  return (
+    <View style={{ gap: t.space(3) }}>
+      <View>
+        <Txt variant="display" style={{ fontSize: 26 }}>
+          Account
+        </Txt>
+        <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
+          {email}
+        </Txt>
+        <Label color={pending || sync.state === 'offline' ? t.c.warning : t.c.success}>{status}</Label>
+      </View>
+
+      {panel === 'password' ? (
+        <Card>
+          <Label>New password</Label>
+          <TextInput
+            value={password}
+            onChangeText={setPassword}
+            secureTextEntry
+            autoComplete="new-password"
+            placeholder="At least 6 characters"
+            placeholderTextColor={t.c.textFaint}
+            style={{
+              marginTop: t.space(1.5),
+              backgroundColor: t.c.surface,
+              borderWidth: 1,
+              borderColor: t.c.border,
+              borderRadius: t.radius.md,
+              paddingHorizontal: t.space(3.5),
+              paddingVertical: t.space(3),
+              color: t.c.text,
+              fontSize: 16,
+            }}
+          />
+          <View style={[s.row, { gap: t.space(2), marginTop: t.space(3) }]}>
+            <Button
+              label="Save password"
+              loading={busy}
+              disabled={password.length < 6}
+              style={{ flex: 1 }}
+              onPress={async () => {
+                setBusy(true);
+                const error = await changePassword(password);
+                setBusy(false);
+                setNote(error ?? 'Password changed.');
+                if (!error) {
+                  setPassword('');
+                  setPanel('none');
+                }
+              }}
+            />
+            <Button label="Cancel" tone="ghost" onPress={() => setPanel('none')} />
+          </View>
+        </Card>
+      ) : null}
+
+      {panel === 'reset' ? (
+        <Card tone="warning">
+          <Label color={t.c.warning}>Start over?</Label>
+          <Txt variant="body" style={{ marginTop: t.space(2), lineHeight: 22 }}>
+            Every trainer goes back to not started, on all your devices. Your account stays.
+          </Txt>
+          <View style={[s.row, { gap: t.space(2), marginTop: t.space(3) }]}>
+            <Button
+              label="Reset all progress"
+              style={{ flex: 1 }}
+              onPress={() => {
+                recordReset('all');
+                setPanel('none');
+                setNote('Progress reset.');
+              }}
+            />
+            <Button label="Keep it" tone="ghost" onPress={() => setPanel('none')} />
+          </View>
+        </Card>
+      ) : null}
+
+      {note ? (
+        <Txt variant="body" color={t.c.textMuted}>
+          {note}
+        </Txt>
+      ) : null}
+
+      {panel === 'none' ? (
+        <View style={[s.wrap, { gap: t.space(2) }]}>
+          <Chip label="Change password" onPress={() => { setNote(null); setPanel('password'); }} />
+          <Chip label="Reset progress" onPress={() => { setNote(null); setPanel('reset'); }} />
+          <Chip label="Sign out" onPress={() => void signOut()} />
+        </View>
+      ) : null}
+    </View>
   );
 }
 
@@ -131,6 +251,8 @@ export default function Settings() {
         gap: t.space(4),
       }}
     >
+      <AccountSection />
+
       {/* ── Appearance ───────────────────────────────────────────────── */}
       <View>
         <Txt variant="display" style={{ fontSize: 26 }}>

@@ -1,5 +1,4 @@
 import React, { useCallback, useState } from 'react';
-import { useActivity } from '../src/profile/activity';
 import { Pressable, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { COMMA_RULES } from '../src/grammar/commaRules';
@@ -9,7 +8,7 @@ import { Screen } from '../src/ui/Screen';
 import { Button, Card, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
 import { levelLabel } from '../src/profile/mastery';
-import { currentLevelNow, recordLevelAttempt } from '../src/profile/levelStore';
+import { currentLevelNow } from '../src/profile/levelStore';
 import { LevelBadge, LevelUpNotice } from '../src/ui/LevelBadge';
 
 /**
@@ -40,9 +39,7 @@ export default function Comma() {
     (i: number) => {
       if (picked !== null) return;
       setPicked(i);
-      record(question.ruleId, i === question.correctIndex);
-      recordLevelAttempt('comma', question.entry.level, i === question.correctIndex);
-      useActivity.getState().markToday();
+      record(question.ruleId, i === question.correctIndex, { id: question.entry.id, level: question.entry.level });
     },
     [picked, question, record],
   );

@@ -2,9 +2,8 @@
  * Daily-activity tracking — the raw material for the streak on the progress
  * page. Every domain's mastery is already persisted per item, but a streak
  * needs the *history of which days had any practice at all*, which nothing
- * else records (per-item `lastSeen` is overwritten). So this store keeps a
- * set of active days, and `markToday` is pinged whenever the learner answers
- * anything.
+ * else records (per-item `lastSeen` is overwritten). Those days are the dates
+ * of the answers in the progress log, so this store just holds them.
  *
  * The streak maths is a pure function (computeStreak) so it can be tested
  * without React or storage, and so the UI and any future logic share one
@@ -12,39 +11,17 @@
  */
 
 import { create } from 'zustand';
-import { persist } from 'zustand/middleware';
 import { shiftIso, todayIso } from './settings';
-import { persistOptions } from './persistOptions';
 
-/** How many recent active days to retain; a year is plenty for any streak. */
-const MAX_DAYS = 400;
 
 interface ActivityState {
   /** ISO 'YYYY-MM-DD' days with at least one practice attempt, ascending. */
   activeDays: string[];
   hydrated: boolean;
-  /** Record that the learner practised today (idempotent within a day). */
-  markToday: (now?: Date) => void;
-  reset: () => void;
 }
 
-export const useActivity = create<ActivityState>()(
-  persist(
-    (set) => ({
-      activeDays: [],
-      hydrated: false,
-      markToday: (now = new Date()) =>
-        set((state) => {
-          const today = todayIso(now);
-          if (state.activeDays.includes(today)) return state;
-          const next = [...state.activeDays, today].sort().slice(-MAX_DAYS);
-          return { activeDays: next };
-        }),
-      reset: () => set({ activeDays: [] }),
-    }),
-    persistOptions('skema-activity-v1', (s: ActivityState) => ({ activeDays: s.activeDays })),
-  ),
-);
+/** Active days, derived from the dates of answers in the progress log (sync/log.ts publishes them). */
+export const useActivity = create<ActivityState>()(() => ({ activeDays: [], hydrated: true }));
 
 export interface StreakInfo {
   /** Consecutive active days ending today (or yesterday if not active today). */

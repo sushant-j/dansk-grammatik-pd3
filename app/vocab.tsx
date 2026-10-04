@@ -1,5 +1,4 @@
 import React, { useCallback, useMemo, useState } from 'react';
-import { useActivity } from '../src/profile/activity';
 import { Pressable, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Screen } from '../src/ui/Screen';
@@ -39,7 +38,6 @@ export default function Vocab() {
   const grade = useCallback(
     (knewIt: boolean) => {
       record(word.id, knewIt);
-      useActivity.getState().markToday();
       const nxt = nextWord(useVocabProfile.getState().stats, word.id);
       setWord(nxt);
       setFlipped(false);

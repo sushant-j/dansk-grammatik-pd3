@@ -9,12 +9,16 @@ import {
 } from '@expo-google-fonts/atkinson-hyperlegible-next';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+import React, { useEffect } from 'react';
+import { ActivityIndicator, View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { buildTheme } from '../src/theme';
 import { useSettings } from '../src/profile/settings';
+import { startAuth, useSession } from '../src/auth/session';
+import { useSyncStatus } from '../src/sync/sync';
 import { Onboarding } from '../src/ui/Onboarding';
+import { SignIn } from '../src/ui/SignIn';
 import { ThemeProvider, useResolvedMode } from '../src/ui/theme';
 import { HeaderActions } from '../src/ui/ThemeToggle';
 
@@ -63,13 +67,36 @@ function RootStack() {
   const mode = useResolvedMode();
   const t = buildTheme(mode);
 
-  // First-open welcome, gated here rather than inside the Today tab so the
-  // tab bar can't be used to skip past it. `hydrated` keeps it from flashing
-  // for a returning user before their settings have loaded.
+  const authStatus = useSession((s) => s.status);
+  const profileReady = useSyncStatus((s) => s.profileReady);
   const hydrated = useSettings((s) => s.hydrated);
   const onboarded = useSettings((s) => s.onboarded);
   const setTargetExam = useSettings((s) => s.setTargetExam);
   const setOnboarded = useSettings((s) => s.setOnboarded);
+  useEffect(() => startAuth(), []);
+
+  // Sign-in gate first: progress belongs to an account. While the stored
+  // session (and then the account's profile) loads, show a blank screen
+  // rather than flashing the sign-in or welcome screens at a returning user.
+  if (authStatus === 'loading' || (authStatus === 'signedIn' && !profileReady)) {
+    return (
+      <View style={{ flex: 1, backgroundColor: t.c.bg, alignItems: 'center', justifyContent: 'center' }}>
+        <ActivityIndicator color={t.c.textMuted} />
+      </View>
+    );
+  }
+  if (authStatus !== 'signedIn') {
+    return (
+      <>
+        <StatusBar style={mode === 'dark' ? 'light' : 'dark'} />
+        <SignIn />
+      </>
+    );
+  }
+
+  // First-open welcome, gated here rather than inside the Today tab so the
+  // tab bar can't be used to skip past it. `hydrated` keeps it from flashing
+  // for a returning user before their settings have loaded.
   if (hydrated && !onboarded) {
     return (
       <>

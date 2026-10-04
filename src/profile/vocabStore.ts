@@ -7,16 +7,14 @@
  */
 
 import { create } from 'zustand';
-import { persist } from 'zustand/middleware';
 import { VOCABULARY } from '../content/vocabulary';
 import {
-  applyOutcome,
   EMPTY_STAT,
   progressFor,
   type ItemProgress,
   type ItemStat,
 } from './mastery';
-import { persistOptions } from './persistOptions';
+import { recordAnswer, recordReset } from '../sync/bus';
 
 interface VocabState {
   stats: Record<string, ItemStat>;
@@ -27,23 +25,14 @@ interface VocabState {
   reset: () => void;
 }
 
-export const useVocabProfile = create<VocabState>()(
-  persist(
-    (set) => ({
-      stats: {},
-      hydrated: false,
-
-      record: (wordId, knewIt) =>
-        set((state) => {
-          const prev = state.stats[wordId] ?? { ...EMPTY_STAT };
-          return { stats: { ...state.stats, [wordId]: applyOutcome(prev, knewIt) } };
-        }),
-
-      reset: () => set({ stats: {} }),
-    }),
-    persistOptions('skema-vocab-v1', (s: VocabState) => ({ stats: s.stats })),
-  ),
-);
+/** Word mastery, derived from the progress log like every other domain (see sync/log.ts). */
+export const useVocabProfile = create<VocabState>()(() => ({
+  stats: {},
+  hydrated: true,
+  record: (wordId, knewIt) =>
+    recordAnswer({ domain: 'vocab', itemId: wordId, level: null, outcomes: { [wordId]: knewIt }, correct: knewIt }),
+  reset: () => recordReset('vocab'),
+}));
 
 export type VocabProgress = ItemProgress<string>;
 

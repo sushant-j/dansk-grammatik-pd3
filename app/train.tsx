@@ -1,5 +1,4 @@
 import { useRouter } from 'expo-router';
-import { useActivity } from '../src/profile/activity';
 import React, { useCallback, useMemo, useState } from 'react';
 import { View } from 'react-native';
 
@@ -11,7 +10,7 @@ import { RULES } from '../src/grammar/rules';
 import type { Evaluation, Exercise, Placement } from '../src/grammar/types';
 import { nextExercise, useProfile } from '../src/profile/store';
 import { useSettings } from '../src/profile/settings';
-import { currentLevelNow, recordLevelAttempt } from '../src/profile/levelStore';
+import { currentLevelNow } from '../src/profile/levelStore';
 import { LevelBadge, LevelUpNotice } from '../src/ui/LevelBadge';
 import { SchemaBoard, WordTray } from '../src/ui/SchemaBoard';
 import { Button, Card, Label, Txt, s } from '../src/ui/primitives';
@@ -79,8 +78,6 @@ export default function Train() {
     setResult(evaluation);
     const violated = [...new Set(evaluation.diagnoses.map((d) => d.ruleId))];
     record(exercise, evaluation.correct, violated);
-    recordLevelAttempt('grammar', exercise.level, evaluation.correct);
-    useActivity.getState().markToday();
   }, [exercise, placement, record]);
 
   const advance = useCallback(() => {
