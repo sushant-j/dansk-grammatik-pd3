@@ -5,9 +5,8 @@
  * ten words specifically.
  */
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
-import { createJSONStorage, persist } from 'zustand/middleware';
+import { persist } from 'zustand/middleware';
 import { VERB_BANK } from '../content/verbs';
 import { buildVerbQuestion, type VerbQuestion, type VerbQuestionKind } from '../grammar/verbExercise';
 import { ALL_VERB_RULE_IDS, type VerbRuleId } from '../grammar/verbRules';
@@ -18,6 +17,7 @@ import {
   type ItemProgress,
   type ItemStat,
 } from './mastery';
+import { persistOptions } from './persistOptions';
 
 const KIND_FOR_RULE: Record<VerbRuleId, VerbQuestionKind> = {
   'weak-suffix-choice': 'weak-suffix',
@@ -58,14 +58,7 @@ export const useVerbProfile = create<VerbState>()(
 
       reset: () => set({ stats: emptyStats() }),
     }),
-    {
-      name: 'skema-verbs-v1',
-      storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ stats: s.stats }),
-      onRehydrateStorage: () => (state) => {
-        if (state) state.hydrated = true;
-      },
-    },
+    persistOptions('skema-verbs-v1', (s: VerbState) => ({ stats: s.stats })),
   ),
 );
 

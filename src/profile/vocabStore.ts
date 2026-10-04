@@ -6,9 +6,8 @@
  * total it no longer deserves.
  */
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
-import { createJSONStorage, persist } from 'zustand/middleware';
+import { persist } from 'zustand/middleware';
 import { VOCABULARY } from '../content/vocabulary';
 import {
   applyOutcome,
@@ -17,6 +16,7 @@ import {
   type ItemProgress,
   type ItemStat,
 } from './mastery';
+import { persistOptions } from './persistOptions';
 
 interface VocabState {
   stats: Record<string, ItemStat>;
@@ -41,14 +41,7 @@ export const useVocabProfile = create<VocabState>()(
 
       reset: () => set({ stats: {} }),
     }),
-    {
-      name: 'skema-vocab-v1',
-      storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ stats: s.stats }),
-      onRehydrateStorage: () => (state) => {
-        if (state) state.hydrated = true;
-      },
-    },
+    persistOptions('skema-vocab-v1', (s: VocabState) => ({ stats: s.stats })),
   ),
 );
 

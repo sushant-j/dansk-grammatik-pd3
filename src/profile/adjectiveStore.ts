@@ -4,9 +4,8 @@
  * different adjectives has a gap in the rule, not in those ten words.
  */
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
-import { createJSONStorage, persist } from 'zustand/middleware';
+import { persist } from 'zustand/middleware';
 import { ADJECTIVE_BANK } from '../content/adjectives';
 import { NOUN_BANK } from '../content/nouns';
 import {
@@ -22,6 +21,7 @@ import {
   type ItemProgress,
   type ItemStat,
 } from './mastery';
+import { persistOptions } from './persistOptions';
 
 const KIND_FOR_RULE: Record<AdjectiveRuleId, AdjectiveQuestionKind> = {
   'adjective-common-form': 'common-form',
@@ -61,14 +61,7 @@ export const useAdjectiveProfile = create<AdjectiveState>()(
 
       reset: () => set({ stats: emptyStats() }),
     }),
-    {
-      name: 'skema-adjectives-v1',
-      storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ stats: s.stats }),
-      onRehydrateStorage: () => (state) => {
-        if (state) state.hydrated = true;
-      },
-    },
+    persistOptions('skema-adjectives-v1', (s: AdjectiveState) => ({ stats: s.stats })),
   ),
 );
 

@@ -12,10 +12,10 @@
  * default: existing behaviour for anyone who never opens this screen.
  */
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
-import { createJSONStorage, persist } from 'zustand/middleware';
+import { persist } from 'zustand/middleware';
 import type { Exam } from '../grammar/rules';
+import { persistOptions } from './persistOptions';
 
 /** How the app chooses light vs dark. 'system' follows the OS setting. */
 export type ThemeMode = 'system' | 'light' | 'dark';
@@ -54,19 +54,12 @@ export const useSettings = create<SettingsState>()(
       setThemeMode: (mode) => set({ themeMode: mode }),
       setOnboarded: (done) => set({ onboarded: done }),
     }),
-    {
-      name: 'skema-settings-v1',
-      storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({
-        targetExam: s.targetExam,
-        examDate: s.examDate,
-        themeMode: s.themeMode,
-        onboarded: s.onboarded,
-      }),
-      onRehydrateStorage: () => (state) => {
-        if (state) state.hydrated = true;
-      },
-    },
+    persistOptions('skema-settings-v1', (s: SettingsState) => ({
+      targetExam: s.targetExam,
+      examDate: s.examDate,
+      themeMode: s.themeMode,
+      onboarded: s.onboarded,
+    })),
   ),
 );
 

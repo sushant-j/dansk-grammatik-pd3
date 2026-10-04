@@ -4,9 +4,8 @@
  * sentences has a gap in that rule, not in those specific sentences.
  */
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
-import { createJSONStorage, persist } from 'zustand/middleware';
+import { persist } from 'zustand/middleware';
 import { spellingExamplesForRule } from '../content/spellingExamples';
 import { buildSpellingQuestion, type SpellingQuestion } from '../grammar/spellingExercise';
 import { ALL_SPELLING_RULE_IDS, type SpellingRuleId } from '../grammar/spellingRules';
@@ -17,6 +16,7 @@ import {
   type ItemProgress,
   type ItemStat,
 } from './mastery';
+import { persistOptions } from './persistOptions';
 
 interface SpellingState {
   stats: Record<SpellingRuleId, ItemStat>;
@@ -48,14 +48,7 @@ export const useSpellingProfile = create<SpellingState>()(
 
       reset: () => set({ stats: emptyStats() }),
     }),
-    {
-      name: 'skema-spelling-v1',
-      storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ stats: s.stats }),
-      onRehydrateStorage: () => (state) => {
-        if (state) state.hydrated = true;
-      },
-    },
+    persistOptions('skema-spelling-v1', (s: SpellingState) => ({ stats: s.stats })),
   ),
 );
 

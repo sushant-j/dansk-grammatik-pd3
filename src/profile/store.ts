@@ -14,9 +14,8 @@
  * but the same anti-streak idea, and they should behave identically.
  */
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
-import { createJSONStorage, persist } from 'zustand/middleware';
+import { persist } from 'zustand/middleware';
 import { ALL_RULE_IDS, type Exam, type RuleId } from '../grammar/rules';
 import { EXERCISES } from '../content/exercises';
 import type { Exercise } from '../grammar/types';
@@ -29,6 +28,7 @@ import {
   type ItemStat,
   type MasteryLevel,
 } from './mastery';
+import { persistOptions } from './persistOptions';
 
 export type { MasteryLevel };
 export type RuleStat = ItemStat;
@@ -93,14 +93,7 @@ export const useProfile = create<ProfileState>()(
 
       reset: () => set({ stats: emptyStats(), history: [], seen: [] }),
     }),
-    {
-      name: 'skema-profile-v1',
-      storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ stats: s.stats, history: s.history, seen: s.seen }),
-      onRehydrateStorage: () => (state) => {
-        if (state) state.hydrated = true;
-      },
-    },
+    persistOptions('skema-profile-v1', (s: ProfileState) => ({ stats: s.stats, history: s.history, seen: s.seen })),
   ),
 );
 

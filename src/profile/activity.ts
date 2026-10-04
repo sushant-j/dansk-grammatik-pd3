@@ -11,10 +11,10 @@
  * definition of "current streak".
  */
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
-import { createJSONStorage, persist } from 'zustand/middleware';
+import { persist } from 'zustand/middleware';
 import { shiftIso, todayIso } from './settings';
+import { persistOptions } from './persistOptions';
 
 /** How many recent active days to retain; a year is plenty for any streak. */
 const MAX_DAYS = 400;
@@ -42,14 +42,7 @@ export const useActivity = create<ActivityState>()(
         }),
       reset: () => set({ activeDays: [] }),
     }),
-    {
-      name: 'skema-activity-v1',
-      storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ activeDays: s.activeDays }),
-      onRehydrateStorage: () => (state) => {
-        if (state) state.hydrated = true;
-      },
-    },
+    persistOptions('skema-activity-v1', (s: ActivityState) => ({ activeDays: s.activeDays })),
   ),
 );
 

@@ -7,9 +7,8 @@
  * near-empty stats instead of building one clear picture.
  */
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
-import { createJSONStorage, persist } from 'zustand/middleware';
+import { persist } from 'zustand/middleware';
 import { NOUN_BANK } from '../content/nouns';
 import { buildQuestion, type NounQuestion, type NounQuestionKind } from '../grammar/nounExercise';
 import { ALL_NOUN_RULE_IDS, type NounRuleId } from '../grammar/nounRules';
@@ -20,6 +19,7 @@ import {
   type ItemProgress,
   type ItemStat,
 } from './mastery';
+import { persistOptions } from './persistOptions';
 
 const KIND_FOR_RULE: Record<NounRuleId, NounQuestionKind> = {
   'en-et-gender': 'gender',
@@ -54,14 +54,7 @@ export const useNounProfile = create<NounState>()(
 
       reset: () => set({ stats: emptyStats() }),
     }),
-    {
-      name: 'skema-nouns-v1',
-      storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ stats: s.stats }),
-      onRehydrateStorage: () => (state) => {
-        if (state) state.hydrated = true;
-      },
-    },
+    persistOptions('skema-nouns-v1', (s: NounState) => ({ stats: s.stats })),
   ),
 );
 

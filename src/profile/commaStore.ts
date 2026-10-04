@@ -4,9 +4,8 @@
  * sentences has a gap in that rule, not in those specific sentences.
  */
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
-import { createJSONStorage, persist } from 'zustand/middleware';
+import { persist } from 'zustand/middleware';
 import { commaExamplesForRule } from '../content/commaExamples';
 import { buildCommaQuestion, type CommaQuestion } from '../grammar/commaExercise';
 import { ALL_COMMA_RULE_IDS, type CommaRuleId } from '../grammar/commaRules';
@@ -17,6 +16,7 @@ import {
   type ItemProgress,
   type ItemStat,
 } from './mastery';
+import { persistOptions } from './persistOptions';
 
 interface CommaState {
   stats: Record<CommaRuleId, ItemStat>;
@@ -48,14 +48,7 @@ export const useCommaProfile = create<CommaState>()(
 
       reset: () => set({ stats: emptyStats() }),
     }),
-    {
-      name: 'skema-comma-v1',
-      storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ stats: s.stats }),
-      onRehydrateStorage: () => (state) => {
-        if (state) state.hydrated = true;
-      },
-    },
+    persistOptions('skema-comma-v1', (s: CommaState) => ({ stats: s.stats })),
   ),
 );
 
