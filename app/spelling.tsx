@@ -13,6 +13,7 @@ import {
 import { Screen } from '../src/ui/Screen';
 import { Button, Card, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
+import { levelLabel } from '../src/profile/mastery';
 
 /**
  * The spelling trainer — FVU-oriented, not PD3.
@@ -80,7 +81,7 @@ export default function Spelling() {
                 {SPELLING_RULES[p.id].da}
               </Txt>
               <Txt variant="label" color={t.c.textFaint}>
-                {p.level.toUpperCase()}
+                {levelLabel(p.level)}
               </Txt>
             </View>
             <StrengthBar

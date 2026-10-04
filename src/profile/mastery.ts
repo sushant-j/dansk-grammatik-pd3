@@ -96,3 +96,8 @@ export function progressFor<K extends string>(
     needsRefresh: s.raw >= 0.7 && strength < 0.7,
   };
 }
+
+/** Learner-facing, sentence-case name for a mastery level. */
+export function levelLabel(level: MasteryLevel): string {
+  return level === 'unseen' ? 'Not started' : level[0].toUpperCase() + level.slice(1);
+}

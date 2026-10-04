@@ -124,7 +124,7 @@ Three commitments follow from that:
   are tagged FVU rather than pretending the full sætningsskema is FVU-level —
   the picker's own copy says as much, and a regression guard keeps every
   offered exam, FVU included, from ever dimming the whole map to a dead-end.
-- **App-wide "widest gap"** — the home screen's headline recommendation rolls
+- **App-wide "widest gap"** — the Today tab's headline recommendation rolls
   up every trainer, not just the word-order map. A learner solid on word order
   but shaky on verbs is now pointed at verbs, not told "you're doing great"
   and handed a word-order card that isn't their real gap. `profile/overview.ts`
@@ -133,7 +133,7 @@ Three commitments follow from that:
   so per-word vocabulary doesn't drown out the per-rule trainers. The headline
   card keeps its rich per-rule detail when word order *is* the priority, and
   hands off to the right trainer when it isn't.
-- **Exam study plan** — set your exam date and the home screen turns the
+- **Exam study plan** — set your exam date and the Today tab turns the
   cross-domain roll-up into a paced, time-bound plan: a countdown, and a
   readiness band (on-track / tight / behind / ready) with a message whose
   maths the learner can check — things not yet solid ÷ weeks left. Two
@@ -162,7 +162,12 @@ Three commitments follow from that:
 
 ```
 app/                       expo-router screens
-  index.tsx                home: grammar map + module links
+  _layout.tsx              root Stack: fonts, onboarding gate, trainers push over the tabs
+  (tabs)/_layout.tsx       bottom tabs: Today · Practise · Exam · Progress
+  (tabs)/index.tsx         Today: exam countdown + the one thing to do next
+  (tabs)/practise.tsx      every trainer, grouped by skill, with mastery bars
+  (tabs)/exam.tsx          exam guide + oral topics + writing practice
+  (tabs)/progress.tsx      overall mastery, streak, per trainer, grammar map
   train.tsx                the schema trainer
   write.tsx                writing studio
   vocab.tsx                vocabulary flashcards

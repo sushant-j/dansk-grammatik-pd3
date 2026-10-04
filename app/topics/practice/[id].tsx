@@ -94,7 +94,7 @@ export default function PracticeTopicDetail() {
                 ]}
               >
                 <Txt variant="label" color={t.c.textMuted}>
-                  {revealed.has(i) ? 'HIDE MODEL ANSWER' : 'SHOW MODEL ANSWER'}
+                  {revealed.has(i) ? 'Hide model answer' : 'Show model answer'}
                 </Txt>
                 <Txt variant="body" color={t.c.textFaint}>
                   {revealed.has(i) ? '▲' : '▼'}
