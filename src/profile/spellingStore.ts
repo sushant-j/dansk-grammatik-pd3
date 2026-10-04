@@ -4,60 +4,46 @@
  * sentences has a gap in that rule, not in those specific sentences.
  */
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
-import { createJSONStorage, persist } from 'zustand/middleware';
 import { spellingExamplesForRule } from '../content/spellingExamples';
+import { MAX_LEVEL, poolForLevel, type Level } from '../content/levels';
 import { buildSpellingQuestion, type SpellingQuestion } from '../grammar/spellingExercise';
 import { ALL_SPELLING_RULE_IDS, type SpellingRuleId } from '../grammar/spellingRules';
 import {
-  applyOutcome,
   EMPTY_STAT,
   progressFor,
   type ItemProgress,
   type ItemStat,
 } from './mastery';
+import { recordAnswer, recordReset } from '../sync/bus';
 
 interface SpellingState {
   stats: Record<SpellingRuleId, ItemStat>;
   hydrated: boolean;
-  record: (ruleId: SpellingRuleId, correct: boolean) => void;
+  /** `item` is what was answered: its id and niveau go into the log. */
+  record: (ruleId: SpellingRuleId, correct: boolean, item: { id: string; level: Level }) => void;
   reset: () => void;
 }
 
-function emptyStats(): Record<SpellingRuleId, ItemStat> {
+export function emptyStats(): Record<SpellingRuleId, ItemStat> {
   return Object.fromEntries(ALL_SPELLING_RULE_IDS.map((id) => [id, { ...EMPTY_STAT }])) as Record<
     SpellingRuleId,
     ItemStat
   >;
 }
 
-export const useSpellingProfile = create<SpellingState>()(
-  persist(
-    (set) => ({
-      stats: emptyStats(),
-      hydrated: false,
-
-      record: (ruleId, correct) =>
-        set((state) => ({
-          stats: {
-            ...state.stats,
-            [ruleId]: applyOutcome(state.stats[ruleId] ?? { ...EMPTY_STAT }, correct),
-          },
-        })),
-
-      reset: () => set({ stats: emptyStats() }),
-    }),
-    {
-      name: 'skema-spelling-v1',
-      storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ stats: s.stats }),
-      onRehydrateStorage: () => (state) => {
-        if (state) state.hydrated = true;
-      },
-    },
-  ),
-);
+/**
+ * Mastery per rule, derived from the progress log (sync/log.ts publishes it
+ * here). `record` adds an answer to the log rather than editing stats, so
+ * progress syncs and replays exactly.
+ */
+export const useSpellingProfile = create<SpellingState>()(() => ({
+  stats: emptyStats(),
+  hydrated: true,
+  record: (ruleId, correct, item) =>
+    recordAnswer({ domain: 'spelling', itemId: item.id, level: item.level, outcomes: { [ruleId]: correct }, correct }),
+  reset: () => recordReset('spelling'),
+}));
 
 export type SpellingRuleProgress = ItemProgress<SpellingRuleId>;
 
@@ -95,6 +81,7 @@ export function nextSpellingQuestion(
   stats: Record<SpellingRuleId, ItemStat>,
   lastEntryId?: string,
   now = Date.now(),
+  level: Level = MAX_LEVEL,
 ): SpellingQuestion {
   const progress = spellingRuleProgress(stats, now);
 
@@ -106,7 +93,7 @@ export function nextSpellingQuestion(
     .sort((a, b) => b.score - a.score);
 
   const ruleId = scoredRules[0].ruleId;
-  const pool = spellingExamplesForRule(ruleId);
+  const pool = poolForLevel(spellingExamplesForRule(ruleId), level);
   const candidates = pool.filter((e) => e.id !== lastEntryId);
   const entry = candidates[Math.floor(Math.random() * candidates.length)] ?? pool[0];
 

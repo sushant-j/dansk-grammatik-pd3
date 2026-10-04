@@ -21,8 +21,8 @@ function strongStat(): ItemStat {
 }
 
 describe('commaRuleProgress', () => {
-  it('covers all three rules', () => {
-    expect(commaRuleProgress(statsWith({}), NOW)).toHaveLength(3);
+  it('covers every comma rule', () => {
+    expect(commaRuleProgress(statsWith({}), NOW)).toHaveLength(ALL_COMMA_RULE_IDS.length);
   });
 });
 
@@ -37,6 +37,7 @@ describe('nextCommaQuestion', () => {
     const stats = statsWith({
       'comma-men-vs-og': strongStat(),
       'comma-list-items': strongStat(),
+      'comma-after-subclause': strongStat(),
       'comma-relative-clause': { ...EMPTY_STAT },
     });
     let hits = 0;

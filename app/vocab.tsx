@@ -1,9 +1,10 @@
 import React, { useCallback, useMemo, useState } from 'react';
-import { useActivity } from '../src/profile/activity';
 import { Pressable, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Screen } from '../src/ui/Screen';
-import { VOCABULARY, type VocabCategory } from '../src/content/vocabulary';
+import type { VocabCategory } from '../src/content/vocabulary';
+import { currentLevelNow, useCurrentLevel } from '../src/profile/levelStore';
+import { LevelBadge, LevelUpNotice } from '../src/ui/LevelBadge';
 import { nextWord, summarizeVocab, useVocabProfile } from '../src/profile/vocabStore';
 import { Button, Card, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
@@ -17,7 +18,8 @@ const CATEGORY_LABEL: Record<VocabCategory, string> = {
 };
 
 /**
- * Vocabulary flashcards — the "hard words to memorize" module.
+ * Vocabulary flashcards — the hard exam words, plus every word the grammar
+ * trainers use, served up to the learner's niveau.
  *
  * Flip-and-self-grade rather than typed recall: at PD3 level the skill being
  * built is recognising and deploying a word inside a spoken argument, not
@@ -31,16 +33,16 @@ export default function Vocab() {
   const stats = useVocabProfile((s2) => s2.stats);
   const record = useVocabProfile((s2) => s2.record);
 
-  const [word, setWord] = useState(() => nextWord(stats));
+  const level = useCurrentLevel('vocab');
+  const [word, setWord] = useState(() => nextWord(stats, undefined, Date.now(), currentLevelNow('vocab')));
   const [flipped, setFlipped] = useState(false);
 
-  const summary = useMemo(() => summarizeVocab(stats), [stats]);
+  const summary = useMemo(() => summarizeVocab(stats, Date.now(), level), [stats, level]);
 
   const grade = useCallback(
     (knewIt: boolean) => {
       record(word.id, knewIt);
-      useActivity.getState().markToday();
-      const nxt = nextWord(useVocabProfile.getState().stats, word.id);
+      const nxt = nextWord(useVocabProfile.getState().stats, word.id, Date.now(), currentLevelNow('vocab'));
       setWord(nxt);
       setFlipped(false);
     },
@@ -68,12 +70,17 @@ export default function Vocab() {
         <StrengthBar value={summary.total ? summary.mastered / summary.total : 0} color={t.c.success} />
       </View>
 
+      <LevelUpNotice domain="vocab" />
+
       {/* ── The card ─────────────────────────────────────────────────── */}
       <Pressable onPress={() => setFlipped((f) => !f)}>
         <Card style={{ minHeight: 220, justifyContent: 'center' }}>
           {!flipped ? (
             <View style={{ alignItems: 'center', gap: t.space(2) }}>
-              <Label color={t.c.textFaint}>{CATEGORY_LABEL[word.category]} · {word.cefr}</Label>
+              <View style={[s.row, { gap: t.space(2) }]}>
+                <Label color={t.c.textFaint}>{CATEGORY_LABEL[word.category]}</Label>
+                <LevelBadge level={word.level} />
+              </View>
               <Txt variant="display" style={{ textAlign: 'center', fontSize: 26 }}>
                 {word.word}
               </Txt>
@@ -89,26 +96,38 @@ export default function Vocab() {
                   {word.glossEn}
                 </Txt>
               </View>
-              <View>
-                <Label color={t.c.textFaint}>IN DANISH</Label>
-                <Txt variant="body" style={{ marginTop: t.space(1), lineHeight: 22 }}>
-                  {word.definitionDa}
-                </Txt>
-              </View>
-              <View
-                style={{
-                  borderLeftWidth: 3,
-                  borderLeftColor: t.c.border,
-                  paddingLeft: t.space(3),
-                }}
-              >
-                <Txt variant="body" style={{ lineHeight: 22, fontStyle: 'italic' }}>
-                  "{word.example}"
-                </Txt>
-                <Txt variant="body" color={t.c.textFaint} style={{ marginTop: t.space(1), fontSize: 13 }}>
-                  {word.exampleEn}
-                </Txt>
-              </View>
+              {word.forms ? (
+                <View>
+                  <Label color={t.c.textFaint}>FORMS</Label>
+                  <Txt variant="heading" style={{ marginTop: t.space(1) }}>
+                    {word.forms}
+                  </Txt>
+                </View>
+              ) : null}
+              {word.definitionDa ? (
+                <View>
+                  <Label color={t.c.textFaint}>IN DANISH</Label>
+                  <Txt variant="body" style={{ marginTop: t.space(1), lineHeight: 22 }}>
+                    {word.definitionDa}
+                  </Txt>
+                </View>
+              ) : null}
+              {word.example ? (
+                <View
+                  style={{
+                    borderLeftWidth: 3,
+                    borderLeftColor: t.c.border,
+                    paddingLeft: t.space(3),
+                  }}
+                >
+                  <Txt variant="body" style={{ lineHeight: 22, fontStyle: 'italic' }}>
+                    "{word.example}"
+                  </Txt>
+                  <Txt variant="body" color={t.c.textFaint} style={{ marginTop: t.space(1), fontSize: 13 }}>
+                    {word.exampleEn}
+                  </Txt>
+                </View>
+              ) : null}
             </View>
           )}
         </Card>
@@ -137,7 +156,7 @@ export default function Vocab() {
       )}
 
       <Txt variant="label" color={t.c.textFaint} style={{ textAlign: 'center' }}>
-        {VOCABULARY.length} WORDS TOTAL · {summary.dueForReview.length} DUE FOR REVIEW
+        {summary.total} WORDS UP TO NIVEAU {level} · {summary.dueForReview.length} DUE FOR REVIEW
       </Txt>
     </Screen>
   );

@@ -7,6 +7,7 @@ import { useAdjectiveProfile } from './adjectiveStore';
 import { useVerbProfile } from './verbStore';
 import { useCommaProfile } from './commaStore';
 import { useSpellingProfile } from './spellingStore';
+import { useCurrentLevel } from './levelStore';
 
 /**
  * Every trainer's mastery rolled up once, for the hub tabs (Today, Practise,
@@ -20,10 +21,11 @@ export function useOverview() {
   const verbs = useVerbProfile((st) => st.stats);
   const comma = useCommaProfile((st) => st.stats);
   const spelling = useSpellingProfile((st) => st.stats);
+  const vocabLevel = useCurrentLevel('vocab');
 
   return useMemo(() => {
-    const domains = crossDomainReview({ grammar, verbs, nouns, adjectives, comma, spelling, vocab });
+    const domains = crossDomainReview({ grammar, verbs, nouns, adjectives, comma, spelling, vocab, vocabLevel });
     const byKey = Object.fromEntries(domains.map((d) => [d.key, d])) as Record<DomainKey, DomainReview>;
     return { domains, byKey, overview: summarizeOverview(domains) };
-  }, [grammar, verbs, nouns, adjectives, comma, spelling, vocab]);
+  }, [grammar, verbs, nouns, adjectives, comma, spelling, vocab, vocabLevel]);
 }

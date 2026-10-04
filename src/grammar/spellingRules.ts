@@ -8,13 +8,21 @@
  * including for some native speakers — and the errors are about sound not
  * matching spelling, not about grammatical agreement.
  *
- * Scoped to three rules that are unambiguous and appear in essentially every
+ * Scoped to rules that are unambiguous and appear in essentially every
  * Danish orthography guide, rather than anything resting on vowel-length
  * intuitions or dialect-dependent pronunciation, where confidently asserting
- * a rule risks being wrong for some speakers.
+ * a rule risks being wrong for some speakers. The last two — the present-tense
+ * -r and ligge/lægge — are as much PD2/PD3 errors as FVU ones: they are the
+ * classic written mistakes of learners who otherwise know the grammar.
  */
 
-export type SpellingRuleId = 'silent-d' | 'silent-h-hv' | 'nogen-vs-nogle' | 'og-vs-at';
+export type SpellingRuleId =
+  | 'silent-d'
+  | 'silent-h-hv'
+  | 'nogen-vs-nogle'
+  | 'og-vs-at'
+  | 'present-tense-r'
+  | 'ligge-laegge';
 
 export interface SpellingRuleExample {
   wrong: string;
@@ -125,6 +133,54 @@ export const SPELLING_RULES: Record<SpellingRuleId, SpellingRule> = {
         wrong: 'Det er svært og forstå.',
         right: 'Det er svært at forstå.',
         note: 'Swap in "to": "difficult to understand" — that confirms it is "at".',
+      },
+    ],
+  },
+
+  'present-tense-r': {
+    id: 'present-tense-r',
+    da: 'Nutids-r: "lærer" eller "lære"',
+    en: 'Present-tense -r: "lærer" or "lære"',
+    statement:
+      'A verb in the present tense ends in -r ("jeg lærer"); after a helping verb or "at" it stays in the infinitive, without -r ("jeg vil lære", "at lære").',
+    explanation:
+      'Danish speech often swallows the final -r, so "lærer" and "lære" sound the same — but in writing the difference is the whole grammar of the verb. If the verb is the one carrying the tense in its clause, it is present tense and takes -r: "Hun lærer dansk." If it follows a modal verb (kan, vil, skal, må, bør) or the marker "at", it is an infinitive and takes no -r: "Hun vil lære dansk", "Det er svært at lære dansk." A quick test: swap in "løbe/løber" or another verb you are sure of, and listen for which form fits.',
+    whyHard:
+      'It is the single most frequent spelling error in Danish, made by native speakers too, because the ear gives no help at all. It is also easy to overcorrect once you have learned it, and add an -r after "at" or "vil".',
+    examples: [
+      {
+        wrong: 'Jeg vil gerne lærer mere dansk.',
+        right: 'Jeg vil gerne lære mere dansk.',
+        note: 'After the helping verb "vil", the verb is an infinitive — no -r.',
+      },
+      {
+        wrong: 'Min datter lære at cykle.',
+        right: 'Min datter lærer at cykle.',
+        note: '"lærer" carries the tense in this clause, so it takes the present-tense -r.',
+      },
+    ],
+  },
+
+  'ligge-laegge': {
+    id: 'ligge-laegge',
+    da: '"ligge" eller "lægge"',
+    en: '"ligge" (lie) or "lægge" (lay, put)',
+    statement:
+      '"Ligge" is what something does by itself (it lies there); "lægge" is what you do to something (you lay it down). The past tenses are "lå" and "lagde".',
+    explanation:
+      'The two verbs are a pair, like English "lie" and "lay", and Danish keeps them strictly apart. "Ligge" takes no object: "Bogen ligger på bordet", "Jeg lå i sengen hele dagen." "Lægge" always has something being put somewhere: "Jeg lægger bogen på bordet", "Hun lagde nøglerne i tasken." If you can ask "lægge hvad?" and get an answer from the sentence, it is "lægge". The same split runs through the compounds: "ligge syg" but "lægge mærke til", "lægge vægt på".',
+    whyHard:
+      'The forms cross over in confusing ways: the present tenses "ligger" and "lægger" differ by one vowel, and the past tense of "ligge" ("lå") looks nothing like either. Spoken Danish blurs them further, so learners often pick by sound.',
+    examples: [
+      {
+        wrong: 'Jeg ligger telefonen på bordet.',
+        right: 'Jeg lægger telefonen på bordet.',
+        note: 'You put the phone somewhere — something is being moved, so it is "lægge".',
+      },
+      {
+        wrong: 'Han lagde i sengen hele weekenden.',
+        right: 'Han lå i sengen hele weekenden.',
+        note: 'Nothing is being put anywhere — he was simply lying there, so it is "ligge", past tense "lå".',
       },
     ],
   },

@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "c-men-10",
+    "level": 2,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Jeg er træt, men jeg skal på arbejde.",
+    "incorrect": "Jeg er træt men jeg skal på arbejde.",
+    "explanation": "\"Men\" joins two full clauses (\"jeg er træt\" / \"jeg skal på arbejde\"), so it takes a comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-men-11",
+    "level": 2,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Vi har en hund, men vi har ingen kat.",
+    "incorrect": "Vi har en hund men vi har ingen kat.",
+    "explanation": "Each side of \"men\" has its own subject and verb — two clauses, so the comma is required.",
+    "reviewed": false
+  },
+  {
+    "id": "c-men-12",
+    "level": 2,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Butikken er åben, men den lukker klokken fem.",
+    "incorrect": "Butikken er åben men den lukker klokken fem.",
+    "explanation": "\"Men\" connects two clauses here (\"butikken er åben\" / \"den lukker\"), and that always takes a comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-men-13",
+    "level": 2,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Han taler dansk, men han skriver det ikke så godt.",
+    "incorrect": "Han taler dansk men han skriver det ikke så godt.",
+    "explanation": "A contrast between two full clauses with \"men\" is always marked with a comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-og-10",
+    "level": 2,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Hun står op og drikker en kop kaffe.",
+    "incorrect": "Hun står op, og drikker en kop kaffe.",
+    "explanation": "One subject (\"hun\") with two verbs (\"står op\", \"drikker\") — not two clauses, so no comma before \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-og-11",
+    "level": 2,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Vi går hjem og laver mad.",
+    "incorrect": "Vi går hjem, og laver mad.",
+    "explanation": "\"Vi\" is the subject of both verbs — \"og\" just adds a second action, so a comma is wrong.",
+    "reviewed": false
+  },
+  {
+    "id": "c-og-12",
+    "level": 2,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Jeg kan tage toget eller cykle.",
+    "incorrect": "Jeg kan tage toget, eller cykle.",
+    "explanation": "\"Eller\" links two actions for the same subject (\"jeg\"), so there is no comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-og-13",
+    "level": 2,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Børnene leger i haven og spiser is.",
+    "incorrect": "Børnene leger i haven, og spiser is.",
+    "explanation": "\"Børnene\" does both things — one subject, two verbs, no comma before \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-men-14",
+    "level": 3,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Jeg har boet i Danmark i tre år, men jeg lærer stadig nye ord hver dag.",
+    "incorrect": "Jeg har boet i Danmark i tre år men jeg lærer stadig nye ord hver dag.",
+    "explanation": "Two full clauses joined by \"men\" — the comma before \"men\" is required.",
+    "reviewed": false
+  },
+  {
+    "id": "c-men-15",
+    "level": 3,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Lejligheden er dyr, men den ligger tæt på min arbejdsplads.",
+    "incorrect": "Lejligheden er dyr men den ligger tæt på min arbejdsplads.",
+    "explanation": "\"Den ligger …\" is a new clause with its own subject, so \"men\" takes a comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-men-16",
+    "level": 3,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Min søn vil gerne spille fodbold, men han har ikke tid i weekenden.",
+    "incorrect": "Min søn vil gerne spille fodbold men han har ikke tid i weekenden.",
+    "explanation": "\"Men\" introduces a second full clause (\"han har ikke tid\"), so a comma goes before it.",
+    "reviewed": false
+  },
+  {
+    "id": "c-men-17",
+    "level": 3,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Toget skulle køre klokken otte, men det var forsinket.",
+    "incorrect": "Toget skulle køre klokken otte men det var forsinket.",
+    "explanation": "\"Men\" joins two clauses (\"toget skulle køre\" / \"det var forsinket\") — comma every time.",
+    "reviewed": false
+  },
+  {
+    "id": "c-men-18",
+    "level": 3,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Vi ville gerne holde ferie i Spanien, men billetterne var for dyre.",
+    "incorrect": "Vi ville gerne holde ferie i Spanien men billetterne var for dyre.",
+    "explanation": "The second half has its own subject (\"billetterne\") and verb, so \"men\" needs a comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-og-14",
+    "level": 3,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Han henter børnene i børnehaven og køber ind på vejen hjem.",
+    "incorrect": "Han henter børnene i børnehaven, og køber ind på vejen hjem.",
+    "explanation": "\"Han\" is the subject of both \"henter\" and \"køber\" — one clause with two verbs, so no comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-og-15",
+    "level": 3,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Jeg ringer til lægen i morgen og bestiller en tid.",
+    "incorrect": "Jeg ringer til lægen i morgen, og bestiller en tid.",
+    "explanation": "Same subject for both actions, so \"og\" takes no comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-og-16",
+    "level": 3,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Hun læser dansk på sprogskolen og arbejder i en butik om aftenen.",
+    "incorrect": "Hun læser dansk på sprogskolen, og arbejder i en butik om aftenen.",
+    "explanation": "\"Hun\" does both — \"og\" adds a second verb, not a second clause, so no comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-og-17",
+    "level": 3,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Du kan betale kontant eller bruge dit kort.",
+    "incorrect": "Du kan betale kontant, eller bruge dit kort.",
+    "explanation": "\"Eller\" offers a second action for the same subject (\"du\"), so a comma there is an error.",
+    "reviewed": false
+  },
+  {
+    "id": "c-men-19",
+    "level": 4,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Jeg har søgt mange stillinger inden for mit fag, men jeg har endnu ikke fået et job.",
+    "incorrect": "Jeg har søgt mange stillinger inden for mit fag men jeg har endnu ikke fået et job.",
+    "explanation": "However long the first clause is, \"men\" joining two clauses always takes a comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-men-20",
+    "level": 4,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Kommunen tilbyder gratis danskundervisning, men der er lang ventetid.",
+    "incorrect": "Kommunen tilbyder gratis danskundervisning men der er lang ventetid.",
+    "explanation": "\"Der er lang ventetid\" is a full clause of its own, so the \"men\" before it needs a comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-men-21",
+    "level": 4,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Det er sundt at cykle til arbejde, men det kan være svært om vinteren.",
+    "incorrect": "Det er sundt at cykle til arbejde men det kan være svært om vinteren.",
+    "explanation": "Two full clauses (\"det er sundt …\" / \"det kan være svært …\") joined by \"men\" — comma required.",
+    "reviewed": false
+  },
+  {
+    "id": "c-men-22",
+    "level": 4,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Min arbejdsgiver var meget tilfreds med mit arbejde, men firmaet havde ikke råd til at forlænge min kontrakt.",
+    "incorrect": "Min arbejdsgiver var meget tilfreds med mit arbejde men firmaet havde ikke råd til at forlænge min kontrakt.",
+    "explanation": "A new subject (\"firmaet\") after \"men\" confirms a second clause — the comma is required.",
+    "reviewed": false
+  },
+  {
+    "id": "c-men-23",
+    "level": 4,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Vi har klaget over støjen flere gange, men udlejeren har ikke reageret.",
+    "incorrect": "Vi har klaget over støjen flere gange men udlejeren har ikke reageret.",
+    "explanation": "\"Men\" joins two clauses with different subjects (\"vi\" / \"udlejeren\"), so it takes a comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-og-18",
+    "level": 4,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Jeg har taget en uddannelse som sygeplejerske i mit hjemland og arbejder nu på et plejehjem i Odense.",
+    "incorrect": "Jeg har taget en uddannelse som sygeplejerske i mit hjemland, og arbejder nu på et plejehjem i Odense.",
+    "explanation": "Even in a long sentence, \"jeg\" is the only subject — \"og\" adds a second verb, so no comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-og-19",
+    "level": 4,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Hun har meldt sig ind i en forening og mødt mange nye mennesker.",
+    "incorrect": "Hun har meldt sig ind i en forening, og mødt mange nye mennesker.",
+    "explanation": "\"Hun har\" covers both \"meldt sig ind\" and \"mødt\" — one subject, so no comma before \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-og-20",
+    "level": 4,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Vi vil gerne flytte til en større lejlighed og have en have til børnene.",
+    "incorrect": "Vi vil gerne flytte til en større lejlighed, og have en have til børnene.",
+    "explanation": "\"Vi vil gerne\" governs both \"flytte\" and \"have\" — one clause, no comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-og-21",
+    "level": 4,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Han læste opgaven igennem flere gange og rettede alle fejlene.",
+    "incorrect": "Han læste opgaven igennem flere gange, og rettede alle fejlene.",
+    "explanation": "One subject (\"han\"), two actions — \"og\" takes no comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-og-22",
+    "level": 4,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Du kan sende ansøgningen med posten eller aflevere den personligt på kontoret.",
+    "incorrect": "Du kan sende ansøgningen med posten, eller aflevere den personligt på kontoret.",
+    "explanation": "\"Eller\" links two ways for the same subject (\"du\") to act, so no comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-men-24",
+    "level": 5,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Jeg har ansøgt om permanent opholdstilladelse, men jeg har endnu ikke modtaget et svar fra styrelsen.",
+    "incorrect": "Jeg har ansøgt om permanent opholdstilladelse men jeg har endnu ikke modtaget et svar fra styrelsen.",
+    "explanation": "\"Men\" introduces a second full clause, so it takes a comma — also in formal letters.",
+    "reviewed": false
+  },
+  {
+    "id": "c-men-25",
+    "level": 5,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Det offentlige transportsystem i Danmark er velfungerende, men billetpriserne er efter min mening alt for høje.",
+    "incorrect": "Det offentlige transportsystem i Danmark er velfungerende men billetpriserne er efter min mening alt for høje.",
+    "explanation": "Two full clauses with different subjects joined by \"men\" — the comma is required.",
+    "reviewed": false
+  },
+  {
+    "id": "c-men-26",
+    "level": 5,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Jeg har stor erfaring med kundeservice, men jeg har ikke tidligere arbejdet i en dansk virksomhed.",
+    "incorrect": "Jeg har stor erfaring med kundeservice men jeg har ikke tidligere arbejdet i en dansk virksomhed.",
+    "explanation": "The second half has its own subject and verb (\"jeg har ikke …\"), so \"men\" takes a comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-men-27",
+    "level": 5,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Mange unge ønsker at bo i de store byer, men boligpriserne gør det næsten umuligt.",
+    "incorrect": "Mange unge ønsker at bo i de store byer men boligpriserne gør det næsten umuligt.",
+    "explanation": "\"Men\" contrasts two complete clauses, and Danish marks that with a comma every time.",
+    "reviewed": false
+  },
+  {
+    "id": "c-og-23",
+    "level": 5,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Jeg har vedhæftet mit CV og ser frem til at høre fra jer.",
+    "incorrect": "Jeg har vedhæftet mit CV, og ser frem til at høre fra jer.",
+    "explanation": "\"Jeg\" is the subject of both \"har vedhæftet\" and \"ser frem\" — one clause, so no comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-og-24",
+    "level": 5,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Regeringen bør investere mere i den kollektive trafik og gøre det billigere at tage toget.",
+    "incorrect": "Regeringen bør investere mere i den kollektive trafik, og gøre det billigere at tage toget.",
+    "explanation": "\"Regeringen bør\" governs both \"investere\" and \"gøre\" — one subject, no comma before \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-og-25",
+    "level": 5,
+    "ruleId": "comma-men-vs-og",
+    "correct": "Jeg vil gerne bede om et møde med min sagsbehandler og få afklaret min situation.",
+    "incorrect": "Jeg vil gerne bede om et møde med min sagsbehandler, og få afklaret min situation.",
+    "explanation": "\"Jeg vil gerne\" covers both actions — \"og\" joins two verbs, not two clauses, so no comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-10",
+    "level": 2,
+    "ruleId": "comma-list-items",
+    "correct": "Vi har æbler, pærer og bananer.",
+    "incorrect": "Vi har æbler, pærer, og bananer.",
+    "explanation": "No comma before the final \"og\" in a Danish list.",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-11",
+    "level": 2,
+    "ruleId": "comma-list-items",
+    "correct": "Min søster har en kat, en hund og to fisk.",
+    "incorrect": "Min søster har en kat, en hund, og to fisk.",
+    "explanation": "The comma stops after \"en kat\" — the last item is joined by \"og\" alone.",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-12",
+    "level": 2,
+    "ruleId": "comma-list-items",
+    "correct": "Jeg spiser morgenmad, frokost og aftensmad hjemme.",
+    "incorrect": "Jeg spiser morgenmad, frokost, og aftensmad hjemme.",
+    "explanation": "Three items, and no comma before the last \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-13",
+    "level": 2,
+    "ruleId": "comma-list-items",
+    "correct": "Vil du have te, kaffe eller vand?",
+    "incorrect": "Vil du have te, kaffe, eller vand?",
+    "explanation": "The same rule holds for \"eller\": no comma before the final item.",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-14",
+    "level": 2,
+    "ruleId": "comma-list-items",
+    "correct": "I parken er der børn, hunde og ænder.",
+    "incorrect": "I parken er der børn, hunde, og ænder.",
+    "explanation": "Danish has no Oxford comma — \"og\" alone joins the last item.",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-15",
+    "level": 2,
+    "ruleId": "comma-list-items",
+    "correct": "På mandag, onsdag og fredag går jeg til dansk.",
+    "incorrect": "På mandag, onsdag, og fredag går jeg til dansk.",
+    "explanation": "Comma between the first items, but never before the final \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-16",
+    "level": 2,
+    "ruleId": "comma-list-items",
+    "correct": "Mor, far og børnene spiser sammen.",
+    "incorrect": "Mor, far, og børnene spiser sammen.",
+    "explanation": "The list ends with \"og børnene\" — no comma in front of \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-17",
+    "level": 2,
+    "ruleId": "comma-list-items",
+    "correct": "Jeg skal købe kartofler, gulerødder, løg og fisk.",
+    "incorrect": "Jeg skal købe kartofler, gulerødder, løg, og fisk.",
+    "explanation": "Four items: commas between the first three, none before \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-18",
+    "level": 3,
+    "ruleId": "comma-list-items",
+    "correct": "I weekenden gjorde jeg rent, vaskede tøj og handlede ind.",
+    "incorrect": "I weekenden gjorde jeg rent, vaskede tøj, og handlede ind.",
+    "explanation": "A list of actions follows the same rule — no comma before the final \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-19",
+    "level": 3,
+    "ruleId": "comma-list-items",
+    "correct": "Kurset handler om udtale, grammatik og ordforråd.",
+    "incorrect": "Kurset handler om udtale, grammatik, og ordforråd.",
+    "explanation": "The last item is joined by \"og\" alone, with no comma before it.",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-20",
+    "level": 3,
+    "ruleId": "comma-list-items",
+    "correct": "Du kan kontakte os på telefon, e-mail eller sms.",
+    "incorrect": "Du kan kontakte os på telefon, e-mail, eller sms.",
+    "explanation": "A list ending in \"eller\" takes no comma before \"eller\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-21",
+    "level": 3,
+    "ruleId": "comma-list-items",
+    "correct": "Hun har boet i Polen, Tyskland, Holland og Danmark.",
+    "incorrect": "Hun har boet i Polen, Tyskland, Holland, og Danmark.",
+    "explanation": "Commas separate the countries, but the final \"og\" never has one before it.",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-22",
+    "level": 3,
+    "ruleId": "comma-list-items",
+    "correct": "Til festen skal vi bruge tallerkener, glas, servietter og bestik.",
+    "incorrect": "Til festen skal vi bruge tallerkener, glas, servietter, og bestik.",
+    "explanation": "However long the list, Danish puts no comma before the last \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-23",
+    "level": 3,
+    "ruleId": "comma-list-items",
+    "correct": "Om sommeren kan man bade, cykle eller gå ture ved stranden.",
+    "incorrect": "Om sommeren kan man bade, cykle, eller gå ture ved stranden.",
+    "explanation": "Three actions in a list — no comma before the final \"eller\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-24",
+    "level": 3,
+    "ruleId": "comma-list-items",
+    "correct": "Lægen spurgte om min alder, min vægt og min medicin.",
+    "incorrect": "Lægen spurgte om min alder, min vægt, og min medicin.",
+    "explanation": "Each item gets a comma except the last, which is joined by \"og\" alone.",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-25",
+    "level": 3,
+    "ruleId": "comma-list-items",
+    "correct": "Vi skal have kylling, ris og salat til aftensmad.",
+    "incorrect": "Vi skal have kylling, ris, og salat til aftensmad.",
+    "explanation": "The Oxford comma does not exist in Danish — no comma before \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-26",
+    "level": 3,
+    "ruleId": "comma-list-items",
+    "correct": "Børnene skal have madpakke, drikkedunk og regntøj med i skole.",
+    "incorrect": "Børnene skal have madpakke, drikkedunk, og regntøj med i skole.",
+    "explanation": "No comma before the \"og\" that introduces the final item.",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-27",
+    "level": 4,
+    "ruleId": "comma-list-items",
+    "correct": "I mit tidligere job havde jeg ansvar for indkøb, lager og fakturering.",
+    "incorrect": "I mit tidligere job havde jeg ansvar for indkøb, lager, og fakturering.",
+    "explanation": "A list of responsibilities still follows the rule: no comma before the final \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-28",
+    "level": 4,
+    "ruleId": "comma-list-items",
+    "correct": "Lejligheden består af to værelser, en stue, et køkken og et badeværelse.",
+    "incorrect": "Lejligheden består af to værelser, en stue, et køkken, og et badeværelse.",
+    "explanation": "Four items: commas between them, but none before the last \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-29",
+    "level": 4,
+    "ruleId": "comma-list-items",
+    "correct": "Ansøgningen skal indeholde et CV, en motiveret ansøgning og kopier af dine eksamensbeviser.",
+    "incorrect": "Ansøgningen skal indeholde et CV, en motiveret ansøgning, og kopier af dine eksamensbeviser.",
+    "explanation": "Even when the last item is long, it is joined by \"og\" alone — no comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-30",
+    "level": 4,
+    "ruleId": "comma-list-items",
+    "correct": "Til mødet diskuterede vi budgettet, arbejdstiderne og den nye ferieplan.",
+    "incorrect": "Til mødet diskuterede vi budgettet, arbejdstiderne, og den nye ferieplan.",
+    "explanation": "Danish never puts a comma before the final \"og\" in a list.",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-31",
+    "level": 4,
+    "ruleId": "comma-list-items",
+    "correct": "Man kan søge om boligstøtte, børnetilskud eller økonomisk hjælp hos kommunen.",
+    "incorrect": "Man kan søge om boligstøtte, børnetilskud, eller økonomisk hjælp hos kommunen.",
+    "explanation": "A list ending with \"eller\" has no comma before \"eller\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-32",
+    "level": 4,
+    "ruleId": "comma-list-items",
+    "correct": "Han er pålidelig, hjælpsom og god til at samarbejde.",
+    "incorrect": "Han er pålidelig, hjælpsom, og god til at samarbejde.",
+    "explanation": "A list of qualities follows the same rule — no comma before \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-33",
+    "level": 4,
+    "ruleId": "comma-list-items",
+    "correct": "Vi sorterer vores affald i papir, plast, glas og madaffald.",
+    "incorrect": "Vi sorterer vores affald i papir, plast, glas, og madaffald.",
+    "explanation": "Commas between the items, none before the final \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-34",
+    "level": 4,
+    "ruleId": "comma-list-items",
+    "correct": "Om morgenen afleverer jeg børnene, cykler på arbejde og tjekker mine mails.",
+    "incorrect": "Om morgenen afleverer jeg børnene, cykler på arbejde, og tjekker mine mails.",
+    "explanation": "A list of three actions — the last one is joined by \"og\" without a comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-35",
+    "level": 4,
+    "ruleId": "comma-list-items",
+    "correct": "Ved jobsamtalen bør man være velforberedt, ærlig og præcis.",
+    "incorrect": "Ved jobsamtalen bør man være velforberedt, ærlig, og præcis.",
+    "explanation": "Three adjectives in a list: no comma before the final \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-36",
+    "level": 4,
+    "ruleId": "comma-list-items",
+    "correct": "Du kan vælge fisk, kød eller en vegetarisk ret.",
+    "incorrect": "Du kan vælge fisk, kød, eller en vegetarisk ret.",
+    "explanation": "The final option is joined by \"eller\" alone, with no comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-37",
+    "level": 5,
+    "ruleId": "comma-list-items",
+    "correct": "Jeg har erfaring med projektledelse, økonomistyring og kommunikation med kunder.",
+    "incorrect": "Jeg har erfaring med projektledelse, økonomistyring, og kommunikation med kunder.",
+    "explanation": "In a formal application too, the last list item is joined by \"og\" without a comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-38",
+    "level": 5,
+    "ruleId": "comma-list-items",
+    "correct": "Klimaforandringerne påvirker landbruget, naturen og vores sundhed.",
+    "incorrect": "Klimaforandringerne påvirker landbruget, naturen, og vores sundhed.",
+    "explanation": "No comma before the final \"og\" — Danish has no Oxford comma.",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-39",
+    "level": 5,
+    "ruleId": "comma-list-items",
+    "correct": "Kommunen bør prioritere skolerne, ældreplejen og den kollektive trafik.",
+    "incorrect": "Kommunen bør prioritere skolerne, ældreplejen, og den kollektive trafik.",
+    "explanation": "Three priorities, and the last one takes no comma before \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-40",
+    "level": 5,
+    "ruleId": "comma-list-items",
+    "correct": "Efter min mening er sundhed, uddannelse og tryghed de vigtigste opgaver for staten.",
+    "incorrect": "Efter min mening er sundhed, uddannelse, og tryghed de vigtigste opgaver for staten.",
+    "explanation": "The list sits mid-sentence, but the rule is the same: no comma before \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-41",
+    "level": 5,
+    "ruleId": "comma-list-items",
+    "correct": "Som medarbejder er jeg struktureret, fleksibel og vant til at arbejde under tidspres.",
+    "incorrect": "Som medarbejder er jeg struktureret, fleksibel, og vant til at arbejde under tidspres.",
+    "explanation": "Even when the last item is a longer phrase, \"og\" takes no comma before it.",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-42",
+    "level": 5,
+    "ruleId": "comma-list-items",
+    "correct": "Til mødet med jobcentret skal du medbringe pas, lønsedler og dokumentation for din uddannelse.",
+    "incorrect": "Til mødet med jobcentret skal du medbringe pas, lønsedler, og dokumentation for din uddannelse.",
+    "explanation": "Commas separate the items, but never before the final \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-list-43",
+    "level": 5,
+    "ruleId": "comma-list-items",
+    "correct": "Integration kræver sprog, arbejde og et netværk i lokalsamfundet.",
+    "incorrect": "Integration kræver sprog, arbejde, og et netværk i lokalsamfundet.",
+    "explanation": "A three-item list: no comma before the last \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-10",
+    "level": 2,
+    "ruleId": "comma-relative-clause",
+    "correct": "Min far, som er læge, arbejder meget.",
+    "incorrect": "Min far som er læge arbejder meget.",
+    "explanation": "There is only one \"min far\", so the \"som\"-clause is extra information — commas on both sides.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-11",
+    "level": 2,
+    "ruleId": "comma-relative-clause",
+    "correct": "Min søster, som bor i Odense, har to børn.",
+    "incorrect": "Min søster som bor i Odense har to børn.",
+    "explanation": "\"Min søster\" is already identified, so where she lives is added information, set off by commas.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-12",
+    "level": 2,
+    "ruleId": "comma-relative-clause",
+    "correct": "Peter, som er min nabo, er meget venlig.",
+    "incorrect": "Peter som er min nabo er meget venlig.",
+    "explanation": "A name already picks out one person — the \"som\"-clause is extra and needs commas on both sides.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-13",
+    "level": 2,
+    "ruleId": "comma-relative-clause",
+    "correct": "Min kone, som er fra Syrien, taler godt dansk.",
+    "incorrect": "Min kone som er fra Syrien taler godt dansk.",
+    "explanation": "Only one \"min kone\" is possible, so the clause adds a fact — commas before and after.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-14",
+    "level": 2,
+    "ruleId": "comma-relative-clause",
+    "correct": "Aarhus, som ligger i Jylland, er en stor by.",
+    "incorrect": "Aarhus som ligger i Jylland er en stor by.",
+    "explanation": "There is only one Aarhus — the clause adds information, so it takes a comma pair.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-15",
+    "level": 2,
+    "ruleId": "comma-relative-clause",
+    "correct": "Min mormor, som er 80 år, bor alene.",
+    "incorrect": "Min mormor som er 80 år bor alene.",
+    "explanation": "\"Min mormor\" is one specific person, so her age is extra information set off by commas.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-16",
+    "level": 2,
+    "ruleId": "comma-relative-clause",
+    "correct": "Anna, som går i min klasse, kommer fra Polen.",
+    "incorrect": "Anna som går i min klasse kommer fra Polen.",
+    "explanation": "The name already identifies her — the \"som\"-clause is background, with commas on both sides.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-17",
+    "level": 2,
+    "ruleId": "comma-relative-clause",
+    "correct": "Min mand, som er kok, laver altid maden.",
+    "incorrect": "Min mand som er kok laver altid maden.",
+    "explanation": "There is only one \"min mand\", so the clause adds information — comma pair required.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-18",
+    "level": 3,
+    "ruleId": "comma-relative-clause",
+    "correct": "Min datter, som er syv år, er lige begyndt i skole.",
+    "incorrect": "Min datter som er syv år er lige begyndt i skole.",
+    "explanation": "\"Min datter\" picks out one child, so her age is extra information — commas on both sides.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-19",
+    "level": 3,
+    "ruleId": "comma-relative-clause",
+    "correct": "Bornholm, som ligger i Østersøen, er en populær ferieø.",
+    "incorrect": "Bornholm som ligger i Østersøen er en populær ferieø.",
+    "explanation": "There is only one Bornholm — the clause adds a fact and is set off by commas.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-20",
+    "level": 3,
+    "ruleId": "comma-relative-clause",
+    "correct": "Mohammed, som arbejder på et hospital, har ofte nattevagter.",
+    "incorrect": "Mohammed som arbejder på et hospital har ofte nattevagter.",
+    "explanation": "A named person is already identified, so the \"som\"-clause takes commas on both sides.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-21",
+    "level": 3,
+    "ruleId": "comma-relative-clause",
+    "correct": "Min svigermor, som bor i Tyrkiet, besøger os hver sommer.",
+    "incorrect": "Min svigermor som bor i Tyrkiet besøger os hver sommer.",
+    "explanation": "Only one \"min svigermor\" is possible — the clause is background information, with a comma pair.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-22",
+    "level": 3,
+    "ruleId": "comma-relative-clause",
+    "correct": "Tivoli, som ligger midt i København, åbnede i 1843.",
+    "incorrect": "Tivoli som ligger midt i København åbnede i 1843.",
+    "explanation": "There is only one Tivoli, so the clause adds information rather than narrowing it down — commas on both sides.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-23",
+    "level": 3,
+    "ruleId": "comma-relative-clause",
+    "correct": "Min ældste søn, som er 15 år, vil gerne være elektriker.",
+    "incorrect": "Min ældste søn som er 15 år vil gerne være elektriker.",
+    "explanation": "\"Min ældste søn\" can only be one person, so the clause is extra and takes commas.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-24",
+    "level": 3,
+    "ruleId": "comma-relative-clause",
+    "correct": "Kong Frederik, som blev konge i 2024, er meget populær.",
+    "incorrect": "Kong Frederik som blev konge i 2024 er meget populær.",
+    "explanation": "The king is a unique, named person — the \"som\"-clause adds a fact, so it is set off by commas.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-25",
+    "level": 3,
+    "ruleId": "comma-relative-clause",
+    "correct": "Fatima, som er min bedste veninde, har lige fået et nyt job.",
+    "incorrect": "Fatima som er min bedste veninde har lige fået et nyt job.",
+    "explanation": "The name already identifies her, so the clause is extra information — comma pair required.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-26",
+    "level": 3,
+    "ruleId": "comma-relative-clause",
+    "correct": "Odense, som er Danmarks tredjestørste by, er H.C. Andersens fødeby.",
+    "incorrect": "Odense som er Danmarks tredjestørste by er H.C. Andersens fødeby.",
+    "explanation": "There is only one Odense — the clause adds information and takes commas on both sides.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-27",
+    "level": 4,
+    "ruleId": "comma-relative-clause",
+    "correct": "Min underbo, som spiller høj musik hver aften, har fået en advarsel fra boligforeningen.",
+    "incorrect": "Min underbo som spiller høj musik hver aften har fået en advarsel fra boligforeningen.",
+    "explanation": "\"Min underbo\" is one specific neighbour, so the clause is background — commas on both sides.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-28",
+    "level": 4,
+    "ruleId": "comma-relative-clause",
+    "correct": "Min sagsbehandler, som jeg har haft i to år, er gået på pension.",
+    "incorrect": "Min sagsbehandler som jeg har haft i to år er gået på pension.",
+    "explanation": "\"Min sagsbehandler\" is already unique, so the \"som\"-clause is extra and needs a comma pair.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-29",
+    "level": 4,
+    "ruleId": "comma-relative-clause",
+    "correct": "Folketinget, som har 179 medlemmer, vedtager landets love.",
+    "incorrect": "Folketinget som har 179 medlemmer vedtager landets love.",
+    "explanation": "There is only one Folketing — the clause adds a fact, so it is set off by commas.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-30",
+    "level": 4,
+    "ruleId": "comma-relative-clause",
+    "correct": "Danmarks statsminister, som leder regeringen, holder nytårstale den 1. januar.",
+    "incorrect": "Danmarks statsminister som leder regeringen holder nytårstale den 1. januar.",
+    "explanation": "There is only one Danish prime minister, so the clause is extra information — commas on both sides.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-31",
+    "level": 4,
+    "ruleId": "comma-relative-clause",
+    "correct": "Min arbejdsgiver, som har et lille rengøringsfirma, har tilbudt mig en fast stilling.",
+    "incorrect": "Min arbejdsgiver som har et lille rengøringsfirma har tilbudt mig en fast stilling.",
+    "explanation": "\"Min arbejdsgiver\" is already identified, so the clause is background set off by commas.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-32",
+    "level": 4,
+    "ruleId": "comma-relative-clause",
+    "correct": "Jylland, som er Danmarks største landsdel, har grænse til Tyskland.",
+    "incorrect": "Jylland som er Danmarks største landsdel har grænse til Tyskland.",
+    "explanation": "There is only one Jylland — the clause adds information and takes a comma pair.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-33",
+    "level": 4,
+    "ruleId": "comma-relative-clause",
+    "correct": "Min mands søster, som er sygeplejerske, har hjulpet os meget.",
+    "incorrect": "Min mands søster som er sygeplejerske har hjulpet os meget.",
+    "explanation": "\"Min mands søster\" points to one person, so her job is extra information — commas on both sides.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-34",
+    "level": 4,
+    "ruleId": "comma-relative-clause",
+    "correct": "Storebæltsbroen, som forbinder Fyn og Sjælland, åbnede for biltrafik i 1998.",
+    "incorrect": "Storebæltsbroen som forbinder Fyn og Sjælland åbnede for biltrafik i 1998.",
+    "explanation": "There is only one Storebæltsbro, so the clause adds a fact — it needs commas on both sides.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-35",
+    "level": 4,
+    "ruleId": "comma-relative-clause",
+    "correct": "Vores søn, som har astma, skal tage medicin hver dag.",
+    "incorrect": "Vores søn som har astma skal tage medicin hver dag.",
+    "explanation": "\"Vores søn\" is already identified, so the clause is added information set off by commas.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-36",
+    "level": 4,
+    "ruleId": "comma-relative-clause",
+    "correct": "Grundloven, som er fra 1849, sikrer ytringsfriheden.",
+    "incorrect": "Grundloven som er fra 1849 sikrer ytringsfriheden.",
+    "explanation": "There is only one Grundlov — the clause adds background, so it takes a comma pair.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-37",
+    "level": 5,
+    "ruleId": "comma-relative-clause",
+    "correct": "Min tidligere arbejdsgiver, som jeg var ansat hos i fem år, vil gerne give mig en anbefaling.",
+    "incorrect": "Min tidligere arbejdsgiver som jeg var ansat hos i fem år vil gerne give mig en anbefaling.",
+    "explanation": "\"Min tidligere arbejdsgiver\" is one specific employer, so the long \"som\"-clause is extra and takes commas on both sides.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-38",
+    "level": 5,
+    "ruleId": "comma-relative-clause",
+    "correct": "Folkeskolen, som er gratis for alle børn, spiller en vigtig rolle i integrationen.",
+    "incorrect": "Folkeskolen som er gratis for alle børn spiller en vigtig rolle i integrationen.",
+    "explanation": "\"Folkeskolen\" here means the one Danish school system, so the clause adds information — comma pair required.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-39",
+    "level": 5,
+    "ruleId": "comma-relative-clause",
+    "correct": "Min datters klasselærer, som har været meget opmærksom på hendes trivsel, har foreslået et møde.",
+    "incorrect": "Min datters klasselærer som har været meget opmærksom på hendes trivsel har foreslået et møde.",
+    "explanation": "\"Min datters klasselærer\" is one person, so the clause is background set off by commas.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-40",
+    "level": 5,
+    "ruleId": "comma-relative-clause",
+    "correct": "Velfærdsstaten, som bygger på et højt skattetryk, giver borgerne gratis sundhed og uddannelse.",
+    "incorrect": "Velfærdsstaten som bygger på et højt skattetryk giver borgerne gratis sundhed og uddannelse.",
+    "explanation": "The clause describes the one Danish welfare state rather than picking it out — commas on both sides.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-41",
+    "level": 5,
+    "ruleId": "comma-relative-clause",
+    "correct": "Kommunens borgmester, som har lovet flere daginstitutioner, har endnu ikke fremlagt en plan.",
+    "incorrect": "Kommunens borgmester som har lovet flere daginstitutioner har endnu ikke fremlagt en plan.",
+    "explanation": "A municipality has only one mayor, so the clause is extra information and takes a comma pair.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-42",
+    "level": 5,
+    "ruleId": "comma-relative-clause",
+    "correct": "Danmarks statsminister, som har ansvaret for regeringens politik, bør efter min mening tage klimakrisen mere alvorligt.",
+    "incorrect": "Danmarks statsminister som har ansvaret for regeringens politik bør efter min mening tage klimakrisen mere alvorligt.",
+    "explanation": "There is only one Danish prime minister — the clause adds information, so it is set off by commas.",
+    "reviewed": false
+  },
+  {
+    "id": "c-rel-43",
+    "level": 5,
+    "ruleId": "comma-relative-clause",
+    "correct": "Min nærmeste leder, som har fulgt mit arbejde tæt det seneste år, kan bekræfte mine oplysninger.",
+    "incorrect": "Min nærmeste leder som har fulgt mit arbejde tæt det seneste år kan bekræfte mine oplysninger.",
+    "explanation": "\"Min nærmeste leder\" is one specific person, so the clause is background — commas before and after.",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-10",
+    "level": 2,
+    "ruleId": "comma-after-subclause",
+    "correct": "Når det regner, tager jeg bussen.",
+    "incorrect": "Når det regner tager jeg bussen.",
+    "explanation": "The \"når\"-clause ends at \"regner\"; a comma closes it before the main clause verb \"tager\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-11",
+    "level": 2,
+    "ruleId": "comma-after-subclause",
+    "correct": "Hvis du er sulten, kan du spise et æble.",
+    "incorrect": "Hvis du er sulten kan du spise et æble.",
+    "explanation": "A fronted \"hvis\"-clause is closed with a comma before the main clause (\"kan du …\").",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-12",
+    "level": 2,
+    "ruleId": "comma-after-subclause",
+    "correct": "Fordi jeg var syg, blev jeg hjemme.",
+    "incorrect": "Fordi jeg var syg blev jeg hjemme.",
+    "explanation": "The \"fordi\"-clause ends at \"syg\" — a comma marks where the main clause, verb first, begins.",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-13",
+    "level": 2,
+    "ruleId": "comma-after-subclause",
+    "correct": "Når jeg har fri, ser jeg fjernsyn.",
+    "incorrect": "Når jeg har fri ser jeg fjernsyn.",
+    "explanation": "The comma closes the \"når\"-clause; the main clause starts with its verb \"ser\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-14",
+    "level": 2,
+    "ruleId": "comma-after-subclause",
+    "correct": "Hvis det er godt vejr, går vi i parken.",
+    "incorrect": "Hvis det er godt vejr går vi i parken.",
+    "explanation": "A sentence opening with \"hvis\" needs a comma before the main clause (\"går vi …\").",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-15",
+    "level": 2,
+    "ruleId": "comma-after-subclause",
+    "correct": "Da jeg kom hjem, var maden klar.",
+    "incorrect": "Da jeg kom hjem var maden klar.",
+    "explanation": "The \"da\"-clause ends at \"hjem\"; a comma closes it before the verb \"var\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-16",
+    "level": 2,
+    "ruleId": "comma-after-subclause",
+    "correct": "Mens jeg laver mad, hører jeg radio.",
+    "incorrect": "Mens jeg laver mad hører jeg radio.",
+    "explanation": "A fronted \"mens\"-clause is always closed with a comma before the main clause.",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-17",
+    "level": 2,
+    "ruleId": "comma-after-subclause",
+    "correct": "Når børnene sover, drikker vi te.",
+    "incorrect": "Når børnene sover drikker vi te.",
+    "explanation": "The comma marks the seam between the \"når\"-clause and the main clause verb \"drikker\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-18",
+    "level": 3,
+    "ruleId": "comma-after-subclause",
+    "correct": "Selvom jeg er træt, går jeg til træning i aften.",
+    "incorrect": "Selvom jeg er træt går jeg til træning i aften.",
+    "explanation": "A fronted \"selvom\"-clause ends with a comma before the main clause (\"går jeg …\").",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-19",
+    "level": 3,
+    "ruleId": "comma-after-subclause",
+    "correct": "Efter at vi havde spist, gik vi en tur.",
+    "incorrect": "Efter at vi havde spist gik vi en tur.",
+    "explanation": "The \"efter at\"-clause ends at \"spist\"; a comma closes it before the verb \"gik\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-20",
+    "level": 3,
+    "ruleId": "comma-after-subclause",
+    "correct": "Hvis bussen er forsinket, kommer jeg for sent til arbejde.",
+    "incorrect": "Hvis bussen er forsinket kommer jeg for sent til arbejde.",
+    "explanation": "A fronted \"hvis\"-clause is closed with a comma — the main clause starts with \"kommer\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-21",
+    "level": 3,
+    "ruleId": "comma-after-subclause",
+    "correct": "Da jeg flyttede til Danmark, kunne jeg ikke tale dansk.",
+    "incorrect": "Da jeg flyttede til Danmark kunne jeg ikke tale dansk.",
+    "explanation": "The \"da\"-clause ends at \"Danmark\"; the comma marks where the main clause verb \"kunne\" begins.",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-22",
+    "level": 3,
+    "ruleId": "comma-after-subclause",
+    "correct": "Når man skal til lægen, skal man huske sit sundhedskort.",
+    "incorrect": "Når man skal til lægen skal man huske sit sundhedskort.",
+    "explanation": "Two \"skal\"s: the comma separates the \"når\"-clause from the main clause, which starts with the second one.",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-23",
+    "level": 3,
+    "ruleId": "comma-after-subclause",
+    "correct": "Fordi det var min fødselsdag, inviterede jeg mine venner på middag.",
+    "incorrect": "Fordi det var min fødselsdag inviterede jeg mine venner på middag.",
+    "explanation": "A fronted \"fordi\"-clause is closed with a comma before the main clause verb \"inviterede\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-24",
+    "level": 3,
+    "ruleId": "comma-after-subclause",
+    "correct": "Mens børnene var i skole, gjorde jeg rent i huset.",
+    "incorrect": "Mens børnene var i skole gjorde jeg rent i huset.",
+    "explanation": "The \"mens\"-clause ends at \"skole\"; a comma closes it before \"gjorde jeg\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-25",
+    "level": 3,
+    "ruleId": "comma-after-subclause",
+    "correct": "Hvis du ikke kan komme, skal du ringe og melde afbud.",
+    "incorrect": "Hvis du ikke kan komme skal du ringe og melde afbud.",
+    "explanation": "The comma closes the \"hvis\"-clause; the main clause begins with its verb \"skal\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-26",
+    "level": 3,
+    "ruleId": "comma-after-subclause",
+    "correct": "Inden jeg tager på arbejde, afleverer jeg min datter i vuggestuen.",
+    "incorrect": "Inden jeg tager på arbejde afleverer jeg min datter i vuggestuen.",
+    "explanation": "A fronted \"inden\"-clause needs a comma before the main clause (\"afleverer jeg …\").",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-27",
+    "level": 4,
+    "ruleId": "comma-after-subclause",
+    "correct": "Selvom jeg har boet i Danmark i mange år, savner jeg stadig mit hjemland.",
+    "incorrect": "Selvom jeg har boet i Danmark i mange år savner jeg stadig mit hjemland.",
+    "explanation": "The long \"selvom\"-clause ends at \"år\"; the comma shows where the main clause verb \"savner\" begins.",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-28",
+    "level": 4,
+    "ruleId": "comma-after-subclause",
+    "correct": "Eftersom du ikke har betalt regningen, sender vi en rykker.",
+    "incorrect": "Eftersom du ikke har betalt regningen sender vi en rykker.",
+    "explanation": "A fronted \"eftersom\"-clause is always closed with a comma before the main clause.",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-29",
+    "level": 4,
+    "ruleId": "comma-after-subclause",
+    "correct": "Hvis man vil have dansk statsborgerskab, skal man bestå indfødsretsprøven.",
+    "incorrect": "Hvis man vil have dansk statsborgerskab skal man bestå indfødsretsprøven.",
+    "explanation": "The \"hvis\"-clause ends at \"statsborgerskab\"; a comma closes it before the verb \"skal\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-30",
+    "level": 4,
+    "ruleId": "comma-after-subclause",
+    "correct": "Da jeg var til jobsamtale i sidste uge, spurgte de om min erfaring med kundeservice.",
+    "incorrect": "Da jeg var til jobsamtale i sidste uge spurgte de om min erfaring med kundeservice.",
+    "explanation": "The comma marks the end of the \"da\"-clause — the main clause starts with \"spurgte\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-31",
+    "level": 4,
+    "ruleId": "comma-after-subclause",
+    "correct": "Når man har en fast stilling, har man ret til betalt ferie.",
+    "incorrect": "Når man har en fast stilling har man ret til betalt ferie.",
+    "explanation": "The first \"har\" belongs to the \"når\"-clause; the comma separates it from the main clause verb, the second \"har\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-32",
+    "level": 4,
+    "ruleId": "comma-after-subclause",
+    "correct": "Fordi min kontrakt udløber til marts, er jeg begyndt at søge nyt arbejde.",
+    "incorrect": "Fordi min kontrakt udløber til marts er jeg begyndt at søge nyt arbejde.",
+    "explanation": "A fronted \"fordi\"-clause is closed with a comma before the main clause (\"er jeg …\").",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-33",
+    "level": 4,
+    "ruleId": "comma-after-subclause",
+    "correct": "Efter at jeg havde bestået Prøve i Dansk 2, begyndte jeg på en uddannelse.",
+    "incorrect": "Efter at jeg havde bestået Prøve i Dansk 2 begyndte jeg på en uddannelse.",
+    "explanation": "The \"efter at\"-clause ends at \"Dansk 2\"; the comma marks where the main clause verb \"begyndte\" begins.",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-34",
+    "level": 4,
+    "ruleId": "comma-after-subclause",
+    "correct": "Hvis lejligheden ikke er rengjort ved fraflytning, kan udlejeren trække pengene fra depositummet.",
+    "incorrect": "Hvis lejligheden ikke er rengjort ved fraflytning kan udlejeren trække pengene fra depositummet.",
+    "explanation": "In a long opening \"hvis\"-clause, the comma shows exactly where the main clause (\"kan udlejeren …\") starts.",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-35",
+    "level": 4,
+    "ruleId": "comma-after-subclause",
+    "correct": "Mens jeg var på barsel, fik jeg tid til at forbedre mit dansk.",
+    "incorrect": "Mens jeg var på barsel fik jeg tid til at forbedre mit dansk.",
+    "explanation": "The \"mens\"-clause ends at \"barsel\"; a comma closes it before the verb \"fik\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-36",
+    "level": 4,
+    "ruleId": "comma-after-subclause",
+    "correct": "Selvom det er dyrt at bo i København, vil mange unge gerne flytte dertil.",
+    "incorrect": "Selvom det er dyrt at bo i København vil mange unge gerne flytte dertil.",
+    "explanation": "A fronted \"selvom\"-clause takes a comma before the main clause verb \"vil\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-37",
+    "level": 5,
+    "ruleId": "comma-after-subclause",
+    "correct": "Da jeg endnu ikke har modtaget svar på min ansøgning om boligstøtte, skriver jeg for at høre om sagens status.",
+    "incorrect": "Da jeg endnu ikke har modtaget svar på min ansøgning om boligstøtte skriver jeg for at høre om sagens status.",
+    "explanation": "The long \"da\"-clause ends at \"boligstøtte\"; the comma marks the start of the main clause (\"skriver jeg …\").",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-38",
+    "level": 5,
+    "ruleId": "comma-after-subclause",
+    "correct": "Hvis der er behov for yderligere oplysninger, står jeg naturligvis til rådighed.",
+    "incorrect": "Hvis der er behov for yderligere oplysninger står jeg naturligvis til rådighed.",
+    "explanation": "A fronted \"hvis\"-clause is closed with a comma before the main clause verb \"står\" — a standard formula in formal emails.",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-39",
+    "level": 5,
+    "ruleId": "comma-after-subclause",
+    "correct": "Selvom mange politikere taler om grøn omstilling, sker der alt for lidt i praksis.",
+    "incorrect": "Selvom mange politikere taler om grøn omstilling sker der alt for lidt i praksis.",
+    "explanation": "The \"selvom\"-clause ends at \"omstilling\"; the comma separates it from the main clause verb \"sker\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-40",
+    "level": 5,
+    "ruleId": "comma-after-subclause",
+    "correct": "Eftersom jeg har flere års erfaring fra en lignende stilling, mener jeg at kunne bidrage positivt til jeres team.",
+    "incorrect": "Eftersom jeg har flere års erfaring fra en lignende stilling mener jeg at kunne bidrage positivt til jeres team.",
+    "explanation": "A long fronted \"eftersom\"-clause is closed with a comma before the main clause (\"mener jeg …\").",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-41",
+    "level": 5,
+    "ruleId": "comma-after-subclause",
+    "correct": "Hvis vi ønsker et samfund med plads til alle, må vi investere i uddannelse og sprogundervisning.",
+    "incorrect": "Hvis vi ønsker et samfund med plads til alle må vi investere i uddannelse og sprogundervisning.",
+    "explanation": "The comma closes the \"hvis\"-clause; the main clause begins with its verb \"må\".",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-42",
+    "level": 5,
+    "ruleId": "comma-after-subclause",
+    "correct": "Når forældre arbejder på skiftende tidspunkter, kan det være svært at finde pasning til børnene.",
+    "incorrect": "Når forældre arbejder på skiftende tidspunkter kan det være svært at finde pasning til børnene.",
+    "explanation": "The \"når\"-clause ends at \"tidspunkter\"; a comma marks where the main clause verb \"kan\" begins.",
+    "reviewed": false
+  },
+  {
+    "id": "c-sub-43",
+    "level": 5,
+    "ruleId": "comma-after-subclause",
+    "correct": "Fordi jeg desværre er blevet syg, er jeg nødt til at aflyse vores møde på torsdag.",
+    "incorrect": "Fordi jeg desværre er blevet syg er jeg nødt til at aflyse vores møde på torsdag.",
+    "explanation": "A fronted \"fordi\"-clause is always closed with a comma before the main clause (\"er jeg nødt til …\").",
+    "reviewed": false
+  }
+]

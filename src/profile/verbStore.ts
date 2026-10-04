@@ -5,19 +5,18 @@
  * ten words specifically.
  */
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
-import { createJSONStorage, persist } from 'zustand/middleware';
 import { VERB_BANK } from '../content/verbs';
+import { MAX_LEVEL, poolForLevel, type Level } from '../content/levels';
 import { buildVerbQuestion, type VerbQuestion, type VerbQuestionKind } from '../grammar/verbExercise';
 import { ALL_VERB_RULE_IDS, type VerbRuleId } from '../grammar/verbRules';
 import {
-  applyOutcome,
   EMPTY_STAT,
   progressFor,
   type ItemProgress,
   type ItemStat,
 } from './mastery';
+import { recordAnswer, recordReset } from '../sync/bus';
 
 const KIND_FOR_RULE: Record<VerbRuleId, VerbQuestionKind> = {
   'weak-suffix-choice': 'weak-suffix',
@@ -27,47 +26,36 @@ const KIND_FOR_RULE: Record<VerbRuleId, VerbQuestionKind> = {
 
 const WEAK_VERBS = VERB_BANK.filter((v) => v.verbClass !== 'strong');
 const STRONG_VERBS = VERB_BANK.filter((v) => v.verbClass === 'strong');
+/** The auxiliary drill has one right answer, so verbs that take either are left out of it. */
+const ONE_AUX_VERBS = VERB_BANK.filter((v) => v.perfectAux !== 'both');
 
 interface VerbState {
   stats: Record<VerbRuleId, ItemStat>;
   hydrated: boolean;
-  record: (ruleId: VerbRuleId, correct: boolean) => void;
+  /** `item` is what was answered: its id and niveau go into the log. */
+  record: (ruleId: VerbRuleId, correct: boolean, item: { id: string; level: Level }) => void;
   reset: () => void;
 }
 
-function emptyStats(): Record<VerbRuleId, ItemStat> {
+export function emptyStats(): Record<VerbRuleId, ItemStat> {
   return Object.fromEntries(ALL_VERB_RULE_IDS.map((id) => [id, { ...EMPTY_STAT }])) as Record<
     VerbRuleId,
     ItemStat
   >;
 }
 
-export const useVerbProfile = create<VerbState>()(
-  persist(
-    (set) => ({
-      stats: emptyStats(),
-      hydrated: false,
-
-      record: (ruleId, correct) =>
-        set((state) => ({
-          stats: {
-            ...state.stats,
-            [ruleId]: applyOutcome(state.stats[ruleId] ?? { ...EMPTY_STAT }, correct),
-          },
-        })),
-
-      reset: () => set({ stats: emptyStats() }),
-    }),
-    {
-      name: 'skema-verbs-v1',
-      storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ stats: s.stats }),
-      onRehydrateStorage: () => (state) => {
-        if (state) state.hydrated = true;
-      },
-    },
-  ),
-);
+/**
+ * Mastery per rule, derived from the progress log (sync/log.ts publishes it
+ * here). `record` adds an answer to the log rather than editing stats, so
+ * progress syncs and replays exactly.
+ */
+export const useVerbProfile = create<VerbState>()(() => ({
+  stats: emptyStats(),
+  hydrated: true,
+  record: (ruleId, correct, item) =>
+    recordAnswer({ domain: 'verbs', itemId: item.id, level: item.level, outcomes: { [ruleId]: correct }, correct }),
+  reset: () => recordReset('verbs'),
+}));
 
 export type VerbRuleProgress = ItemProgress<VerbRuleId>;
 
@@ -98,13 +86,14 @@ export function summarizeVerbs(stats: Record<VerbRuleId, ItemStat>, now = Date.n
  * Next question: bias toward the weakest rule, then a random verb drawn from
  * whichever pool that rule's kind actually needs — weak-suffix questions are
  * meaningless against a strong verb, so the pool is filtered per kind rather
- * than drawn from the full bank. perfect-aux draws from every verb, since
- * that fact cuts across weak and strong alike.
+ * than drawn from the full bank. perfect-aux draws from every verb that takes
+ * one auxiliary only, since that fact cuts across weak and strong alike.
  */
 export function nextVerbQuestion(
   stats: Record<VerbRuleId, ItemStat>,
   lastVerbId?: string,
   now = Date.now(),
+  level: Level = MAX_LEVEL,
 ): VerbQuestion {
   const progress = verbRuleProgress(stats, now);
 
@@ -118,7 +107,10 @@ export function nextVerbQuestion(
   const ruleId = scoredRules[0].ruleId;
   const kind = KIND_FOR_RULE[ruleId];
 
-  const pool = kind === 'weak-suffix' ? WEAK_VERBS : kind === 'strong-form' ? STRONG_VERBS : VERB_BANK;
+  const pool = poolForLevel(
+    kind === 'weak-suffix' ? WEAK_VERBS : kind === 'strong-form' ? STRONG_VERBS : ONE_AUX_VERBS,
+    level,
+  );
   const candidates = pool.filter((v) => v.id !== lastVerbId);
   const verb = candidates[Math.floor(Math.random() * candidates.length)] ?? pool[0];
 

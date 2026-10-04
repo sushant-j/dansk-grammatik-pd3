@@ -1,5 +1,4 @@
 import { useRouter } from 'expo-router';
-import { useActivity } from '../src/profile/activity';
 import React, { useCallback, useMemo, useState } from 'react';
 import { View } from 'react-native';
 
@@ -11,6 +10,8 @@ import { RULES } from '../src/grammar/rules';
 import type { Evaluation, Exercise, Placement } from '../src/grammar/types';
 import { nextExercise, useProfile } from '../src/profile/store';
 import { useSettings } from '../src/profile/settings';
+import { currentLevelNow } from '../src/profile/levelStore';
+import { LevelBadge, LevelUpNotice } from '../src/ui/LevelBadge';
 import { SchemaBoard, WordTray } from '../src/ui/SchemaBoard';
 import { Button, Card, Label, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
@@ -34,7 +35,7 @@ export default function Train() {
   const targetExam = useSettings((st) => st.targetExam);
 
   const [exercise, setExercise] = useState<Exercise>(() =>
-    nextExercise(stats, seen, undefined, Date.now(), targetExam),
+    nextExercise(stats, seen, undefined, Date.now(), targetExam, currentLevelNow('grammar')),
   );
   const [placement, setPlacement] = useState<Placement>({});
   const [selected, setSelected] = useState<string | null>(null);
@@ -77,7 +78,6 @@ export default function Train() {
     setResult(evaluation);
     const violated = [...new Set(evaluation.diagnoses.map((d) => d.ruleId))];
     record(exercise, evaluation.correct, violated);
-    useActivity.getState().markToday();
   }, [exercise, placement, record]);
 
   const advance = useCallback(() => {
@@ -87,6 +87,7 @@ export default function Train() {
       exercise.id,
       Date.now(),
       useSettings.getState().targetExam,
+      currentLevelNow('grammar'),
     );
     setExercise(nxt);
     setPlacement({});
@@ -107,13 +108,15 @@ export default function Train() {
       }}
     >
       {/* ── Task ───────────────────────────────────────────────────── */}
+      <LevelUpNotice domain="grammar" />
+
       <Card tone="sunken">
         <View style={s.rowBetween}>
           <Label>
             {exercise.clause === 'helsætning' ? 'Main clause' : 'Subordinate clause'} ·{' '}
-            {exercise.cefr}
+            {exercise.exams.join(' · ')}
           </Label>
-          <Label>{exercise.exams.join(' · ')}</Label>
+          <LevelBadge level={exercise.level} />
         </View>
         <Txt variant="title" style={{ marginTop: t.space(2.5) }}>
           {exercise.gloss}

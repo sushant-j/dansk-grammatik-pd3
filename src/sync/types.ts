@@ -1,0 +1,90 @@
+/**
+ * The progress log's vocabulary.
+ *
+ * A learner's progress is not stored as stats. It is stored as what happened —
+ * every answer, every niveau they set by hand, every reset — and the stats are
+ * derived from that by `replay.ts`. That is what lets two devices sync without
+ * ever overwriting each other (they only add events), lets an upload be
+ * retried safely (events carry a client-made uuid), and lets the mastery math
+ * change later without anyone losing progress (replay the same log with the
+ * new math).
+ */
+
+import type { Level } from '../content/levels';
+import type { DomainLevel, LevelDomain } from '../profile/levelStore';
+import type { ItemStat } from '../profile/mastery';
+
+/** Every practice area that keeps mastery stats. */
+export type Domain = LevelDomain | 'vocab';
+
+export const ALL_DOMAINS: Domain[] = ['grammar', 'nouns', 'verbs', 'adjectives', 'comma', 'spelling', 'vocab'];
+
+interface EventBase {
+  /** Client-generated uuid: the upload is idempotent on it. */
+  id: string;
+  /** Epoch ms on the device where it happened. */
+  at: number;
+}
+
+export interface AnswerEvent extends EventBase {
+  kind: 'answer';
+  domain: Domain;
+  /** The exercise, noun, verb, sentence or word answered. */
+  itemId: string;
+  /** The item's niveau; null for vocabulary, which has no niveau climb. */
+  level: Level | null;
+  /** What the answer was evidence for: rule id (or word id) → right or wrong. */
+  outcomes: Record<string, boolean>;
+  correct: boolean;
+  /** Grammar only: the rules the learner actually broke. */
+  violated?: string[];
+}
+
+export interface SetLevelEvent extends EventBase {
+  kind: 'set-level';
+  domain: LevelDomain;
+  level: Level;
+}
+
+export interface ResetEvent extends EventBase {
+  kind: 'reset';
+  domain: Domain | 'all';
+}
+
+export type ProgressEvent = AnswerEvent | SetLevelEvent | ResetEvent;
+
+/**
+ * Progress carried over from before accounts existed: a snapshot, not a log,
+ * so it seeds replay instead of being replayed. Answers in the log at or
+ * before `asOf` for the same key are already reflected in the snapshot.
+ *
+ *   domain = a Domain, key = rule or word id, value = ItemStat
+ *   domain = 'grammar-seen', key = 'seen',      value = exercise ids
+ *   domain = 'activity',     key = 'days',      value = ISO dates
+ *   domain = 'levels',       key = LevelDomain, value = DomainLevel
+ */
+export interface Baseline {
+  domain: string;
+  key: string;
+  value: unknown;
+  asOf: number;
+}
+
+export interface SessionResult {
+  exerciseId: string;
+  correct: boolean;
+  violated: string[];
+  at: number;
+}
+
+/** Everything the app shows about progress, rebuilt from baselines + events. */
+export interface Derived {
+  stats: Record<Domain, Record<string, ItemStat>>;
+  /** Grammar exercise ids answered correctly at least once. */
+  seen: string[];
+  /** The latest grammar answers, oldest first. */
+  history: SessionResult[];
+  /** ISO dates with at least one answer, ascending. */
+  activeDays: string[];
+  levels: Partial<Record<LevelDomain, DomainLevel>>;
+}

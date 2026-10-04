@@ -1,7 +1,11 @@
-import React from 'react';
-import { Pressable, View } from 'react-native';
+import React, { useState } from 'react';
+import { Pressable, TextInput, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { changePassword, signOut, useSession } from '../src/auth/session';
 import type { Exam } from '../src/grammar/rules';
+import { recordReset } from '../src/sync/bus';
+import { useLog } from '../src/sync/log';
+import { useSyncStatus } from '../src/sync/sync';
 import {
   EXAM_DESCRIPTIONS,
   EXAM_LABELS,
@@ -12,6 +16,8 @@ import {
   useSettings,
   type ThemeMode,
 } from '../src/profile/settings';
+import { ALL_LEVELS, LEVELS } from '../src/content/levels';
+import { DOMAIN_LABELS, LEVEL_DOMAINS, useCurrentLevel, useLevels, type LevelDomain } from '../src/profile/levelStore';
 import { Button, Card, Label, Txt, s } from '../src/ui/primitives';
 import { Screen } from '../src/ui/Screen';
 import { useTheme } from '../src/ui/theme';
@@ -44,6 +50,171 @@ function Chip({ label, onPress }: { label: string; onPress: () => void }) {
         {label}
       </Txt>
     </Pressable>
+  );
+}
+
+/** Who is signed in, whether their progress is uploaded, and the account actions. */
+function AccountSection() {
+  const t = useTheme();
+  const email = useSession((st) => st.email);
+  const sync = useSyncStatus();
+  const pending = useLog((st) => st.outbox.length);
+  const [panel, setPanel] = useState<'none' | 'password' | 'reset'>('none');
+  const [password, setPassword] = useState('');
+  const [note, setNote] = useState<string | null>(null);
+  const [busy, setBusy] = useState(false);
+
+  const status =
+    sync.state === 'syncing'
+      ? 'Syncing…'
+      : pending
+        ? `${pending} ${pending === 1 ? 'answer' : 'answers'} waiting to upload${sync.state === 'offline' ? ' — offline, will retry' : ''}`
+        : sync.lastSyncedAt
+          ? 'All progress saved to your account'
+          : sync.state === 'offline'
+            ? 'Offline — progress is kept on this device until it can upload'
+            : 'Saved to your account';
+
+  return (
+    <View style={{ gap: t.space(3) }}>
+      <View>
+        <Txt variant="display" style={{ fontSize: 26 }}>
+          Account
+        </Txt>
+        <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
+          {email}
+        </Txt>
+        <Label color={pending || sync.state === 'offline' ? t.c.warning : t.c.success}>{status}</Label>
+      </View>
+
+      {panel === 'password' ? (
+        <Card>
+          <Label>New password</Label>
+          <TextInput
+            value={password}
+            onChangeText={setPassword}
+            secureTextEntry
+            autoComplete="new-password"
+            placeholder="At least 6 characters"
+            placeholderTextColor={t.c.textFaint}
+            style={{
+              marginTop: t.space(1.5),
+              backgroundColor: t.c.surface,
+              borderWidth: 1,
+              borderColor: t.c.border,
+              borderRadius: t.radius.md,
+              paddingHorizontal: t.space(3.5),
+              paddingVertical: t.space(3),
+              color: t.c.text,
+              fontSize: 16,
+            }}
+          />
+          <View style={[s.row, { gap: t.space(2), marginTop: t.space(3) }]}>
+            <Button
+              label="Save password"
+              loading={busy}
+              disabled={password.length < 6}
+              style={{ flex: 1 }}
+              onPress={async () => {
+                setBusy(true);
+                const error = await changePassword(password);
+                setBusy(false);
+                setNote(error ?? 'Password changed.');
+                if (!error) {
+                  setPassword('');
+                  setPanel('none');
+                }
+              }}
+            />
+            <Button label="Cancel" tone="ghost" onPress={() => setPanel('none')} />
+          </View>
+        </Card>
+      ) : null}
+
+      {panel === 'reset' ? (
+        <Card tone="warning">
+          <Label color={t.c.warning}>Start over?</Label>
+          <Txt variant="body" style={{ marginTop: t.space(2), lineHeight: 22 }}>
+            Every trainer goes back to not started, on all your devices. Your account stays.
+          </Txt>
+          <View style={[s.row, { gap: t.space(2), marginTop: t.space(3) }]}>
+            <Button
+              label="Reset all progress"
+              style={{ flex: 1 }}
+              onPress={() => {
+                recordReset('all');
+                setPanel('none');
+                setNote('Progress reset.');
+              }}
+            />
+            <Button label="Keep it" tone="ghost" onPress={() => setPanel('none')} />
+          </View>
+        </Card>
+      ) : null}
+
+      {note ? (
+        <Txt variant="body" color={t.c.textMuted}>
+          {note}
+        </Txt>
+      ) : null}
+
+      {panel === 'none' ? (
+        <View style={[s.wrap, { gap: t.space(2) }]}>
+          <Chip label="Change password" onPress={() => { setNote(null); setPanel('password'); }} />
+          <Chip label="Reset progress" onPress={() => { setNote(null); setPanel('reset'); }} />
+          <Chip label="Sign out" onPress={() => void signOut()} />
+        </View>
+      ) : null}
+    </View>
+  );
+}
+
+/** Pick a trainer's niveau directly: 1 (Begynder) to 5 (PD3). */
+function NiveauPicker({ domain }: { domain: LevelDomain }) {
+  const t = useTheme();
+  const current = useCurrentLevel(domain);
+  const setLevel = useLevels((st) => st.setLevel);
+  return (
+    <View style={{ gap: t.space(2) }}>
+      <View style={s.rowBetween}>
+        <Txt variant="heading" style={{ fontSize: 15 }}>
+          {DOMAIN_LABELS[domain]}
+        </Txt>
+        <Label>
+          {LEVELS[current].name} · {LEVELS[current].cefr}
+        </Label>
+      </View>
+      <View style={[s.row, { gap: t.space(1.5) }]}>
+        {ALL_LEVELS.map((level) => {
+          const active = level === current;
+          return (
+            <Pressable
+              key={level}
+              accessibilityRole="button"
+              accessibilityState={{ selected: active }}
+              accessibilityLabel={`${DOMAIN_LABELS[domain]}: niveau ${level}, ${LEVELS[level].name}`}
+              onPress={() => setLevel(domain, level)}
+              style={{ flex: 1 }}
+            >
+              <View
+                style={{
+                  borderWidth: 1.5,
+                  borderColor: active ? t.c.accent : t.c.border,
+                  backgroundColor: active ? t.c.accentSoft : t.c.surface,
+                  borderRadius: t.radius.md,
+                  paddingVertical: t.space(2),
+                  alignItems: 'center',
+                }}
+              >
+                <Txt variant="heading" color={active ? t.c.accent : t.c.text} style={{ fontSize: 15 }}>
+                  {level}
+                </Txt>
+              </View>
+            </Pressable>
+          );
+        })}
+      </View>
+    </View>
   );
 }
 
@@ -80,6 +251,8 @@ export default function Settings() {
         gap: t.space(4),
       }}
     >
+      <AccountSection />
+
       {/* ── Appearance ───────────────────────────────────────────────── */}
       <View>
         <Txt variant="display" style={{ fontSize: 26 }}>
@@ -171,6 +344,24 @@ export default function Settings() {
           will still occasionally give you something outside that tag, because a rule you are
           shaky on is still worth practising.
         </Txt>
+      </Card>
+
+      {/* ── Niveau per trainer ───────────────────────────────────────── */}
+      <View style={{ marginTop: t.space(2) }}>
+        <Txt variant="display" style={{ fontSize: 22 }}>
+          Your niveau
+        </Txt>
+        <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
+          Each trainer serves exercises up to your niveau there, and moves you up as you prove it.
+          Already further along? Set it here. Changing it restarts the climb to the next niveau.
+        </Txt>
+      </View>
+      <Card>
+        <View style={{ gap: t.space(4) }}>
+          {LEVEL_DOMAINS.map((domain) => (
+            <NiveauPicker key={domain} domain={domain} />
+          ))}
+        </View>
       </Card>
 
       {/* ── Exam date → paced study plan ─────────────────────────────── */}

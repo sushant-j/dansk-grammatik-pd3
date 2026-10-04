@@ -18,8 +18,13 @@
  * them would just delay the moment a learner meets them for real.
  */
 
+import SEED from './data/adjectives.json';
+import type { Level } from './levels';
+
 export interface AdjectiveEntry {
   id: string;
+  /** Niveau 1–5 (see levels.ts): when the trainer starts serving this item. */
+  level: Level;
   /** Bare/common-gender form, e.g. "rød". */
   base: string;
   /** Neuter (et-word) indefinite form, e.g. "rødt". */
@@ -29,23 +34,27 @@ export interface AdjectiveEntry {
   glossEn: string;
   /** Set only for the two irregular entries; shown in their explanation. */
   irregularNote?: string;
+  /** False until a person has checked the Danish; hand-written items are treated as checked. */
+  reviewed?: boolean;
 }
 
-export const ADJECTIVE_BANK: AdjectiveEntry[] = [
-  { id: 'a-rod', base: 'rød', tForm: 'rødt', eForm: 'røde', glossEn: 'red' },
-  { id: 'a-ny', base: 'ny', tForm: 'nyt', eForm: 'nye', glossEn: 'new' },
-  { id: 'a-gammel', base: 'gammel', tForm: 'gammelt', eForm: 'gamle', glossEn: 'old' },
-  { id: 'a-stor', base: 'stor', tForm: 'stort', eForm: 'store', glossEn: 'big' },
-  { id: 'a-god', base: 'god', tForm: 'godt', eForm: 'gode', glossEn: 'good' },
-  { id: 'a-dygtig', base: 'dygtig', tForm: 'dygtigt', eForm: 'dygtige', glossEn: 'skilled' },
-  { id: 'a-sod', base: 'sød', tForm: 'sødt', eForm: 'søde', glossEn: 'sweet' },
-  { id: 'a-hard', base: 'hård', tForm: 'hårdt', eForm: 'hårde', glossEn: 'hard' },
-  { id: 'a-vigtig', base: 'vigtig', tForm: 'vigtigt', eForm: 'vigtige', glossEn: 'important' },
-  { id: 'a-svar', base: 'svær', tForm: 'svært', eForm: 'svære', glossEn: 'difficult' },
-  { id: 'a-lang', base: 'lang', tForm: 'langt', eForm: 'lange', glossEn: 'long' },
-  { id: 'a-billig', base: 'billig', tForm: 'billigt', eForm: 'billige', glossEn: 'cheap' },
+/** Hand-written originals. */
+const HAND_WRITTEN: AdjectiveEntry[] = [
+  { id: 'a-rod', level: 1, base: 'rød', tForm: 'rødt', eForm: 'røde', glossEn: 'red' },
+  { id: 'a-ny', level: 1, base: 'ny', tForm: 'nyt', eForm: 'nye', glossEn: 'new' },
+  { id: 'a-gammel', level: 1, base: 'gammel', tForm: 'gammelt', eForm: 'gamle', glossEn: 'old' },
+  { id: 'a-stor', level: 1, base: 'stor', tForm: 'stort', eForm: 'store', glossEn: 'big' },
+  { id: 'a-god', level: 1, base: 'god', tForm: 'godt', eForm: 'gode', glossEn: 'good' },
+  { id: 'a-dygtig', level: 3, base: 'dygtig', tForm: 'dygtigt', eForm: 'dygtige', glossEn: 'skilled' },
+  { id: 'a-sod', level: 2, base: 'sød', tForm: 'sødt', eForm: 'søde', glossEn: 'sweet' },
+  { id: 'a-hard', level: 2, base: 'hård', tForm: 'hårdt', eForm: 'hårde', glossEn: 'hard' },
+  { id: 'a-vigtig', level: 3, base: 'vigtig', tForm: 'vigtigt', eForm: 'vigtige', glossEn: 'important' },
+  { id: 'a-svar', level: 2, base: 'svær', tForm: 'svært', eForm: 'svære', glossEn: 'difficult' },
+  { id: 'a-lang', level: 1, base: 'lang', tForm: 'langt', eForm: 'lange', glossEn: 'long' },
+  { id: 'a-billig', level: 2, base: 'billig', tForm: 'billigt', eForm: 'billige', glossEn: 'cheap' },
   {
     id: 'a-dansk',
+    level: 2,
     base: 'dansk',
     tForm: 'dansk',
     eForm: 'danske',
@@ -54,6 +63,7 @@ export const ADJECTIVE_BANK: AdjectiveEntry[] = [
   },
   {
     id: 'a-lille',
+    level: 1,
     base: 'lille',
     tForm: 'lille',
     eForm: 'små',
@@ -61,6 +71,9 @@ export const ADJECTIVE_BANK: AdjectiveEntry[] = [
     irregularNote: '"Lille" is fully irregular: unchanged in the singular, but the plural/definite form is the unrelated word "små".',
   },
 ];
+
+/** Hand-written originals, then the drafted bank in data/adjectives.json. */
+export const ADJECTIVE_BANK: AdjectiveEntry[] = [...HAND_WRITTEN, ...(SEED as AdjectiveEntry[])];
 
 export function adjectiveById(id: string): AdjectiveEntry | undefined {
   return ADJECTIVE_BANK.find((a) => a.id === id);

@@ -13,7 +13,15 @@
  * These matter as much as content vocabulary: an answer that never links two
  * clauses reads as a list, not an argument, and examiners mark for exactly
  * this.
+ *
+ * Below the hand-written exam words, the deck also carries every noun, verb
+ * and adjective from the grammar banks (see BANK_WORDS).
  */
+
+import { ADJECTIVE_BANK } from './adjectives';
+import type { Level } from './levels';
+import { NOUN_BANK } from './nouns';
+import { VERB_BANK } from './verbs';
 
 export type VocabCategory = 'connector' | 'noun' | 'verb' | 'adjective' | 'phrase';
 
@@ -22,19 +30,25 @@ export interface VocabEntry {
   word: string;
   category: VocabCategory;
   /** Simple Danish definition — the register PD3 itself expects you to work in. */
-  definitionDa: string;
+  definitionDa?: string;
   /** English gloss. Short; this is a memory aid, not a dictionary entry. */
   glossEn: string;
   /** A real sentence this word appears in, from the topic archive. */
-  example: string;
+  example?: string;
   /** English translation of the example, for a learner who is still lost. */
-  exampleEn: string;
+  exampleEn?: string;
   /** Topic id(s) in TOPICS or PRACTICE_TOPICS this word is drawn from. */
-  sourceTopics: string[];
-  cefr: 'B1' | 'B2' | 'C1';
+  sourceTopics?: string[];
+  /** The word's inflection, for words drawn from the grammar banks: "en bil · bilen". */
+  forms?: string;
+  /** Niveau 1–5 (see levels.ts): when the deck starts showing this word. */
+  level: Level;
+  /** False until a person has checked the entry; hand-written words are treated as checked. */
+  reviewed?: boolean;
 }
 
-export const VOCABULARY: VocabEntry[] = [
+/** Hand-written PD3 words and connectors, each traced to a real exam answer. */
+const EXAM_WORDS: VocabEntry[] = [
   // ── Connectors: cause ──────────────────────────────────────────────────
   {
     id: 'v-der-kan-vaere-flere-aarsager',
@@ -45,7 +59,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Jeg tror, at der kan være flere årsager til, at folk vælger at arbejde frivilligt.',
     exampleEn: 'I think there can be several reasons why people choose to volunteer.',
     sourceTopics: ['2011-s-velg-rende-arbejde'],
-    cefr: 'B1',
+    level: 3,
   },
   {
     id: 'v-det-skyldes',
@@ -56,7 +70,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Jeg tror, det skyldes en stærk demokratisk tradition og en udbredt følelse af borgerpligt.',
     exampleEn: 'I think this is due to a strong democratic tradition and a widespread sense of civic duty.',
     sourceTopics: ['practice-valgdeltagelse'],
-    cefr: 'B2',
+    level: 5,
   },
   {
     id: 'v-paa-grund-af',
@@ -67,7 +81,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Jeg tror, det er blevet mere almindeligt på grund af lovgivning om øremærket barsel.',
     exampleEn: 'I think it has become more common due to legislation on earmarked parental leave.',
     sourceTopics: ['practice-foraeldreskab'],
-    cefr: 'B1',
+    level: 3,
   },
 
   // ── Connectors: contrast ─────────────────────────────────────────────────
@@ -80,7 +94,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'På den anden side kan det også betyde, at forældrene får mindre tid til deres egne børn.',
     exampleEn: 'On the other hand, it can also mean that parents have less time for their own children.',
     sourceTopics: ['2011-s-velg-rende-arbejde'],
-    cefr: 'B1',
+    level: 3,
   },
   {
     id: 'v-paa-den-ene-side',
@@ -91,7 +105,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'På den ene side er forældrene gode rollemodeller. På den anden side kan det skabe stress i familien.',
     exampleEn: 'On the one hand the parents are good role models. On the other hand it can create stress in the family.',
     sourceTopics: ['2011-s-velg-rende-arbejde'],
-    cefr: 'B1',
+    level: 3,
   },
   {
     id: 'v-selvom',
@@ -102,7 +116,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Selvom Danmark har en høj dagpengesats og kontanthjælp, føler nogle sig utrygge ved at miste jobbet.',
     exampleEn: 'Even though Denmark has a high unemployment benefit rate, some feel insecure about losing their job.',
     sourceTopics: ['practice-ulighed'],
-    cefr: 'B1',
+    level: 3,
   },
   {
     id: 'v-dog',
@@ -113,7 +127,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Ulempen er dog, at de frivillige ikke har en uddannelse inden for pleje.',
     exampleEn: 'The downside, however, is that volunteers do not have training in care work.',
     sourceTopics: ['2011-s-velg-rende-arbejde'],
-    cefr: 'B2',
+    level: 5,
   },
   {
     id: 'v-alligevel',
@@ -124,7 +138,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Mange ved, det er usundt, men gør det alligevel.',
     exampleEn: 'Many know it is unhealthy, but do it anyway.',
     sourceTopics: [],
-    cefr: 'B1',
+    level: 3,
   },
 
   // ── Connectors: addition / structuring ──────────────────────────────────
@@ -137,7 +151,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Derudover er det en god måde at møde nye mennesker på.',
     exampleEn: 'In addition, it is a good way to meet new people.',
     sourceTopics: ['2011-s-velg-rende-arbejde'],
-    cefr: 'B1',
+    level: 3,
   },
   {
     id: 'v-desuden',
@@ -148,7 +162,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Desuden betyder kontanthjælpsloftet og andre stramninger, at ydelserne er lavere end tidligere.',
     exampleEn: 'Moreover, the welfare cap and other tightenings mean the benefits are lower than before.',
     sourceTopics: ['practice-ulighed'],
-    cefr: 'B2',
+    level: 5,
   },
   {
     id: 'v-samtidig',
@@ -159,7 +173,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Samtidig er det en god idé, at skoler og arbejdspladser tilbyder sund mad i kantinen.',
     exampleEn: 'At the same time, it is a good idea for schools and workplaces to offer healthy food in the canteen.',
     sourceTopics: [],
-    cefr: 'B1',
+    level: 3,
   },
   {
     id: 'v-for-det-foerste',
@@ -170,7 +184,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'For det første giver det mange mennesker en rigtig god følelse. For det andet er det en god måde at møde nye mennesker på.',
     exampleEn: 'Firstly, it gives many people a really good feeling. Secondly, it is a good way to meet new people.',
     sourceTopics: ['2011-s-velg-rende-arbejde'],
-    cefr: 'B1',
+    level: 3,
   },
   {
     id: 'v-hvilket-betyder',
@@ -181,7 +195,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Det kan skade solidariteten, hvilket kan svække sammenhængskraften i samfundet.',
     exampleEn: 'It can damage solidarity, which can weaken social cohesion.',
     sourceTopics: ['practice-ulighed'],
-    cefr: 'B2',
+    level: 5,
   },
 
   // ── Connectors: opinion ──────────────────────────────────────────────────
@@ -194,7 +208,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Jeg tror, at mange gør det, fordi fast fashion er økonomisk tilgængeligt.',
     exampleEn: 'I think many do it because fast fashion is financially accessible.',
     sourceTopics: ['practice-toejforbrug'],
-    cefr: 'B1',
+    level: 3,
   },
   {
     id: 'v-efter-min-mening',
@@ -205,7 +219,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Jeg mener, dette er et strukturelt problem, der kræver mere end individuel handling.',
     exampleEn: 'I believe this is a structural problem that requires more than individual action.',
     sourceTopics: ['practice-toejforbrug'],
-    cefr: 'B1',
+    level: 3,
   },
 
   // ── Fordele / ulemper vocabulary ─────────────────────────────────────────
@@ -218,7 +232,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Fordelen er, at ansatte har en høj tryghed via A-kasser og dagpenge.',
     exampleEn: 'The advantage is that employees have high security through unemployment funds and benefits.',
     sourceTopics: ['practice-ulighed'],
-    cefr: 'B1',
+    level: 3,
   },
   {
     id: 'v-opveje',
@@ -229,7 +243,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Jeg tror dog, den høje sikkerhed opvejer den øgede fleksibilitet.',
     exampleEn: 'I do think the high security outweighs the increased flexibility.',
     sourceTopics: ['practice-ulighed'],
-    cefr: 'C1',
+    level: 5,
   },
 
   // ── Content nouns ─────────────────────────────────────────────────────────
@@ -242,7 +256,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Jeg tror, de mener, at incitamentet til at stræbe efter succes er afgørende for økonomisk vækst.',
     exampleEn: 'I think they believe the incentive to strive for success is crucial for economic growth.',
     sourceTopics: ['practice-ulighed'],
-    cefr: 'C1',
+    level: 5,
   },
   {
     id: 'v-solidaritet',
@@ -253,7 +267,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'For stor ulighed kan føre til social uro og mistillid, hvilket kan skade solidariteten.',
     exampleEn: 'Too much inequality can lead to social unrest and distrust, which can damage solidarity.',
     sourceTopics: ['practice-ulighed'],
-    cefr: 'C1',
+    level: 5,
   },
   {
     id: 'v-sammenhaengskraft',
@@ -264,7 +278,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Hvad tror du, det betyder for et samfunds sammenhængskraft, at der er stor tolerance over for minoriteter?',
     exampleEn: 'What do you think it means for a society’s cohesion that there is great tolerance for minorities?',
     sourceTopics: ['practice-frisind'],
-    cefr: 'C1',
+    level: 5,
   },
   {
     id: 'v-stigmatisere',
@@ -275,7 +289,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Der er en følelse af, at samfundet stigmatiserer modtagere af offentlig støtte.',
     exampleEn: 'There is a feeling that society stigmatises recipients of public support.',
     sourceTopics: ['practice-ulighed'],
-    cefr: 'C1',
+    level: 5,
   },
   {
     id: 'v-oeremaerket',
@@ -286,7 +300,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Det er blevet mere almindeligt på grund af lovgivning om øremærket barsel.',
     exampleEn: 'It has become more common due to legislation on earmarked parental leave.',
     sourceTopics: ['practice-foraeldreskab'],
-    cefr: 'C1',
+    level: 5,
   },
   {
     id: 'v-brugerbetaling',
@@ -297,7 +311,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Nogle mener, at det offentlige sundhedsvæsen bør indføre en form for brugerbetaling.',
     exampleEn: 'Some believe the public health system should introduce a form of user fee.',
     sourceTopics: ['practice-velfaerd'],
-    cefr: 'C1',
+    level: 5,
   },
   {
     id: 'v-skattetryk',
@@ -308,7 +322,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Den danske velfærdsmodel finansieres gennem et af verdens højeste skattetryk.',
     exampleEn: 'The Danish welfare model is financed through one of the highest tax burdens in the world.',
     sourceTopics: ['practice-velfaerd'],
-    cefr: 'C1',
+    level: 5,
   },
   {
     id: 'v-sofavaelger',
@@ -319,7 +333,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: "Nogle mennesker vælger at være 'sofavælgere', fordi de ikke synes, de kan finde et parti, de er enige med.",
     exampleEn: 'Some people choose to be non-voters because they feel they cannot find a party they agree with.',
     sourceTopics: ['practice-valgdeltagelse'],
-    cefr: 'B2',
+    level: 5,
   },
   {
     id: 'v-ytringsfrihed',
@@ -330,7 +344,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Danmark har en meget stærk tradition for ytringsfrihed.',
     exampleEn: 'Denmark has a very strong tradition of freedom of speech.',
     sourceTopics: ['practice-frisind'],
-    cefr: 'B2',
+    level: 5,
   },
   {
     id: 'v-mangfoldighed',
@@ -341,7 +355,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Fordele er, at mangfoldighed bringer nye perspektiver og innovation til virksomheden.',
     exampleEn: 'The advantage is that diversity brings new perspectives and innovation to the company.',
     sourceTopics: ['practice-frisind'],
-    cefr: 'B2',
+    level: 5,
   },
   {
     id: 'v-retfaerdiggoere',
@@ -352,7 +366,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Det er let at retfærdiggøre et køb, når prisen er lav.',
     exampleEn: 'It is easy to justify a purchase when the price is low.',
     sourceTopics: ['practice-toejforbrug'],
-    cefr: 'C1',
+    level: 5,
   },
   {
     id: 'v-belaste',
@@ -363,7 +377,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Mange danskere køber billigt tøj, selvom de ved, at det belaster klimaet.',
     exampleEn: 'Many Danes buy cheap clothes even though they know it burdens the climate.',
     sourceTopics: ['practice-toejforbrug'],
-    cefr: 'B2',
+    level: 5,
   },
   {
     id: 'v-cirkulaer',
@@ -374,7 +388,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'En voksende klimabevidsthed hos forbrugerne, der ønsker at handle mere cirkulært.',
     exampleEn: 'A growing climate awareness among consumers who want to shop more circularly.',
     sourceTopics: ['practice-toejforbrug'],
-    cefr: 'C1',
+    level: 5,
   },
   {
     id: 'v-rollemodel',
@@ -385,7 +399,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Forældrene er gode rollemodeller, fordi de lærer børnene, at det er vigtigt at hjælpe andre.',
     exampleEn: 'The parents are good role models because they teach their children that it is important to help others.',
     sourceTopics: ['2011-s-velg-rende-arbejde'],
-    cefr: 'B1',
+    level: 3,
   },
   {
     id: 'v-erstatte',
@@ -396,7 +410,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'De frivillige må ikke erstatte det professionelle personale.',
     exampleEn: 'Volunteers must not replace the professional staff.',
     sourceTopics: ['2011-s-velg-rende-arbejde'],
-    cefr: 'B1',
+    level: 3,
   },
   {
     id: 'v-supplement',
@@ -407,7 +421,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Frivilligt arbejde skal være noget ekstra — et supplement — og ikke en erstatning for de ansatte.',
     exampleEn: 'Volunteer work should be something extra — a supplement — not a replacement for the employees.',
     sourceTopics: ['2011-s-velg-rende-arbejde'],
-    cefr: 'B2',
+    level: 5,
   },
   {
     id: 'v-prisfoelsom',
@@ -418,7 +432,7 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Fordelen er, at unge er meget prisfølsomme.',
     exampleEn: 'The advantage is that young people are very price-sensitive.',
     sourceTopics: [],
-    cefr: 'C1',
+    level: 5,
   },
   {
     id: 'v-kropsideal',
@@ -429,8 +443,57 @@ export const VOCABULARY: VocabEntry[] = [
     example: 'Det handler om kropsidealer og identitet.',
     exampleEn: 'It is about body ideals and identity.',
     sourceTopics: [],
-    cefr: 'B2',
+    level: 5,
   },
+];
+
+/**
+ * Every noun, verb and adjective the grammar trainers use, as flashcards.
+ *
+ * The grammar banks already hold each word's gloss, niveau and full
+ * inflection, so the deck reuses them rather than keeping a second copy. These
+ * cards have no example sentence; their back shows the forms instead, which
+ * is what a learner needs to *use* the word. Ids are prefixed `w-` so they can
+ * never collide with the hand-written entries' ids.
+ */
+const AUX_LABEL = { har: 'har', er: 'er', both: 'har/er' } as const;
+
+const BANK_WORDS: VocabEntry[] = [
+  ...NOUN_BANK.map((n) => ({
+    id: `w-${n.id}`,
+    word: `${n.gender} ${n.word}`,
+    category: 'noun' as const,
+    glossEn: n.glossEn,
+    forms: `${n.gender} ${n.word} · ${n.definite}`,
+    level: n.level,
+    ...(n.reviewed === false ? { reviewed: false } : {}),
+  })),
+  ...VERB_BANK.map((v) => ({
+    id: `w-${v.id}`,
+    word: `at ${v.infinitive}`,
+    category: 'verb' as const,
+    glossEn: v.glossEn,
+    forms: `${v.present} · ${v.past} · ${AUX_LABEL[v.perfectAux]} ${v.participle}`,
+    level: v.level,
+    ...(v.reviewed === false ? { reviewed: false } : {}),
+  })),
+  ...ADJECTIVE_BANK.map((a) => ({
+    id: `w-${a.id}`,
+    word: a.base,
+    category: 'adjective' as const,
+    glossEn: a.glossEn,
+    forms: `${a.base} · ${a.tForm} · ${a.eForm}`,
+    level: a.level,
+    ...(a.reviewed === false ? { reviewed: false } : {}),
+  })),
+];
+
+const examWordSet = new Set(EXAM_WORDS.map((w) => w.word.toLowerCase()));
+
+/** The whole deck: the exam words first, then every bank word they don't already cover. */
+export const VOCABULARY: VocabEntry[] = [
+  ...EXAM_WORDS,
+  ...BANK_WORDS.filter((w) => !examWordSet.has(w.word.replace(/^(en|et|at) /, '').toLowerCase())),
 ];
 
 export function vocabById(id: string): VocabEntry | undefined {

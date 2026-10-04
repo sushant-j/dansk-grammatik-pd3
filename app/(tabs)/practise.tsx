@@ -35,7 +35,7 @@ const GROUPS: { title: string; entries: Entry[] }[] = [
   },
   {
     title: 'Words',
-    entries: [{ key: 'vocab', detail: `${VOCABULARY.length} hard words, each from a real exam answer.` }],
+    entries: [{ key: 'vocab', detail: `${VOCABULARY.length.toLocaleString('en')} words, from first nouns to PD3 connectors.` }],
   },
 ];
 

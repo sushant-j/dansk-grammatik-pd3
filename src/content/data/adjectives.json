@@ -1,0 +1,2176 @@
+[
+  {
+    "id": "a-ung",
+    "level": 1,
+    "base": "ung",
+    "tForm": "ungt",
+    "eForm": "unge",
+    "glossEn": "young",
+    "reviewed": false
+  },
+  {
+    "id": "a-kold",
+    "level": 1,
+    "base": "kold",
+    "tForm": "koldt",
+    "eForm": "kolde",
+    "glossEn": "cold",
+    "reviewed": false
+  },
+  {
+    "id": "a-varm",
+    "level": 1,
+    "base": "varm",
+    "tForm": "varmt",
+    "eForm": "varme",
+    "glossEn": "warm",
+    "reviewed": false
+  },
+  {
+    "id": "a-hoj",
+    "level": 1,
+    "base": "høj",
+    "tForm": "højt",
+    "eForm": "høje",
+    "glossEn": "tall, high",
+    "reviewed": false
+  },
+  {
+    "id": "a-lav",
+    "level": 1,
+    "base": "lav",
+    "tForm": "lavt",
+    "eForm": "lave",
+    "glossEn": "low",
+    "reviewed": false
+  },
+  {
+    "id": "a-tung",
+    "level": 1,
+    "base": "tung",
+    "tForm": "tungt",
+    "eForm": "tunge",
+    "glossEn": "heavy",
+    "reviewed": false
+  },
+  {
+    "id": "a-syg",
+    "level": 1,
+    "base": "syg",
+    "tForm": "sygt",
+    "eForm": "syge",
+    "glossEn": "ill",
+    "reviewed": false
+  },
+  {
+    "id": "a-sur",
+    "level": 1,
+    "base": "sur",
+    "tForm": "surt",
+    "eForm": "sure",
+    "glossEn": "sour, grumpy",
+    "reviewed": false
+  },
+  {
+    "id": "a-paen",
+    "level": 1,
+    "base": "pæn",
+    "tForm": "pænt",
+    "eForm": "pæne",
+    "glossEn": "nice-looking",
+    "reviewed": false
+  },
+  {
+    "id": "a-dyr",
+    "level": 1,
+    "base": "dyr",
+    "tForm": "dyrt",
+    "eForm": "dyre",
+    "glossEn": "expensive",
+    "reviewed": false
+  },
+  {
+    "id": "a-fin",
+    "level": 1,
+    "base": "fin",
+    "tForm": "fint",
+    "eForm": "fine",
+    "glossEn": "fine",
+    "reviewed": false
+  },
+  {
+    "id": "a-hvid",
+    "level": 1,
+    "base": "hvid",
+    "tForm": "hvidt",
+    "eForm": "hvide",
+    "glossEn": "white",
+    "reviewed": false
+  },
+  {
+    "id": "a-gul",
+    "level": 1,
+    "base": "gul",
+    "tForm": "gult",
+    "eForm": "gule",
+    "glossEn": "yellow",
+    "reviewed": false
+  },
+  {
+    "id": "a-brun",
+    "level": 1,
+    "base": "brun",
+    "tForm": "brunt",
+    "eForm": "brune",
+    "glossEn": "brown",
+    "reviewed": false
+  },
+  {
+    "id": "a-ren",
+    "level": 1,
+    "base": "ren",
+    "tForm": "rent",
+    "eForm": "rene",
+    "glossEn": "clean",
+    "reviewed": false
+  },
+  {
+    "id": "a-staerk",
+    "level": 1,
+    "base": "stærk",
+    "tForm": "stærkt",
+    "eForm": "stærke",
+    "glossEn": "strong",
+    "reviewed": false
+  },
+  {
+    "id": "a-svag",
+    "level": 1,
+    "base": "svag",
+    "tForm": "svagt",
+    "eForm": "svage",
+    "glossEn": "weak",
+    "reviewed": false
+  },
+  {
+    "id": "a-mork",
+    "level": 1,
+    "base": "mørk",
+    "tForm": "mørkt",
+    "eForm": "mørke",
+    "glossEn": "dark",
+    "reviewed": false
+  },
+  {
+    "id": "a-lys",
+    "level": 1,
+    "base": "lys",
+    "tForm": "lyst",
+    "eForm": "lyse",
+    "glossEn": "light, bright",
+    "reviewed": false
+  },
+  {
+    "id": "a-sjov",
+    "level": 1,
+    "base": "sjov",
+    "tForm": "sjovt",
+    "eForm": "sjove",
+    "glossEn": "fun",
+    "reviewed": false
+  },
+  {
+    "id": "a-rund",
+    "level": 1,
+    "base": "rund",
+    "tForm": "rundt",
+    "eForm": "runde",
+    "glossEn": "round",
+    "reviewed": false
+  },
+  {
+    "id": "a-vred",
+    "level": 1,
+    "base": "vred",
+    "tForm": "vredt",
+    "eForm": "vrede",
+    "glossEn": "angry",
+    "reviewed": false
+  },
+  {
+    "id": "a-sand",
+    "level": 1,
+    "base": "sand",
+    "tForm": "sandt",
+    "eForm": "sande",
+    "glossEn": "true",
+    "reviewed": false
+  },
+  {
+    "id": "a-klog",
+    "level": 1,
+    "base": "klog",
+    "tForm": "klogt",
+    "eForm": "kloge",
+    "glossEn": "wise, clever",
+    "reviewed": false
+  },
+  {
+    "id": "a-darlig",
+    "level": 1,
+    "base": "dårlig",
+    "tForm": "dårligt",
+    "eForm": "dårlige",
+    "glossEn": "bad",
+    "reviewed": false
+  },
+  {
+    "id": "a-hurtig",
+    "level": 1,
+    "base": "hurtig",
+    "tForm": "hurtigt",
+    "eForm": "hurtige",
+    "glossEn": "fast",
+    "reviewed": false
+  },
+  {
+    "id": "a-dejlig",
+    "level": 1,
+    "base": "dejlig",
+    "tForm": "dejligt",
+    "eForm": "dejlige",
+    "glossEn": "lovely",
+    "reviewed": false
+  },
+  {
+    "id": "a-rigtig",
+    "level": 1,
+    "base": "rigtig",
+    "tForm": "rigtigt",
+    "eForm": "rigtige",
+    "glossEn": "right, correct",
+    "reviewed": false
+  },
+  {
+    "id": "a-kedelig",
+    "level": 1,
+    "base": "kedelig",
+    "tForm": "kedeligt",
+    "eForm": "kedelige",
+    "glossEn": "boring",
+    "reviewed": false
+  },
+  {
+    "id": "a-gron",
+    "level": 1,
+    "base": "grøn",
+    "tForm": "grønt",
+    "eForm": "grønne",
+    "glossEn": "green",
+    "reviewed": false
+  },
+  {
+    "id": "a-smuk",
+    "level": 1,
+    "base": "smuk",
+    "tForm": "smukt",
+    "eForm": "smukke",
+    "glossEn": "beautiful",
+    "reviewed": false
+  },
+  {
+    "id": "a-tyk",
+    "level": 1,
+    "base": "tyk",
+    "tForm": "tykt",
+    "eForm": "tykke",
+    "glossEn": "thick, fat",
+    "reviewed": false
+  },
+  {
+    "id": "a-tom",
+    "level": 1,
+    "base": "tom",
+    "tForm": "tomt",
+    "eForm": "tomme",
+    "glossEn": "empty",
+    "reviewed": false
+  },
+  {
+    "id": "a-nem",
+    "level": 1,
+    "base": "nem",
+    "tForm": "nemt",
+    "eForm": "nemme",
+    "glossEn": "easy",
+    "reviewed": false
+  },
+  {
+    "id": "a-langsom",
+    "level": 1,
+    "base": "langsom",
+    "tForm": "langsomt",
+    "eForm": "langsomme",
+    "glossEn": "slow",
+    "reviewed": false
+  },
+  {
+    "id": "a-glad",
+    "level": 1,
+    "base": "glad",
+    "tForm": "glad",
+    "eForm": "glade",
+    "glossEn": "happy",
+    "irregularNote": "\"Glad\" doesn't take -t — \"et glad barn\", never \"et gladt barn\" — but it does take -e: \"de glade børn\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-traet",
+    "level": 1,
+    "base": "træt",
+    "tForm": "træt",
+    "eForm": "trætte",
+    "glossEn": "tired",
+    "irregularNote": "\"Træt\" already ends in -t, so the et-form adds nothing — \"et træt barn\" — while the -e form is \"trætte\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-kort",
+    "level": 1,
+    "base": "kort",
+    "tForm": "kort",
+    "eForm": "korte",
+    "glossEn": "short",
+    "irregularNote": "\"Kort\" already ends in -t, so the et-form adds nothing — \"et kort møde\" — while the -e form is \"korte\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-sort",
+    "level": 1,
+    "base": "sort",
+    "tForm": "sort",
+    "eForm": "sorte",
+    "glossEn": "black",
+    "irregularNote": "\"Sort\" already ends in -t, so the et-form adds nothing — \"et sort bord\" — while the -e form is \"sorte\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-rig",
+    "level": 1,
+    "base": "rig",
+    "tForm": "rigt",
+    "eForm": "rige",
+    "glossEn": "rich",
+    "reviewed": false
+  },
+  {
+    "id": "a-fuld",
+    "level": 2,
+    "base": "fuld",
+    "tForm": "fuldt",
+    "eForm": "fulde",
+    "glossEn": "full; drunk",
+    "reviewed": false
+  },
+  {
+    "id": "a-hel",
+    "level": 2,
+    "base": "hel",
+    "tForm": "helt",
+    "eForm": "hele",
+    "glossEn": "whole",
+    "reviewed": false
+  },
+  {
+    "id": "a-bred",
+    "level": 2,
+    "base": "bred",
+    "tForm": "bredt",
+    "eForm": "brede",
+    "glossEn": "wide",
+    "reviewed": false
+  },
+  {
+    "id": "a-dyb",
+    "level": 2,
+    "base": "dyb",
+    "tForm": "dybt",
+    "eForm": "dybe",
+    "glossEn": "deep",
+    "reviewed": false
+  },
+  {
+    "id": "a-fed",
+    "level": 2,
+    "base": "fed",
+    "tForm": "fedt",
+    "eForm": "fede",
+    "glossEn": "fat; cool",
+    "reviewed": false
+  },
+  {
+    "id": "a-ond",
+    "level": 2,
+    "base": "ond",
+    "tForm": "ondt",
+    "eForm": "onde",
+    "glossEn": "evil",
+    "reviewed": false
+  },
+  {
+    "id": "a-sund",
+    "level": 2,
+    "base": "sund",
+    "tForm": "sundt",
+    "eForm": "sunde",
+    "glossEn": "healthy",
+    "reviewed": false
+  },
+  {
+    "id": "a-rask",
+    "level": 2,
+    "base": "rask",
+    "tForm": "raskt",
+    "eForm": "raske",
+    "glossEn": "healthy, well",
+    "reviewed": false
+  },
+  {
+    "id": "a-frisk",
+    "level": 2,
+    "base": "frisk",
+    "tForm": "friskt",
+    "eForm": "friske",
+    "glossEn": "fresh",
+    "reviewed": false
+  },
+  {
+    "id": "a-sen",
+    "level": 2,
+    "base": "sen",
+    "tForm": "sent",
+    "eForm": "sene",
+    "glossEn": "late",
+    "reviewed": false
+  },
+  {
+    "id": "a-kaer",
+    "level": 2,
+    "base": "kær",
+    "tForm": "kært",
+    "eForm": "kære",
+    "glossEn": "dear",
+    "reviewed": false
+  },
+  {
+    "id": "a-vild",
+    "level": 2,
+    "base": "vild",
+    "tForm": "vildt",
+    "eForm": "vilde",
+    "glossEn": "wild",
+    "reviewed": false
+  },
+  {
+    "id": "a-travl",
+    "level": 2,
+    "base": "travl",
+    "tForm": "travlt",
+    "eForm": "travle",
+    "glossEn": "busy",
+    "reviewed": false
+  },
+  {
+    "id": "a-flink",
+    "level": 2,
+    "base": "flink",
+    "tForm": "flinkt",
+    "eForm": "flinke",
+    "glossEn": "kind",
+    "reviewed": false
+  },
+  {
+    "id": "a-blind",
+    "level": 2,
+    "base": "blind",
+    "tForm": "blindt",
+    "eForm": "blinde",
+    "glossEn": "blind",
+    "reviewed": false
+  },
+  {
+    "id": "a-nervos",
+    "level": 2,
+    "base": "nervøs",
+    "tForm": "nervøst",
+    "eForm": "nervøse",
+    "glossEn": "nervous",
+    "reviewed": false
+  },
+  {
+    "id": "a-populaer",
+    "level": 2,
+    "base": "populær",
+    "tForm": "populært",
+    "eForm": "populære",
+    "glossEn": "popular",
+    "reviewed": false
+  },
+  {
+    "id": "a-normal",
+    "level": 2,
+    "base": "normal",
+    "tForm": "normalt",
+    "eForm": "normale",
+    "glossEn": "normal",
+    "reviewed": false
+  },
+  {
+    "id": "a-lokal",
+    "level": 2,
+    "base": "lokal",
+    "tForm": "lokalt",
+    "eForm": "lokale",
+    "glossEn": "local",
+    "reviewed": false
+  },
+  {
+    "id": "a-rolig",
+    "level": 2,
+    "base": "rolig",
+    "tForm": "roligt",
+    "eForm": "rolige",
+    "glossEn": "calm",
+    "reviewed": false
+  },
+  {
+    "id": "a-venlig",
+    "level": 2,
+    "base": "venlig",
+    "tForm": "venligt",
+    "eForm": "venlige",
+    "glossEn": "friendly",
+    "reviewed": false
+  },
+  {
+    "id": "a-farlig",
+    "level": 2,
+    "base": "farlig",
+    "tForm": "farligt",
+    "eForm": "farlige",
+    "glossEn": "dangerous",
+    "reviewed": false
+  },
+  {
+    "id": "a-hyggelig",
+    "level": 2,
+    "base": "hyggelig",
+    "tForm": "hyggeligt",
+    "eForm": "hyggelige",
+    "glossEn": "cosy",
+    "reviewed": false
+  },
+  {
+    "id": "a-aerlig",
+    "level": 2,
+    "base": "ærlig",
+    "tForm": "ærligt",
+    "eForm": "ærlige",
+    "glossEn": "honest",
+    "reviewed": false
+  },
+  {
+    "id": "a-tidlig",
+    "level": 2,
+    "base": "tidlig",
+    "tForm": "tidligt",
+    "eForm": "tidlige",
+    "glossEn": "early",
+    "reviewed": false
+  },
+  {
+    "id": "a-daglig",
+    "level": 2,
+    "base": "daglig",
+    "tForm": "dagligt",
+    "eForm": "daglige",
+    "glossEn": "daily",
+    "reviewed": false
+  },
+  {
+    "id": "a-maerkelig",
+    "level": 2,
+    "base": "mærkelig",
+    "tForm": "mærkeligt",
+    "eForm": "mærkelige",
+    "glossEn": "strange",
+    "reviewed": false
+  },
+  {
+    "id": "a-lykkelig",
+    "level": 2,
+    "base": "lykkelig",
+    "tForm": "lykkeligt",
+    "eForm": "lykkelige",
+    "glossEn": "happy (deeply)",
+    "reviewed": false
+  },
+  {
+    "id": "a-torstig",
+    "level": 2,
+    "base": "tørstig",
+    "tForm": "tørstigt",
+    "eForm": "tørstige",
+    "glossEn": "thirsty",
+    "reviewed": false
+  },
+  {
+    "id": "a-hoflig",
+    "level": 2,
+    "base": "høflig",
+    "tForm": "høfligt",
+    "eForm": "høflige",
+    "glossEn": "polite",
+    "reviewed": false
+  },
+  {
+    "id": "a-modig",
+    "level": 2,
+    "base": "modig",
+    "tForm": "modigt",
+    "eForm": "modige",
+    "glossEn": "brave",
+    "reviewed": false
+  },
+  {
+    "id": "a-flittig",
+    "level": 2,
+    "base": "flittig",
+    "tForm": "flittigt",
+    "eForm": "flittige",
+    "glossEn": "hard-working",
+    "reviewed": false
+  },
+  {
+    "id": "a-aktiv",
+    "level": 2,
+    "base": "aktiv",
+    "tForm": "aktivt",
+    "eForm": "aktive",
+    "glossEn": "active",
+    "reviewed": false
+  },
+  {
+    "id": "a-positiv",
+    "level": 2,
+    "base": "positiv",
+    "tForm": "positivt",
+    "eForm": "positive",
+    "glossEn": "positive",
+    "reviewed": false
+  },
+  {
+    "id": "a-negativ",
+    "level": 2,
+    "base": "negativ",
+    "tForm": "negativt",
+    "eForm": "negative",
+    "glossEn": "negative",
+    "reviewed": false
+  },
+  {
+    "id": "a-fri",
+    "level": 2,
+    "base": "fri",
+    "tForm": "frit",
+    "eForm": "frie",
+    "glossEn": "free",
+    "reviewed": false
+  },
+  {
+    "id": "a-tor",
+    "level": 2,
+    "base": "tør",
+    "tForm": "tørt",
+    "eForm": "tørre",
+    "glossEn": "dry",
+    "reviewed": false
+  },
+  {
+    "id": "a-tryg",
+    "level": 2,
+    "base": "tryg",
+    "tForm": "trygt",
+    "eForm": "trygge",
+    "glossEn": "safe, secure",
+    "reviewed": false
+  },
+  {
+    "id": "a-grim",
+    "level": 2,
+    "base": "grim",
+    "tForm": "grimt",
+    "eForm": "grimme",
+    "glossEn": "ugly",
+    "reviewed": false
+  },
+  {
+    "id": "a-dum",
+    "level": 2,
+    "base": "dum",
+    "tForm": "dumt",
+    "eForm": "dumme",
+    "glossEn": "stupid",
+    "reviewed": false
+  },
+  {
+    "id": "a-smal",
+    "level": 2,
+    "base": "smal",
+    "tForm": "smalt",
+    "eForm": "smalle",
+    "glossEn": "narrow",
+    "reviewed": false
+  },
+  {
+    "id": "a-ensom",
+    "level": 2,
+    "base": "ensom",
+    "tForm": "ensomt",
+    "eForm": "ensomme",
+    "glossEn": "lonely",
+    "reviewed": false
+  },
+  {
+    "id": "a-sulten",
+    "level": 2,
+    "base": "sulten",
+    "tForm": "sultent",
+    "eForm": "sultne",
+    "glossEn": "hungry",
+    "reviewed": false
+  },
+  {
+    "id": "a-aben",
+    "level": 2,
+    "base": "åben",
+    "tForm": "åbent",
+    "eForm": "åbne",
+    "glossEn": "open",
+    "reviewed": false
+  },
+  {
+    "id": "a-sikker",
+    "level": 2,
+    "base": "sikker",
+    "tForm": "sikkert",
+    "eForm": "sikre",
+    "glossEn": "safe, sure",
+    "reviewed": false
+  },
+  {
+    "id": "a-let",
+    "level": 2,
+    "base": "let",
+    "tForm": "let",
+    "eForm": "lette",
+    "glossEn": "easy, light",
+    "irregularNote": "\"Let\" already ends in -t, so the et-form adds nothing — \"et let spørgsmål\" — while the -e form is \"lette\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-flot",
+    "level": 2,
+    "base": "flot",
+    "tForm": "flot",
+    "eForm": "flotte",
+    "glossEn": "handsome, great",
+    "irregularNote": "\"Flot\" already ends in -t, so the et-form adds nothing — \"et flot hus\" — while the -e form is \"flotte\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-stolt",
+    "level": 2,
+    "base": "stolt",
+    "tForm": "stolt",
+    "eForm": "stolte",
+    "glossEn": "proud",
+    "irregularNote": "\"Stolt\" already ends in -t, so the et-form adds nothing — \"et stolt øjeblik\" — while the -e form is \"stolte\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-lukket",
+    "level": 2,
+    "base": "lukket",
+    "tForm": "lukket",
+    "eForm": "lukkede",
+    "glossEn": "closed",
+    "irregularNote": "\"Lukket\" is a past participle in -et: the et-form stays \"et lukket vindue\", and the plural/definite form is \"lukkede\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-gift",
+    "level": 2,
+    "base": "gift",
+    "tForm": "gift",
+    "eForm": "gifte",
+    "glossEn": "married",
+    "irregularNote": "\"Gift\" already ends in -t, so the et-form adds nothing — \"et gift par\" — while the -e form is \"gifte\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-engelsk",
+    "level": 2,
+    "base": "engelsk",
+    "tForm": "engelsk",
+    "eForm": "engelske",
+    "glossEn": "English",
+    "irregularNote": "Nationality adjectives in -sk never take -t — \"et engelsk firma\", never \"et engelskt firma\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-tysk",
+    "level": 2,
+    "base": "tysk",
+    "tForm": "tysk",
+    "eForm": "tyske",
+    "glossEn": "German",
+    "irregularNote": "Nationality adjectives in -sk never take -t — \"et tysk firma\", never \"et tyskt firma\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-fattig",
+    "level": 2,
+    "base": "fattig",
+    "tForm": "fattigt",
+    "eForm": "fattige",
+    "glossEn": "poor",
+    "reviewed": false
+  },
+  {
+    "id": "a-tynd",
+    "level": 2,
+    "base": "tynd",
+    "tForm": "tyndt",
+    "eForm": "tynde",
+    "glossEn": "thin",
+    "reviewed": false
+  },
+  {
+    "id": "a-vad",
+    "level": 2,
+    "base": "våd",
+    "tForm": "vådt",
+    "eForm": "våde",
+    "glossEn": "wet",
+    "reviewed": false
+  },
+  {
+    "id": "a-mulig",
+    "level": 3,
+    "base": "mulig",
+    "tForm": "muligt",
+    "eForm": "mulige",
+    "glossEn": "possible",
+    "reviewed": false
+  },
+  {
+    "id": "a-umulig",
+    "level": 3,
+    "base": "umulig",
+    "tForm": "umuligt",
+    "eForm": "umulige",
+    "glossEn": "impossible",
+    "reviewed": false
+  },
+  {
+    "id": "a-nodvendig",
+    "level": 3,
+    "base": "nødvendig",
+    "tForm": "nødvendigt",
+    "eForm": "nødvendige",
+    "glossEn": "necessary",
+    "reviewed": false
+  },
+  {
+    "id": "a-almindelig",
+    "level": 3,
+    "base": "almindelig",
+    "tForm": "almindeligt",
+    "eForm": "almindelige",
+    "glossEn": "ordinary, common",
+    "reviewed": false
+  },
+  {
+    "id": "a-personlig",
+    "level": 3,
+    "base": "personlig",
+    "tForm": "personligt",
+    "eForm": "personlige",
+    "glossEn": "personal",
+    "reviewed": false
+  },
+  {
+    "id": "a-offentlig",
+    "level": 3,
+    "base": "offentlig",
+    "tForm": "offentligt",
+    "eForm": "offentlige",
+    "glossEn": "public",
+    "reviewed": false
+  },
+  {
+    "id": "a-alvorlig",
+    "level": 3,
+    "base": "alvorlig",
+    "tForm": "alvorligt",
+    "eForm": "alvorlige",
+    "glossEn": "serious",
+    "reviewed": false
+  },
+  {
+    "id": "a-sjaelden",
+    "level": 3,
+    "base": "sjælden",
+    "tForm": "sjældent",
+    "eForm": "sjældene",
+    "glossEn": "rare",
+    "reviewed": false
+  },
+  {
+    "id": "a-naturlig",
+    "level": 3,
+    "base": "naturlig",
+    "tForm": "naturligt",
+    "eForm": "naturlige",
+    "glossEn": "natural",
+    "reviewed": false
+  },
+  {
+    "id": "a-tydelig",
+    "level": 3,
+    "base": "tydelig",
+    "tForm": "tydeligt",
+    "eForm": "tydelige",
+    "glossEn": "clear",
+    "reviewed": false
+  },
+  {
+    "id": "a-ansvarlig",
+    "level": 3,
+    "base": "ansvarlig",
+    "tForm": "ansvarligt",
+    "eForm": "ansvarlige",
+    "glossEn": "responsible",
+    "reviewed": false
+  },
+  {
+    "id": "a-selvstaendig",
+    "level": 3,
+    "base": "selvstændig",
+    "tForm": "selvstændigt",
+    "eForm": "selvstændige",
+    "glossEn": "independent",
+    "reviewed": false
+  },
+  {
+    "id": "a-talmodig",
+    "level": 3,
+    "base": "tålmodig",
+    "tForm": "tålmodigt",
+    "eForm": "tålmodige",
+    "glossEn": "patient",
+    "reviewed": false
+  },
+  {
+    "id": "a-fornuftig",
+    "level": 3,
+    "base": "fornuftig",
+    "tForm": "fornuftigt",
+    "eForm": "fornuftige",
+    "glossEn": "sensible",
+    "reviewed": false
+  },
+  {
+    "id": "a-rimelig",
+    "level": 3,
+    "base": "rimelig",
+    "tForm": "rimeligt",
+    "eForm": "rimelige",
+    "glossEn": "reasonable",
+    "reviewed": false
+  },
+  {
+    "id": "a-ledig",
+    "level": 3,
+    "base": "ledig",
+    "tForm": "ledigt",
+    "eForm": "ledige",
+    "glossEn": "vacant; unemployed",
+    "reviewed": false
+  },
+  {
+    "id": "a-frivillig",
+    "level": 3,
+    "base": "frivillig",
+    "tForm": "frivilligt",
+    "eForm": "frivillige",
+    "glossEn": "voluntary",
+    "reviewed": false
+  },
+  {
+    "id": "a-lovlig",
+    "level": 3,
+    "base": "lovlig",
+    "tForm": "lovligt",
+    "eForm": "lovlige",
+    "glossEn": "legal",
+    "reviewed": false
+  },
+  {
+    "id": "a-ulovlig",
+    "level": 3,
+    "base": "ulovlig",
+    "tForm": "ulovligt",
+    "eForm": "ulovlige",
+    "glossEn": "illegal",
+    "reviewed": false
+  },
+  {
+    "id": "a-usund",
+    "level": 3,
+    "base": "usund",
+    "tForm": "usundt",
+    "eForm": "usunde",
+    "glossEn": "unhealthy",
+    "reviewed": false
+  },
+  {
+    "id": "a-arbejdslos",
+    "level": 3,
+    "base": "arbejdsløs",
+    "tForm": "arbejdsløst",
+    "eForm": "arbejdsløse",
+    "glossEn": "unemployed",
+    "reviewed": false
+  },
+  {
+    "id": "a-hjemlos",
+    "level": 3,
+    "base": "hjemløs",
+    "tForm": "hjemløst",
+    "eForm": "hjemløse",
+    "glossEn": "homeless",
+    "reviewed": false
+  },
+  {
+    "id": "a-effektiv",
+    "level": 3,
+    "base": "effektiv",
+    "tForm": "effektivt",
+    "eForm": "effektive",
+    "glossEn": "efficient",
+    "reviewed": false
+  },
+  {
+    "id": "a-kreativ",
+    "level": 3,
+    "base": "kreativ",
+    "tForm": "kreativt",
+    "eForm": "kreative",
+    "glossEn": "creative",
+    "reviewed": false
+  },
+  {
+    "id": "a-stabil",
+    "level": 3,
+    "base": "stabil",
+    "tForm": "stabilt",
+    "eForm": "stabile",
+    "glossEn": "stable",
+    "reviewed": false
+  },
+  {
+    "id": "a-social",
+    "level": 3,
+    "base": "social",
+    "tForm": "socialt",
+    "eForm": "sociale",
+    "glossEn": "social",
+    "reviewed": false
+  },
+  {
+    "id": "a-national",
+    "level": 3,
+    "base": "national",
+    "tForm": "nationalt",
+    "eForm": "nationale",
+    "glossEn": "national",
+    "reviewed": false
+  },
+  {
+    "id": "a-international",
+    "level": 3,
+    "base": "international",
+    "tForm": "internationalt",
+    "eForm": "internationale",
+    "glossEn": "international",
+    "reviewed": false
+  },
+  {
+    "id": "a-global",
+    "level": 3,
+    "base": "global",
+    "tForm": "globalt",
+    "eForm": "globale",
+    "glossEn": "global",
+    "reviewed": false
+  },
+  {
+    "id": "a-central",
+    "level": 3,
+    "base": "central",
+    "tForm": "centralt",
+    "eForm": "centrale",
+    "glossEn": "central",
+    "reviewed": false
+  },
+  {
+    "id": "a-digital",
+    "level": 3,
+    "base": "digital",
+    "tForm": "digitalt",
+    "eForm": "digitale",
+    "glossEn": "digital",
+    "reviewed": false
+  },
+  {
+    "id": "a-serios",
+    "level": 3,
+    "base": "seriøs",
+    "tForm": "seriøst",
+    "eForm": "seriøse",
+    "glossEn": "serious",
+    "reviewed": false
+  },
+  {
+    "id": "a-religios",
+    "level": 3,
+    "base": "religiøs",
+    "tForm": "religiøst",
+    "eForm": "religiøse",
+    "glossEn": "religious",
+    "reviewed": false
+  },
+  {
+    "id": "a-ambitios",
+    "level": 3,
+    "base": "ambitiøs",
+    "tForm": "ambitiøst",
+    "eForm": "ambitiøse",
+    "glossEn": "ambitious",
+    "reviewed": false
+  },
+  {
+    "id": "a-enig",
+    "level": 3,
+    "base": "enig",
+    "tForm": "enigt",
+    "eForm": "enige",
+    "glossEn": "in agreement",
+    "reviewed": false
+  },
+  {
+    "id": "a-uenig",
+    "level": 3,
+    "base": "uenig",
+    "tForm": "uenigt",
+    "eForm": "uenige",
+    "glossEn": "in disagreement",
+    "reviewed": false
+  },
+  {
+    "id": "a-trang",
+    "level": 3,
+    "base": "trang",
+    "tForm": "trangt",
+    "eForm": "trange",
+    "glossEn": "cramped",
+    "reviewed": false
+  },
+  {
+    "id": "a-rummelig",
+    "level": 3,
+    "base": "rummelig",
+    "tForm": "rummeligt",
+    "eForm": "rummelige",
+    "glossEn": "spacious",
+    "reviewed": false
+  },
+  {
+    "id": "a-nysgerrig",
+    "level": 3,
+    "base": "nysgerrig",
+    "tForm": "nysgerrigt",
+    "eForm": "nysgerrige",
+    "glossEn": "curious",
+    "reviewed": false
+  },
+  {
+    "id": "a-arlig",
+    "level": 3,
+    "base": "årlig",
+    "tForm": "årligt",
+    "eForm": "årlige",
+    "glossEn": "annual",
+    "reviewed": false
+  },
+  {
+    "id": "a-faglig",
+    "level": 3,
+    "base": "faglig",
+    "tForm": "fagligt",
+    "eForm": "faglige",
+    "glossEn": "professional, academic",
+    "reviewed": false
+  },
+  {
+    "id": "a-kulturel",
+    "level": 3,
+    "base": "kulturel",
+    "tForm": "kulturelt",
+    "eForm": "kulturele",
+    "glossEn": "cultural",
+    "reviewed": false
+  },
+  {
+    "id": "a-professionel",
+    "level": 3,
+    "base": "professionel",
+    "tForm": "professionelt",
+    "eForm": "professionele",
+    "glossEn": "professional",
+    "reviewed": false
+  },
+  {
+    "id": "a-voksen",
+    "level": 3,
+    "base": "voksen",
+    "tForm": "voksent",
+    "eForm": "voksne",
+    "glossEn": "adult",
+    "reviewed": false
+  },
+  {
+    "id": "a-doven",
+    "level": 3,
+    "base": "doven",
+    "tForm": "dovent",
+    "eForm": "dovne",
+    "glossEn": "lazy",
+    "reviewed": false
+  },
+  {
+    "id": "a-usikker",
+    "level": 3,
+    "base": "usikker",
+    "tForm": "usikkert",
+    "eForm": "usikre",
+    "glossEn": "unsure, unsafe",
+    "reviewed": false
+  },
+  {
+    "id": "a-laekker",
+    "level": 3,
+    "base": "lækker",
+    "tForm": "lækkert",
+    "eForm": "lækre",
+    "glossEn": "delicious",
+    "reviewed": false
+  },
+  {
+    "id": "a-simpel",
+    "level": 3,
+    "base": "simpel",
+    "tForm": "simpelt",
+    "eForm": "simple",
+    "glossEn": "simple",
+    "reviewed": false
+  },
+  {
+    "id": "a-praktisk",
+    "level": 3,
+    "base": "praktisk",
+    "tForm": "praktisk",
+    "eForm": "praktiske",
+    "glossEn": "practical",
+    "irregularNote": "Adjectives ending in -isk never take -t — \"et praktisk problem\", never \"et praktiskt problem\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-okonomisk",
+    "level": 3,
+    "base": "økonomisk",
+    "tForm": "økonomisk",
+    "eForm": "økonomiske",
+    "glossEn": "economic, financial",
+    "irregularNote": "Adjectives ending in -isk never take -t — \"et økonomisk problem\", never \"et økonomiskt problem\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-politisk",
+    "level": 3,
+    "base": "politisk",
+    "tForm": "politisk",
+    "eForm": "politiske",
+    "glossEn": "political",
+    "irregularNote": "Adjectives ending in -isk never take -t — \"et politisk parti\", never \"et politiskt parti\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-typisk",
+    "level": 3,
+    "base": "typisk",
+    "tForm": "typisk",
+    "eForm": "typiske",
+    "glossEn": "typical",
+    "irregularNote": "Adjectives ending in -isk never take -t — \"et typisk eksempel\", never \"et typiskt eksempel\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-fantastisk",
+    "level": 3,
+    "base": "fantastisk",
+    "tForm": "fantastisk",
+    "eForm": "fantastiske",
+    "glossEn": "fantastic",
+    "irregularNote": "Adjectives ending in -isk never take -t — \"et fantastisk resultat\", never \"et fantastiskt resultat\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-privat",
+    "level": 3,
+    "base": "privat",
+    "tForm": "privat",
+    "eForm": "private",
+    "glossEn": "private",
+    "irregularNote": "\"Privat\" already ends in -t, so the et-form adds nothing — \"et privat firma\" — while the -e form is \"private\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-interessant",
+    "level": 3,
+    "base": "interessant",
+    "tForm": "interessant",
+    "eForm": "interessante",
+    "glossEn": "interesting",
+    "irregularNote": "\"Interessant\" already ends in -t, so the et-form adds nothing — \"et interessant emne\" — while the -e form is \"interessante\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-interesseret",
+    "level": 3,
+    "base": "interesseret",
+    "tForm": "interesseret",
+    "eForm": "interesserede",
+    "glossEn": "interested",
+    "irregularNote": "\"Interesseret\" is a past participle in -et: the et-form stays \"et interesseret publikum\", and the plural/definite form is \"interesserede\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-uddannet",
+    "level": 3,
+    "base": "uddannet",
+    "tForm": "uddannet",
+    "eForm": "uddannede",
+    "glossEn": "qualified, trained",
+    "irregularNote": "\"Uddannet\" is a past participle in -et: the et-form stays \"et uddannet personale\", and the plural/definite form is \"uddannede\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-fremmed",
+    "level": 3,
+    "base": "fremmed",
+    "tForm": "fremmed",
+    "eForm": "fremmede",
+    "glossEn": "foreign, strange",
+    "irregularNote": "\"Fremmed\" ends in unstressed -ed and doesn't take -t — \"et fremmed sprog\" — but it does take -e: \"de fremmede sprog\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-fast",
+    "level": 3,
+    "base": "fast",
+    "tForm": "fast",
+    "eForm": "faste",
+    "glossEn": "permanent, fixed",
+    "irregularNote": "\"Fast\" already ends in -t, so the et-form adds nothing — \"et fast job\" — while the -e form is \"faste\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-stresset",
+    "level": 3,
+    "base": "stresset",
+    "tForm": "stresset",
+    "eForm": "stressede",
+    "glossEn": "stressed",
+    "irregularNote": "\"Stresset\" is a past participle in -et: the et-form stays \"et stresset arbejdsmiljø\", and the plural/definite form is \"stressede\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-aktuel",
+    "level": 4,
+    "base": "aktuel",
+    "tForm": "aktuelt",
+    "eForm": "aktuele",
+    "glossEn": "current",
+    "reviewed": false
+  },
+  {
+    "id": "a-officiel",
+    "level": 4,
+    "base": "officiel",
+    "tForm": "officielt",
+    "eForm": "officiele",
+    "glossEn": "official",
+    "reviewed": false
+  },
+  {
+    "id": "a-baeredygtig",
+    "level": 4,
+    "base": "bæredygtig",
+    "tForm": "bæredygtigt",
+    "eForm": "bæredygtige",
+    "glossEn": "sustainable",
+    "reviewed": false
+  },
+  {
+    "id": "a-miljovenlig",
+    "level": 4,
+    "base": "miljøvenlig",
+    "tForm": "miljøvenligt",
+    "eForm": "miljøvenlige",
+    "glossEn": "environmentally friendly",
+    "reviewed": false
+  },
+  {
+    "id": "a-midlertidig",
+    "level": 4,
+    "base": "midlertidig",
+    "tForm": "midlertidigt",
+    "eForm": "midlertidige",
+    "glossEn": "temporary",
+    "reviewed": false
+  },
+  {
+    "id": "a-fremtidig",
+    "level": 4,
+    "base": "fremtidig",
+    "tForm": "fremtidigt",
+    "eForm": "fremtidige",
+    "glossEn": "future",
+    "reviewed": false
+  },
+  {
+    "id": "a-retfaerdig",
+    "level": 4,
+    "base": "retfærdig",
+    "tForm": "retfærdigt",
+    "eForm": "retfærdige",
+    "glossEn": "fair, just",
+    "reviewed": false
+  },
+  {
+    "id": "a-uretfaerdig",
+    "level": 4,
+    "base": "uretfærdig",
+    "tForm": "uretfærdigt",
+    "eForm": "uretfærdige",
+    "glossEn": "unfair",
+    "reviewed": false
+  },
+  {
+    "id": "a-afhaengig",
+    "level": 4,
+    "base": "afhængig",
+    "tForm": "afhængigt",
+    "eForm": "afhængige",
+    "glossEn": "dependent",
+    "reviewed": false
+  },
+  {
+    "id": "a-uafhaengig",
+    "level": 4,
+    "base": "uafhængig",
+    "tForm": "uafhængigt",
+    "eForm": "uafhængige",
+    "glossEn": "independent",
+    "reviewed": false
+  },
+  {
+    "id": "a-vaesentlig",
+    "level": 4,
+    "base": "væsentlig",
+    "tForm": "væsentligt",
+    "eForm": "væsentlige",
+    "glossEn": "significant",
+    "reviewed": false
+  },
+  {
+    "id": "a-grundig",
+    "level": 4,
+    "base": "grundig",
+    "tForm": "grundigt",
+    "eForm": "grundige",
+    "glossEn": "thorough",
+    "reviewed": false
+  },
+  {
+    "id": "a-palidelig",
+    "level": 4,
+    "base": "pålidelig",
+    "tForm": "pålideligt",
+    "eForm": "pålidelige",
+    "glossEn": "reliable",
+    "reviewed": false
+  },
+  {
+    "id": "a-tilgaengelig",
+    "level": 4,
+    "base": "tilgængelig",
+    "tForm": "tilgængeligt",
+    "eForm": "tilgængelige",
+    "glossEn": "accessible",
+    "reviewed": false
+  },
+  {
+    "id": "a-skadelig",
+    "level": 4,
+    "base": "skadelig",
+    "tForm": "skadeligt",
+    "eForm": "skadelige",
+    "glossEn": "harmful",
+    "reviewed": false
+  },
+  {
+    "id": "a-giftig",
+    "level": 4,
+    "base": "giftig",
+    "tForm": "giftigt",
+    "eForm": "giftige",
+    "glossEn": "poisonous",
+    "reviewed": false
+  },
+  {
+    "id": "a-omhyggelig",
+    "level": 4,
+    "base": "omhyggelig",
+    "tForm": "omhyggeligt",
+    "eForm": "omhyggelige",
+    "glossEn": "careful",
+    "reviewed": false
+  },
+  {
+    "id": "a-taknemmelig",
+    "level": 4,
+    "base": "taknemmelig",
+    "tForm": "taknemmeligt",
+    "eForm": "taknemmelige",
+    "glossEn": "grateful",
+    "reviewed": false
+  },
+  {
+    "id": "a-ubehagelig",
+    "level": 4,
+    "base": "ubehagelig",
+    "tForm": "ubehageligt",
+    "eForm": "ubehagelige",
+    "glossEn": "unpleasant",
+    "reviewed": false
+  },
+  {
+    "id": "a-pinlig",
+    "level": 4,
+    "base": "pinlig",
+    "tForm": "pinligt",
+    "eForm": "pinlige",
+    "glossEn": "embarrassing",
+    "reviewed": false
+  },
+  {
+    "id": "a-ansvarsfuld",
+    "level": 4,
+    "base": "ansvarsfuld",
+    "tForm": "ansvarsfuldt",
+    "eForm": "ansvarsfulde",
+    "glossEn": "responsible",
+    "reviewed": false
+  },
+  {
+    "id": "a-meningsfuld",
+    "level": 4,
+    "base": "meningsfuld",
+    "tForm": "meningsfuldt",
+    "eForm": "meningsfulde",
+    "glossEn": "meaningful",
+    "reviewed": false
+  },
+  {
+    "id": "a-vaerdifuld",
+    "level": 4,
+    "base": "værdifuld",
+    "tForm": "værdifuldt",
+    "eForm": "værdifulde",
+    "glossEn": "valuable",
+    "reviewed": false
+  },
+  {
+    "id": "a-holdbar",
+    "level": 4,
+    "base": "holdbar",
+    "tForm": "holdbart",
+    "eForm": "holdbare",
+    "glossEn": "durable, tenable",
+    "reviewed": false
+  },
+  {
+    "id": "a-sarbar",
+    "level": 4,
+    "base": "sårbar",
+    "tForm": "sårbart",
+    "eForm": "sårbare",
+    "glossEn": "vulnerable",
+    "reviewed": false
+  },
+  {
+    "id": "a-loyal",
+    "level": 4,
+    "base": "loyal",
+    "tForm": "loyalt",
+    "eForm": "loyale",
+    "glossEn": "loyal",
+    "reviewed": false
+  },
+  {
+    "id": "a-konservativ",
+    "level": 4,
+    "base": "konservativ",
+    "tForm": "konservativt",
+    "eForm": "konservative",
+    "glossEn": "conservative",
+    "reviewed": false
+  },
+  {
+    "id": "a-liberal",
+    "level": 4,
+    "base": "liberal",
+    "tForm": "liberalt",
+    "eForm": "liberale",
+    "glossEn": "liberal",
+    "reviewed": false
+  },
+  {
+    "id": "a-neutral",
+    "level": 4,
+    "base": "neutral",
+    "tForm": "neutralt",
+    "eForm": "neutrale",
+    "glossEn": "neutral",
+    "reviewed": false
+  },
+  {
+    "id": "a-kommunal",
+    "level": 4,
+    "base": "kommunal",
+    "tForm": "kommunalt",
+    "eForm": "kommunale",
+    "glossEn": "municipal",
+    "reviewed": false
+  },
+  {
+    "id": "a-rationel",
+    "level": 4,
+    "base": "rationel",
+    "tForm": "rationelt",
+    "eForm": "rationele",
+    "glossEn": "rational",
+    "reviewed": false
+  },
+  {
+    "id": "a-kontroversiel",
+    "level": 4,
+    "base": "kontroversiel",
+    "tForm": "kontroversielt",
+    "eForm": "kontroversiele",
+    "glossEn": "controversial",
+    "reviewed": false
+  },
+  {
+    "id": "a-erfaren",
+    "level": 4,
+    "base": "erfaren",
+    "tForm": "erfarent",
+    "eForm": "erfarne",
+    "glossEn": "experienced",
+    "reviewed": false
+  },
+  {
+    "id": "a-fleksibel",
+    "level": 4,
+    "base": "fleksibel",
+    "tForm": "fleksibelt",
+    "eForm": "fleksible",
+    "glossEn": "flexible",
+    "reviewed": false
+  },
+  {
+    "id": "a-tvivlsom",
+    "level": 4,
+    "base": "tvivlsom",
+    "tForm": "tvivlsomt",
+    "eForm": "tvivlsomme",
+    "glossEn": "doubtful",
+    "reviewed": false
+  },
+  {
+    "id": "a-kritisk",
+    "level": 4,
+    "base": "kritisk",
+    "tForm": "kritisk",
+    "eForm": "kritiske",
+    "glossEn": "critical",
+    "irregularNote": "Adjectives ending in -isk never take -t — \"et kritisk spørgsmål\", never \"et kritiskt spørgsmål\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-demokratisk",
+    "level": 4,
+    "base": "demokratisk",
+    "tForm": "demokratisk",
+    "eForm": "demokratiske",
+    "glossEn": "democratic",
+    "irregularNote": "Adjectives ending in -isk never take -t — \"et demokratisk samfund\", never \"et demokratiskt samfund\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-okologisk",
+    "level": 4,
+    "base": "økologisk",
+    "tForm": "økologisk",
+    "eForm": "økologiske",
+    "glossEn": "organic, ecological",
+    "irregularNote": "Adjectives ending in -isk never take -t — \"et økologisk landbrug\", never \"et økologiskt landbrug\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-psykisk",
+    "level": 4,
+    "base": "psykisk",
+    "tForm": "psykisk",
+    "eForm": "psykiske",
+    "glossEn": "mental",
+    "irregularNote": "Adjectives ending in -isk never take -t — \"et psykisk problem\", never \"et psykiskt problem\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-kompetent",
+    "level": 4,
+    "base": "kompetent",
+    "tForm": "kompetent",
+    "eForm": "kompetente",
+    "glossEn": "competent",
+    "irregularNote": "\"Kompetent\" already ends in -t, so the et-form adds nothing — \"et kompetent team\" — while the -e form is \"kompetente\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-konkret",
+    "level": 4,
+    "base": "konkret",
+    "tForm": "konkret",
+    "eForm": "konkrete",
+    "glossEn": "concrete",
+    "irregularNote": "\"Konkret\" already ends in -t, so the et-form adds nothing — \"et konkret forslag\" — while the -e form is \"konkrete\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-motiveret",
+    "level": 4,
+    "base": "motiveret",
+    "tForm": "motiveret",
+    "eForm": "motiverede",
+    "glossEn": "motivated",
+    "irregularNote": "\"Motiveret\" is a past participle in -et: the et-form stays \"et motiveret team\", and the plural/definite form is \"motiverede\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-kvalificeret",
+    "level": 4,
+    "base": "kvalificeret",
+    "tForm": "kvalificeret",
+    "eForm": "kvalificerede",
+    "glossEn": "qualified",
+    "irregularNote": "\"Kvalificeret\" is a past participle in -et: the et-form stays \"et kvalificeret svar\", and the plural/definite form is \"kvalificerede\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-kompliceret",
+    "level": 4,
+    "base": "kompliceret",
+    "tForm": "kompliceret",
+    "eForm": "komplicerede",
+    "glossEn": "complicated",
+    "irregularNote": "\"Kompliceret\" is a past participle in -et: the et-form stays \"et kompliceret system\", and the plural/definite form is \"komplicerede\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-forurenet",
+    "level": 4,
+    "base": "forurenet",
+    "tForm": "forurenet",
+    "eForm": "forurenede",
+    "glossEn": "polluted",
+    "irregularNote": "\"Forurenet\" is a past participle in -et: the et-form stays \"et forurenet område\", and the plural/definite form is \"forurenede\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-gennemsigtig",
+    "level": 5,
+    "base": "gennemsigtig",
+    "tForm": "gennemsigtigt",
+    "eForm": "gennemsigtige",
+    "glossEn": "transparent",
+    "reviewed": false
+  },
+  {
+    "id": "a-mangfoldig",
+    "level": 5,
+    "base": "mangfoldig",
+    "tForm": "mangfoldigt",
+    "eForm": "mangfoldige",
+    "glossEn": "diverse",
+    "reviewed": false
+  },
+  {
+    "id": "a-ensidig",
+    "level": 5,
+    "base": "ensidig",
+    "tForm": "ensidigt",
+    "eForm": "ensidige",
+    "glossEn": "one-sided",
+    "reviewed": false
+  },
+  {
+    "id": "a-videnskabelig",
+    "level": 5,
+    "base": "videnskabelig",
+    "tForm": "videnskabeligt",
+    "eForm": "videnskabelige",
+    "glossEn": "scientific",
+    "reviewed": false
+  },
+  {
+    "id": "a-utilstraekkelig",
+    "level": 5,
+    "base": "utilstrækkelig",
+    "tForm": "utilstrækkeligt",
+    "eForm": "utilstrækkelige",
+    "glossEn": "inadequate",
+    "reviewed": false
+  },
+  {
+    "id": "a-overflodig",
+    "level": 5,
+    "base": "overflødig",
+    "tForm": "overflødigt",
+    "eForm": "overflødige",
+    "glossEn": "superfluous",
+    "reviewed": false
+  },
+  {
+    "id": "a-uundgaelig",
+    "level": 5,
+    "base": "uundgåelig",
+    "tForm": "uundgåeligt",
+    "eForm": "uundgåelige",
+    "glossEn": "inevitable",
+    "reviewed": false
+  },
+  {
+    "id": "a-bemaerkelsesvaerdig",
+    "level": 5,
+    "base": "bemærkelsesværdig",
+    "tForm": "bemærkelsesværdigt",
+    "eForm": "bemærkelsesværdige",
+    "glossEn": "remarkable",
+    "reviewed": false
+  },
+  {
+    "id": "a-hensynslos",
+    "level": 5,
+    "base": "hensynsløs",
+    "tForm": "hensynsløst",
+    "eForm": "hensynsløse",
+    "glossEn": "ruthless, inconsiderate",
+    "reviewed": false
+  },
+  {
+    "id": "a-ressourcestaerk",
+    "level": 5,
+    "base": "ressourcestærk",
+    "tForm": "ressourcestærkt",
+    "eForm": "ressourcestærke",
+    "glossEn": "well-resourced",
+    "reviewed": false
+  },
+  {
+    "id": "a-ressourcesvag",
+    "level": 5,
+    "base": "ressourcesvag",
+    "tForm": "ressourcesvagt",
+    "eForm": "ressourcesvage",
+    "glossEn": "disadvantaged",
+    "reviewed": false
+  },
+  {
+    "id": "a-multikulturel",
+    "level": 5,
+    "base": "multikulturel",
+    "tForm": "multikulturelt",
+    "eForm": "multikulturele",
+    "glossEn": "multicultural",
+    "reviewed": false
+  },
+  {
+    "id": "a-essentiel",
+    "level": 5,
+    "base": "essentiel",
+    "tForm": "essentielt",
+    "eForm": "essentiele",
+    "glossEn": "essential",
+    "reviewed": false
+  },
+  {
+    "id": "a-potentiel",
+    "level": 5,
+    "base": "potentiel",
+    "tForm": "potentielt",
+    "eForm": "potentiele",
+    "glossEn": "potential",
+    "reviewed": false
+  },
+  {
+    "id": "a-kompleks",
+    "level": 5,
+    "base": "kompleks",
+    "tForm": "komplekst",
+    "eForm": "komplekse",
+    "glossEn": "complex",
+    "reviewed": false
+  },
+  {
+    "id": "a-solidarisk",
+    "level": 5,
+    "base": "solidarisk",
+    "tForm": "solidarisk",
+    "eForm": "solidariske",
+    "glossEn": "showing solidarity",
+    "irregularNote": "Adjectives ending in -isk never take -t — \"et solidarisk fællesskab\", never \"et solidariskt fællesskab\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-strategisk",
+    "level": 5,
+    "base": "strategisk",
+    "tForm": "strategisk",
+    "eForm": "strategiske",
+    "glossEn": "strategic",
+    "irregularNote": "Adjectives ending in -isk never take -t — \"et strategisk valg\", never \"et strategiskt valg\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-obligatorisk",
+    "level": 5,
+    "base": "obligatorisk",
+    "tForm": "obligatorisk",
+    "eForm": "obligatoriske",
+    "glossEn": "compulsory",
+    "irregularNote": "Adjectives ending in -isk never take -t — \"et obligatorisk kursus\", never \"et obligatoriskt kursus\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-systematisk",
+    "level": 5,
+    "base": "systematisk",
+    "tForm": "systematisk",
+    "eForm": "systematiske",
+    "glossEn": "systematic",
+    "irregularNote": "Adjectives ending in -isk never take -t — \"et systematisk arbejde\", never \"et systematiskt arbejde\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-markant",
+    "level": 5,
+    "base": "markant",
+    "tForm": "markant",
+    "eForm": "markante",
+    "glossEn": "marked, distinct",
+    "irregularNote": "\"Markant\" already ends in -t, so the et-form adds nothing — \"et markant fald\" — while the -e form is \"markante\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-abstrakt",
+    "level": 5,
+    "base": "abstrakt",
+    "tForm": "abstrakt",
+    "eForm": "abstrakte",
+    "glossEn": "abstract",
+    "irregularNote": "\"Abstrakt\" already ends in -t, so the et-form adds nothing — \"et abstrakt begreb\" — while the -e form is \"abstrakte\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-korrupt",
+    "level": 5,
+    "base": "korrupt",
+    "tForm": "korrupt",
+    "eForm": "korrupte",
+    "glossEn": "corrupt",
+    "irregularNote": "\"Korrupt\" already ends in -t, so the et-form adds nothing — \"et korrupt system\" — while the -e form is \"korrupte\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-udsat",
+    "level": 5,
+    "base": "udsat",
+    "tForm": "udsat",
+    "eForm": "udsatte",
+    "glossEn": "vulnerable, exposed",
+    "irregularNote": "\"Udsat\" already ends in -t, so the et-form adds nothing — \"et udsat boligområde\" — while the -e form is \"udsatte\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-udbredt",
+    "level": 5,
+    "base": "udbredt",
+    "tForm": "udbredt",
+    "eForm": "udbredte",
+    "glossEn": "widespread",
+    "irregularNote": "\"Udbredt\" already ends in -t, so the et-form adds nothing — \"et udbredt problem\" — while the -e form is \"udbredte\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-omdiskuteret",
+    "level": 5,
+    "base": "omdiskuteret",
+    "tForm": "omdiskuteret",
+    "eForm": "omdiskuterede",
+    "glossEn": "much-debated",
+    "irregularNote": "\"Omdiskuteret\" is a past participle in -et: the et-form stays \"et omdiskuteret emne\", and the plural/definite form is \"omdiskuterede\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-nuanceret",
+    "level": 5,
+    "base": "nuanceret",
+    "tForm": "nuanceret",
+    "eForm": "nuancerede",
+    "glossEn": "nuanced",
+    "irregularNote": "\"Nuanceret\" is a past participle in -et: the et-form stays \"et nuanceret billede\", and the plural/definite form is \"nuancerede\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-foraeldet",
+    "level": 5,
+    "base": "forældet",
+    "tForm": "forældet",
+    "eForm": "forældede",
+    "glossEn": "outdated",
+    "irregularNote": "\"Forældet\" is a past participle in -et: the et-form stays \"et forældet system\", and the plural/definite form is \"forældede\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-integreret",
+    "level": 5,
+    "base": "integreret",
+    "tForm": "integreret",
+    "eForm": "integrerede",
+    "glossEn": "integrated",
+    "irregularNote": "\"Integreret\" is a past participle in -et: the et-form stays \"et integreret samfund\", and the plural/definite form is \"integrerede\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-tilstraekkelig",
+    "level": 5,
+    "base": "tilstrækkelig",
+    "tForm": "tilstrækkeligt",
+    "eForm": "tilstrækkelige",
+    "glossEn": "sufficient",
+    "reviewed": false
+  },
+  {
+    "id": "a-skrobelig",
+    "level": 5,
+    "base": "skrøbelig",
+    "tForm": "skrøbeligt",
+    "eForm": "skrøbelige",
+    "glossEn": "fragile",
+    "reviewed": false
+  },
+  {
+    "id": "a-abenlys",
+    "level": 5,
+    "base": "åbenlys",
+    "tForm": "åbenlyst",
+    "eForm": "åbenlyse",
+    "glossEn": "obvious",
+    "reviewed": false
+  },
+  {
+    "id": "a-respektfuld",
+    "level": 5,
+    "base": "respektfuld",
+    "tForm": "respektfuldt",
+    "eForm": "respektfulde",
+    "glossEn": "respectful",
+    "reviewed": false
+  },
+  {
+    "id": "a-frustreret",
+    "level": 5,
+    "base": "frustreret",
+    "tForm": "frustreret",
+    "eForm": "frustrerede",
+    "glossEn": "frustrated",
+    "irregularNote": "\"Frustreret\" is a past participle in -et: the et-form stays \"et frustreret publikum\", and the plural/definite form is \"frustrerede\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-privilegeret",
+    "level": 5,
+    "base": "privilegeret",
+    "tForm": "privilegeret",
+    "eForm": "privilegerede",
+    "glossEn": "privileged",
+    "irregularNote": "\"Privilegeret\" is a past participle in -et: the et-form stays \"et privilegeret liv\", and the plural/definite form is \"privilegerede\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-marginaliseret",
+    "level": 5,
+    "base": "marginaliseret",
+    "tForm": "marginaliseret",
+    "eForm": "marginaliserede",
+    "glossEn": "marginalised",
+    "irregularNote": "\"Marginaliseret\" is a past participle in -et: the et-form stays \"et marginaliseret miljø\", and the plural/definite form is \"marginaliserede\".",
+    "reviewed": false
+  },
+  {
+    "id": "a-desperat",
+    "level": 5,
+    "base": "desperat",
+    "tForm": "desperat",
+    "eForm": "desperate",
+    "glossEn": "desperate",
+    "irregularNote": "\"Desperat\" already ends in -t, so the et-form adds nothing — \"et desperat forsøg\" — while the -e form is \"desperate\".",
+    "reviewed": false
+  }
+]

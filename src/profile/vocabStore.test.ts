@@ -67,3 +67,23 @@ describe('nextWord', () => {
     expect(hits / runs).toBeGreaterThan(0.5);
   });
 });
+
+describe('the deck follows the niveau', () => {
+  it('serves no word above the learner’s niveau', () => {
+    for (let i = 0; i < 40; i++) expect(nextWord({}, undefined, NOW, 1).level).toBe(1);
+  });
+
+  it('counts words up to the niveau, plus any already practised above it', () => {
+    const hard = VOCABULARY.find((v) => v.level === 5)!;
+    const atOne = vocabProgress({}, NOW, 1);
+    expect(atOne.every((p) => VOCABULARY.find((v) => v.id === p.id)!.level === 1)).toBe(true);
+
+    const practised = { attempts: 2, correct: 2, recent: [true, true], lastSeen: NOW, raw: 0.6 };
+    expect(vocabProgress({ [hard.id]: practised }, NOW, 1).map((p) => p.id)).toContain(hard.id);
+  });
+
+  it('includes every word the grammar trainers use', () => {
+    expect(VOCABULARY.some((v) => v.id === 'w-n-bil' && v.forms === 'en bil · bilen')).toBe(true);
+    expect(VOCABULARY.some((v) => v.id === 'w-v-gå' && v.word === 'at gå')).toBe(true);
+  });
+});

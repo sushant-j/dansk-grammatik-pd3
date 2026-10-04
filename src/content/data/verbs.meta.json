@@ -1,0 +1,2522 @@
+{
+ "v-acceptere": {
+  "level": 3,
+  "glossEn": "to accept",
+  "reviewed": false
+ },
+ "v-adskille": {
+  "level": 5,
+  "glossEn": "to separate",
+  "reviewed": false
+ },
+ "v-advare": {
+  "level": 3,
+  "glossEn": "to warn",
+  "reviewed": false
+ },
+ "v-afbryde": {
+  "level": 3,
+  "glossEn": "to interrupt",
+  "reviewed": false
+ },
+ "v-afgive": {
+  "level": 5,
+  "glossEn": "to give off, to hand in",
+  "reviewed": false
+ },
+ "v-afgøre": {
+  "level": 5,
+  "glossEn": "to decide, to settle",
+  "reviewed": false
+ },
+ "v-aflevere": {
+  "level": 3,
+  "glossEn": "to hand in, to deliver",
+  "reviewed": false
+ },
+ "v-aflyse": {
+  "level": 3,
+  "glossEn": "to cancel",
+  "reviewed": false
+ },
+ "v-afløse": {
+  "level": 5,
+  "glossEn": "to replace, to relieve",
+  "reviewed": false
+ },
+ "v-afskaffe": {
+  "level": 5,
+  "glossEn": "to abolish",
+  "reviewed": false
+ },
+ "v-afslutte": {
+  "level": 3,
+  "glossEn": "to finish, to conclude",
+  "reviewed": false
+ },
+ "v-afvise": {
+  "level": 4,
+  "glossEn": "to reject, to turn down",
+  "reviewed": false
+ },
+ "v-anbefale": {
+  "level": 3,
+  "glossEn": "to recommend",
+  "reviewed": false
+ },
+ "v-anbringe": {
+  "level": 5,
+  "glossEn": "to place, to put",
+  "reviewed": false
+ },
+ "v-ane": {
+  "level": 4,
+  "glossEn": "to sense, to have an idea",
+  "reviewed": false
+ },
+ "v-anerkende": {
+  "level": 4,
+  "glossEn": "to recognize, to acknowledge",
+  "reviewed": false
+ },
+ "v-angive": {
+  "level": 5,
+  "glossEn": "to state, to indicate",
+  "reviewed": false
+ },
+ "v-angå": {
+  "level": 5,
+  "glossEn": "to concern",
+  "reviewed": false
+ },
+ "v-anholde": {
+  "level": 5,
+  "glossEn": "to arrest, to detain",
+  "reviewed": false
+ },
+ "v-ankomme": {
+  "level": 3,
+  "glossEn": "to arrive",
+  "reviewed": false
+ },
+ "v-anmelde": {
+  "level": 4,
+  "glossEn": "to report, to review",
+  "reviewed": false
+ },
+ "v-anse": {
+  "level": 5,
+  "glossEn": "to regard, to consider",
+  "reviewed": false
+ },
+ "v-ansætte": {
+  "level": 3,
+  "glossEn": "to employ, to hire",
+  "reviewed": false
+ },
+ "v-anvende": {
+  "level": 5,
+  "glossEn": "to use, to apply",
+  "reviewed": false
+ },
+ "v-arbejde": {
+  "level": 1,
+  "glossEn": "to work",
+  "reviewed": true
+ },
+ "v-arrangere": {
+  "level": 3,
+  "glossEn": "to arrange",
+  "reviewed": false
+ },
+ "v-arrestere": {
+  "level": 4,
+  "glossEn": "to arrest",
+  "reviewed": false
+ },
+ "v-bage": {
+  "level": 2,
+  "glossEn": "to bake",
+  "reviewed": false
+ },
+ "v-banke": {
+  "level": 2,
+  "glossEn": "to knock, to beat",
+  "reviewed": false
+ },
+ "v-bede": {
+  "level": 2,
+  "glossEn": "to ask, to pray",
+  "reviewed": false
+ },
+ "v-befinde": {
+  "level": 5,
+  "glossEn": "to be (situated)",
+  "reviewed": false
+ },
+ "v-begrave": {
+  "level": 4,
+  "glossEn": "to bury",
+  "reviewed": false
+ },
+ "v-begrænse": {
+  "level": 4,
+  "glossEn": "to limit, to restrict",
+  "reviewed": false
+ },
+ "v-begynde": {
+  "level": 1,
+  "glossEn": "to begin, to start",
+  "reviewed": false
+ },
+ "v-begå": {
+  "level": 5,
+  "glossEn": "to commit",
+  "reviewed": false
+ },
+ "v-behandle": {
+  "level": 3,
+  "glossEn": "to treat, to handle",
+  "reviewed": false
+ },
+ "v-beholde": {
+  "level": 3,
+  "glossEn": "to keep",
+  "reviewed": false
+ },
+ "v-behøve": {
+  "level": 2,
+  "glossEn": "to need",
+  "reviewed": false
+ },
+ "v-beklage": {
+  "level": 4,
+  "glossEn": "to regret, to complain",
+  "reviewed": false
+ },
+ "v-bekræfte": {
+  "level": 4,
+  "glossEn": "to confirm",
+  "reviewed": false
+ },
+ "v-bemærke": {
+  "level": 4,
+  "glossEn": "to notice, to remark",
+  "reviewed": false
+ },
+ "v-benytte": {
+  "level": 5,
+  "glossEn": "to use, to make use of",
+  "reviewed": false
+ },
+ "v-beskrive": {
+  "level": 3,
+  "glossEn": "to describe",
+  "reviewed": false
+ },
+ "v-beslutte": {
+  "level": 3,
+  "glossEn": "to decide",
+  "reviewed": false
+ },
+ "v-bestemme": {
+  "level": 2,
+  "glossEn": "to decide, to determine",
+  "reviewed": false
+ },
+ "v-bestille": {
+  "level": 2,
+  "glossEn": "to order, to book",
+  "reviewed": false
+ },
+ "v-bestå": {
+  "level": 4,
+  "glossEn": "to pass (a test), to consist",
+  "reviewed": false
+ },
+ "v-besætte": {
+  "level": 5,
+  "glossEn": "to occupy, to fill (a post)",
+  "reviewed": false
+ },
+ "v-besøge": {
+  "level": 2,
+  "glossEn": "to visit",
+  "reviewed": false
+ },
+ "v-betale": {
+  "level": 2,
+  "glossEn": "to pay",
+  "reviewed": true
+ },
+ "v-betyde": {
+  "level": 1,
+  "glossEn": "to mean",
+  "reviewed": false
+ },
+ "v-bevare": {
+  "level": 4,
+  "glossEn": "to preserve, to keep",
+  "reviewed": false
+ },
+ "v-bevise": {
+  "level": 4,
+  "glossEn": "to prove",
+  "reviewed": false
+ },
+ "v-bevæge-sig": {
+  "level": 3,
+  "glossEn": "to move (oneself)",
+  "reviewed": false
+ },
+ "v-bide": {
+  "level": 2,
+  "glossEn": "to bite",
+  "reviewed": false
+ },
+ "v-bidrage": {
+  "level": 4,
+  "glossEn": "to contribute",
+  "reviewed": false
+ },
+ "v-binde": {
+  "level": 3,
+  "glossEn": "to tie, to bind",
+  "reviewed": false
+ },
+ "v-blande": {
+  "level": 3,
+  "glossEn": "to mix",
+  "reviewed": false
+ },
+ "v-blive": {
+  "level": 2,
+  "glossEn": "to become, to stay",
+  "reviewed": true
+ },
+ "v-blæse": {
+  "level": 2,
+  "glossEn": "to blow",
+  "reviewed": false
+ },
+ "v-bo": {
+  "level": 1,
+  "glossEn": "to live, to reside",
+  "reviewed": false
+ },
+ "v-brede-sig": {
+  "level": 5,
+  "glossEn": "to spread (oneself)",
+  "reviewed": false
+ },
+ "v-bringe": {
+  "level": 3,
+  "glossEn": "to bring",
+  "reviewed": false
+ },
+ "v-bruge": {
+  "level": 1,
+  "glossEn": "to use, to spend",
+  "reviewed": false
+ },
+ "v-bryde": {
+  "level": 4,
+  "glossEn": "to break",
+  "reviewed": false
+ },
+ "v-bygge": {
+  "level": 2,
+  "glossEn": "to build",
+  "reviewed": false
+ },
+ "v-bytte": {
+  "level": 2,
+  "glossEn": "to exchange, to swap",
+  "reviewed": false
+ },
+ "v-bære": {
+  "level": 2,
+  "glossEn": "to carry, to wear",
+  "reviewed": false
+ },
+ "v-citere": {
+  "level": 5,
+  "glossEn": "to quote",
+  "reviewed": false
+ },
+ "v-danne": {
+  "level": 5,
+  "glossEn": "to form",
+  "reviewed": false
+ },
+ "v-danse": {
+  "level": 1,
+  "glossEn": "to dance",
+  "reviewed": false
+ },
+ "v-dele": {
+  "level": 2,
+  "glossEn": "to share, to divide",
+  "reviewed": false
+ },
+ "v-deltage": {
+  "level": 3,
+  "glossEn": "to participate, to take part",
+  "reviewed": false
+ },
+ "v-diskutere": {
+  "level": 3,
+  "glossEn": "to discuss",
+  "reviewed": false
+ },
+ "v-dominere": {
+  "level": 5,
+  "glossEn": "to dominate",
+  "reviewed": false
+ },
+ "v-drage": {
+  "level": 5,
+  "glossEn": "to draw (conclusions), to journey",
+  "reviewed": false
+ },
+ "v-dreje": {
+  "level": 2,
+  "glossEn": "to turn",
+  "reviewed": false
+ },
+ "v-drikke": {
+  "level": 1,
+  "glossEn": "to drink",
+  "reviewed": true
+ },
+ "v-drive": {
+  "level": 4,
+  "glossEn": "to drift, to run (a business)",
+  "reviewed": false
+ },
+ "v-dræbe": {
+  "level": 4,
+  "glossEn": "to kill",
+  "reviewed": false
+ },
+ "v-drøfte": {
+  "level": 5,
+  "glossEn": "to discuss, to debate",
+  "reviewed": false
+ },
+ "v-drømme": {
+  "level": 2,
+  "glossEn": "to dream",
+  "reviewed": false
+ },
+ "v-dukke-op": {
+  "level": 3,
+  "glossEn": "to turn up, to appear",
+  "reviewed": false
+ },
+ "v-dække": {
+  "level": 3,
+  "glossEn": "to cover, to set (the table)",
+  "reviewed": false
+ },
+ "v-dø": {
+  "level": 2,
+  "glossEn": "to die",
+  "reviewed": false
+ },
+ "v-efterlade": {
+  "level": 5,
+  "glossEn": "to leave behind",
+  "reviewed": false
+ },
+ "v-eje": {
+  "level": 3,
+  "glossEn": "to own",
+  "reviewed": false
+ },
+ "v-eksistere": {
+  "level": 4,
+  "glossEn": "to exist",
+  "reviewed": false
+ },
+ "v-elske": {
+  "level": 2,
+  "glossEn": "to love",
+  "reviewed": true
+ },
+ "v-ende": {
+  "level": 3,
+  "glossEn": "to end",
+  "reviewed": false
+ },
+ "v-erkende": {
+  "level": 5,
+  "glossEn": "to acknowledge, to admit",
+  "reviewed": false
+ },
+ "v-erstatte": {
+  "level": 4,
+  "glossEn": "to replace, to compensate",
+  "reviewed": false
+ },
+ "v-falde": {
+  "level": 3,
+  "glossEn": "to fall",
+  "reviewed": true
+ },
+ "v-fange": {
+  "level": 2,
+  "glossEn": "to catch",
+  "reviewed": false
+ },
+ "v-fastholde": {
+  "level": 5,
+  "glossEn": "to maintain, to hold on to",
+  "reviewed": false
+ },
+ "v-fastslå": {
+  "level": 5,
+  "glossEn": "to establish, to state",
+  "reviewed": false
+ },
+ "v-fastsætte": {
+  "level": 5,
+  "glossEn": "to fix, to set (a date or price)",
+  "reviewed": false
+ },
+ "v-fatte": {
+  "level": 5,
+  "glossEn": "to grasp, to comprehend",
+  "reviewed": false
+ },
+ "v-fejre": {
+  "level": 2,
+  "glossEn": "to celebrate",
+  "reviewed": false
+ },
+ "v-finde": {
+  "level": 2,
+  "glossEn": "to find",
+  "reviewed": true
+ },
+ "v-fjerne": {
+  "level": 3,
+  "glossEn": "to remove",
+  "reviewed": false
+ },
+ "v-flygte": {
+  "level": 3,
+  "glossEn": "to flee, to escape",
+  "reviewed": false
+ },
+ "v-flytte": {
+  "level": 1,
+  "glossEn": "to move (house)",
+  "reviewed": false
+ },
+ "v-flyve": {
+  "level": 2,
+  "glossEn": "to fly",
+  "reviewed": false
+ },
+ "v-fodre": {
+  "level": 3,
+  "glossEn": "to feed (animals)",
+  "reviewed": false
+ },
+ "v-forbedre": {
+  "level": 3,
+  "glossEn": "to improve",
+  "reviewed": false
+ },
+ "v-forberede": {
+  "level": 3,
+  "glossEn": "to prepare",
+  "reviewed": false
+ },
+ "v-forbinde": {
+  "level": 4,
+  "glossEn": "to connect, to associate",
+  "reviewed": false
+ },
+ "v-forblive": {
+  "level": 5,
+  "glossEn": "to remain",
+  "reviewed": false
+ },
+ "v-fordele": {
+  "level": 5,
+  "glossEn": "to distribute",
+  "reviewed": false
+ },
+ "v-foregå": {
+  "level": 4,
+  "glossEn": "to take place, to happen",
+  "reviewed": false
+ },
+ "v-forekomme": {
+  "level": 5,
+  "glossEn": "to occur, to seem",
+  "reviewed": false
+ },
+ "v-forelske-sig": {
+  "level": 3,
+  "glossEn": "to fall in love",
+  "reviewed": false
+ },
+ "v-forene": {
+  "level": 5,
+  "glossEn": "to unite",
+  "reviewed": false
+ },
+ "v-foreslå": {
+  "level": 3,
+  "glossEn": "to suggest, to propose",
+  "reviewed": false
+ },
+ "v-forestille-sig": {
+  "level": 4,
+  "glossEn": "to imagine",
+  "reviewed": false
+ },
+ "v-foretage-sig": {
+  "level": 5,
+  "glossEn": "to do, to be up to",
+  "reviewed": false
+ },
+ "v-foretrække": {
+  "level": 3,
+  "glossEn": "to prefer",
+  "reviewed": false
+ },
+ "v-forhandle": {
+  "level": 4,
+  "glossEn": "to negotiate",
+  "reviewed": false
+ },
+ "v-forhindre": {
+  "level": 4,
+  "glossEn": "to prevent",
+  "reviewed": false
+ },
+ "v-forholde-sig": {
+  "level": 5,
+  "glossEn": "to relate (to), to deal with",
+  "reviewed": false
+ },
+ "v-forklare": {
+  "level": 2,
+  "glossEn": "to explain",
+  "reviewed": false
+ },
+ "v-forlade": {
+  "level": 3,
+  "glossEn": "to leave",
+  "reviewed": false
+ },
+ "v-forlange": {
+  "level": 4,
+  "glossEn": "to demand",
+  "reviewed": false
+ },
+ "v-formulere": {
+  "level": 4,
+  "glossEn": "to formulate, to word",
+  "reviewed": false
+ },
+ "v-forsinke": {
+  "level": 3,
+  "glossEn": "to delay",
+  "reviewed": false
+ },
+ "v-forstå": {
+  "level": 1,
+  "glossEn": "to understand",
+  "reviewed": false
+ },
+ "v-forsvare": {
+  "level": 4,
+  "glossEn": "to defend",
+  "reviewed": false
+ },
+ "v-forsvinde": {
+  "level": 3,
+  "glossEn": "to disappear",
+  "reviewed": false
+ },
+ "v-forsøge": {
+  "level": 3,
+  "glossEn": "to try, to attempt",
+  "reviewed": false
+ },
+ "v-fortjene": {
+  "level": 4,
+  "glossEn": "to deserve",
+  "reviewed": false
+ },
+ "v-fortsætte": {
+  "level": 3,
+  "glossEn": "to continue",
+  "reviewed": false
+ },
+ "v-fortælle": {
+  "level": 1,
+  "glossEn": "to tell",
+  "reviewed": false
+ },
+ "v-forudsætte": {
+  "level": 4,
+  "glossEn": "to presuppose, to assume",
+  "reviewed": false
+ },
+ "v-forvandle": {
+  "level": 5,
+  "glossEn": "to transform",
+  "reviewed": false
+ },
+ "v-forvente": {
+  "level": 3,
+  "glossEn": "to expect",
+  "reviewed": false
+ },
+ "v-fremgå": {
+  "level": 5,
+  "glossEn": "to be evident, to appear",
+  "reviewed": false
+ },
+ "v-fremhæve": {
+  "level": 5,
+  "glossEn": "to emphasize, to highlight",
+  "reviewed": false
+ },
+ "v-fremlægge": {
+  "level": 5,
+  "glossEn": "to present",
+  "reviewed": false
+ },
+ "v-fremstille": {
+  "level": 5,
+  "glossEn": "to produce, to portray",
+  "reviewed": false
+ },
+ "v-fremsætte": {
+  "level": 5,
+  "glossEn": "to put forward",
+  "reviewed": false
+ },
+ "v-friste": {
+  "level": 4,
+  "glossEn": "to tempt",
+  "reviewed": false
+ },
+ "v-frygte": {
+  "level": 4,
+  "glossEn": "to fear",
+  "reviewed": false
+ },
+ "v-fungere": {
+  "level": 3,
+  "glossEn": "to function, to work",
+  "reviewed": false
+ },
+ "v-fylde": {
+  "level": 3,
+  "glossEn": "to fill",
+  "reviewed": false
+ },
+ "v-fyre": {
+  "level": 3,
+  "glossEn": "to fire (dismiss)",
+  "reviewed": false
+ },
+ "v-føde": {
+  "level": 3,
+  "glossEn": "to give birth",
+  "reviewed": false
+ },
+ "v-føle": {
+  "level": 2,
+  "glossEn": "to feel",
+  "reviewed": false
+ },
+ "v-følge": {
+  "level": 2,
+  "glossEn": "to follow",
+  "reviewed": false
+ },
+ "v-føre": {
+  "level": 4,
+  "glossEn": "to lead, to conduct",
+  "reviewed": false
+ },
+ "v-få": {
+  "level": 2,
+  "glossEn": "to get, to receive",
+  "reviewed": true
+ },
+ "v-gemme": {
+  "level": 2,
+  "glossEn": "to hide, to save",
+  "reviewed": false
+ },
+ "v-genere": {
+  "level": 3,
+  "glossEn": "to bother",
+  "reviewed": false
+ },
+ "v-gennemføre": {
+  "level": 4,
+  "glossEn": "to carry out, to complete",
+  "reviewed": false
+ },
+ "v-gennemgå": {
+  "level": 4,
+  "glossEn": "to go through, to review",
+  "reviewed": false
+ },
+ "v-gentage": {
+  "level": 3,
+  "glossEn": "to repeat",
+  "reviewed": false
+ },
+ "v-gide": {
+  "level": 3,
+  "glossEn": "to bother to, to feel like",
+  "reviewed": false
+ },
+ "v-gifte-sig": {
+  "level": 2,
+  "glossEn": "to get married",
+  "reviewed": false
+ },
+ "v-give": {
+  "level": 2,
+  "glossEn": "to give",
+  "reviewed": true
+ },
+ "v-glemme": {
+  "level": 1,
+  "glossEn": "to forget",
+  "reviewed": false
+ },
+ "v-glide": {
+  "level": 4,
+  "glossEn": "to slide, to slip",
+  "reviewed": false
+ },
+ "v-glæde-sig": {
+  "level": 2,
+  "glossEn": "to look forward to",
+  "reviewed": false
+ },
+ "v-godkende": {
+  "level": 3,
+  "glossEn": "to approve",
+  "reviewed": false
+ },
+ "v-gribe": {
+  "level": 4,
+  "glossEn": "to catch, to grab",
+  "reviewed": false
+ },
+ "v-grine": {
+  "level": 1,
+  "glossEn": "to laugh",
+  "reviewed": false
+ },
+ "v-græde": {
+  "level": 2,
+  "glossEn": "to cry",
+  "reviewed": false
+ },
+ "v-gå": {
+  "level": 1,
+  "glossEn": "to go, to walk",
+  "reviewed": true
+ },
+ "v-hade": {
+  "level": 2,
+  "glossEn": "to hate",
+  "reviewed": false
+ },
+ "v-handle": {
+  "level": 2,
+  "glossEn": "to shop, to act",
+  "reviewed": false
+ },
+ "v-have": {
+  "level": 1,
+  "glossEn": "to have",
+  "reviewed": false
+ },
+ "v-hedde": {
+  "level": 1,
+  "glossEn": "to be called",
+  "reviewed": false
+ },
+ "v-hente": {
+  "level": 1,
+  "glossEn": "to fetch, to pick up",
+  "reviewed": false
+ },
+ "v-henvende-sig": {
+  "level": 4,
+  "glossEn": "to contact, to approach",
+  "reviewed": false
+ },
+ "v-henvise": {
+  "level": 4,
+  "glossEn": "to refer",
+  "reviewed": false
+ },
+ "v-herske": {
+  "level": 5,
+  "glossEn": "to rule, to prevail",
+  "reviewed": false
+ },
+ "v-hilse": {
+  "level": 2,
+  "glossEn": "to greet, to say hello",
+  "reviewed": false
+ },
+ "v-hindre": {
+  "level": 5,
+  "glossEn": "to prevent, to hinder",
+  "reviewed": false
+ },
+ "v-hjælpe": {
+  "level": 1,
+  "glossEn": "to help",
+  "reviewed": false
+ },
+ "v-holde": {
+  "level": 2,
+  "glossEn": "to hold, to keep",
+  "reviewed": false
+ },
+ "v-hoppe": {
+  "level": 2,
+  "glossEn": "to jump",
+  "reviewed": false
+ },
+ "v-huske": {
+  "level": 2,
+  "glossEn": "to remember",
+  "reviewed": true
+ },
+ "v-hvile-sig": {
+  "level": 2,
+  "glossEn": "to rest",
+  "reviewed": false
+ },
+ "v-hviske": {
+  "level": 3,
+  "glossEn": "to whisper",
+  "reviewed": false
+ },
+ "v-hælde": {
+  "level": 3,
+  "glossEn": "to pour",
+  "reviewed": false
+ },
+ "v-hænge-tr": {
+  "level": 2,
+  "glossEn": "to hang (something up)",
+  "reviewed": false
+ },
+ "v-hænge-intr": {
+  "level": 2,
+  "glossEn": "to hang (be hanging)",
+  "reviewed": false
+ },
+ "v-hævde": {
+  "level": 5,
+  "glossEn": "to claim, to assert",
+  "reviewed": false
+ },
+ "v-hæve": {
+  "level": 4,
+  "glossEn": "to raise, to withdraw (money)",
+  "reviewed": false
+ },
+ "v-høre": {
+  "level": 2,
+  "glossEn": "to hear",
+  "reviewed": true
+ },
+ "v-håbe": {
+  "level": 2,
+  "glossEn": "to hope",
+  "reviewed": false
+ },
+ "v-inddrage": {
+  "level": 5,
+  "glossEn": "to involve, to include",
+  "reviewed": false
+ },
+ "v-indebære": {
+  "level": 5,
+  "glossEn": "to involve, to imply",
+  "reviewed": false
+ },
+ "v-indeholde": {
+  "level": 4,
+  "glossEn": "to contain",
+  "reviewed": false
+ },
+ "v-indføre": {
+  "level": 5,
+  "glossEn": "to introduce",
+  "reviewed": false
+ },
+ "v-indgå": {
+  "level": 5,
+  "glossEn": "to enter into, to form part of",
+  "reviewed": false
+ },
+ "v-indlede": {
+  "level": 5,
+  "glossEn": "to begin, to introduce",
+  "reviewed": false
+ },
+ "v-indrette": {
+  "level": 4,
+  "glossEn": "to furnish, to arrange",
+  "reviewed": false
+ },
+ "v-indrømme": {
+  "level": 4,
+  "glossEn": "to admit",
+  "reviewed": false
+ },
+ "v-indstille": {
+  "level": 5,
+  "glossEn": "to adjust, to suspend",
+  "reviewed": false
+ },
+ "v-indtage": {
+  "level": 5,
+  "glossEn": "to consume, to take (up)",
+  "reviewed": false
+ },
+ "v-installere": {
+  "level": 3,
+  "glossEn": "to install",
+  "reviewed": false
+ },
+ "v-inspirere": {
+  "level": 4,
+  "glossEn": "to inspire",
+  "reviewed": false
+ },
+ "v-interessere": {
+  "level": 3,
+  "glossEn": "to interest",
+  "reviewed": false
+ },
+ "v-investere": {
+  "level": 4,
+  "glossEn": "to invest",
+  "reviewed": false
+ },
+ "v-invitere": {
+  "level": 2,
+  "glossEn": "to invite",
+  "reviewed": false
+ },
+ "v-irritere": {
+  "level": 3,
+  "glossEn": "to irritate, to annoy",
+  "reviewed": false
+ },
+ "v-kalde": {
+  "level": 2,
+  "glossEn": "to call",
+  "reviewed": false
+ },
+ "v-kende": {
+  "level": 1,
+  "glossEn": "to know (be acquainted with)",
+  "reviewed": false
+ },
+ "v-kigge": {
+  "level": 1,
+  "glossEn": "to look",
+  "reviewed": false
+ },
+ "v-klare": {
+  "level": 2,
+  "glossEn": "to manage, to cope with",
+  "reviewed": false
+ },
+ "v-klippe": {
+  "level": 2,
+  "glossEn": "to cut",
+  "reviewed": false
+ },
+ "v-klæde": {
+  "level": 3,
+  "glossEn": "to dress, to suit",
+  "reviewed": false
+ },
+ "v-knuse": {
+  "level": 4,
+  "glossEn": "to crush, to smash",
+  "reviewed": false
+ },
+ "v-knytte": {
+  "level": 5,
+  "glossEn": "to tie, to link",
+  "reviewed": false
+ },
+ "v-koge": {
+  "level": 2,
+  "glossEn": "to boil, to cook",
+  "reviewed": false
+ },
+ "v-kombinere": {
+  "level": 4,
+  "glossEn": "to combine",
+  "reviewed": false
+ },
+ "v-komme": {
+  "level": 1,
+  "glossEn": "to come",
+  "reviewed": true
+ },
+ "v-kommentere": {
+  "level": 4,
+  "glossEn": "to comment on",
+  "reviewed": false
+ },
+ "v-koncentrere-sig": {
+  "level": 3,
+  "glossEn": "to concentrate",
+  "reviewed": false
+ },
+ "v-konstatere": {
+  "level": 5,
+  "glossEn": "to establish, to note",
+  "reviewed": false
+ },
+ "v-kontakte": {
+  "level": 3,
+  "glossEn": "to contact",
+  "reviewed": false
+ },
+ "v-kontrollere": {
+  "level": 4,
+  "glossEn": "to control, to check",
+  "reviewed": false
+ },
+ "v-koste": {
+  "level": 1,
+  "glossEn": "to cost",
+  "reviewed": false
+ },
+ "v-kritisere": {
+  "level": 4,
+  "glossEn": "to criticize",
+  "reviewed": false
+ },
+ "v-kræve": {
+  "level": 4,
+  "glossEn": "to demand, to require",
+  "reviewed": false
+ },
+ "v-kunne": {
+  "level": 1,
+  "glossEn": "to be able to",
+  "reviewed": false
+ },
+ "v-kunne-lide": {
+  "level": 1,
+  "glossEn": "to like",
+  "reviewed": false
+ },
+ "v-kysse": {
+  "level": 2,
+  "glossEn": "to kiss",
+  "reviewed": false
+ },
+ "v-kæmpe": {
+  "level": 3,
+  "glossEn": "to fight, to struggle",
+  "reviewed": false
+ },
+ "v-købe": {
+  "level": 1,
+  "glossEn": "to buy",
+  "reviewed": true
+ },
+ "v-køre": {
+  "level": 1,
+  "glossEn": "to drive",
+  "reviewed": false
+ },
+ "v-lade": {
+  "level": 3,
+  "glossEn": "to let, to load",
+  "reviewed": false
+ },
+ "v-lade-som-om": {
+  "level": 3,
+  "glossEn": "to pretend",
+  "reviewed": false
+ },
+ "v-lande": {
+  "level": 3,
+  "glossEn": "to land",
+  "reviewed": false
+ },
+ "v-lave": {
+  "level": 2,
+  "glossEn": "to make, to do",
+  "reviewed": true
+ },
+ "v-le": {
+  "level": 2,
+  "glossEn": "to laugh",
+  "reviewed": false
+ },
+ "v-lede": {
+  "level": 3,
+  "glossEn": "to lead, to look for",
+  "reviewed": false
+ },
+ "v-lege": {
+  "level": 1,
+  "glossEn": "to play",
+  "reviewed": false
+ },
+ "v-leje": {
+  "level": 2,
+  "glossEn": "to rent",
+  "reviewed": false
+ },
+ "v-lette": {
+  "level": 4,
+  "glossEn": "to take off, to ease",
+  "reviewed": false
+ },
+ "v-leve": {
+  "level": 1,
+  "glossEn": "to live",
+  "reviewed": false
+ },
+ "v-levere": {
+  "level": 3,
+  "glossEn": "to deliver",
+  "reviewed": false
+ },
+ "v-lide": {
+  "level": 4,
+  "glossEn": "to suffer",
+  "reviewed": false
+ },
+ "v-ligge-intr": {
+  "level": 1,
+  "glossEn": "to lie (be lying)",
+  "reviewed": false
+ },
+ "v-ligne": {
+  "level": 2,
+  "glossEn": "to look like, to resemble",
+  "reviewed": false
+ },
+ "v-lokke": {
+  "level": 5,
+  "glossEn": "to lure, to tempt",
+  "reviewed": false
+ },
+ "v-love": {
+  "level": 2,
+  "glossEn": "to promise",
+  "reviewed": false
+ },
+ "v-lyde": {
+  "level": 3,
+  "glossEn": "to sound",
+  "reviewed": false
+ },
+ "v-lykkes": {
+  "level": 4,
+  "glossEn": "to succeed",
+  "reviewed": false
+ },
+ "v-lyse": {
+  "level": 3,
+  "glossEn": "to shine",
+  "reviewed": false
+ },
+ "v-lytte": {
+  "level": 1,
+  "glossEn": "to listen",
+  "reviewed": false
+ },
+ "v-lægge-tr": {
+  "level": 1,
+  "glossEn": "to lay, to put",
+  "reviewed": false
+ },
+ "v-lære": {
+  "level": 1,
+  "glossEn": "to learn, to teach",
+  "reviewed": false
+ },
+ "v-læse": {
+  "level": 1,
+  "glossEn": "to read",
+  "reviewed": true
+ },
+ "v-løbe": {
+  "level": 1,
+  "glossEn": "to run",
+  "reviewed": false
+ },
+ "v-løfte": {
+  "level": 2,
+  "glossEn": "to lift",
+  "reviewed": false
+ },
+ "v-løse": {
+  "level": 3,
+  "glossEn": "to solve",
+  "reviewed": false
+ },
+ "v-låne": {
+  "level": 2,
+  "glossEn": "to borrow, to lend",
+  "reviewed": false
+ },
+ "v-male": {
+  "level": 2,
+  "glossEn": "to paint",
+  "reviewed": false
+ },
+ "v-mangle": {
+  "level": 2,
+  "glossEn": "to lack, to be missing",
+  "reviewed": false
+ },
+ "v-meddele": {
+  "level": 5,
+  "glossEn": "to announce, to inform",
+  "reviewed": false
+ },
+ "v-medføre": {
+  "level": 5,
+  "glossEn": "to result in, to lead to",
+  "reviewed": false
+ },
+ "v-medvirke": {
+  "level": 5,
+  "glossEn": "to take part, to contribute",
+  "reviewed": false
+ },
+ "v-melde": {
+  "level": 3,
+  "glossEn": "to report, to sign up",
+  "reviewed": false
+ },
+ "v-mene": {
+  "level": 2,
+  "glossEn": "to think, to mean",
+  "reviewed": false
+ },
+ "v-minde": {
+  "level": 3,
+  "glossEn": "to remind",
+  "reviewed": false
+ },
+ "v-miste": {
+  "level": 2,
+  "glossEn": "to lose",
+  "reviewed": false
+ },
+ "v-modtage": {
+  "level": 3,
+  "glossEn": "to receive",
+  "reviewed": false
+ },
+ "v-myrde": {
+  "level": 4,
+  "glossEn": "to murder",
+  "reviewed": false
+ },
+ "v-mærke": {
+  "level": 3,
+  "glossEn": "to feel, to notice",
+  "reviewed": false
+ },
+ "v-møde": {
+  "level": 1,
+  "glossEn": "to meet",
+  "reviewed": false
+ },
+ "v-mødes": {
+  "level": 2,
+  "glossEn": "to meet (each other)",
+  "reviewed": false
+ },
+ "v-måle": {
+  "level": 3,
+  "glossEn": "to measure",
+  "reviewed": false
+ },
+ "v-måtte": {
+  "level": 1,
+  "glossEn": "to be allowed to, to have to",
+  "reviewed": false
+ },
+ "v-nedlægge": {
+  "level": 5,
+  "glossEn": "to close down, to abolish",
+  "reviewed": false
+ },
+ "v-nedsætte": {
+  "level": 5,
+  "glossEn": "to reduce, to set up",
+  "reviewed": false
+ },
+ "v-nikke": {
+  "level": 3,
+  "glossEn": "to nod",
+  "reviewed": false
+ },
+ "v-notere": {
+  "level": 4,
+  "glossEn": "to note, to write down",
+  "reviewed": false
+ },
+ "v-nyde": {
+  "level": 3,
+  "glossEn": "to enjoy",
+  "reviewed": false
+ },
+ "v-nægte": {
+  "level": 4,
+  "glossEn": "to refuse, to deny",
+  "reviewed": false
+ },
+ "v-nærme-sig": {
+  "level": 4,
+  "glossEn": "to approach",
+  "reviewed": false
+ },
+ "v-nøjes-med": {
+  "level": 4,
+  "glossEn": "to make do with",
+  "reviewed": false
+ },
+ "v-nå": {
+  "level": 2,
+  "glossEn": "to reach, to make it",
+  "reviewed": false
+ },
+ "v-offentliggøre": {
+  "level": 5,
+  "glossEn": "to publish, to make public",
+  "reviewed": false
+ },
+ "v-omfatte": {
+  "level": 5,
+  "glossEn": "to include, to cover",
+  "reviewed": false
+ },
+ "v-omgive": {
+  "level": 5,
+  "glossEn": "to surround",
+  "reviewed": false
+ },
+ "v-opbygge": {
+  "level": 5,
+  "glossEn": "to build up",
+  "reviewed": false
+ },
+ "v-operere": {
+  "level": 4,
+  "glossEn": "to operate",
+  "reviewed": false
+ },
+ "v-opfatte": {
+  "level": 4,
+  "glossEn": "to perceive, to understand",
+  "reviewed": false
+ },
+ "v-opfinde": {
+  "level": 4,
+  "glossEn": "to invent",
+  "reviewed": false
+ },
+ "v-opfordre": {
+  "level": 4,
+  "glossEn": "to urge, to encourage",
+  "reviewed": false
+ },
+ "v-opfylde": {
+  "level": 5,
+  "glossEn": "to fulfil, to meet (requirements)",
+  "reviewed": false
+ },
+ "v-opføre": {
+  "level": 5,
+  "glossEn": "to perform, to build",
+  "reviewed": false
+ },
+ "v-opgive": {
+  "level": 4,
+  "glossEn": "to give up",
+  "reviewed": false
+ },
+ "v-ophæve": {
+  "level": 5,
+  "glossEn": "to abolish, to lift (a ban)",
+  "reviewed": false
+ },
+ "v-opleve": {
+  "level": 3,
+  "glossEn": "to experience",
+  "reviewed": false
+ },
+ "v-oplyse": {
+  "level": 5,
+  "glossEn": "to inform, to state",
+  "reviewed": false
+ },
+ "v-opnå": {
+  "level": 4,
+  "glossEn": "to achieve, to obtain",
+  "reviewed": false
+ },
+ "v-oprette": {
+  "level": 4,
+  "glossEn": "to establish, to create",
+  "reviewed": false
+ },
+ "v-opstille": {
+  "level": 5,
+  "glossEn": "to set up, to stand (as a candidate)",
+  "reviewed": false
+ },
+ "v-opstå": {
+  "level": 5,
+  "glossEn": "to arise",
+  "reviewed": false
+ },
+ "v-optage": {
+  "level": 4,
+  "glossEn": "to record, to admit, to take up",
+  "reviewed": false
+ },
+ "v-optræde": {
+  "level": 4,
+  "glossEn": "to perform, to appear",
+  "reviewed": false
+ },
+ "v-orientere": {
+  "level": 5,
+  "glossEn": "to inform",
+  "reviewed": false
+ },
+ "v-overbevise": {
+  "level": 4,
+  "glossEn": "to convince",
+  "reviewed": false
+ },
+ "v-overføre": {
+  "level": 4,
+  "glossEn": "to transfer",
+  "reviewed": false
+ },
+ "v-overholde": {
+  "level": 5,
+  "glossEn": "to comply with, to observe",
+  "reviewed": false
+ },
+ "v-overlade": {
+  "level": 5,
+  "glossEn": "to leave (to someone), to hand over",
+  "reviewed": false
+ },
+ "v-overleve": {
+  "level": 4,
+  "glossEn": "to survive",
+  "reviewed": false
+ },
+ "v-overraske": {
+  "level": 3,
+  "glossEn": "to surprise",
+  "reviewed": false
+ },
+ "v-overtage": {
+  "level": 4,
+  "glossEn": "to take over",
+  "reviewed": false
+ },
+ "v-overveje": {
+  "level": 4,
+  "glossEn": "to consider",
+  "reviewed": false
+ },
+ "v-pakke": {
+  "level": 2,
+  "glossEn": "to pack",
+  "reviewed": false
+ },
+ "v-passe": {
+  "level": 2,
+  "glossEn": "to look after, to fit",
+  "reviewed": false
+ },
+ "v-pege": {
+  "level": 3,
+  "glossEn": "to point",
+  "reviewed": false
+ },
+ "v-placere": {
+  "level": 4,
+  "glossEn": "to place",
+  "reviewed": false
+ },
+ "v-planlægge": {
+  "level": 3,
+  "glossEn": "to plan",
+  "reviewed": false
+ },
+ "v-pleje": {
+  "level": 4,
+  "glossEn": "to nurse, to care for",
+  "reviewed": false
+ },
+ "v-presse": {
+  "level": 4,
+  "glossEn": "to press, to pressure",
+  "reviewed": false
+ },
+ "v-producere": {
+  "level": 4,
+  "glossEn": "to produce",
+  "reviewed": false
+ },
+ "v-præge": {
+  "level": 5,
+  "glossEn": "to characterize, to mark",
+  "reviewed": false
+ },
+ "v-præsentere": {
+  "level": 3,
+  "glossEn": "to present, to introduce",
+  "reviewed": false
+ },
+ "v-prøve": {
+  "level": 1,
+  "glossEn": "to try",
+  "reviewed": false
+ },
+ "v-pudse": {
+  "level": 3,
+  "glossEn": "to polish, to clean",
+  "reviewed": false
+ },
+ "v-påvirke": {
+  "level": 4,
+  "glossEn": "to affect, to influence",
+  "reviewed": false
+ },
+ "v-ramme": {
+  "level": 4,
+  "glossEn": "to hit, to affect",
+  "reviewed": false
+ },
+ "v-reagere": {
+  "level": 3,
+  "glossEn": "to react",
+  "reviewed": false
+ },
+ "v-redde": {
+  "level": 3,
+  "glossEn": "to save, to rescue",
+  "reviewed": false
+ },
+ "v-reducere": {
+  "level": 4,
+  "glossEn": "to reduce",
+  "reviewed": false
+ },
+ "v-regne": {
+  "level": 2,
+  "glossEn": "to rain, to calculate",
+  "reviewed": false
+ },
+ "v-rejse": {
+  "level": 2,
+  "glossEn": "to travel",
+  "reviewed": true
+ },
+ "v-rense": {
+  "level": 3,
+  "glossEn": "to clean",
+  "reviewed": false
+ },
+ "v-repræsentere": {
+  "level": 5,
+  "glossEn": "to represent",
+  "reviewed": false
+ },
+ "v-respektere": {
+  "level": 4,
+  "glossEn": "to respect",
+  "reviewed": false
+ },
+ "v-rette": {
+  "level": 3,
+  "glossEn": "to correct",
+  "reviewed": false
+ },
+ "v-ride": {
+  "level": 3,
+  "glossEn": "to ride (a horse)",
+  "reviewed": false
+ },
+ "v-ringe": {
+  "level": 1,
+  "glossEn": "to call, to ring",
+  "reviewed": false
+ },
+ "v-risikere": {
+  "level": 4,
+  "glossEn": "to risk",
+  "reviewed": false
+ },
+ "v-rive": {
+  "level": 4,
+  "glossEn": "to tear",
+  "reviewed": false
+ },
+ "v-rose": {
+  "level": 3,
+  "glossEn": "to praise",
+  "reviewed": false
+ },
+ "v-rulle": {
+  "level": 3,
+  "glossEn": "to roll",
+  "reviewed": false
+ },
+ "v-rumme": {
+  "level": 5,
+  "glossEn": "to contain, to hold",
+  "reviewed": false
+ },
+ "v-rydde": {
+  "level": 2,
+  "glossEn": "to clear, to tidy",
+  "reviewed": false
+ },
+ "v-ryge": {
+  "level": 2,
+  "glossEn": "to smoke",
+  "reviewed": false
+ },
+ "v-rykke": {
+  "level": 3,
+  "glossEn": "to move, to pull",
+  "reviewed": false
+ },
+ "v-ryste": {
+  "level": 3,
+  "glossEn": "to shake",
+  "reviewed": false
+ },
+ "v-række": {
+  "level": 3,
+  "glossEn": "to hand, to reach",
+  "reviewed": false
+ },
+ "v-røre": {
+  "level": 3,
+  "glossEn": "to touch, to stir",
+  "reviewed": false
+ },
+ "v-råbe": {
+  "level": 2,
+  "glossEn": "to shout",
+  "reviewed": false
+ },
+ "v-råde": {
+  "level": 5,
+  "glossEn": "to advise",
+  "reviewed": false
+ },
+ "v-samle": {
+  "level": 3,
+  "glossEn": "to collect, to gather",
+  "reviewed": false
+ },
+ "v-sammenligne": {
+  "level": 3,
+  "glossEn": "to compare",
+  "reviewed": false
+ },
+ "v-satse": {
+  "level": 4,
+  "glossEn": "to bet, to focus on",
+  "reviewed": false
+ },
+ "v-savne": {
+  "level": 2,
+  "glossEn": "to miss",
+  "reviewed": false
+ },
+ "v-se": {
+  "level": 1,
+  "glossEn": "to see",
+  "reviewed": true
+ },
+ "v-sejle": {
+  "level": 2,
+  "glossEn": "to sail",
+  "reviewed": false
+ },
+ "v-sende": {
+  "level": 1,
+  "glossEn": "to send",
+  "reviewed": false
+ },
+ "v-servere": {
+  "level": 3,
+  "glossEn": "to serve",
+  "reviewed": false
+ },
+ "v-ses": {
+  "level": 2,
+  "glossEn": "to see each other",
+  "reviewed": false
+ },
+ "v-sidde": {
+  "level": 2,
+  "glossEn": "to sit",
+  "reviewed": true
+ },
+ "v-sige": {
+  "level": 1,
+  "glossEn": "to say",
+  "reviewed": true
+ },
+ "v-sikre": {
+  "level": 4,
+  "glossEn": "to secure, to ensure",
+  "reviewed": false
+ },
+ "v-skabe": {
+  "level": 4,
+  "glossEn": "to create",
+  "reviewed": false
+ },
+ "v-skade": {
+  "level": 4,
+  "glossEn": "to damage, to harm",
+  "reviewed": false
+ },
+ "v-skaffe": {
+  "level": 4,
+  "glossEn": "to get, to provide",
+  "reviewed": false
+ },
+ "v-ske": {
+  "level": 2,
+  "glossEn": "to happen",
+  "reviewed": false
+ },
+ "v-skifte": {
+  "level": 2,
+  "glossEn": "to change",
+  "reviewed": false
+ },
+ "v-skinne": {
+  "level": 2,
+  "glossEn": "to shine",
+  "reviewed": false
+ },
+ "v-skjule": {
+  "level": 3,
+  "glossEn": "to hide",
+  "reviewed": false
+ },
+ "v-skrige": {
+  "level": 3,
+  "glossEn": "to scream",
+  "reviewed": false
+ },
+ "v-skræmme": {
+  "level": 3,
+  "glossEn": "to frighten",
+  "reviewed": false
+ },
+ "v-skubbe": {
+  "level": 3,
+  "glossEn": "to push",
+  "reviewed": false
+ },
+ "v-skuffe": {
+  "level": 3,
+  "glossEn": "to disappoint",
+  "reviewed": false
+ },
+ "v-skulle": {
+  "level": 1,
+  "glossEn": "to have to, to be going to",
+  "reviewed": false
+ },
+ "v-skyde": {
+  "level": 3,
+  "glossEn": "to shoot",
+  "reviewed": false
+ },
+ "v-skyldes": {
+  "level": 5,
+  "glossEn": "to be due to",
+  "reviewed": false
+ },
+ "v-skære": {
+  "level": 2,
+  "glossEn": "to cut",
+  "reviewed": false
+ },
+ "v-slippe": {
+  "level": 3,
+  "glossEn": "to let go, to escape",
+  "reviewed": false
+ },
+ "v-slukke": {
+  "level": 2,
+  "glossEn": "to turn off, to put out",
+  "reviewed": false
+ },
+ "v-slutte": {
+  "level": 2,
+  "glossEn": "to end, to finish",
+  "reviewed": false
+ },
+ "v-slå": {
+  "level": 3,
+  "glossEn": "to hit, to beat",
+  "reviewed": false
+ },
+ "v-slås": {
+  "level": 3,
+  "glossEn": "to fight",
+  "reviewed": false
+ },
+ "v-smage": {
+  "level": 2,
+  "glossEn": "to taste",
+  "reviewed": false
+ },
+ "v-smide": {
+  "level": 2,
+  "glossEn": "to throw",
+  "reviewed": false
+ },
+ "v-smile": {
+  "level": 1,
+  "glossEn": "to smile",
+  "reviewed": false
+ },
+ "v-smitte": {
+  "level": 4,
+  "glossEn": "to infect",
+  "reviewed": false
+ },
+ "v-snakke": {
+  "level": 2,
+  "glossEn": "to chat",
+  "reviewed": true
+ },
+ "v-sove": {
+  "level": 1,
+  "glossEn": "to sleep",
+  "reviewed": true
+ },
+ "v-spare": {
+  "level": 2,
+  "glossEn": "to save",
+  "reviewed": false
+ },
+ "v-spille": {
+  "level": 1,
+  "glossEn": "to play",
+  "reviewed": false
+ },
+ "v-spise": {
+  "level": 1,
+  "glossEn": "to eat",
+  "reviewed": true
+ },
+ "v-sprede": {
+  "level": 5,
+  "glossEn": "to spread",
+  "reviewed": false
+ },
+ "v-springe": {
+  "level": 3,
+  "glossEn": "to jump, to skip",
+  "reviewed": false
+ },
+ "v-spørge": {
+  "level": 1,
+  "glossEn": "to ask",
+  "reviewed": false
+ },
+ "v-stamme": {
+  "level": 5,
+  "glossEn": "to originate, to stammer",
+  "reviewed": false
+ },
+ "v-standse": {
+  "level": 4,
+  "glossEn": "to stop",
+  "reviewed": false
+ },
+ "v-starte": {
+  "level": 1,
+  "glossEn": "to start",
+  "reviewed": false
+ },
+ "v-stemme": {
+  "level": 3,
+  "glossEn": "to vote",
+  "reviewed": false
+ },
+ "v-stege": {
+  "level": 2,
+  "glossEn": "to fry, to roast",
+  "reviewed": false
+ },
+ "v-stige": {
+  "level": 3,
+  "glossEn": "to rise, to climb",
+  "reviewed": false
+ },
+ "v-stikke": {
+  "level": 3,
+  "glossEn": "to stick, to sting",
+  "reviewed": false
+ },
+ "v-stikke-af": {
+  "level": 3,
+  "glossEn": "to run away",
+  "reviewed": false
+ },
+ "v-stille": {
+  "level": 2,
+  "glossEn": "to put, to place (upright)",
+  "reviewed": false
+ },
+ "v-stjæle": {
+  "level": 3,
+  "glossEn": "to steal",
+  "reviewed": false
+ },
+ "v-stole-på": {
+  "level": 3,
+  "glossEn": "to rely on, to trust",
+  "reviewed": false
+ },
+ "v-stoppe": {
+  "level": 2,
+  "glossEn": "to stop",
+  "reviewed": false
+ },
+ "v-straffe": {
+  "level": 4,
+  "glossEn": "to punish",
+  "reviewed": false
+ },
+ "v-stramme": {
+  "level": 5,
+  "glossEn": "to tighten",
+  "reviewed": false
+ },
+ "v-strække": {
+  "level": 4,
+  "glossEn": "to stretch",
+  "reviewed": false
+ },
+ "v-styre": {
+  "level": 4,
+  "glossEn": "to control, to govern",
+  "reviewed": false
+ },
+ "v-styrke": {
+  "level": 4,
+  "glossEn": "to strengthen",
+  "reviewed": false
+ },
+ "v-støde": {
+  "level": 3,
+  "glossEn": "to bump, to push",
+  "reviewed": false
+ },
+ "v-støde-på": {
+  "level": 3,
+  "glossEn": "to come across",
+  "reviewed": false
+ },
+ "v-støtte": {
+  "level": 3,
+  "glossEn": "to support",
+  "reviewed": false
+ },
+ "v-stå": {
+  "level": 2,
+  "glossEn": "to stand",
+  "reviewed": true
+ },
+ "v-stå-op": {
+  "level": 1,
+  "glossEn": "to get up",
+  "reviewed": false
+ },
+ "v-svare": {
+  "level": 1,
+  "glossEn": "to answer",
+  "reviewed": false
+ },
+ "v-svigte": {
+  "level": 4,
+  "glossEn": "to let down, to fail",
+  "reviewed": false
+ },
+ "v-svinge": {
+  "level": 5,
+  "glossEn": "to swing, to fluctuate",
+  "reviewed": false
+ },
+ "v-sy": {
+  "level": 3,
+  "glossEn": "to sew",
+  "reviewed": false
+ },
+ "v-synes": {
+  "level": 1,
+  "glossEn": "to think, to find",
+  "reviewed": false
+ },
+ "v-synge": {
+  "level": 1,
+  "glossEn": "to sing",
+  "reviewed": false
+ },
+ "v-synke": {
+  "level": 4,
+  "glossEn": "to sink, to swallow",
+  "reviewed": false
+ },
+ "v-sælge": {
+  "level": 1,
+  "glossEn": "to sell",
+  "reviewed": false
+ },
+ "v-sænke": {
+  "level": 4,
+  "glossEn": "to lower",
+  "reviewed": false
+ },
+ "v-sætte": {
+  "level": 2,
+  "glossEn": "to put, to set",
+  "reviewed": false
+ },
+ "v-søge": {
+  "level": 3,
+  "glossEn": "to apply (for), to seek",
+  "reviewed": false
+ },
+ "v-sørge-for": {
+  "level": 3,
+  "glossEn": "to make sure, to take care of",
+  "reviewed": false
+ },
+ "v-tabe": {
+  "level": 2,
+  "glossEn": "to lose, to drop",
+  "reviewed": false
+ },
+ "v-tage": {
+  "level": 1,
+  "glossEn": "to take",
+  "reviewed": true
+ },
+ "v-tage-hjem": {
+  "level": 1,
+  "glossEn": "to go home",
+  "reviewed": false
+ },
+ "v-takke": {
+  "level": 1,
+  "glossEn": "to thank",
+  "reviewed": false
+ },
+ "v-tale": {
+  "level": 1,
+  "glossEn": "to speak, to talk",
+  "reviewed": false
+ },
+ "v-tegne": {
+  "level": 2,
+  "glossEn": "to draw",
+  "reviewed": false
+ },
+ "v-tilbringe": {
+  "level": 4,
+  "glossEn": "to spend (time)",
+  "reviewed": false
+ },
+ "v-tilbyde": {
+  "level": 3,
+  "glossEn": "to offer",
+  "reviewed": false
+ },
+ "v-tilføje": {
+  "level": 4,
+  "glossEn": "to add",
+  "reviewed": false
+ },
+ "v-tilhøre": {
+  "level": 5,
+  "glossEn": "to belong to",
+  "reviewed": false
+ },
+ "v-tillade": {
+  "level": 4,
+  "glossEn": "to allow",
+  "reviewed": false
+ },
+ "v-tjene": {
+  "level": 2,
+  "glossEn": "to earn, to serve",
+  "reviewed": false
+ },
+ "v-tro": {
+  "level": 1,
+  "glossEn": "to believe, to think",
+  "reviewed": false
+ },
+ "v-true": {
+  "level": 4,
+  "glossEn": "to threaten",
+  "reviewed": false
+ },
+ "v-trykke": {
+  "level": 2,
+  "glossEn": "to press, to print",
+  "reviewed": false
+ },
+ "v-træde": {
+  "level": 4,
+  "glossEn": "to step, to tread",
+  "reviewed": false
+ },
+ "v-træffe": {
+  "level": 5,
+  "glossEn": "to meet, to make (a decision)",
+  "reviewed": false
+ },
+ "v-trække": {
+  "level": 3,
+  "glossEn": "to pull",
+  "reviewed": false
+ },
+ "v-trænge": {
+  "level": 4,
+  "glossEn": "to need, to push",
+  "reviewed": false
+ },
+ "v-trænge-ind": {
+  "level": 4,
+  "glossEn": "to break in, to penetrate",
+  "reviewed": false
+ },
+ "v-turde": {
+  "level": 3,
+  "glossEn": "to dare",
+  "reviewed": false
+ },
+ "v-tvinge": {
+  "level": 4,
+  "glossEn": "to force",
+  "reviewed": false
+ },
+ "v-tyde": {
+  "level": 5,
+  "glossEn": "to indicate, to interpret",
+  "reviewed": false
+ },
+ "v-tænde": {
+  "level": 2,
+  "glossEn": "to turn on, to light",
+  "reviewed": false
+ },
+ "v-tænke": {
+  "level": 1,
+  "glossEn": "to think",
+  "reviewed": false
+ },
+ "v-tømme": {
+  "level": 3,
+  "glossEn": "to empty",
+  "reviewed": false
+ },
+ "v-tørre": {
+  "level": 2,
+  "glossEn": "to dry",
+  "reviewed": false
+ },
+ "v-tåle": {
+  "level": 3,
+  "glossEn": "to tolerate, to stand",
+  "reviewed": false
+ },
+ "v-udarbejde": {
+  "level": 5,
+  "glossEn": "to prepare, to draw up",
+  "reviewed": false
+ },
+ "v-udbrede": {
+  "level": 5,
+  "glossEn": "to spread",
+  "reviewed": false
+ },
+ "v-uddanne": {
+  "level": 4,
+  "glossEn": "to educate, to train",
+  "reviewed": false
+ },
+ "v-udelukke": {
+  "level": 5,
+  "glossEn": "to exclude, to rule out",
+  "reviewed": false
+ },
+ "v-udføre": {
+  "level": 5,
+  "glossEn": "to carry out",
+  "reviewed": false
+ },
+ "v-udgive": {
+  "level": 5,
+  "glossEn": "to publish",
+  "reviewed": false
+ },
+ "v-udgøre": {
+  "level": 5,
+  "glossEn": "to constitute, to make up",
+  "reviewed": false
+ },
+ "v-udkomme": {
+  "level": 5,
+  "glossEn": "to be published, to come out",
+  "reviewed": false
+ },
+ "v-udlevere": {
+  "level": 5,
+  "glossEn": "to hand out, to extradite",
+  "reviewed": false
+ },
+ "v-udløse": {
+  "level": 5,
+  "glossEn": "to trigger, to release",
+  "reviewed": false
+ },
+ "v-udnytte": {
+  "level": 5,
+  "glossEn": "to exploit, to make use of",
+  "reviewed": false
+ },
+ "v-udstyre": {
+  "level": 5,
+  "glossEn": "to equip",
+  "reviewed": false
+ },
+ "v-udsætte": {
+  "level": 4,
+  "glossEn": "to postpone, to expose",
+  "reviewed": false
+ },
+ "v-udtale": {
+  "level": 3,
+  "glossEn": "to pronounce",
+  "reviewed": false
+ },
+ "v-udtrykke": {
+  "level": 4,
+  "glossEn": "to express",
+  "reviewed": false
+ },
+ "v-udvide": {
+  "level": 4,
+  "glossEn": "to expand, to extend",
+  "reviewed": false
+ },
+ "v-udvikle": {
+  "level": 4,
+  "glossEn": "to develop",
+  "reviewed": false
+ },
+ "v-underholde": {
+  "level": 4,
+  "glossEn": "to entertain",
+  "reviewed": false
+ },
+ "v-understrege": {
+  "level": 5,
+  "glossEn": "to emphasize, to underline",
+  "reviewed": false
+ },
+ "v-undersøge": {
+  "level": 3,
+  "glossEn": "to examine, to investigate",
+  "reviewed": false
+ },
+ "v-undgå": {
+  "level": 4,
+  "glossEn": "to avoid",
+  "reviewed": false
+ },
+ "v-undre-sig": {
+  "level": 4,
+  "glossEn": "to wonder",
+  "reviewed": false
+ },
+ "v-vaccinere": {
+  "level": 3,
+  "glossEn": "to vaccinate",
+  "reviewed": false
+ },
+ "v-vare": {
+  "level": 3,
+  "glossEn": "to last",
+  "reviewed": false
+ },
+ "v-variere": {
+  "level": 5,
+  "glossEn": "to vary",
+  "reviewed": false
+ },
+ "v-vaske": {
+  "level": 2,
+  "glossEn": "to wash",
+  "reviewed": true
+ },
+ "v-vedtage": {
+  "level": 5,
+  "glossEn": "to adopt, to pass (a law)",
+  "reviewed": false
+ },
+ "v-veje": {
+  "level": 2,
+  "glossEn": "to weigh",
+  "reviewed": false
+ },
+ "v-vende": {
+  "level": 2,
+  "glossEn": "to turn",
+  "reviewed": false
+ },
+ "v-vente": {
+  "level": 1,
+  "glossEn": "to wait",
+  "reviewed": false
+ },
+ "v-vide": {
+  "level": 1,
+  "glossEn": "to know",
+  "reviewed": false
+ },
+ "v-ville": {
+  "level": 1,
+  "glossEn": "to want to",
+  "reviewed": false
+ },
+ "v-vinde": {
+  "level": 2,
+  "glossEn": "to win",
+  "reviewed": false
+ },
+ "v-virke": {
+  "level": 3,
+  "glossEn": "to work, to seem",
+  "reviewed": false
+ },
+ "v-vise": {
+  "level": 3,
+  "glossEn": "to show",
+  "reviewed": true
+ },
+ "v-vokse": {
+  "level": 2,
+  "glossEn": "to grow",
+  "reviewed": false
+ },
+ "v-vurdere": {
+  "level": 4,
+  "glossEn": "to assess, to evaluate",
+  "reviewed": false
+ },
+ "v-vælge": {
+  "level": 1,
+  "glossEn": "to choose",
+  "reviewed": false
+ },
+ "v-vælte": {
+  "level": 3,
+  "glossEn": "to knock over, to tip over",
+  "reviewed": false
+ },
+ "v-være": {
+  "level": 1,
+  "glossEn": "to be",
+  "reviewed": false
+ },
+ "v-vågne": {
+  "level": 1,
+  "glossEn": "to wake up",
+  "reviewed": false
+ },
+ "v-yde": {
+  "level": 5,
+  "glossEn": "to provide, to grant",
+  "reviewed": false
+ },
+ "v-ændre": {
+  "level": 3,
+  "glossEn": "to change",
+  "reviewed": false
+ },
+ "v-ødelægge": {
+  "level": 3,
+  "glossEn": "to destroy, to ruin",
+  "reviewed": false
+ },
+ "v-øge": {
+  "level": 5,
+  "glossEn": "to increase",
+  "reviewed": false
+ },
+ "v-ønske": {
+  "level": 3,
+  "glossEn": "to wish",
+  "reviewed": true
+ },
+ "v-åbne": {
+  "level": 1,
+  "glossEn": "to open",
+  "reviewed": false
+ },
+ "v-cykle": {
+  "level": 2,
+  "glossEn": "to cycle",
+  "reviewed": true
+ }
+}

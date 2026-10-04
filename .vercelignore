@@ -1,0 +1,9 @@
+# Never upload local secrets or test credentials; Vercel builds from its own env vars.
+.env*.local
+.e2e-accounts.local
+.claude
+# Build inputs Vercel recreates itself.
+node_modules
+.expo
+dist
+scripts/sources

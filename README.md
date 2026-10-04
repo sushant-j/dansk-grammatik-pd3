@@ -152,11 +152,17 @@ Three commitments follow from that:
   so it never flashes for a returning user), with a first-class "just show me
   everything" for people not sitting a specific exam. Same honesty as the
   settings screen: it tailors order, hides nothing, changeable anytime.
+- **Accounts that sync** — progress belongs to a signed-in account
+  (Supabase: email + password), so it follows the learner to any device and
+  survives a cleared browser. The web build is still fully static; the app
+  talks to Supabase directly, and row-level security keeps every user to
+  their own rows. See *Accounts and progress* below.
+- **Niveau 1–5, beginner to PD3** — every exercise carries a niveau, shown on
+  its card. Each trainer serves material up to the learner's niveau and moves
+  them up after 20 answers at 80% right. See *Content* below.
 - **Shareable static build** — `npm run build:web` produces a self-contained
-  `dist/` with no backend and no login; each person's progress lives in their
-  own browser, which is exactly right for handing one URL to many people.
-  `public/_redirects` + `public/vercel.json` ship SPA fallback so deep links
-  and refreshes survive on any static host.
+  `dist/`. `vercel.json` (and `public/_redirects` for Netlify) ship the SPA
+  fallback so deep links and refreshes survive.
 
 ## Architecture
 
@@ -199,17 +205,23 @@ src/
     spellingExercise.ts            packages a spelling-example entry into a question
     types.ts
   content/
-    exercises.ts           PD3 sentence bank (schema trainer)
-    nouns.ts                noun bank with hand-verified definite/wrong forms
+    levels.ts              the niveau 1–5 scale and the level-aware pool picker
+    data/*.json            the drafted banks (and verbs.json, imported — see below)
+    exercises.ts           sentence bank (schema trainer): hand-written + data/exercises.json
+    compact.ts               one-line authoring format for sentence exercises
+    nouns.ts                noun bank: hand-written + data/nouns.json
     adjectives.ts             adjective bank (base/-t/-e forms)
-    verbs.ts                   verb bank (weak/strong, past + participle + aux)
-    commaExamples.ts             hand-written correct/incorrect sentence pairs
-    spellingExamples.ts            hand-written fill-in-the-blank word pairs
+    verbs.ts                   500 verbs: data/verbs.json (forms) + data/verbs.meta.json (gloss, niveau)
+    commaExamples.ts             correct/incorrect sentence pairs
+    spellingExamples.ts            fill-in-the-blank word pairs
+    retired.ts                 retired ids and renamed rules (never reuse an id)
+    content-ids.lock.json      every id that has ever shipped
     topics.ts               oral-exam archive: TOPICS, OFFICIAL_SESSIONS, PRACTICE_TOPICS
     vocabulary.ts            hard-word bank, each entry traced to a real sentence
   profile/
     mastery.ts              shared decay/leveling math (all seven domains below)
-    store.ts                grammar learner model (zustand + AsyncStorage)
+    store.ts                grammar learner model (a view of the progress log)
+    levelStore.ts            niveau climb per trainer
     vocabStore.ts            vocabulary learner model, same mastery math
     nounStore.ts             noun-rule learner model, same mastery math
     adjectiveStore.ts         adjective-rule learner model, same mastery math
@@ -219,12 +231,23 @@ src/
     settings.ts                     target-exam preference + exam date (persisted); shared day-maths
     overview.ts                      cross-domain roll-up — the app-wide "widest gap"
     studyplan.ts                     exam date + roll-up → paced, honest readiness plan
+  sync/
+    types.ts               progress events and baselines
+    replay.ts              rebuilds all progress from the log (pure)
+    log.ts                 the signed-in user's log on this device; publishes into the stores
+    sync.ts                pull / upload / profile, retried until it succeeds
+    remote.ts              the Supabase tables, behind a small interface
+    legacy.ts              moves pre-account device progress into the first account
+  auth/
+    supabase.ts, session.ts  client, sign-in state, account actions
   feedback/
     types.ts               provider contract
     offlineRules.ts        deterministic checker
     claudeCoach.ts          AI coach — interface complete, transport stubbed
   ui/
+    SignIn.tsx               sign-in / create-account gate
     Onboarding.tsx           first-open "which exam?" welcome (shown once)
+    LevelBadge.tsx           "Niveau 3 · B1" badge and the level-up notice
     Screen.tsx              max-width wrapper — the phone→web responsive seam
     theme.ts, primitives.tsx, SchemaBoard.tsx
 ```
@@ -274,6 +297,63 @@ Produces a fully static `dist/` — no server-side rendering, no API routes —
 deployable as-is to Netlify, Vercel, GitHub Pages, S3, or any static host.
 `npm run serve:web` serves that build locally to sanity-check it before
 deploying.
+
+## Accounts and progress
+
+Progress is an **append-only log of events** — every answer, every niveau set
+by hand, every reset — and every stat, niveau, streak day and "seen" list is
+derived by replaying it (`src/sync/replay.ts`). Consequences:
+
+- **Two devices never overwrite each other.** They only add events; events
+  carry a client-made uuid, so a retried upload is a no-op.
+- **Works offline.** Answers are recorded locally first and uploaded later.
+- **Changing the mastery or niveau math loses nothing**: replay the same log.
+- **Two people on one browser stay separate**: each user's log is saved under
+  its own key.
+- **Progress from before accounts is kept**: the first account that signs in
+  on a device takes over that device's old saves as a starting baseline
+  (`src/sync/legacy.ts`). The old saves are never deleted.
+
+### Setting up Supabase (once)
+
+1. Create a project at supabase.com (the free plan needs no card).
+2. In the SQL editor, run `supabase/migrations/0001_init.sql`.
+3. Authentication → Sign In / Providers → Email: turn **Confirm email** off
+   (the built-in sender is limited to a few emails an hour; set up custom SMTP
+   before turning it back on).
+4. Put the project URL and publishable key in `.env.local` (and in the Vercel
+   project's environment variables):
+
+   ```
+   EXPO_PUBLIC_SUPABASE_URL=https://<project>.supabase.co
+   EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY=<publishable or anon key>
+   ```
+
+   Both are public by design; row-level security is what protects the data.
+
+Schema changes go in a new numbered file in `supabase/migrations/` and only
+ever **add** — never drop or rewrite a column progress lives in.
+
+## Content
+
+Every bank item has a stable `id`, a `level` (niveau 1–5) and, for drafted
+content, `reviewed: false` until a person has checked the Danish.
+
+- **Adding items**: append to the bank (or its `data/*.json`), then run
+  `npm run content:lock` to accept the new ids. The tests check structure
+  (genders vs. suffixes, distractors, comma pairs that differ only in commas,
+  sentence solutions that grade as correct) and print each bank's size per
+  niveau and how much is still unreviewed.
+- **Changing an item**: keep its id for a fix; give it a new id if it becomes
+  a different item.
+- **Removing an item**: move its id to `RETIRED_IDS` in `retired.ts`. An id
+  is never reused. Renaming a rule: add it to `RULE_ALIASES`, and stored
+  stats move to the new name.
+- **Verbs** are imported from basby.dk's *500 most common verbs in Danish*:
+  `node scripts/import-verbs.mjs` regenerates `data/verbs.json`; glosses and
+  niveaus live in `data/verbs.meta.json`.
+- **Sentence exercises** are written in the compact format, e.g.
+  `"F:i går | v:gik | n:jeg | a:ikke | A:på arbejde"` (see `compact.ts`).
 
 ## Wiring up the AI writing coach
 

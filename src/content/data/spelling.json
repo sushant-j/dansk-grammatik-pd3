@@ -1,0 +1,2802 @@
+[
+  {
+    "id": "s-hund-2",
+    "level": 1,
+    "ruleId": "silent-d",
+    "prompt": "Vores ___ elsker at gå tur i skoven.",
+    "correct": "hund",
+    "incorrect": "hun",
+    "explanation": "\"Hund\" (dog) keeps its silent d — without it you get \"hun\" (she), which makes no sense as the thing going for a walk.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hund-3",
+    "level": 1,
+    "ruleId": "silent-d",
+    "prompt": "Må jeg klappe din ___?",
+    "correct": "hund",
+    "incorrect": "hun",
+    "explanation": "You pat a dog, so it is \"hund\" with a silent d — \"hun\" (she) is a different real word.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hund-4",
+    "level": 2,
+    "ruleId": "silent-d",
+    "prompt": "Naboens ___ gøer hele natten.",
+    "correct": "hund",
+    "incorrect": "hun",
+    "explanation": "Only a \"hund\" (dog) barks — drop the silent d and the word turns into \"hun\" (she).",
+    "reviewed": false
+  },
+  {
+    "id": "s-mand-2",
+    "level": 1,
+    "ruleId": "silent-d",
+    "prompt": "Hendes ___ arbejder på et hospital.",
+    "correct": "mand",
+    "incorrect": "man",
+    "explanation": "\"Mand\" (husband, man) needs its silent d — \"man\" (one, you) cannot follow \"hendes\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-mand-3",
+    "level": 1,
+    "ruleId": "silent-d",
+    "prompt": "Der står en ___ ved døren.",
+    "correct": "mand",
+    "incorrect": "man",
+    "explanation": "\"En mand\" (a man) has a silent d — \"man\" is the pronoun \"one/you\" and never takes \"en\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-mand-4",
+    "level": 2,
+    "ruleId": "silent-d",
+    "prompt": "Min ___ og jeg har været gift i ti år.",
+    "correct": "mand",
+    "incorrect": "man",
+    "explanation": "Your husband is \"min mand\" with a silent d — \"man\" without it is the generic pronoun \"one\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-guld-2",
+    "level": 2,
+    "ruleId": "silent-d",
+    "prompt": "Hun vandt ___ ved mesterskabet.",
+    "correct": "guld",
+    "incorrect": "gul",
+    "explanation": "She won gold — \"guld\" with a silent d after l; \"gul\" means yellow.",
+    "reviewed": false
+  },
+  {
+    "id": "s-guld-3",
+    "level": 3,
+    "ruleId": "silent-d",
+    "prompt": "Prisen på ___ er steget meget i år.",
+    "correct": "guld",
+    "incorrect": "gul",
+    "explanation": "The metal is \"guld\" (gold) — without the silent d it becomes the colour \"gul\" (yellow).",
+    "reviewed": false
+  },
+  {
+    "id": "s-haand-2",
+    "level": 2,
+    "ruleId": "silent-d",
+    "prompt": "Han brækkede sin højre ___.",
+    "correct": "hånd",
+    "incorrect": "hån",
+    "explanation": "\"Hånd\" (hand) keeps its silent d after n — \"hån\" means scorn.",
+    "reviewed": false
+  },
+  {
+    "id": "s-haand-3",
+    "level": 2,
+    "ruleId": "silent-d",
+    "prompt": "Hun skriver med venstre ___.",
+    "correct": "hånd",
+    "incorrect": "hån",
+    "explanation": "You write with your \"hånd\" (hand) — \"hån\" (scorn) is what you get if the silent d is dropped.",
+    "reviewed": false
+  },
+  {
+    "id": "s-bordet-1",
+    "level": 1,
+    "ruleId": "silent-d",
+    "prompt": "Sæt dig ved ___.",
+    "correct": "bordet",
+    "incorrect": "boret",
+    "explanation": "\"Bordet\" (the table) has a silent d after r — \"boret\" reads as \"the drill\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-bord-2",
+    "level": 2,
+    "ruleId": "silent-d",
+    "prompt": "Vi har bestilt et ___ til fire personer.",
+    "correct": "bord",
+    "incorrect": "bor",
+    "explanation": "You book a table, \"et bord\", with a silent d — \"et bor\" is a drill.",
+    "reviewed": false
+  },
+  {
+    "id": "s-gaard-1",
+    "level": 1,
+    "ruleId": "silent-d",
+    "prompt": "Vi bor på en ___ på landet.",
+    "correct": "gård",
+    "incorrect": "går",
+    "explanation": "\"Gård\" (farm) has a silent d after r — without it you get \"går\" (walks, goes), a verb.",
+    "reviewed": false
+  },
+  {
+    "id": "s-gaard-2",
+    "level": 2,
+    "ruleId": "silent-d",
+    "prompt": "Min onkel har en ___ med køer og grise.",
+    "correct": "gård",
+    "incorrect": "går",
+    "explanation": "A farm is \"en gård\" with a silent d — \"går\" is the present tense of \"gå\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-haard-1",
+    "level": 1,
+    "ruleId": "silent-d",
+    "prompt": "Brødet er helt ___.",
+    "correct": "hård",
+    "incorrect": "hår",
+    "explanation": "\"Hård\" (hard) keeps its silent d — drop it and you get \"hår\" (hair).",
+    "reviewed": false
+  },
+  {
+    "id": "s-haard-2",
+    "level": 2,
+    "ruleId": "silent-d",
+    "prompt": "Det har været en ___ uge på arbejdet.",
+    "correct": "hård",
+    "incorrect": "hår",
+    "explanation": "A tough week is \"en hård uge\" — \"hår\" (hair) is what the word becomes without its silent d.",
+    "reviewed": false
+  },
+  {
+    "id": "s-mord-1",
+    "level": 3,
+    "ruleId": "silent-d",
+    "prompt": "Politiet efterforsker et ___ i Aarhus.",
+    "correct": "mord",
+    "incorrect": "mor",
+    "explanation": "\"Et mord\" (a murder) has a silent d after r — \"mor\" (mother) is a different word and is not an et-word.",
+    "reviewed": false
+  },
+  {
+    "id": "s-mord-2",
+    "level": 3,
+    "ruleId": "silent-d",
+    "prompt": "Romanen handler om et ___ på en lille ø.",
+    "correct": "mord",
+    "incorrect": "mor",
+    "explanation": "The crime is \"mord\" with a silent d — without it you get \"mor\" (mother).",
+    "reviewed": false
+  },
+  {
+    "id": "s-fjord-1",
+    "level": 2,
+    "ruleId": "silent-d",
+    "prompt": "Byen ligger ved en smuk ___.",
+    "correct": "fjord",
+    "incorrect": "fjor",
+    "explanation": "\"Fjord\" keeps its silent d — \"fjor\" only exists in the expression \"i fjor\" (last year).",
+    "reviewed": false
+  },
+  {
+    "id": "s-held-1",
+    "level": 1,
+    "ruleId": "silent-d",
+    "prompt": "___ og lykke med eksamen!",
+    "correct": "Held",
+    "incorrect": "Hel",
+    "explanation": "\"Held\" (luck) has a silent d after l — \"hel\" means whole.",
+    "reviewed": false
+  },
+  {
+    "id": "s-held-2",
+    "level": 2,
+    "ruleId": "silent-d",
+    "prompt": "Vi havde ___ med vejret på ferien.",
+    "correct": "held",
+    "incorrect": "hel",
+    "explanation": "Being lucky is \"have held\" — without the silent d you get \"hel\" (whole).",
+    "reviewed": false
+  },
+  {
+    "id": "s-held-3",
+    "level": 3,
+    "ruleId": "silent-d",
+    "prompt": "Det var et ___, at ingen kom til skade.",
+    "correct": "held",
+    "incorrect": "hel",
+    "explanation": "\"Et held\" (a stroke of luck) keeps its silent d — \"hel\" is an adjective meaning whole.",
+    "reviewed": false
+  },
+  {
+    "id": "s-sild-1",
+    "level": 2,
+    "ruleId": "silent-d",
+    "prompt": "Til frokost spiser vi ___ på rugbrød.",
+    "correct": "sild",
+    "incorrect": "sil",
+    "explanation": "The fish is \"sild\" (herring) with a silent d — \"sil\" is a kitchen strainer.",
+    "reviewed": false
+  },
+  {
+    "id": "s-mild-1",
+    "level": 3,
+    "ruleId": "silent-d",
+    "prompt": "Vinteren var meget ___ i år.",
+    "correct": "mild",
+    "incorrect": "mil",
+    "explanation": "\"Mild\" keeps its silent d after l — \"mil\" is a mile.",
+    "reviewed": false
+  },
+  {
+    "id": "s-mild-2",
+    "level": 3,
+    "ruleId": "silent-d",
+    "prompt": "Lægen gav mig en ___ creme mod udslættet.",
+    "correct": "mild",
+    "incorrect": "mil",
+    "explanation": "A gentle cream is \"mild\" with a silent d — \"mil\" (mile) is what you write if the d is lost.",
+    "reviewed": false
+  },
+  {
+    "id": "s-spild-1",
+    "level": 2,
+    "ruleId": "silent-d",
+    "prompt": "Det er ___ af tid at vente.",
+    "correct": "spild",
+    "incorrect": "spil",
+    "explanation": "\"Spild af tid\" (a waste of time) has a silent d — \"spil\" means game.",
+    "reviewed": false
+  },
+  {
+    "id": "s-spild-2",
+    "level": 3,
+    "ruleId": "silent-d",
+    "prompt": "Al den mad i skraldespanden er ___ af penge.",
+    "correct": "spild",
+    "incorrect": "spil",
+    "explanation": "Waste is \"spild\" with a silent d after l — without it you get \"spil\" (game).",
+    "reviewed": false
+  },
+  {
+    "id": "s-fuld-1",
+    "level": 1,
+    "ruleId": "silent-d",
+    "prompt": "Glasset er ___.",
+    "correct": "fuld",
+    "incorrect": "ful",
+    "explanation": "\"Fuld\" (full) keeps its silent d — \"ful\" means nasty or sly.",
+    "reviewed": false
+  },
+  {
+    "id": "s-fuld-2",
+    "level": 2,
+    "ruleId": "silent-d",
+    "prompt": "Bussen var ___ af mennesker i morges.",
+    "correct": "fuld",
+    "incorrect": "ful",
+    "explanation": "\"Fuld af\" (full of) has a silent d after l — \"ful\" (nasty) is a different word.",
+    "reviewed": false
+  },
+  {
+    "id": "s-vinden-1",
+    "level": 2,
+    "ruleId": "silent-d",
+    "prompt": "___ blæser kraftigt i dag.",
+    "correct": "Vinden",
+    "incorrect": "Vinen",
+    "explanation": "\"Vinden\" (the wind) has a silent d after n — \"vinen\" is the wine.",
+    "reviewed": false
+  },
+  {
+    "id": "s-sind-1",
+    "level": 3,
+    "ruleId": "silent-d",
+    "prompt": "Hun har et roligt ___.",
+    "correct": "sind",
+    "incorrect": "sin",
+    "explanation": "\"Sind\" (mind, temperament) keeps its silent d — \"sin\" is the possessive \"his/her own\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-vaerd-1",
+    "level": 4,
+    "ruleId": "silent-d",
+    "prompt": "Det er ikke umagen ___.",
+    "correct": "værd",
+    "incorrect": "vær",
+    "explanation": "\"Værd\" (worth) has a silent d after r — \"vær\" is the imperative of \"være\" (be).",
+    "reviewed": false
+  },
+  {
+    "id": "s-vaerd-2",
+    "level": 3,
+    "ruleId": "silent-d",
+    "prompt": "Bilen er cirka 40.000 kroner ___.",
+    "correct": "værd",
+    "incorrect": "vær",
+    "explanation": "Something is \"værd\" (worth) a price — drop the silent d and you get the imperative \"vær\" (be).",
+    "reviewed": false
+  },
+  {
+    "id": "s-svaerd-1",
+    "level": 3,
+    "ruleId": "silent-d",
+    "prompt": "Ridderen trak sit ___.",
+    "correct": "sværd",
+    "incorrect": "svær",
+    "explanation": "\"Sværd\" (sword) keeps its silent d — \"svær\" means difficult.",
+    "reviewed": false
+  },
+  {
+    "id": "s-skyld-1",
+    "level": 3,
+    "ruleId": "silent-d",
+    "prompt": "Det er ikke din ___, at bussen var forsinket.",
+    "correct": "skyld",
+    "incorrect": "skyl",
+    "explanation": "\"Skyld\" (fault, blame) has a silent d after l — \"skyl\" is the imperative of \"skylle\" (rinse).",
+    "reviewed": false
+  },
+  {
+    "id": "s-skyld-2",
+    "level": 4,
+    "ruleId": "silent-d",
+    "prompt": "Han nægter enhver ___ i sagen.",
+    "correct": "skyld",
+    "incorrect": "skyl",
+    "explanation": "Denying all blame is \"nægte enhver skyld\" — without the silent d it becomes \"skyl\" (rinse!).",
+    "reviewed": false
+  },
+  {
+    "id": "s-kilde-1",
+    "level": 4,
+    "ruleId": "silent-d",
+    "prompt": "Husk at angive din ___, når du citerer en artikel.",
+    "correct": "kilde",
+    "incorrect": "kile",
+    "explanation": "\"Kilde\" (source) has a silent d after l — \"kile\" is a wedge.",
+    "reviewed": false
+  },
+  {
+    "id": "s-kilde-2",
+    "level": 5,
+    "ruleId": "silent-d",
+    "prompt": "Ifølge en ___ i ministeriet bliver loven ændret til næste år.",
+    "correct": "kilde",
+    "incorrect": "kile",
+    "explanation": "An informant or source is \"en kilde\" with a silent d — \"kile\" (wedge) is a different word.",
+    "reviewed": false
+  },
+  {
+    "id": "s-finde-1",
+    "level": 1,
+    "ruleId": "silent-d",
+    "prompt": "Jeg kan ikke ___ mine nøgler.",
+    "correct": "finde",
+    "incorrect": "fine",
+    "explanation": "\"Finde\" (find) keeps its silent d after n — \"fine\" is the adjective \"fine/nice\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-finde-2",
+    "level": 2,
+    "ruleId": "silent-d",
+    "prompt": "Hvor kan jeg ___ et apotek?",
+    "correct": "finde",
+    "incorrect": "fine",
+    "explanation": "The verb is \"finde\" (find), with a silent d — \"fine\" is an adjective, not a verb.",
+    "reviewed": false
+  },
+  {
+    "id": "s-ende-1",
+    "level": 2,
+    "ruleId": "silent-d",
+    "prompt": "Filmen havde en lykkelig ___.",
+    "correct": "ende",
+    "incorrect": "ene",
+    "explanation": "\"Ende\" (ending) has a silent d after n — \"ene\" means alone or only.",
+    "reviewed": false
+  },
+  {
+    "id": "s-sende-1",
+    "level": 1,
+    "ruleId": "silent-d",
+    "prompt": "Kan du ___ mig en sms?",
+    "correct": "sende",
+    "incorrect": "sene",
+    "explanation": "\"Sende\" (send) keeps its silent d — \"sene\" is a tendon (or \"late\" in the plural).",
+    "reviewed": false
+  },
+  {
+    "id": "s-sende-2",
+    "level": 3,
+    "ruleId": "silent-d",
+    "prompt": "Jeg vil gerne ___ min ansøgning i dag.",
+    "correct": "sende",
+    "incorrect": "sene",
+    "explanation": "You send an application — \"sende\" with a silent d after n, not \"sene\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-aldrig-1",
+    "level": 2,
+    "ruleId": "silent-d",
+    "prompt": "Jeg har ___ været i Paris.",
+    "correct": "aldrig",
+    "incorrect": "alrig",
+    "explanation": "\"Aldrig\" (never) has a silent d after l — it is not heard, but it is always written.",
+    "reviewed": false
+  },
+  {
+    "id": "s-kold-1",
+    "level": 1,
+    "ruleId": "silent-d",
+    "prompt": "Vandet er meget ___.",
+    "correct": "kold",
+    "incorrect": "kol",
+    "explanation": "\"Kold\" (cold) ends in a silent d after l — you cannot hear it, but it must be written.",
+    "reviewed": false
+  },
+  {
+    "id": "s-held-4",
+    "level": 5,
+    "ruleId": "silent-d",
+    "prompt": "Det var et rent ___, at jeg opdagede fejlen i min årsopgørelse i tide.",
+    "correct": "held",
+    "incorrect": "hel",
+    "explanation": "\"Et rent held\" (pure luck) needs the silent d — \"hel\" (whole) does not fit here.",
+    "reviewed": false
+  },
+  {
+    "id": "s-vaerd-3",
+    "level": 5,
+    "ruleId": "silent-d",
+    "prompt": "Efter min mening er den nye bro ikke pengene ___.",
+    "correct": "værd",
+    "incorrect": "vær",
+    "explanation": "\"Ikke pengene værd\" (not worth the money) — the silent d separates \"værd\" from the imperative \"vær\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-spild-3",
+    "level": 4,
+    "ruleId": "silent-d",
+    "prompt": "Kommunen bør gøre mere for at mindske ___ af fødevarer.",
+    "correct": "spild",
+    "incorrect": "spil",
+    "explanation": "Food waste is \"spild af fødevarer\" with a silent d — \"spil\" means game.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvad-2",
+    "level": 1,
+    "ruleId": "silent-h-hv",
+    "prompt": "___ koster det?",
+    "correct": "Hvad",
+    "incorrect": "Vad",
+    "explanation": "\"Hvad\" (what) starts with a silent h — it sounds like \"vad\" but is never spelled that way.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvad-3",
+    "level": 1,
+    "ruleId": "silent-h-hv",
+    "prompt": "___ laver du i weekenden?",
+    "correct": "Hvad",
+    "incorrect": "Vad",
+    "explanation": "All the hv-question words keep their silent h — \"hvad\", never \"vad\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvad-4",
+    "level": 2,
+    "ruleId": "silent-h-hv",
+    "prompt": "Jeg forstår ikke, ___ du mener.",
+    "correct": "hvad",
+    "incorrect": "vad",
+    "explanation": "Inside a sentence too, \"hvad\" (what) keeps its silent h.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvor-2",
+    "level": 1,
+    "ruleId": "silent-h-hv",
+    "prompt": "___ kommer du fra?",
+    "correct": "Hvor",
+    "incorrect": "Vor",
+    "explanation": "\"Hvor\" (where) needs the silent h — \"vor\" is an old word for \"our\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvor-3",
+    "level": 1,
+    "ruleId": "silent-h-hv",
+    "prompt": "___ gammel er du?",
+    "correct": "Hvor",
+    "incorrect": "Vor",
+    "explanation": "\"Hvor gammel\" (how old) uses the question word \"hvor\", silent h and all.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvor-4",
+    "level": 2,
+    "ruleId": "silent-h-hv",
+    "prompt": "Ved du, ___ stationen ligger?",
+    "correct": "hvor",
+    "incorrect": "vor",
+    "explanation": "An indirect question still uses \"hvor\" with a silent h.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvor-5",
+    "level": 3,
+    "ruleId": "silent-h-hv",
+    "prompt": "Det er huset, ___ jeg voksede op.",
+    "correct": "hvor",
+    "incorrect": "vor",
+    "explanation": "As a relative word (\"where\") it is still \"hvor\" — the silent h stays.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvor-6",
+    "level": 3,
+    "ruleId": "silent-h-hv",
+    "prompt": "Jeg kan ikke huske, ___ jeg har lagt min pung.",
+    "correct": "hvor",
+    "incorrect": "vor",
+    "explanation": "\"Hvor\" (where) keeps its silent h even in the middle of a sentence.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvem-2",
+    "level": 1,
+    "ruleId": "silent-h-hv",
+    "prompt": "___ skal jeg ringe til?",
+    "correct": "Hvem",
+    "incorrect": "Vem",
+    "explanation": "\"Hvem\" (who) has a silent h — \"vem\" is not a Danish word.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvem-3",
+    "level": 2,
+    "ruleId": "silent-h-hv",
+    "prompt": "Jeg ved ikke, ___ der har taget min cykel.",
+    "correct": "hvem",
+    "incorrect": "vem",
+    "explanation": "The indirect question word \"hvem\" (who) is spelled with a silent h.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvem-4",
+    "level": 2,
+    "ruleId": "silent-h-hv",
+    "prompt": "___ af jer har set filmen?",
+    "correct": "Hvem",
+    "incorrect": "Vem",
+    "explanation": "\"Hvem\" (who) — the h is silent but always written.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvem-5",
+    "level": 5,
+    "ruleId": "silent-h-hv",
+    "prompt": "Det fremgår ikke af brevet, ___ jeg skal henvende mig til.",
+    "correct": "hvem",
+    "incorrect": "vem",
+    "explanation": "Even in formal writing it is easy to drop the silent h — \"hvem\" (who) always has it.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvornaar-1",
+    "level": 1,
+    "ruleId": "silent-h-hv",
+    "prompt": "___ kommer bussen?",
+    "correct": "Hvornår",
+    "incorrect": "Vornår",
+    "explanation": "\"Hvornår\" (when) belongs to the hv-family and starts with a silent h.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvornaar-2",
+    "level": 2,
+    "ruleId": "silent-h-hv",
+    "prompt": "___ starter kurset?",
+    "correct": "Hvornår",
+    "incorrect": "Vornår",
+    "explanation": "Like every hv-question word, \"hvornår\" keeps its silent h.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvorfor-2",
+    "level": 2,
+    "ruleId": "silent-h-hv",
+    "prompt": "___ lærer du dansk?",
+    "correct": "Hvorfor",
+    "incorrect": "Vorfor",
+    "explanation": "\"Hvorfor\" (why) is built on \"hvor\", so it has the same silent h.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvorfor-3",
+    "level": 3,
+    "ruleId": "silent-h-hv",
+    "prompt": "Kan du forklare, ___ du kom for sent?",
+    "correct": "hvorfor",
+    "incorrect": "vorfor",
+    "explanation": "The silent h stays in indirect questions: \"hvorfor\" (why).",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvorfor-4",
+    "level": 4,
+    "ruleId": "silent-h-hv",
+    "prompt": "Jeg forstår godt, ___ du er utilfreds med svaret.",
+    "correct": "hvorfor",
+    "incorrect": "vorfor",
+    "explanation": "\"Hvorfor\" keeps its silent h whether it starts the sentence or not.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvorfor-5",
+    "level": 5,
+    "ruleId": "silent-h-hv",
+    "prompt": "Virksomheden har haft store problemer med leveringerne, ___ ledelsen nu vil ændre arbejdsgangene.",
+    "correct": "hvorfor",
+    "incorrect": "vorfor",
+    "explanation": "Here \"hvorfor\" means \"which is why\" — a formal use, but still spelled with the silent h.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvordan-2",
+    "level": 1,
+    "ruleId": "silent-h-hv",
+    "prompt": "___ staver man dit navn?",
+    "correct": "Hvordan",
+    "incorrect": "Vordan",
+    "explanation": "\"Hvordan\" (how) begins with a silent h — \"vordan\" is not a word.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvordan-3",
+    "level": 3,
+    "ruleId": "silent-h-hv",
+    "prompt": "Jeg ved ikke, ___ man udfylder skemaet.",
+    "correct": "hvordan",
+    "incorrect": "vordan",
+    "explanation": "\"Hvordan\" (how) keeps its silent h in an indirect question.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvordan-4",
+    "level": 4,
+    "ruleId": "silent-h-hv",
+    "prompt": "Jeg skriver for at høre, ___ det går med min sag.",
+    "correct": "hvordan",
+    "incorrect": "vordan",
+    "explanation": "In a formal letter too: \"hvordan\" (how) is spelled with a silent h.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvis-2",
+    "level": 2,
+    "ruleId": "silent-h-hv",
+    "prompt": "___ det regner, bliver vi hjemme.",
+    "correct": "Hvis",
+    "incorrect": "Vis",
+    "explanation": "\"Hvis\" (if) has a silent h — \"vis\" is a different word (show, wise).",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvis-3",
+    "level": 2,
+    "ruleId": "silent-h-hv",
+    "prompt": "Ring til mig, ___ du har brug for hjælp.",
+    "correct": "hvis",
+    "incorrect": "vis",
+    "explanation": "The conjunction \"if\" is \"hvis\" with a silent h — \"vis\" means show or wise.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvis-4",
+    "level": 3,
+    "ruleId": "silent-h-hv",
+    "prompt": "___ jeg havde mere tid, ville jeg læse flere bøger.",
+    "correct": "Hvis",
+    "incorrect": "Vis",
+    "explanation": "\"Hvis\" (if) — the h is silent, so only memory tells you it is there.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvis-5",
+    "level": 4,
+    "ruleId": "silent-h-hv",
+    "prompt": "___ du ønsker at klage over afgørelsen, skal du skrive til kommunen inden fire uger.",
+    "correct": "Hvis",
+    "incorrect": "Vis",
+    "explanation": "Conditional \"hvis\" (if) needs its silent h — \"vis\" would be the imperative \"show\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvilken-1",
+    "level": 2,
+    "ruleId": "silent-h-hv",
+    "prompt": "___ bus skal jeg tage til hospitalet?",
+    "correct": "Hvilken",
+    "incorrect": "Vilken",
+    "explanation": "\"Hvilken\" (which) has a silent h — \"vilken\" is Swedish, not Danish.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvilke-1",
+    "level": 3,
+    "ruleId": "silent-h-hv",
+    "prompt": "___ sprog taler du derhjemme?",
+    "correct": "Hvilke",
+    "incorrect": "Vilke",
+    "explanation": "The plural \"hvilke\" (which) keeps the same silent h as \"hvilken\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvilket-1",
+    "level": 2,
+    "ruleId": "silent-h-hv",
+    "prompt": "___ år er du født?",
+    "correct": "Hvilket",
+    "incorrect": "Vilket",
+    "explanation": "\"Hvilket\" (which, with et-words) starts with a silent h.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvilket-2",
+    "level": 4,
+    "ruleId": "silent-h-hv",
+    "prompt": "Toget var forsinket, ___ betød, at jeg kom for sent til mødet.",
+    "correct": "hvilket",
+    "incorrect": "vilket",
+    "explanation": "\"Hvilket\" referring back to a whole clause (\"which meant\") still has the silent h.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hver-1",
+    "level": 1,
+    "ruleId": "silent-h-hv",
+    "prompt": "Jeg træner ___ dag.",
+    "correct": "hver",
+    "incorrect": "ver",
+    "explanation": "\"Hver\" (every) begins with a silent h — \"ver\" is not a word.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hver-2",
+    "level": 2,
+    "ruleId": "silent-h-hv",
+    "prompt": "Vi tager på ferie ___ sommer.",
+    "correct": "hver",
+    "incorrect": "ver",
+    "explanation": "\"Hver\" (every) keeps its silent h, just like the question words.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hver-3",
+    "level": 3,
+    "ruleId": "silent-h-hv",
+    "prompt": "___ gang jeg ringer, er linjen optaget.",
+    "correct": "Hver",
+    "incorrect": "Ver",
+    "explanation": "\"Hver gang\" (every time) — the h is silent but written.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvert-1",
+    "level": 2,
+    "ruleId": "silent-h-hv",
+    "prompt": "Hun besøger sin mor ___ år.",
+    "correct": "hvert",
+    "incorrect": "vert",
+    "explanation": "\"Hvert\" (every, with et-words like \"år\") has a silent h — \"vert\" is not a word.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hverdage-1",
+    "level": 3,
+    "ruleId": "silent-h-hv",
+    "prompt": "På ___ står jeg op klokken seks.",
+    "correct": "hverdage",
+    "incorrect": "verdage",
+    "explanation": "\"Hverdage\" (weekdays) is built on \"hver\", so it has the same silent h.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvid-1",
+    "level": 1,
+    "ruleId": "silent-h-hv",
+    "prompt": "Sneen er ___.",
+    "correct": "hvid",
+    "incorrect": "vid",
+    "explanation": "\"Hvid\" (white) has a silent h — \"vid\" means wide.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvidvin-1",
+    "level": 2,
+    "ruleId": "silent-h-hv",
+    "prompt": "Vil du have rødvin eller ___?",
+    "correct": "hvidvin",
+    "incorrect": "vidvin",
+    "explanation": "\"Hvidvin\" (white wine) is built on \"hvid\", so it keeps the silent h.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvidloeg-1",
+    "level": 2,
+    "ruleId": "silent-h-hv",
+    "prompt": "Hak to fed ___ og kom dem i gryden.",
+    "correct": "hvidløg",
+    "incorrect": "vidløg",
+    "explanation": "\"Hvidløg\" (garlic, literally \"white onion\") keeps the silent h of \"hvid\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvalp-1",
+    "level": 2,
+    "ruleId": "silent-h-hv",
+    "prompt": "Vi har fået en ny ___.",
+    "correct": "hvalp",
+    "incorrect": "valp",
+    "explanation": "\"Hvalp\" (puppy) is not a question word, but it has the same silent h.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hval-1",
+    "level": 3,
+    "ruleId": "silent-h-hv",
+    "prompt": "Vi så en stor ___ ude på havet.",
+    "correct": "hval",
+    "incorrect": "val",
+    "explanation": "\"Hval\" (whale) starts with a silent h, like the English \"wh\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvile-1",
+    "level": 3,
+    "ruleId": "silent-h-hv",
+    "prompt": "Lægen siger, at jeg skal ___ mig et par dage.",
+    "correct": "hvile",
+    "incorrect": "vile",
+    "explanation": "\"Hvile\" (rest) has a silent h — the spelling keeps it although you never hear it.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hviskede-1",
+    "level": 3,
+    "ruleId": "silent-h-hv",
+    "prompt": "Hun ___ noget i hans øre.",
+    "correct": "hviskede",
+    "incorrect": "viskede",
+    "explanation": "\"Hviske\" (whisper) has a silent h — \"viske\" means wipe or rub out.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hverken-1",
+    "level": 3,
+    "ruleId": "silent-h-hv",
+    "prompt": "Han drikker ___ kaffe eller te.",
+    "correct": "hverken",
+    "incorrect": "verken",
+    "explanation": "\"Hverken … eller\" (neither … nor) has a silent h — \"verken\" is Swedish.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvorimod-1",
+    "level": 4,
+    "ruleId": "silent-h-hv",
+    "prompt": "Min bror elsker at rejse, ___ jeg helst bliver hjemme.",
+    "correct": "hvorimod",
+    "incorrect": "vorimod",
+    "explanation": "\"Hvorimod\" (whereas) is built on \"hvor\", so it has the same silent h.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvorvidt-1",
+    "level": 5,
+    "ruleId": "silent-h-hv",
+    "prompt": "Jeg vil gerne vide, ___ jeg er berettiget til boligstøtte.",
+    "correct": "hvorvidt",
+    "incorrect": "vorvidt",
+    "explanation": "\"Hvorvidt\" (whether) is formal, but it is still an hv-word with a silent h.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvorvidt-2",
+    "level": 5,
+    "ruleId": "silent-h-hv",
+    "prompt": "Kommunen har endnu ikke afgjort, ___ skolen skal lukkes.",
+    "correct": "hvorvidt",
+    "incorrect": "vorvidt",
+    "explanation": "\"Hvorvidt\" (whether) keeps the silent h of \"hvor\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-hvad-5",
+    "level": 3,
+    "ruleId": "silent-h-hv",
+    "prompt": "Det er svært at vide, ___ man skal tro på.",
+    "correct": "hvad",
+    "incorrect": "vad",
+    "explanation": "\"Hvad\" (what) keeps its silent h wherever it appears in the sentence.",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-4",
+    "level": 2,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Jeg har købt ___ nye sko.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "A plain positive statement about a plural amount (\"some new shoes\") takes \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-5",
+    "level": 2,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Vi har ___ spørgsmål til lægen.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "Stating that you have some questions is positive and plural, so it is \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-6",
+    "level": 2,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Der ligger ___ æbler på bordet.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "A positive statement about several apples takes \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-7",
+    "level": 2,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "___ gange tager jeg cyklen på arbejde.",
+    "correct": "Nogle",
+    "incorrect": "Nogen",
+    "explanation": "\"Nogle gange\" (sometimes) is a positive plural expression, so it is \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-8",
+    "level": 2,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Jeg skal købe ___ bananer.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "Positive statement, plural noun — \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-9",
+    "level": 2,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Vi har ___ gode naboer.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "A positive statement about some (plural) neighbours takes \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-10",
+    "level": 3,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "For ___ år siden boede vi i Aalborg.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "\"For nogle år siden\" (a few years ago) is positive and plural — \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-11",
+    "level": 3,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Jeg har ___ få spørgsmål.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "\"Nogle få\" (a few) is a fixed positive plural expression.",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-12",
+    "level": 3,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Hun har ___ gode idéer til festen.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "A positive statement about several ideas — \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-13",
+    "level": 3,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "I ___ tilfælde kan man få hjælp fra kommunen.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "\"I nogle tilfælde\" (in some cases) is positive and plural, so \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-14",
+    "level": 3,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Vi bliver hjemme i ___ dage, fordi børnene er syge.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "Positive statement, plural noun (\"some days\") — \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-15",
+    "level": 4,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Vi har modtaget ___ klager over støjen fra byggepladsen.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "Receiving some complaints is a positive statement about a plural amount — \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-16",
+    "level": 4,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Jeg har lavet ___ ændringer i dokumentet.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "Positive statement, plural noun (\"some changes\") — \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-17",
+    "level": 4,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Der er ___ ting, jeg gerne vil sige.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "A positive statement that some things exist takes \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-18",
+    "level": 4,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Om morgenen drikker jeg ___ kopper kaffe.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "Positive statement about several cups — \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-19",
+    "level": 4,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Jeg har brug for ___ dage til at tænke over tilbuddet.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "Needing some days is positive and plural, so \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-20",
+    "level": 5,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Jeg vil gerne komme med ___ kommentarer til kommunens forslag.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "A positive statement about several comments takes \"nogle\", also in formal writing.",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-21",
+    "level": 5,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Efter min mening er der ___ gode argumenter for at bevare biblioteket.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "Claiming that some arguments exist is positive and plural — \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-22",
+    "level": 5,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Jeg har ___ forslag til, hvordan vi kan forbedre arbejdsmiljøet.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "Positive statement, plural \"forslag\" — \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-23",
+    "level": 5,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Undersøgelsen viser, at ___ borgere føler sig ensomme.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "\"Some citizens\" in a positive statement is \"nogle borgere\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogle-24",
+    "level": 5,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Kommunen har gennemført ___ besparelser, som rammer de ældre hårdt.",
+    "correct": "nogle",
+    "incorrect": "nogen",
+    "explanation": "A positive statement about several cuts takes \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-4",
+    "level": 2,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Jeg har ikke ___ penge.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "A negative sentence (\"ikke\") takes \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-5",
+    "level": 2,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Er der ___ hjemme?",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "A question meaning \"anyone\" takes \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-6",
+    "level": 2,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Jeg kender ikke ___ i byen.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "\"Not … anyone\" is negative, so it is \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-7",
+    "level": 2,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Jeg har ikke ___ bil.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "Negative sentence with a singular noun — \"nogen\", never \"nogle\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-8",
+    "level": 3,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Har du ___ idé om, hvad klokken er?",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "A question with a singular noun (\"any idea\") takes \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-9",
+    "level": 3,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Hun har aldrig haft ___ problemer med sin chef.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "\"Aldrig\" (never) makes the sentence negative, so it is \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-10",
+    "level": 3,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Vi har ikke ___ børn.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "Even with a plural noun, a negative sentence takes \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-11",
+    "level": 3,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Hvis ___ ringer, så sig, at jeg er til møde.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "\"Hvis nogen ringer\" means \"if anyone calls\" — the pronoun \"anyone\" is \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-12",
+    "level": 3,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Har ___ set min taske?",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "A question meaning \"has anyone …?\" takes \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-13",
+    "level": 3,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Jeg har ikke ___ lyst til at gå ud i aften.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "Negative sentence with a singular noun (\"lyst\") — \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-14",
+    "level": 4,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Han gik uden at sige farvel til ___.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "\"Uden\" (without) works like a negation, and the meaning is \"anyone\" — \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-15",
+    "level": 4,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Der er ikke ___ grund til at bekymre sig.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "Negative sentence, singular noun (\"grund\") — \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-16",
+    "level": 4,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Jeg har ikke haft ___ tid til at læse lektier i denne uge.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "\"Ikke … nogen tid\" — negative, and \"tid\" is uncountable, so \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-17",
+    "level": 4,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Det gør ikke ___ forskel, om du kommer i dag eller i morgen.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "Negative sentence, singular noun (\"forskel\") — \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-18",
+    "level": 4,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Har du ___ erfaring med at arbejde i et køkken?",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "A question with an uncountable noun (\"erfaring\") takes \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-19",
+    "level": 4,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Jeg har aldrig mødt ___ så venlig som hende.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "\"Aldrig … nogen\" means \"never … anyone\" — negative, so \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-20",
+    "level": 4,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Jeg har ikke talt med ___ om problemet.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "\"Ikke … nogen\" means \"not … anyone\" — a negative sentence takes \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-21",
+    "level": 4,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Der var ikke ___ til stede ved mødet.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "\"Ikke nogen\" means \"nobody\" — negative sentences take \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-22",
+    "level": 5,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Jeg har endnu ikke modtaget ___ svar på min henvendelse af 3. marts.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "\"Ikke … nogen svar\" — a negative sentence takes \"nogen\", also in formal letters.",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-23",
+    "level": 5,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Det har ikke haft ___ betydning for min arbejdsindsats.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "Negative sentence, singular noun (\"betydning\") — \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-24",
+    "level": 5,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Hvis ___ har indvendinger mod planen, bedes vedkommende kontakte mig inden fredag.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "\"Hvis nogen\" means \"if anyone\" (one person, \"vedkommende\") — so \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-25",
+    "level": 5,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Jeg kan ikke se ___ fornuftig grund til at hæve prisen.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "Negative sentence, singular noun — \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-26",
+    "level": 5,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Der foreligger ikke ___ dokumentation for, at reglerne er blevet overholdt.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "\"Ikke … nogen dokumentation\" — negative with an uncountable noun, so \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-nogen-27",
+    "level": 5,
+    "ruleId": "nogen-vs-nogle",
+    "prompt": "Der er ikke ___ tvivl om, at klimaet er vores tids største udfordring.",
+    "correct": "nogen",
+    "incorrect": "nogle",
+    "explanation": "\"Ikke nogen tvivl\" (no doubt) is negative, so it takes \"nogen\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-4",
+    "level": 1,
+    "ruleId": "og-vs-at",
+    "prompt": "Jeg kan lide ___ læse.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Kan lide at\" (like to) is followed by an infinitive, so the marker is \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-5",
+    "level": 1,
+    "ruleId": "og-vs-at",
+    "prompt": "Det er dejligt ___ se dig.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Nice to see you\" — \"to\" before the infinitive is \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-6",
+    "level": 1,
+    "ruleId": "og-vs-at",
+    "prompt": "Jeg elsker ___ danse.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Danse\" is an infinitive depending on \"elsker\", so it takes \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-7",
+    "level": 2,
+    "ruleId": "og-vs-at",
+    "prompt": "Hun begynder ___ arbejde klokken otte.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Begynde at\" (begin to) — the infinitive after it takes \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-8",
+    "level": 2,
+    "ruleId": "og-vs-at",
+    "prompt": "Husk ___ købe mælk på vej hjem.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Husk at købe\" (remember to buy) — \"købe\" is an infinitive, so \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-9",
+    "level": 2,
+    "ruleId": "og-vs-at",
+    "prompt": "Jeg har glemt ___ ringe til tandlægen.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Glemme at\" (forget to) is followed by an infinitive with \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-10",
+    "level": 2,
+    "ruleId": "og-vs-at",
+    "prompt": "Vi glæder os til ___ holde ferie.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "After a preposition (\"til\") the verb is an infinitive with \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-11",
+    "level": 2,
+    "ruleId": "og-vs-at",
+    "prompt": "Det er sjovt ___ spille fodbold.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Fun to play\" — swap in \"to\" and it confirms \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-12",
+    "level": 3,
+    "ruleId": "og-vs-at",
+    "prompt": "Han er nødt til ___ tage toget i dag.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Være nødt til at\" (have to) always ends in \"at\" before the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-13",
+    "level": 3,
+    "ruleId": "og-vs-at",
+    "prompt": "Jeg har ikke tid til ___ lave mad i aften.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Tid til at\" (time to) — the infinitive takes \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-14",
+    "level": 3,
+    "ruleId": "og-vs-at",
+    "prompt": "Hun lovede ___ hjælpe mig med flytningen.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Love at\" (promise to) — \"hjælpe\" is an infinitive, so \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-15",
+    "level": 3,
+    "ruleId": "og-vs-at",
+    "prompt": "Det er vigtigt ___ sove nok.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Important to sleep\" — the infinitive after an adjective takes \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-16",
+    "level": 3,
+    "ruleId": "og-vs-at",
+    "prompt": "Jeg har besluttet ___ tage kørekort.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Beslutte at\" (decide to) — infinitive, so \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-17",
+    "level": 3,
+    "ruleId": "og-vs-at",
+    "prompt": "Vi går til fitness for ___ komme i bedre form.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"For at\" means \"in order to\" — always \"at\" before the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-18",
+    "level": 3,
+    "ruleId": "og-vs-at",
+    "prompt": "Hvornår begyndte du ___ lære dansk?",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Begynde at lære\" (begin to learn) — the infinitive takes \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-19",
+    "level": 4,
+    "ruleId": "og-vs-at",
+    "prompt": "Han gik uden ___ sige farvel.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Uden at\" (without …-ing) is followed by an infinitive with \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-20",
+    "level": 4,
+    "ruleId": "og-vs-at",
+    "prompt": "I stedet for ___ klage burde du gøre noget ved det.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"I stedet for at\" (instead of …-ing) — the verb is an infinitive with \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-21",
+    "level": 4,
+    "ruleId": "og-vs-at",
+    "prompt": "Jeg har svært ved ___ koncentrere mig, når der er larm.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Have svært ved at\" (find it hard to) — infinitive with \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-22",
+    "level": 4,
+    "ruleId": "og-vs-at",
+    "prompt": "Hun holdt op med ___ ryge for to år siden.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Holde op med at\" (stop …-ing) — the verb after the preposition takes \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-23",
+    "level": 4,
+    "ruleId": "og-vs-at",
+    "prompt": "Jeg nåede ikke ___ spise morgenmad i dag.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Nå at\" (manage to, have time to) is followed by an infinitive with \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-24",
+    "level": 4,
+    "ruleId": "og-vs-at",
+    "prompt": "Det lykkedes mig ___ bestå prøven.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Det lykkedes mig at\" (I managed to) — infinitive, so \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-25",
+    "level": 5,
+    "ruleId": "og-vs-at",
+    "prompt": "Jeg skriver for ___ ansøge om forlænget frist for min opgave.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"For at\" (in order to) — even in a formal letter the infinitive marker is \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-26",
+    "level": 5,
+    "ruleId": "og-vs-at",
+    "prompt": "Jeg vil opfordre kommunen til ___ genoverveje beslutningen.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Opfordre til at\" (urge to) — the infinitive after \"til\" takes \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-27",
+    "level": 5,
+    "ruleId": "og-vs-at",
+    "prompt": "Det er efter min mening urimeligt ___ hæve taksterne uden varsel.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Unreasonable to raise\" — an infinitive after an adjective takes \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-28",
+    "level": 5,
+    "ruleId": "og-vs-at",
+    "prompt": "Vi har desværre ikke mulighed for ___ imødekomme din anmodning.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Mulighed for at\" (possibility to) — infinitive with \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-29",
+    "level": 5,
+    "ruleId": "og-vs-at",
+    "prompt": "Formålet med projektet er ___ styrke samarbejdet mellem skole og hjem.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"The purpose is to strengthen\" — the infinitive takes \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-at-30",
+    "level": 5,
+    "ruleId": "og-vs-at",
+    "prompt": "Jeg ser frem til ___ høre fra Dem.",
+    "correct": "at",
+    "incorrect": "og",
+    "explanation": "\"Se frem til at\" (look forward to …-ing) — infinitive with \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-3",
+    "level": 1,
+    "ruleId": "og-vs-at",
+    "prompt": "Jeg har en bror ___ en søster.",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "Two equal things are joined (\"a brother and a sister\"), so it is \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-4",
+    "level": 1,
+    "ruleId": "og-vs-at",
+    "prompt": "Vi spiser ___ snakker.",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "Two parallel verbs in the same tense (\"eat and talk\") are joined by \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-5",
+    "level": 1,
+    "ruleId": "og-vs-at",
+    "prompt": "Kom ___ se!",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "\"Kom og se\" (come and see) joins two imperatives — \"og\", not \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-6",
+    "level": 1,
+    "ruleId": "og-vs-at",
+    "prompt": "Han kan godt lide kaffe ___ kage.",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "Two nouns side by side (\"coffee and cake\") are joined by \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-7",
+    "level": 2,
+    "ruleId": "og-vs-at",
+    "prompt": "Hun sidder ___ læser i sofaen.",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "\"Sidder og læser\" (is sitting reading) — both verbs are present tense, joined by \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-8",
+    "level": 2,
+    "ruleId": "og-vs-at",
+    "prompt": "Vi står ___ venter på bussen.",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "\"Står og venter\" — two verbs in the same tense, so \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-9",
+    "level": 2,
+    "ruleId": "og-vs-at",
+    "prompt": "Gå ud ___ leg i haven!",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "Two imperatives (\"go out and play\") are joined by \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-10",
+    "level": 2,
+    "ruleId": "og-vs-at",
+    "prompt": "Vi var i Tivoli ___ kørte i rutsjebanen.",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "\"Kørte\" is past tense like \"var\", not an infinitive — two parallel actions, so \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-11",
+    "level": 3,
+    "ruleId": "og-vs-at",
+    "prompt": "Han ligger ___ sover på sofaen.",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "\"Ligger og sover\" — both verbs are present tense, so they are joined by \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-12",
+    "level": 3,
+    "ruleId": "og-vs-at",
+    "prompt": "Jeg går ned ___ handler efter arbejde.",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "\"Handler\" has a present-tense -r, so it is a parallel verb joined by \"og\", not an infinitive.",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-13",
+    "level": 3,
+    "ruleId": "og-vs-at",
+    "prompt": "Hun kom hjem, lavede mad ___ gik i seng.",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "A list of past-tense actions is joined by \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-14",
+    "level": 3,
+    "ruleId": "og-vs-at",
+    "prompt": "Jeg prøver at læse ___ skrive lidt dansk hver dag.",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "\"Læse\" and \"skrive\" share one \"at\" and are joined by \"og\" (\"to read and write\").",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-15",
+    "level": 4,
+    "ruleId": "og-vs-at",
+    "prompt": "Jeg sad ___ tænkte på det hele natten.",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "\"Sad og tænkte\" — two past-tense verbs, joined by \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-16",
+    "level": 4,
+    "ruleId": "og-vs-at",
+    "prompt": "Vi skal både handle ind ___ gøre rent i dag.",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "\"Både … og\" (both … and) always uses \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-17",
+    "level": 4,
+    "ruleId": "og-vs-at",
+    "prompt": "Han tog toget til København ___ besøgte sin søster.",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "\"Besøgte\" is past tense, parallel to \"tog\" — so \"og\", not \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-18",
+    "level": 4,
+    "ruleId": "og-vs-at",
+    "prompt": "Hun stod ___ ventede i en halv time.",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "\"Stod og ventede\" — two past-tense verbs, joined by \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-19",
+    "level": 5,
+    "ruleId": "og-vs-at",
+    "prompt": "Kommunen bør lytte til borgerne ___ tage deres bekymringer alvorligt.",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "\"Lytte\" and \"tage\" both depend on \"bør\" — two parallel infinitives joined by \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-20",
+    "level": 5,
+    "ruleId": "og-vs-at",
+    "prompt": "Jeg har arbejdet som sygeplejerske i ti år ___ har stor erfaring med ældrepleje.",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "\"Har arbejdet … og har\" — two parallel finite verbs, so \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-og-21",
+    "level": 5,
+    "ruleId": "og-vs-at",
+    "prompt": "Medarbejderne skal kunne arbejde selvstændigt ___ samarbejde med andre.",
+    "correct": "og",
+    "incorrect": "at",
+    "explanation": "\"Arbejde\" and \"samarbejde\" both depend on \"kunne\" — two parallel infinitives joined by \"og\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laerer-3",
+    "level": 1,
+    "ruleId": "present-tense-r",
+    "prompt": "Hun ___ dansk på sprogskolen.",
+    "correct": "lærer",
+    "incorrect": "lære",
+    "explanation": "\"Lærer\" is the only verb in the clause and carries the tense — present tense, so it takes -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-laerer-4",
+    "level": 2,
+    "ruleId": "present-tense-r",
+    "prompt": "Vi skal ___ nye ord i dag.",
+    "correct": "lære",
+    "incorrect": "lærer",
+    "explanation": "After the helping verb \"skal\" the verb is an infinitive, so no -r: \"skal lære\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laerer-5",
+    "level": 4,
+    "ruleId": "present-tense-r",
+    "prompt": "Det er ikke nemt at ___ et nyt sprog som voksen.",
+    "correct": "lære",
+    "incorrect": "lærer",
+    "explanation": "After the infinitive marker \"at\" the verb has no -r: \"at lære\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-hedder-1",
+    "level": 1,
+    "ruleId": "present-tense-r",
+    "prompt": "Hvad ___ du?",
+    "correct": "hedder",
+    "incorrect": "hedde",
+    "explanation": "\"Hedder\" carries the tense — present tense, so it takes -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-bor-1",
+    "level": 1,
+    "ruleId": "present-tense-r",
+    "prompt": "Jeg ___ i Odense.",
+    "correct": "bor",
+    "incorrect": "bo",
+    "explanation": "\"Bor\" is the present tense of \"bo\" — the -r is needed when the verb carries the tense.",
+    "reviewed": false
+  },
+  {
+    "id": "s-bor-2",
+    "level": 2,
+    "ruleId": "present-tense-r",
+    "prompt": "Vi vil gerne ___ tæt på skolen.",
+    "correct": "bo",
+    "incorrect": "bor",
+    "explanation": "After \"vil\" the verb is an infinitive, so no -r: \"vil bo\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-koerer-1",
+    "level": 1,
+    "ruleId": "present-tense-r",
+    "prompt": "Han ___ bil til arbejde.",
+    "correct": "kører",
+    "incorrect": "køre",
+    "explanation": "\"Kører\" carries the tense in this sentence, so it takes the present-tense -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-koerer-2",
+    "level": 2,
+    "ruleId": "present-tense-r",
+    "prompt": "Kan du ___ mig til stationen?",
+    "correct": "køre",
+    "incorrect": "kører",
+    "explanation": "After the helping verb \"kan\" the verb is an infinitive, so no -r: \"kan køre\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-hoerer-1",
+    "level": 1,
+    "ruleId": "present-tense-r",
+    "prompt": "Jeg ___ radio om morgenen.",
+    "correct": "hører",
+    "incorrect": "høre",
+    "explanation": "\"Hører\" is the present-tense verb of the sentence, so it ends in -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-hoerer-2",
+    "level": 2,
+    "ruleId": "present-tense-r",
+    "prompt": "Jeg kan ikke ___, hvad du siger.",
+    "correct": "høre",
+    "incorrect": "hører",
+    "explanation": "After \"kan\" the verb is an infinitive, so no -r: \"kan ikke høre\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-spoerger-1",
+    "level": 2,
+    "ruleId": "present-tense-r",
+    "prompt": "Må jeg ___ dig om noget?",
+    "correct": "spørge",
+    "incorrect": "spørger",
+    "explanation": "After the helping verb \"må\" the verb is an infinitive, so no -r: \"må spørge\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-spoerger-2",
+    "level": 2,
+    "ruleId": "present-tense-r",
+    "prompt": "Læreren ___, om vi har lavet lektier.",
+    "correct": "spørger",
+    "incorrect": "spørge",
+    "explanation": "\"Spørger\" carries the tense — present tense, so it takes -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-bruger-1",
+    "level": 2,
+    "ruleId": "present-tense-r",
+    "prompt": "Hun ___ altid sin cykel.",
+    "correct": "bruger",
+    "incorrect": "bruge",
+    "explanation": "\"Bruger\" is the present-tense verb of the sentence, so it ends in -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-bruger-2",
+    "level": 3,
+    "ruleId": "present-tense-r",
+    "prompt": "Du skal ___ MitID for at logge ind.",
+    "correct": "bruge",
+    "incorrect": "bruger",
+    "explanation": "After \"skal\" the verb is an infinitive, so no -r: \"skal bruge\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-bruger-3",
+    "level": 5,
+    "ruleId": "present-tense-r",
+    "prompt": "Medarbejderne skal kunne ___ deres kompetencer i det daglige arbejde.",
+    "correct": "bruge",
+    "incorrect": "bruger",
+    "explanation": "After the helping verbs \"skal kunne\" the verb is an infinitive, so no -r: \"kunne bruge\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-proever-1",
+    "level": 2,
+    "ruleId": "present-tense-r",
+    "prompt": "Jeg ___ at tale dansk hver dag.",
+    "correct": "prøver",
+    "incorrect": "prøve",
+    "explanation": "\"Prøver\" carries the tense here; the infinitive is the next verb, \"at tale\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-proever-2",
+    "level": 3,
+    "ruleId": "present-tense-r",
+    "prompt": "Du bør ___ at komme lidt tidligere.",
+    "correct": "prøve",
+    "incorrect": "prøver",
+    "explanation": "After the helping verb \"bør\" the verb is an infinitive, so no -r: \"bør prøve\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-betyder-1",
+    "level": 2,
+    "ruleId": "present-tense-r",
+    "prompt": "Hvad ___ det ord?",
+    "correct": "betyder",
+    "incorrect": "betyde",
+    "explanation": "\"Betyder\" is the present-tense verb of the question, so it takes -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-betyder-2",
+    "level": 3,
+    "ruleId": "present-tense-r",
+    "prompt": "Det kan ___ mange forskellige ting.",
+    "correct": "betyde",
+    "incorrect": "betyder",
+    "explanation": "After \"kan\" the verb is an infinitive, so no -r: \"kan betyde\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-svarer-1",
+    "level": 2,
+    "ruleId": "present-tense-r",
+    "prompt": "Hun ___ ikke på mine beskeder.",
+    "correct": "svarer",
+    "incorrect": "svare",
+    "explanation": "\"Svarer\" carries the tense, so it is present tense with -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-svarer-2",
+    "level": 3,
+    "ruleId": "present-tense-r",
+    "prompt": "Du skal ___ på alle spørgsmålene.",
+    "correct": "svare",
+    "incorrect": "svarer",
+    "explanation": "After \"skal\" the verb is an infinitive, so no -r: \"skal svare\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-forstaar-1",
+    "level": 1,
+    "ruleId": "present-tense-r",
+    "prompt": "Jeg ___ ikke, hvad du mener.",
+    "correct": "forstår",
+    "incorrect": "forstå",
+    "explanation": "\"Forstår\" is the present tense of \"forstå\" — the -r shows it carries the tense.",
+    "reviewed": false
+  },
+  {
+    "id": "s-forstaar-2",
+    "level": 3,
+    "ruleId": "present-tense-r",
+    "prompt": "Det er svært at ___ ham, når han taler hurtigt.",
+    "correct": "forstå",
+    "incorrect": "forstår",
+    "explanation": "After the infinitive marker \"at\" the verb has no -r: \"at forstå\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-siger-1",
+    "level": 1,
+    "ruleId": "present-tense-r",
+    "prompt": "Hvad ___ han?",
+    "correct": "siger",
+    "incorrect": "sige",
+    "explanation": "\"Siger\" carries the tense in the question, so it takes -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-siger-2",
+    "level": 2,
+    "ruleId": "present-tense-r",
+    "prompt": "Hvad vil du ___ til hende?",
+    "correct": "sige",
+    "incorrect": "siger",
+    "explanation": "After \"vil\" the verb is an infinitive, so no -r: \"vil sige\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-siger-3",
+    "level": 4,
+    "ruleId": "present-tense-r",
+    "prompt": "Jeg synes, det er vigtigt at ___ sin mening.",
+    "correct": "sige",
+    "incorrect": "siger",
+    "explanation": "After \"at\" before a verb, the verb is an infinitive: \"at sige\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-goer-1",
+    "level": 2,
+    "ruleId": "present-tense-r",
+    "prompt": "Hvad ___ vi nu?",
+    "correct": "gør",
+    "incorrect": "gøre",
+    "explanation": "The present tense of \"gøre\" is the short form \"gør\" — \"gøre\" is the infinitive and only follows a helping verb or \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-goer-2",
+    "level": 3,
+    "ruleId": "present-tense-r",
+    "prompt": "Hvad skal jeg ___ for at få et sundhedskort?",
+    "correct": "gøre",
+    "incorrect": "gør",
+    "explanation": "After \"skal\" you need the infinitive \"gøre\", not the present tense \"gør\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-ser-1",
+    "level": 1,
+    "ruleId": "present-tense-r",
+    "prompt": "Jeg ___ fjernsyn om aftenen.",
+    "correct": "ser",
+    "incorrect": "se",
+    "explanation": "The present tense of \"se\" is \"ser\" — the -r is needed because it carries the tense.",
+    "reviewed": false
+  },
+  {
+    "id": "s-ser-2",
+    "level": 2,
+    "ruleId": "present-tense-r",
+    "prompt": "Vil du ___ film i aften?",
+    "correct": "se",
+    "incorrect": "ser",
+    "explanation": "After \"vil\" the verb is the infinitive \"se\", without -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-ringer-1",
+    "level": 2,
+    "ruleId": "present-tense-r",
+    "prompt": "Min mor ___ til mig hver søndag.",
+    "correct": "ringer",
+    "incorrect": "ringe",
+    "explanation": "\"Ringer\" carries the tense here — present tense, so it takes -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-ringer-2",
+    "level": 3,
+    "ruleId": "present-tense-r",
+    "prompt": "Jeg skal huske at ___ til lægen i morgen.",
+    "correct": "ringe",
+    "incorrect": "ringer",
+    "explanation": "After the marker \"at\" the verb is an infinitive: \"at ringe\", no -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-arbejder-1",
+    "level": 2,
+    "ruleId": "present-tense-r",
+    "prompt": "Han ___ på et lager i Kolding.",
+    "correct": "arbejder",
+    "incorrect": "arbejde",
+    "explanation": "\"Arbejder\" is the present-tense verb of the sentence, so it ends in -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-arbejder-2",
+    "level": 3,
+    "ruleId": "present-tense-r",
+    "prompt": "Hun begyndte at ___ som pædagog sidste år.",
+    "correct": "arbejde",
+    "incorrect": "arbejder",
+    "explanation": "After \"at\" the verb is an infinitive, so no -r: \"at arbejde\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-arbejder-3",
+    "level": 4,
+    "ruleId": "present-tense-r",
+    "prompt": "Jeg ved, at han ___ meget.",
+    "correct": "arbejder",
+    "incorrect": "arbejde",
+    "explanation": "Here \"at\" means \"that\" and is followed by a subject (\"han\"), so the verb carries the tense and takes -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-kommer-1",
+    "level": 4,
+    "ruleId": "present-tense-r",
+    "prompt": "Det er dejligt, at du ___ med i aften.",
+    "correct": "kommer",
+    "incorrect": "komme",
+    "explanation": "\"At\" here means \"that\" and is followed by the subject \"du\" — the verb is present tense with -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-kommer-2",
+    "level": 3,
+    "ruleId": "present-tense-r",
+    "prompt": "Når hun ___ hjem fra arbejde, er hun træt.",
+    "correct": "kommer",
+    "incorrect": "komme",
+    "explanation": "\"Kommer\" carries the tense in the \"når\" clause, so it takes -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-faar-1",
+    "level": 4,
+    "ruleId": "present-tense-r",
+    "prompt": "Jeg håber, at I ___ en god weekend.",
+    "correct": "får",
+    "incorrect": "få",
+    "explanation": "\"At\" means \"that\" here and has its own subject (\"I\"), so the verb is present tense: \"får\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-mangler-1",
+    "level": 5,
+    "ruleId": "present-tense-r",
+    "prompt": "Jeg skriver til jer, fordi jeg ___ en bekræftelse på min adresseændring.",
+    "correct": "mangler",
+    "incorrect": "mangle",
+    "explanation": "In the \"fordi\" clause \"mangler\" carries the tense, so it is present tense with -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-ansoeger-1",
+    "level": 5,
+    "ruleId": "present-tense-r",
+    "prompt": "Jeg vil hermed ___ om tilskud til tandbehandling.",
+    "correct": "ansøge",
+    "incorrect": "ansøger",
+    "explanation": "After the helping verb \"vil\" the verb is an infinitive, so no -r: \"vil ansøge\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-foeler-1",
+    "level": 5,
+    "ruleId": "present-tense-r",
+    "prompt": "Undersøgelsen viser, at mange unge ___ sig stressede.",
+    "correct": "føler",
+    "incorrect": "føle",
+    "explanation": "\"At\" means \"that\" and is followed by a subject (\"mange unge\"), so the verb is present tense with -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-tager-1",
+    "level": 5,
+    "ruleId": "present-tense-r",
+    "prompt": "Det er afgørende, at kommunen ___ sit ansvar alvorligt.",
+    "correct": "tager",
+    "incorrect": "tage",
+    "explanation": "\"At kommunen …\" is a that-clause with its own subject, so the verb carries the tense: \"tager\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-tager-2",
+    "level": 3,
+    "ruleId": "present-tense-r",
+    "prompt": "Hun plejer at ___ bussen.",
+    "correct": "tage",
+    "incorrect": "tager",
+    "explanation": "After \"plejer at\" the verb is an infinitive, so no -r: \"at tage\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-inddrager-1",
+    "level": 5,
+    "ruleId": "present-tense-r",
+    "prompt": "Ledelsen bør ___ medarbejderne mere i beslutningerne.",
+    "correct": "inddrage",
+    "incorrect": "inddrager",
+    "explanation": "After the helping verb \"bør\" the verb is an infinitive, so no -r: \"bør inddrage\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-kontakter-1",
+    "level": 5,
+    "ruleId": "present-tense-r",
+    "prompt": "Jeg forventer, at I ___ mig, når sagen er afgjort.",
+    "correct": "kontakter",
+    "incorrect": "kontakte",
+    "explanation": "This \"at\" means \"that\" and is followed by the subject \"I\", so the verb is present tense with -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-betaler-1",
+    "level": 3,
+    "ruleId": "present-tense-r",
+    "prompt": "Han ___ altid sine regninger til tiden.",
+    "correct": "betaler",
+    "incorrect": "betale",
+    "explanation": "\"Betaler\" carries the tense — present tense, so it takes -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-betaler-2",
+    "level": 3,
+    "ruleId": "present-tense-r",
+    "prompt": "Du må gerne ___ med kort.",
+    "correct": "betale",
+    "incorrect": "betaler",
+    "explanation": "After \"må\" the verb is an infinitive, so no -r: \"må betale\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-husker-1",
+    "level": 2,
+    "ruleId": "present-tense-r",
+    "prompt": "Jeg kan ikke ___ hans navn.",
+    "correct": "huske",
+    "incorrect": "husker",
+    "explanation": "After \"kan\" the verb is an infinitive, so no -r: \"kan huske\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-taler-1",
+    "level": 4,
+    "ruleId": "present-tense-r",
+    "prompt": "Selvom han ___ dansk hver dag, synes han, det er svært.",
+    "correct": "taler",
+    "incorrect": "tale",
+    "explanation": "In the \"selvom\" clause \"taler\" carries the tense, so it takes -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-opsiger-1",
+    "level": 5,
+    "ruleId": "present-tense-r",
+    "prompt": "Jeg ___ hermed min stilling med virkning fra 1. maj.",
+    "correct": "opsiger",
+    "incorrect": "opsige",
+    "explanation": "\"Opsiger\" is the only verb in the sentence and carries the tense — present tense with -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-leger-1",
+    "level": 1,
+    "ruleId": "present-tense-r",
+    "prompt": "Børnene ___ i parken.",
+    "correct": "leger",
+    "incorrect": "lege",
+    "explanation": "\"Leger\" is the present-tense verb of the sentence, so it ends in -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-spiser-1",
+    "level": 1,
+    "ruleId": "present-tense-r",
+    "prompt": "Han ___ morgenmad klokken syv.",
+    "correct": "spiser",
+    "incorrect": "spise",
+    "explanation": "\"Spiser\" carries the tense, so it takes the present-tense -r.",
+    "reviewed": false
+  },
+  {
+    "id": "s-spiser-2",
+    "level": 1,
+    "ruleId": "present-tense-r",
+    "prompt": "Vi skal ___ nu.",
+    "correct": "spise",
+    "incorrect": "spiser",
+    "explanation": "After the helping verb \"skal\" the verb is an infinitive, so no -r: \"skal spise\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-ligge-2",
+    "level": 2,
+    "ruleId": "ligge-laegge",
+    "prompt": "Bogen ___ på bordet.",
+    "correct": "ligger",
+    "incorrect": "lægger",
+    "explanation": "The book is just lying there — nothing is being moved, so it is \"ligge\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-2",
+    "level": 2,
+    "ruleId": "ligge-laegge",
+    "prompt": "Jeg ___ telefonen i tasken.",
+    "correct": "lægger",
+    "incorrect": "ligger",
+    "explanation": "You put the phone somewhere — \"lægge\" has an object (\"telefonen\").",
+    "reviewed": false
+  },
+  {
+    "id": "s-ligge-3",
+    "level": 2,
+    "ruleId": "ligge-laegge",
+    "prompt": "Hvor ___ Odense?",
+    "correct": "ligger",
+    "incorrect": "lægger",
+    "explanation": "A town's location is described with \"ligge\" — the town is not putting anything anywhere.",
+    "reviewed": false
+  },
+  {
+    "id": "s-ligge-4",
+    "level": 2,
+    "ruleId": "ligge-laegge",
+    "prompt": "Katten ___ og sover i solen.",
+    "correct": "ligger",
+    "incorrect": "lægger",
+    "explanation": "The cat is simply lying there, with no object, so it is \"ligge\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-ligge-5",
+    "level": 2,
+    "ruleId": "ligge-laegge",
+    "prompt": "Børnene ___ i sengen nu.",
+    "correct": "ligger",
+    "incorrect": "lægger",
+    "explanation": "The children are lying in bed — no object, so \"ligge\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-3",
+    "level": 2,
+    "ruleId": "ligge-laegge",
+    "prompt": "Jeg ___ dynen på sengen.",
+    "correct": "lægger",
+    "incorrect": "ligger",
+    "explanation": "You lay the duvet on the bed — something is being put somewhere, so \"lægge\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-4",
+    "level": 3,
+    "ruleId": "ligge-laegge",
+    "prompt": "___ dine sko i skabet, tak.",
+    "correct": "Læg",
+    "incorrect": "Lig",
+    "explanation": "You are telling someone to put their shoes somewhere — the imperative of \"lægge\" is \"læg\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-5",
+    "level": 3,
+    "ruleId": "ligge-laegge",
+    "prompt": "___ dig ned og hvil dig.",
+    "correct": "Læg",
+    "incorrect": "Lig",
+    "explanation": "\"Lægge sig\" (lie down) is reflexive — you lay yourself down, so the imperative is \"læg dig\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-ligge-6",
+    "level": 3,
+    "ruleId": "ligge-laegge",
+    "prompt": "I går ___ jeg i sengen hele dagen.",
+    "correct": "lå",
+    "incorrect": "lagde",
+    "explanation": "You were simply lying there — the past tense of \"ligge\" is \"lå\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-6",
+    "level": 3,
+    "ruleId": "ligge-laegge",
+    "prompt": "Hun ___ nøglerne på køkkenbordet.",
+    "correct": "lagde",
+    "incorrect": "lå",
+    "explanation": "She put the keys somewhere — the past tense of \"lægge\" is \"lagde\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-7",
+    "level": 3,
+    "ruleId": "ligge-laegge",
+    "prompt": "Jeg har ___ brevet i din postkasse.",
+    "correct": "lagt",
+    "incorrect": "ligget",
+    "explanation": "Something was put somewhere, so it is \"lægge\" — its past participle is \"lagt\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-ligge-7",
+    "level": 3,
+    "ruleId": "ligge-laegge",
+    "prompt": "Pakken har ___ på posthuset i en uge.",
+    "correct": "ligget",
+    "incorrect": "lagt",
+    "explanation": "The parcel has just been lying there — the past participle of \"ligge\" is \"ligget\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-8",
+    "level": 3,
+    "ruleId": "ligge-laegge",
+    "prompt": "Jeg er træt, så jeg ___ mig lidt på sofaen.",
+    "correct": "lægger",
+    "incorrect": "ligger",
+    "explanation": "\"Lægge sig\" (lie down) takes the object \"mig\" — you lay yourself down, so \"lægger\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-ligge-8",
+    "level": 3,
+    "ruleId": "ligge-laegge",
+    "prompt": "Han ___ syg med influenza hele sidste uge.",
+    "correct": "lå",
+    "incorrect": "lagde",
+    "explanation": "\"Ligge syg\" (be ill in bed) uses \"ligge\", past tense \"lå\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-9",
+    "level": 3,
+    "ruleId": "ligge-laegge",
+    "prompt": "Hvor ___ du mine briller?",
+    "correct": "lagde",
+    "incorrect": "lå",
+    "explanation": "You put the glasses somewhere — \"lægge\", past tense \"lagde\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-ligge-9",
+    "level": 3,
+    "ruleId": "ligge-laegge",
+    "prompt": "Mine briller ___ på natbordet i morges.",
+    "correct": "lå",
+    "incorrect": "lagde",
+    "explanation": "The glasses were just lying there — \"ligge\", past tense \"lå\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-10",
+    "level": 3,
+    "ruleId": "ligge-laegge",
+    "prompt": "Hun ___ babyen i barnevognen.",
+    "correct": "lagde",
+    "incorrect": "lå",
+    "explanation": "She put the baby somewhere — \"lægge\" with an object, past tense \"lagde\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-ligge-10",
+    "level": 3,
+    "ruleId": "ligge-laegge",
+    "prompt": "Hun ___ ofte og læser i sengen om aftenen.",
+    "correct": "ligger",
+    "incorrect": "lægger",
+    "explanation": "\"Ligger og læser\" — she is lying there reading, with no object, so \"ligge\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-ligge-11",
+    "level": 3,
+    "ruleId": "ligge-laegge",
+    "prompt": "Vores hotel ___ lige ved stranden.",
+    "correct": "ligger",
+    "incorrect": "lægger",
+    "explanation": "A building's location uses \"ligge\" — it is not putting anything anywhere.",
+    "reviewed": false
+  },
+  {
+    "id": "s-ligge-12",
+    "level": 3,
+    "ruleId": "ligge-laegge",
+    "prompt": "Huset ___ på en stille villavej.",
+    "correct": "ligger",
+    "incorrect": "lægger",
+    "explanation": "Location again: the house \"ligger\" there, with no object.",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-11",
+    "level": 3,
+    "ruleId": "ligge-laegge",
+    "prompt": "Hvor har du ___ nøglerne?",
+    "correct": "lagt",
+    "incorrect": "ligget",
+    "explanation": "You put the keys somewhere — \"lægge\", so the past participle is \"lagt\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-ligge-13",
+    "level": 4,
+    "ruleId": "ligge-laegge",
+    "prompt": "Lægen sagde, at jeg skulle ___ i sengen i tre dage.",
+    "correct": "ligge",
+    "incorrect": "lægge",
+    "explanation": "\"Ligge i sengen\" (stay in bed) has no object, so it is \"ligge\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-12",
+    "level": 4,
+    "ruleId": "ligge-laegge",
+    "prompt": "Har du ___ mærke til, at butikken er lukket?",
+    "correct": "lagt",
+    "incorrect": "ligget",
+    "explanation": "\"Lægge mærke til\" (notice) is a fixed expression with \"lægge\" — past participle \"lagt\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-13",
+    "level": 4,
+    "ruleId": "ligge-laegge",
+    "prompt": "Jeg ___ mærke til, at hun var ked af det.",
+    "correct": "lagde",
+    "incorrect": "lå",
+    "explanation": "\"Lægge mærke til\" (notice) always uses \"lægge\" — past tense \"lagde\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-14",
+    "level": 4,
+    "ruleId": "ligge-laegge",
+    "prompt": "Vores firma ___ stor vægt på god service.",
+    "correct": "lægger",
+    "incorrect": "ligger",
+    "explanation": "\"Lægge vægt på\" (emphasise) is a fixed expression with \"lægge\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-ligge-14",
+    "level": 4,
+    "ruleId": "ligge-laegge",
+    "prompt": "Jeg ___ vågen hele natten og tænkte på eksamen.",
+    "correct": "lå",
+    "incorrect": "lagde",
+    "explanation": "\"Ligge vågen\" (lie awake) uses \"ligge\" — past tense \"lå\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-15",
+    "level": 4,
+    "ruleId": "ligge-laegge",
+    "prompt": "Hvis du ___ dig nu, kan du sove i otte timer.",
+    "correct": "lægger",
+    "incorrect": "ligger",
+    "explanation": "\"Lægge sig\" (go to bed, lie down) is reflexive — \"lægger dig\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-ligge-15",
+    "level": 4,
+    "ruleId": "ligge-laegge",
+    "prompt": "Han har ___ på hospitalet siden mandag.",
+    "correct": "ligget",
+    "incorrect": "lagt",
+    "explanation": "Being in hospital is \"ligge på hospitalet\" — past participle \"ligget\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-16",
+    "level": 4,
+    "ruleId": "ligge-laegge",
+    "prompt": "Kan du ___ de to tal sammen?",
+    "correct": "lægge",
+    "incorrect": "ligge",
+    "explanation": "\"Lægge sammen\" (add up) takes an object (\"de to tal\"), so it is \"lægge\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-17",
+    "level": 4,
+    "ruleId": "ligge-laegge",
+    "prompt": "Vi skal ___ en plan for næste uge.",
+    "correct": "lægge",
+    "incorrect": "ligge",
+    "explanation": "\"Lægge en plan\" (make a plan) — you are making something, so \"lægge\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-18",
+    "level": 4,
+    "ruleId": "ligge-laegge",
+    "prompt": "Jeg ___ en besked på din telefonsvarer i går.",
+    "correct": "lagde",
+    "incorrect": "lå",
+    "explanation": "\"Lægge en besked\" (leave a message) uses \"lægge\" — past tense \"lagde\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-ligge-16",
+    "level": 4,
+    "ruleId": "ligge-laegge",
+    "prompt": "Sneen ___ på jorden i flere uger sidste vinter.",
+    "correct": "lå",
+    "incorrect": "lagde",
+    "explanation": "The snow just lay there — \"ligge\", past tense \"lå\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-19",
+    "level": 5,
+    "ruleId": "ligge-laegge",
+    "prompt": "Ved ansættelsen vil vi ___ vægt på erfaring med kundeservice.",
+    "correct": "lægge",
+    "incorrect": "ligge",
+    "explanation": "\"Lægge vægt på\" (attach importance to) is a fixed expression with \"lægge\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-20",
+    "level": 5,
+    "ruleId": "ligge-laegge",
+    "prompt": "Kommunen bør ___ større vægt på borgernes trivsel end på økonomien.",
+    "correct": "lægge",
+    "incorrect": "ligge",
+    "explanation": "\"Lægge vægt på\" (give weight to) always takes \"lægge\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-ligge-17",
+    "level": 5,
+    "ruleId": "ligge-laegge",
+    "prompt": "Undersøgelsen ___ til grund for den nye lov.",
+    "correct": "ligger",
+    "incorrect": "lægger",
+    "explanation": "\"Ligge til grund for\" (form the basis of) has no object, so it is \"ligge\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-21",
+    "level": 5,
+    "ruleId": "ligge-laegge",
+    "prompt": "Der bliver ___ et stort pres på medarbejderne i øjeblikket.",
+    "correct": "lagt",
+    "incorrect": "ligget",
+    "explanation": "\"Lægge pres på\" (put pressure on) uses \"lægge\" — past participle \"lagt\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-22",
+    "level": 5,
+    "ruleId": "ligge-laegge",
+    "prompt": "Jeg har ikke ___ skjul på, at jeg er uenig i beslutningen.",
+    "correct": "lagt",
+    "incorrect": "ligget",
+    "explanation": "\"Lægge skjul på\" (hide, conceal) is a fixed expression with \"lægge\" — \"lagt\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-ligge-18",
+    "level": 5,
+    "ruleId": "ligge-laegge",
+    "prompt": "Ansvaret for opgaven ___ hos afdelingslederen.",
+    "correct": "ligger",
+    "incorrect": "lægger",
+    "explanation": "Where responsibility lies is \"ligge\" — the responsibility is not putting anything anywhere.",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-23",
+    "level": 5,
+    "ruleId": "ligge-laegge",
+    "prompt": "Forslaget ___ op til, at borgerne selv skal betale mere.",
+    "correct": "lægger",
+    "incorrect": "ligger",
+    "explanation": "\"Lægge op til\" (pave the way for, suggest) is a fixed expression with \"lægge\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-24",
+    "level": 5,
+    "ruleId": "ligge-laegge",
+    "prompt": "I mit tidligere job ___ jeg stor vægt på at skabe et godt samarbejde.",
+    "correct": "lagde",
+    "incorrect": "lå",
+    "explanation": "\"Lægge vægt på\" in the past tense is \"lagde vægt på\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-ligge-19",
+    "level": 5,
+    "ruleId": "ligge-laegge",
+    "prompt": "Det ___ mig meget på sinde, at alle børn får en god start i skolen.",
+    "correct": "ligger",
+    "incorrect": "lægger",
+    "explanation": "\"Ligge én på sinde\" (matter a lot to someone) is a fixed expression with \"ligge\".",
+    "reviewed": false
+  },
+  {
+    "id": "s-laegge-25",
+    "level": 5,
+    "ruleId": "ligge-laegge",
+    "prompt": "Vi forventer, at de nye regler bliver ___ frem på næste byrådsmøde.",
+    "correct": "lagt",
+    "incorrect": "ligget",
+    "explanation": "\"Lægge frem\" (present, put forward) uses \"lægge\" — past participle \"lagt\".",
+    "reviewed": false
+  }
+]

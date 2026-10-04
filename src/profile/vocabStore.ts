@@ -6,17 +6,16 @@
  * total it no longer deserves.
  */
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
-import { createJSONStorage, persist } from 'zustand/middleware';
-import { VOCABULARY } from '../content/vocabulary';
+import { MAX_LEVEL, poolForLevel, type Level } from '../content/levels';
+import { VOCABULARY, vocabById } from '../content/vocabulary';
 import {
-  applyOutcome,
   EMPTY_STAT,
   progressFor,
   type ItemProgress,
   type ItemStat,
 } from './mastery';
+import { recordAnswer, recordReset } from '../sync/bus';
 
 interface VocabState {
   stats: Record<string, ItemStat>;
@@ -27,38 +26,33 @@ interface VocabState {
   reset: () => void;
 }
 
-export const useVocabProfile = create<VocabState>()(
-  persist(
-    (set) => ({
-      stats: {},
-      hydrated: false,
-
-      record: (wordId, knewIt) =>
-        set((state) => {
-          const prev = state.stats[wordId] ?? { ...EMPTY_STAT };
-          return { stats: { ...state.stats, [wordId]: applyOutcome(prev, knewIt) } };
-        }),
-
-      reset: () => set({ stats: {} }),
+/** Word mastery, derived from the progress log like every other domain (see sync/log.ts). */
+export const useVocabProfile = create<VocabState>()(() => ({
+  stats: {},
+  hydrated: true,
+  record: (wordId, knewIt) =>
+    recordAnswer({
+      domain: 'vocab',
+      itemId: wordId,
+      level: vocabById(wordId)?.level ?? null,
+      outcomes: { [wordId]: knewIt },
+      correct: knewIt,
     }),
-    {
-      name: 'skema-vocab-v1',
-      storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ stats: s.stats }),
-      onRehydrateStorage: () => (state) => {
-        if (state) state.hydrated = true;
-      },
-    },
-  ),
-);
+  reset: () => recordReset('vocab'),
+}));
 
 export type VocabProgress = ItemProgress<string>;
 
 export function vocabProgress(
   stats: Record<string, ItemStat>,
   now = Date.now(),
+  level: Level = MAX_LEVEL,
 ): VocabProgress[] {
-  return VOCABULARY.map((v) => progressFor(v.id, stats[v.id] ?? EMPTY_STAT, now));
+  // The deck is the words up to the learner's niveau — plus any word they have
+  // already practised, so progress never disappears from view.
+  return VOCABULARY.filter((v) => v.level <= level || stats[v.id]?.attempts).map((v) =>
+    progressFor(v.id, stats[v.id] ?? EMPTY_STAT, now),
+  );
 }
 
 export interface VocabSummary {
@@ -70,8 +64,9 @@ export interface VocabSummary {
 export function summarizeVocab(
   stats: Record<string, ItemStat>,
   now = Date.now(),
+  level: Level = MAX_LEVEL,
 ): VocabSummary {
-  const progress = vocabProgress(stats, now);
+  const progress = vocabProgress(stats, now, level);
   return {
     mastered: progress.filter((p) => p.level === 'mastered').length,
     total: progress.length,
@@ -92,11 +87,11 @@ export function nextWord(
   stats: Record<string, ItemStat>,
   lastWordId?: string,
   now = Date.now(),
+  level: Level = MAX_LEVEL,
 ): (typeof VOCABULARY)[number] {
-  const progress = new Map(vocabProgress(stats, now).map((p) => [p.id, p]));
-
-  const scored = VOCABULARY.map((v) => {
-    const p = progress.get(v.id)!;
+  const pool = poolForLevel(VOCABULARY, level);
+  const scored = pool.map((v) => {
+    const p = progressFor(v.id, stats[v.id] ?? EMPTY_STAT, now);
     const weakness = p.attempts ? 1 - p.strength : 0.6;
     const unseenBonus = p.attempts === 0 ? 0.3 : 0;
     const repeatPenalty = v.id === lastWordId ? -1 : 0;

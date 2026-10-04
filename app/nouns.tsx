@@ -1,5 +1,4 @@
 import React, { useCallback, useState } from 'react';
-import { useActivity } from '../src/profile/activity';
 import { Pressable, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { NOUN_RULES } from '../src/grammar/nounRules';
@@ -9,6 +8,8 @@ import { Screen } from '../src/ui/Screen';
 import { Button, Card, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
 import { levelLabel } from '../src/profile/mastery';
+import { currentLevelNow } from '../src/profile/levelStore';
+import { LevelBadge, LevelUpNotice } from '../src/ui/LevelBadge';
 
 /**
  * The en/et trainer.
@@ -26,7 +27,9 @@ export default function Nouns() {
   const stats = useNounProfile((st) => st.stats);
   const record = useNounProfile((st) => st.record);
 
-  const [question, setQuestion] = useState<NounQuestion>(() => nextNounQuestion(stats));
+  const [question, setQuestion] = useState<NounQuestion>(() =>
+    nextNounQuestion(stats, undefined, Date.now(), currentLevelNow('nouns')),
+  );
   const [picked, setPicked] = useState<number | null>(null);
 
   const progress = nounRuleProgress(stats);
@@ -36,14 +39,18 @@ export default function Nouns() {
     (i: number) => {
       if (picked !== null) return;
       setPicked(i);
-      record(question.ruleId, i === question.correctIndex);
-      useActivity.getState().markToday();
+      record(question.ruleId, i === question.correctIndex, { id: question.noun.id, level: question.noun.level });
     },
     [picked, question, record],
   );
 
   const advance = useCallback(() => {
-    const nxt = nextNounQuestion(useNounProfile.getState().stats, question.noun.id);
+    const nxt = nextNounQuestion(
+      useNounProfile.getState().stats,
+      question.noun.id,
+      Date.now(),
+      currentLevelNow('nouns'),
+    );
     setQuestion(nxt);
     setPicked(null);
   }, [question.noun.id]);
@@ -87,8 +94,13 @@ export default function Nouns() {
         ))}
       </View>
 
+      <LevelUpNotice domain="nouns" />
+
       <Card tone="sunken">
-        <Label>{rule.da}</Label>
+        <View style={s.rowBetween}>
+          <Label>{rule.da}</Label>
+          <LevelBadge level={question.noun.level} />
+        </View>
         <Txt variant="title" style={{ marginTop: t.space(2) }}>
           {question.prompt}
         </Txt>

@@ -4,60 +4,46 @@
  * sentences has a gap in that rule, not in those specific sentences.
  */
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
-import { createJSONStorage, persist } from 'zustand/middleware';
 import { commaExamplesForRule } from '../content/commaExamples';
+import { MAX_LEVEL, poolForLevel, type Level } from '../content/levels';
 import { buildCommaQuestion, type CommaQuestion } from '../grammar/commaExercise';
 import { ALL_COMMA_RULE_IDS, type CommaRuleId } from '../grammar/commaRules';
 import {
-  applyOutcome,
   EMPTY_STAT,
   progressFor,
   type ItemProgress,
   type ItemStat,
 } from './mastery';
+import { recordAnswer, recordReset } from '../sync/bus';
 
 interface CommaState {
   stats: Record<CommaRuleId, ItemStat>;
   hydrated: boolean;
-  record: (ruleId: CommaRuleId, correct: boolean) => void;
+  /** `item` is what was answered: its id and niveau go into the log. */
+  record: (ruleId: CommaRuleId, correct: boolean, item: { id: string; level: Level }) => void;
   reset: () => void;
 }
 
-function emptyStats(): Record<CommaRuleId, ItemStat> {
+export function emptyStats(): Record<CommaRuleId, ItemStat> {
   return Object.fromEntries(ALL_COMMA_RULE_IDS.map((id) => [id, { ...EMPTY_STAT }])) as Record<
     CommaRuleId,
     ItemStat
   >;
 }
 
-export const useCommaProfile = create<CommaState>()(
-  persist(
-    (set) => ({
-      stats: emptyStats(),
-      hydrated: false,
-
-      record: (ruleId, correct) =>
-        set((state) => ({
-          stats: {
-            ...state.stats,
-            [ruleId]: applyOutcome(state.stats[ruleId] ?? { ...EMPTY_STAT }, correct),
-          },
-        })),
-
-      reset: () => set({ stats: emptyStats() }),
-    }),
-    {
-      name: 'skema-comma-v1',
-      storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ stats: s.stats }),
-      onRehydrateStorage: () => (state) => {
-        if (state) state.hydrated = true;
-      },
-    },
-  ),
-);
+/**
+ * Mastery per rule, derived from the progress log (sync/log.ts publishes it
+ * here). `record` adds an answer to the log rather than editing stats, so
+ * progress syncs and replays exactly.
+ */
+export const useCommaProfile = create<CommaState>()(() => ({
+  stats: emptyStats(),
+  hydrated: true,
+  record: (ruleId, correct, item) =>
+    recordAnswer({ domain: 'comma', itemId: item.id, level: item.level, outcomes: { [ruleId]: correct }, correct }),
+  reset: () => recordReset('comma'),
+}));
 
 export type CommaRuleProgress = ItemProgress<CommaRuleId>;
 
@@ -92,6 +78,7 @@ export function nextCommaQuestion(
   stats: Record<CommaRuleId, ItemStat>,
   lastEntryId?: string,
   now = Date.now(),
+  level: Level = MAX_LEVEL,
 ): CommaQuestion {
   const progress = commaRuleProgress(stats, now);
 
@@ -103,7 +90,7 @@ export function nextCommaQuestion(
     .sort((a, b) => b.score - a.score);
 
   const ruleId = scoredRules[0].ruleId;
-  const pool = commaExamplesForRule(ruleId);
+  const pool = poolForLevel(commaExamplesForRule(ruleId), level);
   const candidates = pool.filter((e) => e.id !== lastEntryId);
   const entry = candidates[Math.floor(Math.random() * candidates.length)] ?? pool[0];
 

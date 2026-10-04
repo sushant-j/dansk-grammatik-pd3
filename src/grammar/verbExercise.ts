@@ -23,6 +23,17 @@ export interface VerbQuestion {
 }
 
 const SUBJECTS = ['Jeg', 'Du', 'Han', 'Hun', 'Vi', 'De'];
+/** "sig" only agrees with a third-person subject: "han bevægede sig", never "jeg bevægede sig". */
+const THIRD_PERSON = ['Han', 'Hun', 'De'];
+
+function subjectFor(verb: VerbEntry, rng: () => number): string {
+  return pick(verb.reflexive ? THIRD_PERSON : SUBJECTS, rng);
+}
+
+/** "i går" reads naturally after a bare verb, not after a particle verb that still wants its object ("stole på ___"). */
+function pastFrame(verb: VerbEntry, rng: () => number): string {
+  return `${subjectFor(verb, rng)} ___${verb.infinitive.includes(' ') && !verb.reflexive ? '' : ' i går'}.`;
+}
 
 function shuffle<T>(items: T[], rng: () => number): T[] {
   const arr = [...items];
@@ -48,7 +59,7 @@ export function buildVerbQuestion(
       kind,
       ruleId: 'weak-suffix-choice',
       verb,
-      prompt: `Vælg datid af "at ${verb.infinitive}" (${verb.glossEn}): ${pick(SUBJECTS, rng)} ___ i går.`,
+      prompt: `Vælg datid af "at ${verb.infinitive}" (${verb.glossEn}): ${pastFrame(verb, rng)}`,
       options,
       correctIndex: options.indexOf(verb.past),
       explanation:
@@ -64,7 +75,7 @@ export function buildVerbQuestion(
       kind,
       ruleId: 'strong-verb-forms',
       verb,
-      prompt: `Vælg datid af "at ${verb.infinitive}" (${verb.glossEn}): ${pick(SUBJECTS, rng)} ___ i går.`,
+      prompt: `Vælg datid af "at ${verb.infinitive}" (${verb.glossEn}): ${pastFrame(verb, rng)}`,
       options,
       correctIndex: options.indexOf(verb.past),
       explanation: `"${verb.infinitive}" er stærkt/uregelmæssigt: datid er "${verb.past}" — der tilføjes ingen endelse, formen skal huskes.`,
@@ -73,7 +84,7 @@ export function buildVerbQuestion(
 
   // perfect-aux
   const options = shuffle(['er', 'har'], rng);
-  const subject = pick(SUBJECTS, rng);
+  const subject = subjectFor(verb, rng);
   return {
     kind,
     ruleId: 'perfect-auxiliary',

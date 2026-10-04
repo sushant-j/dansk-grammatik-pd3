@@ -14,14 +14,12 @@
  * but the same anti-streak idea, and they should behave identically.
  */
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
-import { createJSONStorage, persist } from 'zustand/middleware';
 import { ALL_RULE_IDS, type Exam, type RuleId } from '../grammar/rules';
 import { EXERCISES } from '../content/exercises';
+import { MAX_LEVEL, poolForLevel, type Level } from '../content/levels';
 import type { Exercise } from '../grammar/types';
 import {
-  applyOutcome,
   decayedStrength,
   EMPTY_STAT,
   levelOf,
@@ -29,12 +27,13 @@ import {
   type ItemStat,
   type MasteryLevel,
 } from './mastery';
+import { recordAnswer, recordReset } from '../sync/bus';
 
 export type { MasteryLevel };
 export type RuleStat = ItemStat;
 export { decayedStrength, levelOf };
 
-interface SessionResult {
+export interface SessionResult {
   exerciseId: string;
   correct: boolean;
   /** Rules the learner actually violated this attempt. */
@@ -53,56 +52,39 @@ interface ProfileState {
   reset: () => void;
 }
 
-function emptyStats(): Record<RuleId, RuleStat> {
+export function emptyStats(): Record<RuleId, RuleStat> {
   return Object.fromEntries(ALL_RULE_IDS.map((id) => [id, { ...EMPTY_STAT }])) as Record<
     RuleId,
     RuleStat
   >;
 }
 
-export const useProfile = create<ProfileState>()(
-  persist(
-    (set) => ({
-      stats: emptyStats(),
-      history: [],
-      seen: [],
-      hydrated: false,
+/**
+ * Grammar mastery, derived from the progress log (sync/log.ts publishes it
+ * here). `record` adds the answer to the log; the stats, `seen` and `history`
+ * come back from replaying it.
+ */
+export const useProfile = create<ProfileState>()(() => ({
+  stats: emptyStats(),
+  history: [],
+  seen: [],
+  hydrated: true,
 
-      record: (ex, correct, violated) =>
-        set((state) => {
-          const now = Date.now();
-          const stats = { ...state.stats };
-
-          // Every rule the exercise targets gets credit or blame. A rule the
-          // learner did not violate on a mixed exercise still counts as
-          // evidence — they navigated it correctly.
-          for (const ruleId of ex.targets) {
-            const prev = stats[ruleId] ?? { ...EMPTY_STAT };
-            const ok = correct || !violated.includes(ruleId);
-            stats[ruleId] = applyOutcome(prev, ok, now);
-          }
-
-          return {
-            stats,
-            history: [...state.history, { exerciseId: ex.id, correct, violated, at: now }].slice(
-              -300,
-            ),
-            seen: correct && !state.seen.includes(ex.id) ? [...state.seen, ex.id] : state.seen,
-          };
-        }),
-
-      reset: () => set({ stats: emptyStats(), history: [], seen: [] }),
+  record: (ex, correct, violated) =>
+    recordAnswer({
+      domain: 'grammar',
+      itemId: ex.id,
+      level: ex.level,
+      // Every rule the exercise targets gets credit or blame. A rule the
+      // learner did not violate on a mixed exercise still counts as
+      // evidence — they navigated it correctly.
+      outcomes: Object.fromEntries(ex.targets.map((ruleId) => [ruleId, correct || !violated.includes(ruleId)])),
+      correct,
+      violated,
     }),
-    {
-      name: 'skema-profile-v1',
-      storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ stats: s.stats, history: s.history, seen: s.seen }),
-      onRehydrateStorage: () => (state) => {
-        if (state) state.hydrated = true;
-      },
-    },
-  ),
-);
+
+  reset: () => recordReset('grammar'),
+}));
 
 // ── Derived selectors ─────────────────────────────────────────────────────
 
@@ -164,11 +146,12 @@ export function nextExercise(
   lastExerciseId?: string,
   now = Date.now(),
   targetExam?: Exam | null,
+  level: Level = MAX_LEVEL,
 ): Exercise {
   const progress = ruleProgress(stats, now);
   const byRule = new Map(progress.map((p) => [p.ruleId, p]));
 
-  const scored = EXERCISES.map((ex) => {
+  const scored = poolForLevel(EXERCISES, level).map((ex) => {
     const targets = ex.targets.map((r) => byRule.get(r)).filter(Boolean) as RuleProgress[];
     const weakest = targets.reduce(
       (min, p) => Math.min(min, p.attempts ? p.strength : 0.5),

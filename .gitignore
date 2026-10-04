@@ -43,3 +43,6 @@ yarn-error.*
 # test + tooling
 coverage/
 .vitest/
+.vercel
+scripts/sources/
+.e2e-accounts.local

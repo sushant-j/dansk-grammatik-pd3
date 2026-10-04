@@ -1,11 +1,11 @@
 import React, { useCallback, useState } from 'react';
-import { useActivity } from '../src/profile/activity';
 import { Pressable, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ADJECTIVE_RULES } from '../src/grammar/adjectiveRules';
 import type { AdjectiveQuestion } from '../src/grammar/adjectiveExercise';
 import {
   adjectiveRuleProgress,
+  adjectiveQuestionLevel,
   nextAdjectiveQuestion,
   summarizeAdjectives,
   useAdjectiveProfile,
@@ -14,6 +14,8 @@ import { Screen } from '../src/ui/Screen';
 import { Button, Card, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
 import { levelLabel } from '../src/profile/mastery';
+import { currentLevelNow } from '../src/profile/levelStore';
+import { LevelBadge, LevelUpNotice } from '../src/ui/LevelBadge';
 
 /**
  * The adjective-agreement trainer.
@@ -34,7 +36,9 @@ export default function Adjectives() {
   const stats = useAdjectiveProfile((st) => st.stats);
   const record = useAdjectiveProfile((st) => st.record);
 
-  const [question, setQuestion] = useState<AdjectiveQuestion>(() => nextAdjectiveQuestion(stats));
+  const [question, setQuestion] = useState<AdjectiveQuestion>(() =>
+    nextAdjectiveQuestion(stats, undefined, Date.now(), currentLevelNow('adjectives')),
+  );
   const [picked, setPicked] = useState<number | null>(null);
 
   const progress = adjectiveRuleProgress(stats);
@@ -44,14 +48,18 @@ export default function Adjectives() {
     (i: number) => {
       if (picked !== null) return;
       setPicked(i);
-      record(question.ruleId, i === question.correctIndex);
-      useActivity.getState().markToday();
+      record(question.ruleId, i === question.correctIndex, { id: question.adjective.id, level: adjectiveQuestionLevel(question) });
     },
     [picked, question, record],
   );
 
   const advance = useCallback(() => {
-    const nxt = nextAdjectiveQuestion(useAdjectiveProfile.getState().stats, question.adjective.id);
+    const nxt = nextAdjectiveQuestion(
+      useAdjectiveProfile.getState().stats,
+      question.adjective.id,
+      Date.now(),
+      currentLevelNow('adjectives'),
+    );
     setQuestion(nxt);
     setPicked(null);
   }, [question.adjective.id]);
@@ -95,8 +103,13 @@ export default function Adjectives() {
         ))}
       </View>
 
+      <LevelUpNotice domain="adjectives" />
+
       <Card tone="sunken">
-        <Label>{rule.da}</Label>
+        <View style={s.rowBetween}>
+          <Label>{rule.da}</Label>
+          <LevelBadge level={adjectiveQuestionLevel(question)} />
+        </View>
         <Txt variant="title" style={{ marginTop: t.space(2) }}>
           {question.prompt}
         </Txt>

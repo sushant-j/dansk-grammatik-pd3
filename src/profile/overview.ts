@@ -17,6 +17,7 @@
  */
 
 import { ruleProgress, type RuleStat } from './store';
+import type { Level } from '../content/levels';
 import { vocabProgress } from './vocabStore';
 import { nounRuleProgress } from './nounStore';
 import { adjectiveRuleProgress } from './adjectiveStore';
@@ -77,6 +78,8 @@ export interface OverviewStats {
   comma: Record<string, ItemStat>;
   spelling: Record<string, ItemStat>;
   vocab: Record<string, ItemStat>;
+  /** Vocabulary counts only the deck up to the learner's niveau, or 1,400 words would swamp every total. */
+  vocabLevel?: Level;
 }
 
 export function crossDomainReview(s: OverviewStats, now = Date.now()): DomainReview[] {
@@ -87,7 +90,7 @@ export function crossDomainReview(s: OverviewStats, now = Date.now()): DomainRev
     { key: 'adjectives', label: 'Adjective agreement', route: '/adjectives', ...tally(adjectiveRuleProgress(s.adjectives, now)) },
     { key: 'comma', label: 'Comma rules', route: '/comma', ...tally(commaRuleProgress(s.comma, now)) },
     { key: 'spelling', label: 'Spelling', route: '/spelling', ...tally(spellingRuleProgress(s.spelling, now)) },
-    { key: 'vocab', label: 'Vocabulary', route: '/vocab', ...tally(vocabProgress(s.vocab, now)) },
+    { key: 'vocab', label: 'Vocabulary', route: '/vocab', ...tally(vocabProgress(s.vocab, now, s.vocabLevel)) },
   ];
 
   // Most open gaps first; ties broken by the smaller solid fraction, so a

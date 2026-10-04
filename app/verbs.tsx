@@ -1,5 +1,4 @@
 import React, { useCallback, useState } from 'react';
-import { useActivity } from '../src/profile/activity';
 import { Pressable, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { VERB_RULES } from '../src/grammar/verbRules';
@@ -9,6 +8,8 @@ import { Screen } from '../src/ui/Screen';
 import { Button, Card, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
 import { levelLabel } from '../src/profile/mastery';
+import { currentLevelNow } from '../src/profile/levelStore';
+import { LevelBadge, LevelUpNotice } from '../src/ui/LevelBadge';
 
 /**
  * The tense trainer.
@@ -27,7 +28,9 @@ export default function Verbs() {
   const stats = useVerbProfile((st) => st.stats);
   const record = useVerbProfile((st) => st.record);
 
-  const [question, setQuestion] = useState<VerbQuestion>(() => nextVerbQuestion(stats));
+  const [question, setQuestion] = useState<VerbQuestion>(() =>
+    nextVerbQuestion(stats, undefined, Date.now(), currentLevelNow('verbs')),
+  );
   const [picked, setPicked] = useState<number | null>(null);
 
   const progress = verbRuleProgress(stats);
@@ -37,14 +40,18 @@ export default function Verbs() {
     (i: number) => {
       if (picked !== null) return;
       setPicked(i);
-      record(question.ruleId, i === question.correctIndex);
-      useActivity.getState().markToday();
+      record(question.ruleId, i === question.correctIndex, { id: question.verb.id, level: question.verb.level });
     },
     [picked, question, record],
   );
 
   const advance = useCallback(() => {
-    const nxt = nextVerbQuestion(useVerbProfile.getState().stats, question.verb.id);
+    const nxt = nextVerbQuestion(
+      useVerbProfile.getState().stats,
+      question.verb.id,
+      Date.now(),
+      currentLevelNow('verbs'),
+    );
     setQuestion(nxt);
     setPicked(null);
   }, [question.verb.id]);
@@ -88,8 +95,13 @@ export default function Verbs() {
         ))}
       </View>
 
+      <LevelUpNotice domain="verbs" />
+
       <Card tone="sunken">
-        <Label>{rule.da}</Label>
+        <View style={s.rowBetween}>
+          <Label>{rule.da}</Label>
+          <LevelBadge level={question.verb.level} />
+        </View>
         <Txt variant="title" style={{ marginTop: t.space(2) }}>
           {question.prompt}
         </Txt>

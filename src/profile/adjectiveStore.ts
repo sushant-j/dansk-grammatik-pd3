@@ -4,11 +4,10 @@
  * different adjectives has a gap in the rule, not in those ten words.
  */
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
-import { createJSONStorage, persist } from 'zustand/middleware';
 import { ADJECTIVE_BANK } from '../content/adjectives';
 import { NOUN_BANK } from '../content/nouns';
+import { MAX_LEVEL, poolForLevel, type Level } from '../content/levels';
 import {
   buildAdjectiveQuestion,
   type AdjectiveQuestion,
@@ -16,12 +15,12 @@ import {
 } from '../grammar/adjectiveExercise';
 import { ALL_ADJECTIVE_RULE_IDS, type AdjectiveRuleId } from '../grammar/adjectiveRules';
 import {
-  applyOutcome,
   EMPTY_STAT,
   progressFor,
   type ItemProgress,
   type ItemStat,
 } from './mastery';
+import { recordAnswer, recordReset } from '../sync/bus';
 
 const KIND_FOR_RULE: Record<AdjectiveRuleId, AdjectiveQuestionKind> = {
   'adjective-common-form': 'common-form',
@@ -35,42 +34,29 @@ const ET_NOUNS = NOUN_BANK.filter((n) => n.gender === 'et');
 interface AdjectiveState {
   stats: Record<AdjectiveRuleId, ItemStat>;
   hydrated: boolean;
-  record: (ruleId: AdjectiveRuleId, correct: boolean) => void;
+  /** `item` is what was answered: its id and niveau go into the log. */
+  record: (ruleId: AdjectiveRuleId, correct: boolean, item: { id: string; level: Level }) => void;
   reset: () => void;
 }
 
-function emptyStats(): Record<AdjectiveRuleId, ItemStat> {
+export function emptyStats(): Record<AdjectiveRuleId, ItemStat> {
   return Object.fromEntries(
     ALL_ADJECTIVE_RULE_IDS.map((id) => [id, { ...EMPTY_STAT }]),
   ) as Record<AdjectiveRuleId, ItemStat>;
 }
 
-export const useAdjectiveProfile = create<AdjectiveState>()(
-  persist(
-    (set) => ({
-      stats: emptyStats(),
-      hydrated: false,
-
-      record: (ruleId, correct) =>
-        set((state) => ({
-          stats: {
-            ...state.stats,
-            [ruleId]: applyOutcome(state.stats[ruleId] ?? { ...EMPTY_STAT }, correct),
-          },
-        })),
-
-      reset: () => set({ stats: emptyStats() }),
-    }),
-    {
-      name: 'skema-adjectives-v1',
-      storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ stats: s.stats }),
-      onRehydrateStorage: () => (state) => {
-        if (state) state.hydrated = true;
-      },
-    },
-  ),
-);
+/**
+ * Mastery per rule, derived from the progress log (sync/log.ts publishes it
+ * here). `record` adds an answer to the log rather than editing stats, so
+ * progress syncs and replays exactly.
+ */
+export const useAdjectiveProfile = create<AdjectiveState>()(() => ({
+  stats: emptyStats(),
+  hydrated: true,
+  record: (ruleId, correct, item) =>
+    recordAnswer({ domain: 'adjectives', itemId: item.id, level: item.level, outcomes: { [ruleId]: correct }, correct }),
+  reset: () => recordReset('adjectives'),
+}));
 
 export type AdjectiveRuleProgress = ItemProgress<AdjectiveRuleId>;
 
@@ -110,6 +96,7 @@ export function nextAdjectiveQuestion(
   stats: Record<AdjectiveRuleId, ItemStat>,
   lastAdjectiveId?: string,
   now = Date.now(),
+  level: Level = MAX_LEVEL,
 ): AdjectiveQuestion {
   const progress = adjectiveRuleProgress(stats, now);
 
@@ -123,11 +110,20 @@ export function nextAdjectiveQuestion(
   const ruleId = scoredRules[0].ruleId;
   const kind = KIND_FOR_RULE[ruleId];
 
-  const adjCandidates = ADJECTIVE_BANK.filter((a) => a.id !== lastAdjectiveId);
-  const adjective = adjCandidates[Math.floor(Math.random() * adjCandidates.length)] ?? ADJECTIVE_BANK[0];
+  const adjPool = poolForLevel(ADJECTIVE_BANK, level);
+  const adjCandidates = adjPool.filter((a) => a.id !== lastAdjectiveId);
+  const adjective = adjCandidates[Math.floor(Math.random() * adjCandidates.length)] ?? adjPool[0];
 
-  const nounPool = kind === 'common-form' ? EN_NOUNS : kind === 'neuter-form' ? ET_NOUNS : NOUN_BANK;
+  const nounPool = poolForLevel(
+    kind === 'common-form' ? EN_NOUNS : kind === 'neuter-form' ? ET_NOUNS : NOUN_BANK,
+    level,
+  );
   const noun = nounPool[Math.floor(Math.random() * nounPool.length)];
 
   return buildAdjectiveQuestion(noun, adjective, kind);
+}
+
+/** A question is as hard as the harder of its two words. */
+export function adjectiveQuestionLevel(q: AdjectiveQuestion): Level {
+  return Math.max(q.adjective.level, q.noun.level) as Level;
 }
