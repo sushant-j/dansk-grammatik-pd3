@@ -10,6 +10,7 @@
  * never an arbitrary distractor.
  */
 
+import SEED from './data/spelling.json';
 import type { SpellingRuleId } from '../grammar/spellingRules';
 import type { Level } from './levels';
 
@@ -23,9 +24,12 @@ export interface SpellingEntry {
   correct: string;
   incorrect: string;
   explanation: string;
+  /** False until a person has checked the Danish; hand-written items are treated as checked. */
+  reviewed?: boolean;
 }
 
-export const SPELLING_EXAMPLES: SpellingEntry[] = [
+/** Hand-written originals. */
+const HAND_WRITTEN: SpellingEntry[] = [
   // ── silent d ──────────────────────────────────────────────────────────
   {
     id: 's-hund',
@@ -243,7 +247,49 @@ export const SPELLING_EXAMPLES: SpellingEntry[] = [
     incorrect: 'at',
     explanation: 'Two parallel verbs with the same subject ("eats and drinks") are joined by "og".',
   },
+  // ── present-tense -r ──────────────────────────────────────────────────
+  {
+    id: 's-laerer-1',
+    level: 2,
+    ruleId: 'present-tense-r',
+    prompt: 'Jeg vil gerne ___ mere dansk.',
+    correct: 'lære',
+    incorrect: 'lærer',
+    explanation: 'After the helping verb "vil" the verb is an infinitive, so no -r: "vil lære".',
+  },
+  {
+    id: 's-laerer-2',
+    level: 2,
+    ruleId: 'present-tense-r',
+    prompt: 'Min søn ___ at svømme i år.',
+    correct: 'lærer',
+    incorrect: 'lære',
+    explanation: '"lærer" is the verb carrying the tense here — present tense, so it takes -r.',
+  },
+
+  // ── ligge / lægge ─────────────────────────────────────────────────────
+  {
+    id: 's-laegge-1',
+    level: 3,
+    ruleId: 'ligge-laegge',
+    prompt: 'Kan du ___ nøglerne på bordet?',
+    correct: 'lægge',
+    incorrect: 'ligge',
+    explanation: 'You put the keys somewhere — something is being moved, so it is "lægge".',
+  },
+  {
+    id: 's-ligge-1',
+    level: 3,
+    ruleId: 'ligge-laegge',
+    prompt: 'Brevet ___ stadig i postkassen.',
+    correct: 'ligger',
+    incorrect: 'lægger',
+    explanation: 'The letter is just lying there — nothing is being put anywhere, so it is "ligge".',
+  },
 ];
+
+/** Hand-written originals, then the drafted bank in data/spelling.json. */
+export const SPELLING_EXAMPLES: SpellingEntry[] = [...HAND_WRITTEN, ...(SEED as SpellingEntry[])];
 
 export function spellingExamplesForRule(ruleId: SpellingRuleId): SpellingEntry[] {
   return SPELLING_EXAMPLES.filter((e) => e.ruleId === ruleId);

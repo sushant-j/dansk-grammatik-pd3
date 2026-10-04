@@ -13,10 +13,16 @@
  * subordinate clause is, under the modern (1996) rules, an optional stylistic
  * choice, not a grammatical requirement — and grading a style choice as a
  * right/wrong multiple-choice question would overstate how settled that rule
- * actually is. All three rules kept here hold without a hedge.
+ * actually is. Every rule kept here holds without a hedge — including the
+ * comma *after* a fronted subordinate clause, which, unlike the startkomma, is
+ * not optional.
  */
 
-export type CommaRuleId = 'comma-men-vs-og' | 'comma-list-items' | 'comma-relative-clause';
+export type CommaRuleId =
+  | 'comma-men-vs-og'
+  | 'comma-list-items'
+  | 'comma-relative-clause'
+  | 'comma-after-subclause';
 
 export interface CommaRuleExample {
   wrong: string;
@@ -103,6 +109,30 @@ export const COMMA_RULES: Record<CommaRuleId, CommaRule> = {
         wrong: 'København som er Danmarks hovedstad har mange museer.',
         right: 'København, som er Danmarks hovedstad, har mange museer.',
         note: 'There is only one København — the clause adds information, it does not narrow anything down.',
+      },
+    ],
+  },
+
+  'comma-after-subclause': {
+    id: 'comma-after-subclause',
+    da: 'Komma efter en ledsætning først i sætningen',
+    en: 'Comma after a fronted subordinate clause',
+    statement:
+      'When a sentence opens with a subordinate clause — "Når …", "Hvis …", "Fordi …", "Selvom …" — a comma closes that clause before the main clause begins.',
+    explanation:
+      'A fronted ledsætning fills the Forfelt on its own, so the finite verb of the main clause follows straight after it: "Når jeg kommer hjem, spiser jeg." The comma marks exactly that seam — the end of the subordinate clause and the start of the main clause, which you can see because the verb ("spiser") comes before the subject ("jeg"). Unlike the comma *before* a subordinate clause (the "startkomma", which is optional), this closing comma is required.',
+    whyHard:
+      'Learners who have heard that Danish commas before subordinate clauses are optional assume the same freedom applies after them. It does not — and in a long opening clause, the missing comma makes the reader hunt for where the main clause starts.',
+    examples: [
+      {
+        wrong: 'Når jeg kommer hjem spiser jeg aftensmad.',
+        right: 'Når jeg kommer hjem, spiser jeg aftensmad.',
+        note: 'The "når"-clause ends at "hjem"; the comma marks where the main clause, verb first, begins.',
+      },
+      {
+        wrong: 'Hvis det regner i morgen bliver vi hjemme.',
+        right: 'Hvis det regner i morgen, bliver vi hjemme.',
+        note: 'A fronted "hvis"-clause is always closed with a comma.',
       },
     ],
   },

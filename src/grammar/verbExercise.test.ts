@@ -12,21 +12,29 @@ describe('content integrity', () => {
     }
   });
 
+  // Reflexive and particle verbs ("bevæge sig", "dukke op") carry their extra
+  // word on every form; the suffix sits on the verb word itself.
+  const verbWord = (form: string) => form.split(' ')[0];
+
   it('weak -ede verbs really end in -ede, and their wrong form does not', () => {
     for (const v of VERB_BANK.filter((x) => x.verbClass === 'weak-ede')) {
-      expect(v.past.endsWith('ede'), v.id).toBe(true);
+      expect(verbWord(v.past).endsWith('ede'), v.id).toBe(true);
     }
   });
 
   it('weak -te verbs really end in -te', () => {
     for (const v of VERB_BANK.filter((x) => x.verbClass === 'weak-te')) {
-      expect(v.past.endsWith('te'), v.id).toBe(true);
+      expect(verbWord(v.past).endsWith('te'), v.id).toBe(true);
     }
   });
 
-  it('strong verbs do not end in a weak suffix', () => {
+  it('irregular verbs are not just the stem plus a regular suffix', () => {
+    // "Strong" here means irregular: true ablaut (gå → gik) and the irregular
+    // weak verbs that change their vowel too (vælge → valgte, bringe → bragte).
     for (const v of VERB_BANK.filter((x) => x.verbClass === 'strong')) {
-      expect(v.past.endsWith('ede') || v.past.endsWith('te'), v.id).toBe(false);
+      const stem = verbWord(v.infinitive).replace(/e$/, '');
+      const past = verbWord(v.past);
+      expect(past === stem + 'ede' || past === stem + 'te', v.id).toBe(false);
     }
   });
 
@@ -78,9 +86,19 @@ describe('strong-form question', () => {
   });
 });
 
+describe('reflexive verbs', () => {
+  it('only pair "sig" with a third-person subject', () => {
+    const verb = { ...STRONG_VERB, infinitive: 'bevæge sig', past: 'bevægede sig', reflexive: true };
+    for (let i = 0; i < 6; i++) {
+      const q = buildVerbQuestion(verb, 'strong-form', () => i / 6);
+      expect(q.prompt).toMatch(/: (Han|Hun|De) ___/);
+    }
+  });
+});
+
 describe('perfect-aux question', () => {
   it('the correct option always matches the verb\'s tagged auxiliary', () => {
-    for (const v of VERB_BANK) {
+    for (const v of VERB_BANK.filter((v) => v.perfectAux !== 'both')) {
       const q = buildVerbQuestion(v, 'perfect-aux', () => 0.5);
       expect(q.options[q.correctIndex]).toBe(v.perfectAux);
       expect(q.options.sort()).toEqual(['er', 'har']);

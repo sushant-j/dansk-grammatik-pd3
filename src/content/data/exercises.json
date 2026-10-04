@@ -1,0 +1,5039 @@
+[
+  {
+    "id": "ex-imorgen-bussen",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Tomorrow I am taking the bus.",
+    "sentence": "F:i morgen | v:tager | n:jeg | N:bussen",
+    "alternatives": [
+      "F:jeg | v:tager | N:bussen | A:i morgen"
+    ],
+    "targets": [
+      "v2-inversion",
+      "finit-verb-second"
+    ],
+    "takeaway": "Start with \"i morgen\" and \"jeg\" has to wait until after the verb \"tager\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-om-aftenen-tv",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "In the evening we watch TV.",
+    "sentence": "F:om aftenen | v:ser | n:vi | N:tv",
+    "alternatives": [
+      "F:vi | v:ser | N:tv | A:om aftenen"
+    ],
+    "targets": [
+      "v2-inversion",
+      "finit-verb-second"
+    ],
+    "takeaway": "The verb stays second, so with \"om aftenen\" in front, \"vi\" comes after \"ser\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-weekenden-mor",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "At the weekend we visit my mother.",
+    "sentence": "F:i weekenden | v:besøger | n:vi | N:min mor",
+    "alternatives": [
+      "F:vi | v:besøger | N:min mor | A:i weekenden"
+    ],
+    "targets": [
+      "v2-inversion",
+      "forfelt-single"
+    ],
+    "takeaway": "A time phrase in front pushes the subject behind the verb: \"besøger vi\", not \"vi besøger\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-klokken-otte-skolen",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "School starts at eight o'clock.",
+    "sentence": "F:klokken otte | v:begynder | n:skolen",
+    "alternatives": [
+      "F:skolen | v:begynder | A:klokken otte"
+    ],
+    "targets": [
+      "v2-inversion",
+      "finit-verb-second"
+    ],
+    "takeaway": "The subject does not have to come first. \"Klokken otte\" can open the sentence, and then \"skolen\" follows the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-aarhus-bror",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "My brother lives in Aarhus.",
+    "sentence": "F:i Aarhus | v:bor | n:min bror",
+    "alternatives": [
+      "F:min bror | v:bor | A:i Aarhus"
+    ],
+    "targets": [
+      "v2-inversion",
+      "finit-verb-second"
+    ],
+    "takeaway": "You can put a place first too. Then the verb comes next and the subject after it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-efter-skolen-fodbold",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "After school the children play football.",
+    "sentence": "F:efter skolen | v:spiller | n:børnene | N:fodbold",
+    "alternatives": [
+      "F:børnene | v:spiller | N:fodbold | A:efter skolen"
+    ],
+    "targets": [
+      "v2-inversion",
+      "forfelt-single"
+    ],
+    "takeaway": "\"Efter skolen\" takes the front slot, so \"børnene\" has to follow \"spiller\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-soendag-sover",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "On Sundays I sleep late.",
+    "sentence": "F:om søndagen | v:sover | n:jeg | A:længe",
+    "alternatives": [
+      "F:jeg | v:sover | A:længe | A:om søndagen"
+    ],
+    "targets": [
+      "v2-inversion",
+      "finit-verb-second"
+    ],
+    "takeaway": "Same pattern every time: one thing in front, then the verb, then the subject.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-i-sommer-spanien",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "This summer we are travelling to Spain.",
+    "sentence": "F:i sommer | v:rejser | n:vi | A:til Spanien",
+    "alternatives": [
+      "F:vi | v:rejser | A:til Spanien | A:i sommer",
+      "F:til Spanien | v:rejser | n:vi | A:i sommer"
+    ],
+    "targets": [
+      "v2-inversion",
+      "finit-verb-second"
+    ],
+    "takeaway": "With \"i sommer\" in front, the verb \"rejser\" keeps slot 2 and \"vi\" moves behind it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hver-dag-cykler",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Every day I cycle to work.",
+    "sentence": "F:hver dag | v:cykler | n:jeg | A:på arbejde",
+    "alternatives": [
+      "F:jeg | v:cykler | A:på arbejde | A:hver dag"
+    ],
+    "targets": [
+      "v2-inversion",
+      "forfelt-single"
+    ],
+    "takeaway": "\"Hver dag\" is one constituent in the front slot, and \"jeg\" follows the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-bor-odense",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "I live in Odense.",
+    "sentence": "F:jeg | v:bor | A:i Odense",
+    "alternatives": [
+      "F:i Odense | v:bor | n:jeg"
+    ],
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "Subject first, verb second: the most basic Danish sentence.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-aftensmad-seks",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "We eat dinner at six o'clock.",
+    "sentence": "F:vi | v:spiser | N:aftensmad | A:klokken seks",
+    "alternatives": [
+      "F:klokken seks | v:spiser | n:vi | N:aftensmad"
+    ],
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "The verb \"spiser\" is in slot 2, the object comes next and the time comes last.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-datter-skole",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "My daughter goes to school.",
+    "sentence": "F:min datter | v:går | A:i skole",
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "\"Min datter\" is one constituent, even though it is two words, so \"går\" is still the second constituent.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-kaffe-morgen",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "He drinks coffee every morning.",
+    "sentence": "F:han | v:drikker | N:kaffe | A:hver morgen",
+    "alternatives": [
+      "F:hver morgen | v:drikker | n:han | N:kaffe"
+    ],
+    "targets": [
+      "finit-verb-second",
+      "v2-inversion"
+    ],
+    "takeaway": "The finite verb \"drikker\" holds slot 2. Move \"hver morgen\" to the front and it still does.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-bussen-ti",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "The bus comes at ten o'clock.",
+    "sentence": "F:bussen | v:kommer | A:klokken ti",
+    "alternatives": [
+      "F:klokken ti | v:kommer | n:bussen"
+    ],
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "One constituent before the verb, here the subject \"bussen\", and then the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-lidt-dansk",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "I speak a little Danish.",
+    "sentence": "F:jeg | v:taler | N:lidt dansk",
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "Subject, verb, object: the verb is second, as in every main clause.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-peter-hospital",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Peter works at a hospital.",
+    "sentence": "F:Peter | v:arbejder | A:på et hospital",
+    "alternatives": [
+      "F:på et hospital | v:arbejder | n:Peter"
+    ],
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "The name is the subject and fills the front slot. The verb follows directly.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-netto-loerdag",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "We shop at Netto on Saturdays.",
+    "sentence": "F:vi | v:handler | A:i Netto | A:om lørdagen",
+    "alternatives": [
+      "F:i Netto | v:handler | n:vi | A:om lørdagen",
+      "F:om lørdagen | v:handler | n:vi | A:i Netto"
+    ],
+    "targets": [
+      "finit-verb-second",
+      "v2-inversion"
+    ],
+    "takeaway": "Place before time at the end of the sentence. If you start with \"om lørdagen\", the subject moves behind the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-leger-haven",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "The children are playing in the garden.",
+    "sentence": "F:børnene | v:leger | A:i haven",
+    "alternatives": [
+      "F:i haven | v:leger | n:børnene"
+    ],
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "The verb takes slot 2 no matter how long the subject is.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-laver-mad",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "My husband is cooking today.",
+    "sentence": "F:min mand | v:laver | N:mad | A:i dag",
+    "alternatives": [
+      "F:i dag | v:laver | n:min mand | N:mad"
+    ],
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "\"Laver\" is the finite verb and is second. \"Mad\" is the object, and \"i dag\" comes last.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-bog-sengen",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "She reads a book in bed.",
+    "sentence": "F:hun | v:læser | N:en bog | A:i sengen",
+    "alternatives": [
+      "F:i sengen | v:læser | n:hun | N:en bog"
+    ],
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "Subject, verb, object, place: the plain order for a main clause.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hver-soendag-mormor",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Every Sunday I visit my grandmother.",
+    "sentence": "F:hver søndag | v:besøger | n:jeg | N:min mormor",
+    "alternatives": [
+      "F:jeg | v:besøger | N:min mormor | A:hver søndag"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "\"Hver søndag\" counts as one constituent. Only it may stand before the verb, so \"jeg\" comes after.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-naeste-uge-job",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Next week my new job starts.",
+    "sentence": "F:i næste uge | v:starter | n:mit nye job",
+    "alternatives": [
+      "F:mit nye job | v:starter | A:i næste uge"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "Two constituents (\"i næste uge\" and \"mit nye job\") cannot both stand before the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-morgenen-toget",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "In the morning my wife takes the train.",
+    "sentence": "F:om morgenen | v:tager | n:min kone | N:toget",
+    "alternatives": [
+      "F:min kone | v:tager | N:toget | A:om morgenen"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "Never \"Om morgenen min kone tager…\". The front slot has room for one constituent only.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-sidste-aar-danmark",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Last year we moved to Denmark.",
+    "sentence": "F:sidste år | v:flyttede | n:vi | A:til Danmark",
+    "alternatives": [
+      "F:vi | v:flyttede | A:til Danmark | A:sidste år",
+      "F:til Danmark | v:flyttede | n:vi | A:sidste år"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "\"Sidste år\" fills the front slot alone, so the verb \"flyttede\" comes before \"vi\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-frokost-tur",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "After lunch we go for a walk.",
+    "sentence": "F:efter frokost | v:går | n:vi | N:en tur",
+    "alternatives": [
+      "F:vi | v:går | N:en tur | A:efter frokost"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "One constituent in front, the verb second, then the subject.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hele-weekenden-regnede",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "It rained all weekend.",
+    "sentence": "F:hele weekenden | v:regnede | n:det",
+    "alternatives": [
+      "F:det | v:regnede | A:hele weekenden"
+    ],
+    "targets": [
+      "forfelt-single",
+      "subject-required"
+    ],
+    "takeaway": "\"Hele weekenden\" takes the front slot, and the dummy subject \"det\" still has to appear after the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hver-eneste-dag-ord",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Every single day I learn new words.",
+    "sentence": "F:hver eneste dag | v:lærer | n:jeg | N:nye ord",
+    "alternatives": [
+      "F:jeg | v:lærer | N:nye ord | A:hver eneste dag"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "A long time phrase is still a single constituent: \"hver eneste dag\" plus the verb, then \"jeg\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-klasse-engelsk",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "In my class everyone speaks English.",
+    "sentence": "F:i min klasse | v:taler | n:alle | N:engelsk",
+    "alternatives": [
+      "F:alle | v:taler | N:engelsk | A:i min klasse"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "\"I min klasse\" is the only constituent before the verb, and \"alle\" comes after it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-to-uger-ferie",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "In two weeks we are going on holiday.",
+    "sentence": "F:om to uger | v:holder | n:vi | N:ferie",
+    "alternatives": [
+      "F:vi | v:holder | N:ferie | A:om to uger"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "\"Om to uger\" is one unit in the front slot, and \"vi\" moves behind \"holder\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-det-sner",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "It is snowing today.",
+    "sentence": "F:det | v:sner | A:i dag",
+    "alternatives": [
+      "F:i dag | v:sner | n:det"
+    ],
+    "targets": [
+      "subject-required"
+    ],
+    "takeaway": "Danish has no sentence without a subject. Weather verbs use \"det\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-det-blaeser",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "It is very windy.",
+    "sentence": "F:det | v:blæser | A:meget",
+    "targets": [
+      "subject-required"
+    ],
+    "takeaway": "\"Blæser meget\" is not a sentence on its own. The empty subject \"det\" has to be there.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-mand-udenfor",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "There is a man standing outside.",
+    "sentence": "F:der | v:står | n:en mand | A:udenfor",
+    "alternatives": [
+      "F:der | v:står | N:en mand | A:udenfor",
+      "F:udenfor | v:står | n:der | N:en mand"
+    ],
+    "targets": [
+      "subject-required"
+    ],
+    "takeaway": "\"Der\" holds the subject position, so the real subject \"en mand\" can come after the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-brev-bordet",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "There is a letter on the table.",
+    "sentence": "F:der | v:ligger | n:et brev | A:på bordet",
+    "alternatives": [
+      "F:der | v:ligger | N:et brev | A:på bordet",
+      "F:på bordet | v:ligger | n:der | N:et brev"
+    ],
+    "targets": [
+      "subject-required"
+    ],
+    "takeaway": "To say that something is somewhere, use \"der\": \"Der ligger et brev…\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-regnede-hele-dagen",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "It rained all day.",
+    "sentence": "F:det | v:regnede | A:hele dagen",
+    "alternatives": [
+      "F:hele dagen | v:regnede | n:det"
+    ],
+    "targets": [
+      "subject-required"
+    ],
+    "takeaway": "Even when nobody is doing anything, the verb needs a subject: \"det\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-studerende",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "There are many students living in Aarhus.",
+    "sentence": "F:der | v:bor | n:mange studerende | A:i Aarhus",
+    "alternatives": [
+      "F:der | v:bor | N:mange studerende | A:i Aarhus",
+      "F:i Aarhus | v:bor | n:der | N:mange studerende"
+    ],
+    "targets": [
+      "subject-required"
+    ],
+    "takeaway": "New information follows the verb, and \"der\" fills the subject position at the start.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-butik-hjoernet",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "There is a shop on the corner.",
+    "sentence": "F:der | v:er | n:en butik | A:på hjørnet",
+    "alternatives": [
+      "F:der | v:er | N:en butik | A:på hjørnet",
+      "F:på hjørnet | v:er | n:der | N:en butik"
+    ],
+    "targets": [
+      "subject-required"
+    ],
+    "takeaway": "\"Der er\" means \"there is\". Without \"der\" the sentence has no subject.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-lugter-koekkenet",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "It smells good in the kitchen.",
+    "sentence": "F:det | v:lugter | A:godt | A:i køkkenet",
+    "alternatives": [
+      "F:i køkkenet | v:lugter | n:det | A:godt"
+    ],
+    "targets": [
+      "subject-required"
+    ],
+    "takeaway": "\"Det\" is a dummy subject here. It refers to nothing, but Danish still needs it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-maelk",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "We are out of milk in the fridge.",
+    "sentence": "F:der | v:mangler | n:mælk | A:i køleskabet",
+    "alternatives": [
+      "F:der | v:mangler | N:mælk | A:i køleskabet",
+      "F:i køleskabet | v:mangler | n:der | N:mælk"
+    ],
+    "targets": [
+      "subject-required"
+    ],
+    "takeaway": "\"Der mangler\" introduces something that is missing, and \"der\" is the subject.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-aldrig-koed",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "I never eat meat.",
+    "sentence": "F:jeg | v:spiser | a:aldrig | N:kød",
+    "targets": [
+      "central-vs-content-adverbial",
+      "finit-verb-second"
+    ],
+    "takeaway": "\"Aldrig\" comes straight after the verb, before the object \"kød\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-ikke-kaffe",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "She does not drink coffee.",
+    "sentence": "F:hun | v:drikker | a:ikke | N:kaffe",
+    "targets": [
+      "central-vs-content-adverbial",
+      "finit-verb-second"
+    ],
+    "takeaway": "Danish has no \"do\". \"Ikke\" goes directly after the finite verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-ogsaa-weekenden",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "We also work at weekends.",
+    "sentence": "F:vi | v:arbejder | a:også | A:i weekenden",
+    "alternatives": [
+      "F:i weekenden | v:arbejder | n:vi | a:også"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "v2-inversion"
+    ],
+    "takeaway": "\"Også\" is a sentence adverb and sits right after the verb. The time phrase \"i weekenden\" comes at the end.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-altid-for-sent",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "He always comes too late.",
+    "sentence": "F:han | v:kommer | a:altid | A:for sent",
+    "targets": [
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Altid\" goes early, after the verb. \"For sent\" is a content adverbial and goes at the end.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-mandag-laegen",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "On Monday I have to go to the doctor.",
+    "sentence": "F:på mandag | v:skal | n:jeg | A:til lægen",
+    "alternatives": [
+      "F:jeg | v:skal | A:til lægen | A:på mandag",
+      "F:til lægen | v:skal | n:jeg | A:på mandag"
+    ],
+    "targets": [
+      "v2-inversion",
+      "finit-verb-second"
+    ],
+    "takeaway": "The time phrase goes in front, the verb \"skal\" keeps slot 2 and \"jeg\" follows it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-derfor-hjemme",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "That is why I am staying at home today.",
+    "sentence": "F:derfor | v:bliver | n:jeg | A:hjemme | A:i dag",
+    "alternatives": [
+      "F:jeg | v:bliver | a:derfor | A:hjemme | A:i dag",
+      "F:i dag | v:bliver | n:jeg | a:derfor | A:hjemme"
+    ],
+    "targets": [
+      "v2-inversion",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Derfor\" in front causes inversion just like a time phrase does: \"derfor bliver jeg\", never \"derfor jeg bliver\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-i-aften-foraeldremoede",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "This evening we have a parents' meeting.",
+    "sentence": "F:i aften | v:har | n:vi | N:et forældremøde",
+    "alternatives": [
+      "F:vi | v:har | N:et forældremøde | A:i aften"
+    ],
+    "targets": [
+      "v2-inversion",
+      "finit-verb-second"
+    ],
+    "takeaway": "Front \"i aften\" and the subject \"vi\" moves to the other side of the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-vinteren-cykler-ikke",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "In winter I do not cycle to work.",
+    "sentence": "F:om vinteren | v:cykler | n:jeg | a:ikke | A:på arbejde",
+    "alternatives": [
+      "F:jeg | v:cykler | a:ikke | A:på arbejde | A:om vinteren"
+    ],
+    "targets": [
+      "v2-inversion",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "After inversion the order is verb, subject, \"ikke\": \"cykler jeg ikke\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-heldigvis-job",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Fortunately my sister got a job last month.",
+    "sentence": "F:heldigvis | v:fik | n:min søster | N:et job | A:i sidste måned",
+    "alternatives": [
+      "F:min søster | v:fik | a:heldigvis | N:et job | A:i sidste måned",
+      "F:i sidste måned | v:fik | n:min søster | a:heldigvis | N:et job"
+    ],
+    "targets": [
+      "v2-inversion",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Heldigvis\" can open the sentence, and then the verb comes next: \"heldigvis fik min søster\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-maaske-flytter",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Perhaps we will move to Odense next year.",
+    "sentence": "F:måske | v:flytter | n:vi | A:til Odense | A:næste år",
+    "alternatives": [
+      "F:vi | v:flytter | a:måske | A:til Odense | A:næste år",
+      "F:til Odense | v:flytter | n:vi | a:måske | A:næste år",
+      "F:næste år | v:flytter | n:vi | a:måske | A:til Odense"
+    ],
+    "targets": [
+      "v2-inversion",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Måske\" in front behaves like any other fronted element. The verb comes second, then the subject.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-naboer-fest",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Our neighbours have a party every Friday.",
+    "sentence": "F:vores naboer | v:holder | N:fest | A:hver fredag",
+    "alternatives": [
+      "F:hver fredag | v:holder | n:vores naboer | N:fest"
+    ],
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "\"Vores naboer\" is one constituent, and \"holder\" is second.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-danskkurset-august",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "The Danish course starts in August.",
+    "sentence": "F:danskkurset | v:starter | A:i august",
+    "alternatives": [
+      "F:i august | v:starter | n:danskkurset"
+    ],
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "One constituent, then the finite verb. That is the whole V2 rule.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-kollega-polen",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "My new colleague comes from Poland.",
+    "sentence": "F:min nye kollega | v:kommer | A:fra Polen",
+    "alternatives": [
+      "F:fra Polen | v:kommer | n:min nye kollega"
+    ],
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "However long the subject is, the verb follows straight after it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-flytte-naeste-maaned",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "We are moving next month.",
+    "sentence": "F:vi | v:skal | V:flytte | A:i næste måned",
+    "alternatives": [
+      "F:i næste måned | v:skal | n:vi | V:flytte"
+    ],
+    "targets": [
+      "finit-verb-second",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Only the finite verb \"skal\" is second. The infinitive \"flytte\" waits further back.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-togene-ikke",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "The trains are not running today.",
+    "sentence": "F:togene | v:kører | a:ikke | A:i dag",
+    "alternatives": [
+      "F:i dag | v:kører | n:togene | a:ikke"
+    ],
+    "targets": [
+      "finit-verb-second",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Kører\" is second and \"ikke\" follows it, as in every main clause.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-laegen-ringer",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "The doctor will call tomorrow morning.",
+    "sentence": "F:lægen | v:ringer | A:i morgen formiddag",
+    "alternatives": [
+      "F:i morgen formiddag | v:ringer | n:lægen"
+    ],
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "Danish often uses the present tense for the future, and the verb is still second.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-paa-arbejdet-kantine",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "At my workplace we have a big canteen.",
+    "sentence": "F:på mit arbejde | v:har | n:vi | N:en stor kantine",
+    "alternatives": [
+      "F:vi | v:har | N:en stor kantine | A:på mit arbejde"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "\"På mit arbejde\" is three words but one constituent. It fills the front slot alone.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-efter-kurset-job",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "After the Danish course I would like to find a job.",
+    "sentence": "F:efter danskkurset | v:vil | n:jeg | a:gerne | V:finde | N:et job",
+    "alternatives": [
+      "F:jeg | v:vil | a:gerne | V:finde | N:et job | A:efter danskkurset"
+    ],
+    "targets": [
+      "forfelt-single",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Never \"Efter danskkurset jeg vil…\". With one constituent in front, \"vil\" has to come next.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-fritid-guitar",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "In my free time I play the guitar.",
+    "sentence": "F:i min fritid | v:spiller | n:jeg | N:guitar",
+    "alternatives": [
+      "F:jeg | v:spiller | N:guitar | A:i min fritid"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "\"I min fritid\" is one constituent in the front slot, so \"jeg\" comes after \"spiller\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hver-anden-uge-boern",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Every other week I have my children.",
+    "sentence": "F:hver anden uge | v:har | n:jeg | N:mine børn",
+    "alternatives": [
+      "F:jeg | v:har | N:mine børn | A:hver anden uge"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "\"Hver anden uge\" is a single time constituent. One unit in front, then the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-med-toget-timer",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "By train the journey takes two hours.",
+    "sentence": "F:med toget | v:tager | n:turen | N:to timer",
+    "alternatives": [
+      "F:turen | v:tager | N:to timer | A:med toget",
+      "F:turen | v:tager | a:med toget | N:to timer"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "A prepositional phrase in front counts as one constituent and triggers inversion.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-foraaret-boernehave",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "In the spring my son starts kindergarten.",
+    "sentence": "F:i foråret | v:begynder | n:min søn | A:i børnehave",
+    "alternatives": [
+      "F:min søn | v:begynder | A:i børnehave | A:i foråret"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "\"I foråret\" stands alone before the verb, and \"min søn\" comes after it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-ikke-plads",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "There is no room in the car.",
+    "sentence": "F:der | v:er | a:ikke | N:plads | A:i bilen",
+    "alternatives": [
+      "F:i bilen | v:er | n:der | a:ikke | N:plads"
+    ],
+    "targets": [
+      "subject-required",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Der\" is the subject. The real subject \"plads\" comes later, after \"ikke\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-sneet-hele-natten",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "It has snowed all night.",
+    "sentence": "F:det | v:har | V:sneet | A:hele natten",
+    "alternatives": [
+      "F:hele natten | v:har | n:det | V:sneet"
+    ],
+    "targets": [
+      "subject-required",
+      "verb-cluster-order"
+    ],
+    "takeaway": "The weather verb in the perfect still needs \"det\": \"det har sneet\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-kat-trappen",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "There is a cat sitting on the stairs.",
+    "sentence": "F:der | v:sidder | n:en kat | A:på trappen",
+    "alternatives": [
+      "F:der | v:sidder | N:en kat | A:på trappen",
+      "F:på trappen | v:sidder | n:der | N:en kat"
+    ],
+    "targets": [
+      "subject-required"
+    ],
+    "takeaway": "When the subject is new information, Danish starts with \"der\" and puts the real subject after the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-gaester-aften",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Guests are coming this evening.",
+    "sentence": "F:der | v:kommer | n:gæster | A:i aften",
+    "alternatives": [
+      "F:der | v:kommer | N:gæster | A:i aften",
+      "F:i aften | v:kommer | n:der | N:gæster"
+    ],
+    "targets": [
+      "subject-required"
+    ],
+    "takeaway": "\"Kommer gæster i aften\" has no subject. \"Der\" fills that position.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-regnet-denne-uge",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "It has rained a lot this week.",
+    "sentence": "F:det | v:har | V:regnet | A:meget | A:i denne uge",
+    "alternatives": [
+      "F:i denne uge | v:har | n:det | V:regnet | A:meget"
+    ],
+    "targets": [
+      "subject-required",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Det\" is the subject of the weather verb, even in a verb cluster.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-paedagoger",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "There is a shortage of educators in many kindergartens.",
+    "sentence": "F:der | v:mangler | n:pædagoger | A:i mange børnehaver",
+    "alternatives": [
+      "F:der | v:mangler | N:pædagoger | A:i mange børnehaver",
+      "F:i mange børnehaver | v:mangler | n:der | N:pædagoger"
+    ],
+    "targets": [
+      "subject-required"
+    ],
+    "takeaway": "\"Der mangler…\" is a fixed pattern: \"der\" is the subject, and the people who are missing come after the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-kan-ikke-svoemme",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "My son cannot swim.",
+    "sentence": "F:min søn | v:kan | a:ikke | V:svømme",
+    "targets": [
+      "verb-cluster-order",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Kan\" is the finite verb and \"svømme\" the infinitive. \"Ikke\" goes between them.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-vil-gerne-kaffe",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "I would like a cup of coffee.",
+    "sentence": "F:jeg | v:vil | a:gerne | V:have | N:en kop kaffe",
+    "targets": [
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Vil gerne have\" is split up: \"vil\" in slot 2, \"gerne\" in the adverb slot, \"have\" in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-boet-tre-aar",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "We have lived in Denmark for three years.",
+    "sentence": "F:vi | v:har | V:boet | A:i Danmark | A:i tre år",
+    "alternatives": [
+      "F:i Danmark | v:har | n:vi | V:boet | A:i tre år",
+      "F:i tre år | v:har | n:vi | V:boet | A:i Danmark"
+    ],
+    "targets": [
+      "verb-cluster-order",
+      "adverbial-order"
+    ],
+    "takeaway": "\"Har\" is finite and \"boet\" is the participle. The place comes before the time at the end.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-arbejde-loerdag",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "I have to work on Saturday.",
+    "sentence": "F:jeg | v:skal | V:arbejde | A:på lørdag",
+    "alternatives": [
+      "F:på lørdag | v:skal | n:jeg | V:arbejde"
+    ],
+    "targets": [
+      "verb-cluster-order",
+      "finit-verb-second"
+    ],
+    "takeaway": "Modal first, infinitive later: \"skal … arbejde\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-ikke-set-filmen",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "I have not seen the film.",
+    "sentence": "F:jeg | v:har | a:ikke | V:set | N:filmen",
+    "targets": [
+      "verb-cluster-order",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Har set\" is not one block. \"Ikke\" sits between \"har\" and \"set\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-maa-ikke-ryge",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "You may not smoke here.",
+    "sentence": "F:man | v:må | a:ikke | V:ryge | A:her",
+    "alternatives": [
+      "F:her | v:må | n:man | a:ikke | V:ryge"
+    ],
+    "targets": [
+      "verb-cluster-order",
+      "v2-inversion"
+    ],
+    "takeaway": "\"Må\" is finite, so it is second. \"Ryge\" waits in V after \"ikke\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-fordi-ikke-godt",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…because I am not feeling well.",
+    "sentence": "k:fordi | n:jeg | a:ikke | v:har | N:det | A:godt",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "After \"fordi\", \"ikke\" comes before the finite verb: \"fordi jeg ikke har\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvis-ikke-komme",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…if you cannot come.",
+    "sentence": "k:hvis | n:du | a:ikke | v:kan | V:komme",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "In a \"hvis\" clause, \"ikke\" goes in front of \"kan\", not after it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-at-aldrig-ryger",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…that he never smokes.",
+    "sentence": "k:at | n:han | a:aldrig | v:ryger",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "\"At\" starts a subordinate clause, so \"aldrig\" moves in front of the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-naar-bussen-ikke",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…when the bus does not come.",
+    "sentence": "k:når | n:bussen | a:ikke | v:kommer",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "\"Når\" works like \"fordi\" and \"hvis\": subject, \"ikke\", then the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-om-ogsaa-aften",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…whether she is also coming this evening.",
+    "sentence": "k:om | n:hun | a:også | v:kommer | A:i aften",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "The rule covers all sentence adverbs, so \"også\" also goes before the verb in a subordinate clause.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-fordi-ikke-bil",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…because we do not have a car.",
+    "sentence": "k:fordi | n:vi | a:ikke | v:har | N:bil",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "Main clause: \"Vi har ikke bil.\" Subordinate clause: \"fordi vi ikke har bil.\"",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-koebte-igaar",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…that I bought yesterday.",
+    "sentence": "k:som | n:jeg | v:købte | A:i går",
+    "targets": [
+      "relative-clause"
+    ],
+    "takeaway": "\"Som\" opens the clause. After it comes the normal subordinate-clause order: subject, verb, time.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvor-soester-bor",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…where my sister lives.",
+    "sentence": "k:hvor | n:min søster | v:bor",
+    "targets": [
+      "relative-clause"
+    ],
+    "takeaway": "\"Hvor\" can open a relative clause about a place. The subject comes right after it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-ikke-lide",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…that she does not like.",
+    "sentence": "k:som | n:hun | a:ikke | v:kan | V:lide",
+    "targets": [
+      "relative-clause",
+      "ikke-regel"
+    ],
+    "takeaway": "A relative clause is a subordinate clause, so \"ikke\" goes before \"kan\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-mor-jul",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…that my mother always makes for Christmas.",
+    "sentence": "k:som | n:min mor | a:altid | v:laver | A:til jul",
+    "targets": [
+      "relative-clause",
+      "ikke-regel"
+    ],
+    "takeaway": "\"Altid\" comes before the verb \"laver\", because \"som\" made this a subordinate clause.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvor-arbejdede",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…where I worked last year.",
+    "sentence": "k:hvor | n:jeg | v:arbejdede | A:sidste år",
+    "targets": [
+      "relative-clause"
+    ],
+    "takeaway": "After \"hvor\" comes subject, then verb, then time, with no inversion.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-gav-kone-blomster",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "I gave my wife flowers yesterday.",
+    "sentence": "F:jeg | v:gav | N:min kone | N:blomster | A:i går",
+    "alternatives": [
+      "F:i går | v:gav | n:jeg | N:min kone | N:blomster"
+    ],
+    "targets": [
+      "object-order",
+      "v2-inversion"
+    ],
+    "takeaway": "The receiver (\"min kone\") comes before the thing given (\"blomster\").",
+    "reviewed": false
+  },
+  {
+    "id": "ex-viser-dig-vejen",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "I will show you the way.",
+    "sentence": "F:jeg | v:viser | N:dig | N:vejen",
+    "targets": [
+      "object-order"
+    ],
+    "takeaway": "Person first, thing second: \"dig vejen\", not \"vejen dig\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-laaner-cykel",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "My neighbour is lending me his bicycle.",
+    "sentence": "F:min nabo | v:låner | N:mig | N:sin cykel",
+    "targets": [
+      "object-order"
+    ],
+    "takeaway": "The receiver \"mig\" comes before what is lent, \"sin cykel\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-koeber-is",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "We are buying the children an ice cream.",
+    "sentence": "F:vi | v:køber | N:børnene | N:en is",
+    "targets": [
+      "object-order"
+    ],
+    "takeaway": "With two objects, the person who gets something comes first.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-sender-sms",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "I will send you a text this evening.",
+    "sentence": "F:jeg | v:sender | N:dig | N:en sms | A:i aften",
+    "alternatives": [
+      "F:i aften | v:sender | n:jeg | N:dig | N:en sms"
+    ],
+    "targets": [
+      "object-order",
+      "v2-inversion"
+    ],
+    "takeaway": "\"Dig\" (the receiver) comes before \"en sms\", and the time comes last.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-ikke-hjemme-idag",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "My husband is not at home today.",
+    "sentence": "F:min mand | v:er | a:ikke | A:hjemme | A:i dag",
+    "alternatives": [
+      "F:i dag | v:er | n:min mand | a:ikke | A:hjemme"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "v2-inversion"
+    ],
+    "takeaway": "\"Ikke\" is a sentence adverb and comes early. \"Hjemme\" and \"i dag\" are content adverbials and come late.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-gerne-sammen",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "We like to eat together in the evening.",
+    "sentence": "F:vi | v:spiser | a:gerne | A:sammen | A:om aftenen",
+    "alternatives": [
+      "F:om aftenen | v:spiser | n:vi | a:gerne | A:sammen"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "adverbial-order"
+    ],
+    "takeaway": "\"Gerne\" comments on the whole sentence and sits after the verb. \"Sammen\" and \"om aftenen\" go at the end.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-altid-hurtigt-hjem",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "He always cycles home fast.",
+    "sentence": "F:han | v:cykler | a:altid | A:hurtigt | A:hjem",
+    "targets": [
+      "central-vs-content-adverbial",
+      "adverbial-order"
+    ],
+    "takeaway": "\"Altid\" goes in the adverb slot after the verb. \"Hurtigt\" (how) and \"hjem\" (where) go at the end.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-stadig-aarhus",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "My brother still lives in Aarhus.",
+    "sentence": "F:min bror | v:bor | a:stadig | A:i Aarhus",
+    "alternatives": [
+      "F:i Aarhus | v:bor | n:min bror | a:stadig"
+    ],
+    "targets": [
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Stadig\" is a sentence adverb and goes right after the verb, before \"i Aarhus\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-desvaerre-ikke-tid",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Unfortunately I do not have time today.",
+    "sentence": "F:jeg | v:har | a:desværre | a:ikke | N:tid | A:i dag",
+    "alternatives": [
+      "F:i dag | v:har | n:jeg | a:desværre | a:ikke | N:tid",
+      "F:desværre | v:har | n:jeg | a:ikke | N:tid | A:i dag"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "v2-inversion"
+    ],
+    "takeaway": "Two sentence adverbs in a row: \"desværre ikke\". Both sit in the adverb slot, before the object.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-langsomt-hjem-festen",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "We walk home slowly after the party.",
+    "sentence": "F:vi | v:går | A:langsomt | A:hjem | A:efter festen",
+    "alternatives": [
+      "F:efter festen | v:går | n:vi | A:langsomt | A:hjem"
+    ],
+    "targets": [
+      "adverbial-order"
+    ],
+    "takeaway": "At the end of the sentence the order is how, then where, then when: \"langsomt hjem efter festen\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-stille-klassen",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "The children sit quietly in the classroom.",
+    "sentence": "F:børnene | v:sidder | A:stille | A:i klassen",
+    "alternatives": [
+      "F:i klassen | v:sidder | n:børnene | A:stille"
+    ],
+    "targets": [
+      "adverbial-order"
+    ],
+    "takeaway": "How (\"stille\") comes before where (\"i klassen\").",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hjemme-fredag",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "I work from home on Fridays.",
+    "sentence": "F:jeg | v:arbejder | A:hjemme | A:om fredagen",
+    "alternatives": [
+      "F:om fredagen | v:arbejder | n:jeg | A:hjemme"
+    ],
+    "targets": [
+      "adverbial-order",
+      "v2-inversion"
+    ],
+    "takeaway": "Place before time: \"hjemme om fredagen\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-forsigtigt-byen-natten",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "She drives carefully in town at night.",
+    "sentence": "F:hun | v:kører | A:forsigtigt | A:i byen | A:om natten",
+    "alternatives": [
+      "F:i byen | v:kører | n:hun | A:forsigtigt | A:om natten",
+      "F:om natten | v:kører | n:hun | A:forsigtigt | A:i byen"
+    ],
+    "targets": [
+      "adverbial-order"
+    ],
+    "takeaway": "Manner, place, time: \"forsigtigt i byen om natten\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-praktik-plejehjem",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Next week I start a work placement at a care home.",
+    "sentence": "F:i næste uge | v:starter | n:jeg | A:i praktik | A:på et plejehjem",
+    "alternatives": [
+      "F:jeg | v:starter | A:i praktik | A:på et plejehjem | A:i næste uge",
+      "F:på et plejehjem | v:starter | n:jeg | A:i praktik | A:i næste uge"
+    ],
+    "targets": [
+      "v2-inversion",
+      "forfelt-single"
+    ],
+    "takeaway": "\"I næste uge\" in front means the subject \"jeg\" moves behind the verb \"starter\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-desvaerre-aflyst",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Unfortunately the meeting has been cancelled.",
+    "sentence": "F:desværre | v:er | n:mødet | V:blevet | V:aflyst",
+    "alternatives": [
+      "F:mødet | v:er | a:desværre | V:blevet | V:aflyst"
+    ],
+    "targets": [
+      "v2-inversion",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Fronting \"desværre\" pushes the subject \"mødet\" behind the finite verb \"er\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-sneen-for-sent",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Because of the snow the bus is late.",
+    "sentence": "F:på grund af sneen | v:kommer | n:bussen | A:for sent",
+    "alternatives": [
+      "F:bussen | v:kommer | A:for sent | A:på grund af sneen",
+      "F:bussen | v:kommer | a:på grund af sneen | A:for sent"
+    ],
+    "targets": [
+      "v2-inversion",
+      "forfelt-single"
+    ],
+    "takeaway": "A cause phrase in front works like a time phrase: the verb comes second and the subject third.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-brev-fra-kommunen",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Yesterday I got a letter from the municipality.",
+    "sentence": "F:i går | v:fik | n:jeg | N:et brev fra kommunen",
+    "alternatives": [
+      "F:jeg | v:fik | N:et brev fra kommunen | A:i går"
+    ],
+    "targets": [
+      "v2-inversion",
+      "finit-verb-second"
+    ],
+    "takeaway": "With \"i går\" in front, \"fik\" comes second and \"jeg\" third.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-efter-jul-skole",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "After Christmas our daughter is starting school.",
+    "sentence": "F:efter jul | v:skal | n:vores datter | V:starte | A:i skole",
+    "alternatives": [
+      "F:vores datter | v:skal | V:starte | A:i skole | A:efter jul"
+    ],
+    "targets": [
+      "v2-inversion",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Only the finite verb \"skal\" is in slot 2. The subject follows it, and \"starte\" waits in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-kursus-foerstehjaelp",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "All new employees must take a first-aid course.",
+    "sentence": "F:alle nye medarbejdere | v:skal | V:tage | N:et kursus i førstehjælp",
+    "targets": [
+      "finit-verb-second",
+      "verb-cluster-order"
+    ],
+    "takeaway": "A long subject is still one constituent, and the finite verb \"skal\" follows it directly.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-brev-boligstoette",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "The municipality has sent a letter about my housing benefit.",
+    "sentence": "F:kommunen | v:har | V:sendt | N:et brev om min boligstøtte",
+    "targets": [
+      "finit-verb-second",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Har\" is finite and takes slot 2. \"Sendt\" is a participle and waits in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-lejlighed-stationen",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "The new flat is close to the station.",
+    "sentence": "F:den nye lejlighed | v:ligger | A:tæt på stationen",
+    "alternatives": [
+      "F:tæt på stationen | v:ligger | n:den nye lejlighed"
+    ],
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "Subject, then the finite verb: \"den nye lejlighed ligger\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-uddannelse-sygeplejerske",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "She is training as a nurse.",
+    "sentence": "F:hun | v:tager | N:en uddannelse som sygeplejerske",
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "\"En uddannelse som sygeplejerske\" is one object. The verb is second, before it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-personalemoede-fredag",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Every other Friday we hold a staff meeting.",
+    "sentence": "F:hver anden fredag | v:holder | n:vi | N:personalemøde",
+    "alternatives": [
+      "F:vi | v:holder | N:personalemøde | A:hver anden fredag"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "One constituent in front (\"hver anden fredag\"), and then the verb has to follow.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-i-den-forbindelse",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "In that connection I would like to ask a question.",
+    "sentence": "F:i den forbindelse | v:vil | n:jeg | a:gerne | V:stille | N:et spørgsmål",
+    "alternatives": [
+      "F:jeg | v:vil | a:gerne | V:stille | N:et spørgsmål | A:i den forbindelse",
+      "F:jeg | v:vil | a:i den forbindelse | a:gerne | V:stille | N:et spørgsmål"
+    ],
+    "targets": [
+      "forfelt-single",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"I den forbindelse\" is a typical opener in a formal email. It fills the front slot, so \"vil\" comes next.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-gamle-arbejdsplads",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "At my old workplace we had flexible working hours.",
+    "sentence": "F:på min gamle arbejdsplads | v:havde | n:vi | N:fleksible arbejdstider",
+    "alternatives": [
+      "F:vi | v:havde | N:fleksible arbejdstider | A:på min gamle arbejdsplads"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "\"På min gamle arbejdsplads\" is four words and one constituent, so only it may stand before the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-siden-januar-dansk",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Since January I have been going to Danish classes three times a week.",
+    "sentence": "F:siden januar | v:har | n:jeg | V:gået | A:til dansk | A:tre gange om ugen",
+    "alternatives": [
+      "F:jeg | v:har | V:gået | A:til dansk | A:tre gange om ugen | A:siden januar",
+      "F:tre gange om ugen | v:har | n:jeg | V:gået | A:til dansk | A:siden januar"
+    ],
+    "targets": [
+      "forfelt-single",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Siden januar\" in front, then \"har\", then the subject. The participle \"gået\" waits in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-foedselsdag-cykel",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "For my birthday I got a bicycle from my parents.",
+    "sentence": "F:til min fødselsdag | v:fik | n:jeg | N:en cykel | A:af mine forældre",
+    "alternatives": [
+      "F:jeg | v:fik | N:en cykel | A:af mine forældre | A:til min fødselsdag",
+      "F:af mine forældre | v:fik | n:jeg | N:en cykel | A:til min fødselsdag"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "\"Til min fødselsdag\" is the one constituent in front, so \"fik\" comes before \"jeg\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-kommet-brev",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "A letter has arrived from the municipality.",
+    "sentence": "F:der | v:er | V:kommet | N:et brev fra kommunen",
+    "targets": [
+      "subject-required",
+      "verb-cluster-order"
+    ],
+    "takeaway": "With \"der\" as the subject, the real subject comes after the verb cluster.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-besked-intranet",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "There is an important message on the intranet.",
+    "sentence": "F:der | v:står | n:en vigtig besked | A:på intranettet",
+    "alternatives": [
+      "F:der | v:står | N:en vigtig besked | A:på intranettet",
+      "F:på intranettet | v:står | n:der | N:en vigtig besked"
+    ],
+    "targets": [
+      "subject-required"
+    ],
+    "takeaway": "\"Der står\" introduces something written somewhere, and \"der\" takes the subject position.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-mangler-underskrift",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Your signature is still missing.",
+    "sentence": "F:der | v:mangler | a:stadig | N:din underskrift",
+    "targets": [
+      "subject-required",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Der\" is the formal subject, and \"stadig\" sits in the adverb slot before the real subject.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-blaest-kraftigt",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "It has been blowing hard all day.",
+    "sentence": "F:det | v:har | V:blæst | A:kraftigt | A:hele dagen",
+    "alternatives": [
+      "F:hele dagen | v:har | n:det | V:blæst | A:kraftigt"
+    ],
+    "targets": [
+      "subject-required",
+      "adverbial-order"
+    ],
+    "takeaway": "The weather verb needs \"det\" even in the perfect. How comes before when: \"kraftigt hele dagen\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-holdt-moede",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "A meeting for all parents will be held next week.",
+    "sentence": "F:der | v:bliver | V:holdt | N:et møde for alle forældre | A:i næste uge",
+    "alternatives": [
+      "F:i næste uge | v:bliver | n:der | V:holdt | N:et møde for alle forældre"
+    ],
+    "targets": [
+      "subject-required",
+      "verb-cluster-order"
+    ],
+    "takeaway": "A passive with no one doing the action still needs a subject, and \"der\" takes the job.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-ikke-kunnet-sove",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "I have not been able to sleep tonight.",
+    "sentence": "F:jeg | v:har | a:ikke | V:kunnet | V:sove | A:i nat",
+    "alternatives": [
+      "F:i nat | v:har | n:jeg | a:ikke | V:kunnet | V:sove"
+    ],
+    "targets": [
+      "verb-cluster-order",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "Three verbs: \"har\" (finite) in slot 2, then \"ikke\", then \"kunnet sove\" in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-have-fornyet-pas",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "I need to get my passport renewed.",
+    "sentence": "F:jeg | v:skal | V:have | V:fornyet | N:mit pas",
+    "targets": [
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Skal have fornyet\": only \"skal\" is finite. \"Have fornyet\" stays together in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-burde-kontaktet-laegen",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "You should have contacted the doctor earlier.",
+    "sentence": "F:du | v:burde | V:have | V:kontaktet | N:lægen | A:tidligere",
+    "alternatives": [
+      "F:tidligere | v:burde | n:du | V:have | V:kontaktet | N:lægen"
+    ],
+    "targets": [
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Burde\" is finite and second. \"Have kontaktet\" follows in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-gerne-hjaelp-ansoegning",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "I would like help with my application.",
+    "sentence": "F:jeg | v:vil | a:gerne | V:have | N:hjælp til min ansøgning",
+    "targets": [
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Vil\" in slot 2, \"gerne\" in the adverb slot, and \"have\" in V before the object.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-blevet-indlagt",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "My son has been admitted to hospital.",
+    "sentence": "F:min søn | v:er | V:blevet | V:indlagt | A:på hospitalet",
+    "alternatives": [
+      "F:på hospitalet | v:er | n:min søn | V:blevet | V:indlagt"
+    ],
+    "targets": [
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Er\" is the finite verb. \"Blevet indlagt\" are two non-finite verbs and both wait in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-her-ikke-parkere",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "You cannot park here during the day.",
+    "sentence": "F:her | v:kan | n:man | a:ikke | V:parkere | A:om dagen",
+    "alternatives": [
+      "F:man | v:kan | a:ikke | V:parkere | A:her | A:om dagen",
+      "F:om dagen | v:kan | n:man | a:ikke | V:parkere | A:her"
+    ],
+    "targets": [
+      "verb-cluster-order",
+      "v2-inversion"
+    ],
+    "takeaway": "With \"her\" in front: \"kan\" second, \"man\" third, \"ikke\" next, and \"parkere\" in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-selvom-ikke-tid",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…even though I do not have much time.",
+    "sentence": "k:selvom | n:jeg | a:ikke | v:har | N:meget tid",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "\"Selvom\" starts a subordinate clause, so \"ikke\" goes before \"har\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-da-aldrig-besvaret",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…as the municipality has never answered my email.",
+    "sentence": "k:da | n:kommunen | a:aldrig | v:har | V:besvaret | N:min mail",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Aldrig\" goes before the finite verb \"har\", just as \"ikke\" does in a subordinate clause.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvis-ikke-regningen",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…if you do not pay the bill on time.",
+    "sentence": "k:hvis | n:du | a:ikke | v:betaler | N:regningen | A:til tiden",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "In a \"hvis\" clause: subject, \"ikke\", verb. The object and the time come after.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-at-desvaerre-deltage",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…that unfortunately I cannot attend the meeting.",
+    "sentence": "k:at | n:jeg | a:desværre | a:ikke | v:kan | V:deltage | A:i mødet",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Both sentence adverbs, \"desværre ikke\", go before the finite verb \"kan\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-fordi-stadig-svar",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…because we still have not received an answer.",
+    "sentence": "k:fordi | n:vi | a:stadig | a:ikke | v:har | V:fået | N:svar",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Stadig ikke\" goes before \"har\", and \"fået\" waits in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-om-ogsaa-studerende",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…whether the rule also applies to students.",
+    "sentence": "k:om | n:reglen | a:også | v:gælder | A:for studerende",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "\"Om\" starts a subordinate clause, and \"også\" moves in front of \"gælder\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-naar-ikke-hjemme",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…when I am not at home in the afternoon.",
+    "sentence": "k:når | n:jeg | a:ikke | v:er | A:hjemme | A:om eftermiddagen",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "In a \"når\" clause, \"ikke\" goes before \"er\". Place, then time, come at the end.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-sendte-kommunen",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…that I sent to the municipality last Monday.",
+    "sentence": "k:som | n:jeg | v:sendte | A:til kommunen | A:i mandags",
+    "targets": [
+      "relative-clause",
+      "adverbial-order"
+    ],
+    "takeaway": "After \"som\": subject, verb, then place before time.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-endnu-ikke-betalt",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…that we have not paid yet.",
+    "sentence": "k:som | n:vi | a:endnu | a:ikke | v:har | V:betalt",
+    "targets": [
+      "relative-clause",
+      "ikke-regel"
+    ],
+    "takeaway": "Relative clauses follow the subordinate-clause pattern, so \"endnu ikke\" goes before \"har\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvor-uddannelse",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…where I did my training.",
+    "sentence": "k:hvor | n:jeg | v:tog | N:min uddannelse",
+    "targets": [
+      "relative-clause"
+    ],
+    "takeaway": "\"Hvor\" opens a relative clause about a place. The subject follows it at once.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-laegen-gav-mig",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…that the doctor gave me.",
+    "sentence": "k:som | n:lægen | v:gav | N:mig",
+    "targets": [
+      "relative-clause"
+    ],
+    "takeaway": "\"Som\" stands for the thing given, so only the receiver \"mig\" is left in the object slot.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-hele-aaret",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…that you can use all year round.",
+    "sentence": "k:som | n:man | v:kan | V:bruge | A:hele året",
+    "targets": [
+      "relative-clause",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Subject \"man\", then \"kan\", then \"bruge\". There is no inversion inside a relative clause.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvor-boernene-leger",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…where the children always play after school.",
+    "sentence": "k:hvor | n:børnene | a:altid | v:leger | A:efter skole",
+    "targets": [
+      "relative-clause",
+      "ikke-regel"
+    ],
+    "takeaway": "\"Altid\" goes before \"leger\", because \"hvor\" started a subordinate clause.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-aldrig-set",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "…that she has never seen before.",
+    "sentence": "k:som | n:hun | a:aldrig | v:har | V:set | A:før",
+    "targets": [
+      "relative-clause",
+      "ikke-regel"
+    ],
+    "takeaway": "\"Aldrig\" goes before \"har\" in a relative clause, and \"før\" comes last.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-tilbudt-fast-stilling",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "My boss has offered me a permanent position.",
+    "sentence": "F:min chef | v:har | V:tilbudt | N:mig | N:en fast stilling",
+    "targets": [
+      "object-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "The receiver \"mig\" comes before the thing offered, \"en fast stilling\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-henvisning-specialist",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "The doctor gave my daughter a referral to a specialist.",
+    "sentence": "F:lægen | v:gav | N:min datter | N:en henvisning til en specialist",
+    "targets": [
+      "object-order"
+    ],
+    "takeaway": "Who gets it (\"min datter\") comes before what she gets (\"en henvisning…\").",
+    "reviewed": false
+  },
+  {
+    "id": "ex-skylder-bror",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "I owe my brother five hundred kroner.",
+    "sentence": "F:jeg | v:skylder | N:min bror | N:fem hundrede kroner",
+    "targets": [
+      "object-order"
+    ],
+    "takeaway": "\"Skylde\" takes two objects: the person owed comes before the amount.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-fortalte-historie",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Grandad told the children a long story last night.",
+    "sentence": "F:bedstefar | v:fortalte | N:børnene | N:en lang historie | A:i aftes",
+    "alternatives": [
+      "F:i aftes | v:fortalte | n:bedstefar | N:børnene | N:en lang historie"
+    ],
+    "targets": [
+      "object-order",
+      "v2-inversion"
+    ],
+    "takeaway": "\"Børnene\" (the listeners) comes before \"en lang historie\" (what was told).",
+    "reviewed": false
+  },
+  {
+    "id": "ex-forklarede-reglerne",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "The teacher explained the exam rules to us.",
+    "sentence": "F:læreren | v:forklarede | N:os | N:reglerne for eksamen",
+    "targets": [
+      "object-order"
+    ],
+    "takeaway": "Two objects without a preposition: the person first, the thing second.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-sende-jer-programmet",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "We will send you the programme tomorrow.",
+    "sentence": "F:vi | v:vil | V:sende | N:jer | N:programmet | A:i morgen",
+    "alternatives": [
+      "F:i morgen | v:vil | n:vi | V:sende | N:jer | N:programmet"
+    ],
+    "targets": [
+      "object-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "The verb is split (\"vil … sende\"), but the object order stays the same: \"jer programmet\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-tilbudt-boernehave",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "The municipality has offered us a kindergarten place.",
+    "sentence": "F:kommunen | v:har | V:tilbudt | N:os | N:en plads i en børnehave",
+    "targets": [
+      "object-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "The receiver \"os\" comes first, then the long direct object.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-heldigvis-fundet-lejlighed",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Fortunately we have found a flat in Aarhus.",
+    "sentence": "F:vi | v:har | a:heldigvis | V:fundet | N:en lejlighed | A:i Aarhus",
+    "alternatives": [
+      "F:i Aarhus | v:har | n:vi | a:heldigvis | V:fundet | N:en lejlighed",
+      "F:heldigvis | v:har | n:vi | V:fundet | N:en lejlighed | A:i Aarhus"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Heldigvis\" is a sentence adverb and goes between \"har\" and \"fundet\". \"I Aarhus\" is a place and comes last.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-aldrig-for-sent-arbejde",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "He never arrives late for work.",
+    "sentence": "F:han | v:møder | a:aldrig | A:for sent | A:på arbejde",
+    "targets": [
+      "central-vs-content-adverbial",
+      "adverbial-order"
+    ],
+    "takeaway": "\"Aldrig\" goes in the adverb slot right after the verb. \"For sent\" and \"på arbejde\" go at the end.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-faktisk-aldrig-skagen",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Actually, I have never been to Skagen.",
+    "sentence": "F:jeg | v:har | a:faktisk | a:aldrig | V:været | A:i Skagen",
+    "alternatives": [
+      "F:i Skagen | v:har | n:jeg | a:faktisk | a:aldrig | V:været",
+      "F:faktisk | v:har | n:jeg | a:aldrig | V:været | A:i Skagen"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Faktisk aldrig\" are both sentence adverbs and sit between \"har\" and \"været\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-gerne-lege-gaarden",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "The children are allowed to play in the yard after school.",
+    "sentence": "F:børnene | v:må | a:gerne | V:lege | A:i gården | A:efter skole",
+    "alternatives": [
+      "F:i gården | v:må | n:børnene | a:gerne | V:lege | A:efter skole",
+      "F:efter skole | v:må | n:børnene | a:gerne | V:lege | A:i gården"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Gerne\" goes in the adverb slot. \"I gården\" (place) and \"efter skole\" (time) come at the end.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-altid-cykelhjelm",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "We always wear a bicycle helmet in traffic.",
+    "sentence": "F:vi | v:bruger | a:altid | N:cykelhjelm | A:i trafikken",
+    "alternatives": [
+      "F:i trafikken | v:bruger | n:vi | a:altid | N:cykelhjelm"
+    ],
+    "targets": [
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Altid\" goes early, after the verb. \"I trafikken\" goes late, after the object.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-selvfoelgelig-godt-weekend",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "I can of course work at the weekend.",
+    "sentence": "F:jeg | v:kan | a:selvfølgelig | a:godt | V:arbejde | A:i weekenden",
+    "alternatives": [
+      "F:i weekenden | v:kan | n:jeg | a:selvfølgelig | a:godt | V:arbejde",
+      "F:selvfølgelig | v:kan | n:jeg | a:godt | V:arbejde | A:i weekenden"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Selvfølgelig godt\" sits between \"kan\" and \"arbejde\". \"I weekenden\" is a time phrase and comes last.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-tilfaeldigt-supermarkedet",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "I met my new colleague by chance in the supermarket yesterday.",
+    "sentence": "F:jeg | v:mødte | N:min nye kollega | A:tilfældigt | A:i supermarkedet | A:i går",
+    "alternatives": [
+      "F:i supermarkedet | v:mødte | n:jeg | N:min nye kollega | A:tilfældigt | A:i går",
+      "F:i går | v:mødte | n:jeg | N:min nye kollega | A:tilfældigt | A:i supermarkedet"
+    ],
+    "targets": [
+      "adverbial-order"
+    ],
+    "takeaway": "Manner, place, time: \"tilfældigt i supermarkedet i går\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-spiste-godt-restauranten",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "We ate well at the restaurant last Saturday.",
+    "sentence": "F:vi | v:spiste | A:godt | A:på restauranten | A:i lørdags",
+    "alternatives": [
+      "F:på restauranten | v:spiste | n:vi | A:godt | A:i lørdags",
+      "F:i lørdags | v:spiste | n:vi | A:godt | A:på restauranten"
+    ],
+    "targets": [
+      "adverbial-order"
+    ],
+    "takeaway": "How (\"godt\"), then where (\"på restauranten\"), then when (\"i lørdags\").",
+    "reviewed": false
+  },
+  {
+    "id": "ex-frivilligt-torsdag",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "She does voluntary work at the Red Cross every Thursday.",
+    "sentence": "F:hun | v:arbejder | A:frivilligt | A:i Røde Kors | A:hver torsdag",
+    "alternatives": [
+      "F:i Røde Kors | v:arbejder | n:hun | A:frivilligt | A:hver torsdag",
+      "F:hver torsdag | v:arbejder | n:hun | A:frivilligt | A:i Røde Kors"
+    ],
+    "targets": [
+      "adverbial-order"
+    ],
+    "takeaway": "\"Frivilligt\" (how) comes first, then the place, then \"hver torsdag\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-trygt-bedsteforaeldre",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "The children slept safely at their grandparents' at the weekend.",
+    "sentence": "F:børnene | v:sov | A:trygt | A:hos deres bedsteforældre | A:i weekenden",
+    "alternatives": [
+      "F:hos deres bedsteforældre | v:sov | n:børnene | A:trygt | A:i weekenden",
+      "F:i weekenden | v:sov | n:børnene | A:trygt | A:hos deres bedsteforældre"
+    ],
+    "targets": [
+      "adverbial-order"
+    ],
+    "takeaway": "Three content adverbials, one fixed order: manner, place, time.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-haardt-lageret",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "He has worked hard in the warehouse for many years.",
+    "sentence": "F:han | v:har | V:arbejdet | A:hårdt | A:på lageret | A:i mange år",
+    "alternatives": [
+      "F:på lageret | v:har | n:han | V:arbejdet | A:hårdt | A:i mange år",
+      "F:i mange år | v:har | n:han | V:arbejdet | A:hårdt | A:på lageret"
+    ],
+    "targets": [
+      "adverbial-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "After the participle \"arbejdet\": \"hårdt\" (how), \"på lageret\" (where), \"i mange år\" (how long).",
+    "reviewed": false
+  },
+  {
+    "id": "ex-moedes-biografen",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "We are meeting outside the cinema at seven o'clock.",
+    "sentence": "F:vi | v:skal | V:mødes | A:uden for biografen | A:klokken syv",
+    "alternatives": [
+      "F:uden for biografen | v:skal | n:vi | V:mødes | A:klokken syv",
+      "F:klokken syv | v:skal | n:vi | V:mødes | A:uden for biografen"
+    ],
+    "targets": [
+      "adverbial-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Place before time: \"uden for biografen klokken syv\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-oejeblikket-deltid-hotel",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "At the moment I work part-time at a hotel.",
+    "sentence": "F:i øjeblikket | v:arbejder | n:jeg | A:på deltid | A:på et hotel",
+    "alternatives": [
+      "F:jeg | v:arbejder | A:på deltid | A:på et hotel | A:i øjeblikket",
+      "F:på et hotel | v:arbejder | n:jeg | A:på deltid | A:i øjeblikket"
+    ],
+    "targets": [
+      "v2-inversion",
+      "adverbial-order"
+    ],
+    "takeaway": "\"I øjeblikket\" in front puts \"jeg\" after the verb. The rest keeps its order: how, then where.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-derfor-soege-stillingen",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "I would therefore like to apply for the position of teaching assistant.",
+    "sentence": "F:derfor | v:vil | n:jeg | a:gerne | V:søge | N:stillingen som pædagogmedhjælper",
+    "alternatives": [
+      "F:jeg | v:vil | a:derfor | a:gerne | V:søge | N:stillingen som pædagogmedhjælper"
+    ],
+    "targets": [
+      "v2-inversion",
+      "verb-cluster-order"
+    ],
+    "takeaway": "A classic way to end an application: \"Derfor vil jeg gerne…\". The verb comes straight after \"derfor\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-alligevel-afklaring",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "Even so, we have not received any clarification.",
+    "sentence": "F:alligevel | v:har | n:vi | a:ikke | V:fået | N:nogen afklaring",
+    "alternatives": [
+      "F:vi | v:har | a:alligevel | a:ikke | V:fået | N:nogen afklaring"
+    ],
+    "targets": [
+      "v2-inversion",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Alligevel\" can open the sentence, and then \"har\" is second and \"vi\" third.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hjemland-firma",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "In my home country I had my own company for ten years.",
+    "sentence": "F:i mit hjemland | v:havde | n:jeg | N:mit eget firma | A:i ti år",
+    "alternatives": [
+      "F:jeg | v:havde | N:mit eget firma | A:i mit hjemland | A:i ti år",
+      "F:i ti år | v:havde | n:jeg | N:mit eget firma | A:i mit hjemland"
+    ],
+    "targets": [
+      "v2-inversion",
+      "adverbial-order"
+    ],
+    "takeaway": "A place phrase in front triggers inversion just as a time phrase does: \"havde jeg\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-digital-post",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "Many elderly citizens have problems with digital post.",
+    "sentence": "F:mange ældre borgere | v:oplever | N:problemer med digital post",
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "A long subject (\"mange ældre borgere\") is still only one constituent before the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-ordning-i-kraft",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "The new scheme comes into force on the first of January.",
+    "sentence": "F:den nye ordning | v:træder | A:i kraft | A:den første januar",
+    "alternatives": [
+      "F:den første januar | v:træder | n:den nye ordning | A:i kraft"
+    ],
+    "targets": [
+      "finit-verb-second",
+      "v2-inversion"
+    ],
+    "takeaway": "The verb \"træder\" is second. Front the date and it is still second.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-baade-mand-og-jeg",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "Both my husband and I work full-time.",
+    "sentence": "F:både min mand og jeg | v:arbejder | A:på fuld tid",
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "\"Både min mand og jeg\" is one constituent, however many words it has. The verb comes right after it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-tandpleje-gratis",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "Municipal dental care offers all children free treatment.",
+    "sentence": "F:den kommunale tandpleje | v:tilbyder | N:alle børn | N:gratis behandling",
+    "targets": [
+      "finit-verb-second",
+      "object-order"
+    ],
+    "takeaway": "The subject comes first, then the verb, then two objects: receiver before thing.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-forbindelse-flytningen-laege",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "In connection with the move I need to get a new doctor.",
+    "sentence": "F:i forbindelse med flytningen | v:skal | n:jeg | V:have | N:en ny læge",
+    "alternatives": [
+      "F:jeg | v:skal | V:have | N:en ny læge | A:i forbindelse med flytningen",
+      "F:jeg | v:skal | a:i forbindelse med flytningen | V:have | N:en ny læge"
+    ],
+    "targets": [
+      "forfelt-single",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"I forbindelse med flytningen\" is one long constituent. After it comes the verb, never the subject.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hjemmeplejen-skulderskade",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "After many years of work in home care she has injured her shoulder.",
+    "sentence": "F:efter mange års arbejde i hjemmeplejen | v:har | n:hun | V:fået | N:en skulderskade",
+    "alternatives": [
+      "F:hun | v:har | V:fået | N:en skulderskade | A:efter mange års arbejde i hjemmeplejen"
+    ],
+    "targets": [
+      "forfelt-single",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Seven words in front, but they form one constituent, so \"har\" still comes second.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-ifoelge-kontrakt-ferie",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "According to my contract I am entitled to five weeks' holiday.",
+    "sentence": "F:ifølge min kontrakt | v:har | n:jeg | N:ret til fem ugers ferie",
+    "alternatives": [
+      "F:jeg | v:har | N:ret til fem ugers ferie | A:ifølge min kontrakt",
+      "F:jeg | v:har | a:ifølge min kontrakt | N:ret til fem ugers ferie"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "\"Ifølge min kontrakt\" fills the front slot, so the subject has to come after \"har\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-efteraar-aalborg-vejle",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "Last autumn the whole family moved from Aalborg to Vejle.",
+    "sentence": "F:sidste efterår | v:flyttede | n:hele familien | A:fra Aalborg | A:til Vejle",
+    "alternatives": [
+      "F:hele familien | v:flyttede | A:fra Aalborg | A:til Vejle | A:sidste efterår",
+      "F:fra Aalborg | v:flyttede | n:hele familien | A:til Vejle | A:sidste efterår",
+      "F:til Vejle | v:flyttede | n:hele familien | A:fra Aalborg | A:sidste efterår"
+    ],
+    "targets": [
+      "forfelt-single",
+      "adverbial-order"
+    ],
+    "takeaway": "\"Sidste efterår\" is the one constituent in front. \"Fra Aalborg til Vejle\" stays at the end.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-fejl-loenseddel",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "An error has occurred in my payslip.",
+    "sentence": "F:der | v:er | V:opstået | N:en fejl på min lønseddel",
+    "targets": [
+      "subject-required",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Der\" is the formal subject. The real subject, \"en fejl…\", comes after the verb cluster.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-intet-tilskud",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "Unfortunately the letter says nothing about a subsidy.",
+    "sentence": "F:der | v:står | a:desværre | a:ikke | N:noget om tilskud | A:i brevet",
+    "alternatives": [
+      "F:i brevet | v:står | n:der | a:desværre | a:ikke | N:noget om tilskud",
+      "F:desværre | v:står | n:der | a:ikke | N:noget om tilskud | A:i brevet"
+    ],
+    "targets": [
+      "subject-required",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "With \"der\" as the subject, \"desværre ikke\" stays in the adverb slot and the real subject comes after it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-ansaettes-sosu",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "More health care assistants are to be employed at the care home.",
+    "sentence": "F:der | v:skal | V:ansættes | N:flere sosu-assistenter | A:på plejehjemmet",
+    "alternatives": [
+      "F:på plejehjemmet | v:skal | n:der | V:ansættes | N:flere sosu-assistenter"
+    ],
+    "targets": [
+      "subject-required",
+      "verb-cluster-order"
+    ],
+    "takeaway": "A passive verb (\"ansættes\") still needs a subject, so \"der\" is used.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-lugter-fugt-kaelderen",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "It smells damp in the basement.",
+    "sentence": "F:det | v:lugter | A:af fugt | A:i kælderen",
+    "alternatives": [
+      "F:i kælderen | v:lugter | n:det | A:af fugt"
+    ],
+    "targets": [
+      "subject-required"
+    ],
+    "takeaway": "\"Det\" is an empty subject here, the same as with weather verbs.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-ikke-kunnet-kontakte",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "I have not been able to contact my caseworker this week.",
+    "sentence": "F:jeg | v:har | a:ikke | V:kunnet | V:kontakte | N:min sagsbehandler | A:i denne uge",
+    "alternatives": [
+      "F:i denne uge | v:har | n:jeg | a:ikke | V:kunnet | V:kontakte | N:min sagsbehandler"
+    ],
+    "targets": [
+      "verb-cluster-order",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Har\" in slot 2, \"ikke\" next, then \"kunnet kontakte\" in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-pakken-leveret",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "The parcel was supposed to be delivered yesterday.",
+    "sentence": "F:pakken | v:skulle | V:være | V:leveret | A:i går",
+    "alternatives": [
+      "F:i går | v:skulle | n:pakken | V:være | V:leveret"
+    ],
+    "targets": [
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Skulle\" is the only finite verb. \"Være leveret\" waits in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-svaret-eboks",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "The reply will be sent to your e-Boks.",
+    "sentence": "F:svaret | v:vil | V:blive | V:sendt | A:til Deres e-Boks",
+    "alternatives": [
+      "F:til Deres e-Boks | v:vil | n:svaret | V:blive | V:sendt"
+    ],
+    "targets": [
+      "verb-cluster-order"
+    ],
+    "takeaway": "Future passive: \"vil\" is finite and \"blive sendt\" sits in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-maattet-aflyse",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "We have had to cancel the trip because of the weather.",
+    "sentence": "F:vi | v:har | V:måttet | V:aflyse | N:turen | A:på grund af vejret",
+    "alternatives": [
+      "F:på grund af vejret | v:har | n:vi | V:måttet | V:aflyse | N:turen",
+      "F:vi | v:har | a:på grund af vejret | V:måttet | V:aflyse | N:turen"
+    ],
+    "targets": [
+      "verb-cluster-order",
+      "v2-inversion"
+    ],
+    "takeaway": "\"Har måttet aflyse\": \"har\" is finite, while \"måttet\" and \"aflyse\" are both non-finite.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-modtaget-senest",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "The application must be received by 15 March at the latest.",
+    "sentence": "F:ansøgningen | v:skal | V:være | V:modtaget | A:senest den femtende marts",
+    "alternatives": [
+      "F:senest den femtende marts | v:skal | n:ansøgningen | V:være | V:modtaget"
+    ],
+    "targets": [
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Skal være modtaget\": one finite verb, two non-finite ones in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-gerne-have-deltaget",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "I would have liked to take part in the course.",
+    "sentence": "F:jeg | v:ville | a:gerne | V:have | V:deltaget | A:i kurset",
+    "alternatives": [
+      "F:i kurset | v:ville | n:jeg | a:gerne | V:have | V:deltaget"
+    ],
+    "targets": [
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Ville\" is finite and second. \"Gerne\" splits it from \"have deltaget\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-vaskemaskinen-repareret",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "The washing machine has still not been repaired.",
+    "sentence": "F:vaskemaskinen | v:er | a:stadig | a:ikke | V:blevet | V:repareret",
+    "targets": [
+      "verb-cluster-order",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Stadig ikke\" goes between \"er\" and \"blevet repareret\", never after the participles.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-selvom-aldrig-danmark",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "…even though I have never worked in Denmark before.",
+    "sentence": "k:selvom | n:jeg | a:aldrig | v:har | V:arbejdet | A:i Danmark | A:før",
+    "targets": [
+      "ikke-regel",
+      "adverbial-order"
+    ],
+    "takeaway": "After \"selvom\", \"aldrig\" goes in front of \"har\". Place and time come last.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-fordi-ikke-laengere",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "…because my son can no longer attend the local school.",
+    "sentence": "k:fordi | n:min søn | a:ikke | a:længere | v:kan | V:gå | A:i den lokale skole",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Ikke længere\" are two sentence adverbs, and both go before \"kan\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvis-stadig-istandsat",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "…if the flat still has not been renovated.",
+    "sentence": "k:hvis | n:lejligheden | a:stadig | a:ikke | v:er | V:blevet | V:istandsat",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Stadig ikke\" goes before the finite verb \"er\" in a subordinate clause.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-at-tilbyde-samtale",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "…that unfortunately we cannot offer you an interview.",
+    "sentence": "k:at | n:vi | a:desværre | a:ikke | v:kan | V:tilbyde | N:Dem | N:en samtale",
+    "targets": [
+      "ikke-regel",
+      "object-order"
+    ],
+    "takeaway": "A typical rejection letter: \"at vi desværre ikke kan…\". Both adverbs go before the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-om-der-deltid",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "…whether there is also an option to work part-time.",
+    "sentence": "k:om | n:der | a:også | v:er | N:mulighed for deltid",
+    "targets": [
+      "ikke-regel",
+      "subject-required"
+    ],
+    "takeaway": "\"Der\" is the subject here too, and \"også\" goes before \"er\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-da-ikke-loen",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "…as I have not received my pay for March.",
+    "sentence": "k:da | n:jeg | a:ikke | v:har | V:modtaget | N:min løn for marts",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "A \"da\" clause works like \"fordi\": \"ikke\" goes before \"har\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-naar-ikke-dansk",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "…when you do not speak Danish at the workplace.",
+    "sentence": "k:når | n:man | a:ikke | v:taler | N:dansk | A:på arbejdspladsen",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "The general \"man\" is a normal subject, and \"ikke\" still goes before the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-ikke-hjemmesiden",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "…that I have not been able to find on the website.",
+    "sentence": "k:som | n:jeg | a:ikke | v:har | V:kunnet | V:finde | A:på hjemmesiden",
+    "targets": [
+      "relative-clause",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Ikke\" goes before \"har\" in the relative clause. \"Kunnet finde\" waits in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-endnu-udbetalt",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "…that my employer has not yet paid out.",
+    "sentence": "k:som | n:min arbejdsgiver | a:endnu | a:ikke | v:har | V:udbetalt",
+    "targets": [
+      "relative-clause",
+      "ikke-regel"
+    ],
+    "takeaway": "Subject, \"endnu ikke\", then the finite verb. The schema is the same as after \"fordi\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvor-beboerne-dansk",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "…where many of the residents do not speak Danish.",
+    "sentence": "k:hvor | n:mange af beboerne | a:ikke | v:taler | N:dansk",
+    "targets": [
+      "relative-clause",
+      "ikke-regel"
+    ],
+    "takeaway": "\"Mange af beboerne\" is one subject constituent, and \"ikke\" follows it before the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-kommunen-sendt",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "…that the municipality has sent me.",
+    "sentence": "k:som | n:kommunen | v:har | V:sendt | N:mig",
+    "targets": [
+      "relative-clause",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Som\" stands for the thing sent, so only \"mig\" remains as an object.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-regel-laegen",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "…that you can usually get from the doctor.",
+    "sentence": "k:som | n:man | a:som regel | v:kan | V:få | A:hos lægen",
+    "targets": [
+      "relative-clause",
+      "ikke-regel"
+    ],
+    "takeaway": "\"Som regel\" is a sentence adverbial and goes before \"kan\" in the relative clause.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvor-praktik-foraar",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "…where I did my work placement last spring.",
+    "sentence": "k:hvor | n:jeg | v:havde | N:praktik | A:sidste forår",
+    "targets": [
+      "relative-clause"
+    ],
+    "takeaway": "Plain subordinate-clause order after \"hvor\": subject, verb, object, time.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-danskere-skolen",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "…that most Danes know from school.",
+    "sentence": "k:som | n:de fleste danskere | v:kender | A:fra skolen",
+    "targets": [
+      "relative-clause"
+    ],
+    "takeaway": "\"De fleste danskere\" is the subject and comes right after \"som\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-givet-advarsel",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "My employer has given me a warning.",
+    "sentence": "F:min arbejdsgiver | v:har | V:givet | N:mig | N:en advarsel",
+    "targets": [
+      "object-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "The person receiving it, \"mig\", comes before what is given, \"en advarsel\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-bevilget-laan",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "The bank has granted us a loan for a new car.",
+    "sentence": "F:banken | v:har | V:bevilget | N:os | N:et lån til en ny bil",
+    "targets": [
+      "object-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Bevilge\" takes two objects: \"os\" (receiver) before \"et lån…\" (thing).",
+    "reviewed": false
+  },
+  {
+    "id": "ex-sendte-sagsbehandler-papirer",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "I sent my caseworker all the papers last week.",
+    "sentence": "F:jeg | v:sendte | N:min sagsbehandler | N:alle papirerne | A:i sidste uge",
+    "alternatives": [
+      "F:i sidste uge | v:sendte | n:jeg | N:min sagsbehandler | N:alle papirerne"
+    ],
+    "targets": [
+      "object-order",
+      "v2-inversion"
+    ],
+    "takeaway": "\"Min sagsbehandler\" receives and \"alle papirerne\" are sent, so the receiver comes first.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-lovet-legoland",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "She has promised her children a trip to Legoland.",
+    "sentence": "F:hun | v:har | V:lovet | N:sine børn | N:en tur til Legoland",
+    "targets": [
+      "object-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Love\" works like \"give\": the person promised comes before the promise.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-give-introduktionsforloeb",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "The municipality will give all newcomers an introduction programme.",
+    "sentence": "F:kommunen | v:vil | V:give | N:alle nyankomne | N:et introduktionsforløb",
+    "targets": [
+      "object-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Even with a modal verb, the object order is fixed: \"alle nyankomne\" first.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-vise-kolleger-arbejdspladsen",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "On Monday I am going to show the new colleagues around the workplace.",
+    "sentence": "F:jeg | v:skal | V:vise | N:de nye kolleger | N:arbejdspladsen | A:på mandag",
+    "alternatives": [
+      "F:på mandag | v:skal | n:jeg | V:vise | N:de nye kolleger | N:arbejdspladsen"
+    ],
+    "targets": [
+      "object-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Who is shown (\"de nye kolleger\") comes before what is shown (\"arbejdspladsen\").",
+    "reviewed": false
+  },
+  {
+    "id": "ex-solgte-forkerte-medicin",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "The pharmacy sold me the wrong medicine.",
+    "sentence": "F:apoteket | v:solgte | N:mig | N:den forkerte medicin",
+    "targets": [
+      "object-order"
+    ],
+    "takeaway": "The buyer \"mig\" comes before the thing sold, \"den forkerte medicin\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-huslejen-steget",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "Unfortunately the rent has gone up sharply this year.",
+    "sentence": "F:huslejen | v:er | a:desværre | V:steget | A:kraftigt | A:i år",
+    "alternatives": [
+      "F:i år | v:er | n:huslejen | a:desværre | V:steget | A:kraftigt",
+      "F:desværre | v:er | n:huslejen | V:steget | A:kraftigt | A:i år"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "adverbial-order"
+    ],
+    "takeaway": "\"Desværre\" is a sentence adverb and comes early. \"Kraftigt\" and \"i år\" are content adverbials and come last.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-sandsynligvis-august",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "I probably cannot start before the first of August.",
+    "sentence": "F:jeg | v:kan | a:sandsynligvis | a:ikke | V:starte | A:før den første august",
+    "alternatives": [
+      "F:før den første august | v:kan | n:jeg | a:sandsynligvis | a:ikke | V:starte",
+      "F:sandsynligvis | v:kan | n:jeg | a:ikke | V:starte | A:før den første august"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Sandsynligvis ikke\" goes between \"kan\" and \"starte\". The date goes at the end.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-ogsaa-natten-fabrik",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "My husband also works nights at a factory.",
+    "sentence": "F:min mand | v:arbejder | a:også | A:på en fabrik | A:om natten",
+    "alternatives": [
+      "F:på en fabrik | v:arbejder | n:min mand | a:også | A:om natten",
+      "F:om natten | v:arbejder | n:min mand | a:også | A:på en fabrik"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "adverbial-order"
+    ],
+    "takeaway": "\"Også\" sits in the adverb slot. \"På en fabrik\" and \"om natten\" come at the end, place before time.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-altid-vaske-haender",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "At school the children must always wash their hands before lunch.",
+    "sentence": "F:børnene | v:skal | a:altid | V:vaske | N:hænder | A:i skolen | A:før frokost",
+    "alternatives": [
+      "F:i skolen | v:skal | n:børnene | a:altid | V:vaske | N:hænder | A:før frokost",
+      "F:før frokost | v:skal | n:børnene | a:altid | V:vaske | N:hænder | A:i skolen"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Altid\" goes between \"skal\" and \"vaske\". \"I skolen\" and \"før frokost\" go at the end.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-jo-aldrig-naboerne",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "After all, we have never had problems with the neighbours before.",
+    "sentence": "F:vi | v:har | a:jo | a:aldrig | V:haft | N:problemer med naboerne | A:før",
+    "alternatives": [
+      "F:før | v:har | n:vi | a:jo | a:aldrig | V:haft | N:problemer med naboerne"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Jo aldrig\" are two sentence adverbs. \"Før\" is a time adverbial and goes last.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-egentlig-hellere-dagen",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "I would actually rather work during the day.",
+    "sentence": "F:jeg | v:vil | a:egentlig | a:hellere | V:arbejde | A:om dagen",
+    "alternatives": [
+      "F:om dagen | v:vil | n:jeg | a:egentlig | a:hellere | V:arbejde",
+      "F:egentlig | v:vil | n:jeg | a:hellere | V:arbejde | A:om dagen"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Egentlig hellere\" sit between \"vil\" and \"arbejde\". \"Om dagen\" is time and goes last.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-trangt-toevaerelses",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "We have lived in cramped conditions in a two-room flat for five years.",
+    "sentence": "F:vi | v:har | V:boet | A:trangt | A:i en toværelseslejlighed | A:i fem år",
+    "alternatives": [
+      "F:i en toværelseslejlighed | v:har | n:vi | V:boet | A:trangt | A:i fem år",
+      "F:i fem år | v:har | n:vi | V:boet | A:trangt | A:i en toværelseslejlighed"
+    ],
+    "targets": [
+      "adverbial-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Manner (\"trangt\"), place (\"i en toværelseslejlighed\"), time (\"i fem år\").",
+    "reviewed": false
+  },
+  {
+    "id": "ex-for-staerkt-motorvejen",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "He drove too fast on the motorway last night.",
+    "sentence": "F:han | v:kørte | A:for stærkt | A:på motorvejen | A:i går aftes",
+    "alternatives": [
+      "F:på motorvejen | v:kørte | n:han | A:for stærkt | A:i går aftes",
+      "F:i går aftes | v:kørte | n:han | A:for stærkt | A:på motorvejen"
+    ],
+    "targets": [
+      "adverbial-order"
+    ],
+    "takeaway": "How, where, when: \"for stærkt på motorvejen i går aftes\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-uloennet-butik",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "She has worked unpaid in a shop all summer.",
+    "sentence": "F:hun | v:har | V:arbejdet | A:ulønnet | A:i en butik | A:hele sommeren",
+    "alternatives": [
+      "F:i en butik | v:har | n:hun | V:arbejdet | A:ulønnet | A:hele sommeren",
+      "F:hele sommeren | v:har | n:hun | V:arbejdet | A:ulønnet | A:i en butik"
+    ],
+    "targets": [
+      "adverbial-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "The three content adverbials keep their order after the participle: manner, place, time.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-taalmodigt-telefonkoeen",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "I wait patiently in the phone queue every morning.",
+    "sentence": "F:jeg | v:venter | A:tålmodigt | A:i telefonkøen | A:hver morgen",
+    "alternatives": [
+      "F:i telefonkøen | v:venter | n:jeg | A:tålmodigt | A:hver morgen",
+      "F:hver morgen | v:venter | n:jeg | A:tålmodigt | A:i telefonkøen"
+    ],
+    "targets": [
+      "adverbial-order"
+    ],
+    "takeaway": "\"Tålmodigt\" (how) comes before \"i telefonkøen\" (where), which comes before \"hver morgen\" (when).",
+    "reviewed": false
+  },
+  {
+    "id": "ex-sikkert-lejrskolen",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "The children came home safely from school camp last Sunday.",
+    "sentence": "F:børnene | v:kom | A:sikkert | A:hjem fra lejrskolen | A:i søndags",
+    "alternatives": [
+      "F:i søndags | v:kom | n:børnene | A:sikkert | A:hjem fra lejrskolen"
+    ],
+    "targets": [
+      "adverbial-order"
+    ],
+    "takeaway": "Manner (\"sikkert\") before direction (\"hjem fra lejrskolen\") before time (\"i søndags\").",
+    "reviewed": false
+  },
+  {
+    "id": "ex-regelmaessigt-fitness",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "I have trained regularly at a gym since New Year.",
+    "sentence": "F:jeg | v:har | V:trænet | A:regelmæssigt | A:i et fitnesscenter | A:siden nytår",
+    "alternatives": [
+      "F:i et fitnesscenter | v:har | n:jeg | V:trænet | A:regelmæssigt | A:siden nytår",
+      "F:siden nytår | v:har | n:jeg | V:trænet | A:regelmæssigt | A:i et fitnesscenter"
+    ],
+    "targets": [
+      "adverbial-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Same order after a participle: \"regelmæssigt i et fitnesscenter siden nytår\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-alene-paa-landet",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "My mother lives alone in a small house in the countryside.",
+    "sentence": "F:min mor | v:bor | A:alene | A:i et lille hus på landet",
+    "alternatives": [
+      "F:i et lille hus på landet | v:bor | n:min mor | A:alene"
+    ],
+    "targets": [
+      "adverbial-order"
+    ],
+    "takeaway": "\"Alene\" says how she lives and comes before the place phrase.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-midlertidigt-renoveringen",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "We have to move temporarily to another flat in connection with the renovation.",
+    "sentence": "F:vi | v:skal | V:flytte | A:midlertidigt | A:til en anden lejlighed | A:i forbindelse med renoveringen",
+    "alternatives": [
+      "F:til en anden lejlighed | v:skal | n:vi | V:flytte | A:midlertidigt | A:i forbindelse med renoveringen",
+      "F:i forbindelse med renoveringen | v:skal | n:vi | V:flytte | A:midlertidigt | A:til en anden lejlighed",
+      "F:vi | v:skal | a:i forbindelse med renoveringen | V:flytte | A:midlertidigt | A:til en anden lejlighed",
+      "F:til en anden lejlighed | v:skal | n:vi | a:i forbindelse med renoveringen | V:flytte | A:midlertidigt"
+    ],
+    "targets": [
+      "adverbial-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Manner, then place, then the reason phrase: \"midlertidigt til en anden lejlighed i forbindelse med renoveringen\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-min-mening-kollektiv-trafik",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "In my opinion the municipality ought to invest far more money in public transport.",
+    "sentence": "F:efter min mening | v:burde | n:kommunen | V:investere | N:langt flere penge | A:i den kollektive trafik",
+    "alternatives": [
+      "F:kommunen | v:burde | V:investere | N:langt flere penge | A:i den kollektive trafik | A:efter min mening",
+      "F:kommunen | v:burde | a:efter min mening | V:investere | N:langt flere penge | A:i den kollektive trafik"
+    ],
+    "targets": [
+      "v2-inversion",
+      "forfelt-single"
+    ],
+    "takeaway": "A typical opener for an opinion paragraph. After \"efter min mening\" the verb comes next and the subject after it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-baggrund-klage-sagsbehandling",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "On that basis I would like to complain about the long case-processing time.",
+    "sentence": "F:på den baggrund | v:vil | n:jeg | a:gerne | V:klage | A:over den lange sagsbehandlingstid",
+    "alternatives": [
+      "F:jeg | v:vil | a:gerne | V:klage | A:over den lange sagsbehandlingstid | A:på den baggrund",
+      "F:jeg | v:vil | a:på den baggrund | a:gerne | V:klage | A:over den lange sagsbehandlingstid"
+    ],
+    "targets": [
+      "v2-inversion",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"På den baggrund\" fills the front slot, so \"vil\" comes before \"jeg\". This is standard in a formal complaint.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-desto-mindre-besparelse",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "Nevertheless the government has decided on a cut in elderly care.",
+    "sentence": "F:ikke desto mindre | v:har | n:regeringen | V:besluttet | N:en besparelse på ældreområdet",
+    "alternatives": [
+      "F:regeringen | v:har | a:ikke desto mindre | V:besluttet | N:en besparelse på ældreområdet"
+    ],
+    "targets": [
+      "v2-inversion",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Ikke desto mindre\" is three words but one sentence adverbial. In front it causes inversion: \"har regeringen\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-trods-klager-skimmelsvamp",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "Despite the many complaints, the housing association has not yet dealt with the mould.",
+    "sentence": "F:til trods for de mange klager | v:har | n:boligselskabet | a:endnu | a:ikke | V:udbedret | N:skimmelsvampen",
+    "alternatives": [
+      "F:boligselskabet | v:har | a:endnu | a:ikke | V:udbedret | N:skimmelsvampen | A:til trods for de mange klager"
+    ],
+    "targets": [
+      "v2-inversion",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "A long fronted phrase still gets only one slot. Then \"har\", then the subject, then \"endnu ikke\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-unge-diskrimination",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "Many young people from ethnic minority backgrounds experience discrimination in the labour market.",
+    "sentence": "F:mange unge med anden etnisk baggrund | v:oplever | N:diskrimination | A:på arbejdsmarkedet",
+    "alternatives": [
+      "F:på arbejdsmarkedet | v:oplever | n:mange unge med anden etnisk baggrund | N:diskrimination"
+    ],
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "The subject is seven words long and still one constituent, so the verb \"oplever\" comes second.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-mangel-sygeplejersker",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "The growing shortage of nurses is a serious problem for the health service.",
+    "sentence": "F:den stigende mangel på sygeplejersker | v:udgør | N:et alvorligt problem for sundhedsvæsenet",
+    "targets": [
+      "finit-verb-second"
+    ],
+    "takeaway": "However heavy the subject, the finite verb takes slot 2. Find the verb first, and the rest falls into place.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-foraeldre-laerere-ansvar",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "Both parents and teachers should take responsibility for the children's well-being.",
+    "sentence": "F:både forældre og lærere | v:bør | V:tage | N:ansvar for børnenes trivsel",
+    "targets": [
+      "finit-verb-second",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Både forældre og lærere\" is one constituent, then the finite verb \"bør\", with \"tage\" in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-nyuddannet-erfaring",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "As a newly qualified nurse I have experience of both emergency care and home care.",
+    "sentence": "F:som nyuddannet sygeplejerske | v:har | n:jeg | N:erfaring med både akutmodtagelse og hjemmepleje",
+    "alternatives": [
+      "F:jeg | v:har | N:erfaring med både akutmodtagelse og hjemmepleje | A:som nyuddannet sygeplejerske",
+      "F:jeg | v:har | a:som nyuddannet sygeplejerske | N:erfaring med både akutmodtagelse og hjemmepleje"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "In an application, \"som nyuddannet sygeplejerske\" is a natural opener, and only it goes before the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-ovenstaaende-aktindsigt",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "On the basis of the above, I request access to the documents in my case.",
+    "sentence": "F:på baggrund af ovenstående | v:ønsker | n:jeg | N:aktindsigt i min sag",
+    "alternatives": [
+      "F:jeg | v:ønsker | N:aktindsigt i min sag | A:på baggrund af ovenstående",
+      "F:jeg | v:ønsker | a:på baggrund af ovenstående | N:aktindsigt i min sag"
+    ],
+    "targets": [
+      "forfelt-single",
+      "v2-inversion"
+    ],
+    "takeaway": "\"På baggrund af ovenstående\" is one constituent, and the verb has to follow it straight away.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-seneste-fem-aar-elbiler",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "Over the past five years the number of electric cars has risen sharply.",
+    "sentence": "F:i løbet af de seneste fem år | v:er | n:antallet af elbiler | V:steget | A:markant",
+    "alternatives": [
+      "F:antallet af elbiler | v:er | V:steget | A:markant | A:i løbet af de seneste fem år"
+    ],
+    "targets": [
+      "forfelt-single",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Eight words before the verb, but one constituent. \"Er\" is second and \"antallet af elbiler\" follows it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-goeres-stress",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "More should be done to prevent stress in workplaces.",
+    "sentence": "F:der | v:bør | V:gøres | N:mere | A:for at forebygge stress på arbejdspladserne",
+    "alternatives": [
+      "F:for at forebygge stress på arbejdspladserne | v:bør | n:der | V:gøres | N:mere"
+    ],
+    "targets": [
+      "subject-required",
+      "verb-cluster-order"
+    ],
+    "takeaway": "A passive with no agent still needs a subject. \"Der\" fills the position and \"mere\" comes after the verb cluster.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-mangel-boliger",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "There has been a shortage of affordable housing in the big cities for many years.",
+    "sentence": "F:der | v:har | V:været | N:mangel på billige boliger | A:i de store byer | A:i mange år",
+    "alternatives": [
+      "F:i de store byer | v:har | n:der | V:været | N:mangel på billige boliger | A:i mange år",
+      "F:i mange år | v:har | n:der | V:været | N:mangel på billige boliger | A:i de store byer"
+    ],
+    "targets": [
+      "subject-required",
+      "adverbial-order"
+    ],
+    "takeaway": "\"Der har været\" is the frame, and the real subject \"mangel på…\" comes after the participle.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-der-ensomme-aeldre",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "Unfortunately there are still many lonely elderly people in Denmark.",
+    "sentence": "F:der | v:findes | a:desværre | a:stadig | N:mange ensomme ældre | A:i Danmark",
+    "alternatives": [
+      "F:i Danmark | v:findes | n:der | a:desværre | a:stadig | N:mange ensomme ældre",
+      "F:desværre | v:findes | n:der | a:stadig | N:mange ensomme ældre | A:i Danmark"
+    ],
+    "targets": [
+      "subject-required",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Der findes\" introduces something that exists. The adverbs sit before the real subject.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-burde-sendt-brev",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "The municipality should have sent us a letter about the changes.",
+    "sentence": "F:kommunen | v:burde | V:have | V:sendt | N:os | N:et brev om ændringerne",
+    "targets": [
+      "verb-cluster-order",
+      "object-order"
+    ],
+    "takeaway": "\"Burde have sendt\": only \"burde\" is finite. \"Have sendt\" waits in V before the two objects.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-sagen-afgjort",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "The case should have been decided several months ago.",
+    "sentence": "F:sagen | v:burde | V:være | V:afgjort | A:for flere måneder siden",
+    "alternatives": [
+      "F:for flere måneder siden | v:burde | n:sagen | V:være | V:afgjort"
+    ],
+    "targets": [
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Burde\" holds slot 2. \"Være afgjort\" are both non-finite and go in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-brevet-postkassen",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "The letter must have been lying in the letterbox for several days.",
+    "sentence": "F:brevet | v:må | V:have | V:ligget | A:i postkassen | A:i flere dage",
+    "alternatives": [
+      "F:i postkassen | v:må | n:brevet | V:have | V:ligget | A:i flere dage",
+      "F:i flere dage | v:må | n:brevet | V:have | V:ligget | A:i postkassen"
+    ],
+    "targets": [
+      "verb-cluster-order",
+      "adverbial-order"
+    ],
+    "takeaway": "\"Må have ligget\": \"må\" is finite, \"have ligget\" waits in V, and place comes before time.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-aldrig-forklaring-afslag",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "I have never received a proper explanation for the refusal.",
+    "sentence": "F:jeg | v:har | a:aldrig | V:fået | N:en ordentlig forklaring på afslaget",
+    "targets": [
+      "verb-cluster-order",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Aldrig\" splits \"har\" from \"fået\", which is the standard shape of a negative perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-problemet-loest-tidligere",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "The problem could have been solved much earlier.",
+    "sentence": "F:problemet | v:kunne | V:være | V:løst | A:langt tidligere",
+    "alternatives": [
+      "F:langt tidligere | v:kunne | n:problemet | V:være | V:løst"
+    ],
+    "targets": [
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Kunne være løst\": one finite verb, then two non-finite verbs in V, and the time last.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-arbejdsulykken",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "My husband has not been able to work full-time since the workplace accident.",
+    "sentence": "F:min mand | v:har | a:ikke | V:kunnet | V:arbejde | A:på fuld tid | A:siden arbejdsulykken",
+    "alternatives": [
+      "F:siden arbejdsulykken | v:har | n:min mand | a:ikke | V:kunnet | V:arbejde | A:på fuld tid"
+    ],
+    "targets": [
+      "verb-cluster-order",
+      "adverbial-order"
+    ],
+    "takeaway": "\"Har ikke kunnet arbejde\": \"ikke\" sits between the finite verb and the non-finite verbs.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-prioriteret-folkeskolen",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "The politicians should have given the state school much higher priority.",
+    "sentence": "F:politikerne | v:burde | V:have | V:prioriteret | N:folkeskolen | A:langt højere",
+    "targets": [
+      "verb-cluster-order"
+    ],
+    "takeaway": "A typical criticism in an opinion text: \"burde have\" + participle. The finite verb is second.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-gennemgaaet-haandvaerker",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "The flat will be inspected by a tradesman next week.",
+    "sentence": "F:lejligheden | v:vil | V:blive | V:gennemgået | A:af en håndværker | A:i næste uge",
+    "alternatives": [
+      "F:i næste uge | v:vil | n:lejligheden | V:blive | V:gennemgået | A:af en håndværker"
+    ],
+    "targets": [
+      "verb-cluster-order"
+    ],
+    "takeaway": "Passive future: \"vil\" is finite, \"blive gennemgået\" is in V, and the time comes last.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-aldrig-soegt-opfordring",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "I would never have applied for the job without your encouragement.",
+    "sentence": "F:jeg | v:ville | a:aldrig | V:have | V:søgt | N:stillingen | A:uden din opfordring",
+    "alternatives": [
+      "F:uden din opfordring | v:ville | n:jeg | a:aldrig | V:have | V:søgt | N:stillingen",
+      "F:jeg | v:ville | a:uden din opfordring | a:aldrig | V:have | V:søgt | N:stillingen"
+    ],
+    "targets": [
+      "verb-cluster-order",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Ville aldrig have søgt\": \"aldrig\" goes between \"ville\" and \"have søgt\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-selvom-endnu-afgoerelse",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "…even though I have not yet received a decision in my case.",
+    "sentence": "k:selvom | n:jeg | a:endnu | a:ikke | v:har | V:modtaget | N:en afgørelse i min sag",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "In a \"selvom\" clause, \"endnu ikke\" goes before \"har\". This is the most common PD3 word-order error.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-eftersom-forpligtelser",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "…since the housing association has not met its obligations.",
+    "sentence": "k:eftersom | n:boligselskabet | a:ikke | v:har | V:overholdt | N:sine forpligtelser",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Eftersom\" starts a subordinate clause, so \"ikke\" goes in front of the finite verb \"har\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-medmindre-ledige-pladser",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "…unless there are no more places available.",
+    "sentence": "k:medmindre | n:der | a:ikke | v:er | N:flere ledige pladser",
+    "targets": [
+      "ikke-regel",
+      "subject-required"
+    ],
+    "takeaway": "\"Medmindre\" works like \"hvis\": subject (\"der\"), \"ikke\", then the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-at-raad-tandlaege",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "…that many citizens can no longer afford the dentist.",
+    "sentence": "k:at | n:mange borgere | a:ikke | a:længere | v:har | N:råd til tandlæge",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "\"Ikke længere\" goes before \"har\" in an \"at\" clause, even in a long, formal sentence.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-fordi-feriepenge",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "…because my employer has never paid out my holiday pay.",
+    "sentence": "k:fordi | n:min arbejdsgiver | a:aldrig | v:har | V:udbetalt | N:mine feriepenge",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Aldrig\" goes before \"har\" after \"fordi\". The participle \"udbetalt\" follows the finite verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvis-virkelig-integration",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "…if you really want to improve integration.",
+    "sentence": "k:hvis | n:man | a:virkelig | v:vil | V:forbedre | N:integrationen",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Virkelig\" is a sentence adverb, so in a \"hvis\" clause it goes before \"vil\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-selvom-formentlig-kort-sigt",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "…even though it will probably cost more money in the short term.",
+    "sentence": "k:selvom | n:det | a:formentlig | v:vil | V:koste | N:flere penge | A:på kort sigt",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Formentlig\" goes before the finite verb \"vil\", because \"selvom\" started a subordinate clause.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-da-tilsyneladende-eksperterne",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "…since the politicians apparently have not listened to the experts.",
+    "sentence": "k:da | n:politikerne | a:tilsyneladende | a:ikke | v:har | V:lyttet | A:til eksperterne",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Two sentence adverbs, \"tilsyneladende ikke\", and both come before \"har\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-ikke-dokumentere",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "…which the municipality has not been able to document.",
+    "sentence": "k:som | n:kommunen | a:ikke | v:har | V:kunnet | V:dokumentere",
+    "targets": [
+      "relative-clause",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Relative clause, subordinate-clause order: \"ikke\" goes before \"har\", then \"kunnet dokumentere\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-aldrig-sendt-mig",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "…that my caseworker has never sent me.",
+    "sentence": "k:som | n:min sagsbehandler | a:aldrig | v:har | V:sendt | N:mig",
+    "targets": [
+      "relative-clause",
+      "ikke-regel"
+    ],
+    "takeaway": "\"Aldrig\" goes before \"har\" inside the relative clause, and \"som\" already stands for what was sent.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-slet-ikke-kender",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "…that most citizens do not know at all.",
+    "sentence": "k:som | n:de fleste borgere | a:slet ikke | v:kender",
+    "targets": [
+      "relative-clause",
+      "ikke-regel"
+    ],
+    "takeaway": "\"Slet ikke\" goes before \"kender\", which is the ikke-rule inside a relative clause.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvor-ikke-laengere-laege",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "…where you can no longer get a doctor.",
+    "sentence": "k:hvor | n:man | a:ikke | a:længere | v:kan | V:få | N:en læge",
+    "targets": [
+      "relative-clause",
+      "ikke-regel"
+    ],
+    "takeaway": "\"Hvor\" opens the clause, and \"ikke længere\" goes before the finite verb \"kan\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-regeringen-fremlagde",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "…that the government presented last week.",
+    "sentence": "k:som | n:regeringen | v:fremlagde | A:i sidste uge",
+    "targets": [
+      "relative-clause"
+    ],
+    "takeaway": "After \"som\": the subject \"regeringen\", then the verb, then the time, with no inversion.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvor-personalet-tid",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "…where unfortunately the staff do not have time for the individual resident.",
+    "sentence": "k:hvor | n:personalet | a:desværre | a:ikke | v:har | N:tid til den enkelte beboer",
+    "targets": [
+      "relative-clause",
+      "ikke-regel"
+    ],
+    "takeaway": "\"Desværre ikke\" goes before \"har\", even in a long relative clause.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-nuvaerende-arbejdsplads",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "…that I have had at my current workplace since 2019.",
+    "sentence": "k:som | n:jeg | v:har | V:haft | A:på min nuværende arbejdsplads | A:siden 2019",
+    "targets": [
+      "relative-clause",
+      "adverbial-order"
+    ],
+    "takeaway": "Subordinate order after \"som\", and at the end place before time.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-som-tilbyder-flygtninge",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "…that the municipality offers all newly arrived refugees.",
+    "sentence": "k:som | n:kommunen | v:tilbyder | N:alle nyankomne flygtninge",
+    "targets": [
+      "relative-clause",
+      "object-order"
+    ],
+    "takeaway": "\"Som\" stands for the thing offered, so only the receiver is left in the object slot.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hermed-overblik",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "I would hereby like to give you an overview of the course of the case.",
+    "sentence": "F:jeg | v:vil | a:hermed | V:give | N:Dem | N:et overblik over sagens forløb",
+    "alternatives": [
+      "F:hermed | v:vil | n:jeg | V:give | N:Dem | N:et overblik over sagens forløb"
+    ],
+    "targets": [
+      "object-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "The formal \"Dem\" is the receiver and comes before the long direct object.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-paalagt-tilbagebetaling",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "The municipality has ordered me to repay 12,000 kroner.",
+    "sentence": "F:kommunen | v:har | V:pålagt | N:mig | N:en tilbagebetaling på 12.000 kroner",
+    "targets": [
+      "object-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Pålægge nogen noget\": the person comes first, then what is imposed.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-forklaring-vandskaden",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "The housing association has still not given us an explanation for the water damage.",
+    "sentence": "F:boligselskabet | v:har | a:stadig | a:ikke | V:givet | N:os | N:en forklaring på vandskaden",
+    "targets": [
+      "object-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "With \"har … givet\" the adverbs sit between the verbs, and \"os\" still comes before the thing given.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-sundhedstjek",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "The employer should offer all employees a health check once a year.",
+    "sentence": "F:arbejdsgiveren | v:bør | V:tilbyde | N:alle medarbejdere | N:et sundhedstjek | A:en gang om året",
+    "alternatives": [
+      "F:en gang om året | v:bør | n:arbejdsgiveren | V:tilbyde | N:alle medarbejdere | N:et sundhedstjek"
+    ],
+    "targets": [
+      "object-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Alle medarbejdere\" (receivers) comes before \"et sundhedstjek\" (what is offered), and the time comes last.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-givet-foraeldrene-besked",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "The school should have notified the parents of the change in good time.",
+    "sentence": "F:skolen | v:burde | V:have | V:givet | N:forældrene | N:besked om ændringen | A:i god tid",
+    "alternatives": [
+      "F:i god tid | v:burde | n:skolen | V:have | V:givet | N:forældrene | N:besked om ændringen"
+    ],
+    "targets": [
+      "object-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Give nogen besked\": the receiver \"forældrene\" before \"besked om ændringen\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-naegtede-anbefaling",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "My former employer refused me a reference.",
+    "sentence": "F:min tidligere arbejdsgiver | v:nægtede | N:mig | N:en anbefaling",
+    "targets": [
+      "object-order"
+    ],
+    "takeaway": "\"Nægte nogen noget\" has the same order as \"give\": person, then thing.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-midler-psykiatrien",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "The state should give the municipalities more funding for psychiatry.",
+    "sentence": "F:staten | v:bør | V:give | N:kommunerne | N:flere midler til psykiatrien",
+    "targets": [
+      "object-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "The receivers \"kommunerne\" come before \"flere midler til psykiatrien\", which is a typical opinion-text sentence.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-borgmesteren-aabent-brev",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "The residents' association has written the mayor an open letter about the noise.",
+    "sentence": "F:beboerforeningen | v:har | V:skrevet | N:borgmesteren | N:et åbent brev om støjen",
+    "targets": [
+      "object-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Skrive nogen et brev\": the receiver \"borgmesteren\" goes before the letter.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-tilsyneladende-klage-endnu",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "The municipality apparently has not dealt with my complaint yet.",
+    "sentence": "F:kommunen | v:har | a:tilsyneladende | a:ikke | V:behandlet | N:min klage | A:endnu",
+    "alternatives": [
+      "F:tilsyneladende | v:har | n:kommunen | a:ikke | V:behandlet | N:min klage | A:endnu"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Tilsyneladende ikke\" sits in the adverb slot between \"har\" and \"behandlet\". \"Endnu\" closes the sentence.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-formentlig-mobiltelefoner",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "Many parents probably spend too much time on their mobile phones.",
+    "sentence": "F:mange forældre | v:bruger | a:formentlig | N:for meget tid | A:på deres mobiltelefoner",
+    "alternatives": [
+      "F:formentlig | v:bruger | n:mange forældre | N:for meget tid | A:på deres mobiltelefoner"
+    ],
+    "targets": [
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Formentlig\" comments on how sure the claim is, so it is a sentence adverb and sits right after the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-ingen-omstaendigheder",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "Under no circumstances can I accept this decision.",
+    "sentence": "F:jeg | v:kan | a:under ingen omstændigheder | V:acceptere | N:denne afgørelse",
+    "alternatives": [
+      "F:under ingen omstændigheder | v:kan | n:jeg | V:acceptere | N:denne afgørelse"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Under ingen omstændigheder\" is a negation, like \"ikke\", so it takes the central slot. You can also put it first.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-naturligvis-forstaaelse",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "I naturally have full understanding of your situation.",
+    "sentence": "F:jeg | v:har | a:naturligvis | N:fuld forståelse for jeres situation",
+    "alternatives": [
+      "F:naturligvis | v:har | n:jeg | N:fuld forståelse for jeres situation"
+    ],
+    "targets": [
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Naturligvis\" is a sentence adverb: after the verb, before the object.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-unge-kommunalvalget",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "Unfortunately many young people do not vote in the local elections.",
+    "sentence": "F:mange unge | v:stemmer | a:desværre | a:ikke | A:ved kommunalvalget",
+    "alternatives": [
+      "F:ved kommunalvalget | v:stemmer | n:mange unge | a:desværre | a:ikke",
+      "F:desværre | v:stemmer | n:mange unge | a:ikke | A:ved kommunalvalget"
+    ],
+    "targets": [
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Desværre ikke\" goes early, after the verb. \"Ved kommunalvalget\" is a content adverbial and comes last.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-altid-grundigt-kontrakten",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "You should always read the contract carefully before signing it.",
+    "sentence": "F:man | v:bør | a:altid | V:læse | N:kontrakten | A:grundigt | A:før underskrivelsen",
+    "alternatives": [
+      "F:før underskrivelsen | v:bør | n:man | a:altid | V:læse | N:kontrakten | A:grundigt"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "adverbial-order"
+    ],
+    "takeaway": "\"Altid\" is central and comes early. \"Grundigt\" (manner) and \"før underskrivelsen\" (time) come late.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-endnu-ikke-udbetaling",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "I have not yet heard anything from Udbetaling Danmark.",
+    "sentence": "F:jeg | v:har | a:endnu | a:ikke | V:hørt | N:noget | A:fra Udbetaling Danmark",
+    "alternatives": [
+      "F:fra Udbetaling Danmark | v:har | n:jeg | a:endnu | a:ikke | V:hørt | N:noget"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Endnu ikke\" is in the adverb slot between \"har\" and \"hørt\". \"Fra Udbetaling Danmark\" goes at the end.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-alene-skole-sommerferien",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "My son has cycled to school on his own since the summer holidays.",
+    "sentence": "F:min søn | v:har | V:cyklet | A:alene | A:til skole | A:siden sommerferien",
+    "alternatives": [
+      "F:siden sommerferien | v:har | n:min søn | V:cyklet | A:alene | A:til skole"
+    ],
+    "targets": [
+      "adverbial-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "How (\"alene\"), where (\"til skole\"), since when (\"siden sommerferien\").",
+    "reviewed": false
+  },
+  {
+    "id": "ex-pres-sengeafsnittet",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "The staff work under enormous pressure on the ward during the holiday periods.",
+    "sentence": "F:personalet | v:arbejder | A:under et enormt pres | A:på sengeafsnittet | A:i ferieperioderne",
+    "alternatives": [
+      "F:på sengeafsnittet | v:arbejder | n:personalet | A:under et enormt pres | A:i ferieperioderne",
+      "F:i ferieperioderne | v:arbejder | n:personalet | A:under et enormt pres | A:på sengeafsnittet"
+    ],
+    "targets": [
+      "adverbial-order"
+    ],
+    "takeaway": "Even long adverbials follow manner, place, time: \"under et enormt pres / på sengeafsnittet / i ferieperioderne\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-midlertidigt-svigermor",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "We have been living temporarily with my mother-in-law since the water damage in March.",
+    "sentence": "F:vi | v:har | V:boet | A:midlertidigt | A:hos min svigermor | A:siden vandskaden i marts",
+    "alternatives": [
+      "F:hos min svigermor | v:har | n:vi | V:boet | A:midlertidigt | A:siden vandskaden i marts",
+      "F:siden vandskaden i marts | v:har | n:vi | V:boet | A:midlertidigt | A:hos min svigermor"
+    ],
+    "targets": [
+      "adverbial-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Manner, place, time: \"midlertidigt hos min svigermor siden vandskaden i marts\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-forskelligt-kommuner",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "Citizens are treated differently in the country's municipalities.",
+    "sentence": "F:borgerne | v:bliver | V:behandlet | A:forskelligt | A:i landets kommuner",
+    "alternatives": [
+      "F:i landets kommuner | v:bliver | n:borgerne | V:behandlet | A:forskelligt"
+    ],
+    "targets": [
+      "adverbial-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Manner (\"forskelligt\") before place (\"i landets kommuner\").",
+    "reviewed": false
+  },
+  {
+    "id": "ex-frivilligt-asylcenter",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "I have worked as a volunteer at an asylum centre for over two years.",
+    "sentence": "F:jeg | v:har | V:arbejdet | A:frivilligt | A:på et asylcenter | A:i over to år",
+    "alternatives": [
+      "F:på et asylcenter | v:har | n:jeg | V:arbejdet | A:frivilligt | A:i over to år",
+      "F:i over to år | v:har | n:jeg | V:arbejdet | A:frivilligt | A:på et asylcenter"
+    ],
+    "targets": [
+      "adverbial-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Manner, place, then duration: \"frivilligt på et asylcenter i over to år\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-ambulancen-ulykkesstedet",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "The ambulance arrived at the scene of the accident far too late last night.",
+    "sentence": "F:ambulancen | v:ankom | A:alt for sent | A:til ulykkesstedet | A:i nat",
+    "alternatives": [
+      "F:til ulykkesstedet | v:ankom | n:ambulancen | A:alt for sent | A:i nat",
+      "F:i nat | v:ankom | n:ambulancen | A:alt for sent | A:til ulykkesstedet"
+    ],
+    "targets": [
+      "adverbial-order"
+    ],
+    "takeaway": "\"Alt for sent\" (how), \"til ulykkesstedet\" (where), \"i nat\" (when).",
+    "reviewed": false
+  },
+  {
+    "id": "ex-pendlere-koe-motorvejen",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "Many commuters sit in queues on the motorway every morning.",
+    "sentence": "F:mange pendlere | v:sidder | A:i kø | A:på motorvejen | A:hver morgen",
+    "alternatives": [
+      "F:på motorvejen | v:sidder | n:mange pendlere | A:i kø | A:hver morgen",
+      "F:hver morgen | v:sidder | n:mange pendlere | A:i kø | A:på motorvejen"
+    ],
+    "targets": [
+      "adverbial-order"
+    ],
+    "takeaway": "Manner (\"i kø\"), then place (\"på motorvejen\"), then time (\"hver morgen\").",
+    "reviewed": false
+  },
+  {
+    "id": "ex-grundigt-skadestuen",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "The doctor examined my daughter thoroughly at A&E last night.",
+    "sentence": "F:lægen | v:undersøgte | N:min datter | A:grundigt | A:på skadestuen | A:i går aftes",
+    "alternatives": [
+      "F:på skadestuen | v:undersøgte | n:lægen | N:min datter | A:grundigt | A:i går aftes",
+      "F:i går aftes | v:undersøgte | n:lægen | N:min datter | A:grundigt | A:på skadestuen"
+    ],
+    "targets": [
+      "adverbial-order"
+    ],
+    "takeaway": "After the object: manner (\"grundigt\"), place (\"på skadestuen\"), time (\"i går aftes\").",
+    "reviewed": false
+  },
+  {
+    "id": "ex-ens-hele-kommunen",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "In future we must treat all citizens equally throughout the municipality.",
+    "sentence": "F:vi | v:skal | V:behandle | N:alle borgere | A:ens | A:i hele kommunen | A:fremover",
+    "alternatives": [
+      "F:i hele kommunen | v:skal | n:vi | V:behandle | N:alle borgere | A:ens | A:fremover",
+      "F:fremover | v:skal | n:vi | V:behandle | N:alle borgere | A:ens | A:i hele kommunen"
+    ],
+    "targets": [
+      "adverbial-order",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Manner (\"ens\"), place (\"i hele kommunen\"), time (\"fremover\").",
+    "reviewed": false
+  }
+]

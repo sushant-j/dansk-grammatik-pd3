@@ -169,15 +169,16 @@ describe('choosing what to practise next', () => {
   });
 
   it('leans toward the target exam without ever fully excluding others', () => {
-    // Only two exercises in the bank are tagged PD1. With every rule at equal
-    // (untouched) strength, the exam bonus should be the deciding signal and
-    // PD1-tagged exercises should dominate draws — but not every single one,
-    // since jitter and the unseen bonus still apply to everything else too.
+    // A PD1 learner works at niveau 1, where only part of the pool is tagged
+    // PD1. With every rule at equal (untouched) strength, the exam bonus
+    // should be the deciding signal and PD1-tagged exercises should dominate
+    // draws — but not every single one, since jitter and the unseen bonus
+    // still apply to everything else too.
     const stats = statsWith({});
     let pd1Hits = 0;
     const runs = 60;
     for (let i = 0; i < runs; i++) {
-      const ex = nextExercise(stats, [], undefined, NOW, 'PD1');
+      const ex = nextExercise(stats, [], undefined, NOW, 'PD1', 1);
       if (ex.exams.includes('PD1')) pd1Hits++;
     }
     expect(pd1Hits / runs).toBeGreaterThan(0.5);

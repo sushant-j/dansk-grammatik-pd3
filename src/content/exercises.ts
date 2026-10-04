@@ -8,11 +8,14 @@
  * the trainer never punishes a correct answer it did not think of first.
  */
 
+import SEED from './data/exercises.json';
+import { fromCompact, type CompactExercise } from './compact';
 import type { Exercise } from '../grammar/types';
 
 const t = (id: string, text: string, multiword = false) => ({ id, text, multiword });
 
-export const EXERCISES: Exercise[] = [
+/** Hand-written originals. */
+const HAND_WRITTEN: Exercise[] = [
   // ─── Inversion after a fronted adverbial ────────────────────────────────
   {
     id: 'ex-igaar',
@@ -661,6 +664,12 @@ export const EXERCISES: Exercise[] = [
     takeaway:
       '"Der" holds the Forfelt open so the real subject "et problem" can follow the verb — Danish never leaves the subject out.',
   },
+];
+
+/** Hand-written originals, then the bank drafted in the compact format (data/exercises.json). */
+export const EXERCISES: Exercise[] = [
+  ...HAND_WRITTEN,
+  ...(SEED as CompactExercise[]).map(fromCompact),
 ];
 
 export function exerciseById(id: string): Exercise | undefined {

@@ -14,6 +14,7 @@
  * a different one.
  */
 
+import SEED from './data/nouns.json';
 import type { Level } from './levels';
 
 export type Gender = 'en' | 'et';
@@ -37,9 +38,12 @@ export interface NounEntry {
    */
   adjectiveE: string;
   adjectiveGlossEn: string;
+  /** False until a person has checked the Danish; hand-written items are treated as checked. */
+  reviewed?: boolean;
 }
 
-export const NOUN_BANK: NounEntry[] = [
+/** Hand-written originals. */
+const HAND_WRITTEN: NounEntry[] = [
   // ── en-words ──────────────────────────────────────────────────────────
   { id: 'n-bil', level: 1, word: 'bil', gender: 'en', definite: 'bilen', wrongDefinite: 'bilet', glossEn: 'car', adjectiveE: 'røde', adjectiveGlossEn: 'red' },
   { id: 'n-bog', level: 1, word: 'bog', gender: 'en', definite: 'bogen', wrongDefinite: 'boget', glossEn: 'book', adjectiveE: 'gamle', adjectiveGlossEn: 'old' },
@@ -70,6 +74,9 @@ export const NOUN_BANK: NounEntry[] = [
   { id: 'n-problem', level: 3, word: 'problem', gender: 'et', definite: 'problemet', wrongDefinite: 'problemen', glossEn: 'problem', adjectiveE: 'store', adjectiveGlossEn: 'big' },
   { id: 'n-brev', level: 2, word: 'brev', gender: 'et', definite: 'brevet', wrongDefinite: 'breven', glossEn: 'letter', adjectiveE: 'lange', adjectiveGlossEn: 'long' },
 ];
+
+/** Hand-written originals, then the drafted bank in data/nouns.json. */
+export const NOUN_BANK: NounEntry[] = [...HAND_WRITTEN, ...(SEED as NounEntry[])];
 
 export function nounById(id: string): NounEntry | undefined {
   return NOUN_BANK.find((n) => n.id === id);

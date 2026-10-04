@@ -18,6 +18,7 @@
  * them would just delay the moment a learner meets them for real.
  */
 
+import SEED from './data/adjectives.json';
 import type { Level } from './levels';
 
 export interface AdjectiveEntry {
@@ -33,9 +34,12 @@ export interface AdjectiveEntry {
   glossEn: string;
   /** Set only for the two irregular entries; shown in their explanation. */
   irregularNote?: string;
+  /** False until a person has checked the Danish; hand-written items are treated as checked. */
+  reviewed?: boolean;
 }
 
-export const ADJECTIVE_BANK: AdjectiveEntry[] = [
+/** Hand-written originals. */
+const HAND_WRITTEN: AdjectiveEntry[] = [
   { id: 'a-rod', level: 1, base: 'rød', tForm: 'rødt', eForm: 'røde', glossEn: 'red' },
   { id: 'a-ny', level: 1, base: 'ny', tForm: 'nyt', eForm: 'nye', glossEn: 'new' },
   { id: 'a-gammel', level: 1, base: 'gammel', tForm: 'gammelt', eForm: 'gamle', glossEn: 'old' },
@@ -67,6 +71,9 @@ export const ADJECTIVE_BANK: AdjectiveEntry[] = [
     irregularNote: '"Lille" is fully irregular: unchanged in the singular, but the plural/definite form is the unrelated word "små".',
   },
 ];
+
+/** Hand-written originals, then the drafted bank in data/adjectives.json. */
+export const ADJECTIVE_BANK: AdjectiveEntry[] = [...HAND_WRITTEN, ...(SEED as AdjectiveEntry[])];
 
 export function adjectiveById(id: string): AdjectiveEntry | undefined {
   return ADJECTIVE_BANK.find((a) => a.id === id);

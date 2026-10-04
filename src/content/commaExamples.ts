@@ -13,6 +13,7 @@
  * exercise's own ambiguity as if it were a clean rule violation.
  */
 
+import SEED from './data/comma.json';
 import type { CommaRuleId } from '../grammar/commaRules';
 import type { Level } from './levels';
 
@@ -24,9 +25,12 @@ export interface CommaEntry {
   correct: string;
   incorrect: string;
   explanation: string;
+  /** False until a person has checked the Danish; hand-written items are treated as checked. */
+  reviewed?: boolean;
 }
 
-export const COMMA_EXAMPLES: CommaEntry[] = [
+/** Hand-written originals. */
+const HAND_WRITTEN: CommaEntry[] = [
   // ── men vs. og ──────────────────────────────────────────────────────
   {
     id: 'c-men-1',
@@ -136,7 +140,27 @@ export const COMMA_EXAMPLES: CommaEntry[] = [
     incorrect: 'Min chef som lige er kommet tilbage fra ferie holder møde i dag.',
     explanation: '"Min chef" is already unique in context — the clause is background, so it takes commas on both sides.',
   },
+  // ── comma after a fronted subordinate clause ────────────────────────
+  {
+    id: 'c-sub-1',
+    level: 3,
+    ruleId: 'comma-after-subclause',
+    correct: 'Når jeg kommer hjem fra arbejde, laver jeg aftensmad.',
+    incorrect: 'Når jeg kommer hjem fra arbejde laver jeg aftensmad.',
+    explanation: 'The "når"-clause ends at "arbejde" — a comma closes it before the main clause, which starts with its verb "laver".',
+  },
+  {
+    id: 'c-sub-2',
+    level: 3,
+    ruleId: 'comma-after-subclause',
+    correct: 'Hvis du har spørgsmål, er du velkommen til at kontakte mig.',
+    incorrect: 'Hvis du har spørgsmål er du velkommen til at kontakte mig.',
+    explanation: 'A fronted "hvis"-clause is always closed with a comma before the main clause ("er du velkommen …").',
+  },
 ];
+
+/** Hand-written originals, then the drafted bank in data/comma.json. */
+export const COMMA_EXAMPLES: CommaEntry[] = [...HAND_WRITTEN, ...(SEED as CommaEntry[])];
 
 export function commaExamplesForRule(ruleId: CommaRuleId): CommaEntry[] {
   return COMMA_EXAMPLES.filter((e) => e.ruleId === ruleId);

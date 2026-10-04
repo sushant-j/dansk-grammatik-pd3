@@ -44,3 +44,4 @@ yarn-error.*
 coverage/
 .vitest/
 .vercel
+scripts/sources/

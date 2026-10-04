@@ -38,6 +38,8 @@ export interface Exercise {
   exams: Exam[];
   /** Shown after a correct answer — the "why", in one line. */
   takeaway: string;
+  /** False until a person has checked the Danish; hand-written items are treated as checked. */
+  reviewed?: boolean;
 }
 
 export type DiagnosisSeverity = 'error' | 'nuance';
