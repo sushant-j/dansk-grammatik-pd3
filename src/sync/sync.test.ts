@@ -1,5 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { beforeEach, describe, expect, it } from 'vitest';
+import { useLevels } from '../profile/levelStore';
 import { useNounProfile } from '../profile/nounStore';
 import { useSettings } from '../profile/settings';
 import { fakeRemote, type FakeRemote } from '../test/fakeRemote';
@@ -35,7 +36,8 @@ beforeEach(async () => {
 describe('recording', () => {
   it('records locally first and publishes to the trainer store at once', () => {
     nounAnswer(true, T0);
-    expect(useLog.getState().outbox).toHaveLength(1);
+    // The answer, preceded by the domain's starting niveau.
+    expect(useLog.getState().outbox).toHaveLength(2);
     expect(useNounProfile.getState().stats['en-et-gender'].attempts).toBe(1);
   });
 
@@ -56,7 +58,7 @@ describe('uploading', () => {
     // A retry after a lost response re-sends the same ids.
     useLog.setState((s) => ({ outbox: s.events.map((e) => e.id) }));
     await pushOutbox(remote);
-    expect(remote.rows).toHaveLength(2);
+    expect(remote.rows).toHaveLength(3);
   });
 
   it('keeps everything queued while offline, and sends it once back online', async () => {
@@ -64,13 +66,13 @@ describe('uploading', () => {
     remote.failNext(10);
     nounAnswer(true, T0);
     await syncNow();
-    expect(useLog.getState().outbox).toHaveLength(1);
+    expect(useLog.getState().outbox).toHaveLength(2);
     expect(remote.rows).toHaveLength(0);
 
     remote.failNext(0);
     await syncNow();
     expect(useLog.getState().outbox).toEqual([]);
-    expect(remote.rows).toHaveLength(1);
+    expect(remote.rows).toHaveLength(2);
   });
 });
 
@@ -103,7 +105,7 @@ describe('two devices', () => {
     await pushOutbox(remote);
     await pullAll(remote);
 
-    expect(remote.rows).toHaveLength(3);
+    expect(remote.rows.filter((r) => r.event.kind === 'answer')).toHaveLength(3);
     expect(useNounProfile.getState().stats['en-et-gender'].attempts).toBe(3);
   });
 
@@ -112,7 +114,35 @@ describe('two devices', () => {
     await pushOutbox(remote);
     await freshDevice();
     await pullAll(remote);
-    expect(useLog.getState().events).toHaveLength(1203);
+    expect(useLog.getState().events.filter((e) => e.kind === 'answer')).toHaveLength(1203);
+  });
+});
+
+describe('a slow upload', () => {
+  it('is still picked up by a device whose cursor already moved past its timestamp', async () => {
+    nounAnswer(true, T0);
+    await pushOutbox(remote);
+    const slowStart = remote.now() - 30_000; // began before the rows above were stamped…
+    await freshDevice();
+    await pullAll(remote); // …this device's cursor is now past slowStart
+    const late = { kind: 'answer' as const, id: 'late-1', at: T0 + 5000, domain: 'nouns' as const, itemId: 'n-hus',
+      level: 1 as const, outcomes: { 'en-et-gender': false }, correct: false };
+    await remote.pushEvents([late], slowStart); // …and only commits now.
+    await pullAll(remote);
+    expect(useLog.getState().events.some((e) => e.id === 'late-1')).toBe(true);
+  });
+});
+
+describe('changing the exam focus', () => {
+  it('never moves a niveau the learner already has', async () => {
+    useSettings.setState({ targetExam: 'PD3' });
+    for (let i = 0; i < 20; i++) {
+      recordAnswerEvent({ domain: 'nouns', itemId: 'n-hus', level: 3, outcomes: { 'en-et-gender': true }, correct: true }, T0 + i);
+    }
+    expect(useLevels.getState().domains.nouns?.current).toBe(4);
+    useSettings.setState({ targetExam: 'PD2' });
+    expect(useLevels.getState().domains.nouns?.current).toBe(4);
+    useSettings.setState({ targetExam: null });
   });
 });
 

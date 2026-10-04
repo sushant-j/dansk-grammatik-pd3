@@ -10,11 +10,15 @@ import type { ProfileRow, PulledEvent, Remote } from '../sync/remote';
 import type { Baseline, ProgressEvent } from '../sync/types';
 
 export interface FakeRemote extends Remote {
+  /** `startedAt` backdates the server stamp, as a slow upload would. */
+  pushEvents(events: ProgressEvent[], startedAt?: number): Promise<void>;
   rows: { event: ProgressEvent; createdAt: string }[];
   baselines: Baseline[];
   profile: ProfileRow | null;
   /** Make the next n calls throw, as if offline. */
   failNext: (n: number) => void;
+  /** The server clock, for backdating a slow upload. */
+  now: () => number;
 }
 
 export function fakeRemote(): FakeRemote {
@@ -35,10 +39,12 @@ export function fakeRemote(): FakeRemote {
     failNext: (n) => {
       failures = n;
     },
+    now: () => clock,
 
-    async pushEvents(events) {
+    async pushEvents(events, startedAt?: number) {
       maybeFail();
-      const createdAt = new Date((clock += 1000)).toISOString();
+      // Postgres stamps the transaction's *start*; a test can backdate it to simulate a slow upload.
+      const createdAt = new Date(startedAt ?? (clock += 1000)).toISOString();
       for (const event of events) {
         if (!remote.rows.some((r) => r.event.id === event.id)) remote.rows.push({ event, createdAt });
       }

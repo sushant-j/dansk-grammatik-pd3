@@ -6,7 +6,10 @@
  * proving the current one: enough attempts *at* that niveau, with a high
  * enough hit rate over the most recent of them. Review items from lower
  * niveaus don't count toward the climb — getting easier material right says
- * nothing about readiness for harder material.
+ * nothing about readiness for harder material. Items *above* the current
+ * niveau do count: they are only served when a rule has nothing easier (no
+ * comma sentence is niveau 1), and getting harder material right is fair
+ * evidence — ignoring them would leave such a learner stuck for good.
  *
  * `applyLevelOutcome` is a pure reducer so the same climb can later be
  * replayed from a synced attempt log and land on exactly the same niveau.
@@ -61,7 +64,7 @@ export function applyLevelOutcome(
   exam: Exam | null | undefined,
 ): { next: DomainLevel; unlocked: Level | null } {
   const current = resolveLevel(prev, exam);
-  if (itemLevel !== current) return { next: { ...prev, current }, unlocked: null };
+  if (itemLevel < current) return { next: { ...prev, current }, unlocked: null };
 
   const recent = [...prev.recent, correct].slice(-LEVEL_UP_ATTEMPTS);
   const attempts = prev.attempts + 1;

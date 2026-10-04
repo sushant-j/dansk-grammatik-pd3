@@ -13,8 +13,15 @@ import {
   type DomainLevel,
 } from './levelStore';
 import { nextNounQuestion } from './nounStore';
+import { nextCommaQuestion } from './commaStore';
+import { ALL_COMMA_RULE_IDS, type CommaRuleId } from '../grammar/commaRules';
 import { ALL_RULE_IDS, type RuleId } from '../grammar/rules';
 import { nextExercise } from './store';
+
+const commaStats = Object.fromEntries(ALL_COMMA_RULE_IDS.map((id) => [id, { ...EMPTY_STAT }])) as Record<
+  CommaRuleId,
+  ItemStat
+>;
 
 const items = (levels: Level[]) => levels.map((level, i) => ({ id: `i${i}`, level }));
 
@@ -82,6 +89,18 @@ describe('applyLevelOutcome', () => {
     const outcomes: [Level, boolean][] = Array.from({ length: 30 }, () => [1, true]);
     const { state } = run({ ...EMPTY_DOMAIN_LEVEL, current: 2 }, outcomes);
     expect(state).toEqual({ current: 2, recent: [], attempts: 0 });
+  });
+
+  it('counts items above the niveau, so a domain with nothing at it can still climb', () => {
+    // No comma sentence is niveau 1; a niveau-1 learner is served niveau-2 ones.
+    const outcomes: [Level, boolean][] = [];
+    for (let i = 0; i < LEVEL_UP_ATTEMPTS; i++) {
+      outcomes.push([nextCommaQuestion(commaStats, undefined, Date.now(), 1).entry.level, true]);
+    }
+    expect(outcomes.every(([level]) => level > 1)).toBe(true);
+    const { state, unlocked } = run({ ...EMPTY_DOMAIN_LEVEL, current: 1 }, outcomes);
+    expect(unlocked).toBe(2);
+    expect(state.current).toBe(2);
   });
 
   it('stops at niveau 5', () => {

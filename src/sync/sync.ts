@@ -43,10 +43,34 @@ let again = false;
 let timer: ReturnType<typeof setTimeout> | null = null;
 let profileDirty = false;
 
+/**
+ * How far the first page of each pull reaches back past the cursor. The
+ * server stamps `created_at` when an upload *starts*, so a slow upload can
+ * land rows stamped before a cursor another device has already moved past.
+ * Re-reading a recent window catches them; known ids are skipped on merge.
+ */
+export const PULL_OVERLAP_MS = 2 * 60_000;
+
+const ZERO_UUID = '00000000-0000-0000-0000-000000000000';
+
+export function rewind(cursor: string | null, ms = PULL_OVERLAP_MS): string | null {
+  if (!cursor) return null;
+  const at = Date.parse(cursor.split('|')[0]);
+  return Number.isNaN(at) ? cursor : `${new Date(at - ms).toISOString()}|${ZERO_UUID}`;
+}
+
 export async function pullAll(r: Remote): Promise<void> {
+  // Only the first page reaches back; later pages page forward normally, so a
+  // busy window bigger than one page can't loop.
+  let cursor = rewind(useLog.getState().cursor);
   for (;;) {
-    const page = await r.pullEvents(useLog.getState().cursor, PAGE);
-    if (page.length) mergeRemote(page.map((p) => p.event), null, page[page.length - 1].cursor);
+    const page = await r.pullEvents(cursor, PAGE);
+    if (page.length) {
+      cursor = page[page.length - 1].cursor;
+      // Never move the saved cursor backwards (the overlap re-reads older rows).
+      const saved = useLog.getState().cursor;
+      mergeRemote(page.map((p) => p.event), null, saved && saved > cursor ? saved : cursor);
+    }
     if (page.length < PAGE) break;
   }
   mergeRemote([], await r.pullBaselines(), null);

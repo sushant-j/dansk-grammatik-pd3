@@ -30,6 +30,8 @@ import { setEventSink, type AnswerInput } from './bus';
 import { replay } from './replay';
 import type { Baseline, Derived, Domain, ProgressEvent } from './types';
 
+const isLevelDomain = (d: string): d is LevelDomain => (LEVEL_DOMAINS as string[]).includes(d);
+
 interface LogState {
   userId: string | null;
   events: ProgressEvent[];
@@ -107,7 +109,17 @@ function append(event: ProgressEvent): void {
   // and an event without an owner could end up in the wrong account.
   if (!useLog.getState().userId) return;
   const before = useLevels.getState().domains;
-  useLog.setState((s) => ({ events: [...s.events, event], outbox: [...s.outbox, event.id] }));
+  const toAdd: ProgressEvent[] = [event];
+
+  // A trainer's starting niveau comes from the exam focus. Write it into the
+  // log before the first answer there, so the climb no longer depends on the
+  // focus: changing focus later must not move anyone's niveau.
+  if (event.kind === 'answer' && event.level !== null && isLevelDomain(event.domain) && !before[event.domain]) {
+    const start = resolveLevel(undefined, useSettings.getState().targetExam);
+    toAdd.unshift({ kind: 'set-level', domain: event.domain, level: start, id: uuid(), at: event.at - 1 });
+  }
+
+  useLog.setState((s) => ({ events: [...s.events, ...toAdd], outbox: [...s.outbox, ...toAdd.map((e) => e.id)] }));
   const after = publish().levels;
 
   if (event.kind === 'answer') {
