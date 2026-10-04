@@ -43,3 +43,4 @@ yarn-error.*
 # test + tooling
 coverage/
 .vitest/
+.vercel
