@@ -60,7 +60,7 @@ export function isVisibleLevelDomain(domain: LevelDomain): boolean {
 export const DOMAIN_LABELS: Record<LevelDomain, string> = {
   grammar: 'Word order',
   nouns: 'Gender: en / et',
-  verbs: 'Verbs',
+  verbs: 'Verb forms',
   adjectives: 'Adjectives',
   comma: 'Commas',
   spelling: 'Spelling',

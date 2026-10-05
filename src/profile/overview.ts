@@ -102,7 +102,7 @@ export function crossDomainReview(
 ): DomainReview[] {
   const domains: DomainReview[] = [
     { key: 'grammar', label: 'Word order', route: '/train', ...tally(ruleProgress(s.grammar, now)) },
-    { key: 'verbs', label: 'Verb tenses', route: '/verbs', ...tally(verbRuleProgress(s.verbs, now)) },
+    { key: 'verbs', label: 'Verb forms', route: '/verbs', ...tally(verbRuleProgress(s.verbs, now)) },
     { key: 'nouns', label: 'Gender: en / et', route: '/nouns', ...tally(nounRuleProgress(s.nouns, now)) },
     { key: 'adjectives', label: 'Adjective agreement', route: '/adjectives', ...tally(adjectiveRuleProgress(s.adjectives, now)) },
     { key: 'comma', label: 'Comma rules', route: '/comma', ...tally(commaRuleProgress(s.comma, now)) },

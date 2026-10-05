@@ -68,17 +68,44 @@ function placedIds(p: Placement): string[] {
  * Rendered word order implied by a placement, following the schema's field
  * order for the clause type. This is what the learner's sentence would read as.
  */
+/**
+ * Words that unambiguously open a subordinate clause. A chip that is a whole
+ * clause starting with one of these ("hvis det regner") is set off by a comma
+ * when the sentence is written out, as Danish punctuation requires. Words that
+ * double as prepositions or adverbs (om, efter, da, som, …) are left out, or
+ * only count in the shape that makes them a clause.
+ */
+const SUBORDINATORS = new Set(['at', 'hvis', 'når', 'fordi', 'selvom', 'mens']);
+const HV_WORDS = new Set(['hvorfor', 'hvornår', 'hvordan', 'hvad', 'hvem', 'hvor', 'hvilken', 'hvilket', 'hvilke']);
+const CLAUSE_SUBJECTS = new Set(['jeg', 'du', 'han', 'hun', 'vi', 'i', 'de', 'man', 'den', 'det', 'der']);
+
+/** Is chip `i` a subordinate clause? A hv-chip only counts mid-sentence — first, it's a direct question. */
+function isClauseChip(chips: string[], i: number): boolean {
+  const words = chips[i].trim().split(/\s+/);
+  if (words.length < 3) return false;
+  const first = words[0].toLowerCase();
+  if (SUBORDINATORS.has(first)) return true;
+  if (first === 'om') return CLAUSE_SUBJECTS.has(words[1].toLowerCase());
+  return i > 0 && HV_WORDS.has(first);
+}
+
 export function renderSentence(ex: Exercise, p: Placement): string {
   const order = fieldsFor(ex.clause);
-  const words: string[] = [];
+  const chips: string[] = [];
   for (const f of order) {
-    for (const id of p[f.id] ?? []) words.push(tokenText(ex, id));
+    for (const id of p[f.id] ?? []) chips.push(tokenText(ex, id));
   }
-  if (!words.length) return '';
-  const s = words.join(' ');
-  return ex.clause === 'helsætning'
-    ? s.charAt(0).toUpperCase() + s.slice(1) + '.'
-    : s;
+  if (!chips.length) return '';
+  if (ex.clause !== 'helsætning') return chips.join(' ');
+  // Commas around a subordinate clause written as one chip, inside a main clause.
+  let out = '';
+  chips.forEach((c, i) => {
+    const comma = i > 0 && (isClauseChip(chips, i) || isClauseChip(chips, i - 1));
+    out += i === 0 ? c : `${comma ? ',' : ''} ${c}`;
+  });
+  const s = out;
+  const end = ex.gloss?.trim().endsWith('?') ? '?' : '.';
+  return s.charAt(0).toUpperCase() + s.slice(1) + end;
 }
 
 /** Index of a field within its clause's schema order. */
