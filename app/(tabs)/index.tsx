@@ -1,17 +1,17 @@
 import { useRouter } from 'expo-router';
 import React, { useMemo } from 'react';
-import { Pressable, View } from 'react-native';
+import { View } from 'react-native';
 import { RULES, type RuleId } from '../../src/grammar/rules';
 import { summarize, useProfile } from '../../src/profile/store';
 import { useOverview } from '../../src/profile/useOverview';
-import { buildStudyPlan, type Readiness } from '../../src/profile/studyplan';
+import { buildStudyPlan } from '../../src/profile/studyplan';
 import { computeStreak, useActivity } from '../../src/profile/activity';
 import { useSettings } from '../../src/profile/settings';
 import { Screen } from '../../src/ui/Screen';
+import { ExamCountdown } from '../../src/ui/ExamCountdown';
 import { SchemaStrip } from '../../src/ui/SchemaStrip';
 import { Button, Card, Label, ListGroup, ListRow, Txt, s } from '../../src/ui/primitives';
 import { useTheme } from '../../src/ui/theme';
-import type { Theme } from '../../src/theme';
 
 /**
  * Today — one answer to "what do I do now?".
@@ -45,31 +45,7 @@ export default function Today() {
   return (
     <Screen contentContainerStyle={{ padding: t.space(4), paddingBottom: t.space(10), gap: t.space(6) }}>
       {/* ── Exam distance ──────────────────────────────────────────── */}
-      {plan.readiness === 'no-date' ? (
-        <ListGroup>
-          <ListRow
-            title={targetExam ? `When is your ${targetExam} exam?` : 'When is your exam?'}
-            detail="Add the date and Today will tell you what pace to keep."
-            onPress={() => router.push('/settings')}
-          />
-        </ListGroup>
-      ) : (
-        <Pressable
-          onPress={() => router.push('/settings')}
-          accessibilityRole="button"
-          accessibilityLabel="Exam date, open settings"
-        >
-          <Txt variant="display">{examHeadline(plan.readiness, plan.daysLeft, targetExam)}</Txt>
-          {plan.readiness !== 'past' ? (
-            <Txt variant="heading" color={readinessColor(plan.readiness, t)} style={{ marginTop: t.space(2) }}>
-              {readinessLabel(plan.readiness)}
-            </Txt>
-          ) : null}
-          <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1), maxWidth: 560 }}>
-            {plan.message}
-          </Txt>
-        </Pressable>
-      )}
+      <ExamCountdown plan={plan} examDate={examDate} targetExam={targetExam} />
 
       {/* ── Next up ────────────────────────────────────────────────── */}
       {focus ? (
@@ -193,40 +169,4 @@ function NextUp({
       </View>
     </Card>
   );
-}
-
-function examHeadline(r: Readiness, daysLeft: number, exam: string | null): string {
-  const name = exam ?? 'Exam';
-  if (r === 'past') return `${name} date has passed`;
-  if (daysLeft === 0) return `${name} is today`;
-  return `${name} in ${daysLeft} ${daysLeft === 1 ? 'day' : 'days'}`;
-}
-
-function readinessLabel(r: Readiness): string {
-  switch (r) {
-    case 'ready':
-      return 'Ready';
-    case 'on-track':
-      return 'On track';
-    case 'tight':
-      return 'Tight, but doable';
-    case 'behind':
-      return 'Behind pace';
-    default:
-      return '';
-  }
-}
-
-function readinessColor(r: Readiness, t: Theme): string {
-  switch (r) {
-    case 'ready':
-    case 'on-track':
-      return t.c.success;
-    case 'tight':
-      return t.c.warning;
-    case 'behind':
-      return t.c.accent;
-    default:
-      return t.c.textFaint;
-  }
 }
