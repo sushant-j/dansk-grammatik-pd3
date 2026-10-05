@@ -53,6 +53,35 @@ export function formToken(form: string): string {
 
 /** Does `sentence` contain `token` as a whole word (Danish letters count as letters)? */
 export function containsForm(sentence: string, token: string): boolean {
+  return formPattern(token).test(sentence);
+}
+
+function formPattern(token: string): RegExp {
   const esc = token.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  return new RegExp(`(?<![\\p{L}\\p{N}])${esc}(?![\\p{L}\\p{N}])`, 'iu').test(sentence);
+  return new RegExp(`(?<![\\p{L}\\p{N}])${esc}(?![\\p{L}\\p{N}])`, 'iu');
+}
+
+/**
+ * Split `sentence` around the first whole-word match of `form`, so a card can
+ * set the form in bold: "Hun [accepterede] tilbuddet". Null when there is no
+ * form or it doesn't appear — the sentence is then shown plain.
+ */
+export function splitAtForm(
+  sentence: string,
+  form: string | undefined,
+): { before: string; match: string; after: string } | null {
+  if (!form?.trim()) return null;
+  let m: RegExpExecArray | null;
+  try {
+    m = formPattern(formToken(form)).exec(sentence);
+  } catch {
+    // An engine without lookbehind or \p{…} support: fall back to plain text.
+    return null;
+  }
+  if (!m) return null;
+  return {
+    before: sentence.slice(0, m.index),
+    match: m[0],
+    after: sentence.slice(m.index + m[0].length),
+  };
 }

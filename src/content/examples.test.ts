@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { EXAMPLES, EXAMPLE_SHARDS, containsForm, formToken } from './examples';
+import { EXAMPLES, EXAMPLE_SHARDS, containsForm, formToken, splitAtForm } from './examples';
 import { VOCABULARY } from './vocabulary';
 
 const byId = new Map(VOCABULARY.map((v) => [v.id, v]));
@@ -49,5 +49,24 @@ describe('vocabulary example sentences', () => {
       }
     }
     expect(missing).toEqual([]);
+  });
+});
+
+describe('splitAtForm', () => {
+  it('splits around the whole-word form, keeping the sentence’s own casing', () => {
+    expect(splitAtForm('Bilen holdt stille, og bilen startede igen.', 'bilen')).toEqual({
+      before: '',
+      match: 'Bilen',
+      after: ' holdt stille, og bilen startede igen.',
+    });
+  });
+
+  it('matches a form only as a whole word, Danish letters included', () => {
+    expect(splitAtForm('Han går, når han får gåden løst.', 'gå')).toBeNull();
+    expect(splitAtForm('Vi bevæger os, når de bevæger sig.', 'bevæger sig')?.before).toBe('Vi ');
+  });
+
+  it('gives nothing to highlight without a form', () => {
+    expect(splitAtForm('En sætning uden form.', undefined)).toBeNull();
   });
 });
