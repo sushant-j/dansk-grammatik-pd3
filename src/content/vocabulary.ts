@@ -19,6 +19,7 @@
  */
 
 import { ADJECTIVE_BANK } from './adjectives';
+import { EXAMPLES, type VocabExample } from './examples';
 import type { Level } from './levels';
 import { NOUN_BANK } from './nouns';
 import { VERB_BANK } from './verbs';
@@ -41,6 +42,14 @@ export interface VocabEntry {
   sourceTopics?: string[];
   /** The word's inflection, for words drawn from the grammar banks: "en bil · bilen". */
   forms?: string;
+  /**
+   * The individual forms a bank word inflects into, each of which gets at
+   * least one usage sentence: infinitive/present/past/participle for a verb,
+   * indefinite/definite for a noun, base/t/e for an adjective.
+   */
+  formList?: string[];
+  /** Usage sentences beyond `example` (see examples.ts). */
+  examples?: VocabExample[];
   /** Niveau 1–5 (see levels.ts): when the deck starts showing this word. */
   level: Level;
   /** False until a person has checked the entry; hand-written words are treated as checked. */
@@ -465,6 +474,7 @@ const BANK_WORDS: VocabEntry[] = [
     category: 'noun' as const,
     glossEn: n.glossEn,
     forms: `${n.gender} ${n.word} · ${n.definite}`,
+    formList: [n.word, n.definite],
     level: n.level,
     ...(n.reviewed === false ? { reviewed: false } : {}),
   })),
@@ -474,6 +484,7 @@ const BANK_WORDS: VocabEntry[] = [
     category: 'verb' as const,
     glossEn: v.glossEn,
     forms: `${v.present} · ${v.past} · ${AUX_LABEL[v.perfectAux]} ${v.participle}`,
+    formList: [v.infinitive, v.present, v.past, v.participle],
     level: v.level,
     ...(v.reviewed === false ? { reviewed: false } : {}),
   })),
@@ -483,6 +494,7 @@ const BANK_WORDS: VocabEntry[] = [
     category: 'adjective' as const,
     glossEn: a.glossEn,
     forms: `${a.base} · ${a.tForm} · ${a.eForm}`,
+    formList: [...new Set([a.base, a.tForm, a.eForm])],
     level: a.level,
     ...(a.reviewed === false ? { reviewed: false } : {}),
   })),
@@ -494,7 +506,7 @@ const examWordSet = new Set(EXAM_WORDS.map((w) => w.word.toLowerCase()));
 export const VOCABULARY: VocabEntry[] = [
   ...EXAM_WORDS,
   ...BANK_WORDS.filter((w) => !examWordSet.has(w.word.replace(/^(en|et|at) /, '').toLowerCase())),
-];
+].map((w) => (EXAMPLES[w.id] ? { ...w, examples: EXAMPLES[w.id] } : w));
 
 export function vocabById(id: string): VocabEntry | undefined {
   return VOCABULARY.find((v) => v.id === id);
