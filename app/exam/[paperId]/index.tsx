@@ -15,7 +15,7 @@ import {
 } from '../../../src/exam/attemptStore';
 import { gradeFor, partMax } from '../../../src/exam/grade';
 import { usePaper } from '../../../src/exam/papers';
-import { formatClock, formatDuration } from '../../../src/ui/exam/Clock';
+import { formatClock, formatDuration, useNow } from '../../../src/ui/exam/Clock';
 import { formatNote } from '../../../src/ui/exam/paperText';
 import { Button, Card, Label, Txt, s } from '../../../src/ui/primitives';
 import { Screen } from '../../../src/ui/Screen';
@@ -52,15 +52,54 @@ function Overview({ paper }: { paper: ReadingPaper }) {
   const drafts = useAttempts((st) => st.drafts);
   const past = attemptsFor(all, paper.id);
   const total = bestTotal(all, paper.id);
+  // Which part's open attempt is waiting on a "discard / start over?" answer.
+  const [confirming, setConfirming] = React.useState<ExamPart | null>(null);
 
+  // Keep the "N:NN left" of a running exam ticking, so coming Back from the
+  // runner shows the real time left rather than the time when the page last drew.
+  const ticking = (['lf1', 'lf2'] as const).some((p) => {
+    const d = drafts[draftKey(paper.id, p)];
+    return !!d && d.mode === 'exam' && !isPaused(d);
+  });
+  const now = useNow(ticking);
+
+  /** `fresh` starts a new attempt (replacing any open one) with a new clock; otherwise the open one is continued. */
   const open = (part: ExamPart, mode: ExamMode, fresh: boolean) => {
     if (fresh) startDraft(paper.id, part, mode);
+    setConfirming(null);
     router.push({ pathname: '/exam/[paperId]/[part]', params: { paperId: paper.id, part, mode } } as never);
   };
 
+  const discard = (part: ExamPart) => {
+    discardDraft(paper.id, part);
+    setConfirming(null);
+  };
+
+  const startButtons = (part: ExamPart, replacing: boolean) => (
+    <View style={[s.row, { gap: t.space(2) }]}>
+      <Button
+        label={`${replacing ? 'New exam' : 'Exam'} · ${PART_MINUTES[part]} min`}
+        onPress={() => open(part, 'exam', true)}
+        style={{ flex: 1 }}
+      />
+      <Button label={replacing ? 'New practice' : 'Practice'} tone="ghost" onPress={() => open(part, 'practice', true)} style={{ flex: 1 }} />
+    </View>
+  );
+
   const partCard = (part: ExamPart) => {
     const draft = drafts[draftKey(paper.id, part)];
-    const left = draft ? remainingMs(draft, Date.now()) : null;
+    const left = draft ? remainingMs(draft, now) : null;
+    const answeredCount = draft ? Object.values(draft.answers).filter((v) => v.trim()).length : 0;
+    const timeUp = draft?.mode === 'exam' && (left === null || left <= 0);
+    const continueLabel = !draft
+      ? ''
+      : draft.mode === 'practice'
+        ? `Continue · ${answeredCount} answered`
+        : timeUp
+          ? 'Open and hand in'
+          : isPaused(draft)
+            ? `Continue · paused at ${formatClock(left ?? 0)}`
+            : `Continue · ${formatClock(left ?? 0)} left`;
     const detail =
       part === 'lf1'
         ? `Delprøve 1 · ${paper.lf1.theme} · ${paper.lf1.questions.length} short answers`
@@ -76,25 +115,37 @@ function Overview({ paper }: { paper: ReadingPaper }) {
         </Txt>
         {draft ? (
           <View style={{ marginTop: t.space(3), gap: t.space(2) }}>
-            <Txt variant="body" color={t.c.textMuted}>
+            <Txt variant="body" color={t.c.textMuted} style={{ lineHeight: 22 }}>
               {draft.mode === 'exam'
-                ? left !== null && left > 0
-                  ? isPaused(draft)
-                    ? `Paused · ${formatClock(left)} left`
-                    : `Exam in progress — ${formatClock(left)} left.`
-                  : 'Exam in progress — time is up; it will be handed in when you open it.'
-                : `Practice in progress — ${Object.values(draft.answers).filter((v) => v.trim()).length} answered.`}
+                ? timeUp
+                  ? 'Exam in progress — time is up; it will be handed in when you open it.'
+                  : isPaused(draft)
+                    ? `Exam in progress, paused with ${formatClock(left ?? 0)} left. ${answeredCount} answered.`
+                    : `Exam in progress — the clock is still running (${answeredCount} answered).`
+                : `Practice in progress — ${answeredCount} answered.`}
             </Txt>
-            <View style={[s.row, { gap: t.space(2) }]}>
-              <Button label="Continue" onPress={() => open(part, draft.mode, false)} style={{ flex: 1 }} />
-              <Button label="Discard" tone="ghost" onPress={() => discardDraft(paper.id, part)} style={{ flex: 1 }} />
-            </View>
+            {confirming === part ? (
+              <Card tone="warning" style={{ padding: t.space(3), gap: t.space(2.5) }}>
+                <Txt variant="body" style={{ lineHeight: 22 }}>
+                  {`Throw away this ${draft.mode === 'exam' ? 'exam' : 'practice'} attempt${
+                    answeredCount ? ` and its ${answeredCount} answer${answeredCount === 1 ? '' : 's'}` : ''
+                  }? Starting again gives you a fresh clock.`}
+                </Txt>
+                {startButtons(part, true)}
+                <View style={[s.row, { gap: t.space(2) }]}>
+                  <Button label="Just discard" tone="ghost" onPress={() => discard(part)} style={{ flex: 1 }} />
+                  <Button label="Keep it" tone="ghost" onPress={() => setConfirming(null)} style={{ flex: 1 }} />
+                </View>
+              </Card>
+            ) : (
+              <View style={[s.row, { gap: t.space(2) }]}>
+                <Button label={continueLabel} onPress={() => open(part, draft.mode, false)} style={{ flex: 1 }} />
+                <Button label="Start over / discard" tone="ghost" onPress={() => setConfirming(part)} style={{ flex: 1 }} />
+              </View>
+            )}
           </View>
         ) : (
-          <View style={[s.row, { gap: t.space(2), marginTop: t.space(3) }]}>
-            <Button label={`Exam · ${PART_MINUTES[part]} min`} onPress={() => open(part, 'exam', true)} style={{ flex: 1 }} />
-            <Button label="Practice" tone="ghost" onPress={() => open(part, 'practice', true)} style={{ flex: 1 }} />
-          </View>
+          <View style={{ marginTop: t.space(3) }}>{startButtons(part, false)}</View>
         )}
       </Card>
     );

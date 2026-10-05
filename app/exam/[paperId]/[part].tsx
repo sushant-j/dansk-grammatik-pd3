@@ -2,7 +2,7 @@ import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ActivityIndicator, Pressable, ScrollView, Text, View } from 'react-native';
 import type { ExamPart, InsertTask, Lf2Task, ReadingPaper } from '../../../src/content/exams/types';
-import { PART_NAMES } from '../../../src/content/exams/types';
+import { PART_MINUTES, PART_NAMES } from '../../../src/content/exams/types';
 import {
   draftKey,
   isPaused,
@@ -63,10 +63,10 @@ function Runner({ paper, part, mode }: { paper: ReadingPaper; part: ExamPart; mo
   const draft = useAttempts((st) => st.drafts[draftKey(paper.id, part)]);
   const submitted = useRef(false);
 
-  // Resume the saved draft if there is one, otherwise start fresh in the mode asked for.
-  useEffect(() => {
-    if (hydrated && !draft && !submitted.current) startDraft(paper.id, part, mode);
-  }, [hydrated, draft, paper.id, part, mode]);
+  // The runner never starts an attempt by itself; the paper overview's start
+  // buttons do. It used to start one whenever the draft was missing, so a
+  // Discard made while a runner was still mounted, or a browser Forward back
+  // onto a runner URL, silently brought the attempt back with a new clock.
 
   const finish = useCallback(() => {
     if (submitted.current) return;
@@ -75,8 +75,57 @@ function Runner({ paper, part, mode }: { paper: ReadingPaper; part: ExamPart; mo
     if (attempt) router.replace({ pathname: '/exam/[paperId]/result', params: { paperId: paper.id, attempt: attempt.id } } as never);
   }, [paper, part, router]);
 
-  if (!draft) return <Loading />;
+  // Between handing in and landing on the result, the draft is already gone.
+  if (!hydrated || (!draft && submitted.current)) return <Loading />;
+  if (!draft) {
+    return (
+      <NoAttempt
+        part={part}
+        mode={mode}
+        onStart={(m) => startDraft(paper.id, part, m)}
+        onBack={() => router.replace({ pathname: '/exam/[paperId]', params: { paperId: paper.id } } as never)}
+      />
+    );
+  }
   return <Desk paper={paper} part={part} draft={draft} onFinish={finish} />;
+}
+
+/** Reached with no attempt in progress: it was handed in or discarded, or this is an old link. */
+function NoAttempt({
+  part,
+  mode,
+  onStart,
+  onBack,
+}: {
+  part: ExamPart;
+  mode: ExamMode;
+  onStart: (mode: ExamMode) => void;
+  onBack: () => void;
+}) {
+  const t = useTheme();
+  const exam = (
+    <Button
+      key="exam"
+      label={`Start exam · ${PART_MINUTES[part]} min`}
+      tone={mode === 'exam' ? 'primary' : 'ghost'}
+      onPress={() => onStart('exam')}
+    />
+  );
+  const practice = (
+    <Button key="practice" label="Start practice" tone={mode === 'practice' ? 'primary' : 'ghost'} onPress={() => onStart('practice')} />
+  );
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', padding: t.space(6), backgroundColor: t.c.bg }}>
+      <Card tone="sunken" style={{ width: '100%', maxWidth: 440, padding: t.space(6), gap: t.space(3) }}>
+        <Txt variant="title">{`No ${PART_NAMES[part]} attempt in progress`}</Txt>
+        <Txt variant="body" color={t.c.textMuted} style={{ lineHeight: 22 }}>
+          It was handed in or discarded. Start a new one with a fresh clock, or go back to the paper.
+        </Txt>
+        {mode === 'exam' ? [exam, practice] : [practice, exam]}
+        <Button label="Back to the paper" tone="ghost" onPress={onBack} />
+      </Card>
+    </View>
+  );
 }
 
 function Desk({
