@@ -23,6 +23,8 @@ export interface NounQuestion {
   correctIndex: number;
   /** Shown after the learner answers, whatever they picked. */
   explanation: string;
+  /** The same explanation in English, for a learner the Danish one doesn't reach yet. */
+  explanationEn: string;
 }
 
 function shuffle<T>(items: T[], rng: () => number): T[] {
@@ -49,6 +51,7 @@ export function buildQuestion(
       options,
       correctIndex: options.indexOf(noun.gender),
       explanation: `"${noun.word}" er et ${noun.gender}-ord: "${noun.gender} ${noun.word}" (${noun.glossEn}).`,
+      explanationEn: `"${noun.word}" (${noun.glossEn}) is an ${noun.gender}-word: "${noun.gender} ${noun.word}". A noun's gender can't be worked out from its meaning, so it is learned together with the word.`,
     };
   }
 
@@ -62,6 +65,7 @@ export function buildQuestion(
       options,
       correctIndex: options.indexOf(noun.definite),
       explanation: `"${noun.word}" er et ${noun.gender}-ord, så den bestemte form er "${noun.definite}" — endelsen følger kønnet, ikke omvendt.`,
+      explanationEn: `"${noun.word}" (${noun.glossEn}) is an ${noun.gender}-word, so "the ${noun.glossEn}" is "${noun.definite}": the definite ending (-en/-et) follows the noun's gender.`,
     };
   }
 
@@ -81,6 +85,7 @@ export function buildQuestion(
     options,
     correctIndex: options.indexOf(correct),
     explanation: `"${article}" markerer bestemtheden foran adjektivet, så "${noun.word}" bliver i grundform — "${correct}", aldrig "${doubleMarked}".`,
+    explanationEn: `With an adjective in front, "the" is the separate word "${article}" (${article} for an ${noun.gender}-word), and that already makes the phrase definite — so the noun stays in its base form: "${correct}", never "${doubleMarked}".`,
   };
 }
 

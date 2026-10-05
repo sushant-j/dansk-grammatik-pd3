@@ -1,0 +1,2438 @@
+{
+  "w-n-ventetid": [
+    {
+      "form": "ventetid",
+      "da": "Der er lang ventetid på en operation på sygehuset.",
+      "en": "There is a long waiting time for an operation at the hospital."
+    },
+    {
+      "form": "ventetiden",
+      "da": "Ventetiden hos lægen var næsten en time i dag.",
+      "en": "The wait at the doctor's was almost an hour today."
+    }
+  ],
+  "w-n-psykolog": [
+    {
+      "form": "psykolog",
+      "da": "Min søster går til psykolog en gang om ugen.",
+      "en": "My sister sees a psychologist once a week."
+    },
+    {
+      "form": "psykologen",
+      "da": "Psykologen hjalp ham med at håndtere sin stress.",
+      "en": "The psychologist helped him deal with his stress."
+    }
+  ],
+  "w-n-hjemmehjaelp": [
+    {
+      "form": "hjemmehjælp",
+      "da": "Min farmor får hjemmehjælp to gange om dagen.",
+      "en": "My grandmother gets home help twice a day."
+    },
+    {
+      "form": "hjemmehjælpen",
+      "da": "Hjemmehjælpen kommer hver morgen og hjælper hende op af sengen.",
+      "en": "The home helper comes every morning and helps her out of bed."
+    }
+  ],
+  "w-n-aeldrepleje": [
+    {
+      "form": "ældrepleje",
+      "da": "Mange mener, at kommunen bør bruge flere penge på ældrepleje.",
+      "en": "Many people think the municipality should spend more money on care for the elderly."
+    },
+    {
+      "form": "ældreplejen",
+      "da": "Ældreplejen mangler uddannet personale i hele landet.",
+      "en": "Elderly care lacks trained staff all over the country."
+    }
+  ],
+  "w-n-regering": [
+    {
+      "form": "regering",
+      "da": "Danmark fik en ny regering efter valget sidste år.",
+      "en": "Denmark got a new government after the election last year."
+    },
+    {
+      "form": "regeringen",
+      "da": "Regeringen vil investere flere penge i offentlig transport.",
+      "en": "The government wants to invest more money in public transport."
+    }
+  ],
+  "w-n-minister": [
+    {
+      "form": "minister",
+      "da": "Hun blev minister, da hun kun var 35 år gammel.",
+      "en": "She became a minister when she was only 35 years old."
+    },
+    {
+      "form": "ministeren",
+      "da": "Ministeren svarede på spørgsmål fra journalisterne i går.",
+      "en": "The minister answered questions from the journalists yesterday."
+    }
+  ],
+  "w-n-valgkamp": [
+    {
+      "form": "valgkamp",
+      "da": "Under en valgkamp hænger der plakater overalt i byen.",
+      "en": "During an election campaign there are posters everywhere in town."
+    },
+    {
+      "form": "valgkampen",
+      "da": "Valgkampen handlede mest om sundhed og skat.",
+      "en": "The election campaign was mostly about health and tax."
+    }
+  ],
+  "w-n-debat": [
+    {
+      "form": "debat",
+      "da": "Der var en livlig debat om skolernes fremtid i aftes.",
+      "en": "There was a lively debate about the future of the schools last night."
+    },
+    {
+      "form": "debatten",
+      "da": "Debatten på de sociale medier blev hurtigt meget hård.",
+      "en": "The debate on social media quickly became very harsh."
+    }
+  ],
+  "w-n-politik": [
+    {
+      "form": "politik",
+      "da": "Mange unge interesserer sig ikke for politik.",
+      "en": "Many young people are not interested in politics."
+    },
+    {
+      "form": "politikken",
+      "da": "Politikken på miljøområdet skal ændres, mener partiet.",
+      "en": "The policy on the environment must be changed, the party believes."
+    }
+  ],
+  "w-n-stemme": [
+    {
+      "form": "stemme",
+      "da": "Hver stemme tæller ved et valg.",
+      "en": "Every vote counts in an election."
+    },
+    {
+      "form": "stemmen",
+      "da": "Sangeren mistede stemmen efter den lange koncert.",
+      "en": "The singer lost her voice after the long concert."
+    }
+  ],
+  "w-n-myndighed": [
+    {
+      "form": "myndighed",
+      "da": "Du skal søge om tilladelse hos den rette myndighed.",
+      "en": "You must apply for permission from the appropriate authority."
+    },
+    {
+      "form": "myndigheden",
+      "da": "Myndigheden har endnu ikke svaret på vores ansøgning.",
+      "en": "The authority has not yet replied to our application."
+    }
+  ],
+  "w-n-stat": [
+    {
+      "form": "stat",
+      "da": "Danmark er en lille stat i Nordeuropa.",
+      "en": "Denmark is a small state in Northern Europe."
+    },
+    {
+      "form": "staten",
+      "da": "Staten betaler en stor del af udgifterne til uddannelse.",
+      "en": "The state pays a large part of the costs of education."
+    }
+  ],
+  "w-n-afgift": [
+    {
+      "form": "afgift",
+      "da": "Der er en høj afgift på cigaretter i Danmark.",
+      "en": "There is a high duty on cigarettes in Denmark."
+    },
+    {
+      "form": "afgiften",
+      "da": "Afgiften på benzin stiger igen næste år.",
+      "en": "The duty on petrol is going up again next year."
+    }
+  ],
+  "w-n-kriminalitet": [
+    {
+      "form": "kriminalitet",
+      "da": "Politiet arbejder for at forebygge kriminalitet blandt unge.",
+      "en": "The police work to prevent crime among young people."
+    },
+    {
+      "form": "kriminaliteten",
+      "da": "Kriminaliteten i området er faldet de seneste år.",
+      "en": "Crime in the area has fallen in recent years."
+    }
+  ],
+  "w-n-straf": [
+    {
+      "form": "straf",
+      "da": "Han fik en straf på tre måneders fængsel.",
+      "en": "He got a sentence of three months in prison."
+    },
+    {
+      "form": "straffen",
+      "da": "Mange syntes, at straffen var alt for mild.",
+      "en": "Many people thought the punishment was far too lenient."
+    }
+  ],
+  "w-n-dom": [
+    {
+      "form": "dom",
+      "da": "Retten afsagde en dom i sagen i går.",
+      "en": "The court passed a verdict in the case yesterday."
+    },
+    {
+      "form": "dommen",
+      "da": "Hun var lettet, da hun hørte dommen.",
+      "en": "She was relieved when she heard the verdict."
+    }
+  ],
+  "w-n-domstol": [
+    {
+      "form": "domstol",
+      "da": "Sagen skal nu behandles ved en domstol.",
+      "en": "The case must now be heard by a court."
+    },
+    {
+      "form": "domstolen",
+      "da": "Domstolen gav kvinden ret i sagen mod arbejdsgiveren.",
+      "en": "The court ruled in the woman's favour in the case against her employer."
+    }
+  ],
+  "w-n-rettighed": [
+    {
+      "form": "rettighed",
+      "da": "Det er en vigtig rettighed at kunne sige sin mening.",
+      "en": "It is an important right to be able to speak your mind."
+    },
+    {
+      "form": "rettigheden",
+      "da": "Rettigheden til barsel gælder for begge forældre.",
+      "en": "The right to parental leave applies to both parents."
+    }
+  ],
+  "w-n-pligt": [
+    {
+      "form": "pligt",
+      "da": "Det er din pligt at give besked, hvis du er syg.",
+      "en": "It is your duty to let us know if you are ill."
+    },
+    {
+      "form": "pligten",
+      "da": "Pligten til at betale skat gælder for alle, der arbejder i Danmark.",
+      "en": "The duty to pay tax applies to everyone who works in Denmark."
+    }
+  ],
+  "w-n-frihed": [
+    {
+      "form": "frihed",
+      "da": "Mange unge nyder den frihed, det giver at flytte hjemmefra.",
+      "en": "Many young people enjoy the freedom that moving away from home gives them."
+    },
+    {
+      "form": "friheden",
+      "da": "Friheden til at vælge sin egen uddannelse er vigtig for mig.",
+      "en": "The freedom to choose my own education is important to me."
+    }
+  ],
+  "w-n-sikkerhed": [
+    {
+      "form": "sikkerhed",
+      "da": "En cykelhjelm giver ekstra sikkerhed i trafikken.",
+      "en": "A bicycle helmet gives extra safety in traffic."
+    },
+    {
+      "form": "sikkerheden",
+      "da": "Sikkerheden på byggepladsen er blevet meget bedre.",
+      "en": "Safety on the building site has become much better."
+    }
+  ],
+  "w-n-tryghed": [
+    {
+      "form": "tryghed",
+      "da": "Børn har brug for tryghed og faste rammer.",
+      "en": "Children need security and a fixed structure."
+    },
+    {
+      "form": "trygheden",
+      "da": "Trygheden i boligområdet er steget, efter at der er kommet bedre lys.",
+      "en": "The sense of security in the housing estate has increased since better lighting was put up."
+    }
+  ],
+  "w-n-ulighed": [
+    {
+      "form": "ulighed",
+      "da": "Der er stor ulighed i sundhed mellem rige og fattige.",
+      "en": "There is great inequality in health between rich and poor."
+    },
+    {
+      "form": "uligheden",
+      "da": "Uligheden i samfundet er vokset de sidste tyve år.",
+      "en": "Inequality in society has grown over the last twenty years."
+    }
+  ],
+  "w-n-fattigdom": [
+    {
+      "form": "fattigdom",
+      "da": "Mange familier i verden lever i fattigdom.",
+      "en": "Many families in the world live in poverty."
+    },
+    {
+      "form": "fattigdommen",
+      "da": "Fattigdommen rammer især børn af enlige forsørgere.",
+      "en": "Poverty hits children of single parents in particular."
+    }
+  ],
+  "w-n-indvandrer": [
+    {
+      "form": "indvandrer",
+      "da": "Han kom til Danmark som indvandrer for femten år siden.",
+      "en": "He came to Denmark as an immigrant fifteen years ago."
+    },
+    {
+      "form": "indvandreren",
+      "da": "Indvandreren fortalte om sin første tid i et nyt land.",
+      "en": "The immigrant talked about his early days in a new country."
+    }
+  ],
+  "w-n-flygtning": [
+    {
+      "form": "flygtning",
+      "da": "Hun kom til Danmark som flygtning for ti år siden.",
+      "en": "She came to Denmark as a refugee ten years ago."
+    },
+    {
+      "form": "flygtningen",
+      "da": "Flygtningen fik hjælp til at finde en lejlighed og et job.",
+      "en": "The refugee got help finding a flat and a job."
+    }
+  ],
+  "w-n-befolkning": [
+    {
+      "form": "befolkning",
+      "da": "Kina har en meget stor befolkning.",
+      "en": "China has a very large population."
+    },
+    {
+      "form": "befolkningen",
+      "da": "Befolkningen i Danmark bliver ældre og ældre.",
+      "en": "The population of Denmark is getting older and older."
+    }
+  ],
+  "w-n-udvikling": [
+    {
+      "form": "udvikling",
+      "da": "Vi ser en positiv udvikling i elevernes karakterer.",
+      "en": "We are seeing a positive development in the pupils' grades."
+    },
+    {
+      "form": "udviklingen",
+      "da": "Udviklingen inden for teknologi går meget hurtigt.",
+      "en": "Developments in technology are moving very fast."
+    }
+  ],
+  "w-n-forurening": [
+    {
+      "form": "forurening",
+      "da": "Trafikken skaber meget forurening i de store byer.",
+      "en": "Traffic creates a lot of pollution in the big cities."
+    },
+    {
+      "form": "forureningen",
+      "da": "Forureningen af havet er et stort problem for fiskene.",
+      "en": "The pollution of the sea is a big problem for the fish."
+    }
+  ],
+  "w-n-udledning": [
+    {
+      "form": "udledning",
+      "da": "Fabrikken skal reducere sin udledning af CO2.",
+      "en": "The factory must reduce its emission of CO2."
+    },
+    {
+      "form": "udledningen",
+      "da": "Udledningen fra trafikken skal halveres inden 2030.",
+      "en": "Emissions from traffic must be halved by 2030."
+    }
+  ],
+  "w-n-ressource": [
+    {
+      "form": "ressource",
+      "da": "Vand er en vigtig ressource, som vi ikke må spilde.",
+      "en": "Water is an important resource that we must not waste."
+    },
+    {
+      "form": "ressourcen",
+      "da": "Grundvandet er vores drikkevand, og ressourcen skal beskyttes.",
+      "en": "Groundwater is our drinking water, and the resource must be protected."
+    }
+  ],
+  "w-n-konsekvens": [
+    {
+      "form": "konsekvens",
+      "da": "Beslutningen fik en alvorlig konsekvens for familien.",
+      "en": "The decision had a serious consequence for the family."
+    },
+    {
+      "form": "konsekvensen",
+      "da": "Konsekvensen af det dårlige vejr var, at festen blev aflyst.",
+      "en": "The consequence of the bad weather was that the party was cancelled."
+    }
+  ],
+  "w-n-risiko": [
+    {
+      "form": "risiko",
+      "da": "Rygning øger din risiko for at få kræft.",
+      "en": "Smoking increases your risk of getting cancer."
+    },
+    {
+      "form": "risikoen",
+      "da": "Risikoen for oversvømmelse er størst om efteråret.",
+      "en": "The risk of flooding is greatest in autumn."
+    }
+  ],
+  "w-n-kritik": [
+    {
+      "form": "kritik",
+      "da": "Planen om en ny motorvej har fået meget kritik.",
+      "en": "The plan for a new motorway has received a lot of criticism."
+    },
+    {
+      "form": "kritikken",
+      "da": "Chefen tog kritikken alvorligt og ændrede arbejdstiderne.",
+      "en": "The boss took the criticism seriously and changed the working hours."
+    }
+  ],
+  "w-n-forskning": [
+    {
+      "form": "forskning",
+      "da": "Ny forskning viser, at motion er godt for hukommelsen.",
+      "en": "New research shows that exercise is good for the memory."
+    },
+    {
+      "form": "forskningen",
+      "da": "Forskningen på universitetet får penge fra både staten og private fonde.",
+      "en": "Research at the university is funded by both the state and private foundations."
+    }
+  ],
+  "w-n-teknologi": [
+    {
+      "form": "teknologi",
+      "da": "Ny teknologi har ændret måden, vi arbejder på.",
+      "en": "New technology has changed the way we work."
+    },
+    {
+      "form": "teknologien",
+      "da": "Teknologien i moderne biler gør dem mere sikre.",
+      "en": "The technology in modern cars makes them safer."
+    }
+  ],
+  "w-n-udfordring": [
+    {
+      "form": "udfordring",
+      "da": "Det var en stor udfordring at lære dansk som voksen.",
+      "en": "It was a big challenge to learn Danish as an adult."
+    },
+    {
+      "form": "udfordringen",
+      "da": "Udfordringen er at finde nok lærere til de nye skoler.",
+      "en": "The challenge is to find enough teachers for the new schools."
+    }
+  ],
+  "w-n-indflydelse": [
+    {
+      "form": "indflydelse",
+      "da": "Forældre har stor indflydelse på deres børns valg af uddannelse.",
+      "en": "Parents have great influence on their children's choice of education."
+    },
+    {
+      "form": "indflydelsen",
+      "da": "Indflydelsen fra amerikansk kultur kan ses overalt i Danmark.",
+      "en": "The influence of American culture can be seen everywhere in Denmark."
+    }
+  ],
+  "w-n-betydning": [
+    {
+      "form": "betydning",
+      "da": "Ordet har en anden betydning på norsk.",
+      "en": "The word has a different meaning in Norwegian."
+    },
+    {
+      "form": "betydningen",
+      "da": "Betydningen af en god nattesøvn må ikke undervurderes.",
+      "en": "The importance of a good night's sleep must not be underestimated."
+    }
+  ],
+  "w-n-selvtillid": [
+    {
+      "form": "selvtillid",
+      "da": "Efter kurset havde hun mere selvtillid, når hun talte dansk.",
+      "en": "After the course she had more self-confidence when she spoke Danish."
+    },
+    {
+      "form": "selvtilliden",
+      "da": "Selvtilliden voksede, da han fik sit første job.",
+      "en": "His self-confidence grew when he got his first job."
+    }
+  ],
+  "w-n-motivation": [
+    {
+      "form": "motivation",
+      "da": "Det er svært at lære noget uden motivation.",
+      "en": "It is hard to learn anything without motivation."
+    },
+    {
+      "form": "motivationen",
+      "da": "Motivationen blandt eleverne steg, da de selv måtte vælge emne.",
+      "en": "The pupils' motivation rose when they were allowed to choose the topic themselves."
+    }
+  ],
+  "w-n-nysgerrighed": [
+    {
+      "form": "nysgerrighed",
+      "da": "Børn lærer meget gennem leg og nysgerrighed.",
+      "en": "Children learn a lot through play and curiosity."
+    },
+    {
+      "form": "nysgerrigheden",
+      "da": "Nysgerrigheden fik ham til at læse mere om emnet.",
+      "en": "Curiosity made him read more about the subject."
+    }
+  ],
+  "w-n-ensomhed": [
+    {
+      "form": "ensomhed",
+      "da": "Mange ældre lider af ensomhed, især i weekenden.",
+      "en": "Many elderly people suffer from loneliness, especially at weekends."
+    },
+    {
+      "form": "ensomheden",
+      "da": "Ensomheden blev værre, efter at hendes mand døde.",
+      "en": "The loneliness got worse after her husband died."
+    }
+  ],
+  "w-n-bekymring": [
+    {
+      "form": "bekymring",
+      "da": "Forældrene udtrykte bekymring for trafikken ved skolen.",
+      "en": "The parents expressed concern about the traffic near the school."
+    },
+    {
+      "form": "bekymringen",
+      "da": "Bekymringen for fremtiden fylder meget hos mange unge.",
+      "en": "Worry about the future weighs heavily on many young people."
+    }
+  ],
+  "w-n-usikkerhed": [
+    {
+      "form": "usikkerhed",
+      "da": "Der er stor usikkerhed om, hvornår byggeriet bliver færdigt.",
+      "en": "There is great uncertainty about when the building work will be finished."
+    },
+    {
+      "form": "usikkerheden",
+      "da": "Usikkerheden på arbejdsmarkedet gør mange nervøse.",
+      "en": "The uncertainty on the labour market makes many people nervous."
+    }
+  ],
+  "w-n-forventning": [
+    {
+      "form": "forventning",
+      "da": "Jeg har en forventning om, at alle møder til tiden.",
+      "en": "I expect everyone to turn up on time."
+    },
+    {
+      "form": "forventningen",
+      "da": "Forventningen er, at priserne falder lidt næste år.",
+      "en": "The expectation is that prices will fall a little next year."
+    }
+  ],
+  "w-n-tilfredshed": [
+    {
+      "form": "tilfredshed",
+      "da": "Undersøgelsen viser stor tilfredshed blandt patienterne.",
+      "en": "The survey shows great satisfaction among the patients."
+    },
+    {
+      "form": "tilfredsheden",
+      "da": "Tilfredsheden med de nye bybusser er faldet.",
+      "en": "Satisfaction with the new city buses has fallen."
+    }
+  ],
+  "w-n-kommunikation": [
+    {
+      "form": "kommunikation",
+      "da": "God kommunikation er vigtig på enhver arbejdsplads.",
+      "en": "Good communication is important in every workplace."
+    },
+    {
+      "form": "kommunikationen",
+      "da": "Kommunikationen mellem skolen og hjemmet foregår mest via en app.",
+      "en": "Communication between school and home mostly takes place via an app."
+    }
+  ],
+  "w-n-information": [
+    {
+      "form": "information",
+      "da": "Du kan finde mere information på kommunens hjemmeside.",
+      "en": "You can find more information on the municipality's website."
+    },
+    {
+      "form": "informationen",
+      "da": "Informationen om ændringen kom alt for sent ud til borgerne.",
+      "en": "The information about the change reached the citizens far too late."
+    }
+  ],
+  "w-n-platform": [
+    {
+      "form": "platform",
+      "da": "Firmaet har lanceret en ny platform til onlinekurser.",
+      "en": "The company has launched a new platform for online courses."
+    },
+    {
+      "form": "platformen",
+      "da": "Platformen bruges af over en million mennesker hver dag.",
+      "en": "The platform is used by over a million people every day."
+    }
+  ],
+  "w-n-anmeldelse": [
+    {
+      "form": "anmeldelse",
+      "da": "Filmen fik en rigtig god anmeldelse i avisen.",
+      "en": "The film got a really good review in the newspaper."
+    },
+    {
+      "form": "anmeldelsen",
+      "da": "Jeg læste anmeldelsen, før jeg købte billetter til teatret.",
+      "en": "I read the review before I bought tickets for the theatre."
+    }
+  ],
+  "w-n-inflation": [
+    {
+      "form": "inflation",
+      "da": "Høj inflation betyder, at pengene bliver mindre værd.",
+      "en": "High inflation means that money becomes worth less."
+    },
+    {
+      "form": "inflationen",
+      "da": "Inflationen har gjort madvarer meget dyrere.",
+      "en": "Inflation has made food much more expensive."
+    }
+  ],
+  "w-n-krise": [
+    {
+      "form": "krise",
+      "da": "Familien kom i en økonomisk krise, da faren mistede sit job.",
+      "en": "The family got into a financial crisis when the father lost his job."
+    },
+    {
+      "form": "krisen",
+      "da": "Krisen ramte især små virksomheder.",
+      "en": "The crisis hit small businesses in particular."
+    }
+  ],
+  "w-n-rente": [
+    {
+      "form": "rente",
+      "da": "Vi har et lån med fast rente i tredive år.",
+      "en": "We have a loan with a fixed interest rate for thirty years."
+    },
+    {
+      "form": "renten",
+      "da": "Renten er steget, så det er blevet dyrere at købe hus.",
+      "en": "The interest rate has gone up, so it has become more expensive to buy a house."
+    }
+  ],
+  "w-n-indkomst": [
+    {
+      "form": "indkomst",
+      "da": "Familien har en lav indkomst og kan næsten ikke betale huslejen.",
+      "en": "The family has a low income and can barely pay the rent."
+    },
+    {
+      "form": "indkomsten",
+      "da": "Indkomsten afgør, hvor meget man skal betale i skat.",
+      "en": "Your income determines how much tax you have to pay."
+    }
+  ],
+  "w-n-udgift": [
+    {
+      "form": "udgift",
+      "da": "En bil er en stor udgift for en ung familie.",
+      "en": "A car is a big expense for a young family."
+    },
+    {
+      "form": "udgiften",
+      "da": "Udgiften til varme er steget meget i vinter.",
+      "en": "The cost of heating has risen a lot this winter."
+    }
+  ],
+  "w-n-efterspoergsel": [
+    {
+      "form": "efterspørgsel",
+      "da": "Der er stor efterspørgsel efter sygeplejersker.",
+      "en": "There is great demand for nurses."
+    },
+    {
+      "form": "efterspørgslen",
+      "da": "Efterspørgslen efter elbiler er steget kraftigt.",
+      "en": "Demand for electric cars has risen sharply."
+    }
+  ],
+  "w-n-sundhedsvaesen": [
+    {
+      "form": "sundhedsvæsen",
+      "da": "Danmark har et offentligt sundhedsvæsen, som alle har adgang til.",
+      "en": "Denmark has a public healthcare system that everyone has access to."
+    },
+    {
+      "form": "sundhedsvæsenet",
+      "da": "Sundhedsvæsenet er under pres på grund af mangel på personale.",
+      "en": "The healthcare system is under pressure because of a shortage of staff."
+    }
+  ],
+  "w-n-demokrati": [
+    {
+      "form": "demokrati",
+      "da": "I et demokrati har alle voksne borgere ret til at stemme.",
+      "en": "In a democracy all adult citizens have the right to vote."
+    },
+    {
+      "form": "demokratiet",
+      "da": "Demokratiet bygger på, at borgerne deltager i samfundet.",
+      "en": "Democracy is built on citizens taking part in society."
+    }
+  ],
+  "w-n-parti": [
+    {
+      "form": "parti",
+      "da": "Han meldte sig ind i et parti, da han var tyve.",
+      "en": "He joined a party when he was twenty."
+    },
+    {
+      "form": "partiet",
+      "da": "Partiet fik flere stemmer end ved sidste valg.",
+      "en": "The party got more votes than at the last election."
+    }
+  ],
+  "w-n-flertal": [
+    {
+      "form": "flertal",
+      "da": "Et flertal i byrådet stemte for den nye skole.",
+      "en": "A majority on the city council voted for the new school."
+    },
+    {
+      "form": "flertallet",
+      "da": "Flertallet i klassen ville hellere tage til Berlin end til London.",
+      "en": "The majority of the class would rather go to Berlin than to London."
+    }
+  ],
+  "w-n-mindretal": [
+    {
+      "form": "mindretal",
+      "da": "Kun et mindretal af medlemmerne var imod forslaget.",
+      "en": "Only a minority of the members were against the proposal."
+    },
+    {
+      "form": "mindretallet",
+      "da": "Mindretallet i foreningen følte sig ikke hørt.",
+      "en": "The minority in the association did not feel listened to."
+    }
+  ],
+  "w-n-lovforslag": [
+    {
+      "form": "lovforslag",
+      "da": "Regeringen har fremsat et lovforslag om længere barsel.",
+      "en": "The government has put forward a bill on longer parental leave."
+    },
+    {
+      "form": "lovforslaget",
+      "da": "Lovforslaget skal behandles i Folketinget i næste uge.",
+      "en": "The bill is to be debated in Parliament next week."
+    }
+  ],
+  "w-n-statsborgerskab": [
+    {
+      "form": "statsborgerskab",
+      "da": "Hun har søgt om dansk statsborgerskab.",
+      "en": "She has applied for Danish citizenship."
+    },
+    {
+      "form": "statsborgerskabet",
+      "da": "Statsborgerskabet gav ham ret til at stemme ved folketingsvalg.",
+      "en": "Citizenship gave him the right to vote in general elections."
+    }
+  ],
+  "w-n-faellesskab": [
+    {
+      "form": "fællesskab",
+      "da": "Mange finder et godt fællesskab i en sportsklub.",
+      "en": "Many people find a good community in a sports club."
+    },
+    {
+      "form": "fællesskabet",
+      "da": "Fællesskabet i opgangen er blevet stærkere efter gårdfesten.",
+      "en": "The sense of community among the neighbours has grown stronger since the courtyard party."
+    }
+  ],
+  "w-n-handicap": [
+    {
+      "form": "handicap",
+      "da": "Han har et fysisk handicap og bruger kørestol.",
+      "en": "He has a physical disability and uses a wheelchair."
+    },
+    {
+      "form": "handicappet",
+      "da": "Hun lever et aktivt liv, selvom handicappet giver hende nogle begrænsninger.",
+      "en": "She lives an active life even though the disability imposes some limitations on her."
+    }
+  ],
+  "w-n-misbrug": [
+    {
+      "form": "misbrug",
+      "da": "Han fik hjælp til at komme ud af sit misbrug.",
+      "en": "He got help to overcome his addiction."
+    },
+    {
+      "form": "misbruget",
+      "da": "Misbruget gik ud over både hans job og hans familie.",
+      "en": "The addiction took its toll on both his job and his family."
+    }
+  ],
+  "w-n-genbrug": [
+    {
+      "form": "genbrug",
+      "da": "Genbrug af tøj er både billigt og godt for miljøet.",
+      "en": "Reusing clothes is both cheap and good for the environment."
+    },
+    {
+      "form": "genbruget",
+      "da": "Genbruget af flasker gennem pantsystemet fungerer rigtig godt.",
+      "en": "The recycling of bottles through the deposit system works really well."
+    }
+  ],
+  "w-n-forbrug": [
+    {
+      "form": "forbrug",
+      "da": "Vi forsøger at skære ned på vores forbrug af kød.",
+      "en": "We are trying to cut down on our consumption of meat."
+    },
+    {
+      "form": "forbruget",
+      "da": "Forbruget af strøm stiger om vinteren.",
+      "en": "Electricity consumption rises in winter."
+    }
+  ],
+  "w-n-boligmarked": [
+    {
+      "form": "boligmarked",
+      "da": "København har et meget presset boligmarked.",
+      "en": "Copenhagen has a very tight housing market."
+    },
+    {
+      "form": "boligmarkedet",
+      "da": "Boligmarkedet er blevet roligere, efter at renten steg.",
+      "en": "The housing market has calmed down since the interest rate went up."
+    }
+  ],
+  "w-n-erhvervsliv": [
+    {
+      "form": "erhvervsliv",
+      "da": "Byen har et stærkt erhvervsliv med mange små virksomheder.",
+      "en": "The town has a strong business community with many small companies."
+    },
+    {
+      "form": "erhvervslivet",
+      "da": "Erhvervslivet efterspørger flere faglærte medarbejdere.",
+      "en": "The business community is calling for more skilled workers."
+    }
+  ],
+  "w-n-arbejdsmarked": [
+    {
+      "form": "arbejdsmarked",
+      "da": "Danmark har et fleksibelt arbejdsmarked.",
+      "en": "Denmark has a flexible labour market."
+    },
+    {
+      "form": "arbejdsmarkedet",
+      "da": "Det kan være svært for nyuddannede at komme ind på arbejdsmarkedet.",
+      "en": "It can be hard for recent graduates to get into the labour market."
+    }
+  ],
+  "w-n-samarbejde": [
+    {
+      "form": "samarbejde",
+      "da": "Projektet er et samarbejde mellem skolen og biblioteket.",
+      "en": "The project is a collaboration between the school and the library."
+    },
+    {
+      "form": "samarbejdet",
+      "da": "Samarbejdet med de nye kolleger fungerer rigtig godt.",
+      "en": "Cooperation with the new colleagues is working really well."
+    }
+  ],
+  "w-n-synspunkt": [
+    {
+      "form": "synspunkt",
+      "da": "Han forklarede sit synspunkt roligt og sagligt.",
+      "en": "He explained his point of view calmly and objectively."
+    },
+    {
+      "form": "synspunktet",
+      "da": "Jeg forstår godt synspunktet, men jeg er ikke enig.",
+      "en": "I understand the point of view, but I don't agree."
+    }
+  ],
+  "w-n-argument": [
+    {
+      "form": "argument",
+      "da": "Det er et godt argument for at bygge flere cykelstier.",
+      "en": "That is a good argument for building more cycle paths."
+    },
+    {
+      "form": "argumentet",
+      "da": "Argumentet holder ikke, hvis man ser på tallene.",
+      "en": "The argument doesn't hold up if you look at the figures."
+    }
+  ],
+  "w-n-indtryk": [
+    {
+      "form": "indtryk",
+      "da": "Hun gjorde et godt indtryk til jobsamtalen.",
+      "en": "She made a good impression at the job interview."
+    },
+    {
+      "form": "indtrykket",
+      "da": "Indtrykket var, at alle gæsterne hyggede sig.",
+      "en": "The impression was that all the guests were having a good time."
+    }
+  ],
+  "w-n-faenomen": [
+    {
+      "form": "fænomen",
+      "da": "Influencere er et nyt fænomen i reklamebranchen.",
+      "en": "Influencers are a new phenomenon in the advertising industry."
+    },
+    {
+      "form": "fænomenet",
+      "da": "Fænomenet kaldes nordlys og kan ses om vinteren.",
+      "en": "The phenomenon is called the northern lights and can be seen in winter."
+    }
+  ],
+  "w-n-begreb": [
+    {
+      "form": "begreb",
+      "da": "Hygge er et begreb, som er svært at oversætte.",
+      "en": "Hygge is a concept that is hard to translate."
+    },
+    {
+      "form": "begrebet",
+      "da": "Læreren forklarede begrebet med et konkret eksempel.",
+      "en": "The teacher explained the concept with a concrete example."
+    }
+  ],
+  "w-n-udtryk": [
+    {
+      "form": "udtryk",
+      "da": "Det er et udtryk, man ofte hører i København.",
+      "en": "It is an expression you often hear in Copenhagen."
+    },
+    {
+      "form": "udtrykket",
+      "da": "Jeg kendte ikke udtrykket, så jeg slog det op.",
+      "en": "I didn't know the expression, so I looked it up."
+    }
+  ],
+  "w-n-budskab": [
+    {
+      "form": "budskab",
+      "da": "Kampagnen har et klart budskab: Drik vand i stedet for sodavand.",
+      "en": "The campaign has a clear message: drink water instead of fizzy drinks."
+    },
+    {
+      "form": "budskabet",
+      "da": "Budskabet i talen var, at vi skal passe bedre på hinanden.",
+      "en": "The message of the speech was that we must take better care of each other."
+    }
+  ],
+  "w-n-grundlag": [
+    {
+      "form": "grundlag",
+      "da": "Undersøgelsen danner et godt grundlag for beslutningen.",
+      "en": "The survey forms a good basis for the decision."
+    },
+    {
+      "form": "grundlaget",
+      "da": "Grundlaget for et godt samarbejde er tillid.",
+      "en": "The basis of good cooperation is trust."
+    }
+  ],
+  "w-n-princip": [
+    {
+      "form": "princip",
+      "da": "Det er et princip for mig aldrig at låne penge af venner.",
+      "en": "It is a principle of mine never to borrow money from friends."
+    },
+    {
+      "form": "princippet",
+      "da": "Princippet om lige løn for lige arbejde gælder for alle.",
+      "en": "The principle of equal pay for equal work applies to everyone."
+    }
+  ],
+  "w-n-niveau": [
+    {
+      "form": "niveau",
+      "da": "Kurset ligger på et højt niveau.",
+      "en": "The course is at a high level."
+    },
+    {
+      "form": "niveauet",
+      "da": "Niveauet i klassen er meget forskelligt.",
+      "en": "The level in the class varies a great deal."
+    }
+  ],
+  "w-n-omfang": [
+    {
+      "form": "omfang",
+      "da": "Vi kender endnu ikke problemets omfang.",
+      "en": "We don't yet know the extent of the problem."
+    },
+    {
+      "form": "omfanget",
+      "da": "Omfanget af skaderne efter stormen var større end ventet.",
+      "en": "The extent of the damage after the storm was greater than expected."
+    }
+  ],
+  "w-n-forloeb": [
+    {
+      "form": "forløb",
+      "da": "Hun har været igennem et langt forløb på hospitalet.",
+      "en": "She has been through a long course of treatment at the hospital."
+    },
+    {
+      "form": "forløbet",
+      "da": "Lægen forklarede forløbet efter operationen.",
+      "en": "The doctor explained what would happen after the operation."
+    }
+  ],
+  "w-n-udbytte": [
+    {
+      "form": "udbytte",
+      "da": "Eleverne fik et stort udbytte af besøget på museet.",
+      "en": "The pupils got a lot out of the visit to the museum."
+    },
+    {
+      "form": "udbyttet",
+      "da": "Udbyttet af kurset var større, end jeg havde regnet med.",
+      "en": "I got more out of the course than I had expected."
+    }
+  ],
+  "w-n-overskud": [
+    {
+      "form": "overskud",
+      "da": "Efter en lang arbejdsdag har jeg ikke overskud til at lave mad.",
+      "en": "After a long working day I don't have the energy to cook."
+    },
+    {
+      "form": "overskuddet",
+      "da": "Overskuddet fra loppemarkedet går til skolens lejrtur.",
+      "en": "The profit from the flea market goes to the school camp trip."
+    }
+  ],
+  "w-n-underskud": [
+    {
+      "form": "underskud",
+      "da": "Kommunen har et underskud på flere millioner kroner.",
+      "en": "The municipality has a deficit of several million kroner."
+    },
+    {
+      "form": "underskuddet",
+      "da": "Underskuddet skal dækkes ved at spare på kulturområdet.",
+      "en": "The deficit is to be covered by making cuts in the cultural sector."
+    }
+  ],
+  "w-n-tab": [
+    {
+      "form": "tab",
+      "da": "Det var et stort tab for familien, da bedstefar døde.",
+      "en": "It was a great loss for the family when grandfather died."
+    },
+    {
+      "form": "tabet",
+      "da": "Tabet af arbejdspladser rammer hele lokalsamfundet.",
+      "en": "The loss of jobs hits the whole local community."
+    }
+  ],
+  "w-n-pres": [
+    {
+      "form": "pres",
+      "da": "Mange studerende føler et stort pres for at få gode karakterer.",
+      "en": "Many students feel great pressure to get good grades."
+    },
+    {
+      "form": "presset",
+      "da": "Presset på sygehusene er størst om vinteren.",
+      "en": "The pressure on the hospitals is greatest in winter."
+    }
+  ],
+  "w-n-sygefravaer": [
+    {
+      "form": "sygefravær",
+      "da": "Virksomheden har et højt sygefravær blandt de ansatte.",
+      "en": "The company has a high rate of sickness absence among its employees."
+    },
+    {
+      "form": "sygefraværet",
+      "da": "Sygefraværet faldt, da arbejdspladsen fik et bedre indeklima.",
+      "en": "Sickness absence fell when the workplace got a better indoor climate."
+    }
+  ],
+  "w-n-fremskridt": [
+    {
+      "form": "fremskridt",
+      "da": "Det var et stort fremskridt, da min mor kunne gå uden stok igen.",
+      "en": "It was a big step forward when my mother could walk without a stick again."
+    },
+    {
+      "form": "fremskridtet",
+      "da": "Lægen var glad for fremskridtet og sendte ham hjem.",
+      "en": "The doctor was pleased with the progress and sent him home."
+    }
+  ],
+  "w-n-gennembrud": [
+    {
+      "form": "gennembrud",
+      "da": "Forskerne har gjort et vigtigt gennembrud i behandlingen af sygdommen.",
+      "en": "The researchers have made an important breakthrough in the treatment of the disease."
+    },
+    {
+      "form": "gennembruddet",
+      "da": "Gennembruddet kom, da hun vandt en stor musikkonkurrence.",
+      "en": "Her breakthrough came when she won a big music competition."
+    }
+  ],
+  "w-n-opsving": [
+    {
+      "form": "opsving",
+      "da": "Efter krisen kom der et opsving i økonomien.",
+      "en": "After the crisis there was an upturn in the economy."
+    },
+    {
+      "form": "opsvinget",
+      "da": "Opsvinget har skabt mange nye job i byggebranchen.",
+      "en": "The upturn has created many new jobs in the construction industry."
+    }
+  ],
+  "w-n-skift": [
+    {
+      "form": "skift",
+      "da": "Det var et stort skift at flytte fra landet til byen.",
+      "en": "It was a big change to move from the countryside to the city."
+    },
+    {
+      "form": "skiftet",
+      "da": "Skiftet til elbil har sparet os mange penge.",
+      "en": "The switch to an electric car has saved us a lot of money."
+    }
+  ],
+  "w-n-ideal": [
+    {
+      "form": "ideal",
+      "da": "For mange er det et ideal at have balance mellem arbejde og fritid.",
+      "en": "For many people it is an ideal to have a balance between work and leisure."
+    },
+    {
+      "form": "idealet",
+      "da": "Idealet om den perfekte krop skaber pres på mange unge.",
+      "en": "The ideal of the perfect body puts pressure on many young people."
+    }
+  ],
+  "w-n-udvalg": [
+    {
+      "form": "udvalg",
+      "da": "Byrådet har nedsat et udvalg, som skal se på trafikken.",
+      "en": "The city council has set up a committee to look at the traffic."
+    },
+    {
+      "form": "udvalget",
+      "da": "Udvalget mødes den første tirsdag i hver måned.",
+      "en": "The committee meets on the first Tuesday of every month."
+    }
+  ],
+  "w-n-byraad": [
+    {
+      "form": "byråd",
+      "da": "Hver kommune har et byråd, som vælges hvert fjerde år.",
+      "en": "Every municipality has a city council, which is elected every four years."
+    },
+    {
+      "form": "byrådet",
+      "da": "Byrådet besluttede at lukke den lille skole.",
+      "en": "The city council decided to close the small school."
+    }
+  ],
+  "w-n-ministerium": [
+    {
+      "form": "ministerium",
+      "da": "Han arbejder som jurist i et ministerium.",
+      "en": "He works as a lawyer in a ministry."
+    },
+    {
+      "form": "ministeriet",
+      "da": "Ministeriet svarede på borgernes klager efter to uger.",
+      "en": "The ministry responded to the citizens' complaints after two weeks."
+    }
+  ],
+  "w-n-faengsel": [
+    {
+      "form": "fængsel",
+      "da": "Han blev idømt to års fængsel for røveri.",
+      "en": "He was sentenced to two years in prison for robbery."
+    },
+    {
+      "form": "fængslet",
+      "da": "Fængslet ligger lidt uden for byen.",
+      "en": "The prison is just outside the town."
+    }
+  ],
+  "w-n-politi": [
+    {
+      "form": "politi",
+      "da": "Der var meget politi i byen under koncerten.",
+      "en": "There were a lot of police in town during the concert."
+    },
+    {
+      "form": "politiet",
+      "da": "Politiet efterlyser vidner til ulykken i går aftes.",
+      "en": "The police are looking for witnesses to the accident last night."
+    }
+  ],
+  "w-n-tyveri": [
+    {
+      "form": "tyveri",
+      "da": "Han blev anmeldt for tyveri fra sin arbejdsplads.",
+      "en": "He was reported for theft from his workplace."
+    },
+    {
+      "form": "tyveriet",
+      "da": "Tyveriet skete, mens familien var på ferie.",
+      "en": "The theft took place while the family was on holiday."
+    }
+  ],
+  "w-n-indbrud": [
+    {
+      "form": "indbrud",
+      "da": "Der var indbrud i tre huse på vejen i weekenden.",
+      "en": "Three houses on the road were burgled at the weekend."
+    },
+    {
+      "form": "indbruddet",
+      "da": "Vi opdagede indbruddet, da vi kom hjem fra arbejde.",
+      "en": "We discovered the burglary when we came home from work."
+    }
+  ],
+  "w-n-vidne": [
+    {
+      "form": "vidne",
+      "da": "Hun var vidne til ulykken på motorvejen.",
+      "en": "She witnessed the accident on the motorway."
+    },
+    {
+      "form": "vidnet",
+      "da": "Vidnet fortalte retten, hvad hun havde set.",
+      "en": "The witness told the court what she had seen."
+    }
+  ],
+  "w-n-selvvaerd": [
+    {
+      "form": "selvværd",
+      "da": "Børn med lavt selvværd har brug for ekstra støtte.",
+      "en": "Children with low self-esteem need extra support."
+    },
+    {
+      "form": "selvværdet",
+      "da": "Træneren arbejder med selvværdet hos de unge spillere.",
+      "en": "The coach works on the self-esteem of the young players."
+    }
+  ],
+  "w-n-overblik": [
+    {
+      "form": "overblik",
+      "da": "Jeg mangler overblik over mine udgifter.",
+      "en": "I don't have an overview of my expenses."
+    },
+    {
+      "form": "overblikket",
+      "da": "Hun mistede overblikket, da der kom for mange opgaver på én gang.",
+      "en": "She lost track when too many tasks came at once."
+    }
+  ],
+  "w-n-symbol": [
+    {
+      "form": "symbol",
+      "da": "Duen er et symbol på fred.",
+      "en": "The dove is a symbol of peace."
+    },
+    {
+      "form": "symbolet",
+      "da": "Symbolet på flasken betyder, at der er pant på den.",
+      "en": "The symbol on the bottle means that there is a deposit on it."
+    }
+  ],
+  "w-n-gennemsnit": [
+    {
+      "form": "gennemsnit",
+      "da": "Hun fik et gennemsnit på 10 til studentereksamen.",
+      "en": "She got an average of 10 in her upper secondary exams."
+    },
+    {
+      "form": "gennemsnittet",
+      "da": "Gennemsnittet for klassen var højere end sidste år.",
+      "en": "The class average was higher than last year."
+    }
+  ],
+  "w-n-antal": [
+    {
+      "form": "antal",
+      "da": "Et stort antal borgere mødte op til mødet om den nye vej.",
+      "en": "A large number of citizens turned up to the meeting about the new road."
+    },
+    {
+      "form": "antallet",
+      "da": "Antallet af elbiler i Danmark stiger hvert år.",
+      "en": "The number of electric cars in Denmark rises every year."
+    }
+  ],
+  "w-n-vilkaar": [
+    {
+      "form": "vilkår",
+      "da": "Det er et vilkår i kontrakten, at man ikke må holde hund.",
+      "en": "It is a condition in the contract that you may not keep a dog."
+    },
+    {
+      "form": "vilkåret",
+      "da": "Vilkåret om tre måneders opsigelse står i lejekontrakten.",
+      "en": "The condition of three months' notice is in the tenancy agreement."
+    }
+  ],
+  "w-n-doedsfald": [
+    {
+      "form": "dødsfald",
+      "da": "Et dødsfald i familien kan være svært for børn at forstå.",
+      "en": "A death in the family can be hard for children to understand."
+    },
+    {
+      "form": "dødsfaldet",
+      "da": "Familien fik besked om dødsfaldet sent om aftenen.",
+      "en": "The family were told about the death late in the evening."
+    }
+  ],
+  "w-n-lejemaal": [
+    {
+      "form": "lejemål",
+      "da": "De har fået et nyt lejemål tæt på centrum.",
+      "en": "They have got a new rented home close to the centre."
+    },
+    {
+      "form": "lejemålet",
+      "da": "Lejemålet kan opsiges med tre måneders varsel.",
+      "en": "The tenancy can be terminated with three months' notice."
+    }
+  ],
+  "w-n-regnskab": [
+    {
+      "form": "regnskab",
+      "da": "Foreningen skal lave et regnskab hvert år.",
+      "en": "The association must prepare accounts every year."
+    },
+    {
+      "form": "regnskabet",
+      "da": "Kassereren fremlagde regnskabet på generalforsamlingen.",
+      "en": "The treasurer presented the accounts at the annual general meeting."
+    }
+  ],
+  "w-n-baeredygtighed": [
+    {
+      "form": "bæredygtighed",
+      "da": "Virksomheden lægger stor vægt på bæredygtighed i produktionen.",
+      "en": "The company places great emphasis on sustainability in its production."
+    },
+    {
+      "form": "bæredygtigheden",
+      "da": "Bæredygtigheden i projektet kan diskuteres, fordi det bruger meget energi.",
+      "en": "The sustainability of the project is debatable because it uses a lot of energy."
+    }
+  ],
+  "w-n-ligestilling": [
+    {
+      "form": "ligestilling",
+      "da": "Der er stadig ikke fuld ligestilling på arbejdsmarkedet.",
+      "en": "There is still not full equality on the labour market."
+    },
+    {
+      "form": "ligestillingen",
+      "da": "Ligestillingen mellem mænd og kvinder er blevet bedre de sidste 50 år.",
+      "en": "Equality between men and women has improved over the last 50 years."
+    }
+  ],
+  "w-n-velfaerd": [
+    {
+      "form": "velfærd",
+      "da": "Skatten betaler for velfærd som skoler, hospitaler og pension.",
+      "en": "Taxes pay for welfare such as schools, hospitals and pensions."
+    },
+    {
+      "form": "velfærden",
+      "da": "Velfærden i Danmark er bygget op over mange årtier.",
+      "en": "Welfare in Denmark has been built up over many decades."
+    }
+  ],
+  "w-n-integration": [
+    {
+      "form": "integration",
+      "da": "Sproget er en vigtig del af en god integration.",
+      "en": "Language is an important part of successful integration."
+    },
+    {
+      "form": "integrationen",
+      "da": "Integrationen lykkes bedst, når nye borgere får et arbejde.",
+      "en": "Integration works best when new citizens get a job."
+    }
+  ],
+  "w-n-lovgivning": [
+    {
+      "form": "lovgivning",
+      "da": "Der er brug for ny lovgivning om kunstig intelligens.",
+      "en": "There is a need for new legislation on artificial intelligence."
+    },
+    {
+      "form": "lovgivningen",
+      "da": "Lovgivningen på området blev ændret sidste år.",
+      "en": "The legislation in this area was changed last year."
+    }
+  ],
+  "w-n-diskrimination": [
+    {
+      "form": "diskrimination",
+      "da": "Diskrimination på grund af alder er forbudt på arbejdsmarkedet.",
+      "en": "Discrimination on the grounds of age is prohibited on the labour market."
+    },
+    {
+      "form": "diskriminationen",
+      "da": "Hun klagede over diskriminationen, hun havde oplevet ved jobsamtalen.",
+      "en": "She complained about the discrimination she had experienced at the job interview."
+    }
+  ],
+  "w-n-globalisering": [
+    {
+      "form": "globalisering",
+      "da": "Globalisering betyder, at verdens lande bliver mere afhængige af hinanden.",
+      "en": "Globalisation means that the countries of the world become more dependent on each other."
+    },
+    {
+      "form": "globaliseringen",
+      "da": "Globaliseringen har gjort mange varer billigere.",
+      "en": "Globalisation has made many goods cheaper."
+    }
+  ],
+  "w-n-digitalisering": [
+    {
+      "form": "digitalisering",
+      "da": "Digitalisering af det offentlige kan gøre hverdagen lettere for mange.",
+      "en": "Digitalisation of the public sector can make everyday life easier for many people."
+    },
+    {
+      "form": "digitaliseringen",
+      "da": "Digitaliseringen kan være svær for ældre, som ikke bruger computer.",
+      "en": "Digitalisation can be difficult for elderly people who don't use a computer."
+    }
+  ],
+  "w-n-urbanisering": [
+    {
+      "form": "urbanisering",
+      "da": "Urbanisering betyder, at flere mennesker flytter fra landet til byerne.",
+      "en": "Urbanisation means that more people move from the countryside to the cities."
+    },
+    {
+      "form": "urbaniseringen",
+      "da": "Urbaniseringen har gjort det svært at holde liv i de små landsbyer.",
+      "en": "Urbanisation has made it hard to keep the small villages alive."
+    }
+  ],
+  "w-n-polarisering": [
+    {
+      "form": "polarisering",
+      "da": "Sociale medier kan føre til polarisering i debatten.",
+      "en": "Social media can lead to polarisation in the debate."
+    },
+    {
+      "form": "polariseringen",
+      "da": "Polariseringen mellem by og land er blevet tydeligere.",
+      "en": "The polarisation between town and country has become clearer."
+    }
+  ],
+  "w-n-velfaerdsstat": [
+    {
+      "form": "velfærdsstat",
+      "da": "Danmark er kendt som en velfærdsstat med gratis uddannelse.",
+      "en": "Denmark is known as a welfare state with free education."
+    },
+    {
+      "form": "velfærdsstaten",
+      "da": "Velfærdsstaten bliver finansieret af skatteydernes penge.",
+      "en": "The welfare state is financed by taxpayers' money."
+    }
+  ],
+  "w-n-omfordeling": [
+    {
+      "form": "omfordeling",
+      "da": "Skattesystemet sikrer en omfordeling fra rige til fattige.",
+      "en": "The tax system ensures a redistribution from rich to poor."
+    },
+    {
+      "form": "omfordelingen",
+      "da": "Omfordelingen af penge mellem kommunerne skal gøre forholdene mere lige.",
+      "en": "The redistribution of money between the municipalities is meant to make conditions more equal."
+    }
+  ],
+  "w-n-beskaeftigelse": [
+    {
+      "form": "beskæftigelse",
+      "da": "Byen har brug for virksomheder, der kan skabe beskæftigelse.",
+      "en": "The town needs companies that can create employment."
+    },
+    {
+      "form": "beskæftigelsen",
+      "da": "Beskæftigelsen er steget, især inden for byggeri.",
+      "en": "Employment has risen, especially in construction."
+    }
+  ],
+  "w-n-arbejdsstyrke": [
+    {
+      "form": "arbejdsstyrke",
+      "da": "Landet har brug for en veluddannet arbejdsstyrke.",
+      "en": "The country needs a well-educated workforce."
+    },
+    {
+      "form": "arbejdsstyrken",
+      "da": "Arbejdsstyrken bliver mindre, når mange går på pension.",
+      "en": "The workforce shrinks when many people retire."
+    }
+  ],
+  "w-n-efterloen": [
+    {
+      "form": "efterløn",
+      "da": "Min far gik på efterløn, da han var 62 år.",
+      "en": "My father took early retirement when he was 62."
+    },
+    {
+      "form": "efterlønnen",
+      "da": "Efterlønnen gør det muligt at stoppe med at arbejde lidt tidligere.",
+      "en": "Early retirement pay makes it possible to stop working a little earlier."
+    }
+  ],
+  "w-n-kontanthjaelp": [
+    {
+      "form": "kontanthjælp",
+      "da": "Han modtog kontanthjælp, mens han søgte arbejde.",
+      "en": "He received social assistance while he was looking for work."
+    },
+    {
+      "form": "kontanthjælpen",
+      "da": "Kontanthjælpen er ikke nok til at dække alle hendes udgifter.",
+      "en": "The social assistance is not enough to cover all her expenses."
+    }
+  ],
+  "w-n-indvandring": [
+    {
+      "form": "indvandring",
+      "da": "Indvandring har ændret den danske befolkning de sidste 50 år.",
+      "en": "Immigration has changed the Danish population over the last 50 years."
+    },
+    {
+      "form": "indvandringen",
+      "da": "Undersøgelsen ser på, hvordan indvandringen har påvirket arbejdsmarkedet.",
+      "en": "The study looks at how immigration has affected the labour market."
+    }
+  ],
+  "w-n-magtfordeling": [
+    {
+      "form": "magtfordeling",
+      "da": "En klar magtfordeling beskytter borgerne mod misbrug af magt.",
+      "en": "A clear separation of powers protects citizens against abuse of power."
+    },
+    {
+      "form": "magtfordelingen",
+      "da": "Magtfordelingen i Danmark er beskrevet i grundloven.",
+      "en": "The separation of powers in Denmark is set out in the constitution."
+    }
+  ],
+  "w-n-pressefrihed": [
+    {
+      "form": "pressefrihed",
+      "da": "Pressefrihed er en vigtig del af et demokrati.",
+      "en": "Freedom of the press is an important part of a democracy."
+    },
+    {
+      "form": "pressefriheden",
+      "da": "Pressefriheden sikrer, at journalister kan kritisere magthaverne.",
+      "en": "Press freedom ensures that journalists can criticise those in power."
+    }
+  ],
+  "w-n-retssikkerhed": [
+    {
+      "form": "retssikkerhed",
+      "da": "Alle borgere har krav på retssikkerhed, også i sager mod staten.",
+      "en": "All citizens are entitled to legal certainty, including in cases against the state."
+    },
+    {
+      "form": "retssikkerheden",
+      "da": "Retssikkerheden kræver, at man kan klage over en afgørelse.",
+      "en": "Legal certainty requires that you can appeal against a decision."
+    }
+  ],
+  "w-n-grundlov": [
+    {
+      "form": "grundlov",
+      "da": "Danmark fik sin første grundlov i 1849.",
+      "en": "Denmark got its first constitution in 1849."
+    },
+    {
+      "form": "grundloven",
+      "da": "Grundloven sikrer blandt andet ytringsfrihed og forsamlingsfrihed.",
+      "en": "Among other things, the constitution guarantees freedom of speech and freedom of assembly."
+    }
+  ],
+  "w-n-ansvarsfoelelse": [
+    {
+      "form": "ansvarsfølelse",
+      "da": "Hun har en stærk ansvarsfølelse over for sine kolleger.",
+      "en": "She has a strong sense of responsibility towards her colleagues."
+    },
+    {
+      "form": "ansvarsfølelsen",
+      "da": "Ansvarsfølelsen hos de unge frivillige imponerede arrangørerne.",
+      "en": "The sense of responsibility among the young volunteers impressed the organisers."
+    }
+  ],
+  "w-n-selvstaendighed": [
+    {
+      "form": "selvstændighed",
+      "da": "Lærerne vil gerne fremme selvstændighed hos eleverne.",
+      "en": "The teachers want to encourage independence in the pupils."
+    },
+    {
+      "form": "selvstændigheden",
+      "da": "Hun nyder selvstændigheden ved at have sin egen virksomhed.",
+      "en": "She enjoys the independence of having her own business."
+    }
+  ],
+  "w-n-tilknytning": [
+    {
+      "form": "tilknytning",
+      "da": "Han har en stærk tilknytning til sin hjemby.",
+      "en": "He has a strong attachment to his home town."
+    },
+    {
+      "form": "tilknytningen",
+      "da": "Tilknytningen til arbejdsmarkedet er vigtig, hvis man vil have dagpenge.",
+      "en": "A connection to the labour market is important if you want unemployment benefit."
+    }
+  ],
+  "w-n-identitet": [
+    {
+      "form": "identitet",
+      "da": "Sproget er en vigtig del af ens identitet.",
+      "en": "Language is an important part of one's identity."
+    },
+    {
+      "form": "identiteten",
+      "da": "Identiteten på den mistænkte er endnu ikke kendt.",
+      "en": "The identity of the suspect is not yet known."
+    }
+  ],
+  "w-n-mentalitet": [
+    {
+      "form": "mentalitet",
+      "da": "Der er en anden mentalitet på danske arbejdspladser end i mit hjemland.",
+      "en": "There is a different mentality in Danish workplaces than in my home country."
+    },
+    {
+      "form": "mentaliteten",
+      "da": "Mentaliteten på holdet ændrede sig, da den nye træner kom.",
+      "en": "The team's mentality changed when the new coach arrived."
+    }
+  ],
+  "w-n-vaerdighed": [
+    {
+      "form": "værdighed",
+      "da": "Alle ældre har ret til at blive behandlet med værdighed.",
+      "en": "All elderly people have the right to be treated with dignity."
+    },
+    {
+      "form": "værdigheden",
+      "da": "Plejehjemmet arbejder for at bevare værdigheden hos beboerne.",
+      "en": "The care home works to preserve the residents' dignity."
+    }
+  ],
+  "w-n-bevidsthed": [
+    {
+      "form": "bevidsthed",
+      "da": "Der er kommet større bevidsthed om madspild.",
+      "en": "There is now greater awareness of food waste."
+    },
+    {
+      "form": "bevidstheden",
+      "da": "Bevidstheden om klimaet har ændret mange menneskers vaner.",
+      "en": "Awareness of the climate has changed many people's habits."
+    }
+  ],
+  "w-n-opmaerksomhed": [
+    {
+      "form": "opmærksomhed",
+      "da": "Problemet kræver mere opmærksomhed fra politikerne.",
+      "en": "The problem needs more attention from the politicians."
+    },
+    {
+      "form": "opmærksomheden",
+      "da": "Hunden fangede opmærksomheden hos alle børnene i parken.",
+      "en": "The dog caught the attention of all the children in the park."
+    }
+  ],
+  "w-n-overvejelse": [
+    {
+      "form": "overvejelse",
+      "da": "Efter lang overvejelse besluttede hun at skifte job.",
+      "en": "After long consideration she decided to change jobs."
+    },
+    {
+      "form": "overvejelsen",
+      "da": "Overvejelsen bag beslutningen var at spare penge.",
+      "en": "The thinking behind the decision was to save money."
+    }
+  ],
+  "w-n-vurdering": [
+    {
+      "form": "vurdering",
+      "da": "Lægen lavede en vurdering af hans helbred.",
+      "en": "The doctor made an assessment of his health."
+    },
+    {
+      "form": "vurderingen",
+      "da": "Vurderingen af huset viste, at det var mere værd end ventet.",
+      "en": "The valuation of the house showed that it was worth more than expected."
+    }
+  ],
+  "w-n-konklusion": [
+    {
+      "form": "konklusion",
+      "da": "Det er svært at drage en konklusion ud fra så få tal.",
+      "en": "It is hard to draw a conclusion from so few figures."
+    },
+    {
+      "form": "konklusionen",
+      "da": "Konklusionen i rapporten er, at flere børn bør cykle til skole.",
+      "en": "The conclusion of the report is that more children should cycle to school."
+    }
+  ],
+  "w-n-argumentation": [
+    {
+      "form": "argumentation",
+      "da": "Din tekst mangler argumentation for dit synspunkt.",
+      "en": "Your text lacks arguments to support your point of view."
+    },
+    {
+      "form": "argumentationen",
+      "da": "Argumentationen i læserbrevet var både klar og overbevisende.",
+      "en": "The argumentation in the letter to the editor was both clear and convincing."
+    }
+  ],
+  "w-n-prioritering": [
+    {
+      "form": "prioritering",
+      "da": "Det kræver en klar prioritering, når budgettet er stramt.",
+      "en": "Clear prioritisation is needed when the budget is tight."
+    },
+    {
+      "form": "prioriteringen",
+      "da": "Prioriteringen af de ældre har været et vigtigt tema i valgkampen.",
+      "en": "Prioritising the elderly has been an important theme in the election campaign."
+    }
+  ],
+  "w-n-tendens": [
+    {
+      "form": "tendens",
+      "da": "Der er en tendens til, at unge flytter til de store byer.",
+      "en": "There is a tendency for young people to move to the big cities."
+    },
+    {
+      "form": "tendensen",
+      "da": "Tendensen er tydelig: Flere vælger at arbejde hjemme.",
+      "en": "The trend is clear: more people are choosing to work from home."
+    }
+  ],
+  "w-n-klimakrise": [
+    {
+      "form": "klimakrise",
+      "da": "Tørke og oversvømmelser er tegn på en klimakrise, som vi må tage alvorligt.",
+      "en": "Droughts and floods are signs of a climate crisis that we must take seriously."
+    },
+    {
+      "form": "klimakrisen",
+      "da": "Klimakrisen kræver, at alle lande samarbejder.",
+      "en": "The climate crisis requires all countries to work together."
+    }
+  ],
+  "w-n-biodiversitet": [
+    {
+      "form": "biodiversitet",
+      "da": "Haver med vilde blomster giver bedre biodiversitet.",
+      "en": "Gardens with wild flowers give better biodiversity."
+    },
+    {
+      "form": "biodiversiteten",
+      "da": "Biodiversiteten i Danmark er under pres fra landbrug og byggeri.",
+      "en": "Biodiversity in Denmark is under pressure from farming and construction."
+    }
+  ],
+  "w-n-omstilling": [
+    {
+      "form": "omstilling",
+      "da": "Omstilling til vedvarende energi koster mange penge.",
+      "en": "The transition to renewable energy costs a lot of money."
+    },
+    {
+      "form": "omstillingen",
+      "da": "Omstillingen til et nyt it-system tog længere tid end planlagt.",
+      "en": "The switch to a new IT system took longer than planned."
+    }
+  ],
+  "w-n-fremtid": [
+    {
+      "form": "fremtid",
+      "da": "Mange unge drømmer om en fremtid med et godt job og en familie.",
+      "en": "Many young people dream of a future with a good job and a family."
+    },
+    {
+      "form": "fremtiden",
+      "da": "Ingen ved, hvad fremtiden bringer.",
+      "en": "Nobody knows what the future will bring."
+    }
+  ],
+  "w-n-fortid": [
+    {
+      "form": "fortid",
+      "da": "Byen har en lang fortid som fiskerleje.",
+      "en": "The town has a long past as a fishing village."
+    },
+    {
+      "form": "fortiden",
+      "da": "Han taler sjældent om fortiden i sit hjemland.",
+      "en": "He rarely talks about his past in his home country."
+    }
+  ],
+  "w-n-markedsoekonomi": [
+    {
+      "form": "markedsøkonomi",
+      "da": "Danmark har en markedsøkonomi med en stor offentlig sektor.",
+      "en": "Denmark has a market economy with a large public sector."
+    },
+    {
+      "form": "markedsøkonomien",
+      "da": "Markedsøkonomien bygger på, at udbud og efterspørgsel bestemmer priserne.",
+      "en": "The market economy is based on supply and demand determining prices."
+    }
+  ],
+  "w-n-konkurrence": [
+    {
+      "form": "konkurrence",
+      "da": "Der er hård konkurrence om de gode lejligheder.",
+      "en": "There is tough competition for the good flats."
+    },
+    {
+      "form": "konkurrencen",
+      "da": "Hun vandt konkurrencen og fik en rejse til Paris.",
+      "en": "She won the competition and got a trip to Paris."
+    }
+  ],
+  "w-n-produktivitet": [
+    {
+      "form": "produktivitet",
+      "da": "Kortere arbejdsdage kan give højere produktivitet.",
+      "en": "Shorter working days can lead to higher productivity."
+    },
+    {
+      "form": "produktiviteten",
+      "da": "Produktiviteten på fabrikken steg, da de nye maskiner blev installeret.",
+      "en": "Productivity at the factory rose when the new machines were installed."
+    }
+  ],
+  "w-n-vaekst": [
+    {
+      "form": "vækst",
+      "da": "Byen håber på vækst i turismen.",
+      "en": "The town is hoping for growth in tourism."
+    },
+    {
+      "form": "væksten",
+      "da": "Væksten i økonomien var lavere end forventet.",
+      "en": "Economic growth was lower than expected."
+    }
+  ],
+  "w-n-recession": [
+    {
+      "form": "recession",
+      "da": "En recession kan føre til høj arbejdsløshed.",
+      "en": "A recession can lead to high unemployment."
+    },
+    {
+      "form": "recessionen",
+      "da": "Recessionen varede i næsten to år.",
+      "en": "The recession lasted for almost two years."
+    }
+  ],
+  "w-n-mistillid": [
+    {
+      "form": "mistillid",
+      "da": "Skandalen skabte mistillid til politikerne.",
+      "en": "The scandal created distrust of the politicians."
+    },
+    {
+      "form": "mistilliden",
+      "da": "Mistilliden mellem naboerne voksede efter striden om hækken.",
+      "en": "The distrust between the neighbours grew after the dispute about the hedge."
+    }
+  ],
+  "w-n-radikalisering": [
+    {
+      "form": "radikalisering",
+      "da": "Skolen arbejder for at forebygge radikalisering blandt unge.",
+      "en": "The school works to prevent radicalisation among young people."
+    },
+    {
+      "form": "radikaliseringen",
+      "da": "Radikaliseringen skete gradvist via internettet.",
+      "en": "The radicalisation happened gradually via the internet."
+    }
+  ],
+  "w-n-propaganda": [
+    {
+      "form": "propaganda",
+      "da": "Plakaterne fra krigen var ren propaganda.",
+      "en": "The posters from the war were pure propaganda."
+    },
+    {
+      "form": "propagandaen",
+      "da": "Eleverne analyserede propagandaen i gamle film.",
+      "en": "The pupils analysed the propaganda in old films."
+    }
+  ],
+  "w-n-misinformation": [
+    {
+      "form": "misinformation",
+      "da": "Misinformation spreder sig hurtigt på sociale medier.",
+      "en": "Misinformation spreads quickly on social media."
+    },
+    {
+      "form": "misinformationen",
+      "da": "Avisen rettede misinformationen dagen efter.",
+      "en": "The newspaper corrected the misinformation the next day."
+    }
+  ],
+  "w-n-censur": [
+    {
+      "form": "censur",
+      "da": "I nogle lande er der censur af aviser og tv.",
+      "en": "In some countries there is censorship of newspapers and TV."
+    },
+    {
+      "form": "censuren",
+      "da": "Censuren betød, at bogen ikke kunne udgives.",
+      "en": "The censorship meant that the book could not be published."
+    }
+  ],
+  "w-n-overvaagning": [
+    {
+      "form": "overvågning",
+      "da": "Der er kommet mere overvågning med kameraer i byerne.",
+      "en": "There is now more camera surveillance in the cities."
+    },
+    {
+      "form": "overvågningen",
+      "da": "Mange er bekymrede for, at overvågningen går ud over privatlivet.",
+      "en": "Many people are worried that the surveillance infringes on privacy."
+    }
+  ],
+  "w-n-automatisering": [
+    {
+      "form": "automatisering",
+      "da": "Automatisering kan erstatte mange rutineopgaver.",
+      "en": "Automation can replace many routine tasks."
+    },
+    {
+      "form": "automatiseringen",
+      "da": "Automatiseringen af lageret har gjort arbejdet mindre hårdt.",
+      "en": "The automation of the warehouse has made the work less strenuous."
+    }
+  ],
+  "w-n-innovation": [
+    {
+      "form": "innovation",
+      "da": "Danske virksomheder er kendt for innovation inden for grøn energi.",
+      "en": "Danish companies are known for innovation in green energy."
+    },
+    {
+      "form": "innovationen",
+      "da": "Innovationen gjorde det muligt at producere billigere batterier.",
+      "en": "The innovation made it possible to produce cheaper batteries."
+    }
+  ],
+  "w-n-ivaerksaetter": [
+    {
+      "form": "iværksætter",
+      "da": "Han blev iværksætter og åbnede sin egen café.",
+      "en": "He became an entrepreneur and opened his own café."
+    },
+    {
+      "form": "iværksætteren",
+      "da": "Iværksætteren fik støtte fra kommunen til at starte firmaet.",
+      "en": "The entrepreneur got support from the municipality to start the company."
+    }
+  ],
+  "w-n-bureaukrati": [
+    {
+      "form": "bureaukrati",
+      "da": "Mange klager over for meget bureaukrati i det offentlige.",
+      "en": "Many people complain about too much bureaucracy in the public sector."
+    },
+    {
+      "form": "bureaukratiet",
+      "da": "Bureaukratiet gør det svært for små firmaer at søge støtte.",
+      "en": "The bureaucracy makes it hard for small firms to apply for support."
+    }
+  ],
+  "w-n-monarki": [
+    {
+      "form": "monarki",
+      "da": "Danmark er et konstitutionelt monarki.",
+      "en": "Denmark is a constitutional monarchy."
+    },
+    {
+      "form": "monarkiet",
+      "da": "Monarkiet i Danmark er et af de ældste i verden.",
+      "en": "The Danish monarchy is one of the oldest in the world."
+    }
+  ],
+  "w-n-medborgerskab": [
+    {
+      "form": "medborgerskab",
+      "da": "Skolen underviser i medborgerskab og demokrati.",
+      "en": "The school teaches active citizenship and democracy."
+    },
+    {
+      "form": "medborgerskabet",
+      "da": "Medborgerskabet viser sig, når folk melder sig som frivillige.",
+      "en": "Active citizenship shows itself when people volunteer."
+    }
+  ],
+  "w-n-retsvaesen": [
+    {
+      "form": "retsvæsen",
+      "da": "Et uafhængigt retsvæsen er en forudsætning for demokrati.",
+      "en": "An independent judicial system is a prerequisite for democracy."
+    },
+    {
+      "form": "retsvæsenet",
+      "da": "Tilliden til retsvæsenet er høj i Danmark.",
+      "en": "Trust in the judicial system is high in Denmark."
+    }
+  ],
+  "w-n-folkestyre": [
+    {
+      "form": "folkestyre",
+      "da": "Danmark har haft folkestyre siden 1849.",
+      "en": "Denmark has had popular government since 1849."
+    },
+    {
+      "form": "folkestyret",
+      "da": "Folkestyret kræver, at borgerne deltager i valgene.",
+      "en": "Democracy requires citizens to take part in elections."
+    }
+  ],
+  "w-n-engagement": [
+    {
+      "form": "engagement",
+      "da": "Hun viser stort engagement i sit arbejde med børnene.",
+      "en": "She shows great commitment in her work with the children."
+    },
+    {
+      "form": "engagementet",
+      "da": "Engagementet blandt de frivillige var imponerende.",
+      "en": "The commitment among the volunteers was impressive."
+    }
+  ],
+  "w-n-perspektiv": [
+    {
+      "form": "perspektiv",
+      "da": "Rejsen gav mig et nyt perspektiv på mit eget liv.",
+      "en": "The trip gave me a new perspective on my own life."
+    },
+    {
+      "form": "perspektivet",
+      "da": "Perspektivet ændrer sig, når man selv får børn.",
+      "en": "Your perspective changes when you have children yourself."
+    }
+  ],
+  "w-n-paradoks": [
+    {
+      "form": "paradoks",
+      "da": "Det er et paradoks, at vi har mere fritid, men føler os mere stressede.",
+      "en": "It is a paradox that we have more free time but feel more stressed."
+    },
+    {
+      "form": "paradokset",
+      "da": "Paradokset er, at flere veje ofte skaber mere trafik.",
+      "en": "The paradox is that more roads often create more traffic."
+    }
+  ],
+  "w-n-dilemma": [
+    {
+      "form": "dilemma",
+      "da": "Hun stod over for et svært dilemma: job eller familie.",
+      "en": "She faced a difficult dilemma: job or family."
+    },
+    {
+      "form": "dilemmaet",
+      "da": "Dilemmaet er, om man skal prioritere miljøet eller økonomien.",
+      "en": "The dilemma is whether to prioritise the environment or the economy."
+    }
+  ],
+  "w-n-udsagn": [
+    {
+      "form": "udsagn",
+      "da": "Det er et udsagn, som er svært at bevise.",
+      "en": "It is a statement that is hard to prove."
+    },
+    {
+      "form": "udsagnet",
+      "da": "Læreren bad eleverne diskutere udsagnet i grupper.",
+      "en": "The teacher asked the pupils to discuss the statement in groups."
+    }
+  ],
+  "w-n-standpunkt": [
+    {
+      "form": "standpunkt",
+      "da": "Han har et klart standpunkt i spørgsmålet om skat.",
+      "en": "He has a clear position on the question of tax."
+    },
+    {
+      "form": "standpunktet",
+      "da": "Partiet holdt fast i standpunktet trods kritikken.",
+      "en": "The party stuck to its position despite the criticism."
+    }
+  ],
+  "w-n-vaerdigrundlag": [
+    {
+      "form": "værdigrundlag",
+      "da": "Skolen har et værdigrundlag, som bygger på respekt og tillid.",
+      "en": "The school has a set of values based on respect and trust."
+    },
+    {
+      "form": "værdigrundlaget",
+      "da": "Værdigrundlaget hænger på væggen i personalerummet.",
+      "en": "The statement of values hangs on the wall in the staff room."
+    }
+  ],
+  "w-n-sammenhold": [
+    {
+      "form": "sammenhold",
+      "da": "Der er et godt sammenhold i klassen.",
+      "en": "There is a good sense of togetherness in the class."
+    },
+    {
+      "form": "sammenholdet",
+      "da": "Sammenholdet i landsbyen blev tydeligt under oversvømmelsen.",
+      "en": "The unity of the village became clear during the flood."
+    }
+  ],
+  "w-n-tilhoersforhold": [
+    {
+      "form": "tilhørsforhold",
+      "da": "Mange børn af indvandrere har et tilhørsforhold til to lande.",
+      "en": "Many children of immigrants feel a sense of belonging to two countries."
+    },
+    {
+      "form": "tilhørsforholdet",
+      "da": "Tilhørsforholdet til foreningen betyder meget for de ældre medlemmer.",
+      "en": "The sense of belonging to the club means a lot to the older members."
+    }
+  ],
+  "w-n-privilegium": [
+    {
+      "form": "privilegium",
+      "da": "Det er et privilegium at kunne arbejde med noget, man elsker.",
+      "en": "It is a privilege to be able to work with something you love."
+    },
+    {
+      "form": "privilegiet",
+      "da": "Privilegiet ved at bo tæt på skoven er, at man kan gå tur hver dag.",
+      "en": "The privilege of living close to the forest is that you can go for a walk every day."
+    }
+  ],
+  "w-n-forbehold": [
+    {
+      "form": "forbehold",
+      "da": "Jeg siger ja med et forbehold: Jeg skal først tale med min chef.",
+      "en": "I'll say yes with one reservation: I must talk to my boss first."
+    },
+    {
+      "form": "forbeholdet",
+      "da": "Forbeholdet blev skrevet ind i kontrakten.",
+      "en": "The reservation was written into the contract."
+    }
+  ],
+  "w-n-medlemsland": [
+    {
+      "form": "medlemsland",
+      "da": "Danmark blev medlemsland i EF i 1973.",
+      "en": "Denmark became a member state of the EC in 1973."
+    },
+    {
+      "form": "medlemslandet",
+      "da": "Medlemslandet skal følge de fælles regler om handel.",
+      "en": "The member state must follow the common rules on trade."
+    }
+  ],
+  "w-n-klimamaal": [
+    {
+      "form": "klimamål",
+      "da": "Kommunen har sat sig et ambitiøst klimamål for 2030.",
+      "en": "The municipality has set itself an ambitious climate target for 2030."
+    },
+    {
+      "form": "klimamålet",
+      "da": "Klimamålet bliver svært at nå, hvis vi ikke ændrer vores vaner.",
+      "en": "The climate target will be hard to reach if we don't change our habits."
+    }
+  ],
+  "w-n-miljoeproblem": [
+    {
+      "form": "miljøproblem",
+      "da": "Plastik i havet er et stort miljøproblem.",
+      "en": "Plastic in the sea is a big environmental problem."
+    },
+    {
+      "form": "miljøproblemet",
+      "da": "Miljøproblemet blev løst, da fabrikken fik et nyt filter.",
+      "en": "The environmental problem was solved when the factory got a new filter."
+    }
+  ],
+  "w-n-oekosystem": [
+    {
+      "form": "økosystem",
+      "da": "En skov er et økosystem med mange forskellige arter.",
+      "en": "A forest is an ecosystem with many different species."
+    },
+    {
+      "form": "økosystemet",
+      "da": "Økosystemet i søen blev ødelagt af forurening.",
+      "en": "The ecosystem in the lake was destroyed by pollution."
+    }
+  ],
+  "w-n-tiltag": [
+    {
+      "form": "tiltag",
+      "da": "Kommunen har lavet et nyt tiltag for at få flere til at cykle.",
+      "en": "The municipality has introduced a new initiative to get more people cycling."
+    },
+    {
+      "form": "tiltaget",
+      "da": "Tiltaget har allerede haft en positiv effekt.",
+      "en": "The initiative has already had a positive effect."
+    }
+  ],
+  "w-n-regelsaet": [
+    {
+      "form": "regelsæt",
+      "da": "Hver sport har sit eget regelsæt.",
+      "en": "Every sport has its own set of rules."
+    },
+    {
+      "form": "regelsættet",
+      "da": "Regelsættet for byggeri blev skærpet efter branden.",
+      "en": "The building regulations were tightened after the fire."
+    }
+  ],
+  "w-n-mandat": [
+    {
+      "form": "mandat",
+      "da": "Partiet fik et mandat mere end ved sidste valg.",
+      "en": "The party won one more seat than at the last election."
+    },
+    {
+      "form": "mandatet",
+      "da": "Hun opgav mandatet i Folketinget af personlige grunde.",
+      "en": "She gave up her seat in Parliament for personal reasons."
+    }
+  ],
+  "w-n-samfundsansvar": [
+    {
+      "form": "samfundsansvar",
+      "da": "Mange virksomheder ønsker at tage et samfundsansvar.",
+      "en": "Many companies want to take on social responsibility."
+    },
+    {
+      "form": "samfundsansvaret",
+      "da": "Firmaet tager samfundsansvaret alvorligt og ansætter også folk i fleksjob.",
+      "en": "The company takes its social responsibility seriously and also hires people in flex jobs."
+    }
+  ],
+  "w-n-velfaerdssamfund": [
+    {
+      "form": "velfærdssamfund",
+      "da": "Danmark er et velfærdssamfund, hvor alle har adgang til gratis lægehjælp.",
+      "en": "Denmark is a welfare society where everyone has access to free medical care."
+    },
+    {
+      "form": "velfærdssamfundet",
+      "da": "Velfærdssamfundet bygger på, at de fleste arbejder og betaler skat.",
+      "en": "The welfare society is based on most people working and paying tax."
+    }
+  ],
+  "w-n-hensyn": [
+    {
+      "form": "hensyn",
+      "da": "Vi tog hensyn til naboerne og holdt festen indenfor.",
+      "en": "We showed consideration for the neighbours and held the party indoors."
+    },
+    {
+      "form": "hensynet",
+      "da": "Hensynet til miljøet var vigtigt, da vi valgte ny bil.",
+      "en": "Concern for the environment was important when we chose a new car."
+    }
+  ],
+  "w-n-potentiale": [
+    {
+      "form": "potentiale",
+      "da": "Hun har et stort potentiale som musiker.",
+      "en": "She has great potential as a musician."
+    },
+    {
+      "form": "potentialet",
+      "da": "Træneren så potentialet i den unge spiller med det samme.",
+      "en": "The coach saw the young player's potential straight away."
+    }
+  ],
+  "w-n-udbud": [
+    {
+      "form": "udbud",
+      "da": "Der er et stort udbud af kurser på aftenskolen.",
+      "en": "There is a wide range of courses at the evening school."
+    },
+    {
+      "form": "udbuddet",
+      "da": "Firmaet vandt udbuddet om rengøring af de kommunale skoler.",
+      "en": "The company won the tender for cleaning the municipal schools."
+    }
+  ],
+  "w-n-erhverv": [
+    {
+      "form": "erhverv",
+      "da": "Hun har valgt et erhverv inden for sundhed.",
+      "en": "She has chosen an occupation in healthcare."
+    },
+    {
+      "form": "erhvervet",
+      "da": "Erhvervet som tømrer er hårdt, men også meget alsidigt.",
+      "en": "The trade of carpenter is hard but also very varied."
+    }
+  ],
+  "w-n-ivaerksaetteri": [
+    {
+      "form": "iværksætteri",
+      "da": "Kommunen vil støtte iværksætteri blandt unge.",
+      "en": "The municipality wants to support entrepreneurship among young people."
+    },
+    {
+      "form": "iværksætteriet",
+      "da": "Iværksætteriet i byen er vokset, efter at der åbnede et nyt kontorfællesskab.",
+      "en": "Entrepreneurship in the town has grown since a new shared office space opened."
+    }
+  ],
+  "w-n-fundament": [
+    {
+      "form": "fundament",
+      "da": "En god uddannelse er et stærkt fundament for fremtiden.",
+      "en": "A good education is a strong foundation for the future."
+    },
+    {
+      "form": "fundamentet",
+      "da": "Fundamentet under huset skulle repareres.",
+      "en": "The foundation under the house had to be repaired."
+    }
+  ],
+  "w-n-kendetegn": [
+    {
+      "form": "kendetegn",
+      "da": "Et kendetegn ved danske arbejdspladser er den flade struktur.",
+      "en": "A characteristic of Danish workplaces is the flat structure."
+    },
+    {
+      "form": "kendetegnet",
+      "da": "Kendetegnet ved sygdommen er høj feber og hovedpine.",
+      "en": "The characteristic sign of the illness is a high fever and headache."
+    }
+  ],
+  "w-n-tilsyn": [
+    {
+      "form": "tilsyn",
+      "da": "Restauranten fik et uanmeldt tilsyn fra fødevaremyndighederne.",
+      "en": "The restaurant had an unannounced inspection from the food authorities."
+    },
+    {
+      "form": "tilsynet",
+      "da": "Tilsynet fandt flere fejl på plejehjemmet.",
+      "en": "The inspection found several faults at the care home."
+    }
+  ],
+  "w-n-tabu": [
+    {
+      "form": "tabu",
+      "da": "Psykisk sygdom er stadig et tabu for mange.",
+      "en": "Mental illness is still a taboo for many people."
+    },
+    {
+      "form": "tabuet",
+      "da": "Hun brød tabuet og fortalte åbent om sin depression.",
+      "en": "She broke the taboo and talked openly about her depression."
+    }
+  ],
+  "w-n-hierarki": [
+    {
+      "form": "hierarki",
+      "da": "Der er et tydeligt hierarki på arbejdspladsen.",
+      "en": "There is a clear hierarchy in the workplace."
+    },
+    {
+      "form": "hierarkiet",
+      "da": "Hierarkiet i virksomheden er fladt, så alle kan tale med chefen.",
+      "en": "The hierarchy in the company is flat, so everyone can talk to the boss."
+    }
+  ],
+  "w-n-paradigme": [
+    {
+      "form": "paradigme",
+      "da": "Forskerne taler om et nyt paradigme inden for medicin.",
+      "en": "Researchers are talking about a new paradigm in medicine."
+    },
+    {
+      "form": "paradigmet",
+      "da": "Paradigmet i skolen har ændret sig fra udenadslære til projektarbejde.",
+      "en": "The paradigm in schools has shifted from rote learning to project work."
+    }
+  ]
+}

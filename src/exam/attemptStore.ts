@@ -4,9 +4,12 @@
  * An attempt in progress is saved on every keystroke, so closing the tab,
  * reloading, or switching to another app mid-exam loses nothing — and in
  * exam mode the clock keeps running from `startedAt`, as it would in the
- * exam hall. Finished attempts are kept per user and synced to the account
- * (attemptSync.ts); they are not part of the progress log, because a score
- * on a paper is not evidence about any one grammar rule or word.
+ * exam hall, unless the learner pauses it. A pause hides the paper and
+ * stops the clock until they resume; paused time is added to the deadline
+ * and left out of the attempt's duration. Finished attempts are kept per
+ * user and synced to the account (attemptSync.ts); they are not part of the
+ * progress log, because a score on a paper is not evidence about any one
+ * grammar rule or word.
  */
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -28,6 +31,10 @@ export interface Draft {
   answers: Answers;
   /** Practice mode: items whose answer has been checked (and so is locked). */
   checked: string[];
+  /** Exam mode: total time spent paused in finished pauses. Absent on older drafts. */
+  pausedMs?: number;
+  /** Exam mode: when the current pause began, or null/absent while the clock runs. */
+  pausedAt?: number | null;
 }
 
 export interface Attempt {
@@ -110,9 +117,32 @@ export function markChecked(paperId: string, part: ExamPart, itemId: string): vo
   patchDraft(paperId, part, (d) => (d.checked.includes(itemId) ? {} : { checked: [...d.checked, itemId] }));
 }
 
-/** When an exam-mode draft runs out of time; null for practice. */
+/** When an exam-mode draft runs out of time, pushed back by finished pauses; null for practice. */
 export function deadline(d: Draft): number | null {
-  return d.mode === 'exam' ? d.startedAt + PART_MINUTES[d.part] * 60_000 : null;
+  return d.mode === 'exam' ? d.startedAt + (d.pausedMs ?? 0) + PART_MINUTES[d.part] * 60_000 : null;
+}
+
+export const isPaused = (d: Draft) => d.pausedAt != null;
+
+/** Time left on an exam-mode draft — frozen at the moment of pausing while paused; null for practice. */
+export function remainingMs(d: Draft, now: number): number | null {
+  const end = deadline(d);
+  return end === null ? null : end - (d.pausedAt ?? now);
+}
+
+/** Stop the clock. Only an exam-mode draft with time left can be paused; pausing twice does nothing. */
+export function pauseDraft(paperId: string, part: ExamPart, now = Date.now()): void {
+  patchDraft(paperId, part, (d) => {
+    const left = remainingMs(d, now);
+    return left === null || isPaused(d) || left <= 0 ? {} : { pausedAt: now };
+  });
+}
+
+/** Start the clock again, adding the pause to the total. Does nothing unless paused. */
+export function resumeDraft(paperId: string, part: ExamPart, now = Date.now()): void {
+  patchDraft(paperId, part, (d) =>
+    d.pausedAt == null ? {} : { pausedMs: (d.pausedMs ?? 0) + Math.max(0, now - d.pausedAt), pausedAt: null },
+  );
 }
 
 // ── Finishing ───────────────────────────────────────────────────────────────
@@ -121,7 +151,9 @@ export function deadline(d: Draft): number | null {
 export function submitDraft(paper: ReadingPaper, part: ExamPart, now = Date.now()): Attempt | null {
   const d = useAttempts.getState().drafts[draftKey(paper.id, part)];
   if (!d) return null;
-  const end = Math.min(now, deadline(d) ?? now);
+  // A paused paper is handed in as it stood when the clock stopped.
+  const stopped = d.pausedAt ?? now;
+  const end = Math.min(stopped, deadline(d) ?? stopped);
   const score = scorePart(paper, part, d.answers);
   const attempt: Attempt = {
     id: uuid(),
@@ -132,7 +164,7 @@ export function submitDraft(paper: ReadingPaper, part: ExamPart, now = Date.now(
     selfMarks: {},
     points: score.points,
     max: score.max,
-    durationMs: Math.max(0, end - d.startedAt),
+    durationMs: Math.max(0, end - d.startedAt - (d.pausedMs ?? 0)),
     finishedAt: end,
     updatedAt: end,
   };

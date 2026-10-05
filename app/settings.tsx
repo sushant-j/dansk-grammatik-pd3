@@ -18,6 +18,7 @@ import {
 } from '../src/profile/settings';
 import { ALL_LEVELS, LEVELS } from '../src/content/levels';
 import { DOMAIN_LABELS, LEVEL_DOMAINS, useCurrentLevel, useLevels, type LevelDomain } from '../src/profile/levelStore';
+import { ExamDatePicker } from '../src/ui/ExamDatePicker';
 import { Button, Card, Label, Txt, s } from '../src/ui/primitives';
 import { Screen } from '../src/ui/Screen';
 import { useTheme } from '../src/ui/theme';
@@ -389,6 +390,9 @@ export default function Settings() {
               return `${d} ${d === 1 ? 'day' : 'days'} away`;
             })()}
           </Txt>
+          <View style={{ marginTop: t.space(3) }}>
+            <ExamDatePicker value={examDate} onChange={setExamDate} />
+          </View>
           <View style={[s.row, { gap: t.space(2), marginTop: t.space(3), flexWrap: 'wrap' }]}>
             <Chip label="−1 week" onPress={() => setExamDate(shiftIso(examDate, -7))} />
             <Chip label="−1 day" onPress={() => setExamDate(shiftIso(examDate, -1))} />
@@ -406,9 +410,16 @@ export default function Settings() {
         <Card>
           <Label>No date set</Label>
           <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1.5) }}>
-            Choose roughly when your exam is — then fine-tune it day by day.
+            Pick the day you sit the exam. Not booked yet? Choose roughly when, and fine-tune it
+            later.
           </Txt>
-          <View style={[s.wrap, { gap: t.space(2), marginTop: t.space(3) }]}>
+          <View style={{ marginTop: t.space(3) }}>
+            <ExamDatePicker value={null} onChange={setExamDate} />
+          </View>
+          <View style={{ marginTop: t.space(4) }}>
+            <Label>Or roughly</Label>
+          </View>
+          <View style={[s.wrap, { gap: t.space(2), marginTop: t.space(2) }]}>
             {PRESETS.map((p) => (
               <Chip
                 key={p.days}

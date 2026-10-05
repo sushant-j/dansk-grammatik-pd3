@@ -88,8 +88,7 @@ export function toggledThemeMode(current: 'light' | 'dark'): ThemeMode {
 
 /** Format an ISO 'YYYY-MM-DD' as a short human date, e.g. "18 Sep 2026". */
 export function formatExamDate(iso: string): string {
-  const d = new Date(iso + 'T00:00:00');
-  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+  return dateFromIso(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
 }
 
 /** Today as 'YYYY-MM-DD' in local time. */
@@ -100,9 +99,44 @@ export function todayIso(now = new Date()): string {
   return `${y}-${m}-${d}`;
 }
 
+/** A Date as 'YYYY-MM-DD', read from its local date parts (never UTC). */
+export function isoFromDate(d: Date): string {
+  return todayIso(d);
+}
+
+/**
+ * Parse 'YYYY-MM-DD' into a Date at local midnight. Built from the parts
+ * rather than parsed as a string, so no engine can read it as UTC and land on
+ * the previous day for anyone west of Greenwich.
+ */
+export function dateFromIso(iso: string): Date {
+  const [y, m, d] = iso.split('-').map(Number);
+  return new Date(y, m - 1, d);
+}
+
+/**
+ * Earliest day the date picker offers: today, or the stored date if that has
+ * already passed — so a past exam still shows as itself rather than being
+ * clamped to today the moment the picker opens. ISO strings sort as dates.
+ */
+export function pickerMinIso(value: string | null, today = todayIso()): string {
+  return value && value < today ? value : today;
+}
+
+/**
+ * Whether a typed date is a real, plausible exam day. The web date input
+ * reports every keystroke while a year is being typed ("0002-06-01"), and
+ * each would otherwise be stored and synced.
+ */
+export function isPlausibleExamIso(iso: string, min: string): boolean {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(iso) || iso < min) return false;
+  const d = dateFromIso(iso);
+  return isoFromDate(d) === iso && d.getFullYear() < 2100;
+}
+
 /** Shift an ISO date by whole days, returning a new ISO date. */
 export function shiftIso(iso: string, days: number): string {
-  const d = new Date(iso + 'T00:00:00');
+  const d = dateFromIso(iso);
   d.setDate(d.getDate() + days);
   return todayIso(d);
 }
@@ -111,12 +145,17 @@ export function shiftIso(iso: string, days: number): string {
  * Whole days from now until an ISO exam date, at day granularity (the time of
  * day is ignored, so "the exam is today" reads as 0). Negative once past.
  * Matches the study planner's own day maths so the two never disagree.
+ *
+ * Both days are compared as UTC calendar dates: a span across a DST change
+ * holds a 23- or 25-hour local day, which would knock a millisecond diff of
+ * local midnights off by one.
  */
 export function daysUntil(iso: string, now = Date.now()): number {
-  const exam = new Date(iso + 'T00:00:00').getTime();
+  const [y, m, d] = iso.split('-').map(Number);
   const t = new Date(now);
-  const todayMidnight = new Date(t.getFullYear(), t.getMonth(), t.getDate()).getTime();
-  return Math.floor((exam - todayMidnight) / 86_400_000);
+  const exam = Date.UTC(y, m - 1, d);
+  const today = Date.UTC(t.getFullYear(), t.getMonth(), t.getDate());
+  return Math.round((exam - today) / 86_400_000);
 }
 
 export const EXAM_LABELS: Record<Exam, string> = {

@@ -1,0 +1,3992 @@
+{
+  "w-a-rod": [
+    {
+      "form": "rød",
+      "da": "Min søster har købt en rød jakke.",
+      "en": "My sister has bought a red jacket."
+    },
+    {
+      "form": "rødt",
+      "da": "Huset på hjørnet er rødt.",
+      "en": "The house on the corner is red."
+    },
+    {
+      "form": "røde",
+      "da": "Vi plukkede de røde æbler i haven.",
+      "en": "We picked the red apples in the garden."
+    }
+  ],
+  "w-a-ny": [
+    {
+      "form": "ny",
+      "da": "Han starter på en ny skole i august.",
+      "en": "He starts at a new school in August."
+    },
+    {
+      "form": "nyt",
+      "da": "Vi har fået et nyt køleskab.",
+      "en": "We have got a new fridge."
+    },
+    {
+      "form": "nye",
+      "da": "Hun har nye sko på i dag.",
+      "en": "She is wearing new shoes today."
+    }
+  ],
+  "w-a-gammel": [
+    {
+      "form": "gammel",
+      "da": "Min bedstefar er gammel, men han går stadig tur hver dag.",
+      "en": "My grandfather is old, but he still goes for a walk every day."
+    },
+    {
+      "form": "gammelt",
+      "da": "Vi bor i et gammelt hus på landet.",
+      "en": "We live in an old house in the countryside."
+    },
+    {
+      "form": "gamle",
+      "da": "Jeg cykler stadig på min gamle cykel.",
+      "en": "I still ride my old bike."
+    }
+  ],
+  "w-a-stor": [
+    {
+      "form": "stor",
+      "da": "Vi bor i en stor lejlighed tæt på parken.",
+      "en": "We live in a big flat close to the park."
+    },
+    {
+      "form": "stort",
+      "da": "Det er et stort problem for familien.",
+      "en": "It is a big problem for the family."
+    },
+    {
+      "form": "store",
+      "da": "De store børn hjælper de små med madpakken.",
+      "en": "The big children help the little ones with their packed lunch."
+    }
+  ],
+  "w-a-god": [
+    {
+      "form": "god",
+      "da": "Hun er en god ven.",
+      "en": "She is a good friend."
+    },
+    {
+      "form": "godt",
+      "da": "Maden smager rigtig godt i dag.",
+      "en": "The food tastes really good today."
+    },
+    {
+      "form": "gode",
+      "da": "Vi har gode naboer i vores opgang.",
+      "en": "We have good neighbours in our stairwell."
+    }
+  ],
+  "w-a-dygtig": [
+    {
+      "form": "dygtig",
+      "da": "Min tandlæge er meget dygtig.",
+      "en": "My dentist is very skilled."
+    },
+    {
+      "form": "dygtigt",
+      "da": "Hun klarede den svære opgave dygtigt.",
+      "en": "She handled the difficult task skilfully."
+    },
+    {
+      "form": "dygtige",
+      "da": "Firmaet mangler dygtige medarbejdere til det nye projekt.",
+      "en": "The company lacks skilled employees for the new project."
+    }
+  ],
+  "w-a-sod": [
+    {
+      "form": "sød",
+      "da": "Den nye pædagog er sød ved børnene.",
+      "en": "The new nursery teacher is sweet to the children."
+    },
+    {
+      "form": "sødt",
+      "da": "Det var sødt af dig at hjælpe mig.",
+      "en": "It was sweet of you to help me."
+    },
+    {
+      "form": "søde",
+      "da": "Børn elsker søde kager til fødselsdage.",
+      "en": "Children love sweet cakes at birthdays."
+    }
+  ],
+  "w-a-hard": [
+    {
+      "form": "hård",
+      "da": "Det har været en hård uge på arbejdet.",
+      "en": "It has been a hard week at work."
+    },
+    {
+      "form": "hårdt",
+      "da": "Han arbejder hårdt for at tjene penge.",
+      "en": "He works hard to earn money."
+    },
+    {
+      "form": "hårde",
+      "da": "De hårde stole i ventesalen er ubehagelige.",
+      "en": "The hard chairs in the waiting room are uncomfortable."
+    }
+  ],
+  "w-a-vigtig": [
+    {
+      "form": "vigtig",
+      "da": "Motion er en vigtig del af en sund hverdag.",
+      "en": "Exercise is an important part of a healthy everyday life."
+    },
+    {
+      "form": "vigtigt",
+      "da": "Det er vigtigt at lære sproget i det nye land.",
+      "en": "It is important to learn the language in the new country."
+    },
+    {
+      "form": "vigtige",
+      "da": "Lægen gav os nogle vigtige råd.",
+      "en": "The doctor gave us some important advice."
+    }
+  ],
+  "w-a-svar": [
+    {
+      "form": "svær",
+      "da": "Prøven var svær, men jeg bestod.",
+      "en": "The test was difficult, but I passed."
+    },
+    {
+      "form": "svært",
+      "da": "Det er svært at finde en billig lejlighed i byen.",
+      "en": "It is difficult to find a cheap flat in the city."
+    },
+    {
+      "form": "svære",
+      "da": "Læreren forklarede de svære ord en gang til.",
+      "en": "The teacher explained the difficult words once more."
+    }
+  ],
+  "w-a-lang": [
+    {
+      "form": "lang",
+      "da": "Vi gik en lang tur i skoven.",
+      "en": "We went for a long walk in the forest."
+    },
+    {
+      "form": "langt",
+      "da": "Hun bor langt fra sit arbejde.",
+      "en": "She lives far from her work."
+    },
+    {
+      "form": "lange",
+      "da": "Om sommeren er dagene lange.",
+      "en": "In summer the days are long."
+    }
+  ],
+  "w-a-billig": [
+    {
+      "form": "billig",
+      "da": "Jeg fandt en billig sofa på nettet.",
+      "en": "I found a cheap sofa online."
+    },
+    {
+      "form": "billigt",
+      "da": "Det er billigt at handle på markedet.",
+      "en": "It is cheap to shop at the market."
+    },
+    {
+      "form": "billige",
+      "da": "De billige billetter blev hurtigt udsolgt.",
+      "en": "The cheap tickets sold out quickly."
+    }
+  ],
+  "w-a-dansk": [
+    {
+      "form": "dansk",
+      "da": "Vi taler dansk derhjemme med børnene.",
+      "en": "We speak Danish at home with the children."
+    },
+    {
+      "form": "danske",
+      "da": "Mange danske familier holder ferie i juli.",
+      "en": "Many Danish families go on holiday in July."
+    }
+  ],
+  "w-a-lille": [
+    {
+      "form": "lille",
+      "da": "Den lille pige leger i sandkassen.",
+      "en": "The little girl is playing in the sandpit."
+    },
+    {
+      "form": "små",
+      "da": "Vi har to små børn og en hund.",
+      "en": "We have two small children and a dog."
+    }
+  ],
+  "w-a-ung": [
+    {
+      "form": "ung",
+      "da": "Da jeg var ung, boede jeg i Aarhus.",
+      "en": "When I was young, I lived in Aarhus."
+    },
+    {
+      "form": "ungt",
+      "da": "Et ungt par er flyttet ind ved siden af.",
+      "en": "A young couple has moved in next door."
+    },
+    {
+      "form": "unge",
+      "da": "Mange unge bruger mobilen hele dagen.",
+      "en": "Many young people use their phones all day."
+    }
+  ],
+  "w-a-kold": [
+    {
+      "form": "kold",
+      "da": "Jeg vil gerne have en kold sodavand.",
+      "en": "I would like a cold soft drink."
+    },
+    {
+      "form": "koldt",
+      "da": "Vandet i havet er stadig koldt i maj.",
+      "en": "The water in the sea is still cold in May."
+    },
+    {
+      "form": "kolde",
+      "da": "Hun har altid kolde hænder om vinteren.",
+      "en": "She always has cold hands in winter."
+    }
+  ],
+  "w-a-varm": [
+    {
+      "form": "varm",
+      "da": "Tag en varm trøje på, før du går ud.",
+      "en": "Put on a warm sweater before you go out."
+    },
+    {
+      "form": "varmt",
+      "da": "Det er varmt i stuen i dag.",
+      "en": "It is warm in the living room today."
+    },
+    {
+      "form": "varme",
+      "da": "Vi spiste de varme boller med smør.",
+      "en": "We ate the warm rolls with butter."
+    }
+  ],
+  "w-a-hoj": [
+    {
+      "form": "høj",
+      "da": "Min bror er meget høj.",
+      "en": "My brother is very tall."
+    },
+    {
+      "form": "højt",
+      "da": "Naboen spiller musik for højt om natten.",
+      "en": "The neighbour plays music too loudly at night."
+    },
+    {
+      "form": "høje",
+      "da": "Der er mange høje huse i centrum.",
+      "en": "There are many tall buildings in the centre."
+    }
+  ],
+  "w-a-lav": [
+    {
+      "form": "lav",
+      "da": "Stolen er for lav til bordet.",
+      "en": "The chair is too low for the table."
+    },
+    {
+      "form": "lavt",
+      "da": "Flyet fløj meget lavt over byen.",
+      "en": "The plane flew very low over the town."
+    },
+    {
+      "form": "lave",
+      "da": "Butikken lokker kunderne med lave priser.",
+      "en": "The shop attracts customers with low prices."
+    }
+  ],
+  "w-a-tung": [
+    {
+      "form": "tung",
+      "da": "Kassen er for tung til at bære alene.",
+      "en": "The box is too heavy to carry alone."
+    },
+    {
+      "form": "tungt",
+      "da": "Hun trækker vejret tungt efter løbeturen.",
+      "en": "She is breathing heavily after the run."
+    },
+    {
+      "form": "tunge",
+      "da": "Vi bar de tunge poser op på fjerde sal.",
+      "en": "We carried the heavy bags up to the fourth floor."
+    }
+  ],
+  "w-a-syg": [
+    {
+      "form": "syg",
+      "da": "Min søn er syg og bliver hjemme i dag.",
+      "en": "My son is ill and is staying home today."
+    },
+    {
+      "form": "sygt",
+      "da": "Barnet var sygt hele weekenden.",
+      "en": "The child was ill all weekend."
+    },
+    {
+      "form": "syge",
+      "da": "Sygeplejersken passer de syge på afdelingen.",
+      "en": "The nurse looks after the sick on the ward."
+    }
+  ],
+  "w-a-sur": [
+    {
+      "form": "sur",
+      "da": "Han er sur, fordi han tabte kampen.",
+      "en": "He is grumpy because he lost the match."
+    },
+    {
+      "form": "surt",
+      "da": "Han svarede surt, da jeg bad om hjælp.",
+      "en": "He answered grumpily when I asked for help."
+    },
+    {
+      "form": "sure",
+      "da": "Jeg kan ikke lide sure bolsjer.",
+      "en": "I don't like sour sweets."
+    }
+  ],
+  "w-a-paen": [
+    {
+      "form": "pæn",
+      "da": "Du ser pæn ud i den skjorte.",
+      "en": "You look nice in that shirt."
+    },
+    {
+      "form": "pænt",
+      "da": "De bor i et pænt hus med en stor have.",
+      "en": "They live in a nice-looking house with a big garden."
+    },
+    {
+      "form": "pæne",
+      "da": "Hun tager sit pæne tøj på til festen.",
+      "en": "She puts on her nice clothes for the party."
+    }
+  ],
+  "w-a-dyr": [
+    {
+      "form": "dyr",
+      "da": "Den nye telefon er alt for dyr.",
+      "en": "The new phone is far too expensive."
+    },
+    {
+      "form": "dyrt",
+      "da": "Det er dyrt at bo i København.",
+      "en": "It is expensive to live in Copenhagen."
+    },
+    {
+      "form": "dyre",
+      "da": "Vi køber ikke de dyre mærkevarer.",
+      "en": "We don't buy the expensive brands."
+    }
+  ],
+  "w-a-fin": [
+    {
+      "form": "fin",
+      "da": "Det er en fin dag til en tur i parken.",
+      "en": "It is a fine day for a trip to the park."
+    },
+    {
+      "form": "fint",
+      "da": "Vejret er fint i dag.",
+      "en": "The weather is fine today."
+    },
+    {
+      "form": "fine",
+      "da": "Hun har fine karakterer i alle fag.",
+      "en": "She has fine grades in all subjects."
+    }
+  ],
+  "w-a-hvid": [
+    {
+      "form": "hvid",
+      "da": "Han har en hvid skjorte på til mødet.",
+      "en": "He is wearing a white shirt to the meeting."
+    },
+    {
+      "form": "hvidt",
+      "da": "Om vinteren er hele landskabet hvidt.",
+      "en": "In winter the whole landscape is white."
+    },
+    {
+      "form": "hvide",
+      "da": "Vi malede de hvide vægge i soveværelset.",
+      "en": "We painted the white walls in the bedroom."
+    }
+  ],
+  "w-a-gul": [
+    {
+      "form": "gul",
+      "da": "Solen er gul på børnenes tegninger.",
+      "en": "The sun is yellow in the children's drawings."
+    },
+    {
+      "form": "gult",
+      "da": "Vi har malet køkkenet gult i år.",
+      "en": "We have painted the kitchen yellow this year."
+    },
+    {
+      "form": "gule",
+      "da": "Om foråret blomstrer de gule påskeliljer.",
+      "en": "In spring the yellow daffodils bloom."
+    }
+  ],
+  "w-a-brun": [
+    {
+      "form": "brun",
+      "da": "Hunden er brun med en hvid plet.",
+      "en": "The dog is brown with a white spot."
+    },
+    {
+      "form": "brunt",
+      "da": "Han har brunt hår og blå øjne.",
+      "en": "He has brown hair and blue eyes."
+    },
+    {
+      "form": "brune",
+      "da": "Hun tog sine brune støvler på.",
+      "en": "She put on her brown boots."
+    }
+  ],
+  "w-a-ren": [
+    {
+      "form": "ren",
+      "da": "Tag en ren tallerken fra skabet.",
+      "en": "Take a clean plate from the cupboard."
+    },
+    {
+      "form": "rent",
+      "da": "Nu er badeværelset rent igen.",
+      "en": "Now the bathroom is clean again."
+    },
+    {
+      "form": "rene",
+      "da": "Læg de rene håndklæder i skabet.",
+      "en": "Put the clean towels in the cupboard."
+    }
+  ],
+  "w-a-staerk": [
+    {
+      "form": "stærk",
+      "da": "Min mor er en stærk kvinde.",
+      "en": "My mother is a strong woman."
+    },
+    {
+      "form": "stærkt",
+      "da": "Det blæser stærkt ved kysten i dag.",
+      "en": "The wind is blowing hard on the coast today."
+    },
+    {
+      "form": "stærke",
+      "da": "Vi bruger de stærke poser til flasker.",
+      "en": "We use the strong bags for bottles."
+    }
+  ],
+  "w-a-svag": [
+    {
+      "form": "svag",
+      "da": "Efter influenzaen følte hun sig svag.",
+      "en": "After the flu she felt weak."
+    },
+    {
+      "form": "svagt",
+      "da": "Lyset i gangen er meget svagt.",
+      "en": "The light in the hallway is very weak."
+    },
+    {
+      "form": "svage",
+      "da": "Skolen skal også hjælpe de svage elever.",
+      "en": "The school must also help the weak pupils."
+    }
+  ],
+  "w-a-mork": [
+    {
+      "form": "mørk",
+      "da": "Han har en mørk jakke på.",
+      "en": "He is wearing a dark jacket."
+    },
+    {
+      "form": "mørkt",
+      "da": "Om vinteren bliver det mørkt allerede klokken fire.",
+      "en": "In winter it gets dark as early as four o'clock."
+    },
+    {
+      "form": "mørke",
+      "da": "Jeg kan ikke lide de mørke aftener i november.",
+      "en": "I don't like the dark evenings in November."
+    }
+  ],
+  "w-a-lys": [
+    {
+      "form": "lys",
+      "da": "Vi har en lys stue med store vinduer.",
+      "en": "We have a bright living room with big windows."
+    },
+    {
+      "form": "lyst",
+      "da": "Om sommeren er det lyst til sent om aftenen.",
+      "en": "In summer it is light until late in the evening."
+    },
+    {
+      "form": "lyse",
+      "da": "Jeg glæder mig til de lyse nætter i juni.",
+      "en": "I look forward to the light nights in June."
+    }
+  ],
+  "w-a-sjov": [
+    {
+      "form": "sjov",
+      "da": "Det var en sjov film.",
+      "en": "It was a funny film."
+    },
+    {
+      "form": "sjovt",
+      "da": "Det er sjovt at lege med børnene.",
+      "en": "It is fun to play with the children."
+    },
+    {
+      "form": "sjove",
+      "da": "Han fortæller altid sjove historier.",
+      "en": "He always tells funny stories."
+    }
+  ],
+  "w-a-rund": [
+    {
+      "form": "rund",
+      "da": "Månen er helt rund i aften.",
+      "en": "The moon is completely round tonight."
+    },
+    {
+      "form": "rundt",
+      "da": "Vi har et rundt bord i køkkenet.",
+      "en": "We have a round table in the kitchen."
+    },
+    {
+      "form": "runde",
+      "da": "Barnet kan lide de runde kiks bedst.",
+      "en": "The child likes the round biscuits best."
+    }
+  ],
+  "w-a-vred": [
+    {
+      "form": "vred",
+      "da": "Far blev vred, da vinduet gik i stykker.",
+      "en": "Dad got angry when the window broke."
+    },
+    {
+      "form": "vredt",
+      "da": "Hun sendte ham et vredt blik.",
+      "en": "She gave him an angry look."
+    },
+    {
+      "form": "vrede",
+      "da": "De vrede kunder ventede i kø ved skranken.",
+      "en": "The angry customers queued at the counter."
+    }
+  ],
+  "w-a-sand": [
+    {
+      "form": "sand",
+      "da": "Det er en sand historie fra min barndom.",
+      "en": "It is a true story from my childhood."
+    },
+    {
+      "form": "sandt",
+      "da": "Er det sandt, at du skal flytte?",
+      "en": "Is it true that you are moving?"
+    },
+    {
+      "form": "sande",
+      "da": "Vi fandt aldrig ud af de sande grunde.",
+      "en": "We never found out the true reasons."
+    }
+  ],
+  "w-a-klog": [
+    {
+      "form": "klog",
+      "da": "Min farmor er en klog kvinde.",
+      "en": "My grandmother is a wise woman."
+    },
+    {
+      "form": "klogt",
+      "da": "Det var klogt at tage en paraply med.",
+      "en": "It was wise to bring an umbrella."
+    },
+    {
+      "form": "kloge",
+      "da": "Han har altid kloge ting at sige.",
+      "en": "He always has clever things to say."
+    }
+  ],
+  "w-a-darlig": [
+    {
+      "form": "dårlig",
+      "da": "Jeg har en dårlig ryg.",
+      "en": "I have a bad back."
+    },
+    {
+      "form": "dårligt",
+      "da": "Vejret var dårligt hele ferien.",
+      "en": "The weather was bad the whole holiday."
+    },
+    {
+      "form": "dårlige",
+      "da": "Vi fik dårlige nyheder fra hospitalet.",
+      "en": "We got bad news from the hospital."
+    }
+  ],
+  "w-a-hurtig": [
+    {
+      "form": "hurtig",
+      "da": "Hun er en hurtig løber.",
+      "en": "She is a fast runner."
+    },
+    {
+      "form": "hurtigt",
+      "da": "Kom hurtigt, bussen kører nu!",
+      "en": "Come quickly, the bus is leaving now!"
+    },
+    {
+      "form": "hurtige",
+      "da": "De hurtige tog kører til Odense hver time.",
+      "en": "The fast trains go to Odense every hour."
+    }
+  ],
+  "w-a-dejlig": [
+    {
+      "form": "dejlig",
+      "da": "Vi havde en dejlig dag ved stranden.",
+      "en": "We had a lovely day at the beach."
+    },
+    {
+      "form": "dejligt",
+      "da": "Det er dejligt at se dig igen.",
+      "en": "It is lovely to see you again."
+    },
+    {
+      "form": "dejlige",
+      "da": "Tak for de dejlige blomster!",
+      "en": "Thank you for the lovely flowers!"
+    }
+  ],
+  "w-a-rigtig": [
+    {
+      "form": "rigtig",
+      "da": "Din beregning er rigtig, men du har glemt momsen.",
+      "en": "Your calculation is correct, but you have forgotten the VAT."
+    },
+    {
+      "form": "rigtigt",
+      "da": "Dit svar på den sidste opgave er rigtigt.",
+      "en": "Your answer to the last question is correct."
+    },
+    {
+      "form": "rigtige",
+      "da": "Vi tog den rigtige bus til stationen.",
+      "en": "We took the right bus to the station."
+    }
+  ],
+  "w-a-kedelig": [
+    {
+      "form": "kedelig",
+      "da": "Filmen var lang og kedelig.",
+      "en": "The film was long and boring."
+    },
+    {
+      "form": "kedeligt",
+      "da": "Det er kedeligt at vente på bussen.",
+      "en": "It is boring to wait for the bus."
+    },
+    {
+      "form": "kedelige",
+      "da": "Han hader de kedelige møder på arbejdet.",
+      "en": "He hates the boring meetings at work."
+    }
+  ],
+  "w-a-gron": [
+    {
+      "form": "grøn",
+      "da": "Hun har en grøn kjole på.",
+      "en": "She is wearing a green dress."
+    },
+    {
+      "form": "grønt",
+      "da": "Græsset er grønt efter regnen.",
+      "en": "The grass is green after the rain."
+    },
+    {
+      "form": "grønne",
+      "da": "Husk at spise dine grønne grøntsager, før du får dessert!",
+      "en": "Remember to eat your green vegetables before you get dessert!"
+    }
+  ],
+  "w-a-smuk": [
+    {
+      "form": "smuk",
+      "da": "Udsigten fra bakken er smuk.",
+      "en": "The view from the hill is beautiful."
+    },
+    {
+      "form": "smukt",
+      "da": "Hun synger meget smukt i koret.",
+      "en": "She sings very beautifully in the choir."
+    },
+    {
+      "form": "smukke",
+      "da": "Vi gik en tur langs den smukke kyst.",
+      "en": "We went for a walk along the beautiful coast."
+    }
+  ],
+  "w-a-tyk": [
+    {
+      "form": "tyk",
+      "da": "Han læser en tyk bog om historie.",
+      "en": "He is reading a thick book about history."
+    },
+    {
+      "form": "tykt",
+      "da": "Der ligger et tykt lag sne på vejen.",
+      "en": "There is a thick layer of snow on the road."
+    },
+    {
+      "form": "tykke",
+      "da": "Tag de tykke sokker på, det er koldt.",
+      "en": "Put on the thick socks, it is cold."
+    }
+  ],
+  "w-a-tom": [
+    {
+      "form": "tom",
+      "da": "Flasken er tom, så vi må købe en ny.",
+      "en": "The bottle is empty, so we have to buy a new one."
+    },
+    {
+      "form": "tomt",
+      "da": "Køleskabet er helt tomt efter weekenden.",
+      "en": "The fridge is completely empty after the weekend."
+    },
+    {
+      "form": "tomme",
+      "da": "Vi afleverer de tomme flasker i butikken.",
+      "en": "We return the empty bottles to the shop."
+    }
+  ],
+  "w-a-nem": [
+    {
+      "form": "nem",
+      "da": "Det er en nem opskrift.",
+      "en": "It is an easy recipe."
+    },
+    {
+      "form": "nemt",
+      "da": "Det er nemt at komme til lufthavnen med metroen.",
+      "en": "It is easy to get to the airport by metro."
+    },
+    {
+      "form": "nemme",
+      "da": "Vi starter med de nemme opgaver.",
+      "en": "We start with the easy tasks."
+    }
+  ],
+  "w-a-langsom": [
+    {
+      "form": "langsom",
+      "da": "Min computer er blevet meget langsom.",
+      "en": "My computer has become very slow."
+    },
+    {
+      "form": "langsomt",
+      "da": "Tal lidt langsomt, så jeg kan forstå dig.",
+      "en": "Speak a little slowly so that I can understand you."
+    },
+    {
+      "form": "langsomme",
+      "da": "Hun er træt af de langsomme busser.",
+      "en": "She is tired of the slow buses."
+    }
+  ],
+  "w-a-glad": [
+    {
+      "form": "glad",
+      "da": "Jeg er glad for mit nye job.",
+      "en": "I am happy with my new job."
+    },
+    {
+      "form": "glade",
+      "da": "Børnene var glade for gaverne.",
+      "en": "The children were happy with the presents."
+    }
+  ],
+  "w-a-traet": [
+    {
+      "form": "træt",
+      "da": "Jeg er træt efter en lang dag på arbejdet.",
+      "en": "I am tired after a long day at work."
+    },
+    {
+      "form": "trætte",
+      "da": "De trætte børn faldt i søvn i bilen.",
+      "en": "The tired children fell asleep in the car."
+    }
+  ],
+  "w-a-kort": [
+    {
+      "form": "kort",
+      "da": "Mødet i morges var heldigvis kort.",
+      "en": "Fortunately the meeting this morning was short."
+    },
+    {
+      "form": "korte",
+      "da": "Om vinteren er dagene korte og mørke.",
+      "en": "In winter the days are short and dark."
+    }
+  ],
+  "w-a-sort": [
+    {
+      "form": "sort",
+      "da": "Han drikker sin kaffe sort.",
+      "en": "He drinks his coffee black."
+    },
+    {
+      "form": "sorte",
+      "da": "Hun har købt et par sorte bukser.",
+      "en": "She has bought a pair of black trousers."
+    }
+  ],
+  "w-a-rig": [
+    {
+      "form": "rig",
+      "da": "Han blev rig på sit eget firma.",
+      "en": "He became rich from his own company."
+    },
+    {
+      "form": "rigt",
+      "da": "Danmark er et rigt land.",
+      "en": "Denmark is a rich country."
+    },
+    {
+      "form": "rige",
+      "da": "Forskellen mellem rige og fattige bliver større.",
+      "en": "The gap between rich and poor is growing."
+    }
+  ],
+  "w-a-fuld": [
+    {
+      "form": "fuld",
+      "da": "Bussen var så fuld, at vi måtte stå op.",
+      "en": "The bus was so full that we had to stand."
+    },
+    {
+      "form": "fuldt",
+      "da": "Hotellet er fuldt booket hele sommeren.",
+      "en": "The hotel is fully booked all summer."
+    },
+    {
+      "form": "fulde",
+      "da": "Hun bar to fulde indkøbsposer hjem.",
+      "en": "She carried two full shopping bags home."
+    }
+  ],
+  "w-a-hel": [
+    {
+      "form": "hel",
+      "da": "Han spiste en hel pizza alene.",
+      "en": "He ate a whole pizza by himself."
+    },
+    {
+      "form": "helt",
+      "da": "Jeg er helt enig med dig.",
+      "en": "I completely agree with you."
+    },
+    {
+      "form": "hele",
+      "da": "Det regnede hele dagen i går.",
+      "en": "It rained all day yesterday."
+    }
+  ],
+  "w-a-bred": [
+    {
+      "form": "bred",
+      "da": "Vejen er bred nok til to lastbiler.",
+      "en": "The road is wide enough for two lorries."
+    },
+    {
+      "form": "bredt",
+      "da": "Skolen tilbyder et bredt udvalg af fag.",
+      "en": "The school offers a wide range of subjects."
+    },
+    {
+      "form": "brede",
+      "da": "Vi cyklede ad de brede cykelstier.",
+      "en": "We cycled along the wide cycle paths."
+    }
+  ],
+  "w-a-dyb": [
+    {
+      "form": "dyb",
+      "da": "Søen er dyb på midten.",
+      "en": "The lake is deep in the middle."
+    },
+    {
+      "form": "dybt",
+      "da": "Han sov dybt hele natten.",
+      "en": "He slept deeply all night."
+    },
+    {
+      "form": "dybe",
+      "da": "Børnene må ikke bade i den dybe ende.",
+      "en": "The children may not swim in the deep end."
+    }
+  ],
+  "w-a-fed": [
+    {
+      "form": "fed",
+      "da": "Katten er blevet lidt for fed.",
+      "en": "The cat has become a bit too fat."
+    },
+    {
+      "form": "fedt",
+      "da": "Det var fedt at se koncerten.",
+      "en": "It was cool to see the concert."
+    },
+    {
+      "form": "fede",
+      "da": "Lægen sagde, at jeg skulle spise færre fede retter.",
+      "en": "The doctor said I should eat fewer fatty dishes."
+    }
+  ],
+  "w-a-ond": [
+    {
+      "form": "ond",
+      "da": "I eventyret er heksen ond.",
+      "en": "In the fairy tale the witch is evil."
+    },
+    {
+      "form": "ondt",
+      "da": "I filmen spiller han et ondt menneske.",
+      "en": "In the film he plays an evil person."
+    },
+    {
+      "form": "onde",
+      "da": "Den onde dronning ville skade prinsessen.",
+      "en": "The evil queen wanted to harm the princess."
+    }
+  ],
+  "w-a-sund": [
+    {
+      "form": "sund",
+      "da": "Fisk er sund mad for hele familien.",
+      "en": "Fish is healthy food for the whole family."
+    },
+    {
+      "form": "sundt",
+      "da": "Det er sundt at cykle på arbejde.",
+      "en": "It is healthy to cycle to work."
+    },
+    {
+      "form": "sunde",
+      "da": "Kantinen på arbejdet serverer sunde frokoster.",
+      "en": "The canteen at work serves healthy lunches."
+    }
+  ],
+  "w-a-rask": [
+    {
+      "form": "rask",
+      "da": "Er du rask igen efter forkølelsen?",
+      "en": "Are you well again after the cold?"
+    },
+    {
+      "form": "raskt",
+      "da": "Barnet er raskt igen og kan komme i børnehave i morgen.",
+      "en": "The child is well again and can go to kindergarten tomorrow."
+    },
+    {
+      "form": "raske",
+      "da": "Kun raske børn må komme i børnehaven.",
+      "en": "Only healthy children may come to the kindergarten."
+    }
+  ],
+  "w-a-frisk": [
+    {
+      "form": "frisk",
+      "da": "Jeg køber frisk fisk på havnen.",
+      "en": "I buy fresh fish at the harbour."
+    },
+    {
+      "form": "friskt",
+      "da": "Bageren har friskt brød hver morgen.",
+      "en": "The baker has fresh bread every morning."
+    },
+    {
+      "form": "friske",
+      "da": "Hun lavede en salat med friske tomater.",
+      "en": "She made a salad with fresh tomatoes."
+    }
+  ],
+  "w-a-sen": [
+    {
+      "form": "sen",
+      "da": "Vi spiste en sen morgenmad søndag.",
+      "en": "We had a late breakfast on Sunday."
+    },
+    {
+      "form": "sent",
+      "da": "Toget kom for sent igen i morges.",
+      "en": "The train was late again this morning."
+    },
+    {
+      "form": "sene",
+      "da": "Hun kan godt lide de sene aftener i sommerhuset.",
+      "en": "She likes the late evenings at the summer house."
+    }
+  ],
+  "w-a-kaer": [
+    {
+      "form": "kær",
+      "da": "Den gamle ring fra min mormor er mig meget kær.",
+      "en": "The old ring from my grandmother is very dear to me."
+    },
+    {
+      "form": "kært",
+      "da": "Hun har mistet et kært familiemedlem.",
+      "en": "She has lost a dear family member."
+    },
+    {
+      "form": "kære",
+      "da": "Kære Anne, tak for dit brev.",
+      "en": "Dear Anne, thank you for your letter."
+    }
+  ],
+  "w-a-vild": [
+    {
+      "form": "vild",
+      "da": "Hunden blev helt vild, da den så katten.",
+      "en": "The dog went completely wild when it saw the cat."
+    },
+    {
+      "form": "vildt",
+      "da": "Det er et vildt dyr, så du må ikke røre ved det.",
+      "en": "It is a wild animal, so you must not touch it."
+    },
+    {
+      "form": "vilde",
+      "da": "I skoven lever der mange vilde dyr.",
+      "en": "Many wild animals live in the forest."
+    }
+  ],
+  "w-a-travl": [
+    {
+      "form": "travl",
+      "da": "December er en travl måned i butikken.",
+      "en": "December is a busy month in the shop."
+    },
+    {
+      "form": "travlt",
+      "da": "Jeg har meget travlt på arbejdet i denne uge.",
+      "en": "I am very busy at work this week."
+    },
+    {
+      "form": "travle",
+      "da": "Mange travle forældre handler ind på nettet.",
+      "en": "Many busy parents shop online."
+    }
+  ],
+  "w-a-flink": [
+    {
+      "form": "flink",
+      "da": "Vores nye nabo er meget flink.",
+      "en": "Our new neighbour is very kind."
+    },
+    {
+      "form": "flinkt",
+      "da": "Det var flinkt af dig at vente på mig.",
+      "en": "It was kind of you to wait for me."
+    },
+    {
+      "form": "flinke",
+      "da": "Sygeplejerskerne på afdelingen er flinke og hjælpsomme.",
+      "en": "The nurses on the ward are kind and helpful."
+    }
+  ],
+  "w-a-blind": [
+    {
+      "form": "blind",
+      "da": "Hendes farfar er blind og har en førerhund.",
+      "en": "Her grandfather is blind and has a guide dog."
+    },
+    {
+      "form": "blindt",
+      "da": "Man skal ikke stole blindt på alt på nettet.",
+      "en": "You should not blindly trust everything online."
+    },
+    {
+      "form": "blinde",
+      "da": "Biblioteket har lydbøger til blinde læsere.",
+      "en": "The library has audiobooks for blind readers."
+    }
+  ],
+  "w-a-nervos": [
+    {
+      "form": "nervøs",
+      "da": "Hun var nervøs før sin jobsamtale.",
+      "en": "She was nervous before her job interview."
+    },
+    {
+      "form": "nervøst",
+      "da": "Han kiggede nervøst på uret.",
+      "en": "He looked nervously at the clock."
+    },
+    {
+      "form": "nervøse",
+      "da": "De nervøse elever ventede på at komme ind til prøven.",
+      "en": "The nervous students waited to go in to the exam."
+    }
+  ],
+  "w-a-populaer": [
+    {
+      "form": "populær",
+      "da": "Den nye café er blevet meget populær.",
+      "en": "The new café has become very popular."
+    },
+    {
+      "form": "populært",
+      "da": "Det er populært at holde ferie i Sydeuropa.",
+      "en": "It is popular to go on holiday in southern Europe."
+    },
+    {
+      "form": "populære",
+      "da": "Fodbold og håndbold er populære sportsgrene i Danmark.",
+      "en": "Football and handball are popular sports in Denmark."
+    }
+  ],
+  "w-a-normal": [
+    {
+      "form": "normal",
+      "da": "Det var en helt normal mandag.",
+      "en": "It was a completely normal Monday."
+    },
+    {
+      "form": "normalt",
+      "da": "Normalt tager jeg bussen på arbejde.",
+      "en": "Normally I take the bus to work."
+    },
+    {
+      "form": "normale",
+      "da": "Butikken har normale åbningstider i påsken.",
+      "en": "The shop has normal opening hours at Easter."
+    }
+  ],
+  "w-a-lokal": [
+    {
+      "form": "lokal",
+      "da": "Hun arbejder i en lokal butik.",
+      "en": "She works in a local shop."
+    },
+    {
+      "form": "lokalt",
+      "da": "Vi prøver at købe lokalt produceret mad.",
+      "en": "We try to buy locally produced food."
+    },
+    {
+      "form": "lokale",
+      "da": "Den lokale avis skrev om festen.",
+      "en": "The local newspaper wrote about the party."
+    }
+  ],
+  "w-a-rolig": [
+    {
+      "form": "rolig",
+      "da": "Vi bor på en rolig vej uden meget trafik.",
+      "en": "We live on a quiet road without much traffic."
+    },
+    {
+      "form": "roligt",
+      "da": "Tag det roligt, vi har god tid.",
+      "en": "Take it easy, we have plenty of time."
+    },
+    {
+      "form": "rolige",
+      "da": "Hun nyder de rolige morgener i weekenden.",
+      "en": "She enjoys the calm mornings at the weekend."
+    }
+  ],
+  "w-a-venlig": [
+    {
+      "form": "venlig",
+      "da": "Damen i receptionen var meget venlig.",
+      "en": "The lady at reception was very friendly."
+    },
+    {
+      "form": "venligt",
+      "da": "Han svarede venligt på mit spørgsmål.",
+      "en": "He answered my question kindly."
+    },
+    {
+      "form": "venlige",
+      "da": "Hun sluttede brevet med venlige hilsner.",
+      "en": "She ended the letter with kind regards."
+    }
+  ],
+  "w-a-farlig": [
+    {
+      "form": "farlig",
+      "da": "Hun cykler ad en farlig vej til skole.",
+      "en": "She cycles along a dangerous road to school."
+    },
+    {
+      "form": "farligt",
+      "da": "Det er farligt at cykle uden lys om aftenen.",
+      "en": "It is dangerous to cycle without lights in the evening."
+    },
+    {
+      "form": "farlige",
+      "da": "Hold farlige kemikalier væk fra børn.",
+      "en": "Keep dangerous chemicals away from children."
+    }
+  ],
+  "w-a-hyggelig": [
+    {
+      "form": "hyggelig",
+      "da": "Vi havde en hyggelig aften med vennerne.",
+      "en": "We had a cosy evening with our friends."
+    },
+    {
+      "form": "hyggeligt",
+      "da": "Det er hyggeligt at tænde stearinlys om vinteren.",
+      "en": "It is cosy to light candles in winter."
+    },
+    {
+      "form": "hyggelige",
+      "da": "Vi spiste på en af de hyggelige restauranter ved havnen.",
+      "en": "We ate at one of the cosy restaurants by the harbour."
+    }
+  ],
+  "w-a-aerlig": [
+    {
+      "form": "ærlig",
+      "da": "Vær nu ærlig, kan du lide maden?",
+      "en": "Be honest now, do you like the food?"
+    },
+    {
+      "form": "ærligt",
+      "da": "Han svarede ærligt på alle spørgsmålene.",
+      "en": "He answered all the questions honestly."
+    },
+    {
+      "form": "ærlige",
+      "da": "Tak for dine ærlige ord.",
+      "en": "Thank you for your honest words."
+    }
+  ],
+  "w-a-tidlig": [
+    {
+      "form": "tidlig",
+      "da": "Jeg har en tidlig vagt i morgen.",
+      "en": "I have an early shift tomorrow."
+    },
+    {
+      "form": "tidligt",
+      "da": "Hun står tidligt op hver dag.",
+      "en": "She gets up early every day."
+    },
+    {
+      "form": "tidlige",
+      "da": "De tidlige morgentimer er de mest stille.",
+      "en": "The early morning hours are the quietest."
+    }
+  ],
+  "w-a-daglig": [
+    {
+      "form": "daglig",
+      "da": "En daglig gåtur gør godt for helbredet.",
+      "en": "A daily walk is good for your health."
+    },
+    {
+      "form": "dagligt",
+      "da": "Mange pendlere kører over broen dagligt.",
+      "en": "Many commuters drive across the bridge daily."
+    },
+    {
+      "form": "daglige",
+      "da": "Kaffepausen er en del af min daglige rutine.",
+      "en": "The coffee break is part of my daily routine."
+    }
+  ],
+  "w-a-maerkelig": [
+    {
+      "form": "mærkelig",
+      "da": "Der er en mærkelig lugt i køkkenet.",
+      "en": "There is a strange smell in the kitchen."
+    },
+    {
+      "form": "mærkeligt",
+      "da": "Det er mærkeligt, at han ikke har ringet.",
+      "en": "It is strange that he hasn't called."
+    },
+    {
+      "form": "mærkelige",
+      "da": "Vi hørte nogle mærkelige lyde i nat.",
+      "en": "We heard some strange noises last night."
+    }
+  ],
+  "w-a-lykkelig": [
+    {
+      "form": "lykkelig",
+      "da": "Hun var lykkelig, da hendes søn blev født.",
+      "en": "She was overjoyed when her son was born."
+    },
+    {
+      "form": "lykkeligt",
+      "da": "De har været lykkeligt gift i fyrre år.",
+      "en": "They have been happily married for forty years."
+    },
+    {
+      "form": "lykkelige",
+      "da": "Jeg tænker ofte på de lykkelige år i barndommen.",
+      "en": "I often think of the happy years of my childhood."
+    }
+  ],
+  "w-a-torstig": [
+    {
+      "form": "tørstig",
+      "da": "Jeg er tørstig efter løbeturen.",
+      "en": "I am thirsty after the run."
+    },
+    {
+      "form": "tørstigt",
+      "da": "Barnet var tørstigt og bad om vand.",
+      "en": "The child was thirsty and asked for water."
+    },
+    {
+      "form": "tørstige",
+      "da": "De tørstige gæster drak al saftevandet.",
+      "en": "The thirsty guests drank all the squash."
+    }
+  ],
+  "w-a-hoflig": [
+    {
+      "form": "høflig",
+      "da": "Han er altid høflig over for kunderne.",
+      "en": "He is always polite to the customers."
+    },
+    {
+      "form": "høfligt",
+      "da": "Hun spurgte høfligt, om hun måtte låne en pen.",
+      "en": "She asked politely whether she could borrow a pen."
+    },
+    {
+      "form": "høflige",
+      "da": "Vi fik et par høflige svar fra kommunen.",
+      "en": "We got a couple of polite replies from the municipality."
+    }
+  ],
+  "w-a-modig": [
+    {
+      "form": "modig",
+      "da": "Det var en modig beslutning at flytte til udlandet.",
+      "en": "It was a brave decision to move abroad."
+    },
+    {
+      "form": "modigt",
+      "da": "Det var modigt af dig at sige din mening.",
+      "en": "It was brave of you to speak your mind."
+    },
+    {
+      "form": "modige",
+      "da": "Avisen skrev om de modige brandmænd.",
+      "en": "The newspaper wrote about the brave firefighters."
+    }
+  ],
+  "w-a-flittig": [
+    {
+      "form": "flittig",
+      "da": "Hun er en flittig studerende.",
+      "en": "She is a hard-working student."
+    },
+    {
+      "form": "flittigt",
+      "da": "Han har øvet sig flittigt til prøven.",
+      "en": "He has practised diligently for the test."
+    },
+    {
+      "form": "flittige",
+      "da": "Læreren roste de flittige elever.",
+      "en": "The teacher praised the hard-working pupils."
+    }
+  ],
+  "w-a-aktiv": [
+    {
+      "form": "aktiv",
+      "da": "Min mor er meget aktiv i den lokale forening.",
+      "en": "My mother is very active in the local association."
+    },
+    {
+      "form": "aktivt",
+      "da": "Det er vigtigt at deltage aktivt i undervisningen.",
+      "en": "It is important to take an active part in lessons."
+    },
+    {
+      "form": "aktive",
+      "da": "Aktive børn sover bedre om natten.",
+      "en": "Active children sleep better at night."
+    }
+  ],
+  "w-a-positiv": [
+    {
+      "form": "positiv",
+      "da": "Hun har en positiv holdning til forandringer.",
+      "en": "She has a positive attitude towards change."
+    },
+    {
+      "form": "positivt",
+      "da": "Det er positivt, at flere unge tager en uddannelse.",
+      "en": "It is positive that more young people get an education."
+    },
+    {
+      "form": "positive",
+      "da": "Vi fik mange positive kommentarer fra kunderne.",
+      "en": "We got many positive comments from the customers."
+    }
+  ],
+  "w-a-negativ": [
+    {
+      "form": "negativ",
+      "da": "Testen hos lægen var heldigvis negativ.",
+      "en": "Fortunately the test at the doctor's was negative."
+    },
+    {
+      "form": "negativt",
+      "da": "Stress kan påvirke helbredet negativt.",
+      "en": "Stress can affect your health negatively."
+    },
+    {
+      "form": "negative",
+      "da": "Han prøver at undgå negative tanker.",
+      "en": "He tries to avoid negative thoughts."
+    }
+  ],
+  "w-a-fri": [
+    {
+      "form": "fri",
+      "da": "Jeg har fri på fredag.",
+      "en": "I have Friday off."
+    },
+    {
+      "form": "frit",
+      "da": "Børnene kan lege frit i haven.",
+      "en": "The children can play freely in the garden."
+    },
+    {
+      "form": "frie",
+      "da": "I et demokrati er der frie valg.",
+      "en": "In a democracy there are free elections."
+    }
+  ],
+  "w-a-tor": [
+    {
+      "form": "tør",
+      "da": "Jorden er tør efter den varme sommer.",
+      "en": "The soil is dry after the hot summer."
+    },
+    {
+      "form": "tørt",
+      "da": "Tøjet er tørt nu, så du kan tage det ind.",
+      "en": "The laundry is dry now, so you can bring it in."
+    },
+    {
+      "form": "tørre",
+      "da": "Vi har haft mange tørre somre de seneste år.",
+      "en": "We have had many dry summers in recent years."
+    }
+  ],
+  "w-a-tryg": [
+    {
+      "form": "tryg",
+      "da": "Jeg føler mig tryg i mit nye kvarter.",
+      "en": "I feel safe in my new neighbourhood."
+    },
+    {
+      "form": "trygt",
+      "da": "Det skal være trygt at gå hjem om aftenen.",
+      "en": "It should be safe to walk home in the evening."
+    },
+    {
+      "form": "trygge",
+      "da": "Trygge børn lærer bedre i skolen.",
+      "en": "Children who feel secure learn better at school."
+    }
+  ],
+  "w-a-grim": [
+    {
+      "form": "grim",
+      "da": "Jeg synes, at den nye lampe er grim.",
+      "en": "I think the new lamp is ugly."
+    },
+    {
+      "form": "grimt",
+      "da": "Det gamle hotel er et grimt hus.",
+      "en": "The old hotel is an ugly building."
+    },
+    {
+      "form": "grimme",
+      "da": "Han har stadig sine grimme julesweatre.",
+      "en": "He still has his ugly Christmas jumpers."
+    }
+  ],
+  "w-a-dum": [
+    {
+      "form": "dum",
+      "da": "Det var en dum fejl, som alle kunne have lavet.",
+      "en": "It was a stupid mistake that anyone could have made."
+    },
+    {
+      "form": "dumt",
+      "da": "Det var dumt af mig at glemme nøglerne.",
+      "en": "It was stupid of me to forget the keys."
+    },
+    {
+      "form": "dumme",
+      "da": "Undskyld mine dumme kommentarer i går.",
+      "en": "Sorry for my stupid comments yesterday."
+    }
+  ],
+  "w-a-smal": [
+    {
+      "form": "smal",
+      "da": "Gaden er så smal, at bilerne ikke kan passere hinanden.",
+      "en": "The street is so narrow that cars cannot pass each other."
+    },
+    {
+      "form": "smalt",
+      "da": "Badeværelset i vores lejlighed er meget smalt.",
+      "en": "The bathroom in our flat is very narrow."
+    },
+    {
+      "form": "smalle",
+      "da": "Vi gik gennem de smalle gader i den gamle bydel.",
+      "en": "We walked through the narrow streets of the old town."
+    }
+  ],
+  "w-a-ensom": [
+    {
+      "form": "ensom",
+      "da": "Efter skilsmissen følte han sig ensom.",
+      "en": "After the divorce he felt lonely."
+    },
+    {
+      "form": "ensomt",
+      "da": "Det kan være ensomt at bo alene i en ny by.",
+      "en": "It can be lonely to live alone in a new city."
+    },
+    {
+      "form": "ensomme",
+      "da": "Foreningen besøger ensomme ældre i kommunen.",
+      "en": "The association visits lonely elderly people in the municipality."
+    }
+  ],
+  "w-a-sulten": [
+    {
+      "form": "sulten",
+      "da": "Jeg er sulten, hvornår skal vi spise?",
+      "en": "I am hungry, when are we eating?"
+    },
+    {
+      "form": "sultent",
+      "da": "Barnet græd, fordi det var sultent.",
+      "en": "The baby cried because it was hungry."
+    },
+    {
+      "form": "sultne",
+      "da": "De sultne børn spiste hele gryden.",
+      "en": "The hungry children ate the whole pot."
+    }
+  ],
+  "w-a-aben": [
+    {
+      "form": "åben",
+      "da": "Er butikken åben på søndag?",
+      "en": "Is the shop open on Sunday?"
+    },
+    {
+      "form": "åbent",
+      "da": "Biblioteket har åbent til klokken otte.",
+      "en": "The library is open until eight o'clock."
+    },
+    {
+      "form": "åbne",
+      "da": "Kan du lukke de åbne vinduer, før du går?",
+      "en": "Can you close the open windows before you leave?"
+    }
+  ],
+  "w-a-sikker": [
+    {
+      "form": "sikker",
+      "da": "Er du sikker på, at døren er låst?",
+      "en": "Are you sure that the door is locked?"
+    },
+    {
+      "form": "sikkert",
+      "da": "Det er sikkert at betale med kort i butikken.",
+      "en": "It is safe to pay by card in the shop."
+    },
+    {
+      "form": "sikre",
+      "da": "Vi skal have sikre cykelstier til skolebørnene.",
+      "en": "We need safe cycle paths for the schoolchildren."
+    }
+  ],
+  "w-a-let": [
+    {
+      "form": "let",
+      "da": "Tasken er let at bære.",
+      "en": "The bag is light to carry."
+    },
+    {
+      "form": "lette",
+      "da": "Om sommeren går jeg i lette kjoler.",
+      "en": "In summer I wear light dresses."
+    }
+  ],
+  "w-a-flot": [
+    {
+      "form": "flot",
+      "da": "Det var et flot resultat til eksamen.",
+      "en": "It was a great result in the exam."
+    },
+    {
+      "form": "flotte",
+      "da": "Vi så nogle flotte billeder fra jeres rejse.",
+      "en": "We saw some great pictures from your trip."
+    }
+  ],
+  "w-a-stolt": [
+    {
+      "form": "stolt",
+      "da": "Jeg er stolt af min datter.",
+      "en": "I am proud of my daughter."
+    },
+    {
+      "form": "stolte",
+      "da": "Forældrene var stolte, da deres søn blev student.",
+      "en": "The parents were proud when their son graduated from upper secondary school."
+    }
+  ],
+  "w-a-lukket": [
+    {
+      "form": "lukket",
+      "da": "Apoteket er lukket på søndag.",
+      "en": "The pharmacy is closed on Sunday."
+    },
+    {
+      "form": "lukkede",
+      "da": "Hun bankede på den lukkede dør.",
+      "en": "She knocked on the closed door."
+    }
+  ],
+  "w-a-gift": [
+    {
+      "form": "gift",
+      "da": "Min bror er gift og har tre børn.",
+      "en": "My brother is married and has three children."
+    },
+    {
+      "form": "gifte",
+      "da": "Mange gifte par deler husarbejdet ligeligt.",
+      "en": "Many married couples share the housework equally."
+    }
+  ],
+  "w-a-engelsk": [
+    {
+      "form": "engelsk",
+      "da": "Børnene lærer engelsk fra første klasse.",
+      "en": "The children learn English from first grade."
+    },
+    {
+      "form": "engelske",
+      "da": "Hun læser mange engelske bøger.",
+      "en": "She reads many English books."
+    }
+  ],
+  "w-a-tysk": [
+    {
+      "form": "tysk",
+      "da": "Vi købte en tysk bil sidste år.",
+      "en": "We bought a German car last year."
+    },
+    {
+      "form": "tyske",
+      "da": "Mange tyske turister holder ferie på den jyske vestkyst.",
+      "en": "Many German tourists go on holiday on the west coast of Jutland."
+    }
+  ],
+  "w-a-fattig": [
+    {
+      "form": "fattig",
+      "da": "Hun voksede op i en fattig familie.",
+      "en": "She grew up in a poor family."
+    },
+    {
+      "form": "fattigt",
+      "da": "Landet var fattigt for hundrede år siden.",
+      "en": "The country was poor a hundred years ago."
+    },
+    {
+      "form": "fattige",
+      "da": "Organisationen hjælper fattige familier med mad.",
+      "en": "The organisation helps poor families with food."
+    }
+  ],
+  "w-a-tynd": [
+    {
+      "form": "tynd",
+      "da": "Den jakke er for tynd til vinteren.",
+      "en": "That jacket is too thin for the winter."
+    },
+    {
+      "form": "tyndt",
+      "da": "Hun smurte et tyndt lag smør på brødet.",
+      "en": "She spread a thin layer of butter on the bread."
+    },
+    {
+      "form": "tynde",
+      "da": "Væggene i lejligheden er meget tynde.",
+      "en": "The walls in the flat are very thin."
+    }
+  ],
+  "w-a-vad": [
+    {
+      "form": "våd",
+      "da": "Hunden er helt våd efter turen.",
+      "en": "The dog is completely wet after the walk."
+    },
+    {
+      "form": "vådt",
+      "da": "Græsset er vådt om morgenen.",
+      "en": "The grass is wet in the morning."
+    },
+    {
+      "form": "våde",
+      "da": "Tag dine våde sko af i gangen.",
+      "en": "Take your wet shoes off in the hallway."
+    }
+  ],
+  "w-a-mulig": [
+    {
+      "form": "mulig",
+      "da": "Vi leder efter en mulig løsning på problemet.",
+      "en": "We are looking for a possible solution to the problem."
+    },
+    {
+      "form": "muligt",
+      "da": "Er det muligt at flytte min tid til i morgen?",
+      "en": "Is it possible to move my appointment to tomorrow?"
+    },
+    {
+      "form": "mulige",
+      "da": "Der er mange mulige årsager til problemet.",
+      "en": "There are many possible causes of the problem."
+    }
+  ],
+  "w-a-umulig": [
+    {
+      "form": "umulig",
+      "da": "Opgaven virkede umulig i starten.",
+      "en": "The task seemed impossible at first."
+    },
+    {
+      "form": "umuligt",
+      "da": "Det er næsten umuligt at finde en parkeringsplads her.",
+      "en": "It is almost impossible to find a parking space here."
+    },
+    {
+      "form": "umulige",
+      "da": "Hun gjorde det umulige og bestod alle fag.",
+      "en": "She did the impossible and passed all her subjects."
+    }
+  ],
+  "w-a-nodvendig": [
+    {
+      "form": "nødvendig",
+      "da": "En god uddannelse er nødvendig for mange job.",
+      "en": "A good education is necessary for many jobs."
+    },
+    {
+      "form": "nødvendigt",
+      "da": "Det er ikke nødvendigt at tage skoene af.",
+      "en": "It is not necessary to take your shoes off."
+    },
+    {
+      "form": "nødvendige",
+      "da": "Husk at medbringe de nødvendige papirer til mødet.",
+      "en": "Remember to bring the necessary papers to the meeting."
+    }
+  ],
+  "w-a-almindelig": [
+    {
+      "form": "almindelig",
+      "da": "Influenza er en almindelig sygdom om vinteren.",
+      "en": "Flu is a common illness in winter."
+    },
+    {
+      "form": "almindeligt",
+      "da": "Det er almindeligt at cykle på arbejde i Danmark.",
+      "en": "It is common to cycle to work in Denmark."
+    },
+    {
+      "form": "almindelige",
+      "da": "Kurset er for almindelige mennesker uden erfaring.",
+      "en": "The course is for ordinary people without experience."
+    }
+  ],
+  "w-a-personlig": [
+    {
+      "form": "personlig",
+      "da": "Hun har fået en personlig træner.",
+      "en": "She has got a personal trainer."
+    },
+    {
+      "form": "personligt",
+      "da": "Jeg kender ikke borgmesteren personligt.",
+      "en": "I don't know the mayor personally."
+    },
+    {
+      "form": "personlige",
+      "da": "Man skal passe på sine personlige oplysninger på nettet.",
+      "en": "You must be careful with your personal information online."
+    }
+  ],
+  "w-a-offentlig": [
+    {
+      "form": "offentlig",
+      "da": "Han arbejder i en offentlig institution.",
+      "en": "He works in a public institution."
+    },
+    {
+      "form": "offentligt",
+      "da": "Kommunen har bygget et nyt offentligt toilet i parken.",
+      "en": "The municipality has built a new public toilet in the park."
+    },
+    {
+      "form": "offentlige",
+      "da": "Den offentlige transport er god i de store byer.",
+      "en": "Public transport is good in the big cities."
+    }
+  ],
+  "w-a-alvorlig": [
+    {
+      "form": "alvorlig",
+      "da": "Han har en alvorlig sygdom.",
+      "en": "He has a serious illness."
+    },
+    {
+      "form": "alvorligt",
+      "da": "Hun tager sit arbejde meget alvorligt.",
+      "en": "She takes her work very seriously."
+    },
+    {
+      "form": "alvorlige",
+      "da": "Klimaforandringerne kan få alvorlige konsekvenser for landbruget.",
+      "en": "Climate change can have serious consequences for farming."
+    }
+  ],
+  "w-a-sjaelden": [
+    {
+      "form": "sjælden",
+      "da": "Han lider af en sjælden sygdom.",
+      "en": "He suffers from a rare disease."
+    },
+    {
+      "form": "sjældent",
+      "da": "Vi spiser sjældent på restaurant.",
+      "en": "We rarely eat at restaurants."
+    },
+    {
+      "form": "sjældne",
+      "da": "Museet viser nogle sjældne mønter.",
+      "en": "The museum displays some rare coins."
+    }
+  ],
+  "w-a-naturlig": [
+    {
+      "form": "naturlig",
+      "da": "Det er en naturlig reaktion at blive ked af det.",
+      "en": "It is a natural reaction to become sad."
+    },
+    {
+      "form": "naturligt",
+      "da": "Det er helt naturligt at være nervøs før en prøve.",
+      "en": "It is completely natural to be nervous before a test."
+    },
+    {
+      "form": "naturlige",
+      "da": "Hun bruger kun naturlige produkter i håret.",
+      "en": "She only uses natural products in her hair."
+    }
+  ],
+  "w-a-tydelig": [
+    {
+      "form": "tydelig",
+      "da": "Læreren har en meget tydelig stemme.",
+      "en": "The teacher has a very clear voice."
+    },
+    {
+      "form": "tydeligt",
+      "da": "Kan du tale lidt mere tydeligt?",
+      "en": "Can you speak a little more clearly?"
+    },
+    {
+      "form": "tydelige",
+      "da": "Der er tydelige tegn på, at økonomien bliver bedre.",
+      "en": "There are clear signs that the economy is improving."
+    }
+  ],
+  "w-a-ansvarlig": [
+    {
+      "form": "ansvarlig",
+      "da": "Hun er ansvarlig for budgettet i afdelingen.",
+      "en": "She is responsible for the budget in the department."
+    },
+    {
+      "form": "ansvarligt",
+      "da": "Det er ikke ansvarligt at køre bil, når man har drukket.",
+      "en": "It is not responsible to drive when you have been drinking."
+    },
+    {
+      "form": "ansvarlige",
+      "da": "De ansvarlige politikere må finde en løsning.",
+      "en": "The responsible politicians must find a solution."
+    }
+  ],
+  "w-a-selvstaendig": [
+    {
+      "form": "selvstændig",
+      "da": "Min datter er blevet meget selvstændig, siden hun flyttede hjemmefra.",
+      "en": "My daughter has become very independent since she moved away from home."
+    },
+    {
+      "form": "selvstændigt",
+      "da": "Eleverne skal lære at arbejde selvstændigt.",
+      "en": "The pupils must learn to work independently."
+    },
+    {
+      "form": "selvstændige",
+      "da": "Skolen vil gerne have selvstændige elever, der kan tage ansvar.",
+      "en": "The school wants independent pupils who can take responsibility."
+    }
+  ],
+  "w-a-talmodig": [
+    {
+      "form": "tålmodig",
+      "da": "Man skal være tålmodig, når man lærer et nyt sprog.",
+      "en": "You have to be patient when you learn a new language."
+    },
+    {
+      "form": "tålmodigt",
+      "da": "Hun ventede tålmodigt på sin tur hos lægen.",
+      "en": "She waited patiently for her turn at the doctor's."
+    },
+    {
+      "form": "tålmodige",
+      "da": "Tak til alle de tålmodige kunder i køen.",
+      "en": "Thank you to all the patient customers in the queue."
+    }
+  ],
+  "w-a-fornuftig": [
+    {
+      "form": "fornuftig",
+      "da": "Det lyder som en fornuftig plan.",
+      "en": "That sounds like a sensible plan."
+    },
+    {
+      "form": "fornuftigt",
+      "da": "Det er fornuftigt at spare op til en ny bil.",
+      "en": "It is sensible to save up for a new car."
+    },
+    {
+      "form": "fornuftige",
+      "da": "Vi har brug for fornuftige regler for brug af mobiler i skolen.",
+      "en": "We need sensible rules for the use of phones at school."
+    }
+  ],
+  "w-a-rimelig": [
+    {
+      "form": "rimelig",
+      "da": "Prisen på lejligheden er rimelig.",
+      "en": "The price of the flat is reasonable."
+    },
+    {
+      "form": "rimeligt",
+      "da": "Det er ikke rimeligt, at nogle skal betale mere end andre.",
+      "en": "It is not reasonable that some should pay more than others."
+    },
+    {
+      "form": "rimelige",
+      "da": "Vi kræver rimelige arbejdsforhold for alle ansatte.",
+      "en": "We demand reasonable working conditions for all employees."
+    }
+  ],
+  "w-a-ledig": [
+    {
+      "form": "ledig",
+      "da": "Han har været ledig i et halvt år.",
+      "en": "He has been unemployed for half a year."
+    },
+    {
+      "form": "ledigt",
+      "da": "Undskyld, er dette sæde ledigt?",
+      "en": "Excuse me, is this seat free?"
+    },
+    {
+      "form": "ledige",
+      "da": "Der er mange ledige stillinger i ældreplejen.",
+      "en": "There are many vacant positions in elderly care."
+    }
+  ],
+  "w-a-frivillig": [
+    {
+      "form": "frivillig",
+      "da": "Hun er frivillig i den lokale sportsklub.",
+      "en": "She is a volunteer in the local sports club."
+    },
+    {
+      "form": "frivilligt",
+      "da": "Han arbejder frivilligt på et værested to dage om ugen.",
+      "en": "He does voluntary work at a drop-in centre two days a week."
+    },
+    {
+      "form": "frivillige",
+      "da": "Festivalen kan ikke klare sig uden de mange frivillige.",
+      "en": "The festival cannot manage without its many volunteers."
+    }
+  ],
+  "w-a-lovlig": [
+    {
+      "form": "lovlig",
+      "da": "Er det en lovlig måde at spare skat på?",
+      "en": "Is that a legal way to save tax?"
+    },
+    {
+      "form": "lovligt",
+      "da": "Det er ikke lovligt at parkere her om natten.",
+      "en": "It is not legal to park here at night."
+    },
+    {
+      "form": "lovlige",
+      "da": "Firmaet ansætter kun folk med lovlige papirer.",
+      "en": "The company only employs people with legal papers."
+    }
+  ],
+  "w-a-ulovlig": [
+    {
+      "form": "ulovlig",
+      "da": "Politiet stoppede en ulovlig fest i nat.",
+      "en": "The police stopped an illegal party last night."
+    },
+    {
+      "form": "ulovligt",
+      "da": "Det er ulovligt at bruge mobilen, mens man kører bil.",
+      "en": "It is illegal to use your phone while driving."
+    },
+    {
+      "form": "ulovlige",
+      "da": "Tolden fandt ulovlige varer i lastbilen.",
+      "en": "Customs found illegal goods in the lorry."
+    }
+  ],
+  "w-a-usund": [
+    {
+      "form": "usund",
+      "da": "Fastfood er usund mad, hvis man spiser det hver dag.",
+      "en": "Fast food is unhealthy if you eat it every day."
+    },
+    {
+      "form": "usundt",
+      "da": "Det er usundt at sidde stille hele dagen.",
+      "en": "It is unhealthy to sit still all day."
+    },
+    {
+      "form": "usunde",
+      "da": "Mange børn spiser for mange usunde snacks.",
+      "en": "Many children eat too many unhealthy snacks."
+    }
+  ],
+  "w-a-arbejdslos": [
+    {
+      "form": "arbejdsløs",
+      "da": "Han blev arbejdsløs, da fabrikken lukkede.",
+      "en": "He became unemployed when the factory closed."
+    },
+    {
+      "form": "arbejdsløst",
+      "da": "Det er hårdt for et barn at have et arbejdsløst familiemedlem i lang tid.",
+      "en": "It is hard for a child to have an unemployed family member for a long time."
+    },
+    {
+      "form": "arbejdsløse",
+      "da": "Kommunen tilbyder kurser til arbejdsløse borgere.",
+      "en": "The municipality offers courses for unemployed citizens."
+    }
+  ],
+  "w-a-hjemlos": [
+    {
+      "form": "hjemløs",
+      "da": "Han var hjemløs i to år, før han fik en lejlighed.",
+      "en": "He was homeless for two years before he got a flat."
+    },
+    {
+      "form": "hjemløst",
+      "da": "Det er hårdt at leve et hjemløst liv om vinteren.",
+      "en": "It is hard to live a homeless life in winter."
+    },
+    {
+      "form": "hjemløse",
+      "da": "Om vinteren åbner kirken for de hjemløse.",
+      "en": "In winter the church opens its doors to the homeless."
+    }
+  ],
+  "w-a-effektiv": [
+    {
+      "form": "effektiv",
+      "da": "Hun er en meget effektiv medarbejder.",
+      "en": "She is a very efficient employee."
+    },
+    {
+      "form": "effektivt",
+      "da": "Vi skal bruge vores tid mere effektivt.",
+      "en": "We must use our time more efficiently."
+    },
+    {
+      "form": "effektive",
+      "da": "Nye maskiner har gjort fabrikkerne mere effektive.",
+      "en": "New machines have made the factories more efficient."
+    }
+  ],
+  "w-a-kreativ": [
+    {
+      "form": "kreativ",
+      "da": "Min datter er meget kreativ og elsker at tegne.",
+      "en": "My daughter is very creative and loves drawing."
+    },
+    {
+      "form": "kreativt",
+      "da": "Musik er et kreativt fag i skolen.",
+      "en": "Music is a creative subject at school."
+    },
+    {
+      "form": "kreative",
+      "da": "Vi har brug for kreative ideer til festen.",
+      "en": "We need creative ideas for the party."
+    }
+  ],
+  "w-a-stabil": [
+    {
+      "form": "stabil",
+      "da": "Patientens tilstand er stabil efter operationen.",
+      "en": "The patient's condition is stable after the operation."
+    },
+    {
+      "form": "stabilt",
+      "da": "Det er vigtigt for børn at have et stabilt hjem.",
+      "en": "It is important for children to have a stable home."
+    },
+    {
+      "form": "stabile",
+      "da": "Priserne har været stabile i et år.",
+      "en": "Prices have been stable for a year."
+    }
+  ],
+  "w-a-social": [
+    {
+      "form": "social",
+      "da": "Han er en meget social person.",
+      "en": "He is a very sociable person."
+    },
+    {
+      "form": "socialt",
+      "da": "Sport er godt for børn, både fysisk og socialt.",
+      "en": "Sport is good for children, both physically and socially."
+    },
+    {
+      "form": "sociale",
+      "da": "Unge bruger meget tid på sociale medier.",
+      "en": "Young people spend a lot of time on social media."
+    }
+  ],
+  "w-a-national": [
+    {
+      "form": "national",
+      "da": "Valget får stor national opmærksomhed.",
+      "en": "The election is getting a lot of national attention."
+    },
+    {
+      "form": "nationalt",
+      "da": "Prøven er den samme på nationalt plan.",
+      "en": "The test is the same at national level."
+    },
+    {
+      "form": "nationale",
+      "da": "Det nationale fodboldhold spiller i aften.",
+      "en": "The national football team is playing tonight."
+    }
+  ],
+  "w-a-international": [
+    {
+      "form": "international",
+      "da": "Hun arbejder i en international virksomhed.",
+      "en": "She works in an international company."
+    },
+    {
+      "form": "internationalt",
+      "da": "Forurening er et internationalt problem.",
+      "en": "Pollution is an international problem."
+    },
+    {
+      "form": "internationale",
+      "da": "Byen har flere internationale skoler.",
+      "en": "The city has several international schools."
+    }
+  ],
+  "w-a-global": [
+    {
+      "form": "global",
+      "da": "Opvarmningen af kloden er en global udfordring.",
+      "en": "The warming of the planet is a global challenge."
+    },
+    {
+      "form": "globalt",
+      "da": "Vi må tænke globalt og handle lokalt.",
+      "en": "We must think globally and act locally."
+    },
+    {
+      "form": "globale",
+      "da": "Den globale handel påvirker priserne i Danmark.",
+      "en": "Global trade affects prices in Denmark."
+    }
+  ],
+  "w-a-central": [
+    {
+      "form": "central",
+      "da": "Lejligheden har en central beliggenhed.",
+      "en": "The flat has a central location."
+    },
+    {
+      "form": "centralt",
+      "da": "Vi bor centralt, tæt på stationen.",
+      "en": "We live centrally, close to the station."
+    },
+    {
+      "form": "centrale",
+      "da": "Det er dyrt at bo i de centrale dele af byen.",
+      "en": "It is expensive to live in the central parts of the city."
+    }
+  ],
+  "w-a-digital": [
+    {
+      "form": "digital",
+      "da": "Vi får al post fra kommunen i en digital postkasse.",
+      "en": "We get all post from the municipality in a digital mailbox."
+    },
+    {
+      "form": "digitalt",
+      "da": "Man kan nu søge om pas digitalt.",
+      "en": "You can now apply for a passport digitally."
+    },
+    {
+      "form": "digitale",
+      "da": "Ældre borgere kan få hjælp til de digitale løsninger på biblioteket.",
+      "en": "Older citizens can get help with the digital services at the library."
+    }
+  ],
+  "w-a-serios": [
+    {
+      "form": "seriøs",
+      "da": "Han er en seriøs elev, der altid laver lektier.",
+      "en": "He is a serious pupil who always does his homework."
+    },
+    {
+      "form": "seriøst",
+      "da": "Mener du det seriøst, at du vil flytte?",
+      "en": "Do you seriously mean that you want to move?"
+    },
+    {
+      "form": "seriøse",
+      "da": "Vi samarbejder kun med seriøse firmaer.",
+      "en": "We only work with reputable companies."
+    }
+  ],
+  "w-a-religios": [
+    {
+      "form": "religiøs",
+      "da": "Hun er ikke særlig religiøs, men hun går i kirke til jul.",
+      "en": "She is not very religious, but she goes to church at Christmas."
+    },
+    {
+      "form": "religiøst",
+      "da": "De blev gift ved et religiøst bryllup.",
+      "en": "They were married at a religious wedding."
+    },
+    {
+      "form": "religiøse",
+      "da": "I Danmark er der plads til mange religiøse grupper.",
+      "en": "In Denmark there is room for many religious groups."
+    }
+  ],
+  "w-a-ambitios": [
+    {
+      "form": "ambitiøs",
+      "da": "Hun er meget ambitiøs og vil gerne være læge.",
+      "en": "She is very ambitious and wants to be a doctor."
+    },
+    {
+      "form": "ambitiøst",
+      "da": "Kommunen har sat sig et ambitiøst klimamål.",
+      "en": "The municipality has set itself an ambitious climate target."
+    },
+    {
+      "form": "ambitiøse",
+      "da": "Regeringen har ambitiøse planer for den grønne omstilling.",
+      "en": "The government has ambitious plans for the green transition."
+    }
+  ],
+  "w-a-enig": [
+    {
+      "form": "enig",
+      "da": "Jeg er enig med dig i, at prisen er for høj.",
+      "en": "I agree with you that the price is too high."
+    },
+    {
+      "form": "enigt",
+      "da": "Et enigt udvalg stemte for forslaget.",
+      "en": "A unanimous committee voted for the proposal."
+    },
+    {
+      "form": "enige",
+      "da": "Vi er enige om, at børnene skal i seng klokken otte.",
+      "en": "We agree that the children should go to bed at eight o'clock."
+    }
+  ],
+  "w-a-uenig": [
+    {
+      "form": "uenig",
+      "da": "Jeg er uenig i den beslutning.",
+      "en": "I disagree with that decision."
+    },
+    {
+      "form": "uenigt",
+      "da": "Panelet var uenigt om, hvem der skulle vinde.",
+      "en": "The panel disagreed about who should win."
+    },
+    {
+      "form": "uenige",
+      "da": "Mine forældre er ofte uenige om politik.",
+      "en": "My parents often disagree about politics."
+    }
+  ],
+  "w-a-trang": [
+    {
+      "form": "trang",
+      "da": "Vi bor i en trang lejlighed med to børn.",
+      "en": "We live in a cramped flat with two children."
+    },
+    {
+      "form": "trangt",
+      "da": "Der er trangt i bussen i myldretiden.",
+      "en": "It is cramped on the bus in the rush hour."
+    },
+    {
+      "form": "trange",
+      "da": "Mange studerende bor under trange forhold.",
+      "en": "Many students live in cramped conditions."
+    }
+  ],
+  "w-a-rummelig": [
+    {
+      "form": "rummelig",
+      "da": "Den nye bil er meget rummelig.",
+      "en": "The new car is very spacious."
+    },
+    {
+      "form": "rummeligt",
+      "da": "Huset har et rummeligt køkken.",
+      "en": "The house has a spacious kitchen."
+    },
+    {
+      "form": "rummelige",
+      "da": "Den nye skole har lyse og rummelige klasseværelser.",
+      "en": "The new school has bright and spacious classrooms."
+    }
+  ],
+  "w-a-nysgerrig": [
+    {
+      "form": "nysgerrig",
+      "da": "Min søn er nysgerrig og stiller mange spørgsmål.",
+      "en": "My son is curious and asks lots of questions."
+    },
+    {
+      "form": "nysgerrigt",
+      "da": "Katten kiggede nysgerrigt ind i kassen.",
+      "en": "The cat looked curiously into the box."
+    },
+    {
+      "form": "nysgerrige",
+      "da": "De nysgerrige naboer kiggede ud ad vinduet.",
+      "en": "The curious neighbours looked out of the window."
+    }
+  ],
+  "w-a-arlig": [
+    {
+      "form": "årlig",
+      "da": "Medarbejderne får en årlig lønforhøjelse.",
+      "en": "The employees get an annual pay rise."
+    },
+    {
+      "form": "årligt",
+      "da": "Kommunen holder et årligt møde for nye borgere.",
+      "en": "The municipality holds an annual meeting for new residents."
+    },
+    {
+      "form": "årlige",
+      "da": "Den årlige sommerfest bliver holdt i juni.",
+      "en": "The annual summer party is held in June."
+    }
+  ],
+  "w-a-faglig": [
+    {
+      "form": "faglig",
+      "da": "Hun har en stærk faglig baggrund i økonomi.",
+      "en": "She has a strong academic background in economics."
+    },
+    {
+      "form": "fagligt",
+      "da": "Han klarer sig godt fagligt, men har få venner.",
+      "en": "He is doing well academically but has few friends."
+    },
+    {
+      "form": "faglige",
+      "da": "Skolen vil styrke elevernes faglige niveau.",
+      "en": "The school wants to raise the pupils' academic level."
+    }
+  ],
+  "w-a-kulturel": [
+    {
+      "form": "kulturel",
+      "da": "Byen har en rig kulturel historie.",
+      "en": "The city has a rich cultural history."
+    },
+    {
+      "form": "kulturelt",
+      "da": "Biblioteket er et vigtigt kulturelt mødested i lokalområdet.",
+      "en": "The library is an important cultural meeting place in the local area."
+    },
+    {
+      "form": "kulturelle",
+      "da": "Der er store kulturelle forskelle mellem landene.",
+      "en": "There are big cultural differences between the countries."
+    }
+  ],
+  "w-a-professionel": [
+    {
+      "form": "professionel",
+      "da": "Han drømmer om at blive professionel fodboldspiller.",
+      "en": "He dreams of becoming a professional footballer."
+    },
+    {
+      "form": "professionelt",
+      "da": "Personalet håndterede klagen meget professionelt.",
+      "en": "The staff handled the complaint very professionally."
+    },
+    {
+      "form": "professionelle",
+      "da": "Vi fik professionelle håndværkere til at lægge det nye tag.",
+      "en": "We got professional builders to put on the new roof."
+    }
+  ],
+  "w-a-voksen": [
+    {
+      "form": "voksen",
+      "da": "Når man er voksen, skal man betale sine egne regninger.",
+      "en": "When you are an adult, you have to pay your own bills."
+    },
+    {
+      "form": "voksent",
+      "da": "Barnet har et meget voksent sprog for sin alder.",
+      "en": "The child has very grown-up language for her age."
+    },
+    {
+      "form": "voksne",
+      "da": "Kurset er for voksne, der vil lære at svømme.",
+      "en": "The course is for adults who want to learn to swim."
+    }
+  ],
+  "w-a-doven": [
+    {
+      "form": "doven",
+      "da": "Jeg var lidt doven i weekenden og blev i sengen.",
+      "en": "I was a bit lazy at the weekend and stayed in bed."
+    },
+    {
+      "form": "dovent",
+      "da": "Katten lever et dovent liv i sofaen.",
+      "en": "The cat lives a lazy life on the sofa."
+    },
+    {
+      "form": "dovne",
+      "da": "De dovne søndage er de bedste.",
+      "en": "The lazy Sundays are the best."
+    }
+  ],
+  "w-a-usikker": [
+    {
+      "form": "usikker",
+      "da": "Jeg er usikker på, om jeg har bestået.",
+      "en": "I am unsure whether I have passed."
+    },
+    {
+      "form": "usikkert",
+      "da": "Det er usikkert, om toget kører i morgen.",
+      "en": "It is uncertain whether the train will run tomorrow."
+    },
+    {
+      "form": "usikre",
+      "da": "Mange unge har usikre ansættelser.",
+      "en": "Many young people have insecure jobs."
+    }
+  ],
+  "w-a-laekker": [
+    {
+      "form": "lækker",
+      "da": "Det var en lækker middag.",
+      "en": "It was a delicious dinner."
+    },
+    {
+      "form": "lækkert",
+      "da": "Det dufter lækkert fra køkkenet.",
+      "en": "There is a delicious smell coming from the kitchen."
+    },
+    {
+      "form": "lækre",
+      "da": "Bageren sælger lækre boller om søndagen.",
+      "en": "The baker sells delicious rolls on Sundays."
+    }
+  ],
+  "w-a-simpel": [
+    {
+      "form": "simpel",
+      "da": "Løsningen er faktisk ret simpel.",
+      "en": "The solution is actually quite simple."
+    },
+    {
+      "form": "simpelt",
+      "da": "Spillet er simpelt at lære.",
+      "en": "The game is simple to learn."
+    },
+    {
+      "form": "simple",
+      "da": "Hun foretrækker simple retter med få ingredienser.",
+      "en": "She prefers simple dishes with few ingredients."
+    }
+  ],
+  "w-a-praktisk": [
+    {
+      "form": "praktisk",
+      "da": "Det er praktisk at bo tæt på skolen.",
+      "en": "It is practical to live close to the school."
+    },
+    {
+      "form": "praktiske",
+      "da": "Vi skal snakke om de praktiske ting før flytningen.",
+      "en": "We need to talk about the practical things before the move."
+    }
+  ],
+  "w-a-okonomisk": [
+    {
+      "form": "økonomisk",
+      "da": "Familien har det svært økonomisk efter fyringen.",
+      "en": "The family is struggling financially after the dismissal."
+    },
+    {
+      "form": "økonomiske",
+      "da": "Mange studerende har økonomiske problemer.",
+      "en": "Many students have financial problems."
+    }
+  ],
+  "w-a-politisk": [
+    {
+      "form": "politisk",
+      "da": "Han er ikke medlem af noget politisk parti.",
+      "en": "He is not a member of any political party."
+    },
+    {
+      "form": "politiske",
+      "da": "De politiske partier diskuterer klimaet før valget.",
+      "en": "The political parties discuss the climate before the election."
+    }
+  ],
+  "w-a-typisk": [
+    {
+      "form": "typisk",
+      "da": "Rugbrød er typisk dansk mad.",
+      "en": "Rye bread is typical Danish food."
+    },
+    {
+      "form": "typiske",
+      "da": "Hvad er de typiske fejl, når man skriver dansk?",
+      "en": "What are the typical mistakes when you write Danish?"
+    }
+  ],
+  "w-a-fantastisk": [
+    {
+      "form": "fantastisk",
+      "da": "Vi havde en fantastisk ferie i Norge.",
+      "en": "We had a fantastic holiday in Norway."
+    },
+    {
+      "form": "fantastiske",
+      "da": "Tak for jeres fantastiske gæstfrihed.",
+      "en": "Thank you for your fantastic hospitality."
+    }
+  ],
+  "w-a-privat": [
+    {
+      "form": "privat",
+      "da": "Han går til en privat tandlæge.",
+      "en": "He goes to a private dentist."
+    },
+    {
+      "form": "private",
+      "da": "Mange private virksomheder søger flere ansatte.",
+      "en": "Many private companies are looking for more employees."
+    }
+  ],
+  "w-a-interessant": [
+    {
+      "form": "interessant",
+      "da": "Det var et interessant foredrag om historie.",
+      "en": "It was an interesting lecture about history."
+    },
+    {
+      "form": "interessante",
+      "da": "Vi mødte mange interessante mennesker på kurset.",
+      "en": "We met many interesting people on the course."
+    }
+  ],
+  "w-a-interesseret": [
+    {
+      "form": "interesseret",
+      "da": "Er du interesseret i at komme med til koncerten?",
+      "en": "Are you interested in coming along to the concert?"
+    },
+    {
+      "form": "interesserede",
+      "da": "Alle interesserede er velkomne til mødet på torsdag.",
+      "en": "Everyone interested is welcome at the meeting on Thursday."
+    }
+  ],
+  "w-a-uddannet": [
+    {
+      "form": "uddannet",
+      "da": "Hun er uddannet sygeplejerske i Filippinerne.",
+      "en": "She trained as a nurse in the Philippines."
+    },
+    {
+      "form": "uddannede",
+      "da": "Mange børnehaver mangler uddannede pædagoger.",
+      "en": "Many kindergartens lack trained early-childhood educators."
+    }
+  ],
+  "w-a-fremmed": [
+    {
+      "form": "fremmed",
+      "da": "Det er svært at starte forfra i et fremmed land.",
+      "en": "It is hard to start over in a foreign country."
+    },
+    {
+      "form": "fremmede",
+      "da": "Børn skal ikke gå med fremmede mennesker.",
+      "en": "Children should not go with strangers."
+    }
+  ],
+  "w-a-fast": [
+    {
+      "form": "fast",
+      "da": "Efter to år fik hun endelig et fast job.",
+      "en": "After two years she finally got a permanent job."
+    },
+    {
+      "form": "faste",
+      "da": "Børn har brug for faste rutiner.",
+      "en": "Children need fixed routines."
+    }
+  ],
+  "w-a-stresset": [
+    {
+      "form": "stresset",
+      "da": "Han har været meget stresset på arbejdet.",
+      "en": "He has been very stressed at work."
+    },
+    {
+      "form": "stressede",
+      "da": "Mange stressede forældre mangler tid til sig selv.",
+      "en": "Many stressed parents lack time for themselves."
+    }
+  ],
+  "w-a-aktuel": [
+    {
+      "form": "aktuel",
+      "da": "Debatten om boligmangel er meget aktuel lige nu.",
+      "en": "The debate about the housing shortage is very topical right now."
+    },
+    {
+      "form": "aktuelt",
+      "da": "Emnet er særligt aktuelt efter valget.",
+      "en": "The topic is particularly relevant after the election."
+    },
+    {
+      "form": "aktuelle",
+      "da": "Vi diskuterede den aktuelle situation på boligmarkedet.",
+      "en": "We discussed the current situation on the housing market."
+    }
+  ],
+  "w-a-officiel": [
+    {
+      "form": "officiel",
+      "da": "Hun har fået en officiel invitation fra ambassaden.",
+      "en": "She has received an official invitation from the embassy."
+    },
+    {
+      "form": "officielt",
+      "da": "Den nye bro bliver åbnet officielt i maj.",
+      "en": "The new bridge will be officially opened in May."
+    },
+    {
+      "form": "officielle",
+      "da": "Det står på kommunens officielle hjemmeside.",
+      "en": "It says so on the municipality's official website."
+    }
+  ],
+  "w-a-baeredygtig": [
+    {
+      "form": "bæredygtig",
+      "da": "Vi skal have en mere bæredygtig produktion af fødevarer.",
+      "en": "We need a more sustainable production of food."
+    },
+    {
+      "form": "bæredygtigt",
+      "da": "Det er bæredygtigt at købe brugt tøj.",
+      "en": "It is sustainable to buy second-hand clothes."
+    },
+    {
+      "form": "bæredygtige",
+      "da": "Flere virksomheder satser på bæredygtige materialer.",
+      "en": "More companies are investing in sustainable materials."
+    }
+  ],
+  "w-a-miljovenlig": [
+    {
+      "form": "miljøvenlig",
+      "da": "Cyklen er en miljøvenlig måde at komme rundt på.",
+      "en": "The bicycle is an environmentally friendly way to get around."
+    },
+    {
+      "form": "miljøvenligt",
+      "da": "Vi prøver at leve mere miljøvenligt i hverdagen.",
+      "en": "We try to live in a more environmentally friendly way in everyday life."
+    },
+    {
+      "form": "miljøvenlige",
+      "da": "Supermarkedet sælger flere miljøvenlige produkter end før.",
+      "en": "The supermarket sells more environmentally friendly products than before."
+    }
+  ],
+  "w-a-midlertidig": [
+    {
+      "form": "midlertidig",
+      "da": "Han har en midlertidig opholdstilladelse.",
+      "en": "He has a temporary residence permit."
+    },
+    {
+      "form": "midlertidigt",
+      "da": "Svømmehallen er midlertidigt lukket på grund af reparationer.",
+      "en": "The swimming pool is temporarily closed because of repairs."
+    },
+    {
+      "form": "midlertidige",
+      "da": "Mange flygtninge bor i midlertidige boliger.",
+      "en": "Many refugees live in temporary housing."
+    }
+  ],
+  "w-a-fremtidig": [
+    {
+      "form": "fremtidig",
+      "da": "Kommunen planlægger en fremtidig udvidelse af skolen.",
+      "en": "The municipality is planning a future extension of the school."
+    },
+    {
+      "form": "fremtidigt",
+      "da": "Kommunen har købt jord til et fremtidigt plejehjem.",
+      "en": "The municipality has bought land for a future care home."
+    },
+    {
+      "form": "fremtidige",
+      "da": "Vi skal passe på naturen for de fremtidige generationer.",
+      "en": "We must take care of nature for future generations."
+    }
+  ],
+  "w-a-retfaerdig": [
+    {
+      "form": "retfærdig",
+      "da": "Mange mener, at skatten ikke er retfærdig.",
+      "en": "Many people think that the tax is not fair."
+    },
+    {
+      "form": "retfærdigt",
+      "da": "Det er retfærdigt, at alle får samme chance.",
+      "en": "It is fair that everyone gets the same chance."
+    },
+    {
+      "form": "retfærdige",
+      "da": "Vi ønsker retfærdige regler for alle borgere.",
+      "en": "We want fair rules for all citizens."
+    }
+  ],
+  "w-a-uretfaerdig": [
+    {
+      "form": "uretfærdig",
+      "da": "Dommerens beslutning i kampen var uretfærdig.",
+      "en": "The referee's decision in the match was unfair."
+    },
+    {
+      "form": "uretfærdigt",
+      "da": "Det er uretfærdigt, at nogle elever får mere hjælp end andre.",
+      "en": "It is unfair that some pupils get more help than others."
+    },
+    {
+      "form": "uretfærdige",
+      "da": "Arbejderne protesterede mod de uretfærdige vilkår.",
+      "en": "The workers protested against the unfair conditions."
+    }
+  ],
+  "w-a-afhaengig": [
+    {
+      "form": "afhængig",
+      "da": "Han er afhængig af hjælp fra sin familie.",
+      "en": "He is dependent on help from his family."
+    },
+    {
+      "form": "afhængigt",
+      "da": "Prisen varierer afhængigt af sæsonen.",
+      "en": "The price varies depending on the season."
+    },
+    {
+      "form": "afhængige",
+      "da": "Mange unge er blevet afhængige af deres telefon.",
+      "en": "Many young people have become dependent on their phones."
+    }
+  ],
+  "w-a-uafhaengig": [
+    {
+      "form": "uafhængig",
+      "da": "Hun vil gerne være økonomisk uafhængig af sine forældre.",
+      "en": "She wants to be financially independent of her parents."
+    },
+    {
+      "form": "uafhængigt",
+      "da": "Sagen bliver undersøgt af et uafhængigt udvalg.",
+      "en": "The case is being investigated by an independent committee."
+    },
+    {
+      "form": "uafhængige",
+      "da": "Det er vigtigt med uafhængige medier i et demokrati.",
+      "en": "Independent media are important in a democracy."
+    }
+  ],
+  "w-a-vaesentlig": [
+    {
+      "form": "væsentlig",
+      "da": "Der er en væsentlig forskel på de to tilbud.",
+      "en": "There is a significant difference between the two offers."
+    },
+    {
+      "form": "væsentligt",
+      "da": "Huslejen er steget væsentligt i år.",
+      "en": "The rent has risen significantly this year."
+    },
+    {
+      "form": "væsentlige",
+      "da": "Rapporten nævner tre væsentlige problemer.",
+      "en": "The report mentions three significant problems."
+    }
+  ],
+  "w-a-grundig": [
+    {
+      "form": "grundig",
+      "da": "Lægen lavede en grundig undersøgelse.",
+      "en": "The doctor carried out a thorough examination."
+    },
+    {
+      "form": "grundigt",
+      "da": "Læs kontrakten grundigt, før du skriver under.",
+      "en": "Read the contract thoroughly before you sign."
+    },
+    {
+      "form": "grundige",
+      "da": "Tak for dine grundige svar på mine spørgsmål.",
+      "en": "Thank you for your thorough answers to my questions."
+    }
+  ],
+  "w-a-palidelig": [
+    {
+      "form": "pålidelig",
+      "da": "Hun er en pålidelig kollega, man kan stole på.",
+      "en": "She is a reliable colleague you can trust."
+    },
+    {
+      "form": "pålideligt",
+      "da": "Det gamle system fungerer ikke pålideligt længere.",
+      "en": "The old system no longer works reliably."
+    },
+    {
+      "form": "pålidelige",
+      "da": "Vi har brug for pålidelige oplysninger om sagen.",
+      "en": "We need reliable information about the matter."
+    }
+  ],
+  "w-a-tilgaengelig": [
+    {
+      "form": "tilgængelig",
+      "da": "Rapporten er tilgængelig på hjemmesiden.",
+      "en": "The report is available on the website."
+    },
+    {
+      "form": "tilgængeligt",
+      "da": "Museet er tilgængeligt for kørestolsbrugere.",
+      "en": "The museum is accessible to wheelchair users."
+    },
+    {
+      "form": "tilgængelige",
+      "da": "Alle oplysninger skal være tilgængelige for borgerne.",
+      "en": "All information must be accessible to citizens."
+    }
+  ],
+  "w-a-skadelig": [
+    {
+      "form": "skadelig",
+      "da": "Rygning er skadelig for helbredet.",
+      "en": "Smoking is harmful to health."
+    },
+    {
+      "form": "skadeligt",
+      "da": "For meget sukker er skadeligt for tænderne.",
+      "en": "Too much sugar is harmful to the teeth."
+    },
+    {
+      "form": "skadelige",
+      "da": "Nogle plastikprodukter indeholder skadelige stoffer.",
+      "en": "Some plastic products contain harmful substances."
+    }
+  ],
+  "w-a-giftig": [
+    {
+      "form": "giftig",
+      "da": "Denne svamp er giftig, så du må ikke spise den.",
+      "en": "This mushroom is poisonous, so you must not eat it."
+    },
+    {
+      "form": "giftigt",
+      "da": "Det er giftigt for hunde at spise chokolade.",
+      "en": "It is poisonous for dogs to eat chocolate."
+    },
+    {
+      "form": "giftige",
+      "da": "Fabrikken har udledt giftige stoffer i åen.",
+      "en": "The factory has discharged toxic substances into the stream."
+    }
+  ],
+  "w-a-omhyggelig": [
+    {
+      "form": "omhyggelig",
+      "da": "Hun er meget omhyggelig med sit arbejde.",
+      "en": "She is very careful with her work."
+    },
+    {
+      "form": "omhyggeligt",
+      "da": "Han pakkede glassene omhyggeligt ind før flytningen.",
+      "en": "He wrapped the glasses carefully before the move."
+    },
+    {
+      "form": "omhyggelige",
+      "da": "Takket være hans omhyggelige planlægning gik alt godt.",
+      "en": "Thanks to his careful planning everything went well."
+    }
+  ],
+  "w-a-taknemmelig": [
+    {
+      "form": "taknemmelig",
+      "da": "Jeg er taknemmelig for al jeres hjælp.",
+      "en": "I am grateful for all your help."
+    },
+    {
+      "form": "taknemmeligt",
+      "da": "Barnet smilede taknemmeligt til sygeplejersken.",
+      "en": "The child smiled gratefully at the nurse."
+    },
+    {
+      "form": "taknemmelige",
+      "da": "Vi er taknemmelige for, at alle kom hjem i god behold.",
+      "en": "We are grateful that everyone came home safe and sound."
+    }
+  ],
+  "w-a-ubehagelig": [
+    {
+      "form": "ubehagelig",
+      "da": "Det var en ubehagelig oplevelse at blive røvet.",
+      "en": "It was an unpleasant experience to be robbed."
+    },
+    {
+      "form": "ubehageligt",
+      "da": "Det er ubehageligt at gå alene hjem i mørket.",
+      "en": "It is unpleasant to walk home alone in the dark."
+    },
+    {
+      "form": "ubehagelige",
+      "da": "Hun undgår ubehagelige samtaler med sin chef.",
+      "en": "She avoids unpleasant conversations with her boss."
+    }
+  ],
+  "w-a-pinlig": [
+    {
+      "form": "pinlig",
+      "da": "Det var en pinlig fejl i præsentationen.",
+      "en": "It was an embarrassing mistake in the presentation."
+    },
+    {
+      "form": "pinligt",
+      "da": "Det var pinligt, at jeg glemte hans navn.",
+      "en": "It was embarrassing that I forgot his name."
+    },
+    {
+      "form": "pinlige",
+      "da": "Teenagere synes ofte, at deres forældre er pinlige.",
+      "en": "Teenagers often think their parents are embarrassing."
+    }
+  ],
+  "w-a-ansvarsfuld": [
+    {
+      "form": "ansvarsfuld",
+      "da": "Hun har en ansvarsfuld stilling i firmaet.",
+      "en": "She has a responsible position in the company."
+    },
+    {
+      "form": "ansvarsfuldt",
+      "da": "Det er ansvarsfuldt at tænke på miljøet, når man handler.",
+      "en": "It is responsible to think about the environment when you shop."
+    },
+    {
+      "form": "ansvarsfulde",
+      "da": "Vi søger ansvarsfulde unge til et fritidsjob.",
+      "en": "We are looking for responsible young people for a part-time job."
+    }
+  ],
+  "w-a-meningsfuld": [
+    {
+      "form": "meningsfuld",
+      "da": "Han ønsker sig en meningsfuld hverdag efter pensionen.",
+      "en": "He wants a meaningful everyday life after retirement."
+    },
+    {
+      "form": "meningsfuldt",
+      "da": "Det er meningsfuldt at arbejde med mennesker.",
+      "en": "It is meaningful to work with people."
+    },
+    {
+      "form": "meningsfulde",
+      "da": "Eleverne skal have meningsfulde opgaver i skolen.",
+      "en": "Pupils must have meaningful tasks at school."
+    }
+  ],
+  "w-a-vaerdifuld": [
+    {
+      "form": "værdifuld",
+      "da": "Hendes erfaring er meget værdifuld for teamet.",
+      "en": "Her experience is very valuable to the team."
+    },
+    {
+      "form": "værdifuldt",
+      "da": "Det gamle maleri er meget værdifuldt.",
+      "en": "The old painting is very valuable."
+    },
+    {
+      "form": "værdifulde",
+      "da": "Opbevar dine værdifulde ting i et sikkert skab.",
+      "en": "Keep your valuables in a secure cupboard."
+    }
+  ],
+  "w-a-holdbar": [
+    {
+      "form": "holdbar",
+      "da": "Mælken er holdbar til på fredag.",
+      "en": "The milk keeps until Friday."
+    },
+    {
+      "form": "holdbart",
+      "da": "Det nuværende pensionssystem er ikke holdbart i længden.",
+      "en": "The current pension system is not sustainable in the long run."
+    },
+    {
+      "form": "holdbare",
+      "da": "Vi skal finde holdbare løsninger på boligkrisen.",
+      "en": "We must find lasting solutions to the housing crisis."
+    }
+  ],
+  "w-a-sarbar": [
+    {
+      "form": "sårbar",
+      "da": "Efter ulykken følte hun sig meget sårbar.",
+      "en": "After the accident she felt very vulnerable."
+    },
+    {
+      "form": "sårbart",
+      "da": "Et lille barn er sårbart over for kulde.",
+      "en": "A small child is vulnerable to the cold."
+    },
+    {
+      "form": "sårbare",
+      "da": "Sårbare børn har brug for ekstra støtte i skolen.",
+      "en": "Vulnerable children need extra support at school."
+    }
+  ],
+  "w-a-loyal": [
+    {
+      "form": "loyal",
+      "da": "Han har været en loyal medarbejder i tyve år.",
+      "en": "He has been a loyal employee for twenty years."
+    },
+    {
+      "form": "loyalt",
+      "da": "Hun har altid støttet sin ven loyalt.",
+      "en": "She has always loyally supported her friend."
+    },
+    {
+      "form": "loyale",
+      "da": "Butikken belønner sine loyale kunder med rabat.",
+      "en": "The shop rewards its loyal customers with a discount."
+    }
+  ],
+  "w-a-konservativ": [
+    {
+      "form": "konservativ",
+      "da": "Min bedstemor er ret konservativ i sit syn på familien.",
+      "en": "My grandmother is quite conservative in her view of the family."
+    },
+    {
+      "form": "konservativt",
+      "da": "Banken har et konservativt syn på lån.",
+      "en": "The bank has a conservative view of loans."
+    },
+    {
+      "form": "konservative",
+      "da": "Han har konservative holdninger til opdragelse.",
+      "en": "He has conservative views on child-rearing."
+    }
+  ],
+  "w-a-liberal": [
+    {
+      "form": "liberal",
+      "da": "Hun har en liberal holdning til arbejdstider.",
+      "en": "She has a liberal attitude to working hours."
+    },
+    {
+      "form": "liberalt",
+      "da": "Danmark har et liberalt arbejdsmarked med fleksible regler.",
+      "en": "Denmark has a liberal labour market with flexible rules."
+    },
+    {
+      "form": "liberale",
+      "da": "Byen er kendt for sine liberale regler for udeservering.",
+      "en": "The city is known for its liberal rules on outdoor serving."
+    }
+  ],
+  "w-a-neutral": [
+    {
+      "form": "neutral",
+      "da": "Læreren prøver at være neutral i diskussionen.",
+      "en": "The teacher tries to be neutral in the discussion."
+    },
+    {
+      "form": "neutralt",
+      "da": "Journalisten skrev et neutralt referat af mødet.",
+      "en": "The journalist wrote a neutral report of the meeting."
+    },
+    {
+      "form": "neutrale",
+      "da": "Vi malede stuen i neutrale farver.",
+      "en": "We painted the living room in neutral colours."
+    }
+  ],
+  "w-a-kommunal": [
+    {
+      "form": "kommunal",
+      "da": "Hun går i en kommunal børnehave.",
+      "en": "She goes to a municipal kindergarten."
+    },
+    {
+      "form": "kommunalt",
+      "da": "Den nye svømmehal er kommunalt ejet.",
+      "en": "The new swimming pool is municipally owned."
+    },
+    {
+      "form": "kommunale",
+      "da": "De kommunale skoler mangler penge til nye computere.",
+      "en": "The municipal schools lack money for new computers."
+    }
+  ],
+  "w-a-rationel": [
+    {
+      "form": "rationel",
+      "da": "Han prøver at træffe en rationel beslutning.",
+      "en": "He tries to make a rational decision."
+    },
+    {
+      "form": "rationelt",
+      "da": "Det er rationelt at samle alle møder på én dag.",
+      "en": "It is rational to gather all meetings on one day."
+    },
+    {
+      "form": "rationelle",
+      "da": "Vi har brug for rationelle argumenter, ikke følelser.",
+      "en": "We need rational arguments, not feelings."
+    }
+  ],
+  "w-a-kontroversiel": [
+    {
+      "form": "kontroversiel",
+      "da": "Den nye parkeringsordning er meget kontroversiel i byen.",
+      "en": "The new parking scheme is very controversial in the town."
+    },
+    {
+      "form": "kontroversielt",
+      "da": "Forslaget om at lukke skolen er kontroversielt.",
+      "en": "The proposal to close the school is controversial."
+    },
+    {
+      "form": "kontroversielle",
+      "da": "Debatten handlede om flere kontroversielle emner.",
+      "en": "The debate dealt with several controversial topics."
+    }
+  ],
+  "w-a-erfaren": [
+    {
+      "form": "erfaren",
+      "da": "Vi søger en erfaren tømrer til projektet.",
+      "en": "We are looking for an experienced carpenter for the project."
+    },
+    {
+      "form": "erfarent",
+      "da": "Holdet har brug for et erfarent medlem.",
+      "en": "The team needs an experienced member."
+    },
+    {
+      "form": "erfarne",
+      "da": "De erfarne kolleger hjælper de nye medarbejdere.",
+      "en": "The experienced colleagues help the new employees."
+    }
+  ],
+  "w-a-fleksibel": [
+    {
+      "form": "fleksibel",
+      "da": "Man skal være fleksibel, når man arbejder i skiftehold.",
+      "en": "You have to be flexible when you work shifts."
+    },
+    {
+      "form": "fleksibelt",
+      "da": "Mit arbejde giver mig et fleksibelt skema.",
+      "en": "My job gives me a flexible schedule."
+    },
+    {
+      "form": "fleksible",
+      "da": "Mange forældre ønsker fleksible arbejdstider.",
+      "en": "Many parents want flexible working hours."
+    }
+  ],
+  "w-a-tvivlsom": [
+    {
+      "form": "tvivlsom",
+      "da": "Den hjemmeside er en tvivlsom kilde.",
+      "en": "That website is a doubtful source."
+    },
+    {
+      "form": "tvivlsomt",
+      "da": "Det er tvivlsomt, om vi når færdig i dag.",
+      "en": "It is doubtful whether we will finish today."
+    },
+    {
+      "form": "tvivlsomme",
+      "da": "Firmaet er kendt for sine tvivlsomme metoder.",
+      "en": "The company is known for its dubious methods."
+    }
+  ],
+  "w-a-kritisk": [
+    {
+      "form": "kritisk",
+      "da": "Man bør være kritisk over for nyheder på sociale medier.",
+      "en": "You should be critical of news on social media."
+    },
+    {
+      "form": "kritiske",
+      "da": "Journalisten stillede mange kritiske spørgsmål.",
+      "en": "The journalist asked many critical questions."
+    }
+  ],
+  "w-a-demokratisk": [
+    {
+      "form": "demokratisk",
+      "da": "Danmark er et demokratisk land.",
+      "en": "Denmark is a democratic country."
+    },
+    {
+      "form": "demokratiske",
+      "da": "Skolen lærer børnene om demokratiske værdier.",
+      "en": "The school teaches the children about democratic values."
+    }
+  ],
+  "w-a-okologisk": [
+    {
+      "form": "økologisk",
+      "da": "Vi køber altid økologisk mælk.",
+      "en": "We always buy organic milk."
+    },
+    {
+      "form": "økologiske",
+      "da": "Økologiske grøntsager er ofte lidt dyrere.",
+      "en": "Organic vegetables are often a bit more expensive."
+    }
+  ],
+  "w-a-psykisk": [
+    {
+      "form": "psykisk",
+      "da": "Stress kan påvirke både fysisk og psykisk helbred.",
+      "en": "Stress can affect both physical and mental health."
+    },
+    {
+      "form": "psykiske",
+      "da": "Flere unge kæmper med psykiske problemer.",
+      "en": "More young people are struggling with mental health problems."
+    }
+  ],
+  "w-a-kompetent": [
+    {
+      "form": "kompetent",
+      "da": "Hun er en meget kompetent leder.",
+      "en": "She is a very competent manager."
+    },
+    {
+      "form": "kompetente",
+      "da": "Virksomheden har brug for kompetente medarbejdere.",
+      "en": "The company needs competent employees."
+    }
+  ],
+  "w-a-konkret": [
+    {
+      "form": "konkret",
+      "da": "Kan du give mig et konkret eksempel?",
+      "en": "Can you give me a concrete example?"
+    },
+    {
+      "form": "konkrete",
+      "da": "Politikerne mangler konkrete forslag til at løse problemet.",
+      "en": "The politicians lack concrete proposals to solve the problem."
+    }
+  ],
+  "w-a-motiveret": [
+    {
+      "form": "motiveret",
+      "da": "Hun er meget motiveret for at lære dansk.",
+      "en": "She is very motivated to learn Danish."
+    },
+    {
+      "form": "motiverede",
+      "da": "Motiverede elever får ofte bedre karakterer.",
+      "en": "Motivated pupils often get better grades."
+    }
+  ],
+  "w-a-kvalificeret": [
+    {
+      "form": "kvalificeret",
+      "da": "Han er ikke kvalificeret til stillingen endnu.",
+      "en": "He is not qualified for the position yet."
+    },
+    {
+      "form": "kvalificerede",
+      "da": "Plejehjemmet i vores by mangler kvalificerede sygeplejersker.",
+      "en": "The care home in our town lacks qualified nurses."
+    }
+  ],
+  "w-a-kompliceret": [
+    {
+      "form": "kompliceret",
+      "da": "Det er kompliceret at søge om boligstøtte.",
+      "en": "It is complicated to apply for housing benefit."
+    },
+    {
+      "form": "komplicerede",
+      "da": "Lægen forklarede de komplicerede resultater på en enkel måde.",
+      "en": "The doctor explained the complicated results in a simple way."
+    }
+  ],
+  "w-a-forurenet": [
+    {
+      "form": "forurenet",
+      "da": "Luften i storbyen er ofte forurenet.",
+      "en": "The air in the big city is often polluted."
+    },
+    {
+      "form": "forurenede",
+      "da": "Kommunen skal rense de forurenede grunde ved havnen.",
+      "en": "The municipality must clean up the polluted sites by the harbour."
+    }
+  ],
+  "w-a-gennemsigtig": [
+    {
+      "form": "gennemsigtig",
+      "da": "Kommunens økonomi skal være gennemsigtig for borgerne.",
+      "en": "The municipality's finances must be transparent to citizens."
+    },
+    {
+      "form": "gennemsigtigt",
+      "da": "Vi ønsker et mere gennemsigtigt system for boligtildeling.",
+      "en": "We want a more transparent system for allocating housing."
+    },
+    {
+      "form": "gennemsigtige",
+      "da": "Maden opbevares i gennemsigtige plastikbøtter.",
+      "en": "The food is stored in transparent plastic tubs."
+    }
+  ],
+  "w-a-mangfoldig": [
+    {
+      "form": "mangfoldig",
+      "da": "Københavns befolkning er meget mangfoldig.",
+      "en": "Copenhagen's population is very diverse."
+    },
+    {
+      "form": "mangfoldigt",
+      "da": "Skolen har et mangfoldigt fællesskab med elever fra mange lande.",
+      "en": "The school has a diverse community with pupils from many countries."
+    },
+    {
+      "form": "mangfoldige",
+      "da": "Kurset viser de mangfoldige muligheder på arbejdsmarkedet.",
+      "en": "The course shows the diverse opportunities on the labour market."
+    }
+  ],
+  "w-a-ensidig": [
+    {
+      "form": "ensidig",
+      "da": "En ensidig kost kan give mangel på vitaminer.",
+      "en": "A one-sided diet can lead to a lack of vitamins."
+    },
+    {
+      "form": "ensidigt",
+      "da": "Artiklen beskriver problemet meget ensidigt.",
+      "en": "The article describes the problem in a very one-sided way."
+    },
+    {
+      "form": "ensidige",
+      "da": "Ensidige arbejdsstillinger kan give smerter i skuldrene.",
+      "en": "One-sided working positions can cause pain in the shoulders."
+    }
+  ],
+  "w-a-videnskabelig": [
+    {
+      "form": "videnskabelig",
+      "da": "Der findes ingen videnskabelig dokumentation for den påstand.",
+      "en": "There is no scientific evidence for that claim."
+    },
+    {
+      "form": "videnskabeligt",
+      "da": "Det er videnskabeligt bevist, at motion styrker hukommelsen.",
+      "en": "It is scientifically proven that exercise strengthens the memory."
+    },
+    {
+      "form": "videnskabelige",
+      "da": "Forskerne har offentliggjort deres videnskabelige resultater.",
+      "en": "The researchers have published their scientific results."
+    }
+  ],
+  "w-a-utilstraekkelig": [
+    {
+      "form": "utilstrækkelig",
+      "da": "Mange forældre mener, at normeringen i vuggestuen er utilstrækkelig.",
+      "en": "Many parents think that the staffing ratio at the nursery is inadequate."
+    },
+    {
+      "form": "utilstrækkeligt",
+      "da": "Patienten blev behandlet utilstrækkeligt på grund af travlhed.",
+      "en": "The patient was inadequately treated because of the workload."
+    },
+    {
+      "form": "utilstrækkelige",
+      "da": "Utilstrækkelige danskkundskaber kan gøre det svært at finde arbejde.",
+      "en": "Inadequate Danish skills can make it hard to find work."
+    }
+  ],
+  "w-a-overflodig": [
+    {
+      "form": "overflødig",
+      "da": "Meget af emballagen i supermarkedet er overflødig.",
+      "en": "A lot of the packaging in the supermarket is superfluous."
+    },
+    {
+      "form": "overflødigt",
+      "da": "Det er overflødigt at printe alle e-mails.",
+      "en": "It is unnecessary to print all emails."
+    },
+    {
+      "form": "overflødige",
+      "da": "Hun slettede de overflødige sætninger i sin stil.",
+      "en": "She deleted the superfluous sentences in her essay."
+    }
+  ],
+  "w-a-uundgaelig": [
+    {
+      "form": "uundgåelig",
+      "da": "En vis mængde stress er uundgåelig i en travl hverdag.",
+      "en": "A certain amount of stress is inevitable in a busy everyday life."
+    },
+    {
+      "form": "uundgåeligt",
+      "da": "Det er uundgåeligt, at priserne stiger.",
+      "en": "It is inevitable that prices will rise."
+    },
+    {
+      "form": "uundgåelige",
+      "da": "Vi må forberede os på de uundgåelige forandringer.",
+      "en": "We must prepare for the inevitable changes."
+    }
+  ],
+  "w-a-bemaerkelsesvaerdig": [
+    {
+      "form": "bemærkelsesværdig",
+      "da": "Hun har gjort en bemærkelsesværdig indsats i foreningen.",
+      "en": "She has made a remarkable effort in the association."
+    },
+    {
+      "form": "bemærkelsesværdigt",
+      "da": "Det er bemærkelsesværdigt, hvor hurtigt han har lært dansk.",
+      "en": "It is remarkable how quickly he has learnt Danish."
+    },
+    {
+      "form": "bemærkelsesværdige",
+      "da": "Den bemærkelsesværdige udvikling har overrasket alle.",
+      "en": "The remarkable development has surprised everyone."
+    }
+  ],
+  "w-a-hensynslos": [
+    {
+      "form": "hensynsløs",
+      "da": "Han er en hensynsløs bilist, der kører alt for stærkt.",
+      "en": "He is an inconsiderate driver who drives far too fast."
+    },
+    {
+      "form": "hensynsløst",
+      "da": "Det er hensynsløst at spille høj musik om natten.",
+      "en": "It is inconsiderate to play loud music at night."
+    },
+    {
+      "form": "hensynsløse",
+      "da": "De hensynsløse cyklister er til fare for fodgængerne.",
+      "en": "The reckless cyclists are a danger to pedestrians."
+    }
+  ],
+  "w-a-ressourcestaerk": [
+    {
+      "form": "ressourcestærk",
+      "da": "Hun kommer fra en ressourcestærk familie.",
+      "en": "She comes from a well-resourced family."
+    },
+    {
+      "form": "ressourcestærkt",
+      "da": "Vores boligområde er ressourcestærkt med mange aktive beboere.",
+      "en": "Our residential area is well-resourced, with many active residents."
+    },
+    {
+      "form": "ressourcestærke",
+      "da": "Ressourcestærke forældre kan ofte hjælpe mere med lektierne.",
+      "en": "Well-resourced parents can often help more with homework."
+    }
+  ],
+  "w-a-ressourcesvag": [
+    {
+      "form": "ressourcesvag",
+      "da": "En ressourcesvag familie kan få hjælp af kommunen.",
+      "en": "A disadvantaged family can get help from the municipality."
+    },
+    {
+      "form": "ressourcesvagt",
+      "da": "Projektet skal styrke et ressourcesvagt boligområde.",
+      "en": "The project aims to strengthen a disadvantaged residential area."
+    },
+    {
+      "form": "ressourcesvage",
+      "da": "Skolen giver ekstra støtte til ressourcesvage elever.",
+      "en": "The school gives extra support to disadvantaged pupils."
+    }
+  ],
+  "w-a-multikulturel": [
+    {
+      "form": "multikulturel",
+      "da": "Vi bor i en multikulturel bydel med mange sprog.",
+      "en": "We live in a multicultural district with many languages."
+    },
+    {
+      "form": "multikulturelt",
+      "da": "Danmark er blevet et mere multikulturelt samfund.",
+      "en": "Denmark has become a more multicultural society."
+    },
+    {
+      "form": "multikulturelle",
+      "da": "Børnene vokser op i multikulturelle klasser.",
+      "en": "The children grow up in multicultural classes."
+    }
+  ],
+  "w-a-essentiel": [
+    {
+      "form": "essentiel",
+      "da": "Søvn er essentiel for børns udvikling.",
+      "en": "Sleep is essential for children's development."
+    },
+    {
+      "form": "essentielt",
+      "da": "Det er essentielt at kunne dansk for at få et job.",
+      "en": "It is essential to know Danish to get a job."
+    },
+    {
+      "form": "essentielle",
+      "da": "Kurset dækker de essentielle regler i grammatikken.",
+      "en": "The course covers the essential rules of grammar."
+    }
+  ],
+  "w-a-potentiel": [
+    {
+      "form": "potentiel",
+      "da": "Firmaet har fundet en potentiel køber.",
+      "en": "The company has found a potential buyer."
+    },
+    {
+      "form": "potentielt",
+      "da": "Den gamle bro er potentielt farlig.",
+      "en": "The old bridge is potentially dangerous."
+    },
+    {
+      "form": "potentielle",
+      "da": "Hun skrev til flere potentielle arbejdsgivere.",
+      "en": "She wrote to several potential employers."
+    }
+  ],
+  "w-a-kompleks": [
+    {
+      "form": "kompleks",
+      "da": "Integration er en kompleks proces, der tager tid.",
+      "en": "Integration is a complex process that takes time."
+    },
+    {
+      "form": "komplekst",
+      "da": "Sundhedsvæsenet er et komplekst system.",
+      "en": "The health service is a complex system."
+    },
+    {
+      "form": "komplekse",
+      "da": "Klimaet er et af de mest komplekse problemer i vores tid.",
+      "en": "The climate is one of the most complex problems of our time."
+    }
+  ],
+  "w-a-solidarisk": [
+    {
+      "form": "solidarisk",
+      "da": "Det er solidarisk at betale skat, så alle kan få hjælp.",
+      "en": "It is an act of solidarity to pay tax so that everyone can get help."
+    },
+    {
+      "form": "solidariske",
+      "da": "De solidariske naboer samlede penge ind til familien.",
+      "en": "The neighbours showed solidarity and collected money for the family."
+    }
+  ],
+  "w-a-strategisk": [
+    {
+      "form": "strategisk",
+      "da": "Ledelsen har lagt en ny strategisk plan.",
+      "en": "The management has made a new strategic plan."
+    },
+    {
+      "form": "strategiske",
+      "da": "Byrådet skal træffe nogle strategiske valg om trafikken.",
+      "en": "The city council must make some strategic choices about traffic."
+    }
+  ],
+  "w-a-obligatorisk": [
+    {
+      "form": "obligatorisk",
+      "da": "Det er obligatorisk at gå i skole i Danmark.",
+      "en": "It is compulsory to attend school in Denmark."
+    },
+    {
+      "form": "obligatoriske",
+      "da": "Eleverne skal tage alle de obligatoriske prøver.",
+      "en": "The pupils must take all the compulsory exams."
+    }
+  ],
+  "w-a-systematisk": [
+    {
+      "form": "systematisk",
+      "da": "Hun arbejder meget systematisk med sine lektier.",
+      "en": "She works very systematically on her homework."
+    },
+    {
+      "form": "systematiske",
+      "da": "Vi har brug for systematiske undersøgelser af problemet.",
+      "en": "We need systematic studies of the problem."
+    }
+  ],
+  "w-a-markant": [
+    {
+      "form": "markant",
+      "da": "Antallet af elcykler er steget markant.",
+      "en": "The number of e-bikes has risen markedly."
+    },
+    {
+      "form": "markante",
+      "da": "Der er markante forskelle mellem by og land.",
+      "en": "There are marked differences between town and country."
+    }
+  ],
+  "w-a-abstrakt": [
+    {
+      "form": "abstrakt",
+      "da": "Det er svært at forstå et abstrakt begreb som frihed.",
+      "en": "It is hard to understand an abstract concept such as freedom."
+    },
+    {
+      "form": "abstrakte",
+      "da": "Museet udstiller abstrakte malerier fra 1960'erne.",
+      "en": "The museum exhibits abstract paintings from the 1960s."
+    }
+  ],
+  "w-a-korrupt": [
+    {
+      "form": "korrupt",
+      "da": "I romanen er borgmesteren korrupt og tager imod bestikkelse.",
+      "en": "In the novel the mayor is corrupt and takes bribes."
+    },
+    {
+      "form": "korrupte",
+      "da": "Ingen vil stemme på korrupte politikere.",
+      "en": "Nobody wants to vote for corrupt politicians."
+    }
+  ],
+  "w-a-udsat": [
+    {
+      "form": "udsat",
+      "da": "Han har et job, hvor han er udsat for meget støj.",
+      "en": "He has a job where he is exposed to a lot of noise."
+    },
+    {
+      "form": "udsatte",
+      "da": "Kommunen hjælper udsatte børn og unge.",
+      "en": "The municipality helps vulnerable children and young people."
+    }
+  ],
+  "w-a-udbredt": [
+    {
+      "form": "udbredt",
+      "da": "Det er en udbredt opfattelse, at danskerne er glade.",
+      "en": "It is a widespread belief that Danes are happy."
+    },
+    {
+      "form": "udbredte",
+      "da": "Stress er et af de mest udbredte problemer på arbejdspladsen.",
+      "en": "Stress is one of the most widespread problems in the workplace."
+    }
+  ],
+  "w-a-omdiskuteret": [
+    {
+      "form": "omdiskuteret",
+      "da": "Den nye skolereform er meget omdiskuteret.",
+      "en": "The new school reform is much debated."
+    },
+    {
+      "form": "omdiskuterede",
+      "da": "Byrådet har vedtaget den omdiskuterede plan for havnen.",
+      "en": "The city council has adopted the much-debated plan for the harbour."
+    }
+  ],
+  "w-a-nuanceret": [
+    {
+      "form": "nuanceret",
+      "da": "Han giver et nuanceret billede af problemet.",
+      "en": "He gives a nuanced picture of the problem."
+    },
+    {
+      "form": "nuancerede",
+      "da": "Vi har brug for mere nuancerede debatter i medierne.",
+      "en": "We need more nuanced debates in the media."
+    }
+  ],
+  "w-a-foraeldet": [
+    {
+      "form": "forældet",
+      "da": "Skolens it-system er forældet og skal udskiftes.",
+      "en": "The school's IT system is outdated and needs to be replaced."
+    },
+    {
+      "form": "forældede",
+      "da": "Mange har stadig forældede ideer om kønsroller.",
+      "en": "Many people still have outdated ideas about gender roles."
+    }
+  ],
+  "w-a-integreret": [
+    {
+      "form": "integreret",
+      "da": "Efter ti år føler hun sig godt integreret i Danmark.",
+      "en": "After ten years she feels well integrated in Denmark."
+    },
+    {
+      "form": "integrerede",
+      "da": "Vi har et køkken med integrerede hvidevarer.",
+      "en": "We have a kitchen with integrated appliances."
+    }
+  ],
+  "w-a-tilstraekkelig": [
+    {
+      "form": "tilstrækkelig",
+      "da": "Mange ældre får ikke tilstrækkelig hjælp i hjemmet.",
+      "en": "Many elderly people do not get sufficient help at home."
+    },
+    {
+      "form": "tilstrækkeligt",
+      "da": "Har du sovet tilstrækkeligt i nat?",
+      "en": "Did you sleep enough last night?"
+    },
+    {
+      "form": "tilstrækkelige",
+      "da": "Ansøgeren skal have tilstrækkelige danskkundskaber.",
+      "en": "The applicant must have sufficient Danish skills."
+    }
+  ],
+  "w-a-skrobelig": [
+    {
+      "form": "skrøbelig",
+      "da": "Min bedstemor er blevet meget skrøbelig med alderen.",
+      "en": "My grandmother has become very frail with age."
+    },
+    {
+      "form": "skrøbeligt",
+      "da": "Pas på, glasset er skrøbeligt.",
+      "en": "Careful, the glass is fragile."
+    },
+    {
+      "form": "skrøbelige",
+      "da": "Hjemmeplejen besøger de skrøbelige ældre hver dag.",
+      "en": "The home care service visits the frail elderly every day."
+    }
+  ],
+  "w-a-abenlys": [
+    {
+      "form": "åbenlys",
+      "da": "Der er en åbenlys fejl i regnskabet.",
+      "en": "There is an obvious error in the accounts."
+    },
+    {
+      "form": "åbenlyst",
+      "da": "Det er åbenlyst, at skolen mangler lærere.",
+      "en": "It is obvious that the school lacks teachers."
+    },
+    {
+      "form": "åbenlyse",
+      "da": "Han overså de åbenlyse problemer med planen.",
+      "en": "He overlooked the obvious problems with the plan."
+    }
+  ],
+  "w-a-respektfuld": [
+    {
+      "form": "respektfuld",
+      "da": "Vi forventer en respektfuld tone i debatten.",
+      "en": "We expect a respectful tone in the debate."
+    },
+    {
+      "form": "respektfuldt",
+      "da": "Man skal tale respektfuldt til hinanden.",
+      "en": "People should speak respectfully to one another."
+    },
+    {
+      "form": "respektfulde",
+      "da": "Eleverne var respektfulde over for deres nye lærer.",
+      "en": "The pupils were respectful towards their new teacher."
+    }
+  ],
+  "w-a-frustreret": [
+    {
+      "form": "frustreret",
+      "da": "Han blev frustreret over de lange ventetider.",
+      "en": "He became frustrated at the long waiting times."
+    },
+    {
+      "form": "frustrerede",
+      "da": "De frustrerede pendlere klagede over forsinkelserne.",
+      "en": "The frustrated commuters complained about the delays."
+    }
+  ],
+  "w-a-privilegeret": [
+    {
+      "form": "privilegeret",
+      "da": "Jeg føler mig privilegeret, fordi jeg har gratis uddannelse.",
+      "en": "I feel privileged because I have free education."
+    },
+    {
+      "form": "privilegerede",
+      "da": "De privilegerede elever har ofte bedre adgang til hjælp.",
+      "en": "The privileged pupils often have better access to help."
+    }
+  ],
+  "w-a-marginaliseret": [
+    {
+      "form": "marginaliseret",
+      "da": "Mange langtidsledige føler sig marginaliseret i samfundet.",
+      "en": "Many long-term unemployed people feel marginalised in society."
+    },
+    {
+      "form": "marginaliserede",
+      "da": "Projektet hjælper marginaliserede unge med at finde arbejde.",
+      "en": "The project helps marginalised young people to find work."
+    }
+  ],
+  "w-a-desperat": [
+    {
+      "form": "desperat",
+      "da": "Hun var desperat efter at finde en lejlighed.",
+      "en": "She was desperate to find a flat."
+    },
+    {
+      "form": "desperate",
+      "da": "De desperate forældre ledte efter deres barn hele natten.",
+      "en": "The desperate parents searched for their child all night."
+    }
+  ]
+}

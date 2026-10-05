@@ -98,3 +98,14 @@ describe('rule attribution', () => {
     expect(buildQuestion(n, 'double-definite').ruleId).toBe('double-definiteness');
   });
 });
+
+describe('the English explanation', () => {
+  it('names the right answer for every kind of question', () => {
+    for (const noun of NOUN_BANK.slice(0, 40)) {
+      for (const kind of ['gender', 'definite-suffix', 'double-definite'] as const) {
+        const q = buildQuestion(noun, kind);
+        expect(q.explanationEn).toContain(q.options[q.correctIndex]);
+      }
+    }
+  });
+});

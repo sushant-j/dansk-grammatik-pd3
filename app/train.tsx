@@ -3,7 +3,7 @@ import React, { useCallback, useMemo, useState } from 'react';
 import { View } from 'react-native';
 
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { Screen } from '../src/ui/Screen';
+import { TrainerScreen } from '../src/ui/RulesPane';
 import { evaluate, renderSentence, trayTokens } from '../src/grammar/analyze';
 import { fieldsFor, type FieldId } from '../src/grammar/fields';
 import { RULES } from '../src/grammar/rules';
@@ -100,7 +100,9 @@ export default function Train() {
   const errorTokens = result?.diagnoses.flatMap((d) => d.tokenIds) ?? [];
 
   return (
-    <Screen
+    <TrainerScreen
+      rules={Object.values(RULES)}
+      activeRuleId={exercise.targets[0]}
       contentContainerStyle={{
         padding: t.space(4),
         paddingBottom: insets.bottom + t.space(10),
@@ -280,6 +282,6 @@ export default function Train() {
           ))}
         </View>
       </Card>
-    </Screen>
+    </TrainerScreen>
   );
 }
