@@ -113,7 +113,8 @@ export default function Vocab() {
       }
       const nxt = nextWord(useVocabProfile.getState().stats, word.id, Date.now(), currentLevelNow('vocab'), {
         categories: session.categories,
-        exclude: session.served,
+        // A fixed round never repeats a card; Endless lets weak words come back, as before.
+        exclude: session.length === 'endless' ? undefined : session.served,
       });
       setSession({ ...session, results, served: new Set(session.served).add(nxt.id) });
       setWord(nxt);
