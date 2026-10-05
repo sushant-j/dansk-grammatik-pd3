@@ -27,6 +27,8 @@ export interface AdjectiveQuestion {
   options: string[];
   correctIndex: number;
   explanation: string;
+  /** The same explanation in English, for a learner the Danish one doesn't reach yet. */
+  explanationEn: string;
 }
 
 function shuffle<T>(items: T[], rng: () => number): T[] {
@@ -61,6 +63,7 @@ export function buildAdjectiveQuestion(
       options,
       correctIndex: options.indexOf(adjective.base),
       explanation: `"${noun.word}" er et en-ord i ubestemt form, så adjektivet står i grundform: "en ${adjective.base} ${noun.word}".`,
+      explanationEn: `"${noun.word}" (${noun.glossEn}) is an en-word, and the phrase is indefinite ("a …"), so the adjective takes its base form with no ending: "en ${adjective.base} ${noun.word}".`,
     };
   }
 
@@ -77,6 +80,9 @@ export function buildAdjectiveQuestion(
       explanation: adjective.irregularNote
         ? `"${noun.word}" er et et-ord, men "${adjective.base}" er uregelmæssigt: ${adjective.irregularNote}`
         : `"${noun.word}" er et et-ord i ubestemt form, så adjektivet får et t: "et ${adjective.tForm} ${noun.word}".`,
+      explanationEn: adjective.irregularNote
+        ? `"${noun.word}" (${noun.glossEn}) is an et-word, which normally adds -t to the adjective — but "${adjective.base}" is irregular: ${adjective.irregularNote}`
+        : `"${noun.word}" (${noun.glossEn}) is an et-word, and the phrase is indefinite ("a …"), so the adjective adds -t: "et ${adjective.tForm} ${noun.word}".`,
     };
   }
 
@@ -93,5 +99,6 @@ export function buildAdjectiveQuestion(
     options,
     correctIndex: options.indexOf(adjective.eForm),
     explanation: `I bestemt form bruges altid e-formen, uanset køn: "${article} ${adjective.eForm} ${noun.word}" — aldrig grundformen eller t-formen her.`,
+    explanationEn: `In a definite phrase ("the …", here "${article}") the adjective always takes its -e form, whatever the noun's gender: "${article} ${adjective.eForm} ${noun.word}" — never the base form or the t-form.`,
   };
 }

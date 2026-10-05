@@ -9,7 +9,7 @@ import {
   summarizeSpelling,
   useSpellingProfile,
 } from '../src/profile/spellingStore';
-import { Screen } from '../src/ui/Screen';
+import { TrainerScreen } from '../src/ui/RulesPane';
 import { Button, Card, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
 import { levelLabel } from '../src/profile/mastery';
@@ -63,7 +63,9 @@ export default function Spelling() {
   const rule = SPELLING_RULES[question.ruleId];
 
   return (
-    <Screen
+    <TrainerScreen
+      rules={Object.values(SPELLING_RULES)}
+      activeRuleId={question.ruleId}
       contentContainerStyle={{
         padding: t.space(4),
         paddingBottom: insets.bottom + t.space(8),
@@ -166,6 +168,6 @@ export default function Spelling() {
           <Button label="Next" onPress={advance} />
         </View>
       ) : null}
-    </Screen>
+    </TrainerScreen>
   );
 }

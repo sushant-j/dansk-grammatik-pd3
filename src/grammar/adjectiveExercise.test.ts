@@ -106,3 +106,16 @@ describe('rule attribution', () => {
     expect(buildAdjectiveQuestion(EN_NOUN, a, 'e-form').ruleId).toBe('adjective-e-form');
   });
 });
+
+describe('the English explanation', () => {
+  it('names the right answer for every kind of question, or the irregularity', () => {
+    const noun = NOUN_BANK[0];
+    for (const adjective of ADJECTIVE_BANK.slice(0, 40)) {
+      for (const kind of ['common-form', 'neuter-form', 'e-form'] as const) {
+        const q = buildAdjectiveQuestion(noun, adjective, kind);
+        const expected = kind === 'neuter-form' && adjective.irregularNote ? adjective.irregularNote : q.options[q.correctIndex];
+        expect(q.explanationEn).toContain(expected);
+      }
+    }
+  });
+});

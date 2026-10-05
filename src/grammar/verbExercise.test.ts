@@ -125,3 +125,15 @@ describe('rule attribution', () => {
     expect(buildVerbQuestion(WEAK_VERB, 'perfect-aux').ruleId).toBe('perfect-auxiliary');
   });
 });
+
+describe('the English explanation', () => {
+  it('names the right answer for every kind of question', () => {
+    for (const verb of VERB_BANK.slice(0, 40)) {
+      const kinds = verb.verbClass === 'strong' ? (['strong-form', 'perfect-aux'] as const) : (['weak-suffix', 'perfect-aux'] as const);
+      for (const kind of kinds) {
+        const q = buildVerbQuestion(verb, kind);
+        expect(q.explanationEn).toContain(q.options[q.correctIndex]);
+      }
+    }
+  });
+});

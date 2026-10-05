@@ -20,6 +20,8 @@ export interface VerbQuestion {
   options: string[];
   correctIndex: number;
   explanation: string;
+  /** The same explanation in English, for a learner the Danish one doesn't reach yet. */
+  explanationEn: string;
 }
 
 const SUBJECTS = ['Jeg', 'Du', 'Han', 'Hun', 'Vi', 'De'];
@@ -66,6 +68,9 @@ export function buildVerbQuestion(
         verb.verbClass === 'weak-ede'
           ? `"${verb.infinitive}" tager -ede i datid: "${verb.past}", ikke "${verb.wrongPast}".`
           : `"${verb.infinitive}" tager -te i datid: "${verb.past}", ikke "${verb.wrongPast}".`,
+      explanationEn: `"${verb.infinitive}" (${verb.glossEn}) is a weak verb that takes ${
+        verb.verbClass === 'weak-ede' ? '-ede' : '-te'
+      } in the past tense: "${verb.past}", not "${verb.wrongPast}". Which suffix a weak verb takes belongs to the verb, so it is learned with the word.`,
     };
   }
 
@@ -79,6 +84,7 @@ export function buildVerbQuestion(
       options,
       correctIndex: options.indexOf(verb.past),
       explanation: `"${verb.infinitive}" er stærkt/uregelmæssigt: datid er "${verb.past}" — der tilføjes ingen endelse, formen skal huskes.`,
+      explanationEn: `"${verb.infinitive}" (${verb.glossEn}) is a strong (irregular) verb: its past tense is "${verb.past}". No suffix is added — the word changes shape, like "go" → "went", so the form has to be memorised.`,
     };
   }
 
@@ -96,5 +102,9 @@ export function buildVerbQuestion(
       verb.perfectAux === 'er'
         ? `"${verb.infinitive}" beskriver bevægelse eller forandring, så det tager "er": "${subject} er ${verb.participle}".`
         : `"${verb.infinitive}" er ikke et bevægelsesverbum, så det tager det almindelige "har": "${subject} har ${verb.participle}".`,
+    explanationEn:
+      verb.perfectAux === 'er'
+        ? `"${verb.infinitive}" (${verb.glossEn}) describes movement or a change of state, so the perfect tense uses "er": "${subject} er ${verb.participle}".`
+        : `"${verb.infinitive}" (${verb.glossEn}) does not describe movement or a change of state, so the perfect tense uses the ordinary "har": "${subject} har ${verb.participle}".`,
   };
 }

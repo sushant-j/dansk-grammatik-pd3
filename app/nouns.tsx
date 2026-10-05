@@ -4,7 +4,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { NOUN_RULES } from '../src/grammar/nounRules';
 import type { NounQuestion } from '../src/grammar/nounExercise';
 import { nextNounQuestion, nounRuleProgress, summarizeNouns, useNounProfile } from '../src/profile/nounStore';
-import { Screen } from '../src/ui/Screen';
+import { TrainerScreen } from '../src/ui/RulesPane';
 import { Button, Card, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
 import { levelLabel } from '../src/profile/mastery';
@@ -58,7 +58,9 @@ export default function Nouns() {
   const rule = NOUN_RULES[question.ruleId];
 
   return (
-    <Screen
+    <TrainerScreen
+      rules={Object.values(NOUN_RULES)}
+      activeRuleId={question.ruleId}
       contentContainerStyle={{
         padding: t.space(4),
         paddingBottom: insets.bottom + t.space(8),
@@ -157,10 +159,13 @@ export default function Nouns() {
             <Txt variant="body" style={{ marginTop: t.space(2), lineHeight: 22 }}>
               {question.explanation}
             </Txt>
+            <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(2), lineHeight: 22 }}>
+              {question.explanationEn}
+            </Txt>
           </Card>
           <Button label="Next" onPress={advance} />
         </View>
       ) : null}
-    </Screen>
+    </TrainerScreen>
   );
 }
