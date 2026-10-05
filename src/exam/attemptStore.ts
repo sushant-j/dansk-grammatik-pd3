@@ -6,9 +6,10 @@
  * exam mode the clock keeps running from `startedAt`, as it would in the
  * exam hall, unless the learner pauses it. A pause hides the paper and
  * stops the clock until they resume; paused time is added to the deadline
- * and left out of the attempt's duration. Finished attempts are kept per user and synced to the account
- * (attemptSync.ts); they are not part of the progress log, because a score
- * on a paper is not evidence about any one grammar rule or word.
+ * and left out of the attempt's duration. Finished attempts are kept per
+ * user and synced to the account (attemptSync.ts); they are not part of the
+ * progress log, because a score on a paper is not evidence about any one
+ * grammar rule or word.
  */
 
 import AsyncStorage from '@react-native-async-storage/async-storage';

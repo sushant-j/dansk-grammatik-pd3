@@ -480,7 +480,7 @@
     {
       "form": "anset",
       "da": "Han er en meget anset læge i byen.",
-      "en": "He is a highly respected doctor in the town."
+      "en": "He is a highly regarded doctor in the town."
     }
   ],
   "w-v-ansætte": [
@@ -1667,8 +1667,8 @@
     },
     {
       "form": "draget",
-      "da": "Vi har draget nytte af de nye regler.",
-      "en": "We have benefited from the new rules."
+      "da": "Mange har draget ud i verden for at finde arbejde.",
+      "en": "Many have set out into the world to find work."
     }
   ],
   "w-v-dreje": [
@@ -2129,8 +2129,8 @@
     },
     {
       "form": "fattet",
-      "da": "Politiet har fattet mistanke til naboen.",
-      "en": "The police have become suspicious of the neighbour."
+      "da": "Jeg har aldrig rigtig fattet, hvordan skattesystemet fungerer.",
+      "en": "I have never really grasped how the tax system works."
     }
   ],
   "w-v-fejre": [
@@ -2306,7 +2306,7 @@
     {
       "form": "forbedret",
       "da": "Arbejdsmiljøet er blevet forbedret, siden vi fik en ny chef.",
-      "en": "The working environment has improved since we got a new boss."
+      "en": "The working environment has been improved since we got a new boss."
     }
   ],
   "w-v-forberede": [
@@ -2466,8 +2466,8 @@
   "w-v-forene": [
     {
       "form": "forene",
-      "da": "Det kan være svært at forene arbejde og familieliv.",
-      "en": "It can be hard to combine work and family life."
+      "da": "Målet er at forene de to skoler under én ledelse.",
+      "en": "The aim is to unite the two schools under one management."
     },
     {
       "form": "forener",
@@ -2625,13 +2625,13 @@
     },
     {
       "form": "forholder",
-      "da": "Sådan forholder det sig desværre ikke.",
-      "en": "Unfortunately that is not how things are."
+      "da": "Politikerne forholder sig ikke til de egentlige problemer.",
+      "en": "The politicians don't deal with the real problems."
     },
     {
       "form": "forholdt",
-      "da": "Hun forholdt sig rolig, da ulykken skete.",
-      "en": "She stayed calm when the accident happened."
+      "da": "Hun forholdt sig ikke til kritikken, men talte om noget andet.",
+      "en": "She didn't address the criticism but talked about something else."
     },
     {
       "form": "forholdt",

@@ -371,8 +371,8 @@
     },
     {
       "form": "pænt",
-      "da": "Børnene sagde pænt goddag til gæsterne.",
-      "en": "The children said hello nicely to the guests."
+      "da": "De bor i et pænt hus med en stor have.",
+      "en": "They live in a nice-looking house with a big garden."
     },
     {
       "form": "pæne",
@@ -689,8 +689,8 @@
   "w-a-rigtig": [
     {
       "form": "rigtig",
-      "da": "Hun er en rigtig ven.",
-      "en": "She is a real friend."
+      "da": "Din beregning er rigtig, men du har glemt momsen.",
+      "en": "Your calculation is correct, but you have forgotten the VAT."
     },
     {
       "form": "rigtigt",
@@ -1014,8 +1014,8 @@
     },
     {
       "form": "raskt",
-      "da": "Vi gik raskt hjem i regnvejret.",
-      "en": "We walked briskly home in the rain."
+      "da": "Barnet er raskt igen og kan komme i børnehave i morgen.",
+      "en": "The child is well again and can go to kindergarten tomorrow."
     },
     {
       "form": "raske",
@@ -1060,8 +1060,8 @@
   "w-a-kaer": [
     {
       "form": "kær",
-      "da": "Den gamle ring er meget kær for mig.",
-      "en": "The old ring is very dear to me."
+      "da": "Den gamle ring fra min mormor er mig meget kær.",
+      "en": "The old ring from my grandmother is very dear to me."
     },
     {
       "form": "kært",
@@ -1077,13 +1077,13 @@
   "w-a-vild": [
     {
       "form": "vild",
-      "da": "Hun er helt vild med sin nye cykel.",
-      "en": "She is crazy about her new bike."
+      "da": "Hunden blev helt vild, da den så katten.",
+      "en": "The dog went completely wild when it saw the cat."
     },
     {
       "form": "vildt",
-      "da": "Det var vildt spændende at se kampen.",
-      "en": "It was incredibly exciting to watch the match."
+      "da": "Det er et vildt dyr, så du må ikke røre ved det.",
+      "en": "It is a wild animal, so you must not touch it."
     },
     {
       "form": "vilde",
@@ -1207,7 +1207,7 @@
     {
       "form": "lokale",
       "da": "Den lokale avis skrev om festen.",
-      "en": "The local newspaper wrote about the festival."
+      "en": "The local newspaper wrote about the party."
     }
   ],
   "w-a-rolig": [
@@ -1800,8 +1800,8 @@
     },
     {
       "form": "mulige",
-      "da": "Vi har talt om alle mulige løsninger.",
-      "en": "We have talked about all sorts of solutions."
+      "da": "Der er mange mulige årsager til problemet.",
+      "en": "There are many possible causes of the problem."
     }
   ],
   "w-a-umulig": [
@@ -1977,8 +1977,8 @@
   "w-a-selvstaendig": [
     {
       "form": "selvstændig",
-      "da": "Min far er selvstændig og har sin egen butik.",
-      "en": "My father is self-employed and has his own shop."
+      "da": "Min datter er blevet meget selvstændig, siden hun flyttede hjemmefra.",
+      "en": "My daughter has become very independent since she moved away from home."
     },
     {
       "form": "selvstændigt",
@@ -1987,8 +1987,8 @@
     },
     {
       "form": "selvstændige",
-      "da": "Mange selvstændige arbejder også i weekenden.",
-      "en": "Many self-employed people also work at the weekend."
+      "da": "Skolen vil gerne have selvstændige elever, der kan tage ansvar.",
+      "en": "The school wants independent pupils who can take responsibility."
     }
   ],
   "w-a-talmodig": [
@@ -3804,8 +3804,8 @@
   "w-a-udsat": [
     {
       "form": "udsat",
-      "da": "Koncerten er udsat til næste uge på grund af sygdom.",
-      "en": "The concert has been postponed until next week because of illness."
+      "da": "Han har et job, hvor han er udsat for meget støj.",
+      "en": "He has a job where he is exposed to a lot of noise."
     },
     {
       "form": "udsatte",
