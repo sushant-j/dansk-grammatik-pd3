@@ -1,1 +1,2522 @@
-[]
+[
+  {
+    "id": "vb-pas-01",
+    "level": 1,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Mødet ___ i går, fordi chefen var syg.",
+    "options": [
+      "aflyste",
+      "blev aflyst",
+      "blev aflyse"
+    ],
+    "answer": "blev aflyst",
+    "explanation": "The meeting didn't cancel anything; it was cancelled, so use blev + the participle aflyst. Aflyste would need an object.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-02",
+    "level": 1,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Min cykel ___ i sidste uge, mens jeg var på arbejde.",
+    "options": [
+      "stjal",
+      "blev stjæle",
+      "blev stjålet"
+    ],
+    "answer": "blev stjålet",
+    "explanation": "The bike was the victim of the action, so it is passive: blev + stjålet. Stjal is active and needs a thief as subject.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-03",
+    "level": 1,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Børnene ___ af deres bedstefar hver fredag.",
+    "options": [
+      "bliver hentet",
+      "henter",
+      "bliver hente"
+    ],
+    "answer": "bliver hentet",
+    "explanation": "Af deres bedstefar shows who does the action, so the children are passive: bliver + hentet. Hente is the infinitive, not the participle.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-04",
+    "level": 1,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Huset ___ i 1912, men det har fået nyt tag for nylig.",
+    "options": [
+      "byggede",
+      "blev bygget",
+      "bygger"
+    ],
+    "answer": "blev bygget",
+    "explanation": "A house is built by someone, so use the passive blev bygget. The active forms would need the builder as subject.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-05",
+    "level": 1,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Brevet ___ til den forkerte adresse ved en fejl.",
+    "options": [
+      "sendte",
+      "blev sendte",
+      "blev sendt"
+    ],
+    "answer": "blev sendt",
+    "explanation": "The letter was sent (passive): blev + the participle sendt. Sendte is the past tense, not the participle.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-06",
+    "level": 2,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Jeg ___ til en fest på lørdag, men jeg ved ikke, om jeg har tid.",
+    "options": [
+      "er blevet inviteret",
+      "har blevet inviteret",
+      "er blevet invitere"
+    ],
+    "answer": "er blevet inviteret",
+    "explanation": "The perfect of blive uses er, not har, and the main verb must be the participle inviteret.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-07",
+    "level": 2,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Vores lejlighed ___ lige nu, så vi bor hos min søster i et par måneder.",
+    "options": [
+      "renoverer",
+      "bliver renoveret",
+      "er renoveret"
+    ],
+    "answer": "bliver renoveret",
+    "explanation": "Lige nu and the fact that they live elsewhere show the work is going on: bliver renoveret. Er renoveret would mean the work is finished.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-08",
+    "level": 1,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Patienten ___ af en sygeplejerske, før lægen kom.",
+    "options": [
+      "undersøgte",
+      "bliver undersøgt",
+      "blev undersøgt"
+    ],
+    "answer": "blev undersøgt",
+    "explanation": "Af en sygeplejerske shows the patient received the action, and kom shows past time: blev undersøgt.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-09",
+    "level": 1,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Han ___ fra sit job i sidste måned, og nu søger han nyt arbejde.",
+    "options": [
+      "blev fyret",
+      "fyrede",
+      "bliver fyret"
+    ],
+    "answer": "blev fyret",
+    "explanation": "He lost his job, so it was done to him: passive. I sidste måned requires the past form blev.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-10",
+    "level": 2,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Opgaven ___ af to censorer, når prøven er slut.",
+    "options": [
+      "bedømmer",
+      "bliver bedømt",
+      "bliver bedømme"
+    ],
+    "answer": "bliver bedømt",
+    "explanation": "The task is assessed by the examiners (af to censorer): bliver + the participle bedømt.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-11",
+    "level": 2,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Bilen ___ to gange på værkstedet, men den kører stadig ikke ordentligt.",
+    "options": [
+      "har repareret",
+      "er blevet reparere",
+      "er blevet repareret"
+    ],
+    "answer": "er blevet repareret",
+    "explanation": "The car has been repaired by mechanics: er blevet + participle. Har repareret has no object and would make the car the mechanic.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-12",
+    "level": 2,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Den nye skole ___ af borgmesteren næste fredag.",
+    "options": [
+      "bliver indviet",
+      "blev indviet",
+      "indvier"
+    ],
+    "answer": "bliver indviet",
+    "explanation": "Af borgmesteren makes it passive, and næste fredag needs the present/future bliver, not past blev.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-13",
+    "level": 2,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Hvornår ___ resultaterne af valget offentliggjort?",
+    "options": [
+      "bliver blevet",
+      "bliver",
+      "har"
+    ],
+    "answer": "bliver",
+    "explanation": "Resultaterne are published by someone, so the passive is bliver + offentliggjort. Har + offentliggjort would be active and lacks an object.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-14",
+    "level": 2,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Mange gamle bygninger i byen ___ revet ned i 1970'erne.",
+    "options": [
+      "har",
+      "bliver",
+      "blev"
+    ],
+    "answer": "blev",
+    "explanation": "Buildings are demolished by someone (passive), and i 1970'erne is past time: blev revet ned.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-15",
+    "level": 2,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Alle nye medarbejdere ___ på et kursus i den første uge.",
+    "options": [
+      "bliver sendt",
+      "sender",
+      "bliver sende"
+    ],
+    "answer": "bliver sendt",
+    "explanation": "The new employees are sent by the company: passive bliver + the participle sendt.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-16",
+    "level": 2,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Vasketøjet ___, så nu har jeg rene skjorter igen.",
+    "options": [
+      "har vasket",
+      "er blevet vasket",
+      "er blevet vaske"
+    ],
+    "answer": "er blevet vasket",
+    "explanation": "Laundry is washed by someone, so use the passive perfect er blevet vasket. Har vasket would make the laundry do the washing, and vaske is not a participle.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-17",
+    "level": 3,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Tusindvis af ton plastik ___ hvert år i Danmark.",
+    "options": [
+      "genbruger",
+      "blev genbruge",
+      "bliver genbrugt"
+    ],
+    "answer": "bliver genbrugt",
+    "explanation": "Plastic is recycled by people, and hvert år shows a repeated process in the present: bliver genbrugt.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-18",
+    "level": 3,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Ansøgningerne ___ af et udvalg, som mødes i næste uge.",
+    "options": [
+      "vil blive læst",
+      "vil læse",
+      "vil blive læse"
+    ],
+    "answer": "vil blive læst",
+    "explanation": "After vil the passive is blive + participle: vil blive læst. The applications cannot read anything themselves.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-19",
+    "level": 2,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Vejen ___ i hele weekenden, fordi der skal lægges ny asfalt.",
+    "options": [
+      "spærrer",
+      "bliver spærret",
+      "er blevet spærre"
+    ],
+    "answer": "bliver spærret",
+    "explanation": "The road is closed off by the authorities (passive), and i hele weekenden refers to the coming weekend: bliver spærret.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-20",
+    "level": 2,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Min mormor ___ på hospitalet i aftes, og nu har hun det bedre.",
+    "options": [
+      "indlagde",
+      "bliver indlagt",
+      "blev indlagt"
+    ],
+    "answer": "blev indlagt",
+    "explanation": "Being admitted to hospital is passive in Danish (blive indlagt), and i aftes requires past tense blev.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-21",
+    "level": 3,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Forslaget ___ af et stort flertal på mødet i går.",
+    "options": [
+      "blev vedtaget",
+      "vedtog",
+      "bliver vedtaget"
+    ],
+    "answer": "blev vedtaget",
+    "explanation": "The proposal was adopted by the majority (af et stort flertal), and i går needs past tense: blev vedtaget.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-22",
+    "level": 1,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Skraldet ___ hver anden tirsdag i vores kvarter.",
+    "options": [
+      "henter",
+      "bliver hentet",
+      "bliver hentede"
+    ],
+    "answer": "bliver hentet",
+    "explanation": "The rubbish is collected by the refuse workers: bliver + the participle hentet. Hentede is past tense, not a participle.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-23",
+    "level": 3,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Hun ___ som sygeplejerske på et plejehjem efter sin uddannelse.",
+    "options": [
+      "ansatte",
+      "har blevet ansat",
+      "blev ansat"
+    ],
+    "answer": "blev ansat",
+    "explanation": "She was hired by the care home: blev ansat. The perfect would be er blevet ansat, never har blevet.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-pas-24",
+    "level": 2,
+    "ruleId": "vb-passive-blive",
+    "prompt": "Koncerten ___ i radioen, så alle kan høre den derhjemme.",
+    "options": [
+      "bliver sendt",
+      "sender",
+      "er blevet sende"
+    ],
+    "answer": "bliver sendt",
+    "explanation": "The concert is broadcast by the radio (passive): bliver sendt. Sender would need the station as subject and an object.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-01",
+    "level": 1,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Hun ___ straks meget glad, da hun åbnede brevet fra universitetet.",
+    "options": [
+      "blev",
+      "var"
+    ],
+    "answer": "blev",
+    "explanation": "Da hun åbnede brevet marks the moment her mood changed, so use blev (became).",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-02",
+    "level": 1,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Jeg ___ træt hele dagen i går, fordi jeg havde sovet dårligt.",
+    "options": [
+      "blev",
+      "var"
+    ],
+    "answer": "var",
+    "explanation": "Hele dagen describes a state that lasted, so use var.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-03",
+    "level": 1,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Min søster ___ læge, når hun er færdig med sin uddannelse.",
+    "options": [
+      "bliver",
+      "er"
+    ],
+    "answer": "bliver",
+    "explanation": "Når hun er færdig points to a future change: she will become a doctor, so use bliver.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-04",
+    "level": 1,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Min søster ___ læge på et hospital i Aarhus og arbejder meget.",
+    "options": [
+      "bliver",
+      "er"
+    ],
+    "answer": "er",
+    "explanation": "Her job now is a state, described together with arbejder meget, so use er.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-05",
+    "level": 1,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Jeg ___ 40 år på søndag, så vi holder en stor fest.",
+    "options": [
+      "bliver",
+      "er"
+    ],
+    "answer": "bliver",
+    "explanation": "På søndag is when the change happens: you become a year older, so use bliver.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-06",
+    "level": 1,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Vandet ___ for koldt den dag, så vi gik ikke i havet.",
+    "options": [
+      "blev",
+      "var"
+    ],
+    "answer": "var",
+    "explanation": "The sentence describes how the water was that day, a state, so use var.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-07",
+    "level": 1,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Hvis du ikke tager en jakke på, ___ du syg.",
+    "options": [
+      "bliver",
+      "er"
+    ],
+    "answer": "bliver",
+    "explanation": "Hvis … shows a possible result: you will get ill (a change), so use bliver.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-08",
+    "level": 2,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Om efteråret ___ det tidligere og tidligere mørkt.",
+    "options": [
+      "er",
+      "bliver"
+    ],
+    "answer": "bliver",
+    "explanation": "Tidligere og tidligere describes a change that keeps happening, so use bliver.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-09",
+    "level": 2,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Det ___ koldt hele januar, så søerne frøs til.",
+    "options": [
+      "var",
+      "blev"
+    ],
+    "answer": "var",
+    "explanation": "Hele januar describes a lasting state, so use var.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-10",
+    "level": 2,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Børnene ___ sultne hele eftermiddagen, fordi de havde glemt deres madpakker.",
+    "options": [
+      "blev",
+      "var"
+    ],
+    "answer": "var",
+    "explanation": "Hele eftermiddagen describes a state that lasted, so use var. Note the plural adjective sultne.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-11",
+    "level": 1,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Han ___ vred, så snart han så, at nogen havde ridset hans bil.",
+    "options": [
+      "blev",
+      "var"
+    ],
+    "answer": "blev",
+    "explanation": "Så snart han så … marks the trigger of a new feeling: blev vred (got angry).",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-12",
+    "level": 2,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Efterhånden ___ det lettere for mig at forstå dansk i radioen.",
+    "options": [
+      "var",
+      "blev"
+    ],
+    "answer": "blev",
+    "explanation": "Efterhånden (gradually) signals a change over time, so use blev.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-13",
+    "level": 2,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Mine forældre ___ gift i over 40 år, før min far døde.",
+    "options": [
+      "var",
+      "blev"
+    ],
+    "answer": "var",
+    "explanation": "I over 40 år describes how long the state lasted, so use var. Blev gift is the wedding itself.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-14",
+    "level": 2,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Mine forældre ___ gift i en lille kirke på landet i 1985.",
+    "options": [
+      "var",
+      "blev"
+    ],
+    "answer": "blev",
+    "explanation": "The wedding was an event at a point in time (i 1985): blev gift = got married.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-15",
+    "level": 3,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Priserne på el ___ meget høje hele sidste vinter, og mange familier havde svært ved at betale.",
+    "options": [
+      "var",
+      "blev"
+    ],
+    "answer": "var",
+    "explanation": "Hele sidste vinter describes the level of prices over a period, a state: var.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-16",
+    "level": 3,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Da benzinen pludselig ___ dyrere, begyndte mange at tage bussen.",
+    "options": [
+      "var",
+      "blev"
+    ],
+    "answer": "blev",
+    "explanation": "Pludselig and dyrere describe a change, so use blev.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-17",
+    "level": 2,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Min datter ___ bange for hunde, siden hun blev bidt som lille.",
+    "options": [
+      "er",
+      "bliver"
+    ],
+    "answer": "er",
+    "explanation": "Siden … shows a state that has continued up to now: hun er bange.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-18",
+    "level": 3,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Det ___ mere og mere almindeligt at arbejde hjemme.",
+    "options": [
+      "er",
+      "bliver"
+    ],
+    "answer": "bliver",
+    "explanation": "Mere og mere shows an ongoing change, so use bliver.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-19",
+    "level": 3,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Lejligheden ___ pludselig for lille, da vi fik vores tredje barn.",
+    "options": [
+      "blev",
+      "var"
+    ],
+    "answer": "blev",
+    "explanation": "Pludselig and da vi fik … mark the moment the flat became too small, a change: blev.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-20",
+    "level": 2,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Vores nabo ___ meget hjælpsom og vander altid vores blomster, når vi er på ferie.",
+    "options": [
+      "bliver",
+      "er"
+    ],
+    "answer": "er",
+    "explanation": "Altid and the description of the neighbour show a permanent quality: er.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-21",
+    "level": 3,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Jeg ___ pludselig nervøs, da censoren kom ind i lokalet.",
+    "options": [
+      "blev",
+      "var"
+    ],
+    "answer": "blev",
+    "explanation": "Pludselig and da censoren kom ind mark the moment the feeling started, so use blev.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-22",
+    "level": 3,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Byen ___ meget større, end den var for 20 år siden.",
+    "options": [
+      "har været",
+      "er blevet"
+    ],
+    "answer": "er blevet",
+    "explanation": "Større … end den var for 20 år siden compares then and now: a change that has happened, er blevet.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-23",
+    "level": 3,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Han ___ arbejdsløs i to år, men nu har han fået fast job.",
+    "options": [
+      "har været",
+      "er blevet"
+    ],
+    "answer": "har været",
+    "explanation": "I to år describes the length of a state, so use har været.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-state-24",
+    "level": 2,
+    "ruleId": "vb-vaere-blive-state-change",
+    "prompt": "Hun ___ formand for foreningen på generalforsamlingen i går.",
+    "options": [
+      "var",
+      "blev"
+    ],
+    "answer": "blev",
+    "explanation": "She was elected yesterday at a meeting, a change of role: blev formand.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-01",
+    "level": 2,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Der står på skiltet: Butikken ___ desværre lukket i dag – vi åbner igen i morgen.",
+    "options": [
+      "bliver",
+      "er"
+    ],
+    "answer": "er",
+    "explanation": "The sign describes the current situation, a state: er lukket.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-02",
+    "level": 2,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Butikken ___ lukket af kommunen i 2019 efter flere klager.",
+    "options": [
+      "blev",
+      "var"
+    ],
+    "answer": "blev",
+    "explanation": "Af kommunen and i 2019 show an action done at a point in time: blev lukket.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-03",
+    "level": 2,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Døren ___ allerede låst, da jeg kom hjem, så jeg kunne ikke komme ind.",
+    "options": [
+      "blev",
+      "var"
+    ],
+    "answer": "var",
+    "explanation": "Allerede … da jeg kom hjem describes how the door was when you arrived, a state: var låst.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-04",
+    "level": 2,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Hoveddøren ___ låst af viceværten hver aften klokken 22.",
+    "options": [
+      "bliver",
+      "er"
+    ],
+    "answer": "bliver",
+    "explanation": "Af viceværten and hver aften klokken 22 show a repeated action: bliver låst.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-05",
+    "level": 2,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Huset ___ solgt i går efter kun to uger på markedet.",
+    "options": [
+      "var",
+      "blev"
+    ],
+    "answer": "blev",
+    "explanation": "I går marks when the sale took place, an action: blev solgt.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-06",
+    "level": 2,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Huset ___ solgt nu, så skiltet i haven kan godt tages ned.",
+    "options": [
+      "er",
+      "bliver"
+    ],
+    "answer": "er",
+    "explanation": "Nu describes the result: the house is sold, so use er solgt.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-07",
+    "level": 3,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Bordet ___ allerede dækket, da gæsterne kom.",
+    "options": [
+      "blev",
+      "var"
+    ],
+    "answer": "var",
+    "explanation": "Allerede … da gæsterne kom describes the state when the guests arrived: var dækket.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-08",
+    "level": 3,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Maden ___ serveret klokken 19, og vi skal sidde ved bord nummer fem.",
+    "options": [
+      "bliver",
+      "er"
+    ],
+    "answer": "bliver",
+    "explanation": "Klokken 19 is the time the serving will happen, an action: bliver serveret.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-09",
+    "level": 2,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Vinduet ___ smadret af en fodbold i frikvarteret.",
+    "options": [
+      "var",
+      "blev"
+    ],
+    "answer": "blev",
+    "explanation": "Af en fodbold and i frikvarteret describe the event of breaking: blev smadret.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-10",
+    "level": 2,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Vinduet ___ stadig smadret, fordi glarmesteren ikke er kommet endnu.",
+    "options": [
+      "er",
+      "bliver"
+    ],
+    "answer": "er",
+    "explanation": "Stadig describes a state that continues: er smadret.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-11",
+    "level": 3,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Min computer ___ endelig repareret, så nu kan jeg arbejde igen.",
+    "options": [
+      "bliver",
+      "er"
+    ],
+    "answer": "er",
+    "explanation": "Endelig and nu kan jeg describe the result now: er repareret.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-12",
+    "level": 3,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Min computer ___ repareret af en tekniker i morgen formiddag.",
+    "options": [
+      "bliver",
+      "er"
+    ],
+    "answer": "bliver",
+    "explanation": "Af en tekniker and i morgen formiddag show a future action: bliver repareret.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-13",
+    "level": 3,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Da vi kom til stationen, ___ toget allerede aflyst.",
+    "options": [
+      "blev",
+      "var"
+    ],
+    "answer": "var",
+    "explanation": "Allerede describes how things stood when we arrived, a state: var aflyst.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-14",
+    "level": 3,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Toget ___ aflyst i sidste øjeblik på grund af sne.",
+    "options": [
+      "blev",
+      "var"
+    ],
+    "answer": "blev",
+    "explanation": "I sidste øjeblik marks the moment the cancellation happened, an action: blev aflyst.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-15",
+    "level": 3,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Parkeringspladsen ___ ryddet for sne hver morgen af kommunen.",
+    "options": [
+      "er",
+      "bliver"
+    ],
+    "answer": "bliver",
+    "explanation": "Hver morgen and af kommunen show a repeated action: bliver ryddet.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-16",
+    "level": 3,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Skal vi tage en anden vej? Broen ___ spærret lige nu på grund af vejarbejde.",
+    "options": [
+      "er",
+      "blev"
+    ],
+    "answer": "er",
+    "explanation": "Lige nu describes the current situation that forces another route: er spærret. Blev would report a past event, which clashes with lige nu.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-17",
+    "level": 4,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Projektet ___ færdiggjort på bare tre måneder, og nu er alle i gang med noget nyt.",
+    "options": [
+      "var",
+      "blev"
+    ],
+    "answer": "blev",
+    "explanation": "På bare tre måneder describes how long the work took, an action: blev færdiggjort.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-18",
+    "level": 4,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Da jeg åbnede kassen, ___ glasset allerede knust.",
+    "options": [
+      "var",
+      "blev"
+    ],
+    "answer": "var",
+    "explanation": "Allerede shows the glass was broken before you opened the box: a state, var knust.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-19",
+    "level": 4,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Teksten ___ nu oversat til dansk, så du kan godt læse den.",
+    "options": [
+      "blev",
+      "er"
+    ],
+    "answer": "er",
+    "explanation": "Nu and så du kan godt læse den describe the finished result: er oversat. Blev oversat would report a past event and does not fit with nu.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-20",
+    "level": 4,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Bogen ___ skrevet på bare seks måneder i 1998.",
+    "options": [
+      "blev",
+      "var"
+    ],
+    "answer": "blev",
+    "explanation": "På bare seks måneder i 1998 describes the writing process: blev skrevet.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-21",
+    "level": 3,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Patienten ___ opereret i morges og hviler sig nu på stuen.",
+    "options": [
+      "var",
+      "blev"
+    ],
+    "answer": "blev",
+    "explanation": "I morges marks when the operation took place, an action: blev opereret.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-22",
+    "level": 4,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Hele området ___ stadig oversvømmet, da vi kom tilbage fra ferie.",
+    "options": [
+      "var",
+      "blev"
+    ],
+    "answer": "var",
+    "explanation": "Stadig … da vi kom tilbage describes what we found on our return, a state that continued: var oversvømmet.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-23",
+    "level": 4,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Hver gang vi holder møde, ___ forslaget diskuteret, men der sker aldrig noget.",
+    "options": [
+      "er",
+      "bliver"
+    ],
+    "answer": "bliver",
+    "explanation": "Hver gang vi holder møde shows a repeated action: bliver diskuteret.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vb-passive-24",
+    "level": 3,
+    "ruleId": "vb-vaere-blive-passive-state",
+    "prompt": "Skolen ___ renoveret for nylig, så alt ser nyt og pænt ud.",
+    "options": [
+      "er",
+      "bliver"
+    ],
+    "answer": "er",
+    "explanation": "The focus is the result (alt ser nyt og pænt ud): er renoveret. Bliver renoveret would mean the work is going on now, which clashes with for nylig.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-01",
+    "level": 2,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Det ___ en stor fordel for dig at kunne tale dansk, når du søger job.",
+    "options": [
+      "vil være",
+      "vil blive"
+    ],
+    "answer": "vil være",
+    "explanation": "The sentence describes a future situation (a fordel), not a change: vil være.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-02",
+    "level": 2,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Mødet ___ holdt i den store sal på mandag.",
+    "options": [
+      "vil være",
+      "vil blive"
+    ],
+    "answer": "vil blive",
+    "explanation": "A future passive action (holdt = held) on a specific day: vil blive + participle.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-03",
+    "level": 2,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Det ___ lettere og lettere for dig at forstå dialekterne med tiden.",
+    "options": [
+      "vil blive",
+      "vil være"
+    ],
+    "answer": "vil blive",
+    "explanation": "Med tiden and lettere og lettere signal a gradual change: vil blive.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-04",
+    "level": 3,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Priserne på boliger ___ højere og højere i de næste år, viser en ny prognose.",
+    "options": [
+      "vil være",
+      "vil blive"
+    ],
+    "answer": "vil blive",
+    "explanation": "Højere og højere describes a continuing change: vil blive.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-05",
+    "level": 3,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Butikken ___ lukket i hele juli, ligesom den var sidste sommer.",
+    "options": [
+      "vil være",
+      "vil blive"
+    ],
+    "answer": "vil være",
+    "explanation": "Ligesom den var sidste sommer repeats være: the shop will be in the same closed state as last year, so use vil være lukket.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-06",
+    "level": 3,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Afdelingen ___ lukket af ledelsen til sommer, og alle medarbejdere får nyt arbejde i firmaet.",
+    "options": [
+      "vil være",
+      "vil blive"
+    ],
+    "answer": "vil blive",
+    "explanation": "Af ledelsen shows an action done by someone: vil blive lukket.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-07",
+    "level": 2,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Vejret ___ varmt og solrigt hele weekenden, ligesom det har været hele ugen.",
+    "options": [
+      "vil være",
+      "vil blive"
+    ],
+    "answer": "vil være",
+    "explanation": "Ligesom det har været shows the weather simply continues as it is, a state: vil være.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-08",
+    "level": 3,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Temperaturen ___ lavere og lavere i løbet af aftenen, så husk en ekstra trøje.",
+    "options": [
+      "vil være",
+      "vil blive"
+    ],
+    "answer": "vil blive",
+    "explanation": "Lavere og lavere describes a gradual change: vil blive.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-09",
+    "level": 3,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Ansøgerne ___ kontaktet én ad gangen af en medarbejder fra HR i næste uge.",
+    "options": [
+      "vil blive",
+      "vil være"
+    ],
+    "answer": "vil blive",
+    "explanation": "Af en medarbejder and én ad gangen describe the action of contacting being carried out: vil blive kontaktet.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-10",
+    "level": 2,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Det ___ en god idé at tage en madpakke med på turen, for der er ingen butikker i nærheden.",
+    "options": [
+      "vil blive",
+      "vil være"
+    ],
+    "answer": "vil være",
+    "explanation": "Det vil være en god idé = it will be a good idea; it describes a situation, not a change: vil være.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-11",
+    "level": 3,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Den nye bro ___ åbnet af borgmesteren ved en lille fest i maj.",
+    "options": [
+      "vil blive",
+      "vil være"
+    ],
+    "answer": "vil blive",
+    "explanation": "Af borgmesteren shows a future passive action: vil blive åbnet.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-12",
+    "level": 3,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Problemet med støj ___ større og større, hvis vi ikke gør noget.",
+    "options": [
+      "vil være",
+      "vil blive"
+    ],
+    "answer": "vil blive",
+    "explanation": "Større og større describes a change for the worse: vil blive.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-13",
+    "level": 3,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Græsplænen ___ mere og mere gul, hvis det ikke snart regner.",
+    "options": [
+      "vil blive",
+      "vil være"
+    ],
+    "answer": "vil blive",
+    "explanation": "Mere og mere describes a gradual change: vil blive.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-14",
+    "level": 3,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Kurset ___ gratis for alle, der bor i kommunen – ligesom det var sidste år.",
+    "options": [
+      "vil blive",
+      "vil være"
+    ],
+    "answer": "vil være",
+    "explanation": "Ligesom det var sidste år repeats være: nothing changes, it describes a property of the course: vil være.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-15",
+    "level": 4,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Kontoret ___ ubemandet mellem jul og nytår, men du kan skrive en mail.",
+    "options": [
+      "vil være",
+      "vil blive"
+    ],
+    "answer": "vil være",
+    "explanation": "Mellem jul og nytår is a period in which the office stays unstaffed, a state: vil være.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-16",
+    "level": 4,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Resultaterne af undersøgelsen ___ offentliggjort på et pressemøde på torsdag.",
+    "options": [
+      "vil være",
+      "vil blive"
+    ],
+    "answer": "vil blive",
+    "explanation": "Offentliggjort at a press conference is an action at a specific time: vil blive.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-17",
+    "level": 4,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Den gamle station ___ revet ned af et firma fra Jylland.",
+    "options": [
+      "vil blive",
+      "vil være"
+    ],
+    "answer": "vil blive",
+    "explanation": "Af et firma shows a passive action with a doer: vil blive revet ned.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-18",
+    "level": 4,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Billetten ___ gyldig i 24 timer fra det øjeblik, du køber den.",
+    "options": [
+      "vil blive",
+      "vil være"
+    ],
+    "answer": "vil være",
+    "explanation": "I 24 timer describes how long the ticket is valid, a state: vil være gyldig.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-19",
+    "level": 2,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Pakken ___ leveret til din dør mellem kl. 8 og 16.",
+    "options": [
+      "vil blive",
+      "vil være"
+    ],
+    "answer": "vil blive",
+    "explanation": "Leveret by the delivery company is a future passive action: vil blive.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-20",
+    "level": 4,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Svømmehallen ___ åben som normalt i påsken.",
+    "options": [
+      "vil blive",
+      "vil være"
+    ],
+    "answer": "vil være",
+    "explanation": "Som normalt shows nothing changes; it describes the usual state of the pool: vil være åben.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-21",
+    "level": 3,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Alle vinduer i ejendommen ___ udskiftet under renoveringen.",
+    "options": [
+      "vil blive",
+      "vil være"
+    ],
+    "answer": "vil blive",
+    "explanation": "Under renoveringen (during) shows the action of replacing: vil blive udskiftet.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-22",
+    "level": 2,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Vejen har været lukket hele foråret, og den ___ lukket, indtil arbejdet med kloakken er færdigt.",
+    "options": [
+      "vil blive",
+      "vil være"
+    ],
+    "answer": "vil være",
+    "explanation": "The road is already closed (har været lukket), so nothing new is done to it; the sentence describes the state continuing: vil være lukket.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-23",
+    "level": 4,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Medicinen ___ udleveret på apoteket, når lægen har sendt recepten.",
+    "options": [
+      "vil blive",
+      "vil være"
+    ],
+    "answer": "vil blive",
+    "explanation": "Udleveret is an action done by the pharmacy at a certain moment: vil blive.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-vb-24",
+    "level": 4,
+    "ruleId": "vb-vil-vaere-blive",
+    "prompt": "Sproget i den nye bog ___ svært for begyndere, men fint for øvede.",
+    "options": [
+      "vil blive",
+      "vil være"
+    ],
+    "answer": "vil være",
+    "explanation": "The sentence describes how the language of the book is for different readers, a state: vil være.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-01",
+    "level": 2,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Festen ___ hos min søster på lørdag, fordi hun har den største lejlighed.",
+    "options": [
+      "skal blive",
+      "skal være"
+    ],
+    "answer": "skal være",
+    "explanation": "The sentence says where an event takes place, which is always skal være.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-02",
+    "level": 2,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Mødet ___ i kantinen i stedet for i mødelokalet i morgen.",
+    "options": [
+      "skal være",
+      "skal blive"
+    ],
+    "answer": "skal være",
+    "explanation": "Where a meeting takes place: skal være.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-03",
+    "level": 3,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Jeg har hørt, at den nye film ___ rigtig god.",
+    "options": [
+      "skal blive",
+      "skal være"
+    ],
+    "answer": "skal være",
+    "explanation": "Jeg har hørt shows hearsay: skal være = is said to be.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-04",
+    "level": 3,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Restauranten nede ad gaden ___ den bedste i byen, siger folk.",
+    "options": [
+      "skal være",
+      "skal blive"
+    ],
+    "answer": "skal være",
+    "explanation": "Siger folk shows that this is what people say: skal være = is said to be.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-05",
+    "level": 2,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Man ___ mindst 18 år for at stemme til folketingsvalg.",
+    "options": [
+      "skal blive",
+      "skal være"
+    ],
+    "answer": "skal være",
+    "explanation": "A requirement about a state (your age): skal være.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-06",
+    "level": 3,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Ansøgningen ___ hos os senest fredag kl. 12.",
+    "options": [
+      "skal være",
+      "skal blive"
+    ],
+    "answer": "skal være",
+    "explanation": "Senest fredag gives a deadline for a state (the application must be with us): skal være.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-07",
+    "level": 3,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Alle skuespillere ___ på plads senest fem minutter før forestillingen.",
+    "options": [
+      "skal blive",
+      "skal være"
+    ],
+    "answer": "skal være",
+    "explanation": "Senest … is a deadline by which everyone must be in position, a state: skal være.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-08",
+    "level": 2,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Koncerten ___ i Musikhuset og ikke i parken, som der stod i avisen.",
+    "options": [
+      "skal være",
+      "skal blive"
+    ],
+    "answer": "skal være",
+    "explanation": "Where an event takes place: skal være.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-09",
+    "level": 3,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Hans nye kæreste ___ meget sød, siger min søster.",
+    "options": [
+      "skal blive",
+      "skal være"
+    ],
+    "answer": "skal være",
+    "explanation": "Siger min søster shows hearsay: skal være = is said to be.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-10",
+    "level": 4,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Hotellet ___ meget dyrt, men vi har ikke selv prøvet at bo der.",
+    "options": [
+      "skal være",
+      "skal blive"
+    ],
+    "answer": "skal være",
+    "explanation": "The speaker only knows it from others (vi har ikke selv prøvet): skal være = is said to be.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-11",
+    "level": 2,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Børnene ___ i seng senest klokken otte på hverdage.",
+    "options": [
+      "skal blive",
+      "skal være"
+    ],
+    "answer": "skal være",
+    "explanation": "Senest klokken otte is a deadline for a state (being in bed): skal være. Blive i sengen would mean stay in bed.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-12",
+    "level": 4,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Alle passagerer ___ om bord senest 20 minutter før afgang.",
+    "options": [
+      "skal være",
+      "skal blive"
+    ],
+    "answer": "skal være",
+    "explanation": "Senest … før afgang is a deadline for a state: skal være.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-13",
+    "level": 4,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Lejligheden ___ tom og rengjort, når du afleverer nøglerne.",
+    "options": [
+      "skal blive",
+      "skal være"
+    ],
+    "answer": "skal være",
+    "explanation": "Når du afleverer nøglerne describes the required state at that moment: skal være.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-14",
+    "level": 2,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Min datter ___ mor til sommer, og hele familien glæder sig.",
+    "options": [
+      "skal blive",
+      "skal være"
+    ],
+    "answer": "skal blive",
+    "explanation": "Becoming a mother is a change: skal blive.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-15",
+    "level": 2,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Vi ___ boende i lejligheden et år mere, før vi køber hus.",
+    "options": [
+      "skal være",
+      "skal blive"
+    ],
+    "answer": "skal blive",
+    "explanation": "Blive boende is a fixed expression meaning stay living somewhere.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-16",
+    "level": 2,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Du ___ ved med at øve dig, hvis du vil bestå prøven.",
+    "options": [
+      "skal blive",
+      "skal være"
+    ],
+    "answer": "skal blive",
+    "explanation": "Blive ved med = keep on doing; være cannot be used here.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-17",
+    "level": 3,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Alle elever i 6. klasse ___ vaccineret af skolelægen i morgen klokken ti.",
+    "options": [
+      "skal være",
+      "skal blive"
+    ],
+    "answer": "skal blive",
+    "explanation": "Af skolelægen and i morgen klokken ti show a passive action done at a set time: skal blive vaccineret.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-18",
+    "level": 2,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Min bedste ven ___ gift med sin kæreste i juni.",
+    "options": [
+      "skal blive",
+      "skal være"
+    ],
+    "answer": "skal blive",
+    "explanation": "Getting married in June is a change of status: skal blive gift.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-19",
+    "level": 3,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Passagererne ___ siddende, indtil flyet holder helt stille.",
+    "options": [
+      "skal være",
+      "skal blive"
+    ],
+    "answer": "skal blive",
+    "explanation": "Blive siddende is a fixed expression meaning remain seated.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-20",
+    "level": 3,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Patienten ___ liggende i sengen i to dage efter operationen.",
+    "options": [
+      "skal blive",
+      "skal være"
+    ],
+    "answer": "skal blive",
+    "explanation": "Blive liggende is a fixed expression meaning stay lying down; være liggende is not used.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-21",
+    "level": 3,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Bilen ___ stående i garagen, mens vi er på ferie.",
+    "options": [
+      "skal være",
+      "skal blive"
+    ],
+    "answer": "skal blive",
+    "explanation": "Blive stående is a fixed expression meaning stay (standing) where it is.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-22",
+    "level": 2,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Vi ___ forældre for første gang til foråret.",
+    "options": [
+      "skal blive",
+      "skal være"
+    ],
+    "answer": "skal blive",
+    "explanation": "Becoming parents is a change: skal blive.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-23",
+    "level": 4,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Fagforeningen siger, at den ___ ved med at kæmpe for bedre løn.",
+    "options": [
+      "skal være",
+      "skal blive"
+    ],
+    "answer": "skal blive",
+    "explanation": "Blive ved med = keep on doing something.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-vb-24",
+    "level": 4,
+    "ruleId": "vb-skal-vaere-blive",
+    "prompt": "Babyen ___ døbt i den lille kirke på søndag.",
+    "options": [
+      "skal blive",
+      "skal være"
+    ],
+    "answer": "skal blive",
+    "explanation": "På søndag marks when the christening happens, a passive action: skal blive døbt.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-01",
+    "level": 1,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Jeg ___ en ny telefon i fødselsdagsgave af mine forældre.",
+    "options": [
+      "fik",
+      "havde"
+    ],
+    "answer": "fik",
+    "explanation": "A present is something you receive, a change: fik.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-02",
+    "level": 1,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Vi ___ to børn og en hund og bor i et rækkehus.",
+    "options": [
+      "får",
+      "har"
+    ],
+    "answer": "har",
+    "explanation": "The sentence describes what the family consists of now, possession: har.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-03",
+    "level": 1,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Han ___ influenza hele sidste uge og kunne ikke gå på arbejde.",
+    "options": [
+      "havde",
+      "fik"
+    ],
+    "answer": "havde",
+    "explanation": "Hele sidste uge describes a lasting state: havde.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-04",
+    "level": 2,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Han ___ influenza af en kollega i mandags.",
+    "options": [
+      "havde",
+      "fik"
+    ],
+    "answer": "fik",
+    "explanation": "Få influenza af nogen = catch it from someone; this is the moment the illness started: fik.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-05",
+    "level": 1,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Vi kan ikke snakke så længe, for vi ___ besøg af min mor lige nu.",
+    "options": [
+      "får",
+      "har"
+    ],
+    "answer": "har",
+    "explanation": "Lige nu shows the visit is going on: your mother is already there, a state, so use har besøg. Får besøg is the moment a visitor arrives.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-06",
+    "level": 1,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Hun ___ langt, lyst hår og blå øjne.",
+    "options": [
+      "får",
+      "har"
+    ],
+    "answer": "har",
+    "explanation": "Describing someone's appearance is a state: har.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-07",
+    "level": 2,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Du ___ svar på din ansøgning med posten i næste uge.",
+    "options": [
+      "får",
+      "har"
+    ],
+    "answer": "får",
+    "explanation": "An answer that arrives by post is something you will receive: får.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-08",
+    "level": 1,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Jeg ___ ikke tid i dag, men vi kan ses i morgen.",
+    "options": [
+      "får",
+      "har"
+    ],
+    "answer": "har",
+    "explanation": "Not having time today is a state: har ikke tid.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-09",
+    "level": 1,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Min søster ___ en lille datter i sidste uge.",
+    "options": [
+      "fik",
+      "havde"
+    ],
+    "answer": "fik",
+    "explanation": "Having a baby is an event at a point in time (i sidste uge): fik.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-10",
+    "level": 2,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Da vi boede i Aarhus, ___ vi en stor have med æbletræer.",
+    "options": [
+      "fik",
+      "havde"
+    ],
+    "answer": "havde",
+    "explanation": "Da vi boede … describes a situation in the past, possession over time: havde.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-11",
+    "level": 2,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Hun ___ fast arbejde, efter at hun havde været i praktik i tre måneder.",
+    "options": [
+      "fik",
+      "havde"
+    ],
+    "answer": "fik",
+    "explanation": "Efter … marks the moment she got the job, a change: fik.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-12",
+    "level": 2,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Mine forældre ___ altid travlt, da jeg var barn.",
+    "options": [
+      "fik",
+      "havde"
+    ],
+    "answer": "havde",
+    "explanation": "Altid and da jeg var barn describe a lasting situation: havde.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-13",
+    "level": 3,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Jeg ___ pludselig ondt i ryggen, da jeg løftede en tung kasse.",
+    "options": [
+      "fik",
+      "havde"
+    ],
+    "answer": "fik",
+    "explanation": "Pludselig and da jeg løftede … mark the moment the pain started: fik ondt.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-14",
+    "level": 2,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Jeg ___ stadig ondt i knæet, selv om det er en måned siden, jeg faldt.",
+    "options": [
+      "får",
+      "har"
+    ],
+    "answer": "har",
+    "explanation": "Stadig shows the pain continues, a state: har ondt.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-15",
+    "level": 2,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Hvornår ___ du kørekort? – Da jeg var 18.",
+    "options": [
+      "fik",
+      "havde"
+    ],
+    "answer": "fik",
+    "explanation": "The answer names the moment the licence was obtained: fik.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-16",
+    "level": 3,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Jeg ___ en bøde for at cykle uden lys i går aftes.",
+    "options": [
+      "havde",
+      "fik"
+    ],
+    "answer": "fik",
+    "explanation": "A fine is something you receive at a certain moment (i går aftes): fik.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-17",
+    "level": 3,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Lige da hun stod under bruseren, ___ hun en god idé.",
+    "options": [
+      "fik",
+      "havde"
+    ],
+    "answer": "fik",
+    "explanation": "Lige da … marks the moment the idea came to her, so it is something she got: fik en idé.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-18",
+    "level": 1,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Vores nabo ___ en gammel bil, som han passer meget godt på.",
+    "options": [
+      "får",
+      "har"
+    ],
+    "answer": "har",
+    "explanation": "Owning a car that he looks after describes possession: har.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-19",
+    "level": 3,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Jeg ___ et brev fra kommunen i går om min boligstøtte.",
+    "options": [
+      "fik",
+      "havde"
+    ],
+    "answer": "fik",
+    "explanation": "A letter is something you receive (i går): fik.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-20",
+    "level": 3,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Efter fem år i Danmark ___ han endelig dansk statsborgerskab.",
+    "options": [
+      "havde",
+      "fik"
+    ],
+    "answer": "fik",
+    "explanation": "Endelig marks the moment he received citizenship: fik.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-21",
+    "level": 1,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Min mand ___ blå øjne ligesom sin far.",
+    "options": [
+      "har",
+      "får"
+    ],
+    "answer": "har",
+    "explanation": "Describing someone's appearance is a state: har.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-22",
+    "level": 3,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Jeg ___ lyst til at gå en tur, så snart solen kom frem.",
+    "options": [
+      "havde",
+      "fik"
+    ],
+    "answer": "fik",
+    "explanation": "Så snart solen kom frem marks the moment the wish started: fik lyst.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-23",
+    "level": 3,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Hele dagen ___ jeg lyst til is, fordi det var så varmt.",
+    "options": [
+      "havde",
+      "fik"
+    ],
+    "answer": "havde",
+    "explanation": "Hele dagen describes a feeling that lasted: havde lyst.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-hf-24",
+    "level": 3,
+    "ruleId": "vb-have-faa-state-change",
+    "prompt": "Pludselig ___ hun en dårlig fornemmelse i maven.",
+    "options": [
+      "havde",
+      "fik"
+    ],
+    "answer": "fik",
+    "explanation": "Pludselig marks the moment the feeling started: fik.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-01",
+    "level": 2,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Jeg ___ en kop kaffe og et stykke kage, tak.",
+    "options": [
+      "vil få",
+      "vil have"
+    ],
+    "answer": "vil have",
+    "explanation": "When you order or ask for something you want, use vil have.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-02",
+    "level": 2,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Min datter ___ en hund, men vi har ikke plads til den i lejligheden.",
+    "options": [
+      "vil have",
+      "vil få"
+    ],
+    "answer": "vil have",
+    "explanation": "Men vi har ikke plads shows it is only a wish: vil have = wants.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-03",
+    "level": 2,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Chefen ___, at vi møder klokken otte i morgen.",
+    "options": [
+      "vil få",
+      "vil have"
+    ],
+    "answer": "vil have",
+    "explanation": "Vil have + at-clause means 'wants (that)'; vil få cannot be followed by at here.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-04",
+    "level": 2,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Sig til, hvad du ___ til middag i aften – jeg kan lave fisk eller pasta.",
+    "options": [
+      "vil have",
+      "vil få"
+    ],
+    "answer": "vil have",
+    "explanation": "The speaker offers a choice and asks what you want: vil have.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-05",
+    "level": 3,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Lægen ___, at du tager medicinen hver morgen i tre uger.",
+    "options": [
+      "vil få",
+      "vil have"
+    ],
+    "answer": "vil have",
+    "explanation": "Vil have + at-clause expresses a demand or wish: the doctor wants you to take it.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-06",
+    "level": 2,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Sig, hvor mange æbler du ___, så plukker jeg dem til dig.",
+    "options": [
+      "vil have",
+      "vil få"
+    ],
+    "answer": "vil have",
+    "explanation": "The speaker asks how many you want: vil have.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-07",
+    "level": 3,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Min mor siger, at hun ikke ___, at vi køber en dyr gave til hende.",
+    "options": [
+      "vil få",
+      "vil have"
+    ],
+    "answer": "vil have",
+    "explanation": "Vil ikke have, at … means she does not want us to: vil have + at-clause.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-08",
+    "level": 3,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Kunden er rasende og siger: \"Jeg ___ mine penge tilbage med det samme!\"",
+    "options": [
+      "vil have",
+      "vil få"
+    ],
+    "answer": "vil have",
+    "explanation": "The customer is demanding something: jeg vil have = I want.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-09",
+    "level": 4,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Det er irriterende, at han altid ___ ret i enhver diskussion.",
+    "options": [
+      "vil få",
+      "vil have"
+    ],
+    "answer": "vil have",
+    "explanation": "Altid … ret describes his personality: he always wants to be right, vil have ret.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-10",
+    "level": 3,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Udlejeren ___, at huslejen er betalt senest den første i måneden.",
+    "options": [
+      "vil have",
+      "vil få"
+    ],
+    "answer": "vil have",
+    "explanation": "Vil have + at-clause expresses the landlord's demand.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-11",
+    "level": 3,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Vi har både hvid og grå maling. Fortæl os, hvilken farve I ___ på væggene i stuen.",
+    "options": [
+      "vil få",
+      "vil have"
+    ],
+    "answer": "vil have",
+    "explanation": "The speaker asks what you would like: vil have.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-12",
+    "level": 3,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Mange børn ___ en mobiltelefon, men forældrene siger nej.",
+    "options": [
+      "vil have",
+      "vil få"
+    ],
+    "answer": "vil have",
+    "explanation": "Men forældrene siger nej shows it is only a wish: vil have = want.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-13",
+    "level": 4,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Mine forældre ___, at jeg er hjemme senest klokken 23 på hverdage.",
+    "options": [
+      "vil få",
+      "vil have"
+    ],
+    "answer": "vil have",
+    "explanation": "Vil have + at-clause expresses a demand: my parents want me home by 23.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-14",
+    "level": 3,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Den nye cykelsti ___ flere til at cykle på arbejde.",
+    "options": [
+      "vil få",
+      "vil have"
+    ],
+    "answer": "vil få",
+    "explanation": "A cycle path cannot want anything; vil få … til at = will make … do.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-15",
+    "level": 3,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Den kolde vinter ___ mange til at skrue op for varmen.",
+    "options": [
+      "vil have",
+      "vil få"
+    ],
+    "answer": "vil få",
+    "explanation": "A winter cannot want anything; vil få … til at = will make … do.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-16",
+    "level": 4,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "De høje priser ___ mange familier til at handle i discountbutikker.",
+    "options": [
+      "vil få",
+      "vil have"
+    ],
+    "answer": "vil få",
+    "explanation": "Prices cannot want anything; vil få … til at = will make … do.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-17",
+    "level": 4,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Den nye reklame ___ flere unge til at søge ind på uddannelsen, håber skolen.",
+    "options": [
+      "vil have",
+      "vil få"
+    ],
+    "answer": "vil få",
+    "explanation": "A campaign cannot want anything; vil få … til at = will make … do.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-18",
+    "level": 3,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Bare rolig, alle deltagere ___ at vide, hvor kurset holdes, en uge før start.",
+    "options": [
+      "vil få",
+      "vil have"
+    ],
+    "answer": "vil få",
+    "explanation": "Bare rolig signals reassurance that they will be told: vil få at vide. Vil have at vide would mean they demand to know.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-19",
+    "level": 2,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "I ___ at vide på fredag, hvem der har vundet konkurrencen – vi sender en mail til alle.",
+    "options": [
+      "vil have",
+      "vil få"
+    ],
+    "answer": "vil få",
+    "explanation": "Vi sender en mail shows you will be told: vil få at vide. Vil have at vide would mean you demand to know.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-20",
+    "level": 4,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Jeg tror, du ___ meget ud af kurset, hvis du deltager aktivt.",
+    "options": [
+      "vil få",
+      "vil have"
+    ],
+    "answer": "vil få",
+    "explanation": "Få meget ud af = get a lot out of; this expression is built with få.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-21",
+    "level": 2,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Du ___ en bøde, hvis du parkerer foran indkørslen.",
+    "options": [
+      "vil have",
+      "vil få"
+    ],
+    "answer": "vil få",
+    "explanation": "Nobody wants a fine; it is something you will receive: vil få.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-22",
+    "level": 4,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Du ___ øje på den store scene, så snart du kommer ind i hallen.",
+    "options": [
+      "vil få",
+      "vil have"
+    ],
+    "answer": "vil få",
+    "explanation": "Få øje på = catch sight of; it is always built with få.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-23",
+    "level": 4,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Lyset fra den nye lygtepæl ___ naboerne til at klage, tror jeg.",
+    "options": [
+      "vil have",
+      "vil få"
+    ],
+    "answer": "vil få",
+    "explanation": "Light cannot want anything; vil få … til at = will make … do.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-vil-hf-24",
+    "level": 3,
+    "ruleId": "vb-vil-have-faa",
+    "prompt": "Du ___ et klip i kørekortet, hvis du kører for stærkt på motorvejen.",
+    "options": [
+      "vil få",
+      "vil have"
+    ],
+    "answer": "vil få",
+    "explanation": "A penalty point is something you receive, not want: vil få.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-01",
+    "level": 2,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Jeg ___ en stor kaffe med mælk, tak.",
+    "options": [
+      "skal have",
+      "skal få"
+    ],
+    "answer": "skal have",
+    "explanation": "When you order at a counter, Danish uses skal have: Jeg skal have …",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-02",
+    "level": 2,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Har du besluttet, hvad du ___ på til festen i aften?",
+    "options": [
+      "skal få",
+      "skal have"
+    ],
+    "answer": "skal have",
+    "explanation": "Have på = wear. The question is what you are going to wear: skal have på.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-03",
+    "level": 3,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Man ___ et gyldigt pas med, når man rejser uden for EU.",
+    "options": [
+      "skal have",
+      "skal få"
+    ],
+    "answer": "skal have",
+    "explanation": "Have med = bring/carry with you; it is a requirement you must meet: skal have med.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-04",
+    "level": 3,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Man ___ sit sundhedskort med, når man går til lægen.",
+    "options": [
+      "skal få",
+      "skal have"
+    ],
+    "answer": "skal have",
+    "explanation": "Have med = bring with you: skal have … med.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-05",
+    "level": 2,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Jeg ___ en øl og en danskvand, tak.",
+    "options": [
+      "skal have",
+      "skal få"
+    ],
+    "answer": "skal have",
+    "explanation": "Ordering in a café or bar: skal have.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-06",
+    "level": 3,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Du ___ dine eksamensbeviser med til jobsamtalen.",
+    "options": [
+      "skal få",
+      "skal have"
+    ],
+    "answer": "skal have",
+    "explanation": "Have med = bring with you: skal have … med.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-07",
+    "level": 2,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Jeg ___ en billet til Odense, tak – én vej.",
+    "options": [
+      "skal have",
+      "skal få"
+    ],
+    "answer": "skal have",
+    "explanation": "Buying a ticket at a counter is ordering: skal have.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-08",
+    "level": 3,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Tjeneren spørger, hvad vi ___.",
+    "options": [
+      "skal få",
+      "skal have"
+    ],
+    "answer": "skal have",
+    "explanation": "The waiter asks what you want to order: hvad vi skal have. Skal få is not used for ordering.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-09",
+    "level": 3,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Spørg lige gæsterne, om de ___ kaffe eller te.",
+    "options": [
+      "skal have",
+      "skal få"
+    ],
+    "answer": "skal have",
+    "explanation": "Asking what people would like to drink is like ordering: om de skal have kaffe eller te.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-10",
+    "level": 2,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Nej tak, jeg er mæt. Jeg tror ikke, at jeg ___ mere kage.",
+    "options": [
+      "skal få",
+      "skal have"
+    ],
+    "answer": "skal have",
+    "explanation": "Declining food politely: jeg skal ikke have mere. Skal få would sound like someone else decides whether you are given cake.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-11",
+    "level": 4,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Sig til, hvor mange kartofler du ___.",
+    "options": [
+      "skal have",
+      "skal få"
+    ],
+    "answer": "skal have",
+    "explanation": "Asking how much someone wants of a dish: hvor mange du skal have.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-12",
+    "level": 2,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Jeg ___ størrelse medium, tak.",
+    "options": [
+      "skal få",
+      "skal have"
+    ],
+    "answer": "skal have",
+    "explanation": "Asking for a size in a shop is ordering: skal have.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-13",
+    "level": 3,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Du ___ at vide, hvornår mødet starter, så snart vi kender tidspunktet.",
+    "options": [
+      "skal få",
+      "skal have"
+    ],
+    "answer": "skal få",
+    "explanation": "'Be told' is always få at vide: skal få at vide.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-14",
+    "level": 3,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Alle ansøgere ___ at vide, om de er kommet ind, i slutningen af juli.",
+    "options": [
+      "skal have",
+      "skal få"
+    ],
+    "answer": "skal få",
+    "explanation": "'Be told' is always få at vide: skal få at vide.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-15",
+    "level": 3,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Bare rolig, du ___ dine penge tilbage.",
+    "options": [
+      "skal nok få",
+      "skal nok have"
+    ],
+    "answer": "skal nok få",
+    "explanation": "Bare rolig … nok is reassurance: skal nok få (you will get it, don't worry).",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-16",
+    "level": 4,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Den samtale ___ ham til at tænke sig om.",
+    "options": [
+      "skal nok have",
+      "skal nok få"
+    ],
+    "answer": "skal nok få",
+    "explanation": "A conversation cannot have someone do something; få … til at = make someone do: skal nok få.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-17",
+    "level": 4,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Vi ___ det bedste ud af situationen, selv om det regner hele ferien.",
+    "options": [
+      "skal få",
+      "skal have"
+    ],
+    "answer": "skal få",
+    "explanation": "Få det bedste ud af = make the best of; it is always built with få.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-18",
+    "level": 4,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Den bøde ___ hende til at køre langsommere fremover.",
+    "options": [
+      "skal nok have",
+      "skal nok få"
+    ],
+    "answer": "skal nok få",
+    "explanation": "A fine cannot have someone do something; få … til at = make someone do: skal nok få.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-19",
+    "level": 4,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Han har en rød hat på, så du ___ øje på ham med det samme.",
+    "options": [
+      "skal nok få",
+      "skal nok have"
+    ],
+    "answer": "skal nok få",
+    "explanation": "Få øje på = catch sight of; it is always built with få.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-20",
+    "level": 3,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Ring til kommunen i morgen – du ___ hjælp.",
+    "options": [
+      "skal nok have",
+      "skal nok få"
+    ],
+    "answer": "skal nok få",
+    "explanation": "Reassurance with nok: du skal nok få hjælp (you will get help).",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-21",
+    "level": 3,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Rolig nu, du ___ en lejlighed, inden studiet starter.",
+    "options": [
+      "skal nok få",
+      "skal nok have"
+    ],
+    "answer": "skal nok få",
+    "explanation": "Rolig nu … nok is reassurance: skal nok få.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-22",
+    "level": 3,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Børnene ___ at vide i morgen, hvem deres nye lærer bliver.",
+    "options": [
+      "skal have",
+      "skal få"
+    ],
+    "answer": "skal få",
+    "explanation": "'Be told' is always få at vide: skal få at vide.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-23",
+    "level": 4,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Den lange kø ___ mange til at gå hjem igen.",
+    "options": [
+      "skal nok få",
+      "skal nok have"
+    ],
+    "answer": "skal nok få",
+    "explanation": "A queue cannot have someone do something; få … til at = make someone do: skal nok få.",
+    "reviewed": false
+  },
+  {
+    "id": "vb-skal-hf-24",
+    "level": 3,
+    "ruleId": "vb-skal-have-faa",
+    "prompt": "Patienterne ___ at vide på fredag, om de skal opereres.",
+    "options": [
+      "skal have",
+      "skal få"
+    ],
+    "answer": "skal få",
+    "explanation": "On fredag is when they will be told: 'be told' is få at vide, so skal få at vide.",
+    "reviewed": false
+  }
+]
