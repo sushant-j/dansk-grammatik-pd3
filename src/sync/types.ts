@@ -11,13 +11,19 @@
  */
 
 import type { Level } from '../content/levels';
+import { DRILL_DOMAIN_KEYS } from '../drills/registry';
 import type { DomainLevel, LevelDomain } from '../profile/levelStore';
 import type { ItemStat } from '../profile/mastery';
 
 /** Every practice area that keeps mastery stats. */
 export type Domain = LevelDomain | 'vocab';
 
-export const ALL_DOMAINS: Domain[] = ['grammar', 'nouns', 'verbs', 'adjectives', 'comma', 'spelling', 'vocab'];
+/**
+ * Replay skips answers whose domain is not here (they come from a newer app
+ * version), so every domain that records must be listed — drill domains come
+ * from the registry, all of them, whether or not they have content yet.
+ */
+export const ALL_DOMAINS: Domain[] = ['grammar', 'nouns', 'verbs', 'adjectives', 'comma', 'spelling', 'vocab', ...DRILL_DOMAIN_KEYS];
 
 interface EventBase {
   /** Client-generated uuid: the upload is idempotent on it. */

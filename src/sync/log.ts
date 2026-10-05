@@ -26,6 +26,8 @@ import { emptyStats as spellingEmpty, useSpellingProfile } from '../profile/spel
 import { emptyStats as grammarEmpty, useProfile, type SessionResult } from '../profile/store';
 import { emptyStats as verbEmpty, useVerbProfile } from '../profile/verbStore';
 import { useVocabProfile } from '../profile/vocabStore';
+import { emptyDrillStats, useDrillProfile } from '../drills/drillStore';
+import { DRILL_DOMAIN_KEYS } from '../drills/registry';
 import { setEventSink, type AnswerInput } from './bus';
 import { replay } from './replay';
 import type { Baseline, Derived, Domain, ProgressEvent } from './types';
@@ -90,6 +92,9 @@ export function publish(): Derived {
   useCommaProfile.setState({ stats: { ...commaEmpty(), ...d.stats.comma } });
   useSpellingProfile.setState({ stats: { ...spellingEmpty(), ...d.stats.spelling } });
   useVocabProfile.setState({ stats: d.stats.vocab });
+  useDrillProfile.setState({
+    stats: { ...emptyDrillStats(), ...Object.fromEntries(DRILL_DOMAIN_KEYS.map((k) => [k, d.stats[k]])) },
+  });
   useActivity.setState({ activeDays: d.activeDays });
   useLevels.setState({ domains: d.levels });
   return d;

@@ -16,6 +16,7 @@ import { ALL_NOUN_RULE_IDS } from '../grammar/nounRules';
 import { ALL_RULE_IDS } from '../grammar/rules';
 import { ALL_SPELLING_RULE_IDS } from '../grammar/spellingRules';
 import { ALL_VERB_RULE_IDS } from '../grammar/verbRules';
+import { DRILL_DOMAINS } from '../drills/registry';
 import { ADJECTIVE_BANK } from './adjectives';
 import { COMMA_EXAMPLES } from './commaExamples';
 import { SIMULATED_PAPERS } from './exams/simulated';
@@ -46,7 +47,19 @@ const current: Record<string, string[]> = {
   spelling: ids(SPELLING_EXAMPLES),
   // Attempts point at paper ids, so a simulated paper's id must never change.
   simulatedPapers: ids(SIMULATED_PAPERS),
+  // Drill topics and items, per domain, from the registry: answers point at
+  // the item id and mastery at the topic id, exactly as for the banks above.
+  ...Object.fromEntries(
+    DRILL_DOMAINS.flatMap((d) => [
+      [`drill:${d.key}:rules`, ids(d.rules)],
+      [`drill:${d.key}:items`, ids(d.items)],
+    ]),
+  ),
 };
+
+/** Ids that rule aliases may point at: every rule-like id, drill topics included. */
+const RULE_BANKS = ['grammarRules', 'nounRules', 'verbRules', 'adjectiveRules', 'commaRules', 'spellingRules'];
+const isRuleBank = (bank: string) => RULE_BANKS.includes(bank) || /^drill:.*:rules$/.test(bank);
 
 function readLock(): Record<string, string[]> {
   return fs.existsSync(LOCK_PATH) ? JSON.parse(fs.readFileSync(LOCK_PATH, 'utf8')) : {};
@@ -88,14 +101,7 @@ describe('content ids', () => {
   });
 
   it('every rule alias points from a retired id to a live rule', () => {
-    const liveRules = [
-      ...current.grammarRules,
-      ...current.nounRules,
-      ...current.verbRules,
-      ...current.adjectiveRules,
-      ...current.commaRules,
-      ...current.spellingRules,
-    ];
+    const liveRules = Object.entries(current).flatMap(([bank, list]) => (isRuleBank(bank) ? list : []));
     for (const [from, to] of Object.entries(RULE_ALIASES)) {
       expect(from in RETIRED_IDS, `${from} must be in RETIRED_IDS`).toBe(true);
       expect(liveRules).toContain(to);

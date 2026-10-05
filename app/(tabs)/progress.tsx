@@ -14,6 +14,7 @@ import {
   DOMAIN_LABELS,
   DOMAIN_ROUTES,
   EMPTY_DOMAIN_LEVEL,
+  isVisibleLevelDomain,
   LEVEL_DOMAINS,
   LEVEL_UP_ACCURACY,
   LEVEL_UP_ATTEMPTS,
@@ -118,7 +119,7 @@ export default function Progress() {
       {/* ── Niveau per trainer ───────────────────────────────────────── */}
       <View style={{ gap: t.space(2) }}>
         <ListGroup title="Niveau">
-          {LEVEL_DOMAINS.map((domain) => (
+          {LEVEL_DOMAINS.filter(isVisibleLevelDomain).map((domain) => (
             <NiveauRow key={domain} domain={domain} />
           ))}
         </ListGroup>

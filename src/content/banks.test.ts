@@ -12,6 +12,7 @@ import { describe, expect, it } from 'vitest';
 import { ALL_COMMA_RULE_IDS } from '../grammar/commaRules';
 import { ALL_RULE_IDS } from '../grammar/rules';
 import { ALL_SPELLING_RULE_IDS } from '../grammar/spellingRules';
+import { DRILL_DOMAINS } from '../drills/registry';
 import { ADJECTIVE_BANK } from './adjectives';
 import { COMMA_EXAMPLES } from './commaExamples';
 import IMPORTED_VERBS from './data/verbs.json';
@@ -30,6 +31,8 @@ const BANKS: Record<string, { id: string; level: Level; reviewed?: boolean }[]> 
   comma: COMMA_EXAMPLES,
   spelling: SPELLING_EXAMPLES,
   vocabulary: VOCABULARY,
+  // Drill domains, from the registry; their own contract is in drills.test.ts.
+  ...Object.fromEntries(DRILL_DOMAINS.map((d) => [`drill:${d.key}`, d.items])),
 };
 
 describe('every bank', () => {
@@ -43,7 +46,7 @@ describe('every bank', () => {
     const rows = Object.entries(BANKS).map(([bank, items]) => {
       const unreviewed = items.filter((i) => i.reviewed === false).length;
       const byLevel = ALL_LEVELS.map((l) => items.filter((i) => i.level === l).length).join('/');
-      return `${bank.padEnd(11)} ${String(items.length).padStart(4)} items  niveau 1–5: ${byLevel.padEnd(20)} unreviewed: ${unreviewed}`;
+      return `${bank.padEnd(24)} ${String(items.length).padStart(4)} items  niveau 1–5: ${byLevel.padEnd(20)} unreviewed: ${unreviewed}`;
     });
     console.info('\n' + rows.join('\n'));
   });

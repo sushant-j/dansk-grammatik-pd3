@@ -2,7 +2,7 @@
  * Cross-domain review — the app-wide answer to "what should I do next?".
  *
  * Every trainer (sætningsskema, verbs, nouns, adjectives, comma, spelling,
- * vocabulary) keeps its own per-item mastery via the shared `mastery.ts`.
+ * vocabulary, and each grammar-drill domain) keeps its own per-item mastery via the shared `mastery.ts`.
  * But the home screen's headline recommendation historically looked only at
  * the word-order map, which quietly broke the app's core promise: a learner
  * solid on word order but shaky on verbs was told "you're doing great" and
@@ -25,6 +25,8 @@ import { verbRuleProgress } from './verbStore';
 import { commaRuleProgress } from './commaStore';
 import { spellingRuleProgress } from './spellingStore';
 import type { ItemStat, MasteryLevel } from './mastery';
+import { drillRuleProgress, type DrillStats } from '../drills/drillExercise';
+import { drillRoute, LIVE_DRILL_DOMAINS, type DrillDomain, type DrillDomainKey } from '../drills/registry';
 
 export type DomainKey =
   | 'grammar'
@@ -33,7 +35,8 @@ export type DomainKey =
   | 'adjectives'
   | 'comma'
   | 'spelling'
-  | 'vocab';
+  | 'vocab'
+  | DrillDomainKey;
 
 export interface DomainReview {
   key: DomainKey;
@@ -78,11 +81,25 @@ export interface OverviewStats {
   comma: Record<string, ItemStat>;
   spelling: Record<string, ItemStat>;
   vocab: Record<string, ItemStat>;
+  /** Per drill domain, per topic. A domain missing here counts as untouched. */
+  drills: Partial<Record<DrillDomainKey, DrillStats>>;
   /** Vocabulary counts only the deck up to the learner's niveau, or 1,400 words would swamp every total. */
   vocabLevel?: Level;
 }
 
-export function crossDomainReview(s: OverviewStats, now = Date.now()): DomainReview[] {
+/**
+ * One row per trainer. Drill domains come from the registry, one row each,
+ * leaving out any without topics yet (`drillDomains` is injectable so tests
+ * can use a fixture). A drill domain is tallied per topic, exactly like the
+ * hand-built trainers are per rule — and since `tally` only ever counts
+ * practised topics as attention, a ten-topic domain the learner has not
+ * opened adds nothing to the "widest gap", however many topics it has.
+ */
+export function crossDomainReview(
+  s: OverviewStats,
+  now = Date.now(),
+  drillDomains: DrillDomain[] = LIVE_DRILL_DOMAINS,
+): DomainReview[] {
   const domains: DomainReview[] = [
     { key: 'grammar', label: 'Word order', route: '/train', ...tally(ruleProgress(s.grammar, now)) },
     { key: 'verbs', label: 'Verb tenses', route: '/verbs', ...tally(verbRuleProgress(s.verbs, now)) },
@@ -91,6 +108,15 @@ export function crossDomainReview(s: OverviewStats, now = Date.now()): DomainRev
     { key: 'comma', label: 'Comma rules', route: '/comma', ...tally(commaRuleProgress(s.comma, now)) },
     { key: 'spelling', label: 'Spelling', route: '/spelling', ...tally(spellingRuleProgress(s.spelling, now)) },
     { key: 'vocab', label: 'Vocabulary', route: '/vocab', ...tally(vocabProgress(s.vocab, now, s.vocabLevel)) },
+    ...drillDomains
+      // An empty domain would also make the solid/total tiebreak below NaN.
+      .filter((d) => d.rules.length > 0)
+      .map((d) => ({
+        key: d.key,
+        label: d.label,
+        route: drillRoute(d.key),
+        ...tally(drillRuleProgress(d, s.drills[d.key] ?? {}, now)),
+      })),
   ];
 
   // Most open gaps first; ties broken by the smaller solid fraction, so a

@@ -3584,5 +3584,27 @@
     "sim-4",
     "sim-5",
     "sim-6"
-  ]
+  ],
+  "drill:verb-tenses:rules": [],
+  "drill:verb-tenses:items": [],
+  "drill:verb-blive-faa:rules": [],
+  "drill:verb-blive-faa:items": [],
+  "drill:modal-verbs:rules": [],
+  "drill:modal-verbs:items": [],
+  "drill:noun-usage:rules": [],
+  "drill:noun-usage:items": [],
+  "drill:adjective-usage:rules": [],
+  "drill:adjective-usage:items": [],
+  "drill:adverbs:rules": [],
+  "drill:adverbs:items": [],
+  "drill:pronouns:rules": [],
+  "drill:pronouns:items": [],
+  "drill:conjunctions:rules": [],
+  "drill:conjunctions:items": [],
+  "drill:prepositions:rules": [],
+  "drill:prepositions:items": [],
+  "drill:word-choice-verbs:rules": [],
+  "drill:word-choice-verbs:items": [],
+  "drill:word-choice-other:rules": [],
+  "drill:word-choice-other:items": []
 }
