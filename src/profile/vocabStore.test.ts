@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { VOCABULARY } from '../content/vocabulary';
 import { EMPTY_STAT, applyOutcome, type ItemStat } from './mastery';
-import { nextWord, summarizeVocab, vocabProgress } from './vocabStore';
+import { MAX_LEVEL } from '../content/levels';
+import { SESSION_CATEGORIES, countByCategory, nextWord, summarizeVocab, vocabProgress } from './vocabStore';
 
 const NOW = 1_700_000_000_000;
 
@@ -85,5 +86,59 @@ describe('the deck follows the niveau', () => {
   it('includes every word the grammar trainers use', () => {
     expect(VOCABULARY.some((v) => v.id === 'w-n-bil' && v.forms === 'en bil · bilen')).toBe(true);
     expect(VOCABULARY.some((v) => v.id === 'w-v-gå' && v.word === 'at gå')).toBe(true);
+  });
+});
+
+describe('a vocabulary session', () => {
+  it('serves only the chosen word types', () => {
+    for (let i = 0; i < 40; i++) {
+      const w = nextWord({}, undefined, NOW, MAX_LEVEL, { categories: ['verb', 'adjective'] });
+      expect(['verb', 'adjective']).toContain(w.category);
+    }
+  });
+
+  it('treats no chosen types as all of them', () => {
+    const seen = new Set<string>();
+    for (let i = 0; i < 200; i++) seen.add(nextWord({}, undefined, NOW, MAX_LEVEL, { categories: [] }).category);
+    expect(seen.size).toBeGreaterThan(1);
+  });
+
+  it('shows no word twice until every word of those types has been shown', () => {
+    // The smallest type at niveau 1 keeps the run short enough to exhaust.
+    const counts = countByCategory(1);
+    const category = SESSION_CATEGORIES.filter((c) => counts[c] > 0).sort((a, b) => counts[a] - counts[b])[0];
+    const size = counts[category];
+
+    const served = new Set<string>();
+    let last: string | undefined;
+    for (let i = 0; i < size; i++) {
+      const w = nextWord({}, last, NOW, 1, { categories: [category], exclude: served });
+      expect(served.has(w.id)).toBe(false);
+      served.add(w.id);
+      last = w.id;
+    }
+    expect(served.size).toBe(size);
+
+    // Exhausted: repeats are allowed rather than running out of cards.
+    const again = nextWord({}, last, NOW, 1, { categories: [category], exclude: served });
+    expect(served.has(again.id)).toBe(true);
+  });
+
+  it('still never serves a word above the learner’s niveau', () => {
+    const served = new Set<string>();
+    for (let i = 0; i < 60; i++) {
+      const w = nextWord({}, undefined, NOW, 2, { categories: ['noun'], exclude: served });
+      expect(w.level).toBeLessThanOrEqual(2);
+      expect(w.category).toBe('noun');
+      served.add(w.id);
+    }
+  });
+
+  it('counts the words of each type a niveau can serve', () => {
+    const counts = countByCategory(3);
+    for (const c of SESSION_CATEGORIES) {
+      expect(counts[c]).toBe(VOCABULARY.filter((v) => v.category === c && v.level <= 3).length);
+    }
+    expect(countByCategory(1).noun).toBeLessThanOrEqual(counts.noun);
   });
 });
