@@ -134,6 +134,18 @@ describe('a vocabulary session', () => {
     }
   });
 
+  it('with all levels open, draws from above the niveau too, and can reach every word of a type', () => {
+    const verbs = VOCABULARY.filter((v) => v.category === 'verb');
+    const served = new Set<string>();
+    for (let i = 0; i < verbs.length; i++) {
+      const w = nextWord({}, undefined, NOW, 1, { categories: ['verb'], exclude: served, allLevels: true });
+      expect(w.category).toBe('verb');
+      served.add(w.id);
+    }
+    expect(served.size).toBe(verbs.length);
+    expect(verbs.some((v) => v.level > 1 && served.has(v.id))).toBe(true);
+  });
+
   it('counts the words of each type a niveau can serve', () => {
     const counts = countByCategory(3);
     for (const c of SESSION_CATEGORIES) {

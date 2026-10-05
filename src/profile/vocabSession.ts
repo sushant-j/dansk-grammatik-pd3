@@ -16,9 +16,12 @@ export type SessionLength = 10 | 20 | 30 | 'endless';
 interface VocabSessionState {
   categories: VocabCategory[];
   length: SessionLength;
+  /** Drill every level rather than only words up to the learner's niveau. */
+  allLevels: boolean;
   hydrated: boolean;
   setCategories: (categories: VocabCategory[]) => void;
   setLength: (length: SessionLength) => void;
+  setAllLevels: (allLevels: boolean) => void;
 }
 
 export const useVocabSession = create<VocabSessionState>()(
@@ -26,13 +29,16 @@ export const useVocabSession = create<VocabSessionState>()(
     (set) => ({
       categories: SESSION_CATEGORIES,
       length: 20,
+      allLevels: false,
       hydrated: false,
       setCategories: (categories) => set({ categories }),
       setLength: (length) => set({ length }),
+      setAllLevels: (allLevels) => set({ allLevels }),
     }),
     persistOptions('skema-vocab-session-v1', (s: VocabSessionState) => ({
       categories: s.categories,
       length: s.length,
+      allLevels: s.allLevels,
     })),
   ),
 );

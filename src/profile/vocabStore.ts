@@ -86,6 +86,11 @@ export interface NextWordOptions {
   categories?: readonly VocabCategory[];
   /** Ids already served this session — skipped until the filtered deck runs dry. */
   exclude?: ReadonlySet<string>;
+  /**
+   * Ignore the niveau: draw from every level, weakest-first with no bias
+   * toward any one level — for drilling a whole word type, e.g. before the exam.
+   */
+  allLevels?: boolean;
 }
 
 /**
@@ -112,15 +117,19 @@ export function nextWord(
   lastWordId?: string,
   now = Date.now(),
   level: Level = MAX_LEVEL,
-  { categories, exclude }: NextWordOptions = {},
+  { categories, exclude, allLevels }: NextWordOptions = {},
 ): VocabEntry {
+  if (allLevels) level = MAX_LEVEL;
   // Filter before the niveau split, so the split never sees an empty pool:
   // the chosen types at or below the niveau, then minus what's been shown.
   const ofType = categories?.length ? VOCABULARY.filter((v) => categories.includes(v.category)) : VOCABULARY;
   const deck = ofType.some((v) => v.level <= level) ? ofType : VOCABULARY;
   const eligible = deck.filter((v) => v.level <= level);
   const fresh = exclude?.size ? eligible.filter((v) => !exclude.has(v.id)) : eligible;
-  const pool = poolForLevel(fresh.length ? fresh : eligible.length ? eligible : deck, level);
+  const candidates = fresh.length ? fresh : eligible.length ? eligible : deck;
+  // The niveau split favours the learner's own level; with every level open
+  // there's no level to favour, so weakness alone decides.
+  const pool = allLevels ? candidates : poolForLevel(candidates, level);
   const scored = pool.map((v) => {
     const p = progressFor(v.id, stats[v.id] ?? EMPTY_STAT, now);
     const weakness = p.attempts ? 1 - p.strength : 0.6;

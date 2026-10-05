@@ -3,7 +3,7 @@ import { Pressable, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Screen } from '../src/ui/Screen';
 import { splitAtForm, type VocabExample } from '../src/content/examples';
-import type { Level } from '../src/content/levels';
+import { MAX_LEVEL, type Level } from '../src/content/levels';
 import type { VocabCategory, VocabEntry } from '../src/content/vocabulary';
 import { currentLevelNow, useCurrentLevel } from '../src/profile/levelStore';
 import { useVocabSession, type SessionLength } from '../src/profile/vocabSession';
@@ -48,6 +48,7 @@ const MAX_EXAMPLES = 4;
 interface Session {
   categories: VocabCategory[];
   length: SessionLength;
+  allLevels: boolean;
   /** Every word shown this round, the current card included — none repeats until these run out. */
   served: Set<string>;
   results: { word: VocabEntry; knewIt: boolean }[];
@@ -80,11 +81,12 @@ export default function Vocab() {
 
   const summary = useMemo(() => summarizeVocab(stats, Date.now(), level), [stats, level]);
 
-  const start = useCallback((categories: VocabCategory[], length: SessionLength) => {
+  const start = useCallback((categories: VocabCategory[], length: SessionLength, allLevels: boolean) => {
     const first = nextWord(useVocabProfile.getState().stats, undefined, Date.now(), currentLevelNow('vocab'), {
       categories,
+      allLevels,
     });
-    setSession({ categories, length, served: new Set([first.id]), results: [] });
+    setSession({ categories, length, allLevels, served: new Set([first.id]), results: [] });
     setWord(first);
     setFlipped(false);
     setFinished(false);
@@ -113,6 +115,7 @@ export default function Vocab() {
       }
       const nxt = nextWord(useVocabProfile.getState().stats, word.id, Date.now(), currentLevelNow('vocab'), {
         categories: session.categories,
+        allLevels: session.allLevels,
         // A fixed round never repeats a card; Endless lets weak words come back, as before.
         exclude: session.length === 'endless' ? undefined : session.served,
       });
@@ -151,7 +154,7 @@ export default function Vocab() {
       ) : finished ? (
         <SessionSummary
           session={session}
-          onAgain={() => start(session.categories, session.length)}
+          onAgain={() => start(session.categories, session.length, session.allLevels)}
           onChange={backToSetup}
         />
       ) : word ? (
@@ -235,15 +238,17 @@ function SessionSetup({
   onStart,
 }: {
   level: Level;
-  onStart: (categories: VocabCategory[], length: SessionLength) => void;
+  onStart: (categories: VocabCategory[], length: SessionLength, allLevels: boolean) => void;
 }) {
   const t = useTheme();
   const categories = useVocabSession((st) => st.categories);
   const length = useVocabSession((st) => st.length);
   const setCategories = useVocabSession((st) => st.setCategories);
   const setLength = useVocabSession((st) => st.setLength);
+  const allLevels = useVocabSession((st) => st.allLevels);
+  const setAllLevels = useVocabSession((st) => st.setAllLevels);
 
-  const counts = useMemo(() => countByCategory(level), [level]);
+  const counts = useMemo(() => countByCategory(allLevels ? MAX_LEVEL : level), [allLevels, level]);
   const available = categories.reduce((n, c) => n + counts[c], 0);
 
   const toggle = (c: VocabCategory) =>
@@ -266,6 +271,18 @@ function SessionSetup({
         </View>
       </View>
       <View style={{ gap: t.space(2) }}>
+        <Label color={t.c.textFaint}>LEVELS</Label>
+        <Segmented
+          compact
+          options={[
+            { key: 'mine', label: `Up to niveau ${level}` },
+            { key: 'all', label: 'All levels' },
+          ]}
+          value={allLevels ? 'all' : 'mine'}
+          onChange={(k) => setAllLevels(k === 'all')}
+        />
+      </View>
+      <View style={{ gap: t.space(2) }}>
         <Label color={t.c.textFaint}>CARDS PER ROUND</Label>
         <Segmented
           compact
@@ -274,7 +291,7 @@ function SessionSetup({
           onChange={(k) => setLength(k === 'endless' ? 'endless' : (Number(k) as SessionLength))}
         />
       </View>
-      <Button label="Start" onPress={() => onStart(categories, length)} disabled={available === 0} />
+      <Button label="Start" onPress={() => onStart(categories, length, allLevels)} disabled={available === 0} />
     </Card>
   );
 }
