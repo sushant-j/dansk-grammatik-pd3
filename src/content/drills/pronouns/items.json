@@ -1,1 +1,2650 @@
-[]
+[
+  {
+    "id": "pr-subj-01",
+    "level": 1,
+    "ruleId": "pr-subject-object",
+    "prompt": "Kan du hjælpe ___ med at bære kassen?",
+    "options": [
+      "jeg",
+      "mig"
+    ],
+    "answer": "mig",
+    "explanation": "Mig is the object of hjælpe; jeg is only used as a subject.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-02",
+    "level": 1,
+    "ruleId": "pr-subject-object",
+    "prompt": "I går så ___ en god film i biografen.",
+    "options": [
+      "vi",
+      "os"
+    ],
+    "answer": "vi",
+    "explanation": "Vi is the subject of så (inverted after 'I går'); os is an object form.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-03",
+    "level": 1,
+    "ruleId": "pr-subject-object",
+    "prompt": "Min søster ringer til ___ hver søndag.",
+    "options": [
+      "jeg",
+      "mig"
+    ],
+    "answer": "mig",
+    "explanation": "After the preposition til you need the object form mig.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-04",
+    "level": 1,
+    "ruleId": "pr-subject-object",
+    "prompt": "Kender du Peter? Ja, jeg mødte ___ på kurset.",
+    "options": [
+      "han",
+      "ham"
+    ],
+    "answer": "ham",
+    "explanation": "Ham is the object of mødte; jeg is the subject.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-05",
+    "level": 2,
+    "ruleId": "pr-subject-object",
+    "prompt": "Hvor bor ___ nu, du og din kæreste?",
+    "options": [
+      "I",
+      "jer"
+    ],
+    "answer": "I",
+    "explanation": "I is the subject of bor – the question is to two people, du og din kæreste.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-06",
+    "level": 1,
+    "ruleId": "pr-subject-object",
+    "prompt": "Vi har købt en gave til ___, fordi du har fødselsdag.",
+    "options": [
+      "du",
+      "dig"
+    ],
+    "answer": "dig",
+    "explanation": "After the preposition til, use the object form dig.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-07",
+    "level": 2,
+    "ruleId": "pr-subject-object",
+    "prompt": "Læreren vil gerne tale med ___ alle sammen efter timen.",
+    "options": [
+      "I",
+      "jer"
+    ],
+    "answer": "jer",
+    "explanation": "After the preposition med, use the object form jer.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-08",
+    "level": 1,
+    "ruleId": "pr-subject-object",
+    "prompt": "Maria er syg, så ___ kommer ikke på arbejde i dag.",
+    "options": [
+      "hun",
+      "hende"
+    ],
+    "answer": "hun",
+    "explanation": "Hun is the subject of kommer.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-09",
+    "level": 1,
+    "ruleId": "pr-subject-object",
+    "prompt": "Har du set mine nøgler? Jeg kan ikke finde ___.",
+    "options": [
+      "de",
+      "dem"
+    ],
+    "answer": "dem",
+    "explanation": "Dem is the object of finde.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-10",
+    "level": 1,
+    "ruleId": "pr-subject-object",
+    "prompt": "Naboerne er søde, og ___ hjalp os med at flytte.",
+    "options": [
+      "de",
+      "dem"
+    ],
+    "answer": "de",
+    "explanation": "De is the subject of hjalp.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-11",
+    "level": 2,
+    "ruleId": "pr-subject-object",
+    "prompt": "Min chef og ___ skal til møde i Aarhus på mandag.",
+    "options": [
+      "jeg",
+      "mig"
+    ],
+    "answer": "jeg",
+    "explanation": "'Min chef og jeg' is the subject of skal, so use jeg – don't be fooled by the og.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-12",
+    "level": 2,
+    "ruleId": "pr-subject-object",
+    "prompt": "Der ligger en pakke til dig og ___ i opgangen.",
+    "options": [
+      "jeg",
+      "mig"
+    ],
+    "answer": "mig",
+    "explanation": "Both dig and mig come after the preposition til, so both are object forms.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-13",
+    "level": 2,
+    "ruleId": "pr-subject-object",
+    "prompt": "Lægen sagde til min mand og ___, at vi skulle hvile os.",
+    "options": [
+      "jeg",
+      "mig"
+    ],
+    "answer": "mig",
+    "explanation": "'Til min mand og mig' follows a preposition, so use mig.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-14",
+    "level": 3,
+    "ruleId": "pr-subject-object",
+    "prompt": "Min bror er tre år ældre end ___ er.",
+    "options": [
+      "jeg",
+      "mig"
+    ],
+    "answer": "jeg",
+    "explanation": "The verb er follows, so the pronoun is its subject: 'end jeg er'.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-15",
+    "level": 3,
+    "ruleId": "pr-subject-object",
+    "prompt": "Hun løber hurtigere end ___ gør.",
+    "options": [
+      "han",
+      "ham"
+    ],
+    "answer": "han",
+    "explanation": "Gør follows, so the pronoun is the subject of that verb: han.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-16",
+    "level": 3,
+    "ruleId": "pr-subject-object",
+    "prompt": "Vi er lige så trætte som ___ er efter turen.",
+    "options": [
+      "I",
+      "jer"
+    ],
+    "answer": "I",
+    "explanation": "The verb er follows som, so you need the subject form I.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-17",
+    "level": 2,
+    "ruleId": "pr-subject-object",
+    "prompt": "Da ___ kom hjem fra arbejde, var børnene allerede faldet i søvn.",
+    "options": [
+      "hun",
+      "hende"
+    ],
+    "answer": "hun",
+    "explanation": "Hun is the subject of kom in the da-clause.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-18",
+    "level": 2,
+    "ruleId": "pr-subject-object",
+    "prompt": "Hvis du ser Anna i morgen, så giv ___ denne bog.",
+    "options": [
+      "hun",
+      "hende"
+    ],
+    "answer": "hende",
+    "explanation": "Hende is the indirect object of giv (give her the book).",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-19",
+    "level": 2,
+    "ruleId": "pr-subject-object",
+    "prompt": "Jeg tror ikke, at ___ har fået vores brev endnu.",
+    "options": [
+      "de",
+      "dem"
+    ],
+    "answer": "de",
+    "explanation": "De is the subject of har in the at-clause.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-20",
+    "level": 2,
+    "ruleId": "pr-subject-object",
+    "prompt": "Det var Ole, der inviterede ___ til festen, så vi tog derhen sammen.",
+    "options": [
+      "vi",
+      "os"
+    ],
+    "answer": "os",
+    "explanation": "Os is the object of inviterede; Ole is the one inviting.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-21",
+    "level": 2,
+    "ruleId": "pr-subject-object",
+    "prompt": "Ifølge ___ er huset alt for dyrt.",
+    "options": [
+      "han",
+      "ham"
+    ],
+    "answer": "ham",
+    "explanation": "Ifølge is a preposition, so the object form ham follows.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-22",
+    "level": 3,
+    "ruleId": "pr-subject-object",
+    "prompt": "Uden ___ havde vi aldrig klaret flytningen, så tusind tak til jer begge.",
+    "options": [
+      "I",
+      "jer"
+    ],
+    "answer": "jer",
+    "explanation": "Uden is a preposition, so use the object form jer.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-23",
+    "level": 2,
+    "ruleId": "pr-subject-object",
+    "prompt": "Børnene og ___ tager toget til Odense på lørdag.",
+    "options": [
+      "vi",
+      "os"
+    ],
+    "answer": "vi",
+    "explanation": "'Børnene og vi' is the subject of tager, so use vi.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-24",
+    "level": 2,
+    "ruleId": "pr-subject-object",
+    "prompt": "Kunne du tænke dig at tage med min kone og ___ i teatret?",
+    "options": [
+      "jeg",
+      "mig"
+    ],
+    "answer": "mig",
+    "explanation": "'Med min kone og mig' follows the preposition med, so use mig.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-subj-25",
+    "level": 2,
+    "ruleId": "pr-subject-object",
+    "prompt": "Jeg sagde til Jonas, at ___ skulle ringe til lægen.",
+    "options": [
+      "han",
+      "ham"
+    ],
+    "answer": "han",
+    "explanation": "In the at-clause the pronoun is the subject of skulle, so use han.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-01",
+    "level": 1,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Hvor er min telefon? Jeg kan ikke finde ___.",
+    "options": [
+      "den",
+      "det",
+      "dem"
+    ],
+    "answer": "den",
+    "explanation": "Telefon is an en-word (en telefon), so refer back with den.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-02",
+    "level": 1,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Vi har lejet et sommerhus. ___ ligger tæt på stranden.",
+    "options": [
+      "Den",
+      "Det",
+      "De"
+    ],
+    "answer": "Det",
+    "explanation": "Sommerhus is an et-word (et sommerhus), so use det.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-03",
+    "level": 1,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Jeg har købt nye sko, men ___ er lidt for små.",
+    "options": [
+      "den",
+      "det",
+      "de"
+    ],
+    "answer": "de",
+    "explanation": "Sko is plural here (nye sko, små), so use de.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-04",
+    "level": 2,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Hvad er det? ___ er en gave til min mor.",
+    "options": [
+      "Den",
+      "Det",
+      "De"
+    ],
+    "answer": "Det",
+    "explanation": "When you say what something is (det er + noun), always use det, even with an en-word like gave.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-05",
+    "level": 2,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Hvad er der i posen? ___ er æbler fra vores have.",
+    "options": [
+      "Det",
+      "De",
+      "Den"
+    ],
+    "answer": "Det",
+    "explanation": "Det er + noun identifies what is in the bag; use det even though æbler is plural.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-06",
+    "level": 1,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Kan du lide den nye lejlighed? Ja, ___ er meget lys.",
+    "options": [
+      "den",
+      "det",
+      "de"
+    ],
+    "answer": "den",
+    "explanation": "Lejlighed is an en-word, and the adjective lys has no -t, so den.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-07",
+    "level": 1,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Hvordan smager kaffen? ___ er lidt for stærk.",
+    "options": [
+      "Den",
+      "Det",
+      "De"
+    ],
+    "answer": "Den",
+    "explanation": "Kaffen is an en-word, and stærk (without -t) agrees with den.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-08",
+    "level": 1,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Børnene er trætte i dag, fordi ___ legede ude hele dagen.",
+    "options": [
+      "den",
+      "det",
+      "de"
+    ],
+    "answer": "de",
+    "explanation": "Børnene is plural, so refer back with de (subject form).",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-09",
+    "level": 2,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Jeg har lånt et par bøger på biblioteket, men jeg har ikke læst ___ endnu.",
+    "options": [
+      "den",
+      "det",
+      "dem"
+    ],
+    "answer": "dem",
+    "explanation": "Bøger is plural and here it is an object, so use dem.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-10",
+    "level": 2,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Vores køleskab er gået i stykker, så vi skal have ___ repareret.",
+    "options": [
+      "den",
+      "det",
+      "dem"
+    ],
+    "answer": "det",
+    "explanation": "Køleskab is an et-word (et køleskab), so use det.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-11",
+    "level": 2,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Hvad er det for en bog, du læser? ___ er en krimi.",
+    "options": [
+      "Den",
+      "Det",
+      "De"
+    ],
+    "answer": "Det",
+    "explanation": "Det er + noun tells what the book is, so use det, not den.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-12",
+    "level": 2,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Jeg har købt en ny cykel. ___ var ret dyr.",
+    "options": [
+      "Den",
+      "Det"
+    ],
+    "answer": "Den",
+    "explanation": "Dyr without -t agrees with an en-word, so den refers back to cykel. 'Det var dyrt' would need the -t.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-13",
+    "level": 3,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Hvad er det, der ligger på bordet? ___ er en pakke fra din onkel.",
+    "options": [
+      "Den",
+      "Det",
+      "De"
+    ],
+    "answer": "Det",
+    "explanation": "Det er + noun says what the thing is, so Danish uses det even for an en-word like pakke.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-14",
+    "level": 1,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Vi plantede nogle træer sidste år, og nu er ___ allerede to meter høje.",
+    "options": [
+      "den",
+      "det",
+      "de"
+    ],
+    "answer": "de",
+    "explanation": "Træer is plural (and høje is plural), so use de.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-15",
+    "level": 3,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Min søster skal giftes i maj. ___ glæder hele familien sig til.",
+    "options": [
+      "Den",
+      "Det",
+      "De"
+    ],
+    "answer": "Det",
+    "explanation": "Det refers to the whole situation (that she is getting married), not to a single noun.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-16",
+    "level": 2,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Jeg prøvede at ringe til lægen, men ___ var umuligt at komme igennem.",
+    "options": [
+      "den",
+      "det",
+      "de"
+    ],
+    "answer": "det",
+    "explanation": "Det points forward to 'at komme igennem'; it does not refer to lægen.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-17",
+    "level": 1,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Hvordan er vejret i Skagen? ___ er koldt og blæsende.",
+    "options": [
+      "Den",
+      "Det",
+      "De"
+    ],
+    "answer": "Det",
+    "explanation": "Vejret is an et-word, and koldt has -t, so det.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-18",
+    "level": 1,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Hvor er mælken? ___ står i køleskabet.",
+    "options": [
+      "Den",
+      "Det",
+      "De"
+    ],
+    "answer": "Den",
+    "explanation": "Mælk is an en-word (mælken), so use den.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-19",
+    "level": 1,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Vi har fået nye naboer. ___ er meget venlige.",
+    "options": [
+      "Den",
+      "Det",
+      "De"
+    ],
+    "answer": "De",
+    "explanation": "Naboer is plural, so use de.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-20",
+    "level": 2,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Jeg har tre gamle stole. Vil du have ___?",
+    "options": [
+      "den",
+      "det",
+      "dem"
+    ],
+    "answer": "dem",
+    "explanation": "Stole is plural and the object of have, so use dem.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-21",
+    "level": 2,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Hvem er det, der banker på døren? ___ er postbuddet.",
+    "options": [
+      "Den",
+      "Det",
+      "De"
+    ],
+    "answer": "Det",
+    "explanation": "When you identify who someone is with det er + noun, use det.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-22",
+    "level": 2,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Kan du huske det hus, vi så i weekenden? ___ er blevet solgt.",
+    "options": [
+      "Den",
+      "Det",
+      "De"
+    ],
+    "answer": "Det",
+    "explanation": "Hus is an et-word (det hus), so use det.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-23",
+    "level": 2,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Jeg har skrevet en ansøgning. Vil du læse ___ igennem?",
+    "options": [
+      "den",
+      "det",
+      "dem"
+    ],
+    "answer": "den",
+    "explanation": "Ansøgning is an en-word (en ansøgning), so use den.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-24",
+    "level": 1,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Mange tak for blomsterne! ___ er smukke.",
+    "options": [
+      "Den",
+      "Det",
+      "De"
+    ],
+    "answer": "De",
+    "explanation": "Blomsterne is plural, and smukke is the plural adjective form.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-dden-25",
+    "level": 3,
+    "ruleId": "pr-det-den-de",
+    "prompt": "Vores datter begynder i skole i august. ___ bliver en stor dag for os alle.",
+    "options": [
+      "Den",
+      "Det",
+      "De"
+    ],
+    "answer": "Det",
+    "explanation": "Det bliver + noun presents the event (her first school day); no noun is being repeated.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-01",
+    "level": 1,
+    "ruleId": "pr-det-der",
+    "prompt": "___ regner, så husk din paraply.",
+    "options": [
+      "Det",
+      "Der"
+    ],
+    "answer": "Det",
+    "explanation": "Weather verbs like regne always take det.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-02",
+    "level": 1,
+    "ruleId": "pr-det-der",
+    "prompt": "___ står en mand ved døren og venter på dig.",
+    "options": [
+      "Det",
+      "Der"
+    ],
+    "answer": "Der",
+    "explanation": "A new, indefinite subject (en mand) follows, so use der.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-03",
+    "level": 1,
+    "ruleId": "pr-det-der",
+    "prompt": "Hvor mange elever er ___ i din klasse?",
+    "options": [
+      "det",
+      "der"
+    ],
+    "answer": "der",
+    "explanation": "You ask how many elever exist in the class, so der is the dummy subject.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-04",
+    "level": 2,
+    "ruleId": "pr-det-der",
+    "prompt": "___ er vigtigt at sove nok, når man har eksamen.",
+    "options": [
+      "Det",
+      "Der"
+    ],
+    "answer": "Det",
+    "explanation": "Det points forward to 'at sove nok' – det er + adjective + at.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-05",
+    "level": 1,
+    "ruleId": "pr-det-der",
+    "prompt": "I weekenden sneede ___ hele lørdagen.",
+    "options": [
+      "det",
+      "der"
+    ],
+    "answer": "det",
+    "explanation": "Sne is a weather verb, so the subject is det.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-06",
+    "level": 1,
+    "ruleId": "pr-det-der",
+    "prompt": "Er ___ en bager i nærheden?",
+    "options": [
+      "det",
+      "der"
+    ],
+    "answer": "der",
+    "explanation": "You ask whether a bakery exists nearby: der er + indefinite noun.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-07",
+    "level": 2,
+    "ruleId": "pr-det-der",
+    "prompt": "Hvad står ___ på skiltet?",
+    "options": [
+      "det",
+      "der"
+    ],
+    "answer": "der",
+    "explanation": "The real subject is what is written (hvad), so the dummy subject is der: 'Der står …'.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-08",
+    "level": 2,
+    "ruleId": "pr-det-der",
+    "prompt": "Herfra tager ___ cirka to timer at køre til Aalborg.",
+    "options": [
+      "det",
+      "der"
+    ],
+    "answer": "det",
+    "explanation": "'Det tager + time' (it takes) always uses det.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-09",
+    "level": 2,
+    "ruleId": "pr-det-der",
+    "prompt": "___ bor mange studerende i vores opgang.",
+    "options": [
+      "Det",
+      "Der"
+    ],
+    "answer": "Der",
+    "explanation": "A new, indefinite subject (mange studerende) follows, so der.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-10",
+    "level": 2,
+    "ruleId": "pr-det-der",
+    "prompt": "Hvad er ___ sket med din cykel?",
+    "options": [
+      "det",
+      "der"
+    ],
+    "answer": "der",
+    "explanation": "Hvad is the real subject of sket, and der fills the subject place: 'Der er sket noget'.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-11",
+    "level": 1,
+    "ruleId": "pr-det-der",
+    "prompt": "___ var dejligt at se dig igen.",
+    "options": [
+      "Det",
+      "Der"
+    ],
+    "answer": "Det",
+    "explanation": "Det points forward to 'at se dig igen'.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-12",
+    "level": 2,
+    "ruleId": "pr-det-der",
+    "prompt": "___ mangler to stole til mødet i morgen.",
+    "options": [
+      "Det",
+      "Der"
+    ],
+    "answer": "Der",
+    "explanation": "The real subject is 'to stole', which is new and indefinite, so der.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-13",
+    "level": 1,
+    "ruleId": "pr-det-der",
+    "prompt": "Hvordan går ___ med dit nye job?",
+    "options": [
+      "det",
+      "der"
+    ],
+    "answer": "det",
+    "explanation": "The fixed question 'Hvordan går det?' uses det.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-14",
+    "level": 2,
+    "ruleId": "pr-det-der",
+    "prompt": "Til festen var ___ over hundrede gæster.",
+    "options": [
+      "det",
+      "der"
+    ],
+    "answer": "der",
+    "explanation": "'Over hundrede gæster' is an indefinite subject that comes later, so der.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-15",
+    "level": 3,
+    "ruleId": "pr-det-der",
+    "prompt": "I aften skal ___ ryddes op i hele huset.",
+    "options": [
+      "det",
+      "der"
+    ],
+    "answer": "der",
+    "explanation": "A passive without a real subject ('ryddes op') takes der.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-16",
+    "level": 3,
+    "ruleId": "pr-det-der",
+    "prompt": "___ ser ud til, at bussen er forsinket.",
+    "options": [
+      "Det",
+      "Der"
+    ],
+    "answer": "Det",
+    "explanation": "The expression 'det ser ud til' always takes det.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-17",
+    "level": 3,
+    "ruleId": "pr-det-der",
+    "prompt": "___ blev talt meget om de nye regler på mødet.",
+    "options": [
+      "Det",
+      "Der"
+    ],
+    "answer": "Der",
+    "explanation": "A passive without a real subject ('blev talt') takes der.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-18",
+    "level": 3,
+    "ruleId": "pr-det-der",
+    "prompt": "___ glæder mig, at du kan komme til min fødselsdag.",
+    "options": [
+      "Det",
+      "Der"
+    ],
+    "answer": "Det",
+    "explanation": "Det points forward to the at-clause: what pleases me is 'at du kan komme'.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-19",
+    "level": 2,
+    "ruleId": "pr-det-der",
+    "prompt": "___ findes mange gode tilbud til unge i kommunen.",
+    "options": [
+      "Det",
+      "Der"
+    ],
+    "answer": "Der",
+    "explanation": "'Mange gode tilbud' is a new, indefinite subject, so der findes.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-20",
+    "level": 2,
+    "ruleId": "pr-det-der",
+    "prompt": "Hvorfor er ___ så mange mennesker på stationen i dag?",
+    "options": [
+      "det",
+      "der"
+    ],
+    "answer": "der",
+    "explanation": "'Så mange mennesker' is the real subject, so der er – not 'det er'.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-21",
+    "level": 2,
+    "ruleId": "pr-det-der",
+    "prompt": "___ er svært at finde en billig lejlighed i København.",
+    "options": [
+      "Det",
+      "Der"
+    ],
+    "answer": "Det",
+    "explanation": "Det points forward to 'at finde en billig lejlighed'.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-22",
+    "level": 2,
+    "ruleId": "pr-det-der",
+    "prompt": "I nat frøs ___, så vejene er glatte i dag.",
+    "options": [
+      "det",
+      "der"
+    ],
+    "answer": "det",
+    "explanation": "Fryse about the weather takes det as subject: det frøs.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-23",
+    "level": 1,
+    "ruleId": "pr-det-der",
+    "prompt": "___ sidder en fugl i vinduet.",
+    "options": [
+      "Det",
+      "Der"
+    ],
+    "answer": "Der",
+    "explanation": "A new, indefinite subject (en fugl) follows, so der.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-24",
+    "level": 2,
+    "ruleId": "pr-det-der",
+    "prompt": "Hvornår går ___ en bus til centrum?",
+    "options": [
+      "det",
+      "der"
+    ],
+    "answer": "der",
+    "explanation": "'En bus' is an indefinite subject, so der goes in the subject place.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-25",
+    "level": 2,
+    "ruleId": "pr-det-der",
+    "prompt": "___ er min tur til at lave mad i aften.",
+    "options": [
+      "Det",
+      "Der"
+    ],
+    "answer": "Det",
+    "explanation": "'Det er min tur' uses det – it identifies whose turn it is.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-detder-26",
+    "level": 3,
+    "ruleId": "pr-det-der",
+    "prompt": "Hvad koster ___ at leje en bil i en uge?",
+    "options": [
+      "det",
+      "der"
+    ],
+    "answer": "det",
+    "explanation": "Det points forward to 'at leje en bil'.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-01",
+    "level": 1,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Peter, vil ___ have kaffe eller te?",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "du",
+    "explanation": "You speak to one person (Peter), so use du.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-02",
+    "level": 1,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Velkommen, alle sammen! Har ___ haft en god tur?",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "I",
+    "explanation": "'Alle sammen' shows you speak to several people, so use I.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-03",
+    "level": 2,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Når man flytter, skal ___ huske at melde sin nye adresse til kommunen.",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "man",
+    "explanation": "Sin points back to the subject, and only man takes sin; du would need din and I jeres.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-04",
+    "level": 1,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Børn, husk at ___ skal have jeres madpakker med i dag!",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "I",
+    "explanation": "'Børn' and 'jeres' show several listeners, so use I.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-05",
+    "level": 1,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Mor, kan ___ hente mig efter fodbold?",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "du",
+    "explanation": "You speak to one person (Mor), so use du.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-06",
+    "level": 2,
+    "ruleId": "pr-man-du-i",
+    "prompt": "I gamle dage skrev ___ breve til sin familie, fordi der ikke fandtes mobiltelefoner.",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "man",
+    "explanation": "People in general in the past, and sin only fits man; du would need din and I jeres.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-07",
+    "level": 1,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Hvor længe har ___ to været gift?",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "I",
+    "explanation": "'I to' means 'you two' – several listeners need I.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-08",
+    "level": 2,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Hvis man vil lære et sprog godt, skal ___ øve sig hver dag.",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "man",
+    "explanation": "Øve sig: sig fits man, but du would need dig and I jer.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-09",
+    "level": 2,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Tak for i aftes, Lise og Henrik! ___ må komme til middag hos os snart.",
+    "options": [
+      "Man",
+      "Du",
+      "I"
+    ],
+    "answer": "I",
+    "explanation": "You speak to two people (Lise og Henrik), so use I.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-10",
+    "level": 3,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Det er vigtigt, at ___ som borger kender sine rettigheder.",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "man",
+    "explanation": "Sine can point back to man, but not to du (dine) or I (jeres).",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-11",
+    "level": 1,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Sara, ___ ser træt ud. Har du sovet dårligt?",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "du",
+    "explanation": "You speak to one person (Sara), so use du.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-12",
+    "level": 2,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Kære forældre! Husk, at ___ skal tilmelde jer skolefesten senest fredag.",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "I",
+    "explanation": "'Kære forældre' and 'jer' show several listeners, so I.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-13",
+    "level": 3,
+    "ruleId": "pr-man-du-i",
+    "prompt": "På arbejdet bør ___ altid hilse på sine kolleger om morgenen.",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "man",
+    "explanation": "Sine fits only man; with du it would be dine and with I jeres.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-14",
+    "level": 2,
+    "ruleId": "pr-man-du-i",
+    "prompt": "I Danmark skal ___ vise sit sundhedskort, når man går til lægen.",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "man",
+    "explanation": "General rule with sit and man later in the sentence, so man.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-15",
+    "level": 1,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Hej Jonas! Hvordan har ___ det?",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "du",
+    "explanation": "You greet one person (Jonas), so du.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-16",
+    "level": 2,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Velkommen til kurset! Vil ___ ikke præsentere jer selv?",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "I",
+    "explanation": "'Jer selv' shows you speak to a group, so I.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-17",
+    "level": 2,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Før man laver mad, bør ___ vaske sig grundigt om hænderne.",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "man",
+    "explanation": "A general rule with vaske sig: sig fits man, while du would need dig and I jer.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-18",
+    "level": 1,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Har ___ husket din paraply, Ali?",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "du",
+    "explanation": "One listener (Ali) and 'din', so du.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-19",
+    "level": 2,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Hvad skal ___ lave i sommerferien, du og din familie?",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "I",
+    "explanation": "'Du og din familie' is more than one person, so I.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-20",
+    "level": 3,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Det er svært at slappe af, når ___ har travlt på sit arbejde.",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "man",
+    "explanation": "Sit points back to man; du would need dit and I jeres.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-21",
+    "level": 1,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Mange tak for gaven, I to! ___ er virkelig søde.",
+    "options": [
+      "Man",
+      "Du",
+      "I"
+    ],
+    "answer": "I",
+    "explanation": "'I to' – two listeners, so I.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-22",
+    "level": 2,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Når man bliver ældre, skal ___ passe bedre på sig selv.",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "man",
+    "explanation": "General statement with sig selv, which fits man; du would need dig selv and I jer selv.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-23",
+    "level": 1,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Vil ___ have mere kage, Emma?",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "du",
+    "explanation": "One listener (Emma), so du.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-you-24",
+    "level": 1,
+    "ruleId": "pr-man-du-i",
+    "prompt": "Sid ned, alle sammen. Er ___ klar til at begynde?",
+    "options": [
+      "man",
+      "du",
+      "I"
+    ],
+    "answer": "I",
+    "explanation": "'Alle sammen' – several listeners, so I.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-01",
+    "level": 1,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Når ___ er syg, skal man blive hjemme fra arbejde.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "man",
+    "explanation": "The gap is the subject of er, and only man can be a subject.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-02",
+    "level": 2,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Man skal huske at klæde ___ varmt på om vinteren.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "sig",
+    "explanation": "The person you dress is the same as the subject man, so use reflexive sig.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-03",
+    "level": 3,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Det gør ___ glad, når solen skinner om morgenen.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "én",
+    "explanation": "The subject is det, so the general person as object is én.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-04",
+    "level": 2,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Man glæder ___ altid til sommerferien.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "sig",
+    "explanation": "Glæde sig is reflexive, and the subject is man, so sig.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-05",
+    "level": 3,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Det er irriterende, når folk ikke lytter til ___.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "én",
+    "explanation": "The subject of the clause is folk, so the general person after til is én; sig would mean 'themselves'.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-06",
+    "level": 1,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "I Danmark giver ___ hånd, når man møder nye mennesker.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "man",
+    "explanation": "The gap is the subject of giver, so man.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-07",
+    "level": 2,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Man bør vaske ___ grundigt efter at have trænet.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "sig",
+    "explanation": "You wash yourself – the object is the subject man, so sig.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-08",
+    "level": 3,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Hvis man er ny på en arbejdsplads, er det rart, at kollegerne hilser på ___.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "én",
+    "explanation": "In the at-clause the subject is kollegerne, so the general person is én.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-09",
+    "level": 2,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Man skal passe godt på ___ selv.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "sig",
+    "explanation": "'Sig selv' refers back to the subject man in the same clause.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-10",
+    "level": 3,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Man ved aldrig, hvad fremtiden bringer ___.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "én",
+    "explanation": "In the hvad-clause the subject is fremtiden, so the object is én.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-11",
+    "level": 1,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Om sommeren kan ___ bade i havet.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "man",
+    "explanation": "The gap is the subject of kan (after the inversion), so man.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-12",
+    "level": 2,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Man skal ikke sammenligne ___ med andre hele tiden.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "sig",
+    "explanation": "You compare yourself – same person as the subject man, so sig.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-13",
+    "level": 3,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Lægen kan hjælpe ___, hvis man har ondt i ryggen.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "én",
+    "explanation": "Lægen is the subject of hjælpe, so the general person as object is én.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-14",
+    "level": 2,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Man føler ___ tit træt i januar.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "sig",
+    "explanation": "Føle sig is reflexive and the subject is man, so sig.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-15",
+    "level": 1,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Hvor kan ___ købe frimærker i dag?",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "man",
+    "explanation": "The gap is the subject of kan, so man.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-16",
+    "level": 3,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Det er dejligt, når nogen inviterer ___ på middag.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "én",
+    "explanation": "The subject is nogen, so the general object is én; sig would refer back to nogen.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-17",
+    "level": 2,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Man kan ikke koncentrere ___, når der er larm.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "sig",
+    "explanation": "Koncentrere sig is reflexive and the subject is man, so sig.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-18",
+    "level": 1,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Når ___ har små børn, har man ikke meget fritid.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "man",
+    "explanation": "The gap is the subject of har, so man.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-19",
+    "level": 3,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Det kan stresse ___, når telefonen ringer hele tiden.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "én",
+    "explanation": "The subject is det, so the general person as object is én.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-20",
+    "level": 3,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Hvis man har lånt penge, skal man betale dem tilbage, når banken beder ___ om det.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "én",
+    "explanation": "In the når-clause the subject is banken, so the general person is én.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-21",
+    "level": 2,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Man skal skynde ___, hvis man vil nå bussen.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "sig",
+    "explanation": "Skynde sig is reflexive, subject man, so sig.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-22",
+    "level": 1,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Her må ___ ikke parkere.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "man",
+    "explanation": "The gap is the subject of må, so man.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-23",
+    "level": 3,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Man bør sætte ___ ind i reglerne, før man starter en virksomhed.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "sig",
+    "explanation": "Sætte sig ind i is reflexive, and the subject is man, so sig.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-man-24",
+    "level": 3,
+    "ruleId": "pr-man-en-sig",
+    "prompt": "Man bliver glad, når andre roser ___.",
+    "options": [
+      "man",
+      "én",
+      "sig"
+    ],
+    "answer": "én",
+    "explanation": "In the når-clause the subject is andre, so the general person is én; sig would mean the others praise themselves.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-01",
+    "level": 2,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Jonas cykler til arbejde på ___ nye cykel.",
+    "options": [
+      "hans",
+      "sin",
+      "sit"
+    ],
+    "answer": "sin",
+    "explanation": "The owner is the subject Jonas, and cykel is an en-word, so sin.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-02",
+    "level": 2,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Jonas og ___ kone har lige fået en datter.",
+    "options": [
+      "hans",
+      "sin"
+    ],
+    "answer": "hans",
+    "explanation": "The possessive is part of the subject ('Jonas og … kone'), and sin can never be inside the subject.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-03",
+    "level": 3,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Mette siger, at ___ mand arbejder på et hospital.",
+    "options": [
+      "hendes",
+      "sin"
+    ],
+    "answer": "hendes",
+    "explanation": "In the at-clause 'mand' is the subject, so the possessive inside it must be hendes.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-04",
+    "level": 2,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Hun har inviteret alle ___ venner til fødselsdagen.",
+    "options": [
+      "hendes",
+      "sine"
+    ],
+    "answer": "sine",
+    "explanation": "Hun is the subject and owns the friends, and venner is plural, so sine.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-05",
+    "level": 2,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Børnene leger med ___ legetøj i haven.",
+    "options": [
+      "sit",
+      "sine",
+      "deres"
+    ],
+    "answer": "deres",
+    "explanation": "The owner (børnene) is plural, and there is no reflexive plural possessive: use deres.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-06",
+    "level": 2,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Min nabo vasker ___ bil hver lørdag.",
+    "options": [
+      "hans",
+      "sin"
+    ],
+    "answer": "sin",
+    "explanation": "The owner is the subject (min nabo), so sin – hans would mean someone else's car.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-07",
+    "level": 2,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Ali ringede til ___ mor, fordi hun havde fødselsdag.",
+    "options": [
+      "hans",
+      "sin"
+    ],
+    "answer": "sin",
+    "explanation": "Ali, the subject, calls his own mother, so sin.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-08",
+    "level": 3,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Lise var glad, da ___ søn bestod eksamen.",
+    "options": [
+      "hendes",
+      "sin"
+    ],
+    "answer": "hendes",
+    "explanation": "In the da-clause 'søn' is the subject, and sin cannot be part of the subject.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-09",
+    "level": 4,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Peter lånte min bil, fordi ___ egen var på værkstedet.",
+    "options": [
+      "hans",
+      "sin"
+    ],
+    "answer": "hans",
+    "explanation": "'… egen' is the subject of the fordi-clause, and sin can't be part of a subject, so hans egen.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-10",
+    "level": 2,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Sofie bor stadig hos ___ forældre.",
+    "options": [
+      "hendes",
+      "sine"
+    ],
+    "answer": "sine",
+    "explanation": "Sofie is the subject and owner, and forældre is plural, so sine.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-11",
+    "level": 4,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Martin besøgte Jens og så ___ nye lejlighed. (Jens's flat)",
+    "options": [
+      "hans",
+      "sin"
+    ],
+    "answer": "hans",
+    "explanation": "The owner is Jens, not the subject Martin, so hans; sin would mean Martin's own flat.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-12",
+    "level": 2,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Efter arbejde henter Ahmed ___ børn i børnehaven.",
+    "options": [
+      "hans",
+      "sine"
+    ],
+    "answer": "sine",
+    "explanation": "Ahmed is the subject and the father, and børn is plural, so sine.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-13",
+    "level": 3,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Min søster fortalte, at ___ kollega var blevet fyret.",
+    "options": [
+      "hendes",
+      "sin"
+    ],
+    "answer": "hendes",
+    "explanation": "In the at-clause 'kollega' is the subject, so you can't use sin inside it.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-14",
+    "level": 2,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Hun gav ___ søster en stor buket blomster.",
+    "options": [
+      "hendes",
+      "sin"
+    ],
+    "answer": "sin",
+    "explanation": "Hun is the subject and it is her own sister, so sin.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-15",
+    "level": 3,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Lærerne diskuterede ___ nye skema på mødet.",
+    "options": [
+      "sit",
+      "deres"
+    ],
+    "answer": "deres",
+    "explanation": "The subject lærerne is plural, so use deres – sit only goes with a singular subject.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-16",
+    "level": 2,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Thomas glemte ___ paraply i toget.",
+    "options": [
+      "hans",
+      "sin"
+    ],
+    "answer": "sin",
+    "explanation": "Thomas is the subject and forgot his own umbrella, so sin.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-17",
+    "level": 3,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Thomas var sur, fordi ___ paraply var blevet væk.",
+    "options": [
+      "hans",
+      "sin"
+    ],
+    "answer": "hans",
+    "explanation": "In the fordi-clause 'paraply' is the subject, so the possessive inside it is hans.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-18",
+    "level": 2,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Hver aften læser Søren en historie for ___ datter.",
+    "options": [
+      "hans",
+      "sin"
+    ],
+    "answer": "sin",
+    "explanation": "Søren is the subject (after inversion) and it is his own daughter, so sin.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-19",
+    "level": 2,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Søren og ___ datter læser en historie hver aften.",
+    "options": [
+      "hans",
+      "sin"
+    ],
+    "answer": "hans",
+    "explanation": "The possessive is inside the subject 'Søren og … datter', so hans.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-20",
+    "level": 4,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Eva er sur på Maja, fordi Maja har lånt ___ kjole uden at spørge. (Eva's dress)",
+    "options": [
+      "hendes",
+      "sin"
+    ],
+    "answer": "hendes",
+    "explanation": "The subject of the fordi-clause is Maja, but the dress is Eva's, so hendes; sin would mean Maja's own dress.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-21",
+    "level": 3,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Mange unge bor stadig hjemme hos ___ forældre.",
+    "options": [
+      "sine",
+      "deres"
+    ],
+    "answer": "deres",
+    "explanation": "'Mange unge' is plural, so the possessive is deres, not sine.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-22",
+    "level": 2,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Direktøren præsenterede ___ plan for medarbejderne.",
+    "options": [
+      "hans",
+      "sin"
+    ],
+    "answer": "sin",
+    "explanation": "The director is the subject and presents his or her own plan, so sin.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-23",
+    "level": 2,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Hvorfor ringer Jakob ikke til ___ bror?",
+    "options": [
+      "hans",
+      "sin"
+    ],
+    "answer": "sin",
+    "explanation": "Jakob is the subject (in the question), and it is his own brother, so sin.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-sin-24",
+    "level": 4,
+    "ruleId": "pr-hans-sin",
+    "prompt": "Martin besøgte Jens og viste ham ___ nye lejlighed. (Martin's own flat)",
+    "options": [
+      "hans",
+      "sin"
+    ],
+    "answer": "sin",
+    "explanation": "Martin is the subject and owns the flat, so sin; hans would point to Jens.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-01",
+    "level": 3,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Man skal passe godt på ___ helbred.",
+    "options": [
+      "ens",
+      "sit"
+    ],
+    "answer": "sit",
+    "explanation": "Man is the subject of the clause, so use the reflexive sit (helbred is an et-word).",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-02",
+    "level": 3,
+    "ruleId": "pr-ens-sin",
+    "prompt": "___ familie betyder meget, når man bliver ældre.",
+    "options": [
+      "Ens",
+      "Sin"
+    ],
+    "answer": "Ens",
+    "explanation": "The possessive is part of the subject, and sin can never be in the subject, so ens.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-03",
+    "level": 3,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Man bør altid have ___ pas med, når man rejser.",
+    "options": [
+      "ens",
+      "sit"
+    ],
+    "answer": "sit",
+    "explanation": "Man is the subject of har, so sit (pas is an et-word).",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-04",
+    "level": 3,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Det er hårdt, når ___ børn flytter hjemmefra.",
+    "options": [
+      "ens",
+      "sine"
+    ],
+    "answer": "ens",
+    "explanation": "In the når-clause the subject is '… børn', so the possessive must be ens.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-05",
+    "level": 3,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Man skal huske ___ nøgler, når man går ud.",
+    "options": [
+      "ens",
+      "sine"
+    ],
+    "answer": "sine",
+    "explanation": "Man is the subject of skal huske, so sine.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-06",
+    "level": 4,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Når ___ bil går i stykker, er det dyrt at få den repareret.",
+    "options": [
+      "ens",
+      "sin"
+    ],
+    "answer": "ens",
+    "explanation": "'… bil' is the subject of går, and sin can't be part of a subject, so ens.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-07",
+    "level": 3,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Man kan ikke altid vælge ___ kolleger.",
+    "options": [
+      "ens",
+      "sine"
+    ],
+    "answer": "sine",
+    "explanation": "Man is the subject of the clause, so sine.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-08",
+    "level": 4,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Man føler sig tryg, når ___ naboer er venlige.",
+    "options": [
+      "ens",
+      "sine"
+    ],
+    "answer": "ens",
+    "explanation": "In the når-clause the subject is '… naboer', not man, so ens.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-09",
+    "level": 3,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Man skal betale ___ husleje til tiden.",
+    "options": [
+      "ens",
+      "sin"
+    ],
+    "answer": "sin",
+    "explanation": "Man is the subject, so sin – 'man skal betale ens husleje' is a typical error.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-10",
+    "level": 4,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Hvis ___ chef er urimelig, kan man tale med sin fagforening.",
+    "options": [
+      "ens",
+      "sin"
+    ],
+    "answer": "ens",
+    "explanation": "'… chef' is the subject of the hvis-clause, so ens.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-11",
+    "level": 4,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Man bliver glad, når ___ arbejde bliver værdsat.",
+    "options": [
+      "ens",
+      "sit"
+    ],
+    "answer": "ens",
+    "explanation": "In the når-clause the subject is '… arbejde', so ens.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-12",
+    "level": 3,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Man skal tage ___ sko af, når man kommer ind i huset.",
+    "options": [
+      "ens",
+      "sine"
+    ],
+    "answer": "sine",
+    "explanation": "Man is the subject of skal tage, so sine.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-13",
+    "level": 4,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Det er rart, når ___ venner husker ens fødselsdag.",
+    "options": [
+      "ens",
+      "sine"
+    ],
+    "answer": "ens",
+    "explanation": "The subject of the når-clause is '… venner', so ens.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-14",
+    "level": 4,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Man glemmer let ___ gode planer, når hverdagen begynder.",
+    "options": [
+      "ens",
+      "sine"
+    ],
+    "answer": "sine",
+    "explanation": "Man is the subject of glemmer, so sine.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-15",
+    "level": 3,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Man savner tit ___ hjemland, når man bor i udlandet.",
+    "options": [
+      "ens",
+      "sit"
+    ],
+    "answer": "sit",
+    "explanation": "Man is the subject of savner, so sit (hjemland is an et-word).",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-16",
+    "level": 3,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Man skal skrive ___ navn øverst på papiret.",
+    "options": [
+      "ens",
+      "sit"
+    ],
+    "answer": "sit",
+    "explanation": "Man is the subject of skal skrive, so sit.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-17",
+    "level": 4,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Når man er syg, kan ___ læge skrive en lægeerklæring.",
+    "options": [
+      "ens",
+      "sin"
+    ],
+    "answer": "ens",
+    "explanation": "In the main clause the subject is '… læge', not man, so ens.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-18",
+    "level": 3,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Man lærer meget af ___ fejl.",
+    "options": [
+      "ens",
+      "sine"
+    ],
+    "answer": "sine",
+    "explanation": "Man is the subject of lærer, so sine.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-19",
+    "level": 3,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Det er trist, hvis ___ forældre bor langt væk.",
+    "options": [
+      "ens",
+      "sine"
+    ],
+    "answer": "ens",
+    "explanation": "'… forældre' is the subject of the hvis-clause, so ens.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-20",
+    "level": 3,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Man må gerne tage ___ hund med i parken, hvis den er i snor.",
+    "options": [
+      "ens",
+      "sin"
+    ],
+    "answer": "sin",
+    "explanation": "Man is the subject of må tage, so sin.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-21",
+    "level": 3,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Man bør læse ___ kontrakt grundigt, før man skriver under.",
+    "options": [
+      "ens",
+      "sin"
+    ],
+    "answer": "sin",
+    "explanation": "Man is the subject of bør læse, so sin.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-22",
+    "level": 4,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Man bliver stolt, når ___ børn klarer sig godt i skolen.",
+    "options": [
+      "ens",
+      "sine"
+    ],
+    "answer": "ens",
+    "explanation": "In the når-clause the subject is '… børn', so ens.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-23",
+    "level": 3,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Man skal tænke på ___ fremtid.",
+    "options": [
+      "ens",
+      "sin"
+    ],
+    "answer": "sin",
+    "explanation": "Man is the subject of skal tænke, so sin.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-24",
+    "level": 4,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Hvis ___ cykel bliver stjålet, skal man anmelde det til politiet.",
+    "options": [
+      "ens",
+      "sin"
+    ],
+    "answer": "ens",
+    "explanation": "'… cykel' is the subject of the hvis-clause, so ens.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-ens-25",
+    "level": 3,
+    "ruleId": "pr-ens-sin",
+    "prompt": "Man bør ringe til ___ arbejdsplads, hvis man er syg.",
+    "options": [
+      "ens",
+      "sin"
+    ],
+    "answer": "sin",
+    "explanation": "Man is the subject of bør ringe, so sin.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-01",
+    "level": 1,
+    "ruleId": "pr-countable",
+    "prompt": "Der var ___ mennesker til koncerten i går.",
+    "options": [
+      "mange",
+      "meget"
+    ],
+    "answer": "mange",
+    "explanation": "Mennesker can be counted, so mange.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-02",
+    "level": 1,
+    "ruleId": "pr-countable",
+    "prompt": "Jeg drikker ___ vand, når det er varmt.",
+    "options": [
+      "mange",
+      "meget"
+    ],
+    "answer": "meget",
+    "explanation": "Vand can't be counted, so meget.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-03",
+    "level": 1,
+    "ruleId": "pr-countable",
+    "prompt": "Har du ___ søskende?",
+    "options": [
+      "nogen",
+      "noget"
+    ],
+    "answer": "nogen",
+    "explanation": "Søskende is a countable plural, so nogen in a question.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-04",
+    "level": 1,
+    "ruleId": "pr-countable",
+    "prompt": "Vil du have ___ at drikke?",
+    "options": [
+      "nogen",
+      "noget"
+    ],
+    "answer": "noget",
+    "explanation": "You offer 'something' to drink – a thing, not a person, so noget.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-05",
+    "level": 1,
+    "ruleId": "pr-countable",
+    "prompt": "Kan jeg få lidt ___ kaffe?",
+    "options": [
+      "flere",
+      "mere"
+    ],
+    "answer": "mere",
+    "explanation": "Kaffe is uncountable here, so mere.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-06",
+    "level": 2,
+    "ruleId": "pr-countable",
+    "prompt": "Vi skal bruge ___ stole, for der kommer ti ekstra gæster.",
+    "options": [
+      "flere",
+      "mere"
+    ],
+    "answer": "flere",
+    "explanation": "Stole can be counted, so flere.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-07",
+    "level": 1,
+    "ruleId": "pr-countable",
+    "prompt": "Er der ___ hjemme?",
+    "options": [
+      "nogen",
+      "noget"
+    ],
+    "answer": "nogen",
+    "explanation": "You ask about people ('anybody'), so nogen.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-08",
+    "level": 2,
+    "ruleId": "pr-countable",
+    "prompt": "Jeg har ikke ___ tid i dag, så vi må tale sammen i morgen.",
+    "options": [
+      "mange",
+      "meget"
+    ],
+    "answer": "meget",
+    "explanation": "Tid is uncountable here, so meget.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-09",
+    "level": 3,
+    "ruleId": "pr-countable",
+    "prompt": "De har brugt ___ penge på deres nye køkken.",
+    "options": [
+      "mange",
+      "meget"
+    ],
+    "answer": "mange",
+    "explanation": "Penge is a plural noun in Danish, so the written standard is mange penge. \"meget penge\" is heard in casual speech, but avoid it in writing and at the exam.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-10",
+    "level": 2,
+    "ruleId": "pr-countable",
+    "prompt": "Lægen siger, at jeg skal motionere ___.",
+    "options": [
+      "flere",
+      "mere"
+    ],
+    "answer": "mere",
+    "explanation": "Here it is an adverb ('exercise more'), and only mere can be used that way.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-11",
+    "level": 2,
+    "ruleId": "pr-countable",
+    "prompt": "Der er faldet ___ sne i nat.",
+    "options": [
+      "mange",
+      "meget"
+    ],
+    "answer": "meget",
+    "explanation": "Sne is uncountable, so meget.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-12",
+    "level": 2,
+    "ruleId": "pr-countable",
+    "prompt": "Har du hørt ___ fra din søster?",
+    "options": [
+      "nogen",
+      "noget"
+    ],
+    "answer": "noget",
+    "explanation": "You ask whether you have heard 'anything' (news), so noget.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-13",
+    "level": 2,
+    "ruleId": "pr-countable",
+    "prompt": "Jeg kender ikke ___ i den nye klasse.",
+    "options": [
+      "nogen",
+      "noget"
+    ],
+    "answer": "nogen",
+    "explanation": "You mean 'anybody' (people), so nogen.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-14",
+    "level": 2,
+    "ruleId": "pr-countable",
+    "prompt": "Der bliver ___ ældre mennesker i Danmark i fremtiden.",
+    "options": [
+      "flere",
+      "mere"
+    ],
+    "answer": "flere",
+    "explanation": "Mennesker can be counted, so flere.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-15",
+    "level": 2,
+    "ruleId": "pr-countable",
+    "prompt": "Hun har ___ erfaring med børn, fordi hun har arbejdet i en børnehave.",
+    "options": [
+      "mange",
+      "meget"
+    ],
+    "answer": "meget",
+    "explanation": "Erfaring is uncountable here, so meget.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-16",
+    "level": 2,
+    "ruleId": "pr-countable",
+    "prompt": "Vi fik ikke ___ gaver til jul i år.",
+    "options": [
+      "nogen",
+      "noget"
+    ],
+    "answer": "nogen",
+    "explanation": "Gaver is a countable plural, so nogen in a negative sentence.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-17",
+    "level": 2,
+    "ruleId": "pr-countable",
+    "prompt": "Kommunen har bygget ___ nye boliger i området.",
+    "options": [
+      "mange",
+      "meget"
+    ],
+    "answer": "mange",
+    "explanation": "Boliger is a countable plural, so mange.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-18",
+    "level": 2,
+    "ruleId": "pr-countable",
+    "prompt": "Hvis du vil bestå prøven, skal du læse ___.",
+    "options": [
+      "flere",
+      "mere"
+    ],
+    "answer": "mere",
+    "explanation": "It is an adverb here ('study more'), so mere.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-19",
+    "level": 2,
+    "ruleId": "pr-countable",
+    "prompt": "Der var ___ trafik på motorvejen i morges.",
+    "options": [
+      "mange",
+      "meget"
+    ],
+    "answer": "meget",
+    "explanation": "Trafik is uncountable, so meget.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-20",
+    "level": 3,
+    "ruleId": "pr-countable",
+    "prompt": "I år har vi ___ problemer med internettet end sidste år.",
+    "options": [
+      "flere",
+      "mere"
+    ],
+    "answer": "flere",
+    "explanation": "Problemer is a countable plural, so flere – even in a comparison with end.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-21",
+    "level": 2,
+    "ruleId": "pr-countable",
+    "prompt": "Jeg har ikke spist ___ siden i morges.",
+    "options": [
+      "nogen",
+      "noget"
+    ],
+    "answer": "noget",
+    "explanation": "You mean 'anything' (food), so noget.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-22",
+    "level": 2,
+    "ruleId": "pr-countable",
+    "prompt": "Firmaet vil ansætte ___ medarbejdere næste år.",
+    "options": [
+      "flere",
+      "mere"
+    ],
+    "answer": "flere",
+    "explanation": "Medarbejdere can be counted, so flere.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-23",
+    "level": 2,
+    "ruleId": "pr-countable",
+    "prompt": "Der er ___ arbejde i haven om foråret.",
+    "options": [
+      "mange",
+      "meget"
+    ],
+    "answer": "meget",
+    "explanation": "Arbejde is uncountable here, so meget.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-24",
+    "level": 3,
+    "ruleId": "pr-countable",
+    "prompt": "Vi har brug for ___ information om de nye regler.",
+    "options": [
+      "flere",
+      "mere"
+    ],
+    "answer": "mere",
+    "explanation": "Information is uncountable in Danish, so mere.",
+    "reviewed": false
+  },
+  {
+    "id": "pr-count-25",
+    "level": 2,
+    "ruleId": "pr-countable",
+    "prompt": "Er der ___, der har set min taske?",
+    "options": [
+      "nogen",
+      "noget"
+    ],
+    "answer": "nogen",
+    "explanation": "You ask whether 'anybody' has seen it, so nogen.",
+    "reviewed": false
+  }
+]

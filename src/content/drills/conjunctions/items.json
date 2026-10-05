@@ -1,1 +1,1935 @@
-[]
+[
+  {
+    "id": "cj-hvisom-01",
+    "level": 1,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Jeg ved ikke, ___ han kommer i morgen.",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "om",
+    "explanation": "After \"ved ikke\" comes a hidden yes/no question (\"whether he is coming\"), so om.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-02",
+    "level": 1,
+    "ruleId": "cj-hvis-om",
+    "prompt": "___ det regner i morgen, bliver vi hjemme.",
+    "options": [
+      "Hvis",
+      "Om"
+    ],
+    "answer": "Hvis",
+    "explanation": "This is a condition: we stay home only if it rains, so hvis.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-03",
+    "level": 1,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Kan du spørge læreren, ___ vi har lektier for?",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "om",
+    "explanation": "After spørge the clause is a yes/no question (\"whether we have homework\"), so om.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-04",
+    "level": 1,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Du kan låne min cykel, ___ din er i stykker.",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "hvis",
+    "explanation": "A condition for borrowing the bike, so hvis; \"whether yours is broken\" makes no sense here.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-05",
+    "level": 1,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Lægen spurgte, ___ jeg havde feber.",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "om",
+    "explanation": "The doctor asked a yes/no question (\"whether I had a fever\"), so om.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-06",
+    "level": 2,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Vi kommer gerne, ___ vi kan finde en babysitter.",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "hvis",
+    "explanation": "Finding a babysitter is the condition for coming, so hvis.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-07",
+    "level": 2,
+    "ruleId": "cj-hvis-om",
+    "prompt": "___ du får jobbet, skal vi fejre det.",
+    "options": [
+      "Hvis",
+      "Om"
+    ],
+    "answer": "Hvis",
+    "explanation": "Getting the job is the condition for the celebration, so hvis.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-08",
+    "level": 2,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Jeg er i tvivl om, ___ jeg skal tage bussen eller toget.",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "om",
+    "explanation": "\"I'm unsure whether …\": after \"i tvivl om\" comes a question, so om.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-09",
+    "level": 2,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Hun vil gerne vide, ___ lejligheden stadig er ledig.",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "om",
+    "explanation": "\"Vil gerne vide\" introduces a yes/no question (\"whether the flat is still free\"), so om.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-10",
+    "level": 2,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Jeg ville købe et hus, ___ jeg havde råd.",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "hvis",
+    "explanation": "An imagined condition (\"if I could afford it\"), so hvis.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-11",
+    "level": 2,
+    "ruleId": "cj-hvis-om",
+    "prompt": "___ du ser Maria, så hils hende fra mig.",
+    "options": [
+      "Hvis",
+      "Om"
+    ],
+    "answer": "Hvis",
+    "explanation": "Seeing Maria is the condition for passing on the greeting, so hvis.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-12",
+    "level": 2,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Ring til tandlægen, ___ smerterne bliver værre.",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "hvis",
+    "explanation": "Only call on the condition that the pain gets worse, so hvis.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-13",
+    "level": 2,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Kommunen kan hjælpe dig, ___ du mister dit arbejde.",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "hvis",
+    "explanation": "A condition: the help applies in case you lose your job, so hvis.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-14",
+    "level": 2,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Har du hørt, ___ mødet er aflyst?",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "om",
+    "explanation": "\"Have you heard whether the meeting is cancelled?\" is a hidden question, so om.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-15",
+    "level": 2,
+    "ruleId": "cj-hvis-om",
+    "prompt": "___ man vil bestå prøven, skal man øve sig hver dag.",
+    "options": [
+      "Hvis",
+      "Om"
+    ],
+    "answer": "Hvis",
+    "explanation": "Wanting to pass is the condition for practising every day, so hvis.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-16",
+    "level": 2,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Jeg kan ikke huske, ___ jeg har låst døren.",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "om",
+    "explanation": "After \"kan ikke huske\" comes a yes/no question (\"whether I locked the door\"), so om.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-17",
+    "level": 3,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Det afhænger af vejret, ___ vi tager til stranden.",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "om",
+    "explanation": "\"Afhænge af\" is followed by a whether-question, so om.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-18",
+    "level": 3,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Vi må undersøge, ___ medicinen har bivirkninger.",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "om",
+    "explanation": "Undersøge introduces a yes/no question (\"whether the medicine has side effects\"), so om.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-19",
+    "level": 3,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Vi går en tur, uanset ___ det regner.",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "om",
+    "explanation": "The fixed expression is \"uanset om\" (regardless of whether), so om.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-20",
+    "level": 3,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Jeg spekulerer på, ___ jeg skal skifte job.",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "om",
+    "explanation": "\"Spekulere på\" introduces a whether-question, so om.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-21",
+    "level": 3,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Min mor ringede for at høre, ___ vi var kommet godt hjem.",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "om",
+    "explanation": "She wanted to find out whether we had got home safely, so om.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-22",
+    "level": 3,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Butikken giver pengene tilbage, ___ varen er defekt.",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "hvis",
+    "explanation": "A condition for the refund: only in case the item is faulty, so hvis.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-23",
+    "level": 3,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Det ville være dejligt, ___ vi kunne mødes i weekenden.",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "hvis",
+    "explanation": "An imagined condition (\"it would be lovely if …\"), so hvis; \"whether\" makes no sense here.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvisom-24",
+    "level": 3,
+    "ruleId": "cj-hvis-om",
+    "prompt": "Det er usikkert, ___ projektet får penge fra staten.",
+    "options": [
+      "hvis",
+      "om"
+    ],
+    "answer": "om",
+    "explanation": "\"It is uncertain whether …\": a hidden yes/no question, so om.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-01",
+    "level": 1,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "___ jeg var barn, boede vi på landet.",
+    "options": [
+      "Hvornår",
+      "Da",
+      "Når"
+    ],
+    "answer": "Da",
+    "explanation": "Childhood is one period in the past, so da (not når).",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-02",
+    "level": 1,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "___ jeg er kommet hjem i aften, skal jeg lave mad.",
+    "options": [
+      "Hvornår",
+      "Da",
+      "Når"
+    ],
+    "answer": "Når",
+    "explanation": "\"I aften\" plus skal points to the future, so når.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-03",
+    "level": 1,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "Ved du, ___ bussen kører?",
+    "options": [
+      "hvornår",
+      "da",
+      "når"
+    ],
+    "answer": "hvornår",
+    "explanation": "This is an indirect question about time (\"do you know when …?\"), so hvornår.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-04",
+    "level": 1,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "___ starter kurset?",
+    "options": [
+      "Hvornår",
+      "Da",
+      "Når"
+    ],
+    "answer": "Hvornår",
+    "explanation": "A direct question about time needs the question word hvornår.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-05",
+    "level": 1,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "Jeg bliver altid glad, ___ solen skinner.",
+    "options": [
+      "hvornår",
+      "da",
+      "når"
+    ],
+    "answer": "når",
+    "explanation": "\"Altid\" shows it happens every time, so når.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-06",
+    "level": 1,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "___ skal du til eksamen?",
+    "options": [
+      "Hvornår",
+      "Da",
+      "Når"
+    ],
+    "answer": "Hvornår",
+    "explanation": "A direct question about time needs hvornår.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-07",
+    "level": 2,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "Vi blev gift, ___ vi havde kendt hinanden i fem år.",
+    "options": [
+      "hvornår",
+      "da",
+      "når"
+    ],
+    "answer": "da",
+    "explanation": "A single event in the past (the wedding), so da.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-08",
+    "level": 2,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "___ vi flyttede til Danmark, kunne vi ikke tale dansk.",
+    "options": [
+      "Hvornår",
+      "Da",
+      "Når"
+    ],
+    "answer": "Da",
+    "explanation": "Moving to Denmark happened once in the past, so da.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-09",
+    "level": 2,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "Kan du fortælle mig, ___ butikken lukker?",
+    "options": [
+      "hvornår",
+      "da",
+      "når"
+    ],
+    "answer": "hvornår",
+    "explanation": "An indirect question about time (\"tell me when the shop closes\"), so hvornår.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-10",
+    "level": 2,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "___ jeg var ung, spillede jeg fodbold hver lørdag.",
+    "options": [
+      "Hvornår",
+      "Da",
+      "Når"
+    ],
+    "answer": "Da",
+    "explanation": "\"When I was young\" is one past period, so da, even though the football was weekly.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-11",
+    "level": 2,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "Jeg ved ikke, ___ jeg får svar fra kommunen.",
+    "options": [
+      "hvornår",
+      "da",
+      "når"
+    ],
+    "answer": "hvornår",
+    "explanation": "After \"ved ikke\" comes an indirect question about time, so hvornår.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-12",
+    "level": 2,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "Ring til mig, ___ du er landet i Kastrup i morgen.",
+    "options": [
+      "hvornår",
+      "da",
+      "når"
+    ],
+    "answer": "når",
+    "explanation": "\"I morgen\" shows the landing is in the future, so når.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-13",
+    "level": 2,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "Hun græd, ___ hun fik beskeden.",
+    "options": [
+      "hvornår",
+      "da",
+      "når"
+    ],
+    "answer": "da",
+    "explanation": "Getting the message happened once in the past, so da.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-14",
+    "level": 2,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "___ jeg engang går på pension, vil jeg flytte til Sverige.",
+    "options": [
+      "Hvornår",
+      "Da",
+      "Når"
+    ],
+    "answer": "Når",
+    "explanation": "\"Engang\" (some day) points to the future, so når.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-15",
+    "level": 2,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "Det var en stor dag, ___ min datter startede i skole.",
+    "options": [
+      "hvornår",
+      "da",
+      "når"
+    ],
+    "answer": "da",
+    "explanation": "Starting school happened once in the past, so da.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-16",
+    "level": 2,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "___ man søger job, er det vigtigt at have et godt CV.",
+    "options": [
+      "Hvornår",
+      "Da",
+      "Når"
+    ],
+    "answer": "Når",
+    "explanation": "A general truth that applies every time, so når.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-17",
+    "level": 2,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "Jeg fik et chok, ___ jeg så regningen.",
+    "options": [
+      "hvornår",
+      "da",
+      "når"
+    ],
+    "answer": "da",
+    "explanation": "Seeing the bill was a single past event, so da.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-18",
+    "level": 2,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "Jeg sender dig billederne, ___ jeg er kommet hjem fra ferie i næste uge.",
+    "options": [
+      "hvornår",
+      "da",
+      "når"
+    ],
+    "answer": "når",
+    "explanation": "\"I næste uge\" shows the future, so når.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-19",
+    "level": 2,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "Hun spurgte mig, ___ jeg var født.",
+    "options": [
+      "hvornår",
+      "da",
+      "når"
+    ],
+    "answer": "hvornår",
+    "explanation": "She asked about a point in time, an indirect question, so hvornår.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-20",
+    "level": 2,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "___ vi var på ferie i Italien sidste år, regnede det hele tiden.",
+    "options": [
+      "Hvornår",
+      "Da",
+      "Når"
+    ],
+    "answer": "Da",
+    "explanation": "\"Sidste år\" places the holiday as one past period, so da.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-21",
+    "level": 3,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "Lægen kan ikke sige, ___ jeg må begynde at arbejde igen.",
+    "options": [
+      "hvornår",
+      "da",
+      "når"
+    ],
+    "answer": "hvornår",
+    "explanation": "An indirect question about time (\"can't say when\"), so hvornår.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-22",
+    "level": 3,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "___ min far kom hjem fra arbejde, læste han altid avisen først.",
+    "options": [
+      "Hvornår",
+      "Da",
+      "Når"
+    ],
+    "answer": "Når",
+    "explanation": "\"Altid\" shows this happened again and again in the past, so når (da is for one occasion).",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-23",
+    "level": 3,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "Som barn fik jeg altid is, ___ vi besøgte min mormor.",
+    "options": [
+      "hvornår",
+      "da",
+      "når"
+    ],
+    "answer": "når",
+    "explanation": "The visits were repeated (\"altid\"), so når even though it is past.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-naar-24",
+    "level": 3,
+    "ruleId": "cj-hvornaar-da-naar",
+    "prompt": "Det er svært at vide, ___ huspriserne falder igen.",
+    "options": [
+      "hvornår",
+      "da",
+      "når"
+    ],
+    "answer": "hvornår",
+    "explanation": "An indirect question about time (\"hard to know when\"), so hvornår.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-01",
+    "level": 2,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Jeg tager en jakke på, ___ det er ikke særlig varmt.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "for",
+    "explanation": "Ikke comes after the verb (er ikke), which is main-clause order, so for.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-02",
+    "level": 2,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Jeg tager en jakke på, ___ det ikke er særlig varmt.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "fordi",
+    "explanation": "Ikke comes before the verb (ikke er), which is subordinate-clause order, so fordi.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-03",
+    "level": 2,
+    "ruleId": "cj-for-fordi",
+    "prompt": "___ toget var forsinket, kom jeg for sent til mødet.",
+    "options": [
+      "For",
+      "Fordi"
+    ],
+    "answer": "Fordi",
+    "explanation": "The reason clause stands first in the sentence, which only fordi can do.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-04",
+    "level": 2,
+    "ruleId": "cj-for-fordi",
+    "prompt": "___ bilen står på værksted, tager vi bussen.",
+    "options": [
+      "For",
+      "Fordi"
+    ],
+    "answer": "Fordi",
+    "explanation": "A clause at the start of the sentence needs fordi; for cannot start it.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-05",
+    "level": 2,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Lejligheden er billig, ___ den ligger ikke centralt.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "for",
+    "explanation": "Ikke follows the verb (ligger ikke), main-clause order, so for.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-06",
+    "level": 2,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Vi aflyste turen, ___ vejrudsigten ikke var god.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "fordi",
+    "explanation": "Ikke comes before the verb (ikke var), so this is a subordinate clause with fordi.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-07",
+    "level": 2,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Jeg kunne ikke svare, ___ jeg ikke havde læst teksten.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "fordi",
+    "explanation": "Ikke before the verb (ikke havde) shows subordinate-clause order, so fordi.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-08",
+    "level": 3,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Hun er træt, ___ hun har ikke sovet godt i nat.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "for",
+    "explanation": "Ikke after the verb (har ikke) is main-clause order, so for.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-09",
+    "level": 3,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Han er glad, ___ han endelig har fået et job.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "fordi",
+    "explanation": "The adverb endelig stands before the verb (endelig har), subordinate-clause order, so fordi.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-10",
+    "level": 3,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Jeg lærer dansk, ___ jeg gerne vil studere i Danmark.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "fordi",
+    "explanation": "Gerne before the verb (gerne vil) is subordinate-clause order, so fordi.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-11",
+    "level": 3,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Hvis jeg er sur, er det ___ du aldrig hjælper mig.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "fordi",
+    "explanation": "After \"det er\" the reason must be a fordi-clause, and aldrig before the verb confirms it.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-12",
+    "level": 3,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Jeg spiser ikke kød, ___ jeg synes ikke, at det smager godt.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "for",
+    "explanation": "Ikke follows the verb (synes ikke), main-clause order, so for.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-13",
+    "level": 3,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Børnene må blive inde, ___ det regner stadig.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "for",
+    "explanation": "Stadig after the verb (regner stadig) is main-clause order, so for.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-14",
+    "level": 3,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Vi må vente med at male huset, ___ det stadig regner.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "fordi",
+    "explanation": "Stadig before the verb (stadig regner) is subordinate-clause order, so fordi.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-15",
+    "level": 3,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Hun blev hjemme, ___ hendes søn også var syg.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "fordi",
+    "explanation": "Også before the verb (også var) shows a subordinate clause, so fordi.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-16",
+    "level": 3,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Vi må spare på strømmen, ___ prisen igen er steget.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "fordi",
+    "explanation": "Igen before the verb (igen er steget) is subordinate-clause order, so fordi.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-17",
+    "level": 3,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Han kunne ikke sove, ___ naboerne spillede altid høj musik om natten.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "for",
+    "explanation": "Altid after the verb (spillede altid) is main-clause order, so for.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-18",
+    "level": 3,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Hun er stoppet med at ryge, ___ hun vil ikke have dårlige lunger.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "for",
+    "explanation": "Ikke follows the verb (vil ikke), main-clause order, so for.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-19",
+    "level": 3,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Han har ikke råd til en bil, ___ han tjener ikke ret meget.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "for",
+    "explanation": "Ikke follows the verb (tjener ikke), main-clause order, so for.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-20",
+    "level": 4,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Vi kan ikke komme til festen, ___ i weekenden skal vi passe vores barnebarn.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "for",
+    "explanation": "An adverbial (i weekenden) is moved to the front with inversion (skal vi); only a main clause after for allows that.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-21",
+    "level": 4,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Han flyttede til Aarhus, ___ der kunne han få en uddannelse.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "for",
+    "explanation": "Der is moved to the front with inversion (kunne han), which is main-clause order, so for.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-22",
+    "level": 4,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Jeg ringer senere, ___ lige nu har jeg travlt.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "for",
+    "explanation": "\"Lige nu\" stands first with inversion (har jeg), main-clause order, so for.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-23",
+    "level": 4,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Hun fik jobbet, netop ___ hun havde erfaring med børn.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "fordi",
+    "explanation": "\"Netop\" (precisely) combines with fordi, not for: \"precisely because\".",
+    "reviewed": false
+  },
+  {
+    "id": "cj-forfordi-24",
+    "level": 4,
+    "ruleId": "cj-for-fordi",
+    "prompt": "Mange cykler på arbejde, ___ det er jo både billigt og sundt.",
+    "options": [
+      "for",
+      "fordi"
+    ],
+    "answer": "for",
+    "explanation": "Jo after the verb (er jo) is main-clause order, so for.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-01",
+    "level": 1,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Jeg tror, ___ det bliver regnvejr i morgen.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "at",
+    "explanation": "Tro is followed by a complete statement, introduced by at.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-02",
+    "level": 1,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Kan du huske den film, ___ vi så i sommer?",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "som",
+    "explanation": "The clause refers back to the noun film, and så has no object of its own, so som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-03",
+    "level": 1,
+    "ruleId": "cj-at-som-det",
+    "prompt": "___ ved jeg ikke.",
+    "options": [
+      "At",
+      "Som",
+      "Det"
+    ],
+    "answer": "Det",
+    "explanation": "\"That I don't know\": the pronoun det is the object placed first.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-04",
+    "level": 1,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Hun sagde, ___ hun var træt.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "at",
+    "explanation": "Sige is followed by a complete statement, so at.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-05",
+    "level": 1,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Den bluse, ___ du har på, er meget flot.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "som",
+    "explanation": "Refers back to the noun bluse (\"the blouse that you are wearing\"), so som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-06",
+    "level": 1,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Jeg håber, ___ du får det bedre snart.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "at",
+    "explanation": "Håbe introduces a complete statement, so at.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-07",
+    "level": 1,
+    "ruleId": "cj-at-som-det",
+    "prompt": "De mennesker, ___ bor i huset, er meget venlige.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "som",
+    "explanation": "Refers back to mennesker and is the subject of bor, so som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-08",
+    "level": 1,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Han lovede, ___ han ville ringe.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "at",
+    "explanation": "Love (promise) introduces a complete statement, so at.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-09",
+    "level": 1,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Jeg kender ikke den mand, ___ står derovre.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "som",
+    "explanation": "Refers back to the noun mand (\"the man who is standing over there\"), so som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-10",
+    "level": 2,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Er ___ rigtigt, at du skal flytte?",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "det",
+    "explanation": "The sentence needs the pronoun det as its formal subject (\"Is it true that …?\").",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-11",
+    "level": 2,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Problemet er, ___ vi ikke har penge nok.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "at",
+    "explanation": "\"The problem is that …\" is followed by a complete statement, so at.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-12",
+    "level": 2,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Hvem har spist kagen? – ___ har jeg ikke.",
+    "options": [
+      "At",
+      "Som",
+      "Det"
+    ],
+    "answer": "Det",
+    "explanation": "The pronoun det (\"that\") refers back to eating the cake: \"That I haven't (done)\".",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-13",
+    "level": 2,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Jeg er glad for, ___ du kunne komme.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "at",
+    "explanation": "\"Glad for at\" introduces a complete statement, so at.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-14",
+    "level": 2,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Hun vil gerne være sygeplejerske, men ___ kræver en uddannelse.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "det",
+    "explanation": "The pronoun det (\"that\") is the subject of kræver and refers to becoming a nurse.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-15",
+    "level": 2,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Det er vigtigt, ___ man får nok søvn.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "at",
+    "explanation": "\"Det er vigtigt, at …\" is followed by a complete statement, so at.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-16",
+    "level": 2,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Skraldeposen står ved døren. Kan du tage ___ med, når du går?",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "det",
+    "explanation": "Here \"that\" is an object pronoun (\"take it with you\"), so det.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-17",
+    "level": 2,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Den lejlighed, ___ vi lejer, er alt for lille.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "som",
+    "explanation": "Refers back to lejlighed, and lejer has no other object, so som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-18",
+    "level": 3,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Den nyhed, ___ fabrikken lukker, chokerede hele byen.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "at",
+    "explanation": "The clause is complete and says what the news is, so at; som would need a missing subject or object.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-19",
+    "level": 3,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Den nyhed, ___ vi læste i avisen, var ikke sand.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "som",
+    "explanation": "Læste has no object: som stands for the news we read, so som, not at.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-20",
+    "level": 3,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Faktum er, ___ priserne er steget.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "at",
+    "explanation": "\"The fact is that …\" is followed by a complete statement, so at.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-21",
+    "level": 3,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Vi talte om, ___ vi skulle holde ferie i Norge.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "at",
+    "explanation": "After the preposition om comes a complete statement, introduced by at.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-22",
+    "level": 3,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Jeg er træt af den støj, ___ naboerne laver.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "som",
+    "explanation": "Refers back to støj, the object of laver, so som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-23",
+    "level": 3,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Han siger, at han er syg, men ___ tror jeg ikke på.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "det",
+    "explanation": "The pronoun det (\"that\") is placed first and refers to what he says: \"that I don't believe\".",
+    "reviewed": false
+  },
+  {
+    "id": "cj-atsomdet-24",
+    "level": 3,
+    "ruleId": "cj-at-som-det",
+    "prompt": "Kravet om, ___ alle skal tale dansk på arbejdet, er nyt.",
+    "options": [
+      "at",
+      "som",
+      "det"
+    ],
+    "answer": "at",
+    "explanation": "The clause is complete and says what the requirement is, so at.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-01",
+    "level": 1,
+    "ruleId": "cj-der-som",
+    "prompt": "Jeg har en ven, ___ bor i Odense.",
+    "options": [
+      "der",
+      "hvem"
+    ],
+    "answer": "der",
+    "explanation": "The pronoun is the subject of bor, so der (som would also be correct). Hvem is not used as a relative pronoun after a noun.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-02",
+    "level": 1,
+    "ruleId": "cj-der-som",
+    "prompt": "Den bog, ___ jeg læser lige nu, er spændende.",
+    "options": [
+      "der",
+      "som"
+    ],
+    "answer": "som",
+    "explanation": "Jeg is the subject; the pronoun is the object of læser, so only som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-03",
+    "level": 1,
+    "ruleId": "cj-der-som",
+    "prompt": "Er det den jakke, ___ du købte i går?",
+    "options": [
+      "der",
+      "som"
+    ],
+    "answer": "som",
+    "explanation": "Du is the subject; the pronoun is the object of købte, so only som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-04",
+    "level": 2,
+    "ruleId": "cj-der-som",
+    "prompt": "Kvinden, ___ arbejder i kantinen, er meget sød.",
+    "options": [
+      "der",
+      "hvem"
+    ],
+    "answer": "der",
+    "explanation": "The pronoun is the subject of arbejder, so der (som is also correct). Hvem does not work as a relative pronoun here.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-05",
+    "level": 2,
+    "ruleId": "cj-der-som",
+    "prompt": "Det er en bog, ___ handler om klimaet.",
+    "options": [
+      "der",
+      "hvad"
+    ],
+    "answer": "der",
+    "explanation": "The pronoun is the subject of handler, so der (or som). Hvad cannot refer back to a noun like bog.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-06",
+    "level": 2,
+    "ruleId": "cj-der-som",
+    "prompt": "Alle de elever, ___ har bestået, får et bevis.",
+    "options": [
+      "der",
+      "hvem"
+    ],
+    "answer": "der",
+    "explanation": "The pronoun is the subject of har bestået, so der (som is also correct), not hvem.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-07",
+    "level": 2,
+    "ruleId": "cj-der-som",
+    "prompt": "Der er et problem, ___ skal løses hurtigt.",
+    "options": [
+      "der",
+      "hvad"
+    ],
+    "answer": "der",
+    "explanation": "The pronoun is the subject of skal løses, so der (or som); hvad cannot refer to a noun.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-08",
+    "level": 2,
+    "ruleId": "cj-der-som",
+    "prompt": "Lægen, ___ undersøgte mig, var meget grundig.",
+    "options": [
+      "der",
+      "hvem"
+    ],
+    "answer": "der",
+    "explanation": "The pronoun is the subject of undersøgte, so der (som is also correct), not hvem.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-09",
+    "level": 2,
+    "ruleId": "cj-der-som",
+    "prompt": "Det er toget, ___ kører til Aalborg.",
+    "options": [
+      "der",
+      "hvad"
+    ],
+    "answer": "der",
+    "explanation": "The pronoun is the subject of kører, so der (or som), not hvad.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-10",
+    "level": 2,
+    "ruleId": "cj-der-som",
+    "prompt": "Hun har en hund, ___ elsker at bade.",
+    "options": [
+      "der",
+      "hvad"
+    ],
+    "answer": "der",
+    "explanation": "The pronoun is the subject of elsker, so der (or som); hvad cannot refer to hund.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-11",
+    "level": 2,
+    "ruleId": "cj-der-som",
+    "prompt": "Manden, ___ vi mødte i går, var fra Polen.",
+    "options": [
+      "der",
+      "som"
+    ],
+    "answer": "som",
+    "explanation": "Vi is the subject; the pronoun is the object of mødte, so only som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-12",
+    "level": 2,
+    "ruleId": "cj-der-som",
+    "prompt": "Den kollega, ___ jeg arbejder sammen med, er fra Spanien.",
+    "options": [
+      "der",
+      "som"
+    ],
+    "answer": "som",
+    "explanation": "The pronoun belongs to the preposition med at the end (jeg is the subject), so only som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-13",
+    "level": 2,
+    "ruleId": "cj-der-som",
+    "prompt": "Det hus, ___ vi bor i, er over hundrede år gammelt.",
+    "options": [
+      "der",
+      "som"
+    ],
+    "answer": "som",
+    "explanation": "The pronoun belongs to the preposition i, and vi is the subject, so only som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-14",
+    "level": 2,
+    "ruleId": "cj-der-som",
+    "prompt": "Jeg kan ikke finde de nøgler, ___ jeg lagde på bordet.",
+    "options": [
+      "der",
+      "som"
+    ],
+    "answer": "som",
+    "explanation": "Jeg is the subject; the pronoun is the object of lagde, so only som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-15",
+    "level": 2,
+    "ruleId": "cj-der-som",
+    "prompt": "Det er en sang, ___ alle danskere kender.",
+    "options": [
+      "der",
+      "som"
+    ],
+    "answer": "som",
+    "explanation": "\"Alle danskere\" is the subject; the pronoun is the object of kender, so only som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-16",
+    "level": 3,
+    "ruleId": "cj-der-som",
+    "prompt": "Vi har brug for en person, ___ kan tale både dansk og engelsk.",
+    "options": [
+      "der",
+      "hvem"
+    ],
+    "answer": "der",
+    "explanation": "The pronoun is the subject of kan tale, so der (som is also correct), not hvem.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-17",
+    "level": 3,
+    "ruleId": "cj-der-som",
+    "prompt": "De unge, ___ ikke har et job, kan få hjælp af kommunen.",
+    "options": [
+      "der",
+      "hvem"
+    ],
+    "answer": "der",
+    "explanation": "The pronoun is the subject of har, so der (or som), not hvem.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-18",
+    "level": 3,
+    "ruleId": "cj-der-som",
+    "prompt": "Den by, ___ ligger tættest på, hedder Ringsted.",
+    "options": [
+      "der",
+      "hvad"
+    ],
+    "answer": "der",
+    "explanation": "The pronoun is the subject of ligger, so der (or som); hvad cannot refer to by.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-19",
+    "level": 3,
+    "ruleId": "cj-der-som",
+    "prompt": "Hvem er det, ___ banker på døren?",
+    "options": [
+      "der",
+      "hvem"
+    ],
+    "answer": "der",
+    "explanation": "The pronoun is the subject of banker, so der (som is also correct). Hvem is already used as the question word.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-20",
+    "level": 3,
+    "ruleId": "cj-der-som",
+    "prompt": "Den læge, ___ min søster går hos, er meget dygtig.",
+    "options": [
+      "der",
+      "som"
+    ],
+    "answer": "som",
+    "explanation": "\"Min søster\" is the subject; the pronoun belongs to the preposition hos, so only som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-21",
+    "level": 3,
+    "ruleId": "cj-der-som",
+    "prompt": "De penge, ___ vi har sparet op, skal bruges på en ny bil.",
+    "options": [
+      "der",
+      "som"
+    ],
+    "answer": "som",
+    "explanation": "Vi is the subject; the pronoun is the object of har sparet op, so only som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-22",
+    "level": 3,
+    "ruleId": "cj-der-som",
+    "prompt": "Det kursus, ___ hun tager om aftenen, er gratis.",
+    "options": [
+      "der",
+      "som"
+    ],
+    "answer": "som",
+    "explanation": "Hun is the subject; the pronoun is the object of tager, so only som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-23",
+    "level": 3,
+    "ruleId": "cj-der-som",
+    "prompt": "Den løsning, ___ politikerne har foreslået, er for dyr.",
+    "options": [
+      "der",
+      "som"
+    ],
+    "answer": "som",
+    "explanation": "Politikerne is the subject; the pronoun is the object of har foreslået, so only som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-dersom-24",
+    "level": 3,
+    "ruleId": "cj-der-som",
+    "prompt": "Han er den slags mand, ___ man kan stole på.",
+    "options": [
+      "der",
+      "som"
+    ],
+    "answer": "som",
+    "explanation": "Man is the subject; the pronoun belongs to the preposition på, so only som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-01",
+    "level": 3,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Toget var forsinket, ___ betød, at jeg kom for sent.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "hvilket",
+    "explanation": "It is the whole fact that the train was late that meant I was late, so hvilket.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-02",
+    "level": 3,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Det regnede uafbrudt, ___ ødelagde vores planer.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "hvilket",
+    "explanation": "There is no noun to refer to; the whole event (the constant rain) ruined the plans, so hvilket.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-03",
+    "level": 3,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Min søn er blevet optaget, ___ vi er meget glade for.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "hvilket",
+    "explanation": "We are glad about the whole fact that he was accepted, so hvilket.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-04",
+    "level": 3,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Bussen kom ikke, ___ var meget irriterende.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "hvilket",
+    "explanation": "It is the fact that the bus didn't come that was annoying, not the bus, so hvilket.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-05",
+    "level": 3,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Hun lærte dansk på bare et år, ___ er ret imponerende.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "hvilket",
+    "explanation": "What is impressive is the whole achievement, not \"et år\", so hvilket.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-06",
+    "level": 3,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Hun blev fyret, ___ gjorde hende meget ked af det.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "hvilket",
+    "explanation": "Being fired, the whole event, made her sad, so hvilket.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-07",
+    "level": 3,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Jeg har en nabo, ___ altid hjælper mig.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "som",
+    "explanation": "It is the neighbour (a noun) who helps, so som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-08",
+    "level": 3,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "De billeder, ___ du tog på ferien, er virkelig flotte.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "som",
+    "explanation": "The clause describes the noun billeder (\"the pictures you took\"), so som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-09",
+    "level": 3,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Den computer, ___ jeg købte sidste år, virker ikke længere.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "som",
+    "explanation": "The clause describes the noun computer, so som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-10",
+    "level": 3,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Vi bor i en lejlighed, ___ ligger tæt på stationen.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "som",
+    "explanation": "It is the flat that is close to the station, so som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-11",
+    "level": 3,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Det er en opgave, ___ kræver tålmodighed.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "som",
+    "explanation": "It is the task (a noun) that requires patience, so som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-12",
+    "level": 3,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Jeg leder efter en kjole, ___ passer til mine nye sko.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "som",
+    "explanation": "It is the dress that should match the shoes, so som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-13",
+    "level": 4,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Hun bestod med det samme, ___ hun var meget stolt af.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "hvilket",
+    "explanation": "She was proud of the whole fact that she passed straight away, so hvilket.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-14",
+    "level": 4,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Han betalte for sent, ___ kostede ham et gebyr på 100 kr.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "hvilket",
+    "explanation": "Paying late, the whole event, cost him a fee, so hvilket.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-15",
+    "level": 4,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Flere og flere unge flytter væk, ___ er et problem for de små byer.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "hvilket",
+    "explanation": "The whole development (young people moving away) is the problem, so hvilket.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-16",
+    "level": 4,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Prisen på el er steget voldsomt, ___ rammer mange familier hårdt.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "hvilket",
+    "explanation": "It is the steep rise, not the price itself, that hits families, so hvilket.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-17",
+    "level": 4,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Virksomheden lukkede pludselig, ___ kom som et chok for de ansatte.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "hvilket",
+    "explanation": "The sudden closure, the whole event, was the shock, so hvilket.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-18",
+    "level": 4,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Han svarede ikke, ___ undrede os alle.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "hvilket",
+    "explanation": "The fact that he didn't answer surprised us, so hvilket.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-19",
+    "level": 4,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Ingen dukkede op, ___ var en stor skuffelse.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "hvilket",
+    "explanation": "The fact that nobody turned up was the disappointment, so hvilket.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-20",
+    "level": 4,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Hun har fået en ny chef, ___ er meget streng.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "som",
+    "explanation": "Streng agrees with the common-gender noun chef (hvilket would need strengt), so som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-21",
+    "level": 4,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Kommunen har bygget nye boliger, ___ er billige at leje.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "som",
+    "explanation": "Billige is plural and agrees with boliger, so som refers to the noun.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-22",
+    "level": 4,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Min bror har købt en elbil, ___ han kører på arbejde i.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "som",
+    "explanation": "He drives the car, so the clause refers to the noun elbil: som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-23",
+    "level": 4,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Lægen gav mig en pille, ___ jeg skulle tage hver morgen.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "som",
+    "explanation": "I take the pill, a noun, every morning, so som.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-24",
+    "level": 5,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Lejen stiger igen til januar, ___ mange lejere er utilfredse med.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "hvilket",
+    "explanation": "The tenants are unhappy about the whole fact that the rent is going up, not about januar, so hvilket.",
+    "reviewed": false
+  },
+  {
+    "id": "cj-hvilket-25",
+    "level": 4,
+    "ruleId": "cj-som-hvilket",
+    "prompt": "Hun har to søstre, ___ begge bor i København.",
+    "options": [
+      "som",
+      "hvilket"
+    ],
+    "answer": "som",
+    "explanation": "The sisters live in Copenhagen, so the clause refers to the noun søstre: som.",
+    "reviewed": false
+  }
+]

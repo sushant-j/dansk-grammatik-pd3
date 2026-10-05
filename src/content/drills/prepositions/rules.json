@@ -1,1 +1,139 @@
-[]
+[
+  {
+    "id": "pp-for-til",
+    "da": "For eller til",
+    "en": "For or til",
+    "statement": "Use til for direction, a receiver, a deadline or an end point, and for for “on behalf of / in exchange for” and after words that govern for (tak for, bange for, glad for).",
+    "explanation": "English “for” is often til in Danish: a present for someone (en gave til), something for dinner (til aftensmad), too small for (for lille til). Use til when something moves or is given to someone, with destinations, and with end points in time (til klokken 17). Use for when you thank, pay or do something on someone’s behalf, and after fixed words such as bange for, glad for, brug for, ansvarlig for. The typical trap is translating “a gift for you” as “en gave for dig” – it must be til.",
+    "examples": [
+      {
+        "wrong": "Jeg har købt en gave for dig.",
+        "right": "Jeg har købt en gave til dig.",
+        "note": "A present goes to a receiver: til."
+      },
+      {
+        "right": "Tak for hjælpen!",
+        "note": "tak always takes for."
+      },
+      {
+        "right": "Vi betalte 200 kr. for billetterne.",
+        "note": "Paying in exchange for something: for."
+      },
+      {
+        "wrong": "Hvad skal vi have for aftensmad?",
+        "right": "Hvad skal vi have til aftensmad?",
+        "note": "Meals: til morgenmad, til frokost, til aftensmad."
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "pp-af-fra",
+    "da": "Af eller fra",
+    "en": "Af or fra",
+    "statement": "Use fra for a starting point or source in place and time (from), and af for material, the doer in a passive, cause, “part of”, and after words that govern af.",
+    "explanation": "fra answers “from where / from when”: Jeg kommer fra Polen, et brev fra banken, åbent fra klokken 9. af is used for what something is made of (lavet af træ), who did it in a passive sentence (bygget af min far), the cause of a feeling or state (græd af glæde), and “one of / many of” (en af mine venner). Some verbs and adjectives simply take af: låne af, lære af, stolt af, træt af. The common trap is “låne fra” – Danish says låne af.",
+    "examples": [
+      {
+        "wrong": "Kan jeg låne en pen fra dig?",
+        "right": "Kan jeg låne en pen af dig?",
+        "note": "låne (borrow) takes af."
+      },
+      {
+        "right": "Bordet er lavet af træ.",
+        "note": "Material: af."
+      },
+      {
+        "right": "Jeg har fået en mail fra min chef.",
+        "note": "Sender / source: fra."
+      },
+      {
+        "right": "Huset blev bygget af min bedstefar.",
+        "note": "The doer in a passive sentence: af."
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "pp-for-at-til-at",
+    "da": "For at eller til at",
+    "en": "For at or til at (purpose)",
+    "statement": "Use for at + infinitive to say why someone does something (in order to), including for at kunne; use til at after words that govern til (tid til, lyst til, god til, få nogen til).",
+    "explanation": "If you can say “in order to” in English, Danish uses for at: Jeg går i fitness for at holde mig i form. To express a purpose that needs “be able to”, use for at kunne. Otherwise the word in front decides: words that take til get til at (tid til at, lyst til at, råd til at, klar til at, vant til at, få nogen til at), and words that take for get for at even without any purpose meaning (brug for at, bange for at, mulighed for at, risiko for at). The trap is using til at for purpose because English says “to”.",
+    "examples": [
+      {
+        "wrong": "Hun flyttede til Danmark til at studere.",
+        "right": "Hun flyttede til Danmark for at studere.",
+        "note": "Purpose (in order to): for at."
+      },
+      {
+        "right": "Han sparer op for at kunne købe en bil.",
+        "note": "Purpose + “be able to”: for at kunne."
+      },
+      {
+        "right": "Jeg har ikke tid til at lave mad i dag.",
+        "note": "tid takes til, so: tid til at."
+      },
+      {
+        "right": "Jeg er bange for at komme for sent.",
+        "note": "bange takes for, so: bange for at (no purpose meaning)."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "pp-tid-varighed",
+    "da": "Tid – hvor længe: siden, i eller ingen præposition",
+    "en": "Time – for how long: siden, i or no preposition",
+    "statement": "Use i + a length of time (i tre år), siden + a point in time (siden 2019), and no preposition after tage, bruge … på and with længe or lang tid.",
+    "explanation": "Ask yourself: is it a length of time or a starting point? A length (tre år, en måned, mange år) takes i: Jeg har boet her i tre år. A starting point (2019, jul, mandag, i morges, or a whole clause like “siden jeg kom hertil”) takes siden. English “for” and “since” map onto i and siden, so do not translate “for three years” with for. With tage, bruge (tid) på, vare and the words længe and lang tid there is no preposition at all. With many other verbs i can be left out in everyday speech (Jeg arbejdede to timer).",
+    "examples": [
+      {
+        "wrong": "Jeg har boet her for tre år.",
+        "right": "Jeg har boet her i tre år.",
+        "note": "A length of time: i."
+      },
+      {
+        "wrong": "Jeg har boet her i 2019.",
+        "right": "Jeg har boet her siden 2019.",
+        "note": "A starting point: siden."
+      },
+      {
+        "right": "Det tager en time at køre til Aarhus.",
+        "note": "tage + time: no preposition."
+      },
+      {
+        "right": "Jeg arbejdede to timer i går.",
+        "note": "With many verbs i is optional: “arbejdede (i) to timer”."
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "pp-tid-tidspunkt",
+    "da": "Tid – hvornår: tidsangivelser",
+    "en": "Time – when: time expressions",
+    "statement": "Fixed time expressions decide the preposition: i for this/last specific time (i går, i morges, i sommer), om for “in X time” and for habits (om en uge, om morgenen), på for a coming weekday (på mandag), and for … siden for “ago”.",
+    "explanation": "i + a bare noun points to one specific time near now: i dag, i går, i morges (this morning, past), i aftes (last night), i nat, i eftermiddag, i weekenden, i sommer, i år; i is also used with months and years (i juli, i 2020). om + a noun in the definite form describes a habit: om morgenen, om aftenen, om søndagen, om sommeren; om + a length of time means “from now”: om en uge, om ti minutter. på + a weekday is the coming day (på mandag), and i + weekday with -s is the last one (i fredags). “Ago” is for … siden: for to år siden. The trap is using i for “in a week” – Danish says om en uge, while i en uge means “for a week”.",
+    "examples": [
+      {
+        "wrong": "Jeg kommer tilbage i en uge.",
+        "right": "Jeg kommer tilbage om en uge.",
+        "note": "“In a week (from now)”: om."
+      },
+      {
+        "right": "Jeg kom til Danmark for fem år siden.",
+        "note": "“Ago”: for … siden."
+      },
+      {
+        "right": "Jeg drikker kaffe om morgenen, men i morges drak jeg te.",
+        "note": "om morgenen = habit; i morges = this morning."
+      },
+      {
+        "right": "Vi ses på mandag.",
+        "note": "A coming weekday: på."
+      }
+    ],
+    "level": 2
+  }
+]

@@ -1,1 +1,145 @@
-[]
+[
+  {
+    "id": "au-colours",
+    "da": "Farver – ingen endelse, -t eller -e",
+    "en": "Colours – no ending, -t or -e",
+    "statement": "Colour adjectives follow the normal pattern (base form, -t, -e), except borrowed colours like lilla, orange, beige, pink and rosa, which never change.",
+    "explanation": "Use the base form with an en-word (en rød bil, bilen er rød), add -t with an et-word (et rødt hus, huset er rødt), and add -e after den/det/de, possessives and in the plural (det røde hus, røde huse). Sort already ends in -t, so it stays sort with et-words, and grøn doubles the n before -e (grønne). Blå and grå take -t with et-words (et blåt øje) but normally no -e (de blå huse). Lilla, orange, beige, pink and rosa never change at all – a typical trap is writing \"lillat\" or \"orangt\".",
+    "examples": [
+      {
+        "wrong": "Hun bor i et hvid hus.",
+        "right": "Hun bor i et hvidt hus.",
+        "note": "Hus is an et-word, so the colour takes -t."
+      },
+      {
+        "wrong": "Jeg har købt et lillat tæppe.",
+        "right": "Jeg har købt et lilla tæppe.",
+        "note": "Lilla never changes."
+      },
+      {
+        "right": "De grønne æbler er sure, men himlen er blå, og havet er blåt.",
+        "note": "Definite/plural -e (grøn doubles n); blå takes -t with an et-word."
+      }
+    ],
+    "level": 1
+  },
+  {
+    "id": "au-god",
+    "da": "God, godt eller gode",
+    "en": "God, godt or gode",
+    "statement": "God follows the regular pattern (god/godt/gode), and godt is also the adverb meaning \"well\".",
+    "explanation": "Use god with en-words (en god idé, maden er god), godt with et-words (et godt råd, vejret er godt) and gode after den/det/de, possessives and in the plural (de gode år, gode venner). Godt is also the adverb that tells how something is done: hun synger godt, jeg har det godt, jeg kan godt lide kaffe. The classic trap is god after a verb (\"han synger god\") – if the word describes the action, use godt.",
+    "examples": [
+      {
+        "wrong": "Hun danser meget god.",
+        "right": "Hun danser meget godt.",
+        "note": "It describes how she dances, so use the adverb godt."
+      },
+      {
+        "right": "Vi har et godt forhold til naboerne.",
+        "note": "Forhold is an et-word: godt."
+      },
+      {
+        "right": "Mine gode venner kommer på lørdag.",
+        "note": "After a possessive: gode."
+      }
+    ],
+    "level": 1
+  },
+  {
+    "id": "au-regular",
+    "da": "Regelmæssige adjektiver i kontekst",
+    "en": "Regular adjectives in context",
+    "statement": "An adjective agrees with its noun both before it and after verbs like være and blive: base form for en-words, -t for et-words, -e in the plural and in the definite form.",
+    "explanation": "First find the noun the adjective describes, even when it comes after er or bliver (huset er stort, bilerne er dyre). Indefinite singular: en stor have, et stort hus; plural always -e: store huse, husene er store. After den/det/de, denne/dette/disse, det her, possessives (mit) and genitives (Peters) the adjective always takes -e. The typical trap is writing -t after det or mit just because the noun is an et-word: mit store værelse, not \"mit stort værelse\". Also note that det + er + adjective + at takes -t: det er dyrt at bo her.",
+    "examples": [
+      {
+        "wrong": "Mit stort værelse vender mod syd.",
+        "right": "Mit store værelse vender mod syd.",
+        "note": "After a possessive: -e, even with an et-word."
+      },
+      {
+        "wrong": "Huset er stor.",
+        "right": "Huset er stort.",
+        "note": "Huset is an et-word, so the adjective after er takes -t."
+      },
+      {
+        "right": "Disse varme dage er perfekte til stranden.",
+        "note": "After disse and in a plural predicative: -e."
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "au-irregular",
+    "da": "Uregelmæssige adjektiver",
+    "en": "Irregular adjectives",
+    "statement": "Some adjectives bend the pattern: no extra -t after -sk, -t or -e; ny and fri get -t and -e; lille becomes små in the plural; gammel, sikker and åben lose an e; short adjectives double the final consonant.",
+    "explanation": "Adjectives ending in -sk (dansk, praktisk) and in -t (let, kort, træt) get no extra -t: et dansk pas, et let spørgsmål – but adjectives ending in -ig DO take -t: et vigtigt møde. Ny and fri take -t and -e (nyt, nye; frit, frie). Lille has the plural små (små børn), and adjectives ending in -e such as moderne and stille never change. Gammel, sikker, åben and enkel lose their last e before the -e ending (gamle, sikre, åbne, enkle), and short words with a short vowel double the consonant (grim → grimme, let → lette, smuk → smukke). Fremmed keeps its form in the neuter: et fremmed sprog.",
+    "examples": [
+      {
+        "wrong": "Det var et praktiskt forslag.",
+        "right": "Det var et praktisk forslag.",
+        "note": "-sk adjectives take no -t."
+      },
+      {
+        "wrong": "Vi bor i et gammelt hus med gammele vinduer.",
+        "right": "Vi bor i et gammelt hus med gamle vinduer.",
+        "note": "Gammel loses its e before the -e ending: gamle."
+      },
+      {
+        "right": "De små børn leger i den lille have.",
+        "note": "Lille becomes små in the plural."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "au-al-hel-singular",
+    "da": "Al/alt eller hel/helt",
+    "en": "Al/alt or hel/helt (singular)",
+    "statement": "Use al/alt with uncountable nouns (al maden, alt vandet) and hel/helt/hele with countable nouns (en hel dag, hele huset); helt is also an adverb meaning \"completely\".",
+    "explanation": "Al (en-words) and alt (et-words) mean \"all of\" something you cannot count: al maden, al sneen, alt vandet, alt arbejdet. For the whole of something countable use hel: en hel dag, et helt år, and hele before a definite noun or a possessive: hele dagen, hele mit liv. On its own, alt means \"everything\" (hun har glemt alt). Helt before an adjective means \"completely\": helt ny, helt færdig. The classic trap is \"al dagen\" – a day can be counted, so it must be hele dagen.",
+    "examples": [
+      {
+        "wrong": "Jeg har arbejdet al dagen.",
+        "right": "Jeg har arbejdet hele dagen.",
+        "note": "Dag is countable: hele."
+      },
+      {
+        "wrong": "Hvem har drukket alt mælken?",
+        "right": "Hvem har drukket al mælken?",
+        "note": "Mælk is an uncountable en-word: al."
+      },
+      {
+        "right": "Vi boede der et helt år, og lejligheden var helt ny.",
+        "note": "Et helt år = a whole year; helt ny = completely new."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "au-al-hel-all",
+    "da": "Al, alt, alle eller hel, helt, hele",
+    "en": "Al, alt, alle or hel, helt, hele – all forms",
+    "statement": "Choose by countability and number: al/alt with uncountables, alle with countable plurals (and alone = everybody), hel/helt/hele for one whole thing – and hele before a plural means \"whole, not cut up\".",
+    "explanation": "Ask two questions: can the noun be counted, and is it singular or plural? Uncountable: al maden, alt tøjet. Countable plural: alle børnene, alle mine venner; on its own alle means \"everybody\" and alt means \"everything\". Countable singular: en hel pizza, et helt år, hele dagen, hele klassen. Hele before a plural does not mean \"all\" but \"whole\": to hele kyllinger (whole chickens). The common trap is \"hele eleverne\" – for all the pupils say alle eleverne, or hele klassen.",
+    "examples": [
+      {
+        "wrong": "Hele eleverne bestod eksamen.",
+        "right": "Alle eleverne bestod eksamen.",
+        "note": "Plural countable noun: alle."
+      },
+      {
+        "wrong": "Alle klassen tog på tur.",
+        "right": "Hele klassen tog på tur.",
+        "note": "Klassen is one countable group: hele."
+      },
+      {
+        "right": "Alle var glade, og alt gik godt.",
+        "note": "Alone: alle = everybody, alt = everything."
+      }
+    ],
+    "level": 4
+  }
+]

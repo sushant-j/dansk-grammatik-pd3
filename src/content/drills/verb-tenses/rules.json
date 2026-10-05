@@ -1,1 +1,168 @@
-[]
+[
+  {
+    "id": "vt-verb-forms",
+    "da": "Verbets former i kontekst",
+    "en": "Verb forms in context",
+    "statement": "Pick the verb form the sentence needs: infinitive after modal verbs and \"at\", present for now and habits, past for a finished time, and the past participle after \"har/er\".",
+    "explanation": "Look for the clue around the gap. A modal verb (kan, skal, vil, må) or \"at\" is followed by the infinitive (spise). A time word like \"nu\" or \"hver dag\" with a present-tense context needs the present (spiser); a finished past time like \"i går\" or \"sidste år\" needs the past (spiste). After \"har\" or \"er\" you need the past participle (spist). A common trap is putting the present or past form after \"har\" (\"har spiser\", \"har spiste\").",
+    "examples": [
+      {
+        "wrong": "Jeg har spiste morgenmad.",
+        "right": "Jeg har spist morgenmad.",
+        "note": "After \"har\" use the past participle."
+      },
+      {
+        "wrong": "Hun kan taler tre sprog.",
+        "right": "Hun kan tale tre sprog.",
+        "note": "After a modal verb use the infinitive."
+      },
+      {
+        "right": "I går arbejdede jeg hjemme, men i dag arbejder jeg på kontoret.",
+        "note": "\"I går\" takes the past, \"i dag\" the present."
+      }
+    ],
+    "level": 1
+  },
+  {
+    "id": "vt-past-vs-perfect",
+    "da": "Datid eller førnutid",
+    "en": "Past tense or present perfect",
+    "statement": "Use the past (datid) for something at a finished time in the past, and the present perfect (førnutid, har/er + participle) for experience up to now, an unfinished period or something still true now.",
+    "explanation": "If the sentence names or implies a finished time (i går, i 2015, for tre år siden, da jeg var barn, sidste år), use the past: \"Jeg flyttede hertil i 2015.\" If the period reaches up to now (siden, i fem år nu, i år, i dag, indtil nu) or the sentence is about life experience (aldrig, nogensinde), use the present perfect: \"Jeg har boet her i fem år.\" A question with \"hvornår\" asks for a time point, so it takes the past. The typical trap is using \"har\" together with a finished time like \"for to år siden\".",
+    "examples": [
+      {
+        "wrong": "Jeg har mistet mit job for to år siden.",
+        "right": "Jeg mistede mit job for to år siden.",
+        "note": "\"For to år siden\" is a finished time: use the past."
+      },
+      {
+        "wrong": "Vi boede her, siden vi blev gift.",
+        "right": "Vi har boet her, siden vi blev gift.",
+        "note": "\"Siden\" means the period reaches up to now: present perfect."
+      },
+      {
+        "right": "Jeg har aldrig været i Grønland.",
+        "note": "Life experience up to now: present perfect."
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "vt-past-vs-pluperfect",
+    "da": "Datid eller førdatid",
+    "en": "Past tense or past perfect",
+    "statement": "In a past story, use the past (datid) for events in the order they happen, and the past perfect (førdatid, havde/var + participle) for something that had already happened before another past event.",
+    "explanation": "Find the reference point in the past, often a \"da\"-clause (\"da jeg kom hjem\"). Things that happen at or after that point take the past; things that were already finished before it take the past perfect: \"Toget var allerede kørt, da vi kom.\" Clues for the past perfect are allerede, aldrig (før), lige, endnu ikke, efter at, and a period running up to the past point (\"i over en time\", \"siden ...\"). The trap is using the plain past for the earlier event, which makes the two events seem to happen at the same time.",
+    "examples": [
+      {
+        "wrong": "Toget kørte allerede, da vi kom til stationen.",
+        "right": "Toget var allerede kørt, da vi kom til stationen.",
+        "note": "The train left before we arrived: past perfect."
+      },
+      {
+        "right": "Han havde boet i Danmark i fem år, da han fik statsborgerskab.",
+        "note": "A period up to a point in the past: past perfect."
+      },
+      {
+        "right": "Hun tog jakken på og gik ud ad døren.",
+        "note": "Events in the order they happen: plain past."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "vt-pluperfect-var-havde",
+    "da": "Førdatid: var eller havde",
+    "en": "Past perfect: var or havde",
+    "statement": "The past perfect uses \"var\" where the present perfect uses \"er\", and \"havde\" where it uses \"har\".",
+    "explanation": "Most verbs take \"havde\" (havde spist, havde boet, havde arbejdet). Verbs of movement towards a place or away (gå, komme, rejse til, flytte til, køre = leave) and verbs of change of state (blive, dø, falde i søvn, vågne, forsvinde, stige, ske) take \"var\", just as they take \"er\" in the present perfect. Ask yourself: would I say \"er\" or \"har\" in the present perfect? Then use \"var\" or \"havde\". The trap is \"havde kommet\" or \"havde blevet\", which are wrong.",
+    "examples": [
+      {
+        "wrong": "Gæsterne havde kommet, før maden var klar.",
+        "right": "Gæsterne var kommet, før maden var klar.",
+        "note": "\"Er kommet\" becomes \"var kommet\"."
+      },
+      {
+        "wrong": "Det havde blevet mørkt.",
+        "right": "Det var blevet mørkt.",
+        "note": "\"Blive\" always takes \"er/var\"."
+      },
+      {
+        "right": "Vi havde spist, så vi var ikke sultne.",
+        "note": "\"Har spist\" becomes \"havde spist\"."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "vt-future",
+    "da": "Fremtid: nutid, skal eller vil",
+    "en": "Future: present, skal or vil",
+    "statement": "Danish often uses the present tense for the future; \"skal\" expresses a plan, appointment or promise (\"skal nok\"), and \"vil\" a prediction or a wish.",
+    "explanation": "After \"hvis\", \"når\", \"så snart\" and similar conjunctions you use the present tense even about the future: \"Hvis det regner i morgen, ...\". For planned arrangements and appointments use \"skal\" (\"Jeg skal til lægen på torsdag\"); \"skal nok\" is a promise or reassurance. \"Vil\" is used for predictions, especially in formal language (\"vil formentlig tage to år\"), and in \"vil gerne\" it means \"would like to\". The trap is translating English \"will\" with \"vil\" everywhere: \"Jeg vil til Spanien\" means \"I want to go to Spain\", not \"I am going\".",
+    "examples": [
+      {
+        "wrong": "Hvis det vil regne i morgen, bliver turen aflyst.",
+        "right": "Hvis det regner i morgen, bliver turen aflyst.",
+        "note": "After \"hvis\" use the present tense."
+      },
+      {
+        "right": "Vi skal på ferie i Italien i juli.",
+        "note": "A planned arrangement: \"skal\"."
+      },
+      {
+        "right": "Arbejdet vil formentlig tage to år.",
+        "note": "A prediction: \"vil\"."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "vt-at-modal",
+    "da": "Infinitiv med eller uden \"at\" (modalverber)",
+    "en": "Infinitive with or without \"at\" after verbs",
+    "statement": "After the modal verbs (kan, skal, vil, må, bør, tør, gider and their past forms) the infinitive comes without \"at\"; after other verbs and expressions it needs \"at\".",
+    "explanation": "Modal verbs are followed directly by the infinitive: \"Jeg kan svømme\", \"Du bør gå til lægen\". Ordinary verbs and expressions take \"at\": \"Jeg prøver at svømme\", \"Han plejer at cykle\", \"Jeg glemte at ringe\", \"Det er svært at finde et job\". Watch out for \"kan lide\": it starts with \"kan\", but \"lide\" is the main verb, so it takes \"at\" (\"Jeg kan godt lide at lave mad\"). Also \"bliver nødt til at\", \"har lyst til at\" and \"lad være med at\" need \"at\".",
+    "examples": [
+      {
+        "wrong": "Jeg kan at svømme.",
+        "right": "Jeg kan svømme.",
+        "note": "No \"at\" after a modal verb."
+      },
+      {
+        "wrong": "Han plejer cykle på arbejde.",
+        "right": "Han plejer at cykle på arbejde.",
+        "note": "\"Plejer\" is not a modal verb: use \"at\"."
+      },
+      {
+        "right": "Jeg kan godt lide at lave mad.",
+        "note": "\"Kan lide\" takes \"at\"."
+      }
+    ],
+    "level": 1
+  },
+  {
+    "id": "vt-at-object-infinitive",
+    "da": "Objekt + infinitiv: med eller uden \"at\"",
+    "en": "Object + infinitive: with or without \"at\"",
+    "statement": "After verbs of perception (se, høre, mærke, føle) and \"lade\" + object, the infinitive comes without \"at\"; after \"bede ... om\", \"få ... til\", \"hjælpe ... med\", \"lære\" and similar, it needs \"at\".",
+    "explanation": "When you see, hear or feel someone do something, the infinitive follows directly: \"Jeg så ham komme\", \"Vi hørte hende synge\". \"Lade\" (let) works the same way: \"Lad mig hjælpe dig\". When a preposition stands before the infinitive (\"bede nogen om at\", \"få nogen til at\", \"hjælpe nogen med at\", \"opfordre nogen til at\") you always need \"at\", and \"lære\", \"tillade\" and \"forbyde\" also take \"at\". The trap is adding \"at\" after se/høre/lade, or leaving it out after \"om/til/med\".",
+    "examples": [
+      {
+        "wrong": "Jeg så ham at gå ind i butikken.",
+        "right": "Jeg så ham gå ind i butikken.",
+        "note": "No \"at\" after \"se\" + object."
+      },
+      {
+        "wrong": "Hun fik ham til tage opvasken.",
+        "right": "Hun fik ham til at tage opvasken.",
+        "note": "\"Få nogen til\" needs \"at\"."
+      },
+      {
+        "right": "Læreren bad os om at læse teksten.",
+        "note": "\"Bede nogen om\" + \"at\"."
+      }
+    ],
+    "level": 3
+  }
+]

@@ -1,1 +1,198 @@
-[]
+[
+  {
+    "id": "pr-subject-object",
+    "da": "Personlige pronominer: jeg eller mig?",
+    "en": "Personal pronouns: subject or object form",
+    "statement": "Use the subject form (jeg, du, han, hun, vi, I, de) for the one doing the verb, and the object form (mig, dig, ham, hende, os, jer, dem) everywhere else, including after prepositions.",
+    "explanation": "Ask what job the pronoun does in its own clause: if it is the subject of a verb, use jeg/han/hun/vi/I/de; if it is an object or comes after a preposition (til, med, uden, ifølge …), use mig/ham/hende/os/jer/dem. The trap is a pair joined with og: 'min chef og jeg' is the subject, but 'til min chef og mig' follows a preposition. After end and som both forms are accepted when nothing follows ('større end ham/han'), but if a verb follows, the pronoun is its subject: 'større end han er'. In identifying sentences 'Det er mig' is the normal everyday form; 'det er jeg' is old-fashioned.",
+    "examples": [
+      {
+        "wrong": "Min kone og mig skal på ferie.",
+        "right": "Min kone og jeg skal på ferie.",
+        "note": "The pair is the subject, so use jeg."
+      },
+      {
+        "wrong": "Hun ringede til min bror og jeg.",
+        "right": "Hun ringede til min bror og mig.",
+        "note": "After the preposition til, use the object form."
+      },
+      {
+        "right": "Min søster er højere end jeg er.",
+        "note": "A verb follows, so the pronoun is a subject: jeg."
+      },
+      {
+        "right": "Hvem er det? – Det er mig.",
+        "note": "'Det er mig' is the normal modern form."
+      }
+    ],
+    "level": 1
+  },
+  {
+    "id": "pr-det-den-de",
+    "da": "Det, den eller de",
+    "en": "Det, den or de: referring back, or presenting with det",
+    "statement": "Refer back to an en-word with den, an et-word with det and a plural with de (object: dem), but use det in 'det er + noun' when you say what something is.",
+    "explanation": "When a pronoun points back to a noun, it copies the noun: en telefon → den, et hus → det, sko → de (dem as object). An adjective after the pronoun often gives you the clue: 'den er dyr', 'det er dyrt', 'de er dyre'. But when you identify or present something with være + a noun ('Hvad er det? Det er en gave'), Danish always uses det, even for en-words and plurals. Det is also used for a whole situation or statement ('Det var umuligt at komme igennem').",
+    "examples": [
+      {
+        "wrong": "Jeg har købt en jakke. Det er varm.",
+        "right": "Jeg har købt en jakke. Den er varm.",
+        "note": "jakke is an en-word, and varm has no -t."
+      },
+      {
+        "wrong": "Hvad er det? Den er en gave.",
+        "right": "Hvad er det? Det er en gave.",
+        "note": "Det er + noun presents or identifies something."
+      },
+      {
+        "right": "Jeg har lånt to bøger, men jeg har ikke læst dem.",
+        "note": "Plural object: dem."
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "pr-det-der",
+    "da": "Det eller der som formelt subjekt",
+    "en": "Det or der as a dummy subject",
+    "statement": "Use der when a new, indefinite subject comes later in the sentence (der er, der står, der bor …) and in passives without a subject; use det for weather, time, and 'det er + adjective + at …'.",
+    "explanation": "Der introduces something new that exists or is somewhere: 'Der står en mand ved døren', 'Der er tre elever'. It is also the dummy subject in passives such as 'Der skal ryddes op'. Det is used with weather verbs (det regner, det sner), with 'det tager tid', 'det ser ud til' and when det points forward to an at-clause or infinitive ('Det er vigtigt at sove'). A typical learner mistake is 'Det er mange mennesker' – if you could say 'mange mennesker er her', you need der.",
+    "examples": [
+      {
+        "wrong": "Det er mange mennesker på stationen.",
+        "right": "Der er mange mennesker på stationen.",
+        "note": "A new, indefinite subject follows: der."
+      },
+      {
+        "wrong": "Der regner i dag.",
+        "right": "Det regner i dag.",
+        "note": "Weather verbs take det."
+      },
+      {
+        "right": "Det er svært at finde en lejlighed.",
+        "note": "Det points forward to 'at finde en lejlighed'."
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "pr-man-du-i",
+    "da": "Man, du eller I",
+    "en": "'You' in Danish: man, du or I",
+    "statement": "Use du for one person you speak to, I for two or more people you speak to, and man for people in general.",
+    "explanation": "English 'you' covers three Danish words. Du is one listener (a name or 'din' is a clue); I is several listeners (look for 'alle sammen', 'I to', 'jer', 'jeres'). Man means 'people in general' and keeps its own forms in the sentence: man … sig, man … sin. In speech Danes sometimes use du in a general sense, but you must not mix it with man in the same sentence, so 'Når man flytter, skal man …' – not 'når du flytter, skal man …'.",
+    "examples": [
+      {
+        "wrong": "Børn, har du husket jeres madpakker?",
+        "right": "Børn, har I husket jeres madpakker?",
+        "note": "Several listeners and 'jeres': I."
+      },
+      {
+        "wrong": "Når du flytter, skal man melde flytning.",
+        "right": "Når man flytter, skal man melde flytning.",
+        "note": "General statement – stay with man."
+      },
+      {
+        "right": "Sara, har du sovet godt?",
+        "note": "One listener: du."
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "pr-man-en-sig",
+    "da": "Man, én eller sig",
+    "en": "Man, én or sig: the general person",
+    "statement": "Man is only a subject; its object form is én (also written en), and its reflexive form is sig when man is the subject of the same clause.",
+    "explanation": "Man cannot stand as an object. If the general person is the object and someone else is the subject ('Det gør én glad', 'Lægen kan hjælpe én'), use én. If the object is the same person as the subject man in the same clause ('Man skal passe på sig selv', 'Man glæder sig'), use sig. So look for the subject of the clause where the gap is: man → sig; anybody or anything else → én.",
+    "examples": [
+      {
+        "wrong": "Det gør man glad, når solen skinner.",
+        "right": "Det gør én glad, når solen skinner.",
+        "note": "Object of 'gør' with det as subject: én."
+      },
+      {
+        "wrong": "Man skal passe på én selv.",
+        "right": "Man skal passe på sig selv.",
+        "note": "Same person as the subject man: sig."
+      },
+      {
+        "right": "Det er rart, når nogen inviterer én på middag.",
+        "note": "Subject is nogen, so the general object is én."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "pr-hans-sin",
+    "da": "Hans/hendes eller sin/sit/sine",
+    "en": "Hans/hendes or sin/sit/sine: the reflexive possessive",
+    "statement": "Use sin/sit/sine when the owner is the third-person singular subject of the same clause, and hans/hendes (or deres) otherwise.",
+    "explanation": "'Peter tager sin jakke' means his own jacket; 'Peter tager hans jakke' means another man's jacket. Sin can never be part of the subject itself, so it is 'Peter og hans kone', and in a subordinate clause it can only point to that clause's own subject ('Mette siger, at hendes mand …'). Sin agrees with the thing owned: sin (en-word), sit (et-word), sine (plural). With a plural owner there is no reflexive form: 'De kom med deres børn', never 'sine'.",
+    "examples": [
+      {
+        "wrong": "Peter og sin kone kom til festen.",
+        "right": "Peter og hans kone kom til festen.",
+        "note": "Sin can't be part of the subject."
+      },
+      {
+        "wrong": "Børnene leger med sine venner.",
+        "right": "Børnene leger med deres venner.",
+        "note": "Plural owner: deres."
+      },
+      {
+        "right": "Hun har inviteret alle sine venner.",
+        "note": "Owner = subject hun, plural thing owned: sine."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "pr-ens-sin",
+    "da": "Man – ens eller sin",
+    "en": "The possessive of man: ens or sin",
+    "statement": "When man is the subject of the same clause, the possessive is sin/sit/sine; otherwise the general person's possessive is ens.",
+    "explanation": "The general person man has the possessive ens ('one's'). But the normal reflexive rule still applies: if man is the subject of the clause, use sin/sit/sine ('Man skal passe på sit helbred'). Use ens when the possessive is part of the subject ('Ens familie betyder meget') or when the clause has another subject ('når ens børn flytter hjemmefra'). A common error is 'Man skal betale ens husleje'.",
+    "examples": [
+      {
+        "wrong": "Man skal passe på ens helbred.",
+        "right": "Man skal passe på sit helbred.",
+        "note": "Man is the subject of the clause: sit."
+      },
+      {
+        "wrong": "Sin familie betyder meget.",
+        "right": "Ens familie betyder meget.",
+        "note": "Part of the subject: ens."
+      },
+      {
+        "right": "Det er hårdt, når ens børn flytter hjemmefra.",
+        "note": "Subject of the clause is 'ens børn'."
+      }
+    ],
+    "level": 4
+  },
+  {
+    "id": "pr-countable",
+    "da": "Nogen/noget, mange/meget, flere/mere",
+    "en": "Countable or not: nogen/noget, mange/meget, flere/mere",
+    "statement": "With things you can count (plural nouns) and people use nogen, mange, flere; with uncountable things use noget, meget, mere.",
+    "explanation": "Ask whether you can put a number in front of the noun. Countable plurals take mange ('many') and flere ('more'): mange mennesker, flere stole. Uncountables take meget ('much') and mere: meget vand, mere tid. In questions and negatives nogen means 'any/anyone' (plural or person) and noget means 'any/anything' (uncountable or a thing). Watch out for penge, which is plural in Danish: mange penge. Meget and mere are also adverbs: 'Hun arbejder meget', 'Du skal sove mere'.",
+    "examples": [
+      {
+        "wrong": "Der var meget mennesker.",
+        "right": "Der var mange mennesker.",
+        "note": "mennesker can be counted."
+      },
+      {
+        "wrong": "Kan jeg få flere kaffe?",
+        "right": "Kan jeg få mere kaffe?",
+        "note": "kaffe is uncountable here."
+      },
+      {
+        "right": "Er der nogen hjemme? – Nej, og der er heller ikke noget at spise.",
+        "note": "nogen = anybody, noget = anything."
+      }
+    ],
+    "level": 1
+  }
+]

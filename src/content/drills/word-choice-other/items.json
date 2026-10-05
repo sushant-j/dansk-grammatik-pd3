@@ -1,1 +1,2856 @@
-[]
+[
+  {
+    "id": "wo-alm-01",
+    "level": 2,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Influenza er en meget ___ sygdom om vinteren.",
+    "options": [
+      "almindelig",
+      "normal",
+      "sædvanlig"
+    ],
+    "answer": "almindelig",
+    "explanation": "Almindelig means common or widespread: many people get flu in winter.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-02",
+    "level": 2,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Bussen kom for sent som ___.",
+    "options": [
+      "almindelig",
+      "normal",
+      "sædvanlig"
+    ],
+    "answer": "sædvanlig",
+    "explanation": "\"As usual\" is the fixed phrase som sædvanlig.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-03",
+    "level": 2,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Feberen er væk, og min temperatur er ___ igen.",
+    "options": [
+      "almindelig",
+      "normal",
+      "sædvanlig"
+    ],
+    "answer": "normal",
+    "explanation": "Normal means within the healthy norm; temperature and other measurements are normal or not normal.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-04",
+    "level": 3,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Jensen er det mest ___ efternavn i Danmark.",
+    "options": [
+      "almindelige",
+      "normale",
+      "sædvanlige"
+    ],
+    "answer": "almindelige",
+    "explanation": "Den/det mest almindelige = the most common: more people have the name than any other. Normal means \"within the norm\", and sædvanlig means \"usual for someone\".",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-05",
+    "level": 3,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Lægen fandt intet unormalt; alle prøverne var ___.",
+    "options": [
+      "almindelige",
+      "normale",
+      "sædvanlige"
+    ],
+    "answer": "normale",
+    "explanation": "The clue \"unormalt\" shows we mean \"within the norm\": normale.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-06",
+    "level": 3,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "___ cykler jeg på arbejde, men i dag tager jeg bussen.",
+    "options": [
+      "Normalt",
+      "Almindeligt",
+      "Sædvanligt"
+    ],
+    "answer": "Normalt",
+    "explanation": "The sentence adverb \"usually\" is normalt (or almindeligvis/sædvanligvis); almindeligt and sædvanligt cannot be used this way.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-07",
+    "level": 3,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Cykler er et ___ syn i de danske byer.",
+    "options": [
+      "almindeligt",
+      "normalt",
+      "sædvanligt"
+    ],
+    "answer": "almindeligt",
+    "explanation": "Et almindeligt syn = a common sight. \"Et normalt syn\" would mean normal eyesight.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-08",
+    "level": 2,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Tjeneren på caféen kender mig og spørger altid: \"Det ___?\"",
+    "options": [
+      "almindelige",
+      "normale",
+      "sædvanlige"
+    ],
+    "answer": "sædvanlige",
+    "explanation": "Det sædvanlige = \"the usual\", what a regular customer always orders.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-09",
+    "level": 3,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Barnets vægt er helt ___ for alderen, siger sundhedsplejersken.",
+    "options": [
+      "almindelig",
+      "normal",
+      "sædvanlig"
+    ],
+    "answer": "normal",
+    "explanation": "Normal for alderen = within the expected range for the age.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-10",
+    "level": 4,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Det er ___ kendt, at motion er godt for helbredet.",
+    "options": [
+      "almindeligt",
+      "normalt",
+      "sædvanligt"
+    ],
+    "answer": "almindeligt",
+    "explanation": "Almindeligt kendt = commonly known, widely known.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-11",
+    "level": 4,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Koncerten var ikke noget ud over det ___.",
+    "options": [
+      "almindelige",
+      "normale",
+      "sædvanlige"
+    ],
+    "answer": "sædvanlige",
+    "explanation": "The fixed phrase \"ud over det sædvanlige\" means out of the ordinary.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-12",
+    "level": 3,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Politikerne glemmer tit ___ mennesker, der bare passer deres arbejde og betaler skat.",
+    "options": [
+      "sædvanlige",
+      "almindelige"
+    ],
+    "answer": "almindelige",
+    "explanation": "Almindelige mennesker = ordinary people. Sædvanlig means \"usual\" and cannot describe a group of people like this.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-13",
+    "level": 4,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Efter strejken kom hverdagen på hospitalet tilbage til det ___.",
+    "options": [
+      "almindelige",
+      "normale"
+    ],
+    "answer": "normale",
+    "explanation": "The set phrase is \"tilbage til det normale\" (back to normal).",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-14",
+    "level": 4,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Hovedpine er en af de mest ___ grunde til, at folk går til lægen.",
+    "options": [
+      "almindelige",
+      "normale",
+      "sædvanlige"
+    ],
+    "answer": "almindelige",
+    "explanation": "De mest almindelige grunde = the most common reasons.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-15",
+    "level": 3,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Det er blevet mere ___ at arbejde hjemmefra en dag om ugen.",
+    "options": [
+      "almindeligt",
+      "sædvanligt"
+    ],
+    "answer": "almindeligt",
+    "explanation": "Mere almindeligt = more common, more widespread in society.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-16",
+    "level": 2,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Han er ikke syg, men han er mere træt end ___.",
+    "options": [
+      "sædvanligt",
+      "almindeligt"
+    ],
+    "answer": "sædvanligt",
+    "explanation": "\"Than usual\" is end sædvanligt; almindeligt cannot mean \"usual\" in this comparison.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-17",
+    "level": 4,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Lægen målte hendes blodtryk, og det var helt ___.",
+    "options": [
+      "almindeligt",
+      "normalt",
+      "sædvanligt"
+    ],
+    "answer": "normalt",
+    "explanation": "Blood pressure is normalt (within the healthy norm) or not.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-18",
+    "level": 3,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Det er en meget ___ fejl at glemme ordstillingen efter \"i går\".",
+    "options": [
+      "almindelig",
+      "sædvanlig"
+    ],
+    "answer": "almindelig",
+    "explanation": "En almindelig fejl = a common mistake that many learners make.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-19",
+    "level": 4,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Hun var sig selv som ___ og fik alle til at grine.",
+    "options": [
+      "almindelig",
+      "normal",
+      "sædvanlig"
+    ],
+    "answer": "sædvanlig",
+    "explanation": "Som sædvanlig = as usual.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-20",
+    "level": 3,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Hjertet slår helt ___, så du behøver ikke være bekymret.",
+    "options": [
+      "almindeligt",
+      "normalt",
+      "sædvanligt"
+    ],
+    "answer": "normalt",
+    "explanation": "A heart that beats as it should beats normalt.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-21",
+    "level": 3,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Æbler er den mest ___ frugt i danske haver.",
+    "options": [
+      "almindelige",
+      "normale",
+      "sædvanlige"
+    ],
+    "answer": "almindelige",
+    "explanation": "Den mest almindelige = the most common, found in most gardens.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-22",
+    "level": 2,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "Togene kører ___ hvert tiende minut.",
+    "options": [
+      "normalt",
+      "sædvanligt"
+    ],
+    "answer": "normalt",
+    "explanation": "The adverb \"usually\" is normalt; sædvanligt cannot be a sentence adverb (use sædvanligvis).",
+    "reviewed": false
+  },
+  {
+    "id": "wo-alm-23",
+    "level": 3,
+    "ruleId": "wo-almindelig-normal-saedvanlig",
+    "prompt": "I dag kom hun hjem fra arbejde tidligere end ___.",
+    "options": [
+      "sædvanligt",
+      "almindeligt"
+    ],
+    "answer": "sædvanligt",
+    "explanation": "End sædvanligt = than usual; almindeligt never means \"usual\" in this comparison.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-01",
+    "level": 1,
+    "ruleId": "wo-bad",
+    "prompt": "Jeg har ___ i ryggen efter flytningen.",
+    "options": [
+      "ondt",
+      "dårligt",
+      "slemt"
+    ],
+    "answer": "ondt",
+    "explanation": "Pain is always \"have ondt i\".",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-02",
+    "level": 1,
+    "ruleId": "wo-bad",
+    "prompt": "Hun er ___ og har feber, så hun bliver hjemme fra skole.",
+    "options": [
+      "syg",
+      "ond",
+      "alvorlig"
+    ],
+    "answer": "syg",
+    "explanation": "Being ill is være syg.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-03",
+    "level": 2,
+    "ruleId": "wo-bad",
+    "prompt": "Jeg har ___ samvittighed, fordi jeg glemte min mors fødselsdag.",
+    "options": [
+      "dårlig",
+      "ond",
+      "syg"
+    ],
+    "answer": "dårlig",
+    "explanation": "A bad conscience is the fixed phrase \"dårlig samvittighed\".",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-04",
+    "level": 2,
+    "ruleId": "wo-bad",
+    "prompt": "Det er ___ vejr i dag; det regner og blæser.",
+    "options": [
+      "dårligt",
+      "ondt",
+      "sygt"
+    ],
+    "answer": "dårligt",
+    "explanation": "Bad weather is dårligt vejr.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-05",
+    "level": 2,
+    "ruleId": "wo-bad",
+    "prompt": "Der skete en ___ ulykke på motorvejen, og tre personer kom på hospitalet.",
+    "options": [
+      "alvorlig",
+      "dårlig",
+      "ond"
+    ],
+    "answer": "alvorlig",
+    "explanation": "A dangerous accident with injured people is alvorlig (serious).",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-06",
+    "level": 1,
+    "ruleId": "wo-bad",
+    "prompt": "Av, det gør ___!",
+    "options": [
+      "ondt",
+      "dårligt",
+      "slemt"
+    ],
+    "answer": "ondt",
+    "explanation": "\"It hurts\" is det gør ondt.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-07",
+    "level": 2,
+    "ruleId": "wo-bad",
+    "prompt": "Mine karakterer i matematik var desværre meget ___.",
+    "options": [
+      "dårlige",
+      "onde",
+      "alvorlige"
+    ],
+    "answer": "dårlige",
+    "explanation": "Poor results or quality are dårlige.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-08",
+    "level": 2,
+    "ruleId": "wo-bad",
+    "prompt": "I eventyret er der en ___ heks, som vil skade prinsessen.",
+    "options": [
+      "ond",
+      "syg",
+      "alvorlig"
+    ],
+    "answer": "ond",
+    "explanation": "Ond means evil, someone who wants to hurt others.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-09",
+    "level": 3,
+    "ruleId": "wo-bad",
+    "prompt": "Kræft er en ___ sygdom, men mange bliver raske i dag.",
+    "options": [
+      "alvorlig",
+      "dårlig",
+      "ubehagelig"
+    ],
+    "answer": "alvorlig",
+    "explanation": "A dangerous illness is en alvorlig sygdom.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-10",
+    "level": 3,
+    "ruleId": "wo-bad",
+    "prompt": "Der var en meget ___ lugt i kælderen efter oversvømmelsen.",
+    "options": [
+      "ubehagelig",
+      "alvorlig",
+      "syg"
+    ],
+    "answer": "ubehagelig",
+    "explanation": "An unpleasant smell is ubehagelig.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-11",
+    "level": 3,
+    "ruleId": "wo-bad",
+    "prompt": "Det var en ___ overraskelse at få en regning på 5.000 kroner.",
+    "options": [
+      "ubehagelig",
+      "ond",
+      "syg"
+    ],
+    "answer": "ubehagelig",
+    "explanation": "An unpleasant surprise is en ubehagelig overraskelse.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-12",
+    "level": 2,
+    "ruleId": "wo-bad",
+    "prompt": "Børnene har været ___ i dag og drillet deres lillesøster hele tiden.",
+    "options": [
+      "slemme",
+      "syge",
+      "alvorlige"
+    ],
+    "answer": "slemme",
+    "explanation": "Naughty children are slemme børn.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-13",
+    "level": 2,
+    "ruleId": "wo-bad",
+    "prompt": "Hun har det ___ i dag, så hun går tidligt i seng.",
+    "options": [
+      "dårligt",
+      "ondt",
+      "alvorligt"
+    ],
+    "answer": "dårligt",
+    "explanation": "\"Have det dårligt\" means to feel unwell. Have ondt needs \"i\" + body part.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-14",
+    "level": 3,
+    "ruleId": "wo-bad",
+    "prompt": "Bare rolig, det er ikke så ___. Du kan tage eksamen igen i august.",
+    "options": [
+      "slemt",
+      "ondt",
+      "sygt"
+    ],
+    "answer": "slemt",
+    "explanation": "\"Det er ikke så slemt\" = it's not so bad, a reassuring phrase.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-15",
+    "level": 3,
+    "ruleId": "wo-bad",
+    "prompt": "Lægen sagde, at det heldigvis ikke var noget ___.",
+    "options": [
+      "alvorligt",
+      "ondt",
+      "sygt"
+    ],
+    "answer": "alvorligt",
+    "explanation": "\"Ikke noget alvorligt\" = nothing serious.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-16",
+    "level": 3,
+    "ruleId": "wo-bad",
+    "prompt": "Mødet med chefen var meget ___; han råbte af mig foran alle.",
+    "options": [
+      "ubehageligt",
+      "ondt",
+      "dårligt"
+    ],
+    "answer": "ubehageligt",
+    "explanation": "An unpleasant situation is ubehagelig.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-17",
+    "level": 2,
+    "ruleId": "wo-bad",
+    "prompt": "Der er ___ forbindelse til internettet i sommerhuset.",
+    "options": [
+      "dårlig",
+      "ond",
+      "syg"
+    ],
+    "answer": "dårlig",
+    "explanation": "Poor quality or a weak connection is dårlig.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-18",
+    "level": 3,
+    "ruleId": "wo-bad",
+    "prompt": "Han er en ___ taber; han bliver altid sur, når han taber i kort.",
+    "options": [
+      "dårlig",
+      "ond",
+      "alvorlig"
+    ],
+    "answer": "dårlig",
+    "explanation": "A bad loser is the fixed phrase \"en dårlig taber\".",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-19",
+    "level": 4,
+    "ruleId": "wo-bad",
+    "prompt": "Vi har ___ råd til en ny bil i år.",
+    "options": [
+      "dårligt",
+      "ondt",
+      "slemt"
+    ],
+    "answer": "dårligt",
+    "explanation": "\"Have dårligt råd\" means you can hardly afford something.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-20",
+    "level": 3,
+    "ruleId": "wo-bad",
+    "prompt": "Det er en ___ vane at kigge på mobilen under aftensmaden.",
+    "options": [
+      "dårlig",
+      "syg",
+      "alvorlig"
+    ],
+    "answer": "dårlig",
+    "explanation": "A bad habit is en dårlig vane.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-21",
+    "level": 4,
+    "ruleId": "wo-bad",
+    "prompt": "Situationen er så ___, at regeringen har indkaldt til krisemøde.",
+    "options": [
+      "alvorlig",
+      "ubehagelig",
+      "syg"
+    ],
+    "answer": "alvorlig",
+    "explanation": "A crisis meeting shows the situation is serious: alvorlig.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-22",
+    "level": 4,
+    "ruleId": "wo-bad",
+    "prompt": "Hun glemte at svare på min mail, men hun gjorde det ikke af ___ vilje.",
+    "options": [
+      "ond",
+      "slem",
+      "syg"
+    ],
+    "answer": "ond",
+    "explanation": "The fixed phrase \"af ond vilje\" means on purpose, out of ill will.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-23",
+    "level": 4,
+    "ruleId": "wo-bad",
+    "prompt": "Han er ___ til at lave mad, så det er altid hans kone, der står i køkkenet.",
+    "options": [
+      "dårlig",
+      "ond",
+      "slem"
+    ],
+    "answer": "dårlig",
+    "explanation": "Not good at something = dårlig til.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-bad-24",
+    "level": 3,
+    "ruleId": "wo-bad",
+    "prompt": "Min bedstefar blev ___ og måtte ligge på hospitalet i to uger.",
+    "options": [
+      "syg",
+      "ond",
+      "slem"
+    ],
+    "answer": "syg",
+    "explanation": "To become ill is blive syg.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-01",
+    "level": 3,
+    "ruleId": "wo-contrasting",
+    "prompt": "Naboen passer vores kat, og ___ vander vi hans blomster, når han er på ferie.",
+    "options": [
+      "til gengæld",
+      "derimod",
+      "tværtimod"
+    ],
+    "answer": "til gengæld",
+    "explanation": "Doing something back in return for a favour = til gengæld.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-02",
+    "level": 3,
+    "ruleId": "wo-contrasting",
+    "prompt": "Jobbet er dårligt betalt, men ___ er kollegerne søde.",
+    "options": [
+      "til gengæld",
+      "tværtimod"
+    ],
+    "answer": "til gengæld",
+    "explanation": "A disadvantage balanced by an advantage about the same job: til gengæld.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-03",
+    "level": 3,
+    "ruleId": "wo-contrasting",
+    "prompt": "Jeg er slet ikke træt. ___ har jeg masser af energi.",
+    "options": [
+      "Tværtimod",
+      "Til gengæld"
+    ],
+    "answer": "Tværtimod",
+    "explanation": "It rejects the negative statement \"slet ikke træt\" and states the opposite: tværtimod. Til gengæld would need a disadvantage balanced by an advantage.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-04",
+    "level": 3,
+    "ruleId": "wo-contrasting",
+    "prompt": "Min mand elsker at rejse. Jeg ___ bliver helst hjemme.",
+    "options": [
+      "derimod",
+      "tværtimod"
+    ],
+    "answer": "derimod",
+    "explanation": "Two different people are contrasted, and the word stands right after the subject: derimod.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-05",
+    "level": 4,
+    "ruleId": "wo-contrasting",
+    "prompt": "Han blev ikke sur over kritikken. ___ takkede han for den.",
+    "options": [
+      "Tværtimod",
+      "Til gengæld"
+    ],
+    "answer": "Tværtimod",
+    "explanation": "After a negative statement, the opposite is true: tværtimod.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-06",
+    "level": 3,
+    "ruleId": "wo-contrasting",
+    "prompt": "Jeg hjælper dig med flytningen, og ___ giver du mig middag bagefter.",
+    "options": [
+      "til gengæld",
+      "derimod",
+      "tværtimod"
+    ],
+    "answer": "til gengæld",
+    "explanation": "In return for a favour = til gengæld.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-07",
+    "level": 4,
+    "ruleId": "wo-contrasting",
+    "prompt": "Det er ikke et problem, men ___ en mulighed.",
+    "options": [
+      "derimod",
+      "tværtimod",
+      "til gengæld"
+    ],
+    "answer": "derimod",
+    "explanation": "The pattern \"ikke X, men derimod Y\" means \"not X but rather Y\".",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-08",
+    "level": 3,
+    "ruleId": "wo-contrasting",
+    "prompt": "Om vinteren er det koldt i Danmark. Om sommeren ___ kan det blive ret varmt.",
+    "options": [
+      "derimod",
+      "tværtimod"
+    ],
+    "answer": "derimod",
+    "explanation": "Two different seasons are contrasted: derimod after the time phrase.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-09",
+    "level": 4,
+    "ruleId": "wo-contrasting",
+    "prompt": "Det var ikke kedeligt at læse til eksamen – ___!",
+    "options": [
+      "tværtimod",
+      "til gengæld",
+      "derimod"
+    ],
+    "answer": "tværtimod",
+    "explanation": "Standing alone after a negative statement, \"on the contrary\" is tværtimod.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-10",
+    "level": 3,
+    "ruleId": "wo-contrasting",
+    "prompt": "Toget er dyrere end bussen, men ___ kommer man hurtigere frem.",
+    "options": [
+      "til gengæld",
+      "tværtimod"
+    ],
+    "answer": "til gengæld",
+    "explanation": "The higher price is compensated by speed: til gengæld.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-11",
+    "level": 4,
+    "ruleId": "wo-contrasting",
+    "prompt": "Min søster læste medicin. Min bror ___ valgte at blive tømrer.",
+    "options": [
+      "derimod",
+      "tværtimod"
+    ],
+    "answer": "derimod",
+    "explanation": "Two siblings with different choices are contrasted: derimod after the subject.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-12",
+    "level": 4,
+    "ruleId": "wo-contrasting",
+    "prompt": "Arbejdsløsheden er ikke steget. ___ er den faldet en smule.",
+    "options": [
+      "Tværtimod",
+      "Til gengæld"
+    ],
+    "answer": "Tværtimod",
+    "explanation": "The negative claim is rejected and the opposite stated: tværtimod.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-13",
+    "level": 3,
+    "ruleId": "wo-contrasting",
+    "prompt": "Vi bor langt fra byen, men ___ har vi en stor have.",
+    "options": [
+      "til gengæld",
+      "tværtimod"
+    ],
+    "answer": "til gengæld",
+    "explanation": "A disadvantage (far from town) is balanced by an advantage: til gengæld.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-14",
+    "level": 4,
+    "ruleId": "wo-contrasting",
+    "prompt": "Københavnerne cykler meget. I mindre byer ___ tager folk oftere bilen.",
+    "options": [
+      "derimod",
+      "tværtimod"
+    ],
+    "answer": "derimod",
+    "explanation": "Two different groups or places are contrasted: derimod.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-15",
+    "level": 5,
+    "ruleId": "wo-contrasting",
+    "prompt": "Den nye lov har ikke gjort det lettere for de små virksomheder; ___ har den skabt mere bureaukrati.",
+    "options": [
+      "tværtimod",
+      "til gengæld"
+    ],
+    "answer": "tværtimod",
+    "explanation": "It rejects \"har ikke gjort det lettere\" and says the opposite happened: tværtimod.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-16",
+    "level": 4,
+    "ruleId": "wo-contrasting",
+    "prompt": "Kurset er hårdt, men ___ lærer man rigtig meget.",
+    "options": [
+      "til gengæld",
+      "tværtimod"
+    ],
+    "answer": "til gengæld",
+    "explanation": "The hard work is compensated by learning a lot: til gengæld.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-17",
+    "level": 5,
+    "ruleId": "wo-contrasting",
+    "prompt": "De offentlige skoler har fået flere elever. Privatskolerne har ___ mistet elever.",
+    "options": [
+      "derimod",
+      "tværtimod"
+    ],
+    "answer": "derimod",
+    "explanation": "Two different kinds of schools are contrasted: derimod.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-18",
+    "level": 4,
+    "ruleId": "wo-contrasting",
+    "prompt": "Hun er ikke genert. ___ elsker hun at tale foran mange mennesker.",
+    "options": [
+      "Tværtimod",
+      "Til gengæld"
+    ],
+    "answer": "Tværtimod",
+    "explanation": "\"Ikke genert\" is rejected and the opposite stated: tværtimod.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-19",
+    "level": 5,
+    "ruleId": "wo-contrasting",
+    "prompt": "Han lånte min bil i en uge, og ___ fyldte han tanken, før han afleverede den.",
+    "options": [
+      "til gengæld",
+      "derimod",
+      "tværtimod"
+    ],
+    "answer": "til gengæld",
+    "explanation": "Doing something back in return for a favour = til gengæld.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-20",
+    "level": 5,
+    "ruleId": "wo-contrasting",
+    "prompt": "Mine forældre spiser næsten kun fisk. Kød ___ rører de sjældent.",
+    "options": [
+      "derimod",
+      "tværtimod"
+    ],
+    "answer": "derimod",
+    "explanation": "Two different foods are contrasted: derimod.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-21",
+    "level": 4,
+    "ruleId": "wo-contrasting",
+    "prompt": "Vi mistede ikke penge på huset. Vi tjente ___ 200.000 kroner, da vi solgte det.",
+    "options": [
+      "tværtimod",
+      "til gengæld"
+    ],
+    "answer": "tværtimod",
+    "explanation": "The negative statement is rejected and the opposite stated: tværtimod.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-22",
+    "level": 3,
+    "ruleId": "wo-contrasting",
+    "prompt": "Vejret var dårligt på ferien, men ___ var hotellet fantastisk.",
+    "options": [
+      "til gengæld",
+      "tværtimod"
+    ],
+    "answer": "til gengæld",
+    "explanation": "The bad weather is compensated by the great hotel: til gengæld.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-23",
+    "level": 3,
+    "ruleId": "wo-contrasting",
+    "prompt": "Maden på restauranten var ikke særlig god. Udsigten ___ var fantastisk.",
+    "options": [
+      "derimod",
+      "tværtimod"
+    ],
+    "answer": "derimod",
+    "explanation": "Two different things, the food and the view, are contrasted: derimod after the subject.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-contr-24",
+    "level": 4,
+    "ruleId": "wo-contrasting",
+    "prompt": "Det hjælper ikke at skælde børnene ud. ___ gør det ofte situationen værre.",
+    "options": [
+      "Tværtimod",
+      "Til gengæld"
+    ],
+    "answer": "Tværtimod",
+    "explanation": "The negative statement is rejected and the opposite is said: tværtimod.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-01",
+    "level": 2,
+    "ruleId": "wo-different",
+    "prompt": "Denne kop er beskidt. Har du en ___?",
+    "options": [
+      "anden",
+      "anderledes",
+      "forskellig"
+    ],
+    "answer": "anden",
+    "explanation": "Another one instead of this one = en anden.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-02",
+    "level": 2,
+    "ruleId": "wo-different",
+    "prompt": "Mine to søstre er meget ___ fra hinanden.",
+    "options": [
+      "forskellige",
+      "andre",
+      "anderledes"
+    ],
+    "answer": "forskellige",
+    "explanation": "\"Forskellige fra hinanden\" compares two people with each other. Anderledes would need \"end\", and andre cannot take \"meget\".",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-03",
+    "level": 3,
+    "ruleId": "wo-different",
+    "prompt": "Livet i Danmark er meget ___ end livet i mit hjemland.",
+    "options": [
+      "anderledes",
+      "forskelligt",
+      "andet"
+    ],
+    "answer": "anderledes",
+    "explanation": "Different in character, followed by \"end\": anderledes.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-04",
+    "level": 3,
+    "ruleId": "wo-different",
+    "prompt": "Han er blevet helt ___, efter han fik børn.",
+    "options": [
+      "anderledes",
+      "forskellig",
+      "anden"
+    ],
+    "answer": "anderledes",
+    "explanation": "A changed person is helt anderledes. \"En helt anden\" would need the article en.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-05",
+    "level": 2,
+    "ruleId": "wo-different",
+    "prompt": "Vi ses en ___ dag.",
+    "options": [
+      "anden",
+      "anderledes",
+      "forskellig"
+    ],
+    "answer": "anden",
+    "explanation": "\"Another day\" = en anden dag.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-06",
+    "level": 3,
+    "ruleId": "wo-different",
+    "prompt": "Mine kolleger og jeg har meget ___ meninger om den nye leder.",
+    "options": [
+      "forskellige",
+      "andre",
+      "anderledes"
+    ],
+    "answer": "forskellige",
+    "explanation": "Opinions that differ from each other are forskellige; andre cannot take \"meget\".",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-07",
+    "level": 2,
+    "ruleId": "wo-different",
+    "prompt": "Hvor er de ___ børn? Er de allerede gået hjem?",
+    "options": [
+      "andre",
+      "forskellige",
+      "anderledes"
+    ],
+    "answer": "andre",
+    "explanation": "\"The other children\" = de andre børn.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-08",
+    "level": 3,
+    "ruleId": "wo-different",
+    "prompt": "Køkkenet ser helt ___ ud nu, hvor vi har malet det gult.",
+    "options": [
+      "anderledes",
+      "andet",
+      "forskelligt"
+    ],
+    "answer": "anderledes",
+    "explanation": "\"Se anderledes ud\" = look different than before.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-09",
+    "level": 4,
+    "ruleId": "wo-different",
+    "prompt": "Min mening er meget ___ fra din.",
+    "options": [
+      "forskellig",
+      "anderledes",
+      "anden"
+    ],
+    "answer": "forskellig",
+    "explanation": "The preposition \"fra\" goes with forskellig; anderledes takes \"end\".",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-10",
+    "level": 3,
+    "ruleId": "wo-different",
+    "prompt": "Vi har ___ arbejdstider, så vi ser næsten aldrig hinanden.",
+    "options": [
+      "forskellige",
+      "anderledes"
+    ],
+    "answer": "forskellige",
+    "explanation": "Working hours that differ from each other are forskellige.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-11",
+    "level": 3,
+    "ruleId": "wo-different",
+    "prompt": "Jeg kan ikke lide den farve. Har I den i en ___ farve?",
+    "options": [
+      "anden",
+      "forskellig"
+    ],
+    "answer": "anden",
+    "explanation": "Another colour instead of this one = en anden farve.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-12",
+    "level": 4,
+    "ruleId": "wo-different",
+    "prompt": "Hun har en lidt ___ måde at undervise på end de andre lærere.",
+    "options": [
+      "anderledes",
+      "forskellig"
+    ],
+    "answer": "anderledes",
+    "explanation": "An unusual way, compared with \"end\": anderledes. Forskellig would need \"fra\" and a comparison between things.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-13",
+    "level": 3,
+    "ruleId": "wo-different",
+    "prompt": "Supermarkedet sælger ti ___ slags brød.",
+    "options": [
+      "forskellige",
+      "anderledes"
+    ],
+    "answer": "forskellige",
+    "explanation": "Various kinds = forskellige slags.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-14",
+    "level": 2,
+    "ruleId": "wo-different",
+    "prompt": "Jeg har ikke tid i dag. Kan vi tale om det et ___ tidspunkt?",
+    "options": [
+      "andet",
+      "anderledes",
+      "forskelligt"
+    ],
+    "answer": "andet",
+    "explanation": "Another time = et andet tidspunkt (et-word).",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-15",
+    "level": 4,
+    "ruleId": "wo-different",
+    "prompt": "Børn reagerer meget ___ på skilsmisse; nogle bliver vrede, andre bliver kede af det.",
+    "options": [
+      "forskelligt",
+      "andet"
+    ],
+    "answer": "forskelligt",
+    "explanation": "The children react in different ways from each other: forskelligt.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-16",
+    "level": 3,
+    "ruleId": "wo-different",
+    "prompt": "Jeg troede, at Aarhus var lille, men byen var helt ___, end jeg havde forventet.",
+    "options": [
+      "anderledes",
+      "forskellig",
+      "anden"
+    ],
+    "answer": "anderledes",
+    "explanation": "\"End\" after the gap requires anderledes.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-17",
+    "level": 4,
+    "ruleId": "wo-different",
+    "prompt": "Der er mange ___ forklaringer på, at unge flytter til de store byer: uddannelse, job og venner.",
+    "options": [
+      "forskellige",
+      "anderledes"
+    ],
+    "answer": "forskellige",
+    "explanation": "Various explanations = forskellige forklaringer.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-18",
+    "level": 2,
+    "ruleId": "wo-different",
+    "prompt": "Han kan ikke lide sit job, så han leder efter et ___.",
+    "options": [
+      "andet",
+      "anderledes",
+      "forskelligt"
+    ],
+    "answer": "andet",
+    "explanation": "Another job = et andet (job); et job is an et-word.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-19",
+    "level": 4,
+    "ruleId": "wo-different",
+    "prompt": "Efter et år i udlandet så hun sit eget land med ___ øjne.",
+    "options": [
+      "andre",
+      "forskellige",
+      "anderledes"
+    ],
+    "answer": "andre",
+    "explanation": "The fixed phrase \"med andre øjne\" means from a new perspective.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-20",
+    "level": 3,
+    "ruleId": "wo-different",
+    "prompt": "Det er ikke hans skyld. Det var en ___, der ødelagde cyklen.",
+    "options": [
+      "anden",
+      "anderledes",
+      "forskellig"
+    ],
+    "answer": "anden",
+    "explanation": "\"Someone else\" = en anden.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-21",
+    "level": 5,
+    "ruleId": "wo-different",
+    "prompt": "Lønnen er meget ___ fra branche til branche.",
+    "options": [
+      "forskellig",
+      "anden",
+      "anderledes"
+    ],
+    "answer": "forskellig",
+    "explanation": "\"Fra ... til ...\" varying across sectors: forskellig.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-22",
+    "level": 4,
+    "ruleId": "wo-different",
+    "prompt": "Vi prøvede en ny restaurant, og maden var spændende og ___.",
+    "options": [
+      "anderledes",
+      "forskellig",
+      "anden"
+    ],
+    "answer": "anderledes",
+    "explanation": "Unusual, different from what we know = anderledes. Forskellig needs a comparison between things.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-23",
+    "level": 5,
+    "ruleId": "wo-different",
+    "prompt": "De to undersøgelser kom frem til vidt ___ resultater.",
+    "options": [
+      "forskellige",
+      "andre"
+    ],
+    "answer": "forskellige",
+    "explanation": "\"Vidt forskellige\" = very different from each other.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-diff-24",
+    "level": 3,
+    "ruleId": "wo-different",
+    "prompt": "Der er ikke flere stole her. Du må hente en i det ___ rum.",
+    "options": [
+      "andet",
+      "anderledes",
+      "forskellige"
+    ],
+    "answer": "andet",
+    "explanation": "The other room = det andet rum (et-word).",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-01",
+    "level": 3,
+    "ruleId": "wo-even",
+    "prompt": "___ børn kan forstå reglerne i det spil.",
+    "options": [
+      "Selv",
+      "Endda",
+      "Endnu"
+    ],
+    "answer": "Selv",
+    "explanation": "Even + a noun at the start = selv in front of the noun.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-02",
+    "level": 3,
+    "ruleId": "wo-even",
+    "prompt": "Han var meget uhøflig og sagde ___ tak for hjælpen.",
+    "options": [
+      "ikke engang",
+      "endda",
+      "endnu"
+    ],
+    "answer": "ikke engang",
+    "explanation": "\"Not even\" = ikke engang.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-03",
+    "level": 3,
+    "ruleId": "wo-even",
+    "prompt": "Vores nye lejlighed er ___ større end den gamle.",
+    "options": [
+      "endnu",
+      "selv",
+      "ikke engang"
+    ],
+    "answer": "endnu",
+    "explanation": "Even + comparative = endnu.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-04",
+    "level": 3,
+    "ruleId": "wo-even",
+    "prompt": "Hun taler fem sprog. Hun taler ___ japansk.",
+    "options": [
+      "endda",
+      "ikke engang",
+      "uden så meget som"
+    ],
+    "answer": "endda",
+    "explanation": "A surprising addition in the adverb position = endda.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-05",
+    "level": 4,
+    "ruleId": "wo-even",
+    "prompt": "Han gik ___ at sige farvel.",
+    "options": [
+      "uden så meget som",
+      "ikke engang",
+      "endnu"
+    ],
+    "answer": "uden så meget som",
+    "explanation": "\"Without so much as\" + at + infinitive = uden så meget som at.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-06",
+    "level": 4,
+    "ruleId": "wo-even",
+    "prompt": "Det regnede hele dagen, og ___ var toget forsinket.",
+    "options": [
+      "ovenikøbet",
+      "selv",
+      "endnu"
+    ],
+    "answer": "ovenikøbet",
+    "explanation": "One more annoying point \"on top of that\" = ovenikøbet.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-07",
+    "level": 2,
+    "ruleId": "wo-even",
+    "prompt": "Det er koldt i dag, men i morgen bliver det ___ koldere.",
+    "options": [
+      "endnu",
+      "selv",
+      "endda"
+    ],
+    "answer": "endnu",
+    "explanation": "Even + comparative = endnu.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-08",
+    "level": 3,
+    "ruleId": "wo-even",
+    "prompt": "___ min chef var overrasket over resultatet.",
+    "options": [
+      "Selv",
+      "Endnu"
+    ],
+    "answer": "Selv",
+    "explanation": "Even + a person = selv in front of the noun.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-09",
+    "level": 3,
+    "ruleId": "wo-even",
+    "prompt": "Jeg var så træt, at jeg ___ kunne spise aftensmad.",
+    "options": [
+      "ikke engang",
+      "endda",
+      "endnu"
+    ],
+    "answer": "ikke engang",
+    "explanation": "So tired that I could not even eat = ikke engang.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-10",
+    "level": 4,
+    "ruleId": "wo-even",
+    "prompt": "Festen var en succes. Naboerne kom ___ og takkede bagefter.",
+    "options": [
+      "endda",
+      "endnu",
+      "ikke engang"
+    ],
+    "answer": "endda",
+    "explanation": "A surprising extra fact = endda.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-11",
+    "level": 2,
+    "ruleId": "wo-even",
+    "prompt": "Prøven var svær, men den sidste del var ___ sværere.",
+    "options": [
+      "endnu",
+      "selv",
+      "ovenikøbet"
+    ],
+    "answer": "endnu",
+    "explanation": "Even + comparative = endnu.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-12",
+    "level": 4,
+    "ruleId": "wo-even",
+    "prompt": "Han har mistet sit job, og ___ har hans kone forladt ham.",
+    "options": [
+      "ovenikøbet",
+      "selv",
+      "ikke engang"
+    ],
+    "answer": "ovenikøbet",
+    "explanation": "Another misfortune on top of the first = ovenikøbet.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-13",
+    "level": 3,
+    "ruleId": "wo-even",
+    "prompt": "Hun har så travlt, at hun ___ har tid til at drikke en kop kaffe om morgenen.",
+    "options": [
+      "ikke engang",
+      "endda",
+      "selv"
+    ],
+    "answer": "ikke engang",
+    "explanation": "\"Not even time for a coffee\" = ikke engang.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-14",
+    "level": 4,
+    "ruleId": "wo-even",
+    "prompt": "___ i januar bader han i havet hver morgen.",
+    "options": [
+      "Selv",
+      "Endda"
+    ],
+    "answer": "Selv",
+    "explanation": "Even + a time phrase in front of it = selv.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-15",
+    "level": 5,
+    "ruleId": "wo-even",
+    "prompt": "Han forlod mødet ___ at kigge på os.",
+    "options": [
+      "uden så meget som",
+      "ikke engang",
+      "selv"
+    ],
+    "answer": "uden så meget som",
+    "explanation": "\"Without so much as looking\" = uden så meget som at + infinitive.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-16",
+    "level": 4,
+    "ruleId": "wo-even",
+    "prompt": "Det nye job er godt betalt, og ___ ligger det tæt på mit hjem.",
+    "options": [
+      "ovenikøbet",
+      "selv",
+      "endnu"
+    ],
+    "answer": "ovenikøbet",
+    "explanation": "An extra point \"what's more\" = ovenikøbet.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-17",
+    "level": 3,
+    "ruleId": "wo-even",
+    "prompt": "Han har boet her i ti år, men han kender ___ navnet på sin nabo.",
+    "options": [
+      "ikke engang",
+      "endda",
+      "selv"
+    ],
+    "answer": "ikke engang",
+    "explanation": "After ten years he does not even know the name: ikke engang.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-18",
+    "level": 5,
+    "ruleId": "wo-even",
+    "prompt": "Han var så nervøs til jobsamtalen, at han ___ kunne huske sin egen adresse.",
+    "options": [
+      "ikke engang",
+      "endda",
+      "uden så meget som"
+    ],
+    "answer": "ikke engang",
+    "explanation": "So nervous that he could not even remember = ikke engang, before the verb in the subordinate clause.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-19",
+    "level": 4,
+    "ruleId": "wo-even",
+    "prompt": "Det var en fantastisk dag; vi så ___ en sæl på stranden.",
+    "options": [
+      "endda",
+      "ikke engang"
+    ],
+    "answer": "endda",
+    "explanation": "A surprising highlight = endda.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-20",
+    "level": 5,
+    "ruleId": "wo-even",
+    "prompt": "Benzin er dyrt i Danmark, men i Norge er det ___ dyrere.",
+    "options": [
+      "endnu",
+      "endda",
+      "selv"
+    ],
+    "answer": "endnu",
+    "explanation": "Even + comparative = endnu.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-21",
+    "level": 4,
+    "ruleId": "wo-even",
+    "prompt": "___ de bedste studerende havde svært ved den sidste opgave.",
+    "options": [
+      "Selv",
+      "Endnu"
+    ],
+    "answer": "Selv",
+    "explanation": "Even + noun phrase at the start = selv.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-22",
+    "level": 5,
+    "ruleId": "wo-even",
+    "prompt": "Hun lånte min bog og gav den tilbage ___ at sige tak.",
+    "options": [
+      "uden så meget som",
+      "ikke engang",
+      "selv"
+    ],
+    "answer": "uden så meget som",
+    "explanation": "\"Without so much as saying thanks\" = uden så meget som at + infinitive.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-23",
+    "level": 3,
+    "ruleId": "wo-even",
+    "prompt": "Han arbejder om aftenen og ___ i weekenden.",
+    "options": [
+      "endda",
+      "endnu",
+      "ikke engang"
+    ],
+    "answer": "endda",
+    "explanation": "A surprising addition \"even at weekends\" = endda.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-even-24",
+    "level": 3,
+    "ruleId": "wo-even",
+    "prompt": "Han er så genert, at han ___ tør sige hej til sine kolleger.",
+    "options": [
+      "ikke engang",
+      "endda",
+      "selv"
+    ],
+    "answer": "ikke engang",
+    "explanation": "So shy that he does not even dare = ikke engang, placed before the verb in the subordinate clause.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-01",
+    "level": 2,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Jeg er ___ kommet hjem fra arbejde.",
+    "options": [
+      "lige",
+      "bare"
+    ],
+    "answer": "lige",
+    "explanation": "\"Just now\" about time = lige.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-02",
+    "level": 2,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Det er ___ en lille forkølelse. Du bliver snart rask.",
+    "options": [
+      "bare",
+      "lige"
+    ],
+    "answer": "bare",
+    "explanation": "\"Merely, only\" = bare.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-03",
+    "level": 2,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Supermarkedet ligger ___ rundt om hjørnet.",
+    "options": [
+      "lige",
+      "bare"
+    ],
+    "answer": "lige",
+    "explanation": "\"Right\" round the corner, exact location = lige.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-04",
+    "level": 2,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Der er masser af kage, så tag ___ for jer!",
+    "options": [
+      "bare",
+      "lige"
+    ],
+    "answer": "bare",
+    "explanation": "\"Tag bare for jer\" = help yourselves, a permission: bare.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-05",
+    "level": 2,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Min søn er ___ så høj som mig nu.",
+    "options": [
+      "lige",
+      "bare"
+    ],
+    "answer": "lige",
+    "explanation": "\"Lige så ... som\" = just as ... as.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-06",
+    "level": 3,
+    "ruleId": "wo-lige-bare",
+    "prompt": "___ det snart var weekend!",
+    "options": [
+      "Bare",
+      "Lige"
+    ],
+    "answer": "Bare",
+    "explanation": "A wish = bare.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-07",
+    "level": 3,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Hun har ___ fået et nyt job på hospitalet, så hun kender ikke sine kolleger endnu.",
+    "options": [
+      "lige",
+      "bare"
+    ],
+    "answer": "lige",
+    "explanation": "Something that has just happened = lige. The clue is \"kender ikke ... endnu\".",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-08",
+    "level": 3,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Du skal ikke være nervøs. Det er ___ en samtale, ikke en eksamen.",
+    "options": [
+      "bare",
+      "lige"
+    ],
+    "answer": "bare",
+    "explanation": "\"Only a conversation, nothing more\" = bare.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-09",
+    "level": 3,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Bussen holder ___ uden for døren.",
+    "options": [
+      "lige",
+      "bare"
+    ],
+    "answer": "lige",
+    "explanation": "Exact place, \"right outside\" = lige.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-10",
+    "level": 2,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Hvis du har spørgsmål, så spørg ___ løs!",
+    "options": [
+      "bare",
+      "lige"
+    ],
+    "answer": "bare",
+    "explanation": "\"Spørg bare løs\" = go ahead and ask, a permission: bare.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-11",
+    "level": 3,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Vi kom ___ i tide til toget.",
+    "options": [
+      "lige",
+      "bare"
+    ],
+    "answer": "lige",
+    "explanation": "\"Lige i tide\" = just in time.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-12",
+    "level": 3,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Hun sagde det ___ for sjov.",
+    "options": [
+      "bare",
+      "lige"
+    ],
+    "answer": "bare",
+    "explanation": "\"Just for fun, nothing more\" = bare.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-13",
+    "level": 4,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Hvis jeg ___ havde vidst, at du var syg, ville jeg have besøgt dig.",
+    "options": [
+      "bare",
+      "lige"
+    ],
+    "answer": "bare",
+    "explanation": "\"Hvis bare\" = if only, a wish about the past.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-14",
+    "level": 3,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Huset ligger ___ ved siden af skolen.",
+    "options": [
+      "lige",
+      "bare"
+    ],
+    "answer": "lige",
+    "explanation": "\"Lige ved siden af\" = right next to.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-15",
+    "level": 4,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Han er ___ gået, så du kan nok nå at indhente ham.",
+    "options": [
+      "lige",
+      "bare"
+    ],
+    "answer": "lige",
+    "explanation": "He left a moment ago = lige.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-16",
+    "level": 4,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Det er ikke ___ et spørgsmål om penge, men også om tid.",
+    "options": [
+      "bare",
+      "lige"
+    ],
+    "answer": "bare",
+    "explanation": "The fixed pair \"ikke bare … men også\" = not only … but also. Lige is about time or exactness and doesn't fit with \"men også\".",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-17",
+    "level": 2,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Han bor ___ over for os.",
+    "options": [
+      "lige",
+      "bare"
+    ],
+    "answer": "lige",
+    "explanation": "Exact place, \"right opposite\" = lige over for.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-18",
+    "level": 4,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Min kæreste og jeg er ___ gamle; vi er begge født i 1995.",
+    "options": [
+      "lige",
+      "bare"
+    ],
+    "answer": "lige",
+    "explanation": "\"Lige gamle\" = exactly the same age.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-19",
+    "level": 3,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Jeg har ___ været i bad, så mit hår er stadig vådt.",
+    "options": [
+      "lige",
+      "bare"
+    ],
+    "answer": "lige",
+    "explanation": "Something that happened a moment ago = lige.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-20",
+    "level": 3,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Det er ikke noget alvorligt – han er ___ lidt træt.",
+    "options": [
+      "bare",
+      "lige"
+    ],
+    "answer": "bare",
+    "explanation": "\"Merely, nothing more\" = bare.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-21",
+    "level": 4,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Vi har ___ spist, så vi er ikke sultne.",
+    "options": [
+      "lige",
+      "bare"
+    ],
+    "answer": "lige",
+    "explanation": "We have just eaten (a moment ago) = lige.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-just-22",
+    "level": 5,
+    "ruleId": "wo-lige-bare",
+    "prompt": "Han vil ikke have hjælp; han vil ___ have lov til at klare det selv.",
+    "options": [
+      "bare",
+      "lige"
+    ],
+    "answer": "bare",
+    "explanation": "\"Simply, nothing more than\" = bare.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-01",
+    "level": 2,
+    "ruleId": "wo-bare-kun",
+    "prompt": "___ rolig, det skal nok gå.",
+    "options": [
+      "Bare",
+      "Kun"
+    ],
+    "answer": "Bare",
+    "explanation": "Reassurance = bare rolig.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-02",
+    "level": 2,
+    "ruleId": "wo-bare-kun",
+    "prompt": "Sæt dig ___ ned, mens jeg laver kaffe.",
+    "options": [
+      "bare",
+      "kun"
+    ],
+    "answer": "bare",
+    "explanation": "Permission or invitation = bare.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-03",
+    "level": 3,
+    "ruleId": "wo-bare-kun",
+    "prompt": "___ medlemmer må bruge fitnessrummet.",
+    "options": [
+      "Kun",
+      "Bare"
+    ],
+    "answer": "Kun",
+    "explanation": "A strict limit at the start of the sentence = kun.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-04",
+    "level": 3,
+    "ruleId": "wo-bare-kun",
+    "prompt": "Adgang ___ for personale.",
+    "options": [
+      "kun",
+      "bare"
+    ],
+    "answer": "kun",
+    "explanation": "Signs and rules use kun.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-05",
+    "level": 3,
+    "ruleId": "wo-bare-kun",
+    "prompt": "___ hvis du har en gyldig billet, må du komme ind.",
+    "options": [
+      "Kun",
+      "Bare"
+    ],
+    "answer": "Kun",
+    "explanation": "\"Kun hvis\" = only if, a strict condition.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-06",
+    "level": 3,
+    "ruleId": "wo-bare-kun",
+    "prompt": "Hvis ___ jeg havde lyttet til min mor!",
+    "options": [
+      "bare",
+      "kun"
+    ],
+    "answer": "bare",
+    "explanation": "\"Hvis bare\" = if only, a wish.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-07",
+    "level": 3,
+    "ruleId": "wo-bare-kun",
+    "prompt": "Der må ___ være fire personer i elevatoren ad gangen.",
+    "options": [
+      "kun",
+      "bare"
+    ],
+    "answer": "kun",
+    "explanation": "A rule with a maximum = kun. \"Må bare\" would mean \"may go ahead\".",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-08",
+    "level": 2,
+    "ruleId": "wo-bare-kun",
+    "prompt": "Spis ___ op, der er mere i gryden.",
+    "options": [
+      "bare",
+      "kun"
+    ],
+    "answer": "bare",
+    "explanation": "Encouragement = bare.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-09",
+    "level": 3,
+    "ruleId": "wo-bare-kun",
+    "prompt": "___ to elever bestod prøven i går.",
+    "options": [
+      "Kun",
+      "Bare"
+    ],
+    "answer": "Kun",
+    "explanation": "A limit at the start of a statement about the past = kun. \"Bare to elever...\" would sound like a wish.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-10",
+    "level": 3,
+    "ruleId": "wo-bare-kun",
+    "prompt": "___ det ikke regner i morgen!",
+    "options": [
+      "Bare",
+      "Kun"
+    ],
+    "answer": "Bare",
+    "explanation": "A wish = bare.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-11",
+    "level": 4,
+    "ruleId": "wo-bare-kun",
+    "prompt": "Billetten gælder ___ på den dato, der står på den.",
+    "options": [
+      "kun",
+      "bare"
+    ],
+    "answer": "kun",
+    "explanation": "A rule that limits the validity = kun.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-12",
+    "level": 3,
+    "ruleId": "wo-bare-kun",
+    "prompt": "Ring ___ til mig når som helst.",
+    "options": [
+      "bare",
+      "kun"
+    ],
+    "answer": "bare",
+    "explanation": "\"Just call me any time\" = an offer or encouragement: bare.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-13",
+    "level": 4,
+    "ruleId": "wo-bare-kun",
+    "prompt": "___ fordi du er chef, behøver du ikke råbe ad os.",
+    "options": [
+      "Bare",
+      "Kun"
+    ],
+    "answer": "Bare",
+    "explanation": "\"Just because\" = bare fordi.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-14",
+    "level": 4,
+    "ruleId": "wo-bare-kun",
+    "prompt": "Tilbuddet gælder ___ for nye kunder.",
+    "options": [
+      "kun",
+      "bare"
+    ],
+    "answer": "kun",
+    "explanation": "A restriction in an official offer = kun.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-15",
+    "level": 3,
+    "ruleId": "wo-bare-kun",
+    "prompt": "Kom ___ ind, døren er åben.",
+    "options": [
+      "bare",
+      "kun"
+    ],
+    "answer": "bare",
+    "explanation": "Invitation = bare.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-16",
+    "level": 4,
+    "ruleId": "wo-bare-kun",
+    "prompt": "___ i nødstilfælde må man bruge denne udgang.",
+    "options": [
+      "Kun",
+      "Bare"
+    ],
+    "answer": "Kun",
+    "explanation": "A rule at the start of the sentence = kun.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-17",
+    "level": 4,
+    "ruleId": "wo-bare-kun",
+    "prompt": "Man kan ikke ___ smide gamle batterier i skraldespanden.",
+    "options": [
+      "bare",
+      "kun"
+    ],
+    "answer": "bare",
+    "explanation": "\"Ikke bare\" = not simply, without thinking.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-18",
+    "level": 3,
+    "ruleId": "wo-bare-kun",
+    "prompt": "Parkering er ___ tilladt for beboere.",
+    "options": [
+      "kun",
+      "bare"
+    ],
+    "answer": "kun",
+    "explanation": "A restriction on a rule = kun.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-19",
+    "level": 5,
+    "ruleId": "wo-bare-kun",
+    "prompt": "___ ved at arbejde sammen kan vi løse klimaproblemerne.",
+    "options": [
+      "Kun",
+      "Bare"
+    ],
+    "answer": "Kun",
+    "explanation": "\"Only by ...\" at the start, followed by inversion = kun.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-20",
+    "level": 4,
+    "ruleId": "wo-bare-kun",
+    "prompt": "Hvis du vil have mere at drikke, så sig ___ til.",
+    "options": [
+      "bare",
+      "kun"
+    ],
+    "answer": "bare",
+    "explanation": "\"Sig bare til\" = just let me know, an offer.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-21",
+    "level": 5,
+    "ruleId": "wo-bare-kun",
+    "prompt": "Medicinen udleveres ___ mod recept.",
+    "options": [
+      "kun",
+      "bare"
+    ],
+    "answer": "kun",
+    "explanation": "An official restriction = kun.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-only-22",
+    "level": 4,
+    "ruleId": "wo-bare-kun",
+    "prompt": "___ jeg havde mere tid til mine børn!",
+    "options": [
+      "Bare",
+      "Kun"
+    ],
+    "answer": "Bare",
+    "explanation": "A wish = bare.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-01",
+    "level": 1,
+    "ruleId": "wo-long",
+    "prompt": "Vi har boet i Danmark ___.",
+    "options": [
+      "længe",
+      "langt",
+      "lang"
+    ],
+    "answer": "længe",
+    "explanation": "\"For a long time\" = længe.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-02",
+    "level": 1,
+    "ruleId": "wo-long",
+    "prompt": "Hun bor ___ fra skolen.",
+    "options": [
+      "langt",
+      "længe",
+      "lang"
+    ],
+    "answer": "langt",
+    "explanation": "Distance = langt.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-03",
+    "level": 1,
+    "ruleId": "wo-long",
+    "prompt": "Det var en ___ dag på arbejdet.",
+    "options": [
+      "lang",
+      "langt",
+      "lange",
+      "længe"
+    ],
+    "answer": "lang",
+    "explanation": "En dag is an en-word: en lang dag.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-04",
+    "level": 1,
+    "ruleId": "wo-long",
+    "prompt": "Min datter har ___ hår.",
+    "options": [
+      "langt",
+      "lang",
+      "lange",
+      "længe"
+    ],
+    "answer": "langt",
+    "explanation": "Hår is an et-word: langt hår.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-05",
+    "level": 2,
+    "ruleId": "wo-long",
+    "prompt": "Jeg elsker de ___ sommeraftener i Danmark.",
+    "options": [
+      "lange",
+      "lang",
+      "langt",
+      "længe"
+    ],
+    "answer": "lange",
+    "explanation": "After \"de\" (definite plural) the adjective ends in -e.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-06",
+    "level": 2,
+    "ruleId": "wo-long",
+    "prompt": "Hvor ___ har du lært dansk?",
+    "options": [
+      "længe",
+      "langt",
+      "lang"
+    ],
+    "answer": "længe",
+    "explanation": "\"How long (time)\" for an activity = hvor længe.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-07",
+    "level": 2,
+    "ruleId": "wo-long",
+    "prompt": "Hvor ___ er der til Aarhus?",
+    "options": [
+      "langt",
+      "længe",
+      "lang"
+    ],
+    "answer": "langt",
+    "explanation": "\"How far\" = hvor langt.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-08",
+    "level": 2,
+    "ruleId": "wo-long",
+    "prompt": "Han skrev et ___ brev til sin bedstemor.",
+    "options": [
+      "langt",
+      "lang",
+      "lange",
+      "længe"
+    ],
+    "answer": "langt",
+    "explanation": "Brev is an et-word: et langt brev.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-09",
+    "level": 2,
+    "ruleId": "wo-long",
+    "prompt": "Jeg har ventet ___ på bussen i dag.",
+    "options": [
+      "længe",
+      "langt",
+      "lang"
+    ],
+    "answer": "længe",
+    "explanation": "Waiting is about time = længe.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-10",
+    "level": 3,
+    "ruleId": "wo-long",
+    "prompt": "Toget er ___ hurtigere end bussen.",
+    "options": [
+      "langt",
+      "længe",
+      "lang"
+    ],
+    "answer": "langt",
+    "explanation": "Before a comparative, \"much\" = langt.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-11",
+    "level": 2,
+    "ruleId": "wo-long",
+    "prompt": "Vi gik en ___ tur langs stranden.",
+    "options": [
+      "lang",
+      "langt",
+      "lange",
+      "længe"
+    ],
+    "answer": "lang",
+    "explanation": "En tur is an en-word: en lang tur.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-12",
+    "level": 2,
+    "ruleId": "wo-long",
+    "prompt": "Kjolen er for ___; den skal lægges op.",
+    "options": [
+      "lang",
+      "langt",
+      "længe"
+    ],
+    "answer": "lang",
+    "explanation": "En kjole is an en-word: kjolen er for lang.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-13",
+    "level": 3,
+    "ruleId": "wo-long",
+    "prompt": "Hvor ___ er bordet? Kan det være i køkkenet?",
+    "options": [
+      "langt",
+      "lang",
+      "længe"
+    ],
+    "answer": "langt",
+    "explanation": "Bordet is an et-word, so the predicate adjective is langt.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-14",
+    "level": 3,
+    "ruleId": "wo-long",
+    "prompt": "Den ___ vinter var hård for de ældre.",
+    "options": [
+      "lange",
+      "lang",
+      "langt"
+    ],
+    "answer": "lange",
+    "explanation": "After \"den\" (definite) the adjective ends in -e.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-15",
+    "level": 3,
+    "ruleId": "wo-long",
+    "prompt": "Det er ___ siden, vi har set hinanden.",
+    "options": [
+      "længe",
+      "langt",
+      "lang"
+    ],
+    "answer": "længe",
+    "explanation": "\"It's been a long time\" = det er længe siden.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-16",
+    "level": 3,
+    "ruleId": "wo-long",
+    "prompt": "Vi kørte ___ ud på landet for at finde et roligt sted.",
+    "options": [
+      "langt",
+      "længe",
+      "lang"
+    ],
+    "answer": "langt",
+    "explanation": "Distance travelled = langt.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-17",
+    "level": 3,
+    "ruleId": "wo-long",
+    "prompt": "Hun har arbejdet her ___ nok til at kende alle.",
+    "options": [
+      "længe",
+      "langt",
+      "lang"
+    ],
+    "answer": "længe",
+    "explanation": "About time = længe nok.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-18",
+    "level": 3,
+    "ruleId": "wo-long",
+    "prompt": "Mine ben er trætte efter de ___ ture i bjergene.",
+    "options": [
+      "lange",
+      "lang",
+      "langt"
+    ],
+    "answer": "lange",
+    "explanation": "Plural after \"de\" = lange.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-19",
+    "level": 4,
+    "ruleId": "wo-long",
+    "prompt": "Projektet er ___ fra færdigt.",
+    "options": [
+      "langt",
+      "længe",
+      "lang"
+    ],
+    "answer": "langt",
+    "explanation": "\"Langt fra\" = far from (not at all).",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-20",
+    "level": 4,
+    "ruleId": "wo-long",
+    "prompt": "Det varer ikke ___, før børnene er voksne.",
+    "options": [
+      "længe",
+      "langt",
+      "lang"
+    ],
+    "answer": "længe",
+    "explanation": "\"It won't be long before\" = det varer ikke længe.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-21",
+    "level": 4,
+    "ruleId": "wo-long",
+    "prompt": "Det er ___ den bedste film, jeg har set i år.",
+    "options": [
+      "langt",
+      "længe",
+      "lang"
+    ],
+    "answer": "langt",
+    "explanation": "\"By far the best\" = langt den bedste.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-22",
+    "level": 3,
+    "ruleId": "wo-long",
+    "prompt": "Mødet blev meget ___, så vi kom sent hjem.",
+    "options": [
+      "langt",
+      "lang",
+      "længe"
+    ],
+    "answer": "langt",
+    "explanation": "Et møde is an et-word: mødet blev langt.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-23",
+    "level": 2,
+    "ruleId": "wo-long",
+    "prompt": "Han har ___ ben og løber meget hurtigt.",
+    "options": [
+      "lange",
+      "lang",
+      "langt"
+    ],
+    "answer": "lange",
+    "explanation": "Ben is plural here: lange ben.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-long-24",
+    "level": 4,
+    "ruleId": "wo-long",
+    "prompt": "Patienten blev ikke ___ på hospitalet.",
+    "options": [
+      "længe",
+      "langt",
+      "lang"
+    ],
+    "answer": "længe",
+    "explanation": "Staying for a long time = længe.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-01",
+    "level": 2,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Det tager ___ at lære dansk.",
+    "options": [
+      "lang tid",
+      "længe"
+    ],
+    "answer": "lang tid",
+    "explanation": "Tage needs an object, so you need the noun phrase lang tid.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-02",
+    "level": 2,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Vi har boet i Odense i ___.",
+    "options": [
+      "lang tid",
+      "længe"
+    ],
+    "answer": "lang tid",
+    "explanation": "After a preposition you need a noun phrase: i lang tid.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-03",
+    "level": 3,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Jeg har ___ drømt om at rejse til Island.",
+    "options": [
+      "længe",
+      "lang tid"
+    ],
+    "answer": "længe",
+    "explanation": "Between \"har\" and the participle only the adverb længe can stand.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-04",
+    "level": 3,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Du må gerne låne bilen, så ___ du kører forsigtigt.",
+    "options": [
+      "længe",
+      "lang tid"
+    ],
+    "answer": "længe",
+    "explanation": "\"Så længe\" = as long as, provided that.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-05",
+    "level": 2,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Jeg bruger ___ på mine lektier hver dag.",
+    "options": [
+      "lang tid",
+      "længe"
+    ],
+    "answer": "lang tid",
+    "explanation": "Bruge needs an object: bruge lang tid på.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-06",
+    "level": 3,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Langt om ___ kom bussen.",
+    "options": [
+      "længe",
+      "lang tid"
+    ],
+    "answer": "længe",
+    "explanation": "Fixed phrase: langt om længe = at long last.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-07",
+    "level": 2,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Jeg har ikke ___, for jeg skal hente mine børn klokken tre.",
+    "options": [
+      "lang tid",
+      "længe"
+    ],
+    "answer": "lang tid",
+    "explanation": "\"Have lang tid\" = have much time; have needs an object.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-08",
+    "level": 3,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Han har ___ ønsket sig en hund.",
+    "options": [
+      "længe",
+      "lang tid"
+    ],
+    "answer": "længe",
+    "explanation": "Adverb position between har and the participle: længe.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-09",
+    "level": 3,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Det er første gang i ___, at jeg har ferie i en hel måned.",
+    "options": [
+      "lang tid",
+      "længe"
+    ],
+    "answer": "lang tid",
+    "explanation": "After the preposition i: lang tid.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-10",
+    "level": 3,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Undskyld, det tog ___. Der var kø i supermarkedet.",
+    "options": [
+      "lang tid",
+      "længe"
+    ],
+    "answer": "lang tid",
+    "explanation": "Tage needs an object: det tog lang tid.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-11",
+    "level": 4,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Vi har ventet ___ nok. Nu går vi.",
+    "options": [
+      "længe",
+      "lang tid"
+    ],
+    "answer": "længe",
+    "explanation": "Fixed combination: længe nok.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-12",
+    "level": 3,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Det tog mig ___ at finde en lejlighed i København.",
+    "options": [
+      "lang tid",
+      "længe"
+    ],
+    "answer": "lang tid",
+    "explanation": "Tage needs an object: det tog lang tid.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-13",
+    "level": 4,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Den ___ ventede rapport blev endelig offentliggjort i går.",
+    "options": [
+      "længe",
+      "lang tid"
+    ],
+    "answer": "længe",
+    "explanation": "\"Længe ventet\" = long awaited, the adverb before a participle.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-14",
+    "level": 3,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Efter ___ på hospitalet kom hun endelig hjem.",
+    "options": [
+      "lang tid",
+      "længe"
+    ],
+    "answer": "lang tid",
+    "explanation": "After the preposition efter: lang tid.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-15",
+    "level": 4,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Hun har ___ været utilfreds med sin løn.",
+    "options": [
+      "længe",
+      "lang tid"
+    ],
+    "answer": "længe",
+    "explanation": "Adverb position between har and the participle: længe.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-16",
+    "level": 3,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Vi brugte ___ på at vælge en ny sofa.",
+    "options": [
+      "lang tid",
+      "længe"
+    ],
+    "answer": "lang tid",
+    "explanation": "Bruge needs an object: brugte lang tid på.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-17",
+    "level": 4,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "___ leve brudeparret!",
+    "options": [
+      "Længe",
+      "Lang tid"
+    ],
+    "answer": "Længe",
+    "explanation": "Fixed toast: længe leve ...",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-18",
+    "level": 4,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Så ___ jeg kan huske, har min far arbejdet på værftet.",
+    "options": [
+      "længe",
+      "lang tid"
+    ],
+    "answer": "længe",
+    "explanation": "Fixed phrase: så længe jeg kan huske = for as long as I can remember.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-19",
+    "level": 4,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Byggeriet kommer til at tage ___, fordi der mangler håndværkere.",
+    "options": [
+      "lang tid",
+      "længe"
+    ],
+    "answer": "lang tid",
+    "explanation": "Tage needs an object: lang tid.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-20",
+    "level": 5,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Kommunen har ___ planlagt en ny cykelsti langs havnen.",
+    "options": [
+      "længe",
+      "lang tid"
+    ],
+    "answer": "længe",
+    "explanation": "Adverb position between har and the participle: længe.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-21",
+    "level": 5,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Han gik arbejdsløs i ___, før han fik et nyt job.",
+    "options": [
+      "lang tid",
+      "længe"
+    ],
+    "answer": "lang tid",
+    "explanation": "After the preposition i: lang tid.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-22",
+    "level": 3,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Vi har god tid. Vi har ___ endnu, før filmen starter.",
+    "options": [
+      "lang tid",
+      "længe"
+    ],
+    "answer": "lang tid",
+    "explanation": "Have needs an object: vi har lang tid.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-23",
+    "level": 4,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Han har ___ været min bedste ven.",
+    "options": [
+      "længe",
+      "lang tid"
+    ],
+    "answer": "længe",
+    "explanation": "Adverb position between har and the participle: længe.",
+    "reviewed": false
+  },
+  {
+    "id": "wo-tid-24",
+    "level": 4,
+    "ruleId": "wo-laenge-lang-tid",
+    "prompt": "Så ___ du bor hos os, skal du hjælpe til med opvasken.",
+    "options": [
+      "længe",
+      "lang tid"
+    ],
+    "answer": "længe",
+    "explanation": "\"Så længe\" = as long as.",
+    "reviewed": false
+  }
+]

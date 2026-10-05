@@ -1,1 +1,2130 @@
-[]
+[
+  {
+    "id": "au-colour-01",
+    "level": 1,
+    "ruleId": "au-colours",
+    "prompt": "Vi bor i et ___ hus ved skoven.",
+    "options": [
+      "rød",
+      "rødt",
+      "røde"
+    ],
+    "answer": "rødt",
+    "explanation": "Hus is an et-word in the indefinite (et hus), so the colour takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-02",
+    "level": 1,
+    "ruleId": "au-colours",
+    "prompt": "Min søster har en ___ cykel.",
+    "options": [
+      "grøn",
+      "grønt",
+      "grønne"
+    ],
+    "answer": "grøn",
+    "explanation": "Cykel is an en-word in the indefinite (en cykel), so the colour has no ending.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-03",
+    "level": 1,
+    "ruleId": "au-colours",
+    "prompt": "Han købte to ___ skjorter til festen.",
+    "options": [
+      "hvid",
+      "hvidt",
+      "hvide"
+    ],
+    "answer": "hvide",
+    "explanation": "Skjorter is plural, so the adjective takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-04",
+    "level": 1,
+    "ruleId": "au-colours",
+    "prompt": "Den ___ bil holder ulovligt.",
+    "options": [
+      "sort",
+      "sorte"
+    ],
+    "answer": "sorte",
+    "explanation": "After den + adjective (definite form) the adjective takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-05",
+    "level": 1,
+    "ruleId": "au-colours",
+    "prompt": "Græsset er ___ efter regnen.",
+    "options": [
+      "grøn",
+      "grønt",
+      "grønne"
+    ],
+    "answer": "grønt",
+    "explanation": "Græsset is an et-word, so the adjective after er takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-06",
+    "level": 2,
+    "ruleId": "au-colours",
+    "prompt": "Hun har malet sit køkken ___.",
+    "options": [
+      "lilla",
+      "lillat",
+      "lillae"
+    ],
+    "answer": "lilla",
+    "explanation": "Lilla never changes – no -t and no -e, even with an et-word like køkken.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-07",
+    "level": 2,
+    "ruleId": "au-colours",
+    "prompt": "Vi har købt et ___ tæppe til stuen.",
+    "options": [
+      "beige",
+      "beiget"
+    ],
+    "answer": "beige",
+    "explanation": "Beige is a borrowed colour that never changes, so it gets no -t with the et-word tæppe.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-08",
+    "level": 2,
+    "ruleId": "au-colours",
+    "prompt": "Hun gik i ___ sko til brylluppet.",
+    "options": [
+      "pink",
+      "pinkt",
+      "pinke"
+    ],
+    "answer": "pink",
+    "explanation": "Pink never changes, so it has no -e even in the plural (sko).",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-09",
+    "level": 1,
+    "ruleId": "au-colours",
+    "prompt": "Kan du give mig den ___ kop derovre?",
+    "options": [
+      "blå",
+      "blåt"
+    ],
+    "answer": "blå",
+    "explanation": "Kop is an en-word in the definite form (den …); blå takes no -e, and -t is only for indefinite et-words.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-10",
+    "level": 2,
+    "ruleId": "au-colours",
+    "prompt": "Vores nye sofa er ___.",
+    "options": [
+      "grå",
+      "gråt"
+    ],
+    "answer": "grå",
+    "explanation": "Sofa is an en-word (en sofa), so grå has no -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-11",
+    "level": 2,
+    "ruleId": "au-colours",
+    "prompt": "Havet var ___ og roligt i morges.",
+    "options": [
+      "blå",
+      "blåt"
+    ],
+    "answer": "blåt",
+    "explanation": "Havet is an et-word, so blå takes -t after var – just like roligt.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-12",
+    "level": 2,
+    "ruleId": "au-colours",
+    "prompt": "Han har altid et ___ tørklæde om halsen.",
+    "options": [
+      "gul",
+      "gult",
+      "gule"
+    ],
+    "answer": "gult",
+    "explanation": "Tørklæde is an et-word in the indefinite (et tørklæde), so gul takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-13",
+    "level": 1,
+    "ruleId": "au-colours",
+    "prompt": "Mine ___ bukser er i vask.",
+    "options": [
+      "brun",
+      "brunt",
+      "brune"
+    ],
+    "answer": "brune",
+    "explanation": "After a possessive (mine) and in the plural the adjective takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-14",
+    "level": 2,
+    "ruleId": "au-colours",
+    "prompt": "Bladene bliver ___ om efteråret.",
+    "options": [
+      "gul",
+      "gult",
+      "gule"
+    ],
+    "answer": "gule",
+    "explanation": "Bladene is plural, so the adjective after bliver takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-15",
+    "level": 2,
+    "ruleId": "au-colours",
+    "prompt": "Vi har købt et ___ køleskab.",
+    "options": [
+      "sort",
+      "sortt",
+      "sorte"
+    ],
+    "answer": "sort",
+    "explanation": "Sort already ends in -t, so it gets no extra -t with the et-word køleskab.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-16",
+    "level": 3,
+    "ruleId": "au-colours",
+    "prompt": "Sengetøjet på hotellet var helt ___.",
+    "options": [
+      "hvid",
+      "hvidt",
+      "hvide"
+    ],
+    "answer": "hvidt",
+    "explanation": "Sengetøjet is an et-word (et sengetøj), so the adjective after var takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-17",
+    "level": 2,
+    "ruleId": "au-colours",
+    "prompt": "Det ___ hus på hjørnet er til salg.",
+    "options": [
+      "gul",
+      "gult",
+      "gule"
+    ],
+    "answer": "gule",
+    "explanation": "After det + adjective (definite form) the adjective takes -e – not -t, even though hus is an et-word.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-18",
+    "level": 3,
+    "ruleId": "au-colours",
+    "prompt": "Kan du huske Sofies ___ kjole fra festen?",
+    "options": [
+      "rød",
+      "rødt",
+      "røde"
+    ],
+    "answer": "røde",
+    "explanation": "After a genitive (Sofies) the adjective takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-19",
+    "level": 2,
+    "ruleId": "au-colours",
+    "prompt": "Vi har to ___ katte og en sort hund.",
+    "options": [
+      "grå",
+      "gråt"
+    ],
+    "answer": "grå",
+    "explanation": "Katte is plural; grå takes no -e, and -t is only for singular et-words.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-20",
+    "level": 3,
+    "ruleId": "au-colours",
+    "prompt": "Hun foretrækker ___ blomster frem for gule.",
+    "options": [
+      "lyserød",
+      "lyserødt",
+      "lyserøde"
+    ],
+    "answer": "lyserøde",
+    "explanation": "Blomster is plural, so the colour takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-21",
+    "level": 3,
+    "ruleId": "au-colours",
+    "prompt": "Firmaets nye logo er ___ og hvidt.",
+    "options": [
+      "orange",
+      "orangt",
+      "oranget"
+    ],
+    "answer": "orange",
+    "explanation": "Orange never changes, even when it describes an et-word like logo (compare hvidt).",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-22",
+    "level": 2,
+    "ruleId": "au-colours",
+    "prompt": "Om vinteren er himlen tit ___.",
+    "options": [
+      "grå",
+      "gråt"
+    ],
+    "answer": "grå",
+    "explanation": "Himlen is an en-word (en himmel), so grå has no -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-23",
+    "level": 3,
+    "ruleId": "au-colours",
+    "prompt": "Jeg vil gerne have det ___ glas, ikke det grønne.",
+    "options": [
+      "blå",
+      "blåt"
+    ],
+    "answer": "blå",
+    "explanation": "Det + adjective + noun is the definite form; blå takes no -e and no -t here.",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-24",
+    "level": 3,
+    "ruleId": "au-colours",
+    "prompt": "Til foråret maler vi huset ___.",
+    "options": [
+      "hvid",
+      "hvidt",
+      "hvide"
+    ],
+    "answer": "hvidt",
+    "explanation": "The colour describes huset (an et-word) as the result, so it takes -t, just like \"huset er hvidt\".",
+    "reviewed": false
+  },
+  {
+    "id": "au-colour-25",
+    "level": 3,
+    "ruleId": "au-colours",
+    "prompt": "Han kom hjem med et ___ øje efter kampen.",
+    "options": [
+      "blå",
+      "blåt"
+    ],
+    "answer": "blåt",
+    "explanation": "Øje is an et-word in the indefinite (et øje), so blå takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-01",
+    "level": 1,
+    "ruleId": "au-god",
+    "prompt": "Det er en ___ idé at tage cyklen.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "god",
+    "explanation": "Idé is an en-word (en idé), so the base form god is used.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-02",
+    "level": 1,
+    "ruleId": "au-god",
+    "prompt": "Hun gav mig et ___ råd.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "godt",
+    "explanation": "Råd is an et-word (et råd), so god takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-03",
+    "level": 1,
+    "ruleId": "au-god",
+    "prompt": "Vi har mange ___ venner i byen.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "gode",
+    "explanation": "Venner is plural, so the adjective takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-04",
+    "level": 1,
+    "ruleId": "au-god",
+    "prompt": "Hvordan har du det? – Tak, jeg har det ___.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "godt",
+    "explanation": "\"Have det godt\" uses the adverb godt.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-05",
+    "level": 1,
+    "ruleId": "au-god",
+    "prompt": "Maden på den nye restaurant er virkelig ___.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "god",
+    "explanation": "Maden is an en-word (en mad), so the adjective after er is god.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-06",
+    "level": 1,
+    "ruleId": "au-god",
+    "prompt": "Vejret var ___ hele weekenden.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "godt",
+    "explanation": "Vejret is an et-word (et vejr), so the adjective after var takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-07",
+    "level": 2,
+    "ruleId": "au-god",
+    "prompt": "Han spiller guitar rigtig ___.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "godt",
+    "explanation": "The word describes how he plays, so use the adverb godt.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-08",
+    "level": 2,
+    "ruleId": "au-god",
+    "prompt": "Min datter er meget ___ til matematik.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "god",
+    "explanation": "Datter is an en-word (en datter), so \"god til\" keeps the base form.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-09",
+    "level": 2,
+    "ruleId": "au-god",
+    "prompt": "Børnene er ___ til at hjælpe hinanden.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "gode",
+    "explanation": "Børnene is plural, so the adjective after er takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-10",
+    "level": 2,
+    "ruleId": "au-god",
+    "prompt": "Jeg kan ___ lide at gå en tur om morgenen.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "godt",
+    "explanation": "\"Kan godt lide\" is a fixed expression with the adverb godt.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-11",
+    "level": 2,
+    "ruleId": "au-god",
+    "prompt": "Det er ___, at du er kommet hjem.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "godt",
+    "explanation": "With det as subject (det er … at) the adjective takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-12",
+    "level": 2,
+    "ruleId": "au-god",
+    "prompt": "Vi ønsker jer alle en ___ jul.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "god",
+    "explanation": "Jul is an en-word (en jul), so god has no ending.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-13",
+    "level": 2,
+    "ruleId": "au-god",
+    "prompt": "___ nytår, og tak for det gamle!",
+    "options": [
+      "God",
+      "Godt",
+      "Gode"
+    ],
+    "answer": "Godt",
+    "explanation": "Nytår is an et-word (et nytår), so the greeting is \"godt nytår\".",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-14",
+    "level": 2,
+    "ruleId": "au-god",
+    "prompt": "De ___ tider er forbi, siger min far.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "gode",
+    "explanation": "After de + adjective (definite plural) the adjective takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-15",
+    "level": 3,
+    "ruleId": "au-god",
+    "prompt": "Hun har fået et ___ job i kommunen.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "godt",
+    "explanation": "Job is an et-word (et job), so god takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-16",
+    "level": 3,
+    "ruleId": "au-god",
+    "prompt": "Hans karakterer er blevet meget ___ i år.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "gode",
+    "explanation": "Karakterer is plural, so the adjective after er blevet takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-17",
+    "level": 3,
+    "ruleId": "au-god",
+    "prompt": "Den nye medicin virker ___ mod hovedpine.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "godt",
+    "explanation": "It describes how the medicine works (virker), so use the adverb godt.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-18",
+    "level": 3,
+    "ruleId": "au-god",
+    "prompt": "Vores ___ naboer passer katten, når vi er væk.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "gode",
+    "explanation": "After a possessive (vores) the adjective takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-19",
+    "level": 3,
+    "ruleId": "au-god",
+    "prompt": "Det var ikke nogen ___ oplevelse at stå i kø i tre timer.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "god",
+    "explanation": "Oplevelse is an en-word (nogen … oplevelse), so god has no ending.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-20",
+    "level": 3,
+    "ruleId": "au-god",
+    "prompt": "Hvis man sover ___, kan man bedre koncentrere sig.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "godt",
+    "explanation": "It describes how you sleep, so use the adverb godt.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-21",
+    "level": 2,
+    "ruleId": "au-god",
+    "prompt": "Kaffen dufter ___.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "godt",
+    "explanation": "After dufte (smell) Danish uses the adverb godt, even though kaffen is an en-word.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-22",
+    "level": 3,
+    "ruleId": "au-god",
+    "prompt": "Lønnen er ikke særlig ___, men arbejdet er spændende.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "god",
+    "explanation": "Lønnen is an en-word (en løn), so the adjective after er is god.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-23",
+    "level": 3,
+    "ruleId": "au-god",
+    "prompt": "Jeg forstår ___, hvorfor du er vred.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "godt",
+    "explanation": "Godt here is an adverb with forstår (\"I do understand\"), not an adjective.",
+    "reviewed": false
+  },
+  {
+    "id": "au-god-24",
+    "level": 3,
+    "ruleId": "au-god",
+    "prompt": "Det ___ ved at bo på landet er roen.",
+    "options": [
+      "god",
+      "godt",
+      "gode"
+    ],
+    "answer": "gode",
+    "explanation": "\"Det gode\" (the good thing) is the definite form after det, so it takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-01",
+    "level": 2,
+    "ruleId": "au-regular",
+    "prompt": "Huset er for ___ til os to.",
+    "options": [
+      "stor",
+      "stort",
+      "store"
+    ],
+    "answer": "stort",
+    "explanation": "Huset is an et-word, so the adjective after er takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-02",
+    "level": 2,
+    "ruleId": "au-regular",
+    "prompt": "Lejligheden er lys og ___.",
+    "options": [
+      "varm",
+      "varmt",
+      "varme"
+    ],
+    "answer": "varm",
+    "explanation": "Lejligheden is an en-word (en lejlighed), so varm has no ending.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-03",
+    "level": 2,
+    "ruleId": "au-regular",
+    "prompt": "Tomaterne er meget ___ i år.",
+    "options": [
+      "billig",
+      "billigt",
+      "billige"
+    ],
+    "answer": "billige",
+    "explanation": "Tomaterne is plural, so the adjective after er takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-04",
+    "level": 2,
+    "ruleId": "au-regular",
+    "prompt": "Vi har et ___ køkken med plads til et stort bord.",
+    "options": [
+      "lys",
+      "lyst",
+      "lyse"
+    ],
+    "answer": "lyst",
+    "explanation": "Køkken is an et-word in the indefinite (et køkken), so lys takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-05",
+    "level": 2,
+    "ruleId": "au-regular",
+    "prompt": "Mit ___ værelse vender ud mod gården.",
+    "options": [
+      "stor",
+      "stort",
+      "store"
+    ],
+    "answer": "store",
+    "explanation": "After a possessive (mit) the adjective takes -e, even with an et-word.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-06",
+    "level": 2,
+    "ruleId": "au-regular",
+    "prompt": "Dette ___ tæppe er lavet i hånden.",
+    "options": [
+      "dyr",
+      "dyrt",
+      "dyre"
+    ],
+    "answer": "dyre",
+    "explanation": "After dette the adjective takes -e – not -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-07",
+    "level": 2,
+    "ruleId": "au-regular",
+    "prompt": "Disse ___ sko har jeg købt i Italien.",
+    "options": [
+      "pæn",
+      "pænt",
+      "pæne"
+    ],
+    "answer": "pæne",
+    "explanation": "After disse (and in the plural) the adjective takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-08",
+    "level": 2,
+    "ruleId": "au-regular",
+    "prompt": "Den ___ vinter gjorde vejene glatte.",
+    "options": [
+      "kold",
+      "koldt",
+      "kolde"
+    ],
+    "answer": "kolde",
+    "explanation": "After den + adjective (definite form) the adjective takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-09",
+    "level": 3,
+    "ruleId": "au-regular",
+    "prompt": "Det er ___ at bo midt i byen.",
+    "options": [
+      "dyr",
+      "dyrt",
+      "dyre"
+    ],
+    "answer": "dyrt",
+    "explanation": "In \"det er … at\" the adjective takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-10",
+    "level": 3,
+    "ruleId": "au-regular",
+    "prompt": "Annas ___ forslag blev vedtaget på mødet.",
+    "options": [
+      "klog",
+      "klogt",
+      "kloge"
+    ],
+    "answer": "kloge",
+    "explanation": "After a genitive (Annas) the adjective takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-11",
+    "level": 3,
+    "ruleId": "au-regular",
+    "prompt": "Vandet i søen er stadig for ___ til at bade i.",
+    "options": [
+      "kold",
+      "koldt",
+      "kolde"
+    ],
+    "answer": "koldt",
+    "explanation": "Vandet is an et-word, so the adjective after er takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-12",
+    "level": 2,
+    "ruleId": "au-regular",
+    "prompt": "Eleverne var ___ efter den lange tur.",
+    "options": [
+      "varm",
+      "varmt",
+      "varme"
+    ],
+    "answer": "varme",
+    "explanation": "Eleverne is plural, so the adjective after var takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-13",
+    "level": 3,
+    "ruleId": "au-regular",
+    "prompt": "Vi bor i et ___ kvarter tæt på skolen.",
+    "options": [
+      "rolig",
+      "roligt",
+      "rolige"
+    ],
+    "answer": "roligt",
+    "explanation": "Kvarter is an et-word in the indefinite (et kvarter), so rolig takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-14",
+    "level": 3,
+    "ruleId": "au-regular",
+    "prompt": "Vores ___ nabo har lige fået en hund.",
+    "options": [
+      "sød",
+      "sødt",
+      "søde"
+    ],
+    "answer": "søde",
+    "explanation": "After a possessive (vores) the adjective takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-15",
+    "level": 3,
+    "ruleId": "au-regular",
+    "prompt": "Opgaven var ___, men vi klarede den.",
+    "options": [
+      "svær",
+      "svært",
+      "svære"
+    ],
+    "answer": "svær",
+    "explanation": "Opgaven is an en-word (en opgave), so svær has no ending.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-16",
+    "level": 3,
+    "ruleId": "au-regular",
+    "prompt": "Det ___ tog kører kl. 7.15.",
+    "options": [
+      "hurtig",
+      "hurtigt",
+      "hurtige"
+    ],
+    "answer": "hurtige",
+    "explanation": "After det + adjective (definite form) the adjective takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-17",
+    "level": 3,
+    "ruleId": "au-regular",
+    "prompt": "Prisen på strøm er blevet meget ___.",
+    "options": [
+      "høj",
+      "højt",
+      "høje"
+    ],
+    "answer": "høj",
+    "explanation": "Prisen is an en-word (en pris), so høj has no ending.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-18",
+    "level": 3,
+    "ruleId": "au-regular",
+    "prompt": "Børnenes ___ tegninger hænger på køleskabet.",
+    "options": [
+      "fin",
+      "fint",
+      "fine"
+    ],
+    "answer": "fine",
+    "explanation": "After a genitive (børnenes) and in the plural the adjective takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-19",
+    "level": 3,
+    "ruleId": "au-regular",
+    "prompt": "Vinduerne i det gamle hus er ___ og utætte.",
+    "options": [
+      "tynd",
+      "tyndt",
+      "tynde"
+    ],
+    "answer": "tynde",
+    "explanation": "Vinduerne is plural, so the adjective after er takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-20",
+    "level": 4,
+    "ruleId": "au-regular",
+    "prompt": "Det her ___ bord har min farfar lavet.",
+    "options": [
+      "rund",
+      "rundt",
+      "runde"
+    ],
+    "answer": "runde",
+    "explanation": "\"Det her\" + noun is definite, so the adjective takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-21",
+    "level": 4,
+    "ruleId": "au-regular",
+    "prompt": "Arbejdet på lageret er ___ for ryggen.",
+    "options": [
+      "hård",
+      "hårdt",
+      "hårde"
+    ],
+    "answer": "hårdt",
+    "explanation": "Arbejdet is an et-word, so the adjective after er takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-22",
+    "level": 4,
+    "ruleId": "au-regular",
+    "prompt": "Hun synes, at reglerne er alt for ___.",
+    "options": [
+      "streng",
+      "strengt",
+      "strenge"
+    ],
+    "answer": "strenge",
+    "explanation": "Reglerne is plural, so the adjective after er takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-23",
+    "level": 3,
+    "ruleId": "au-regular",
+    "prompt": "Vi købte et ___ bord til haven.",
+    "options": [
+      "rund",
+      "rundt",
+      "runde"
+    ],
+    "answer": "rundt",
+    "explanation": "Bord is an et-word in the indefinite (et bord), so rund takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-reg-24",
+    "level": 4,
+    "ruleId": "au-regular",
+    "prompt": "Skolens ___ gymnastiksal bliver renoveret til sommer.",
+    "options": [
+      "stor",
+      "stort",
+      "store"
+    ],
+    "answer": "store",
+    "explanation": "After a genitive (skolens) the adjective takes -e.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-01",
+    "level": 3,
+    "ruleId": "au-irregular",
+    "prompt": "Hun har fået et ___ pas.",
+    "options": [
+      "dansk",
+      "danskt",
+      "danske"
+    ],
+    "answer": "dansk",
+    "explanation": "Adjectives ending in -sk take no -t: et dansk pas.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-02",
+    "level": 3,
+    "ruleId": "au-irregular",
+    "prompt": "Det er et meget ___ køkken med masser af skabe.",
+    "options": [
+      "praktisk",
+      "praktiskt",
+      "praktiske"
+    ],
+    "answer": "praktisk",
+    "explanation": "Praktisk ends in -sk, so it takes no -t with the et-word køkken.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-03",
+    "level": 3,
+    "ruleId": "au-irregular",
+    "prompt": "Vi har et ___ møde kl. 10.",
+    "options": [
+      "vigtig",
+      "vigtigt",
+      "vigtige"
+    ],
+    "answer": "vigtigt",
+    "explanation": "Adjectives ending in -ig do take -t with et-words: et vigtigt møde.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-04",
+    "level": 3,
+    "ruleId": "au-irregular",
+    "prompt": "Spørgsmålet var ___, så alle kunne svare.",
+    "options": [
+      "let",
+      "lett",
+      "lette"
+    ],
+    "answer": "let",
+    "explanation": "Let already ends in -t, so it gets no extra -t with the et-word spørgsmålet.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-05",
+    "level": 3,
+    "ruleId": "au-irregular",
+    "prompt": "Opgaverne i dag var meget ___.",
+    "options": [
+      "let",
+      "lett",
+      "lette"
+    ],
+    "answer": "lette",
+    "explanation": "Opgaverne is plural: let takes -e and doubles the t (lette).",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-06",
+    "level": 3,
+    "ruleId": "au-irregular",
+    "prompt": "Vi har lige købt et ___ fjernsyn.",
+    "options": [
+      "ny",
+      "nyt",
+      "nye"
+    ],
+    "answer": "nyt",
+    "explanation": "Fjernsyn is an et-word in the indefinite (et fjernsyn), so ny becomes nyt.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-07",
+    "level": 3,
+    "ruleId": "au-irregular",
+    "prompt": "De ___ medarbejdere starter på mandag.",
+    "options": [
+      "ny",
+      "nyt",
+      "nye"
+    ],
+    "answer": "nye",
+    "explanation": "After de + adjective (definite plural) ny becomes nye.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-08",
+    "level": 3,
+    "ruleId": "au-irregular",
+    "prompt": "Der leger nogle ___ børn i parken.",
+    "options": [
+      "lille",
+      "lilles",
+      "små"
+    ],
+    "answer": "små",
+    "explanation": "Lille has the special plural små: små børn.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-09",
+    "level": 3,
+    "ruleId": "au-irregular",
+    "prompt": "Hun bor i et ___ hus på landet.",
+    "options": [
+      "lille",
+      "lilt",
+      "små"
+    ],
+    "answer": "lille",
+    "explanation": "Lille never takes -t; it stays lille in the singular, also with et-words.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-10",
+    "level": 3,
+    "ruleId": "au-irregular",
+    "prompt": "Min bedstefar har en ___ bil, der stadig kører.",
+    "options": [
+      "gammel",
+      "gammelt",
+      "gamle"
+    ],
+    "answer": "gammel",
+    "explanation": "Bil is an en-word in the indefinite (en bil), so gammel has no ending.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-11",
+    "level": 3,
+    "ruleId": "au-irregular",
+    "prompt": "Mange ___ mennesker bor alene.",
+    "options": [
+      "gammel",
+      "gammele",
+      "gamle"
+    ],
+    "answer": "gamle",
+    "explanation": "In the plural gammel loses its e before the ending: gamle, not \"gammele\".",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-12",
+    "level": 3,
+    "ruleId": "au-irregular",
+    "prompt": "Det er ___ at cykle uden lys.",
+    "options": [
+      "farlig",
+      "farligt",
+      "farlige"
+    ],
+    "answer": "farligt",
+    "explanation": "In \"det er … at\" the adjective takes -t, and -ig adjectives do take -t: farligt.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-13",
+    "level": 4,
+    "ruleId": "au-irregular",
+    "prompt": "Er du helt ___ på, at døren er låst?",
+    "options": [
+      "sikker",
+      "sikkert",
+      "sikre"
+    ],
+    "answer": "sikker",
+    "explanation": "Du is one person (singular, common gender), so sikker keeps its base form.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-14",
+    "level": 4,
+    "ruleId": "au-irregular",
+    "prompt": "Vi er ___ på, at projektet bliver en succes.",
+    "options": [
+      "sikker",
+      "sikkert",
+      "sikre"
+    ],
+    "answer": "sikre",
+    "explanation": "Vi is plural, so sikker takes -e and loses its e: sikre.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-15",
+    "level": 4,
+    "ruleId": "au-irregular",
+    "prompt": "Alle vinduerne stod ___ hele natten.",
+    "options": [
+      "åben",
+      "åbent",
+      "åbne"
+    ],
+    "answer": "åbne",
+    "explanation": "Vinduerne is plural, so åben takes -e and loses its e: åbne.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-16",
+    "level": 3,
+    "ruleId": "au-irregular",
+    "prompt": "Min lillebror synes, at de nye trøjer er ___.",
+    "options": [
+      "grim",
+      "grimt",
+      "grimme"
+    ],
+    "answer": "grimme",
+    "explanation": "Trøjer is plural: grim takes -e and doubles the m (grimme).",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-17",
+    "level": 4,
+    "ruleId": "au-irregular",
+    "prompt": "Det var nogle ___ dage ved stranden.",
+    "options": [
+      "smuk",
+      "smukt",
+      "smukke"
+    ],
+    "answer": "smukke",
+    "explanation": "Dage is plural: smuk takes -e and doubles the k (smukke).",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-18",
+    "level": 4,
+    "ruleId": "au-irregular",
+    "prompt": "Danmark er et ___ land med ytringsfrihed.",
+    "options": [
+      "fri",
+      "frit",
+      "frie"
+    ],
+    "answer": "frit",
+    "explanation": "Land is an et-word in the indefinite (et land), so fri becomes frit.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-19",
+    "level": 4,
+    "ruleId": "au-irregular",
+    "prompt": "I Danmark har vi ___ og hemmelige valg.",
+    "options": [
+      "fri",
+      "frit",
+      "frie"
+    ],
+    "answer": "frie",
+    "explanation": "Valg is plural here (like hemmelige), so fri becomes frie.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-20",
+    "level": 4,
+    "ruleId": "au-irregular",
+    "prompt": "Vi har et ___ køkken med opvaskemaskine.",
+    "options": [
+      "moderne",
+      "modernt",
+      "modernet"
+    ],
+    "answer": "moderne",
+    "explanation": "Adjectives ending in -e, like moderne, never change.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-21",
+    "level": 3,
+    "ruleId": "au-irregular",
+    "prompt": "Barnet var meget ___ efter turen.",
+    "options": [
+      "træt",
+      "trætt",
+      "trætte"
+    ],
+    "answer": "træt",
+    "explanation": "Træt already ends in -t, so it gets no extra -t, even with the et-word barnet.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-22",
+    "level": 4,
+    "ruleId": "au-irregular",
+    "prompt": "Efter en lang uge er vi alle sammen ___.",
+    "options": [
+      "træt",
+      "trætt",
+      "trætte"
+    ],
+    "answer": "trætte",
+    "explanation": "Vi is plural, so træt takes -e and doubles the t: trætte.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-23",
+    "level": 4,
+    "ruleId": "au-irregular",
+    "prompt": "Hun har kun et ___ ophold i Danmark.",
+    "options": [
+      "kort",
+      "kortt",
+      "korte"
+    ],
+    "answer": "kort",
+    "explanation": "Kort already ends in -t, so it gets no extra -t with the et-word ophold.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-24",
+    "level": 4,
+    "ruleId": "au-irregular",
+    "prompt": "Det er et ___ eksempel på dansk arkitektur.",
+    "options": [
+      "typisk",
+      "typiskt",
+      "typiske"
+    ],
+    "answer": "typisk",
+    "explanation": "Typisk ends in -sk, so it takes no -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-25",
+    "level": 5,
+    "ruleId": "au-irregular",
+    "prompt": "Instruktionerne var heldigvis meget ___.",
+    "options": [
+      "enkel",
+      "enkelt",
+      "enkle"
+    ],
+    "answer": "enkle",
+    "explanation": "Instruktionerne is plural: enkel takes -e and loses its e (enkle).",
+    "reviewed": false
+  },
+  {
+    "id": "au-irr-26",
+    "level": 5,
+    "ruleId": "au-irregular",
+    "prompt": "Det er svært at lære et ___ sprog som voksen.",
+    "options": [
+      "fremmed",
+      "fremmedt",
+      "fremmede"
+    ],
+    "answer": "fremmed",
+    "explanation": "Fremmed gets no -t in the neuter: et fremmed sprog.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-01",
+    "level": 3,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Jeg har arbejdet ___ dagen.",
+    "options": [
+      "al",
+      "hele"
+    ],
+    "answer": "hele",
+    "explanation": "Dag is countable, so \"the whole day\" is hele dagen – al is only for uncountables.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-02",
+    "level": 3,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Hvem har spist ___ maden?",
+    "options": [
+      "al",
+      "alt"
+    ],
+    "answer": "al",
+    "explanation": "Mad is uncountable and an en-word (en mad), so use al.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-03",
+    "level": 3,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Børnene har drukket ___ vandet.",
+    "options": [
+      "al",
+      "alt"
+    ],
+    "answer": "alt",
+    "explanation": "Vand is uncountable and an et-word (et vand), so use alt.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-04",
+    "level": 3,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Vi boede i Spanien et ___ år.",
+    "options": [
+      "hel",
+      "helt",
+      "hele"
+    ],
+    "answer": "helt",
+    "explanation": "År is a countable et-word in the indefinite (et år), so hel takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-05",
+    "level": 3,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Hun læste en ___ bog på én aften.",
+    "options": [
+      "hel",
+      "helt",
+      "hele"
+    ],
+    "answer": "hel",
+    "explanation": "Bog is a countable en-word in the indefinite (en bog), so hel has no ending.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-06",
+    "level": 3,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "___ familien samles til jul.",
+    "options": [
+      "Al",
+      "Hele"
+    ],
+    "answer": "Hele",
+    "explanation": "A family is countable, so \"the whole family\" is hele familien.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-07",
+    "level": 3,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Computeren er ___ ny.",
+    "options": [
+      "al",
+      "alt",
+      "helt"
+    ],
+    "answer": "helt",
+    "explanation": "Before an adjective, helt is the adverb \"completely\".",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-08",
+    "level": 3,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Jeg har glemt ___ om mødet.",
+    "options": [
+      "alt",
+      "helt"
+    ],
+    "answer": "alt",
+    "explanation": "On its own, alt means \"everything\": glemt alt om = forgot all about.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-09",
+    "level": 3,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "___ sneen smeltede på én dag.",
+    "options": [
+      "Al",
+      "Alt"
+    ],
+    "answer": "Al",
+    "explanation": "Sne is uncountable and an en-word (en sne), so use al.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-10",
+    "level": 4,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Har du lavet ___ arbejdet alene?",
+    "options": [
+      "al",
+      "alt"
+    ],
+    "answer": "alt",
+    "explanation": "Arbejde is uncountable here and an et-word (et arbejde), so use alt.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-11",
+    "level": 4,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Han har boet i Aarhus ___ sit liv.",
+    "options": [
+      "al",
+      "alt",
+      "hele"
+    ],
+    "answer": "hele",
+    "explanation": "Liv is countable (one life), so \"all his life\" is hele sit liv.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-12",
+    "level": 4,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Vi er ikke ___ færdige med projektet endnu.",
+    "options": [
+      "alt",
+      "helt",
+      "hele"
+    ],
+    "answer": "helt",
+    "explanation": "Before an adjective (færdige), helt means \"completely\".",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-13",
+    "level": 3,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Det regnede ___ natten.",
+    "options": [
+      "al",
+      "hele"
+    ],
+    "answer": "hele",
+    "explanation": "Nat is countable, so \"all night\" is hele natten.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-14",
+    "level": 4,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Hun har brugt ___ sin fritid på at træne.",
+    "options": [
+      "al",
+      "alt"
+    ],
+    "answer": "al",
+    "explanation": "Fritid is uncountable and an en-word (en fritid), so use al.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-15",
+    "level": 4,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Er ___ kaffen allerede væk?",
+    "options": [
+      "al",
+      "alt"
+    ],
+    "answer": "al",
+    "explanation": "Kaffe is uncountable and an en-word (en kaffe), so use al.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-16",
+    "level": 4,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Jeg er ___ enig med dig.",
+    "options": [
+      "al",
+      "alt",
+      "helt"
+    ],
+    "answer": "helt",
+    "explanation": "Before an adjective (enig), helt means \"completely\".",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-17",
+    "level": 4,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Der var en ___ masse mennesker til koncerten.",
+    "options": [
+      "hel",
+      "helt",
+      "hele"
+    ],
+    "answer": "hel",
+    "explanation": "\"En hel masse\" (a whole lot): masse is an en-word in the indefinite, so hel has no ending.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-18",
+    "level": 4,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Hun ryddede op i ___ huset.",
+    "options": [
+      "alt",
+      "hele"
+    ],
+    "answer": "hele",
+    "explanation": "Hus is countable, so \"the whole house\" is hele huset.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-19",
+    "level": 4,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "___ er blevet dyrere end sidste år.",
+    "options": [
+      "Alt",
+      "Helt"
+    ],
+    "answer": "Alt",
+    "explanation": "On its own, alt means \"everything\" and can be the subject; helt is an adverb.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-20",
+    "level": 4,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Vi har fået ___ den hjælp, vi havde brug for.",
+    "options": [
+      "al",
+      "alt"
+    ],
+    "answer": "al",
+    "explanation": "Hjælp is uncountable and an en-word (en hjælp), so use al.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-21",
+    "level": 4,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Han har sovet et ___ døgn.",
+    "options": [
+      "hel",
+      "helt",
+      "hele"
+    ],
+    "answer": "helt",
+    "explanation": "Døgn is a countable et-word in the indefinite (et døgn), so hel takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-22",
+    "level": 4,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Tak for ___ det gode i år.",
+    "options": [
+      "al",
+      "alt"
+    ],
+    "answer": "alt",
+    "explanation": "\"Det gode\" is neuter (det), so use alt: alt det gode.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-23",
+    "level": 5,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Jeg er ___ overbevist om, at hun har ret.",
+    "options": [
+      "alt",
+      "helt"
+    ],
+    "answer": "helt",
+    "explanation": "Before an adjective (overbevist), helt means \"completely\".",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-24",
+    "level": 5,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Hun har tænkt på eksamen ___ ugen.",
+    "options": [
+      "al",
+      "hele"
+    ],
+    "answer": "hele",
+    "explanation": "Uge is countable, so \"all week\" is hele ugen.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-25",
+    "level": 5,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Han har ___ tiden travlt på arbejdet.",
+    "options": [
+      "al",
+      "hele"
+    ],
+    "answer": "hele",
+    "explanation": "The fixed expression for \"all the time\" is hele tiden.",
+    "reviewed": false
+  },
+  {
+    "id": "au-sing-26",
+    "level": 3,
+    "ruleId": "au-al-hel-singular",
+    "prompt": "Vi har spist en ___ kage.",
+    "options": [
+      "hel",
+      "helt",
+      "hele"
+    ],
+    "answer": "hel",
+    "explanation": "Kage is a countable en-word in the indefinite (en kage), so hel has no ending.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-01",
+    "level": 3,
+    "ruleId": "au-al-hel-all",
+    "prompt": "___ eleverne bestod eksamen.",
+    "options": [
+      "Al",
+      "Alt",
+      "Alle",
+      "Hel",
+      "Helt",
+      "Hele"
+    ],
+    "answer": "Alle",
+    "explanation": "Eleverne is a countable plural, so use alle; hele cannot mean \"all\" with a plural like this.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-02",
+    "level": 3,
+    "ruleId": "au-al-hel-all",
+    "prompt": "___ klassen tog på tur til Bornholm.",
+    "options": [
+      "Al",
+      "Alt",
+      "Alle",
+      "Hel",
+      "Helt",
+      "Hele"
+    ],
+    "answer": "Hele",
+    "explanation": "Klassen is one countable group (singular), so \"the whole class\" is hele klassen.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-03",
+    "level": 3,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Vi har brugt ___ pengene på ferien.",
+    "options": [
+      "al",
+      "alt",
+      "alle"
+    ],
+    "answer": "alle",
+    "explanation": "Penge is plural in Danish (pengene), so use alle.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-04",
+    "level": 3,
+    "ruleId": "au-al-hel-all",
+    "prompt": "___ var glade for den gode nyhed.",
+    "options": [
+      "Alt",
+      "Alle",
+      "Hele"
+    ],
+    "answer": "Alle",
+    "explanation": "On its own, alle means \"everybody\" – glade (plural) shows it is about people.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-05",
+    "level": 3,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Tak for ___ det, I har gjort for os.",
+    "options": [
+      "al",
+      "alt",
+      "alle",
+      "helt"
+    ],
+    "answer": "alt",
+    "explanation": "\"Det\" is neuter, so use alt: alt det, I har gjort.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-06",
+    "level": 4,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Vi købte to ___ kyllinger til grillen.",
+    "options": [
+      "alle",
+      "hele"
+    ],
+    "answer": "hele",
+    "explanation": "After a number, hele means \"whole (not cut up)\": two whole chickens.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-07",
+    "level": 4,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Der var mad nok til ___ gæsterne.",
+    "options": [
+      "al",
+      "alt",
+      "alle",
+      "hel",
+      "helt",
+      "hele"
+    ],
+    "answer": "alle",
+    "explanation": "Gæsterne is a countable plural, so use alle.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-08",
+    "level": 4,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Hun har læst ___ bogen på en weekend.",
+    "options": [
+      "al",
+      "alt",
+      "alle",
+      "hel",
+      "helt",
+      "hele"
+    ],
+    "answer": "hele",
+    "explanation": "Bog is countable and singular, so \"the whole book\" is hele bogen.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-09",
+    "level": 4,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Kan du tørre ___ mælken op fra gulvet?",
+    "options": [
+      "al",
+      "alt",
+      "alle",
+      "hel"
+    ],
+    "answer": "al",
+    "explanation": "Mælk is uncountable and an en-word (en mælk), so use al.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-10",
+    "level": 4,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Han sidder foran computeren ___ aftenen.",
+    "options": [
+      "al",
+      "alt",
+      "alle",
+      "hel",
+      "helt",
+      "hele"
+    ],
+    "answer": "hele",
+    "explanation": "Aften is countable and singular, so \"all evening\" is hele aftenen.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-11",
+    "level": 4,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Jeg har ringet til ___ mine venner.",
+    "options": [
+      "al",
+      "alt",
+      "alle",
+      "hel",
+      "helt",
+      "hele"
+    ],
+    "answer": "alle",
+    "explanation": "Venner is a countable plural, so use alle.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-12",
+    "level": 4,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Har du pakket ___ tøjet ned?",
+    "options": [
+      "al",
+      "alt",
+      "alle",
+      "helt"
+    ],
+    "answer": "alt",
+    "explanation": "Tøj is uncountable and an et-word (et tøj), so use alt.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-13",
+    "level": 4,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Restauranten var ___ fyldt op.",
+    "options": [
+      "al",
+      "alt",
+      "alle",
+      "hel",
+      "helt",
+      "hele"
+    ],
+    "answer": "helt",
+    "explanation": "Before an adjective/participle (fyldt), helt means \"completely\".",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-14",
+    "level": 4,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Vi spiste en ___ pizza hver.",
+    "options": [
+      "al",
+      "alt",
+      "alle",
+      "hel",
+      "helt",
+      "hele"
+    ],
+    "answer": "hel",
+    "explanation": "Pizza is a countable en-word in the indefinite (en pizza), so hel has no ending.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-15",
+    "level": 4,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Hun har været syg i et ___ år.",
+    "options": [
+      "al",
+      "alt",
+      "alle",
+      "hel",
+      "helt",
+      "hele"
+    ],
+    "answer": "helt",
+    "explanation": "År is a countable et-word in the indefinite (et år), so hel takes -t.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-16",
+    "level": 4,
+    "ruleId": "au-al-hel-all",
+    "prompt": "___ sammen klappede, da hun var færdig.",
+    "options": [
+      "Al",
+      "Alt",
+      "Alle"
+    ],
+    "answer": "Alle",
+    "explanation": "\"Alle sammen\" means everybody – people who clap, so alle.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-17",
+    "level": 5,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Vi skal have ___ sneen væk fra fortovet.",
+    "options": [
+      "al",
+      "alt",
+      "alle"
+    ],
+    "answer": "al",
+    "explanation": "Sne is uncountable and an en-word (en sne), so use al.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-18",
+    "level": 5,
+    "ruleId": "au-al-hel-all",
+    "prompt": "___ landet var dækket af sne i januar.",
+    "options": [
+      "Al",
+      "Alt",
+      "Alle",
+      "Hele"
+    ],
+    "answer": "Hele",
+    "explanation": "Land is countable and singular, so \"the whole country\" is hele landet.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-19",
+    "level": 5,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Ikke ___ er enige i den nye lov.",
+    "options": [
+      "al",
+      "alt",
+      "alle"
+    ],
+    "answer": "alle",
+    "explanation": "On its own, alle means \"everybody\"; enige (plural) shows it is about people.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-20",
+    "level": 5,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Hun har opgivet ___ håb om at få jobbet.",
+    "options": [
+      "al",
+      "alt",
+      "alle",
+      "helt"
+    ],
+    "answer": "alt",
+    "explanation": "Håb is uncountable and an et-word (et håb), so use alt.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-21",
+    "level": 4,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Hvorfor er ___ butikkerne lukket i dag?",
+    "options": [
+      "al",
+      "alt",
+      "alle",
+      "hel",
+      "helt",
+      "hele"
+    ],
+    "answer": "alle",
+    "explanation": "Butikkerne is a countable plural, so use alle.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-22",
+    "level": 5,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Kommunen har allerede brugt ___ budgettet.",
+    "options": [
+      "al",
+      "alt",
+      "hele"
+    ],
+    "answer": "hele",
+    "explanation": "Budget is countable (one budget), so \"the whole budget\" is hele budgettet.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-23",
+    "level": 3,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Det har regnet ___ weekenden.",
+    "options": [
+      "al",
+      "alt",
+      "alle",
+      "hel",
+      "helt",
+      "hele"
+    ],
+    "answer": "hele",
+    "explanation": "Weekend is countable and singular, so \"all weekend\" is hele weekenden.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-24",
+    "level": 5,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Medarbejderne har fået ___ den støtte, de har brug for.",
+    "options": [
+      "al",
+      "alt",
+      "alle",
+      "hel"
+    ],
+    "answer": "al",
+    "explanation": "Støtte is uncountable and an en-word (en støtte), so use al.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-25",
+    "level": 4,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Er ___ børnene kommet hjem fra skole?",
+    "options": [
+      "al",
+      "alt",
+      "alle",
+      "hel",
+      "helt",
+      "hele"
+    ],
+    "answer": "alle",
+    "explanation": "Børnene is a countable plural, so use alle.",
+    "reviewed": false
+  },
+  {
+    "id": "au-all-26",
+    "level": 5,
+    "ruleId": "au-al-hel-all",
+    "prompt": "Bageren sælger kun ___ brød – de skærer dem ikke i skiver.",
+    "options": [
+      "alle",
+      "hele"
+    ],
+    "answer": "hele",
+    "explanation": "Hele before a plural means \"whole, not sliced\" – the second clause shows the loaves are not cut.",
+    "reviewed": false
+  }
+]

@@ -1,1 +1,244 @@
-[]
+[
+  {
+    "id": "mv-meaning",
+    "da": "Måtte, kunne, skulle eller ville?",
+    "en": "Choosing the right modal verb",
+    "statement": "Each modal has a core meaning: kan = ability or possibility, må = permission or necessity, skal = plan, arrangement or obligation set by someone else, vil = wish or will.",
+    "explanation": "Ask what the sentence is really about: a skill or possibility (kan/kunne), being allowed or being forced by circumstances (må/måtte), something arranged, ordered or reported by others (skal/skulle), or something somebody wants or refuses (vil/ville). Words like gerne, helst and hellere point to vil; a fixed appointment or plan points to skal; a learned skill points to kan. The past forms are måtte, kunne, skulle and ville. Typical traps: using vil for something already arranged (say \"Vi skal flytte i maj\"), and forgetting that past \"måtte\" means \"had to\".",
+    "examples": [
+      {
+        "wrong": "Han måtte ikke komme, fordi hans bil var i stykker.",
+        "right": "Han kunne ikke komme, fordi hans bil var i stykker.",
+        "note": "He was not able to come: kunne, not \"was not allowed\" (måtte)."
+      },
+      {
+        "right": "Jeg vil gerne have en kop kaffe.",
+        "note": "vil gerne = would like."
+      },
+      {
+        "right": "Der kørte ingen busser, så vi måtte gå hjem.",
+        "note": "måtte = had to, forced by the circumstances."
+      },
+      {
+        "right": "Vi skal til tandlæge i morgen kl. 9.",
+        "note": "skal = an arranged plan."
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "mv-skulle-ville",
+    "da": "Skulle eller ville?",
+    "en": "Skulle or ville?",
+    "statement": "Use skal/skulle for plans, arrangements, instructions from others, offers, suggestions and hearsay; use vil/ville for what someone wants, prefers or refuses, and for polite requests.",
+    "explanation": "Skal is about something decided or arranged from outside the person (a doctor, a boss, a rule, a timetable, a plan), and it is also used to offer or suggest (\"Skal jeg …?\", \"Skal vi ikke …?\") and to pass on rumours (\"skulle være\"). Vil is about the person’s own will: vil gerne, vil helst, vil hellere, vil ikke (= refuse), and requests like \"Vil du række mig …?\". The typical trap is using vil as a plain English \"will\" for plans: say \"Vi skal flytte i maj\", not \"Vi vil flytte i maj\", when it is already arranged.",
+    "examples": [
+      {
+        "wrong": "Lægen siger, at jeg vil tage to piller om dagen.",
+        "right": "Lægen siger, at jeg skal tage to piller om dagen.",
+        "note": "An instruction from someone else takes skal."
+      },
+      {
+        "wrong": "Skal du række mig saltet?",
+        "right": "Vil du række mig saltet?",
+        "note": "A request to someone uses vil du."
+      },
+      {
+        "right": "Ifølge politiet skulle tyven være flygtet i en rød bil.",
+        "note": "skulle være = is said to be (hearsay)."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "mv-skulle-maatte",
+    "da": "Skulle eller måtte?",
+    "en": "Skulle or måtte?",
+    "statement": "Måtte means \"had to\" (forced by circumstances), \"may\" (permission) or \"must be\" (a logical conclusion); skulle means \"was going to / was supposed to\", a plan, or something reported by others.",
+    "explanation": "In the past, måtte tells you that something actually had to happen because there was no other way (\"Bussen kom ikke, så vi måtte gå\"). Skulle tells you what was planned or expected, often something that then did not happen (\"Jeg skulle egentlig have ringet, men jeg glemte det\"). In the present, må gerne gives permission and \"må være\" is a conclusion from evidence, while skal is a plan and \"skal være\" is hearsay. Look for the clue: a problem + så points to måtte; egentlig + men or a booked plan points to skulle.",
+    "examples": [
+      {
+        "wrong": "Bussen kom ikke, så vi skulle tage en taxa.",
+        "right": "Bussen kom ikke, så vi måtte tage en taxa.",
+        "note": "Forced by circumstances: måtte = had to."
+      },
+      {
+        "right": "Mødet skulle egentlig starte kl. 10, men det blev udsat.",
+        "note": "skulle = was supposed to (a plan that changed)."
+      },
+      {
+        "right": "Han svarer ikke, og bilen er væk. Han må være taget hjemmefra.",
+        "note": "må være = must be (a conclusion)."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "mv-maatte-kunne",
+    "da": "Måtte eller kunne?",
+    "en": "Måtte or kunne?",
+    "statement": "Kan/kunne is about ability and possibility; må/måtte is about permission (må gerne / må ikke) and necessity (må = have to).",
+    "explanation": "If the sentence is about being able to do something – a skill, strength, time, a working key – use kan/kunne. If it is about rules, being allowed or forbidden by someone, use må/måtte; må can also mean \"have to\" (\"Køleskabet er tomt, vi må handle\"). The classic trap is English \"can’t\" for a rule: \"Du må ikke ryge her\" is a prohibition, \"Han kan ikke svømme\" is a lack of ability. Fixed phrases: \"Det kan godt være\" (maybe) and \"Det kan ikke passe\" (that can’t be true).",
+    "examples": [
+      {
+        "wrong": "Han må ikke svømme – han har aldrig lært det.",
+        "right": "Han kan ikke svømme – han har aldrig lært det.",
+        "note": "No skill = kan ikke."
+      },
+      {
+        "right": "Børnene må ikke se fjernsyn efter kl. 20 – det har forældrene bestemt.",
+        "note": "A rule = må ikke."
+      },
+      {
+        "right": "Det kan godt være, at jeg kommer lidt for sent.",
+        "note": "Fixed phrase: det kan godt være = maybe."
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "mv-burde-skulle",
+    "da": "Burde eller skulle?",
+    "en": "Burde or skulle?",
+    "statement": "Bør/burde gives advice or a moral recommendation (\"ought to\"); skal/skulle states a real obligation, a rule, a plan, an offer or hearsay.",
+    "explanation": "Use bør when something is a good idea but nobody can force you: look for clues like \"det er ikke et krav\", \"det er frivilligt\", \"man har ikke pligt til\". Use skal when there is a law, a rule, a contract, a boss’s decision, a timetable or a plan, and also in offers (\"Skal jeg hente dig?\") and rumours (\"Han skal efter sigende være rig\"). The trap is that both can translate as English \"should\": ask yourself whether it is a requirement (skal) or a recommendation (bør).",
+    "examples": [
+      {
+        "wrong": "Det er ikke et krav, men man skal have cykelhjelm på.",
+        "right": "Det er ikke et krav, men man bør have cykelhjelm på.",
+        "note": "Not a requirement, only advice: bør."
+      },
+      {
+        "wrong": "Ifølge loven bør alle bilister have kørekort.",
+        "right": "Ifølge loven skal alle bilister have kørekort.",
+        "note": "The law makes it an obligation: skal."
+      },
+      {
+        "right": "Her er varmt. Skal jeg åbne vinduet for dig?",
+        "note": "An offer uses skal."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "mv-vil-passive",
+    "da": "Passiv efter modalverber: vil blive + participium eller vil …-s",
+    "en": "Passive after \"vil\": vil blive + participle or vil + s-form",
+    "statement": "Both passives occur after vil, but feelings and states that happen to someone normally take blive + participle (vil blive overrasket); some s-forms after vil are not passives at all but verbs of their own (vil mødes = want to meet).",
+    "explanation": "Danish has two passives: the s-passive (sælges) and the blive-passive (blive solgt). The s-passive is typical for general statements, rules, instructions and repeated actions, and it is common after all modal verbs; blive is typical for one specific event that happens to someone. After vil, feelings and states such as overrasket, skuffet, forkølet and forelsket normally take blive: forms like \"forkøles\" do not exist, and forms like \"overraskes\" are rare and stiff. Watch out for s-verbs that are not passives at all: mødes (meet each other), ses (see each other), findes (exist), slås (fight), skændes (quarrel), følges ad (go together). With these, the blive-form would mean something else or not be Danish.",
+    "examples": [
+      {
+        "wrong": "Du vil overraskes, når du ser huset.",
+        "right": "Du vil blive overrasket, når du ser huset.",
+        "note": "A feeling that happens to you: blive + participle."
+      },
+      {
+        "wrong": "Vi vil gerne blive mødt snart igen.",
+        "right": "Vi vil gerne mødes snart igen.",
+        "note": "mødes = meet each other; it is not a passive."
+      },
+      {
+        "right": "Der vil altid findes mennesker, der er uenige.",
+        "note": "findes = exist; \"blive fundet\" means be found."
+      }
+    ],
+    "level": 4
+  },
+  {
+    "id": "mv-skal-passive",
+    "da": "Skal blive eller skal …-s",
+    "en": "Skal blive + participle or skal + s-form",
+    "statement": "In instructions, rules, recipes and routines, use skal + s-passive (Kartoflerne skal koges); use skal blive + participle for feelings and states (\"Du skal ikke blive skuffet\").",
+    "explanation": "Skal + s-passive is the normal way to say what must be done to something: forms, recipes, washing labels, house rules and deadlines (\"Ansøgningen skal sendes senest 1. marts\"). \"Skal blive sendt\" is grammatical but sounds clumsy in an instruction, so avoid it. The s-passive is also common after skal for a single planned event (\"Jeg skal opereres i morgen\"). Use blive when the participle describes a feeling or state that happens to a person, as in the common phrase \"Du skal ikke blive overrasket/skuffet/forskrækket, hvis …\". Remember that some s-forms are separate verbs: \"Vi skal ses i morgen\" means \"we will see each other\".",
+    "examples": [
+      {
+        "wrong": "Æggehviderne skal blive pisket stive.",
+        "right": "Æggehviderne skal piskes stive.",
+        "note": "A recipe instruction: s-passive."
+      },
+      {
+        "wrong": "Du skal ikke forskrækkes, hvis hunden gør.",
+        "right": "Du skal ikke blive forskrækket, hvis hunden gør.",
+        "note": "A feeling: blive + participle."
+      },
+      {
+        "right": "Skemaet skal udfyldes med blokbogstaver.",
+        "note": "Rules for a form: s-passive."
+      }
+    ],
+    "level": 4
+  },
+  {
+    "id": "mv-kan-passive",
+    "da": "Kan blive eller kan …-s",
+    "en": "Kan blive + participle or kan + s-form",
+    "statement": "Kan + s-passive says what it is possible to do with something (a property or option); kan blive + participle says what might happen to someone (a risk).",
+    "explanation": "Use kan + s-form for options and properties: \"Sofaen kan slås ud\", \"Billetter kan købes på nettet\", \"Kjolen kan vaskes i maskine\". Here nobody is in danger; you describe what can be done. Use kan blive + participle for a risk, a single event that might happen to someone, often after \"pas på\" or \"hvis …\": \"Du kan blive bidt\", \"Du kan blive påkørt\", and for feelings: \"Hun kan godt blive fornærmet\". The trap is to translate English \"can be\" with blive every time: for options and instructions, the s-form is the natural choice.",
+    "examples": [
+      {
+        "wrong": "Billetter kan blive købt på nettet.",
+        "right": "Billetter kan købes på nettet.",
+        "note": "An option: s-passive."
+      },
+      {
+        "wrong": "Pas på hunden – du kan bides.",
+        "right": "Pas på hunden – du kan blive bidt.",
+        "note": "A risk that might happen to you: blive."
+      },
+      {
+        "right": "Stolene kan stables, så de ikke fylder så meget.",
+        "note": "A property of the chairs: s-passive."
+      }
+    ],
+    "level": 4
+  },
+  {
+    "id": "mv-maa-passive-necessity",
+    "da": "Må blive eller må …-s (nødvendighed)",
+    "en": "Må blive or må + s-form (necessity)",
+    "statement": "When må means \"must\", use må + s-passive for what has to be done (Reglerne må følges); use må (ikke) blive + participle for feelings and states (\"Du må ikke blive skuffet\").",
+    "explanation": "Må + s-passive is the normal form for necessary actions, especially general, repeated or rule-like ones: \"Planterne må vandes hver dag\", \"Reglerne må følges\". \"Må blive vandet\" is possible but sounds heavy and unnatural in such sentences. Må ikke blive + participle is used when you tell someone not to react with a feeling: \"Du må ikke blive fornærmet, men …\", \"I må ikke blive forskrækkede\". Forms like \"fornærmes\" or \"forskrækkes\" are not used in everyday speech. As always, mødes and ses are verbs of their own: \"Vi må ses snart\" = we must see each other soon.",
+    "examples": [
+      {
+        "wrong": "Planterne må blive vandet hver dag.",
+        "right": "Planterne må vandes hver dag.",
+        "note": "A repeated necessary action: s-passive."
+      },
+      {
+        "wrong": "Du må ikke fornærmes, men jeg kan ikke komme.",
+        "right": "Du må ikke blive fornærmet, men jeg kan ikke komme.",
+        "note": "A feeling: blive + participle."
+      },
+      {
+        "right": "Vi må ses snart igen!",
+        "note": "ses = see each other."
+      }
+    ],
+    "level": 4
+  },
+  {
+    "id": "mv-maa-passive-permission",
+    "da": "Må …-s (tilladelse og forbud)",
+    "en": "Må + s-form for permission and prohibition",
+    "statement": "Rules about what may or may not be done to something use må + s-passive (Mobiltelefoner må ikke bruges); if the subject is the person doing the action, use the active infinitive (Eleverne må ikke bruge mobiltelefoner).",
+    "explanation": "Signs, house rules and instructions about permission use må gerne / må ikke + s-passive: \"Her må ikke ryges\", \"Der må gerne grilles\", \"Bøgerne må gerne lånes med hjem\". First find the subject: if it is the thing being used, smoked or copied (or the empty \"der\"/\"her\"), you need the s-form; if it is the person who acts (patienter, eleverne, man, du), you need the active infinitive. The blive-passive (\"må ikke blive brugt\") is not used in rules and permissions – it sounds wrong in this kind of sentence.",
+    "examples": [
+      {
+        "wrong": "Der må ikke ryge på hospitalets område.",
+        "right": "Der må ikke ryges på hospitalets område.",
+        "note": "Impersonal der + rule: s-passive."
+      },
+      {
+        "wrong": "Patienterne må ikke ryges på stuerne.",
+        "right": "Patienterne må ikke ryge på stuerne.",
+        "note": "The patients are the ones smoking: active."
+      },
+      {
+        "wrong": "Mobiltelefoner må ikke blive brugt under eksamen.",
+        "right": "Mobiltelefoner må ikke bruges under eksamen.",
+        "note": "Rules use the s-passive, not blive."
+      }
+    ],
+    "level": 4
+  }
+]

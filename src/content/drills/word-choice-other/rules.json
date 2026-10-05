@@ -1,1 +1,217 @@
-[]
+[
+  {
+    "id": "wo-almindelig-normal-saedvanlig",
+    "da": "Almindelig, normal eller sædvanlig",
+    "en": "Common, normal or usual",
+    "level": 3,
+    "statement": "Use almindelig for what is common, widespread or ordinary, normal for what follows the norm (not abnormal), and sædvanlig for what is usual or habitual for a particular person or situation.",
+    "explanation": "Almindelig means common or ordinary: something many people do or have (\"en almindelig sygdom\", \"almindelige mennesker\"). Normal means \"as it should be\", the opposite of abnormal, and is typical for measurements and health (\"normal temperatur\"). Sædvanlig means \"as usual\" for a specific person or routine and appears in fixed phrases like \"som sædvanlig\", \"det sædvanlige\" and \"ud over det sædvanlige\". As a sentence adverb meaning \"usually\", use normalt, almindeligvis or sædvanligvis, never sædvanligt or almindeligt (but \"end sædvanligt\" = \"than usual\" is fine).",
+    "examples": [
+      {
+        "wrong": "Han glemte sin madpakke som normal.",
+        "right": "Han glemte sin madpakke som sædvanlig.",
+        "note": "\"As usual\" is always som sædvanlig."
+      },
+      {
+        "right": "Rygsmerter er et almindeligt problem blandt kontoransatte.",
+        "note": "Almindelig = common, widespread."
+      },
+      {
+        "right": "Efter operationen fungerer knæet helt normalt igen.",
+        "note": "Normal = within the norm, not abnormal."
+      }
+    ]
+  },
+  {
+    "id": "wo-bad",
+    "da": "\"Bad\": dårlig, alvorlig, ubehagelig, slem, ond eller syg",
+    "en": "\"Bad\": poor, serious, unpleasant, naughty, evil or ill",
+    "level": 2,
+    "statement": "English \"bad\" has several Danish equivalents: dårlig (poor quality, weak, unwell), alvorlig (serious), ubehagelig (unpleasant), slem (naughty, nasty), ond (evil; ondt = pain) and syg (ill).",
+    "explanation": "Dårlig is the general word for poor quality or weak performance (\"dårligt vejr\", \"dårlige karakterer\", \"dårlig samvittighed\"). Alvorlig is for things that are serious or dangerous, like accidents and illnesses. Ubehagelig describes unpleasant feelings, smells or situations, slem is used for naughty children and in \"ikke så slemt\" (not so bad), and ond means evil. Remember that pain is always \"have ondt i\" / \"det gør ondt\", and that being ill is \"være syg\".",
+    "examples": [
+      {
+        "wrong": "Min mor har dårligt i knæet.",
+        "right": "Min mor har ondt i knæet.",
+        "note": "Pain is always ondt."
+      },
+      {
+        "right": "Hans far har en alvorlig hjertesygdom.",
+        "note": "Alvorlig = serious, dangerous."
+      },
+      {
+        "right": "Hun fik dårlig samvittighed over sin skarpe kommentar.",
+        "note": "Fixed expression: a bad conscience."
+      },
+      {
+        "right": "Skaden på bilen var heldigvis ikke så slem.",
+        "note": "Slem in \"not so bad\", a reassuring phrase."
+      }
+    ]
+  },
+  {
+    "id": "wo-contrasting",
+    "da": "Til gengæld, derimod eller tværtimod",
+    "en": "On the other hand, by contrast or on the contrary",
+    "level": 4,
+    "statement": "Use til gengæld when a disadvantage is balanced by an advantage (or as \"in return\"), derimod when you contrast two different people or things, and tværtimod (\"on the contrary\") after a negative statement that you reject.",
+    "explanation": "Til gengæld compensates: \"Lejligheden er lille, men til gengæld er den billig\" — the same thing has a minus and a plus; it also means \"in return\" for a favour. Derimod sets two different subjects against each other and often stands right after the subject: \"Min bror elsker fisk. Jeg derimod hader det.\" It is also used in \"ikke X, men derimod Y\". Tværtimod follows a negated sentence and says the opposite is true: \"Det var ikke kedeligt – tværtimod.\" Like other adverbials, all three cause inversion when they open the sentence.",
+    "examples": [
+      {
+        "right": "Bilen er gammel, men til gengæld bruger den ikke meget benzin.",
+        "note": "A minus balanced by a plus: til gengæld."
+      },
+      {
+        "right": "Min kone drikker kaffe. Jeg derimod foretrækker te.",
+        "note": "Two different people contrasted: derimod."
+      },
+      {
+        "wrong": "Filmen var ikke kedelig. Til gengæld var den spændende.",
+        "right": "Filmen var ikke kedelig. Tværtimod var den spændende.",
+        "note": "Rejecting a negative statement: tværtimod."
+      }
+    ]
+  },
+  {
+    "id": "wo-different",
+    "da": "\"Different\": forskellig, anderledes eller anden/andet/andre",
+    "en": "\"Different\": different, unlike or other",
+    "level": 3,
+    "statement": "Use forskellig(e) when things differ from each other or for \"various\", anderledes when something is different in character (often with \"end\"), and anden/andet/andre for \"another / other\".",
+    "explanation": "Forskellig compares at least two things with each other: \"Vi er meget forskellige\", \"forskellige slags\" (various kinds); it takes \"fra\". Anderledes never changes form and describes something that has changed or is unusual: \"Byen ser anderledes ud end før\"; it takes \"end\". Anden (en-words), andet (et-words) and andre (plural/definite) mean \"another / other\", i.e. a different one instead of this one: \"Kan jeg få en anden kop?\". A typical trap is saying \"en anderledes kop\" when you just mean another cup.",
+    "examples": [
+      {
+        "wrong": "Må jeg få en anderledes tallerken? Denne er revnet.",
+        "right": "Må jeg få en anden tallerken? Denne er revnet.",
+        "note": "Another one instead of this one: anden."
+      },
+      {
+        "right": "Tvillingerne ligner hinanden, men de har forskellige interesser.",
+        "note": "Different from each other: forskellige."
+      },
+      {
+        "right": "Undervisningen her foregår anderledes end i mit hjemland.",
+        "note": "Different in character, with \"end\": anderledes."
+      }
+    ]
+  },
+  {
+    "id": "wo-even",
+    "da": "\"Even\": selv, endda, ovenikøbet, ikke engang, endnu, uden så meget som",
+    "en": "\"Even\" in its different uses",
+    "level": 4,
+    "statement": "Use selv before a noun or pronoun (\"even children\"), endda as a sentence adverb for a surprising addition, ovenikøbet for \"on top of that\", ikke engang for \"not even\", endnu before a comparative (\"even bigger\") and uden så meget som at for \"without so much as\".",
+    "explanation": "Selv focuses on a person or thing and stands directly in front of it: \"Selv børn kan forstå det.\" Endda adds something surprising and sits in the adverb position: \"Hun taler endda japansk.\" Ovenikøbet (\"to top it all\") adds one more point, often an annoying one, and overlaps with endda. In negative sentences \"even\" is ikke engang, and with a comparative it is always endnu: \"endnu større\", never \"selv større\". \"Without even\" is uden så meget som at + infinitive (or uden engang at).",
+    "examples": [
+      {
+        "wrong": "Køen var selv længere end i går.",
+        "right": "Køen var endnu længere end i går.",
+        "note": "Even + comparative = endnu."
+      },
+      {
+        "right": "Selv min bedstemor bruger smartphone.",
+        "note": "Even + noun = selv in front of it."
+      },
+      {
+        "right": "Hun kiggede ikke engang op fra sin bog.",
+        "note": "Not even = ikke engang."
+      },
+      {
+        "right": "Han tog det sidste stykke pizza uden så meget som at spørge.",
+        "note": "Without so much as + at + infinitive."
+      }
+    ]
+  },
+  {
+    "id": "wo-lige-bare",
+    "da": "\"Just\": lige eller bare",
+    "en": "\"Just\": lige or bare",
+    "level": 3,
+    "statement": "Use lige for \"just\" about time (just now), exactness (right here, exactly) and in polite requests; use bare for \"just\" meaning merely, simply, go ahead, or in wishes.",
+    "explanation": "Lige means \"just now\" (\"Jeg er lige kommet hjem\"), \"exactly / right\" (\"lige her\", \"lige så stor som\") and softens a request (\"Kan du lige hjælpe mig?\"). Bare means \"merely, only\" (\"Det er bare en forkølelse\"), gives permission (\"Tag bare en kage\") and expresses wishes (\"Bare det snart var weekend!\"). Ask yourself: is it about time or exactness (lige), or about \"nothing more than / go ahead\" (bare)?",
+    "examples": [
+      {
+        "wrong": "Toget er bare kørt.",
+        "right": "Toget er lige kørt.",
+        "note": "Just now = lige."
+      },
+      {
+        "right": "Det var bare en misforståelse.",
+        "note": "Merely = bare."
+      },
+      {
+        "right": "Du kan sætte mig af lige her.",
+        "note": "Exactly / right = lige."
+      }
+    ]
+  },
+  {
+    "id": "wo-bare-kun",
+    "da": "\"Just/only\": bare eller kun",
+    "en": "\"Just/only\": bare or kun",
+    "level": 3,
+    "statement": "Use kun for a strict limit (\"only, nothing else\"), especially at the start of a sentence, in rules and signs and in \"kun hvis\"; use bare for \"just\" in permission, encouragement and wishes.",
+    "explanation": "Kun restricts: \"Kun medlemmer må komme ind\", \"Adgang kun for personale\", \"Du må kun gå, hvis du er færdig\". Bare is softer and more emotional: it gives permission (\"Sæt dig bare!\"), reassures (\"Bare rolig\") and expresses wishes (\"Hvis bare jeg havde vidst det\"). In everyday speech bare can replace kun in many sentences, but kun can never be used for permission or wishes, and a rule or sign needs kun.",
+    "examples": [
+      {
+        "wrong": "Kun rolig, det går nok.",
+        "right": "Bare rolig, det går nok.",
+        "note": "Reassurance: bare rolig."
+      },
+      {
+        "right": "Kun voksne må køre med i den store rutsjebane.",
+        "note": "A strict limit at the start of the sentence: kun."
+      },
+      {
+        "right": "Tag bare en til!",
+        "note": "Permission or encouragement: bare."
+      }
+    ]
+  },
+  {
+    "id": "wo-long",
+    "da": "\"Long\": lang, langt, lange eller længe",
+    "en": "\"Long\": lang, langt, lange or længe",
+    "level": 2,
+    "statement": "Lang, langt and lange are the forms of the adjective \"long\" (length or distance); langt is also the adverb for distance and \"far/much\"; længe is the adverb meaning \"for a long time\".",
+    "explanation": "The adjective agrees with its noun: \"en lang dag\", \"et langt brev\", \"lange dage\", \"den lange vinter\". Langt is also used as an adverb of distance (\"Hun bor langt væk\") and before comparatives (\"langt bedre\"). Længe is only about time and answers \"how long?\" for an activity: \"Vi har ventet længe.\" A common trap is saying \"Jeg har boet her langt\" — distance is langt, time is længe.",
+    "examples": [
+      {
+        "wrong": "Jeg har boet her langt.",
+        "right": "Jeg har boet her længe.",
+        "note": "For a long time = længe."
+      },
+      {
+        "right": "Min søster bor langt ude på landet.",
+        "note": "Distance = langt."
+      },
+      {
+        "right": "Han holdt en lang tale og skrev et langt referat.",
+        "note": "Adjective agreement: en lang, et langt."
+      }
+    ]
+  },
+  {
+    "id": "wo-laenge-lang-tid",
+    "da": "Længe eller lang tid",
+    "en": "Længe or lang tid (a long time)",
+    "level": 3,
+    "statement": "Længe is an adverb, while lang tid is a noun phrase; use lang tid where a noun is needed (after a preposition or as the object of tage, bruge, have), and længe in adverb positions and fixed phrases.",
+    "explanation": "Both can mean \"a long time\", but they behave differently. Lang tid is a noun phrase, so it is required after prepositions (\"i lang tid\") and as an object (\"Det tager lang tid\", \"Jeg bruger lang tid på det\", \"Vi har ikke lang tid\"). Længe is an adverb, so it can stand between the auxiliary and the participle (\"Jeg har længe ønsket mig en hund\") and appears in fixed phrases: så længe (as long as), længe nok, langt om længe, længe leve.",
+    "examples": [
+      {
+        "wrong": "Turen til Bornholm tager længe.",
+        "right": "Turen til Bornholm tager lang tid.",
+        "note": "Tage needs an object: lang tid."
+      },
+      {
+        "right": "Vi har længe talt om at købe et sommerhus.",
+        "note": "Adverb between har and the participle: længe."
+      },
+      {
+        "right": "Hun var sygemeldt i lang tid.",
+        "note": "After a preposition: lang tid."
+      }
+    ]
+  }
+]

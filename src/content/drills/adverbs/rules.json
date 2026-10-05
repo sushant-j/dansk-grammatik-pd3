@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "id": "ad-direction-location",
+    "da": "Retning eller sted: hen/henne, ud/ude, ind/inde …",
+    "en": "Direction vs location: hen/henne, ud/ude, ind/inde, op/oppe, ned/nede, hjem/hjemme, over/ovre",
+    "statement": "Use the short form (ud, ind, op, ned, hen, hjem, over) for movement towards a place and the long form (ude, inde, oppe, nede, henne, hjemme, ovre) for being in a place.",
+    "explanation": "Look at the verb. Movement verbs such as gå, komme, løbe, køre, tage, sætte, lægge and hente take the direction form: Kom ind! Being verbs such as være, bo, sidde, stå, ligge, blive and arbejde take the location form, which ends in -e: Hun er inde. Remember that a modal verb can hide a movement verb (Hunden vil ud = vil gå ud), and that \"Hvor … hen?\" asks about direction while \"Hvor … henne?\" asks about location. The typical trap is *Jeg går hjemme instead of Jeg går hjem.",
+    "examples": [
+      {
+        "wrong": "Jeg går hjemme nu.",
+        "right": "Jeg går hjem nu.",
+        "note": "gå is movement, so use the direction form."
+      },
+      {
+        "wrong": "Børnene leger ud i haven.",
+        "right": "Børnene leger ude i haven.",
+        "note": "They are already in the garden: location form."
+      },
+      {
+        "right": "Sæt mælken ind i køleskabet. Mælken står inde i køleskabet.",
+        "note": "sætte = movement (ind), stå = location (inde)."
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "ad-direction-or-nothing",
+    "da": "Retningsadverbium eller ingenting",
+    "en": "Direction adverb or nothing (hen til / til, herhen / her)",
+    "statement": "Add hen when you move over a short distance to a point, a person or an object nearby, and also in Hvor … hen?, derhen and herhen; use plain til for cities, countries, events and activities.",
+    "explanation": "Hen marks movement to a nearby point: Han gik hen til vinduet, Kom herhen! With longer journeys to towns and countries (rejse til Spanien), and with events and activities (til fest, til eksamen, til fodbold), Danish uses just til. A question about where someone is going needs hen (Hvor skal du hen?), and \"there/here\" as a goal of movement is derhen/herhen, while der/her alone means location (Bliv her!). The typical traps are adding hen with countries and activities, and dropping it in short movements, where hen til is the natural choice.",
+    "examples": [
+      {
+        "wrong": "Vi rejser hen til Spanien.",
+        "right": "Vi rejser til Spanien.",
+        "note": "Long journey to a country: just til."
+      },
+      {
+        "right": "Hun rejste sig og gik hen til døren.",
+        "note": "Short movement to a point in the room: hen til."
+      },
+      {
+        "wrong": "Stationen er tæt på. Vi kan gå der.",
+        "right": "Stationen er tæt på. Vi kan gå derhen.",
+        "note": "Movement to \"there\" needs derhen; der alone means location (Vi bor der)."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "ad-adjective-adverb",
+    "da": "Adjektiv eller adverbium (-t)",
+    "en": "Adjective or adverb — the -t ending",
+    "statement": "An adjective describes a noun (en smuk sang); when the same word describes how something is done (a verb), it gets -t (Hun synger smukt).",
+    "explanation": "Ask what the word describes. If it tells you about a person or a thing, it is an adjective and agrees with the noun: en hurtig bil, Min computer er langsom. If it tells you how the action happens, it is an adverb and ends in -t: Han kører hurtigt, Tal langsomt. Words ending in -ig and -lig also take -t as adverbs (forsigtigt, tydeligt). Be careful with verbs like se ud and virke, which describe the subject and therefore take the adjective: Hun ser glad ud.",
+    "examples": [
+      {
+        "wrong": "Hun synger smuk.",
+        "right": "Hun synger smukt.",
+        "note": "smukt describes how she sings (the verb)."
+      },
+      {
+        "right": "Det var en smuk sang.",
+        "note": "smuk describes the noun sang (common gender)."
+      },
+      {
+        "wrong": "Han ser gladt ud.",
+        "right": "Han ser glad ud.",
+        "note": "se ud describes the person, so use the adjective."
+      }
+    ],
+    "level": 2
+  }
+]

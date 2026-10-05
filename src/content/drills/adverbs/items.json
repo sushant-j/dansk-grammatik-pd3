@@ -1,1 +1,1016 @@
-[]
+[
+  {
+    "id": "ad-dl-01",
+    "level": 1,
+    "ruleId": "ad-direction-location",
+    "prompt": "Børnene leger ___ i haven.",
+    "options": [
+      "ud",
+      "ude"
+    ],
+    "answer": "ude",
+    "explanation": "\"lege\" happens in one place; the children are already in the garden: ude.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-02",
+    "level": 1,
+    "ruleId": "ad-direction-location",
+    "prompt": "Skal vi gå ___ og spise i aften?",
+    "options": [
+      "ud",
+      "ude"
+    ],
+    "answer": "ud",
+    "explanation": "\"gå\" is a movement verb, so use the direction form: gå ud.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-03",
+    "level": 1,
+    "ruleId": "ad-direction-location",
+    "prompt": "Jeg er træt. Jeg går ___ nu.",
+    "options": [
+      "hjem",
+      "hjemme"
+    ],
+    "answer": "hjem",
+    "explanation": "\"går\" is movement towards home: hjem.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-04",
+    "level": 1,
+    "ruleId": "ad-direction-location",
+    "prompt": "Min mand er ikke ___. Han er på arbejde.",
+    "options": [
+      "hjem",
+      "hjemme"
+    ],
+    "answer": "hjemme",
+    "explanation": "\"er\" describes where someone is: hjemme.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-05",
+    "level": 1,
+    "ruleId": "ad-direction-location",
+    "prompt": "Hvornår kommer du ___ fra arbejde?",
+    "options": [
+      "hjem",
+      "hjemme"
+    ],
+    "answer": "hjem",
+    "explanation": "\"komme\" is movement towards home: komme hjem.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-06",
+    "level": 1,
+    "ruleId": "ad-direction-location",
+    "prompt": "Kom ___ – det regner!",
+    "options": [
+      "ind",
+      "inde"
+    ],
+    "answer": "ind",
+    "explanation": "\"Kom\" is movement into the house: ind.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-07",
+    "level": 2,
+    "ruleId": "ad-direction-location",
+    "prompt": "Katten sidder ___ i stuen.",
+    "options": [
+      "ind",
+      "inde"
+    ],
+    "answer": "inde",
+    "explanation": "\"sidder\" is a position, not a movement: inde.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-08",
+    "level": 2,
+    "ruleId": "ad-direction-location",
+    "prompt": "Hun løb ___ ad trappen til fjerde sal.",
+    "options": [
+      "op",
+      "oppe"
+    ],
+    "answer": "op",
+    "explanation": "\"løb\" is movement upwards: op.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-09",
+    "level": 2,
+    "ruleId": "ad-direction-location",
+    "prompt": "Vores lejlighed ligger ___ på femte sal.",
+    "options": [
+      "op",
+      "oppe"
+    ],
+    "answer": "oppe",
+    "explanation": "\"ligger\" tells you where the flat is: oppe.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-10",
+    "level": 2,
+    "ruleId": "ad-direction-location",
+    "prompt": "Kan du gå ___ i kælderen og hente en flaske vin?",
+    "options": [
+      "ned",
+      "nede"
+    ],
+    "answer": "ned",
+    "explanation": "\"gå\" is movement down to the basement: ned.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-11",
+    "level": 2,
+    "ruleId": "ad-direction-location",
+    "prompt": "Cyklerne står ___ i kælderen.",
+    "options": [
+      "ned",
+      "nede"
+    ],
+    "answer": "nede",
+    "explanation": "\"står\" is a position: nede.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-12",
+    "level": 2,
+    "ruleId": "ad-direction-location",
+    "prompt": "Jeg går lige ___ til naboen og låner noget mælk.",
+    "options": [
+      "hen",
+      "henne"
+    ],
+    "answer": "hen",
+    "explanation": "\"går … til naboen\" is movement: hen.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-13",
+    "level": 3,
+    "ruleId": "ad-direction-location",
+    "prompt": "Jeg er ___ hos min mor; jeg kommer hjem klokken seks.",
+    "options": [
+      "hen",
+      "henne"
+    ],
+    "answer": "henne",
+    "explanation": "\"er … hos min mor\" is where you are now: henne.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-14",
+    "level": 3,
+    "ruleId": "ad-direction-location",
+    "prompt": "Vi tog færgen ___ til Sverige.",
+    "options": [
+      "over",
+      "ovre"
+    ],
+    "answer": "over",
+    "explanation": "Taking the ferry is movement across the water: over.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-15",
+    "level": 3,
+    "ruleId": "ad-direction-location",
+    "prompt": "Min bror bor ___ i Sverige.",
+    "options": [
+      "over",
+      "ovre"
+    ],
+    "answer": "ovre",
+    "explanation": "\"bor\" is a location verb: ovre.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-16",
+    "level": 3,
+    "ruleId": "ad-direction-location",
+    "prompt": "Hvor er dine nøgler ___?",
+    "options": [
+      "hen",
+      "henne"
+    ],
+    "answer": "henne",
+    "explanation": "\"Hvor er … henne?\" asks where something is: henne.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-17",
+    "level": 3,
+    "ruleId": "ad-direction-location",
+    "prompt": "Hvor skal du ___ i weekenden?",
+    "options": [
+      "hen",
+      "henne"
+    ],
+    "answer": "hen",
+    "explanation": "\"Hvor skal du hen?\" asks where you are going (movement): hen.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-18",
+    "level": 2,
+    "ruleId": "ad-direction-location",
+    "prompt": "Vi blev ___ hele dagen, fordi det regnede.",
+    "options": [
+      "hjem",
+      "hjemme"
+    ],
+    "answer": "hjemme",
+    "explanation": "\"blive\" means stay, which is location: blive hjemme.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-19",
+    "level": 3,
+    "ruleId": "ad-direction-location",
+    "prompt": "Lægen bad mig lægge mig ___ på briksen.",
+    "options": [
+      "ned",
+      "nede"
+    ],
+    "answer": "ned",
+    "explanation": "\"lægge sig\" is a movement from sitting/standing to lying: ned.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-20",
+    "level": 2,
+    "ruleId": "ad-direction-location",
+    "prompt": "Sæt mælken ___ i køleskabet.",
+    "options": [
+      "ind",
+      "inde"
+    ],
+    "answer": "ind",
+    "explanation": "\"sætte\" moves the milk into the fridge: ind.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-21",
+    "level": 2,
+    "ruleId": "ad-direction-location",
+    "prompt": "Mælken står ___ i køleskabet.",
+    "options": [
+      "ind",
+      "inde"
+    ],
+    "answer": "inde",
+    "explanation": "\"står\" is where the milk is: inde.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-22",
+    "level": 2,
+    "ruleId": "ad-direction-location",
+    "prompt": "Vi spiser ___ på terrassen, når det er varmt.",
+    "options": [
+      "ud",
+      "ude"
+    ],
+    "answer": "ude",
+    "explanation": "Eating happens in one place: ude på terrassen.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-23",
+    "level": 3,
+    "ruleId": "ad-direction-location",
+    "prompt": "Hunden vil gerne ___. Kan du gå en tur med den?",
+    "options": [
+      "ud",
+      "ude"
+    ],
+    "answer": "ud",
+    "explanation": "\"vil ud\" hides a movement verb (vil gå ud), so use the direction form.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-24",
+    "level": 4,
+    "ruleId": "ad-direction-location",
+    "prompt": "Kan du hente kufferterne ___ fra loftet?",
+    "options": [
+      "ned",
+      "nede"
+    ],
+    "answer": "ned",
+    "explanation": "\"hente … fra loftet\" moves the suitcases down: ned.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-25",
+    "level": 4,
+    "ruleId": "ad-direction-location",
+    "prompt": "Hun har været ___ i Jylland hele sommeren.",
+    "options": [
+      "over",
+      "ovre"
+    ],
+    "answer": "ovre",
+    "explanation": "\"har været\" describes where she was: ovre.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-26",
+    "level": 3,
+    "ruleId": "ad-direction-location",
+    "prompt": "Chefen er ___ i mødelokalet lige nu. Kan du vente fem minutter?",
+    "options": [
+      "ind",
+      "inde"
+    ],
+    "answer": "inde",
+    "explanation": "\"er\" describes where the boss is right now, not a movement: inde.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dl-27",
+    "level": 4,
+    "ruleId": "ad-direction-location",
+    "prompt": "Hvor har du lagt min telefon ___?",
+    "options": [
+      "hen",
+      "henne"
+    ],
+    "answer": "hen",
+    "explanation": "\"lægge\" is movement (you put it somewhere), so the question needs hen, not henne.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-01",
+    "level": 2,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Vi flyver ___ Thailand i vinterferien.",
+    "options": [
+      "til",
+      "hen til"
+    ],
+    "answer": "til",
+    "explanation": "A long journey to a country uses just til.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-02",
+    "level": 2,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Min søn går ___ fodbold to gange om ugen.",
+    "options": [
+      "til",
+      "hen til"
+    ],
+    "answer": "til",
+    "explanation": "\"gå til fodbold\" means taking part in an activity: just til.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-03",
+    "level": 3,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Der lå en mønt på gulvet ved døren, så han gik ___ og samlede den op.",
+    "options": [
+      "der",
+      "derhen"
+    ],
+    "answer": "derhen",
+    "explanation": "\"gik\" is a movement to the spot by the door, so \"there\" as a goal is derhen. \"der\" alone means location.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-04",
+    "level": 2,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Hvor skal du ___ i aften?",
+    "options": [
+      "henne",
+      "hen"
+    ],
+    "answer": "hen",
+    "explanation": "\"Hvor skal du hen?\" asks where you are going (movement): hen. \"Hvor er du henne?\" would ask where you are.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-05",
+    "level": 2,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Supermarkedet lukker om ti minutter. Vi må hellere skynde os ___.",
+    "options": [
+      "der",
+      "derhen"
+    ],
+    "answer": "derhen",
+    "explanation": "\"skynde sig\" here means hurrying to the supermarket (movement): derhen.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-06",
+    "level": 2,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Bliv ___, mens jeg henter bilen.",
+    "options": [
+      "her",
+      "herhen"
+    ],
+    "answer": "her",
+    "explanation": "\"Bliv\" means stay in a place, so no direction: her.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-07",
+    "level": 3,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Stationen ligger ikke langt væk. Vi kan godt gå ___.",
+    "options": [
+      "der",
+      "derhen"
+    ],
+    "answer": "derhen",
+    "explanation": "\"gå\" to the station is movement: derhen.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-08",
+    "level": 3,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Jeg kender Aarhus godt. Jeg har boet ___ i fem år.",
+    "options": [
+      "der",
+      "derhen"
+    ],
+    "answer": "der",
+    "explanation": "\"boet\" is location, so no direction word: der.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-09",
+    "level": 3,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Jeg skal ___ eksamen på mandag.",
+    "options": [
+      "til",
+      "hen til"
+    ],
+    "answer": "til",
+    "explanation": "With an event like an exam Danish uses just til.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-10",
+    "level": 3,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Vi er inviteret ___ fest hos naboerne på lørdag.",
+    "options": [
+      "til",
+      "hen til"
+    ],
+    "answer": "til",
+    "explanation": "With events like a party, use til without hen.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-11",
+    "level": 3,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Barnet så sin mor på bænken og løb ___ med en tegning.",
+    "options": [
+      "der",
+      "derhen"
+    ],
+    "answer": "derhen",
+    "explanation": "The child runs over to where the mother is sitting: movement to \"there\" is derhen. \"der\" alone means location.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-12",
+    "level": 2,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Toget kører ___ København om ti minutter.",
+    "options": [
+      "til",
+      "hen til"
+    ],
+    "answer": "til",
+    "explanation": "Travel to a city uses just til.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-13",
+    "level": 4,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Undskyld, kan du fortælle mig, hvordan jeg kommer ___?",
+    "options": [
+      "der",
+      "derhen"
+    ],
+    "answer": "derhen",
+    "explanation": "\"komme\" is movement to that place: derhen.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-14",
+    "level": 3,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Bøgerne står i reolen i stuen. Hun gik ___ og fandt en bog om fugle.",
+    "options": [
+      "der",
+      "derhen"
+    ],
+    "answer": "derhen",
+    "explanation": "\"gik\" is a short movement to the bookcase: \"there\" as a goal is derhen. \"der\" alone means location.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-15",
+    "level": 4,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Hvor flytter I ___, når huset er solgt?",
+    "options": [
+      "henne",
+      "hen"
+    ],
+    "answer": "hen",
+    "explanation": "\"Hvor … hen?\" asks about the goal of a movement (flytte): Hvor flytter I hen? \"henne\" would ask where someone is.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-16",
+    "level": 2,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Hun er flyttet ___ Odense for at studere.",
+    "options": [
+      "til",
+      "hen til"
+    ],
+    "answer": "til",
+    "explanation": "Moving to another city uses just til.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-17",
+    "level": 3,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Min mor går ___ svømning hver tirsdag morgen.",
+    "options": [
+      "til",
+      "hen til"
+    ],
+    "answer": "til",
+    "explanation": "\"gå til svømning\" is a regular activity: just til.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-18",
+    "level": 4,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Den nye kollega sad alene i kantinen, så han gik ___ og hilste på hende.",
+    "options": [
+      "der",
+      "derhen"
+    ],
+    "answer": "derhen",
+    "explanation": "He walks over to where the colleague is sitting: movement to \"there\" is derhen. \"der\" alone means location.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-19",
+    "level": 3,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Biblioteket har åbent til klokken 20, så jeg cykler ___ efter arbejde.",
+    "options": [
+      "der",
+      "derhen"
+    ],
+    "answer": "derhen",
+    "explanation": "\"cykle\" to the library is movement: derhen.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-20",
+    "level": 4,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Det er en dejlig by. Vi tager ___ hver sommer.",
+    "options": [
+      "der",
+      "derhen"
+    ],
+    "answer": "derhen",
+    "explanation": "\"tage\" (go/travel) is movement to the town: derhen.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-21",
+    "level": 4,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Vi kan godt lide Skagen, så vi holder ferie ___ hvert år.",
+    "options": [
+      "der",
+      "derhen"
+    ],
+    "answer": "der",
+    "explanation": "\"holde ferie\" happens in a place, so no direction: der.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-22",
+    "level": 3,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Vi skal ___ koncert i aften.",
+    "options": [
+      "til",
+      "hen til"
+    ],
+    "answer": "til",
+    "explanation": "With an event like a concert, use just til.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-23",
+    "level": 3,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Hvor er I på vej ___?",
+    "options": [
+      "henne",
+      "hen"
+    ],
+    "answer": "hen",
+    "explanation": "\"på vej\" is movement, so the question needs the direction form: Hvor er I på vej hen? (\"henne\" asks where someone is.)",
+    "reviewed": false
+  },
+  {
+    "id": "ad-dn-24",
+    "level": 2,
+    "ruleId": "ad-direction-or-nothing",
+    "prompt": "Bussen er på vej ___ Roskilde.",
+    "options": [
+      "til",
+      "hen til"
+    ],
+    "answer": "til",
+    "explanation": "A bus going to a town: just til.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-01",
+    "level": 1,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Hun synger meget ___.",
+    "options": [
+      "smuk",
+      "smukt"
+    ],
+    "answer": "smukt",
+    "explanation": "The word describes how she sings (the verb), so it needs -t.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-02",
+    "level": 1,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Det var en ___ sang.",
+    "options": [
+      "smuk",
+      "smukt"
+    ],
+    "answer": "smuk",
+    "explanation": "It describes the noun \"en sang\" (common gender): smuk.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-03",
+    "level": 1,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Han kører altid for ___.",
+    "options": [
+      "hurtig",
+      "hurtigt"
+    ],
+    "answer": "hurtigt",
+    "explanation": "It describes how he drives: adverb with -t.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-04",
+    "level": 1,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Det er en ___ bil.",
+    "options": [
+      "hurtig",
+      "hurtigt"
+    ],
+    "answer": "hurtig",
+    "explanation": "It describes \"en bil\": adjective without -t.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-05",
+    "level": 2,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Kan du tale lidt mere ___? Jeg forstår dig ikke.",
+    "options": [
+      "langsom",
+      "langsomt"
+    ],
+    "answer": "langsomt",
+    "explanation": "It describes how you speak: langsomt.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-06",
+    "level": 2,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Min computer er meget ___ i dag.",
+    "options": [
+      "langsom",
+      "langsomt"
+    ],
+    "answer": "langsom",
+    "explanation": "It describes the computer (en computer) after \"er\": adjective langsom.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-07",
+    "level": 2,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Børnene sov ___ hele natten.",
+    "options": [
+      "rolig",
+      "roligt"
+    ],
+    "answer": "roligt",
+    "explanation": "It describes how they slept: adverb roligt.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-08",
+    "level": 2,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Vores nabo er en ___ mand.",
+    "options": [
+      "rolig",
+      "roligt"
+    ],
+    "answer": "rolig",
+    "explanation": "It describes \"en mand\": adjective rolig.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-09",
+    "level": 2,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Hun arbejder meget ___ og laver aldrig fejl.",
+    "options": [
+      "omhyggelig",
+      "omhyggeligt"
+    ],
+    "answer": "omhyggeligt",
+    "explanation": "It describes how she works; -ig words also take -t as adverbs.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-10",
+    "level": 3,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Læreren forklarede reglerne meget ___.",
+    "options": [
+      "tydelig",
+      "tydeligt"
+    ],
+    "answer": "tydeligt",
+    "explanation": "It describes how the teacher explained: tydeligt.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-11",
+    "level": 3,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Hans håndskrift er ikke særlig ___.",
+    "options": [
+      "tydelig",
+      "tydeligt"
+    ],
+    "answer": "tydelig",
+    "explanation": "It describes \"håndskrift\" (en håndskrift, common gender) after \"er\": tydelig.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-12",
+    "level": 2,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Maden smager ___.",
+    "options": [
+      "god",
+      "godt"
+    ],
+    "answer": "godt",
+    "explanation": "\"smage\" is described with the adverb: smager godt.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-13",
+    "level": 2,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Det var en ___ film.",
+    "options": [
+      "god",
+      "godt"
+    ],
+    "answer": "god",
+    "explanation": "It describes \"en film\": god.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-14",
+    "level": 3,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Han har det ikke så ___ i dag.",
+    "options": [
+      "god",
+      "godt"
+    ],
+    "answer": "godt",
+    "explanation": "\"have det godt\" (feel well) always uses the adverb form godt.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-15",
+    "level": 4,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Hun så ___ ud, da hun fik gaven.",
+    "options": [
+      "glad",
+      "gladt"
+    ],
+    "answer": "glad",
+    "explanation": "\"se ud\" describes the person, not the action, so use the adjective: glad.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-16",
+    "level": 3,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Vi må handle ___, hvis vi vil redde klimaet.",
+    "options": [
+      "hurtig",
+      "hurtigt"
+    ],
+    "answer": "hurtigt",
+    "explanation": "It describes how we must act: hurtigt.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-17",
+    "level": 3,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Det er vigtigt at køre ___ i byen.",
+    "options": [
+      "forsigtig",
+      "forsigtigt"
+    ],
+    "answer": "forsigtigt",
+    "explanation": "It describes how you drive: forsigtigt.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-18",
+    "level": 3,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Min mor er en meget ___ bilist.",
+    "options": [
+      "forsigtig",
+      "forsigtigt"
+    ],
+    "answer": "forsigtig",
+    "explanation": "It describes \"en bilist\": adjective forsigtig.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-19",
+    "level": 4,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Han svarede ___ på alle spørgsmålene til jobsamtalen.",
+    "options": [
+      "ærlig",
+      "ærligt"
+    ],
+    "answer": "ærligt",
+    "explanation": "It describes how he answered: ærligt.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-20",
+    "level": 3,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Hun lærte dansk utrolig ___.",
+    "options": [
+      "hurtig",
+      "hurtigt"
+    ],
+    "answer": "hurtigt",
+    "explanation": "It describes how she learned: hurtigt.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-21",
+    "level": 3,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Træk vejret ___ ind og ud.",
+    "options": [
+      "dyb",
+      "dybt"
+    ],
+    "answer": "dybt",
+    "explanation": "It describes how you breathe: dybt.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-22",
+    "level": 2,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Bussen kom for ___ i dag.",
+    "options": [
+      "sen",
+      "sent"
+    ],
+    "answer": "sent",
+    "explanation": "It describes when/how the bus came (the verb): sent.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-23",
+    "level": 3,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Vi tog en ___ bus hjem.",
+    "options": [
+      "sen",
+      "sent"
+    ],
+    "answer": "sen",
+    "explanation": "It describes \"en bus\": adjective sen.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-24",
+    "level": 4,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Patienten blev behandlet ___ på hospitalet.",
+    "options": [
+      "god",
+      "godt"
+    ],
+    "answer": "godt",
+    "explanation": "It describes how the patient was treated (the verb): godt.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-25",
+    "level": 2,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Han er en ___ kok.",
+    "options": [
+      "dygtig",
+      "dygtigt"
+    ],
+    "answer": "dygtig",
+    "explanation": "It describes \"en kok\": adjective dygtig.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-26",
+    "level": 3,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Firmaet har klaret sig ___ i år.",
+    "options": [
+      "god",
+      "godt"
+    ],
+    "answer": "godt",
+    "explanation": "\"klare sig\" is described with the adverb: klaret sig godt.",
+    "reviewed": false
+  },
+  {
+    "id": "ad-aa-27",
+    "level": 4,
+    "ruleId": "ad-adjective-adverb",
+    "prompt": "Hun virker ___ og afslappet før eksamen.",
+    "options": [
+      "rolig",
+      "roligt"
+    ],
+    "answer": "rolig",
+    "explanation": "\"virke\" (seem) describes the person, so use the adjective rolig.",
+    "reviewed": false
+  }
+]

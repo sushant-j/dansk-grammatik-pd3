@@ -1,1 +1,150 @@
-[]
+[
+  {
+    "id": "cj-hvis-om",
+    "da": "Hvis eller om",
+    "en": "\"If\" in Danish: hvis or om",
+    "statement": "Use hvis for a condition (\"if this happens, then …\") and om for an indirect yes/no question (\"whether\").",
+    "explanation": "English \"if\" has two jobs, and Danish splits them. Hvis introduces a condition: something must be true for the rest of the sentence to happen. Om introduces a hidden yes/no question after words like vide, spørge, huske, være i tvivl, afhænge af and uanset; test it by replacing \"if\" with \"whether\" in English. If \"whether\" works, Danish needs om.",
+    "examples": [
+      {
+        "wrong": "Jeg ved ikke, hvis han kommer.",
+        "right": "Jeg ved ikke, om han kommer.",
+        "note": "\"I don't know whether he is coming\" is a hidden question, so om."
+      },
+      {
+        "right": "Hvis det regner, bliver vi hjemme.",
+        "note": "A condition: we stay home only on that condition, so hvis."
+      },
+      {
+        "wrong": "Lægen spurgte, hvis jeg havde feber.",
+        "right": "Lægen spurgte, om jeg havde feber.",
+        "note": "After spørge the clause is a yes/no question, so om."
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "cj-hvornaar-da-naar",
+    "da": "Hvornår, da eller når",
+    "en": "\"When\" in Danish: hvornår, da or når",
+    "statement": "Use hvornår to ask about time, da for a single event or period in the past, and når for the present, the future or something that happened repeatedly.",
+    "explanation": "Hvornår is a question word: it starts a direct question (Hvornår kommer du?) or an indirect one after words like vide, spørge or sige (Jeg ved ikke, hvornår han kommer). Da and når are not questions; they link two events in time. Da is for something that happened once in the past, or a past period such as \"when I was a child\". Når is for now, the future, general truths, and past events that happened again and again (often with altid or hver gang). The typical trap is using når about a single past event.",
+    "examples": [
+      {
+        "wrong": "Når jeg var barn, boede vi på landet.",
+        "right": "Da jeg var barn, boede vi på landet.",
+        "note": "One period in the past, so da."
+      },
+      {
+        "right": "Når jeg kommer hjem, laver jeg mad.",
+        "note": "Present/future (or every time), so når."
+      },
+      {
+        "wrong": "Ved du, når bussen kører?",
+        "right": "Ved du, hvornår bussen kører?",
+        "note": "An indirect question about time, so hvornår."
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "cj-for-fordi",
+    "da": "For eller fordi",
+    "en": "For or fordi (explanation vs reason; word order after each)",
+    "statement": "Both mean \"because\", but for is followed by main-clause word order and fordi by subordinate-clause word order.",
+    "explanation": "For links two main clauses and adds an explanation, so the words after it keep normal main-clause order: the adverb (ikke, aldrig, altid, stadig, jo) comes after the verb, and another element can even be moved to the front with inversion. Fordi starts a subordinate clause, so the adverb comes before the verb; a fordi-clause can also stand first in the sentence, answer \"hvorfor?\" and follow \"det er\" or \"netop\". Look at the word order after the gap to decide. The rules here are for standard written Danish; in casual speech people sometimes use main-clause order after fordi.",
+    "examples": [
+      {
+        "wrong": "Jeg bliver hjemme, fordi jeg har ikke tid.",
+        "right": "Jeg bliver hjemme, fordi jeg ikke har tid.",
+        "note": "After fordi, ikke comes before the verb."
+      },
+      {
+        "right": "Jeg bliver hjemme, for jeg har ikke tid.",
+        "note": "After for, main-clause order: verb before ikke."
+      },
+      {
+        "wrong": "For det regnede, blev vi hjemme.",
+        "right": "Fordi det regnede, blev vi hjemme.",
+        "note": "Only fordi can start the sentence."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "cj-at-som-det",
+    "da": "At, som eller det",
+    "en": "\"That\" in Danish: at, som or det",
+    "statement": "Use at to introduce a \"that\"-clause, som for \"that/who/which\" referring back to a noun, and det for the pronoun \"that\" (that thing, that fact).",
+    "explanation": "At is a conjunction: it introduces a complete statement after verbs like tro, sige, håbe or after words like problemet er and det er vigtigt. Som is a relative pronoun: it refers back to a noun, and the clause after it is missing a subject or object that som replaces (filmen, som vi så). After a noun, check whether the clause is complete: \"nyheden, at fabrikken lukker\" (complete, so at) but \"nyheden, som vi læste\" (læste has no object, so som). Det is the ordinary pronoun \"that/it\", as in Det ved jeg ikke.",
+    "examples": [
+      {
+        "wrong": "Jeg tror, som det bliver regnvejr.",
+        "right": "Jeg tror, at det bliver regnvejr.",
+        "note": "A complete statement after tro, so at."
+      },
+      {
+        "wrong": "Kan du huske den film, at vi så?",
+        "right": "Kan du huske den film, som vi så?",
+        "note": "Refers back to the noun film, and så has no object, so som."
+      },
+      {
+        "right": "Det ved jeg ikke.",
+        "note": "\"That I don't know\": det is the pronoun."
+      },
+      {
+        "right": "Den nyhed, at fabrikken lukker, chokerede byen.",
+        "note": "The clause is complete and tells what the news is, so at."
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "cj-der-som",
+    "da": "Der eller som",
+    "en": "Der or som (relative pronoun as subject vs object)",
+    "statement": "As the subject of a relative clause you can use der or som; when the relative pronoun is the object (or after a preposition), only som is possible.",
+    "explanation": "Ask what the relative pronoun does in its own clause. If it is the subject (it does the action: en ven, der bor i Odense), both der and som are correct. If something else is the subject and the pronoun is the object or belongs to a preposition at the end (bogen, som jeg læser; huset, som vi bor i), only som works. A common trap for English speakers is translating \"who/which\" as hvem or hvad; in a relative clause after a noun, Danish uses der or som.",
+    "examples": [
+      {
+        "right": "Jeg har en ven, der bor i Odense.",
+        "note": "Der is the subject of bor; som would also be correct."
+      },
+      {
+        "wrong": "Den bog, der jeg læser, er spændende.",
+        "right": "Den bog, som jeg læser, er spændende.",
+        "note": "Jeg is the subject; the pronoun is the object, so only som."
+      },
+      {
+        "wrong": "Kvinden, hvem arbejder i kantinen, er sød.",
+        "right": "Kvinden, der arbejder i kantinen, er sød.",
+        "note": "Not hvem: use der (or som) after a noun."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "cj-som-hvilket",
+    "da": "Som eller hvilket",
+    "en": "Which: som or hvilket (relative to a noun vs to the whole clause)",
+    "statement": "Use som when \"which/who\" refers to a noun, and hvilket when \"which\" refers to the whole previous clause.",
+    "explanation": "Som points back to one noun just before it (en nabo, som altid hjælper mig). Hvilket points back to everything said in the previous clause, the whole event or fact (Toget var forsinket, hvilket betød …). Test it in English: if \"which\" means \"and that fact\", use hvilket. Agreement is a useful clue: hvilket is neuter singular, so an adjective after it ends in -t (hvilket er irriterende/strengt), while an adjective agreeing with a common-gender or plural noun points to som.",
+    "examples": [
+      {
+        "wrong": "Bussen kom ikke, som var meget irriterende.",
+        "right": "Bussen kom ikke, hvilket var meget irriterende.",
+        "note": "It is the whole event that was annoying, so hvilket."
+      },
+      {
+        "wrong": "Jeg har en nabo, hvilket altid hjælper mig.",
+        "right": "Jeg har en nabo, som altid hjælper mig.",
+        "note": "It is the neighbour who helps, so som."
+      },
+      {
+        "right": "Han svarede ikke, hvilket undrede os alle.",
+        "note": "The fact that he didn't answer surprised us: hvilket."
+      }
+    ],
+    "level": 4
+  }
+]

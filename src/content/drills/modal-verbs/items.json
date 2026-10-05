@@ -1,1 +1,3194 @@
-[]
+[
+  {
+    "id": "mv-meaning-01",
+    "level": 1,
+    "ruleId": "mv-meaning",
+    "prompt": "Min datter er kun tre år, men hun ___ allerede tælle til tyve.",
+    "options": [
+      "må",
+      "kan",
+      "skal",
+      "vil"
+    ],
+    "answer": "kan",
+    "explanation": "Counting is a skill she has learned, so kan (ability). \"Allerede\" (already) underlines that it is something she is able to do.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-02",
+    "level": 1,
+    "ruleId": "mv-meaning",
+    "prompt": "Hvad ___ du helst have til middag i aften – fisk eller kylling?",
+    "options": [
+      "må",
+      "kan",
+      "skal",
+      "vil"
+    ],
+    "answer": "vil",
+    "explanation": "\"Helst\" (preferably) goes with vil: \"vil helst\" asks what you would prefer.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-03",
+    "level": 2,
+    "ruleId": "mv-meaning",
+    "prompt": "Der kørte ingen busser, og vi havde ikke penge til en taxa. Vi ___ derfor gå hele vejen hjem.",
+    "options": [
+      "måtte",
+      "kunne",
+      "skulle",
+      "ville"
+    ],
+    "answer": "måtte",
+    "explanation": "There was no other way home, so they had to walk: måtte = had to, forced by the circumstances.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-04",
+    "level": 2,
+    "ruleId": "mv-meaning",
+    "prompt": "Han ___ ikke komme til mødet i går, fordi hans bil var gået i stykker.",
+    "options": [
+      "måtte",
+      "kunne",
+      "skulle",
+      "ville"
+    ],
+    "answer": "kunne",
+    "explanation": "A broken car made him unable to come, so kunne ikke (was not able). Måtte ikke would mean he was not allowed.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-05",
+    "level": 3,
+    "ruleId": "mv-meaning",
+    "prompt": "Ifølge anmeldelserne ___ den nye restaurant være fantastisk, men jeg har ikke selv prøvet den.",
+    "options": [
+      "måtte",
+      "kunne",
+      "skulle",
+      "ville"
+    ],
+    "answer": "skulle",
+    "explanation": "\"Skulle være\" passes on what others say (hearsay): the reviews say so, the speaker has not tried it.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-06",
+    "level": 2,
+    "ruleId": "mv-meaning",
+    "prompt": "Min mor talte ikke engelsk, så hun ___ ikke forstå filmen uden undertekster.",
+    "options": [
+      "måtte",
+      "kunne",
+      "skulle",
+      "ville"
+    ],
+    "answer": "kunne",
+    "explanation": "Not speaking English made her unable to understand, so kunne ikke (ability).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-07",
+    "level": 2,
+    "ruleId": "mv-meaning",
+    "prompt": "Tak for invitationen! Vi ___ meget gerne komme til din fødselsdag.",
+    "options": [
+      "må",
+      "kan",
+      "skal",
+      "vil"
+    ],
+    "answer": "vil",
+    "explanation": "\"Vil (meget) gerne\" = would (very much) like to – the polite way to accept an invitation.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-08",
+    "level": 2,
+    "ruleId": "mv-meaning",
+    "prompt": "Hun har ikke spist noget hele dagen. Hun ___ da være sulten!",
+    "options": [
+      "må",
+      "kan",
+      "skal",
+      "vil"
+    ],
+    "answer": "må",
+    "explanation": "\"Må være\" = must be: a confident conclusion from the evidence (no food all day).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-09",
+    "level": 2,
+    "ruleId": "mv-meaning",
+    "prompt": "Jeg ___ desværre ikke hjælpe dig med flytningen på lørdag, for jeg arbejder hele dagen.",
+    "options": [
+      "må",
+      "kan",
+      "skal",
+      "vil"
+    ],
+    "answer": "kan",
+    "explanation": "Working all day makes it impossible for the speaker, so kan ikke (not able). \"Desværre\" (unfortunately) shows it is not a question of not wanting to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-10",
+    "level": 2,
+    "ruleId": "mv-meaning",
+    "prompt": "Han ___ ikke gå til lægen, selvom vi har bedt ham om det mange gange.",
+    "options": [
+      "må",
+      "kan",
+      "skal",
+      "vil"
+    ],
+    "answer": "vil",
+    "explanation": "\"Vil ikke\" = refuses. He has been asked many times, so the problem is his will, not his ability.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-11",
+    "level": 2,
+    "ruleId": "mv-meaning",
+    "prompt": "Vi ___ flytte den 1. august – flyttebilen er allerede bestilt.",
+    "options": [
+      "må",
+      "kan",
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "The removal van is booked, so the move is an arranged plan: skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-12",
+    "level": 1,
+    "ruleId": "mv-meaning",
+    "prompt": "Da jeg var ung, ___ jeg løbe ti kilometer uden at stoppe. Nu er jeg glad, hvis jeg kan løbe to.",
+    "options": [
+      "måtte",
+      "kunne",
+      "skulle",
+      "ville"
+    ],
+    "answer": "kunne",
+    "explanation": "This is about what the speaker was able to do when young, so the past of kan: kunne.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-13",
+    "level": 3,
+    "ruleId": "mv-meaning",
+    "prompt": "Gæsterne ___ ikke gå, før de havde fået kaffe og kage – de hyggede sig alt for meget.",
+    "options": [
+      "måtte",
+      "kunne",
+      "skulle",
+      "ville"
+    ],
+    "answer": "ville",
+    "explanation": "They were enjoying themselves and did not want to leave, so ville ikke (did not want to).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-14",
+    "level": 2,
+    "ruleId": "mv-meaning",
+    "prompt": "Min computer gik ned, så jeg ___ skrive hele rapporten forfra.",
+    "options": [
+      "måtte",
+      "kunne",
+      "skulle",
+      "ville"
+    ],
+    "answer": "måtte",
+    "explanation": "The crash forced the speaker to start again: måtte = had to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-15",
+    "level": 1,
+    "ruleId": "mv-meaning",
+    "prompt": "– Hvad skal du lave i weekenden? – Jeg ___ besøge min mormor i Odense.",
+    "options": [
+      "må",
+      "kan",
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "The answer repeats the question’s skal: it is a plan for the weekend.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-16",
+    "level": 2,
+    "ruleId": "mv-meaning",
+    "prompt": "___ du ikke nok række mig saltet?",
+    "options": [
+      "Må",
+      "Kan",
+      "Skal",
+      "Vil"
+    ],
+    "answer": "Vil",
+    "explanation": "\"Vil du ikke nok …?\" is a fixed polite request (= would you please …?). The phrase only works with vil.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-17",
+    "level": 2,
+    "ruleId": "mv-meaning",
+    "prompt": "Jeg har fået lov af min chef, så jeg ___ gerne gå tidligt i dag.",
+    "options": [
+      "må",
+      "kan",
+      "skal",
+      "vil"
+    ],
+    "answer": "må",
+    "explanation": "\"Fået lov\" (been given permission) points to må gerne = am allowed to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-18",
+    "level": 2,
+    "ruleId": "mv-meaning",
+    "prompt": "Det ___ godt være, at det regner i morgen, men vi tager på stranden alligevel.",
+    "options": [
+      "må",
+      "kan",
+      "skal",
+      "vil"
+    ],
+    "answer": "kan",
+    "explanation": "\"Det kan godt være\" is a fixed phrase meaning \"it may well be / maybe\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-19",
+    "level": 2,
+    "ruleId": "mv-meaning",
+    "prompt": "Vi ___ vente to timer hos lægen, fordi der var så mange patienter.",
+    "options": [
+      "måtte",
+      "kunne",
+      "skulle",
+      "ville"
+    ],
+    "answer": "måtte",
+    "explanation": "The many patients forced them to wait: måtte = had to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-20",
+    "level": 2,
+    "ruleId": "mv-meaning",
+    "prompt": "Min søn ___ hellere spille computer end lave lektier, men det fik han ikke lov til.",
+    "options": [
+      "måtte",
+      "kunne",
+      "skulle",
+      "ville"
+    ],
+    "answer": "ville",
+    "explanation": "\"Hellere\" (rather) goes with vil/ville: he would rather play, i.e. that was what he wanted.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-21",
+    "level": 3,
+    "ruleId": "mv-meaning",
+    "prompt": "Den nye bog ___ efter sigende være rigtig spændende.",
+    "options": [
+      "må",
+      "kan",
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "\"Efter sigende\" (reportedly) marks hearsay, and hearsay is expressed with skal være (is said to be).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-22",
+    "level": 2,
+    "ruleId": "mv-meaning",
+    "prompt": "Hun ___ ikke finde sine nøgler, så hun kom for sent på arbejde.",
+    "options": [
+      "måtte",
+      "kunne",
+      "skulle",
+      "ville"
+    ],
+    "answer": "kunne",
+    "explanation": "She was not able to find her keys: kunne ikke (ability), which explains why she was late.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-23",
+    "level": 3,
+    "ruleId": "mv-meaning",
+    "prompt": "Du har arbejdet i tolv timer i dag. Du ___ være helt udmattet!",
+    "options": [
+      "må",
+      "kan",
+      "skal",
+      "vil"
+    ],
+    "answer": "må",
+    "explanation": "\"Må være\" = must be: a confident conclusion from the evidence (twelve hours of work).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-meaning-24",
+    "level": 1,
+    "ruleId": "mv-meaning",
+    "prompt": "Hun ___ gerne lære at spille klaver, så hun har meldt sig til et kursus.",
+    "options": [
+      "må",
+      "kan",
+      "skal",
+      "vil"
+    ],
+    "answer": "vil",
+    "explanation": "\"Vil gerne\" = would like to. Her wish is the reason she signed up for a course.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-01",
+    "level": 2,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Jeg ___ gerne bestille et bord til fire personer.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "vil",
+    "explanation": "\"Vil gerne\" = would like to – the polite way to ask for something.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-02",
+    "level": 2,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Lægen har sagt, at jeg ___ tage to piller hver morgen.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "An instruction from someone else (the doctor) takes skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-03",
+    "level": 2,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Du ser træt ud. ___ jeg lave en kop te til dig?",
+    "options": [
+      "Skal",
+      "Vil"
+    ],
+    "answer": "Skal",
+    "explanation": "\"Skal jeg …?\" offers to do something for someone (= shall I …?). \"Vil jeg\" makes no sense here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-04",
+    "level": 2,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "___ du række mig smørret?",
+    "options": [
+      "Skal",
+      "Vil"
+    ],
+    "answer": "Vil",
+    "explanation": "A request to another person is \"Vil du …?\" (= will you …?). \"Skal du …?\" would ask about their plans.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-05",
+    "level": 2,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Min bror ___ ikke spise grøntsager – han skubber dem altid ud til kanten af tallerkenen.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "vil",
+    "explanation": "\"Vil ikke\" = refuses. Pushing the vegetables aside shows he does not want to eat them.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-06",
+    "level": 3,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Ifølge politiet ___ tyven være flygtet i en rød bil.",
+    "options": [
+      "skulle",
+      "ville"
+    ],
+    "answer": "skulle",
+    "explanation": "\"Skulle være\" passes on what others say: the police report it, the speaker has not seen it.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-07",
+    "level": 2,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Vi ___ have gæster i aften, så jeg har købt ind til otte personer.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "The guests are already arranged – the shopping is done – so skal (a plan).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-08",
+    "level": 3,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Hun ___ hellere bo på landet end i byen.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "vil",
+    "explanation": "\"Hellere\" (rather) goes with vil: it is about her preference.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-09",
+    "level": 2,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Chefen siger, at rapporten ___ være færdig på fredag.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "A deadline set by the boss is an obligation from outside: skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-10",
+    "level": 3,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "___ vi ikke tage en pause? Vi har arbejdet i tre timer.",
+    "options": [
+      "Skal",
+      "Vil"
+    ],
+    "answer": "Skal",
+    "explanation": "\"Skal vi ikke …?\" is the normal way to suggest something (= shall we …?).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-11",
+    "level": 2,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Mine forældre ___ gerne se deres børnebørn noget oftere.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "vil",
+    "explanation": "\"Vil gerne\" = would like to: it is their wish.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-12",
+    "level": 3,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Ifølge reglerne ___ alle cyklister have lys på cyklen, når det er mørkt.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "\"Ifølge reglerne\" (according to the rules) shows an obligation: skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-13",
+    "level": 3,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Jeg ___ egentlig til frisøren klokken ti, men de aflyste min tid.",
+    "options": [
+      "skulle",
+      "ville"
+    ],
+    "answer": "skulle",
+    "explanation": "A booked appointment (\"min tid\") is a plan: skulle = was supposed to. \"Egentlig … men\" shows the plan did not happen.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-14",
+    "level": 3,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Han ___ ikke hjælpe os, selvom han havde tid. Han var bare doven.",
+    "options": [
+      "skulle",
+      "ville"
+    ],
+    "answer": "ville",
+    "explanation": "He had time but was lazy, so he did not want to: ville ikke.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-15",
+    "level": 2,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Hvornår ___ du til tandlæge? – På torsdag kl. 14.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "A dentist appointment with a fixed time is an arrangement: skal. (Skal can stand without a verb of motion.)",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-16",
+    "level": 4,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Medarbejderne ___ ifølge kontrakten arbejde 37 timer om ugen.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "The contract makes it an obligation: skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-17",
+    "level": 3,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Kunden ___ ikke betale for den ødelagte vare og forlangte at tale med chefen.",
+    "options": [
+      "skulle",
+      "ville"
+    ],
+    "answer": "ville",
+    "explanation": "He refused to pay and demanded the manager: ville ikke = did not want to / refused.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-18",
+    "level": 2,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Vil du have kaffe? – Nej tak, jeg ___ hellere have te.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "vil",
+    "explanation": "\"Hellere\" (rather) shows preference, so vil.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-19",
+    "level": 3,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Da vi kom hjem, ___ hunden ikke gå ind i huset; den blev ved med at sidde i haven.",
+    "options": [
+      "skulle",
+      "ville"
+    ],
+    "answer": "ville",
+    "explanation": "The dog refused to go in: ville ikke (did not want to).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-20",
+    "level": 4,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Firmaet ___ efter sigende være til salg, men ingen har bekræftet det.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "\"Efter sigende\" (reportedly) marks hearsay, which is expressed with skal være.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-21",
+    "level": 3,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Børnene ___ være hjemme senest kl. 22 – det er reglen i vores familie.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "A family rule is an obligation from outside: skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-22",
+    "level": 4,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Min nabo ___ ikke låne mig sin stige, selvom han ikke selv brugte den.",
+    "options": [
+      "skulle",
+      "ville"
+    ],
+    "answer": "ville",
+    "explanation": "He did not need the ladder but still said no, so he did not want to: ville ikke.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-23",
+    "level": 3,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Undskyld, ___ du sige det igen? Jeg hørte det ikke.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "vil",
+    "explanation": "Asking someone to do something is a request: \"Vil du …?\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skvil-24",
+    "level": 4,
+    "ruleId": "mv-skulle-ville",
+    "prompt": "Ifølge et gammelt sagn ___ der være begravet en skat under kirken.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "An old legend is something people say, so hearsay skal være (is said to be).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-01",
+    "level": 2,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Bussen kom ikke, så vi ___ tage en taxa.",
+    "options": [
+      "skulle",
+      "måtte"
+    ],
+    "answer": "måtte",
+    "explanation": "The bus did not come, so there was no choice: måtte = had to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-02",
+    "level": 2,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Jeg ___ egentlig have ringet til dig i går, men jeg glemte det.",
+    "options": [
+      "skulle",
+      "måtte"
+    ],
+    "answer": "skulle",
+    "explanation": "\"Egentlig … men jeg glemte det\" shows a plan that did not happen: skulle = was supposed to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-03",
+    "level": 2,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Du ___ gerne låne min cykel, hvis du vil.",
+    "options": [
+      "skal",
+      "må"
+    ],
+    "answer": "må",
+    "explanation": "\"Må gerne\" gives permission (= you are welcome to).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-04",
+    "level": 2,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Vi ___ til Rom på ferie i sommer – vi har allerede bestilt hotellet.",
+    "options": [
+      "skal",
+      "må"
+    ],
+    "answer": "skal",
+    "explanation": "The hotel is booked, so the holiday is a plan: skal. \"Må til\" would mean being forced to go.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-05",
+    "level": 3,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Han svarer ikke på telefonen, og hans bil er væk. Han ___ være taget hjemmefra.",
+    "options": [
+      "skal",
+      "må"
+    ],
+    "answer": "må",
+    "explanation": "The speaker draws a conclusion from evidence: må være = must have. \"Skal være\" would mean someone told you so.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-06",
+    "level": 3,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Jeg har læst, at den nye film ___ være rigtig god.",
+    "options": [
+      "skal",
+      "må"
+    ],
+    "answer": "skal",
+    "explanation": "The speaker passes on what they have read: skal være = is said to be (hearsay).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-07",
+    "level": 2,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Jeg kunne ikke finde mine nøgler, så jeg ___ ringe til en låsesmed.",
+    "options": [
+      "skulle",
+      "måtte"
+    ],
+    "answer": "måtte",
+    "explanation": "Lost keys forced the speaker to call a locksmith: måtte = had to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-08",
+    "level": 3,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Toget ___ have været her kl. 9, men det er stadig ikke kommet.",
+    "options": [
+      "skulle",
+      "måtte"
+    ],
+    "answer": "skulle",
+    "explanation": "The timetable said 9, but it has not come: skulle = was supposed to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-09",
+    "level": 2,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Der er masser af kage, så I ___ gerne tage et stykke mere.",
+    "options": [
+      "skal",
+      "må"
+    ],
+    "answer": "må",
+    "explanation": "\"Må gerne\" gives permission: there is plenty, so you are welcome to take more.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-10",
+    "level": 3,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Vi havde ikke længere råd til bilen, så til sidst ___ vi sælge den.",
+    "options": [
+      "skulle",
+      "måtte"
+    ],
+    "answer": "måtte",
+    "explanation": "No money left, so in the end they had no choice: måtte = had to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-11",
+    "level": 2,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Hvad ___ du lave i weekenden? Har du nogen planer?",
+    "options": [
+      "skal",
+      "må"
+    ],
+    "answer": "skal",
+    "explanation": "The question is about plans (\"planer\"), so skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-12",
+    "level": 3,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Der var ingen elevator, så vi ___ bære sofaen op på femte sal.",
+    "options": [
+      "skulle",
+      "måtte"
+    ],
+    "answer": "måtte",
+    "explanation": "No lift meant no other option: måtte = had to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-13",
+    "level": 3,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Ifølge avisen ___ der komme en ny skole i byen næste år.",
+    "options": [
+      "skal",
+      "må"
+    ],
+    "answer": "skal",
+    "explanation": "A plan reported by the newspaper takes skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-14",
+    "level": 2,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Må jeg sidde her? – Ja, du ___ gerne sidde her.",
+    "options": [
+      "skal",
+      "må"
+    ],
+    "answer": "må",
+    "explanation": "The answer to a request for permission repeats må: \"du må gerne\" = you may.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-15",
+    "level": 3,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Mødet ___ egentlig starte kl. 10, men det blev udsat.",
+    "options": [
+      "skulle",
+      "måtte"
+    ],
+    "answer": "skulle",
+    "explanation": "A plan that was changed: skulle = was supposed to. \"Egentlig … men\" is the clue.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-16",
+    "level": 4,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Hun ___ have glemt mødet – hun kommer ellers aldrig for sent.",
+    "options": [
+      "skal",
+      "må"
+    ],
+    "answer": "må",
+    "explanation": "A conclusion: she is never late, so she must have forgotten (må have).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-17",
+    "level": 4,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Han ___ efter sigende være meget rig, men han kører i en gammel bil.",
+    "options": [
+      "skal",
+      "må"
+    ],
+    "answer": "skal",
+    "explanation": "\"Efter sigende\" (reportedly) marks hearsay: skal være = is said to be.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-18",
+    "level": 3,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Patienten havde store smerter, og til sidst ___ lægen give ham morfin.",
+    "options": [
+      "skulle",
+      "måtte"
+    ],
+    "answer": "måtte",
+    "explanation": "The pain left the doctor no choice in the end: måtte = had to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-19",
+    "level": 2,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Vi ___ på skiferie i februar, så vi har købt nye skibukser.",
+    "options": [
+      "skal",
+      "må"
+    ],
+    "answer": "skal",
+    "explanation": "A holiday that is planned: skal. \"Må på skiferie\" would mean being forced to go.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-20",
+    "level": 3,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Da jeg var barn, ___ jeg kun se fjernsyn en time om dagen – det var mine forældres regel.",
+    "options": [
+      "skulle",
+      "måtte"
+    ],
+    "answer": "måtte",
+    "explanation": "A rule about what he was allowed to do: måtte = was allowed to (permission, past).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-21",
+    "level": 4,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Min søster ___ føde i marts, så vi bliver måske onkel og tante til påske.",
+    "options": [
+      "skal",
+      "må"
+    ],
+    "answer": "skal",
+    "explanation": "The baby is due in March – an expected, planned event: skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-22",
+    "level": 4,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Flyet var aflyst, så passagererne ___ overnatte på et hotel.",
+    "options": [
+      "skulle",
+      "måtte"
+    ],
+    "answer": "måtte",
+    "explanation": "The cancelled flight forced them to stay: måtte = had to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-23",
+    "level": 3,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Jeg ___ hilse fra min mor. Hun bad mig sige, at hun savner dig.",
+    "options": [
+      "skal",
+      "må"
+    ],
+    "answer": "skal",
+    "explanation": "\"Jeg skal hilse fra …\" is the fixed way to pass on greetings someone asked you to bring.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skmaa-24",
+    "level": 2,
+    "ruleId": "mv-skulle-maatte",
+    "prompt": "Det regnede så meget, at vi ___ aflyse grillfesten.",
+    "options": [
+      "skulle",
+      "måtte"
+    ],
+    "answer": "måtte",
+    "explanation": "The rain forced them to cancel: måtte = had to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-01",
+    "level": 1,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Han ___ ikke svømme – han har aldrig lært det.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "kan",
+    "explanation": "He never learned, so he is not able to: kan ikke (ability).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-02",
+    "level": 1,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Børnene ___ ikke se fjernsyn efter kl. 20 – det har deres forældre bestemt.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "må",
+    "explanation": "The parents have decided a rule, so må ikke (not allowed).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-03",
+    "level": 1,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Hun ___ tale fem sprog, fordi hendes forældre kommer fra forskellige lande.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "kan",
+    "explanation": "Speaking five languages is a skill: kan (ability).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-04",
+    "level": 2,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Min bedstemor er 95 år, men hun ___ stadig læse avisen uden briller.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "kan",
+    "explanation": "Reading without glasses at 95 is about her ability: kan.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-05",
+    "level": 2,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Jeg ___ ikke åbne døren – nøglen passer ikke.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "kan",
+    "explanation": "The key does not fit, so it is impossible: kan ikke.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-06",
+    "level": 2,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Efter operationen ___ han ikke løfte noget tungt i seks uger – det har lægen forbudt.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "må",
+    "explanation": "\"Forbudt\" (forbidden) shows a ban: må ikke.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-07",
+    "level": 2,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Kan du hjælpe mig? Jeg ___ ikke finde vej til stationen.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "kan",
+    "explanation": "The speaker is unable to find the way: kan ikke.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-08",
+    "level": 2,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "I denne park ___ hunde kun gå i snor – det står på skiltet.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "må",
+    "explanation": "A rule on a sign is about permission: må kun = are only allowed to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-09",
+    "level": 3,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Vi var så trætte, at vi næsten ikke ___ holde øjnene åbne.",
+    "options": [
+      "måtte",
+      "kunne"
+    ],
+    "answer": "kunne",
+    "explanation": "Tiredness made them almost unable: kunne (ability, past).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-10",
+    "level": 2,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Da jeg var 16, ___ jeg ikke komme hjem senere end kl. 23 – det var min fars regel.",
+    "options": [
+      "måtte",
+      "kunne"
+    ],
+    "answer": "måtte",
+    "explanation": "Her father’s rule decided it: måtte ikke = was not allowed.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-11",
+    "level": 3,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Klokken er mange. Jeg ___ gå nu, ellers kommer jeg for sent.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "må",
+    "explanation": "\"Ellers kommer jeg for sent\" shows necessity: må = have to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-12",
+    "level": 2,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Det er for koldt at bade i dag, men i morgen ___ vi måske tage til stranden.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "kan",
+    "explanation": "A possibility depending on the weather: kan.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-13",
+    "level": 3,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Hun har brækket armen, så hun ___ ikke skrive i et stykke tid.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "kan",
+    "explanation": "The broken arm makes her unable to write: kan ikke.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-14",
+    "level": 2,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Min telefon er løbet tør for strøm, så jeg ___ ikke ringe til dig i aften.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "kan",
+    "explanation": "A dead phone makes calling impossible: kan ikke (not able), not a rule.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-15",
+    "level": 2,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Jeg har fået lov af min mor, så nu ___ jeg gerne tage til festen.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "må",
+    "explanation": "\"Fået lov\" (got permission) leads to \"må gerne\" (am allowed to).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-16",
+    "level": 3,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Jeg ___ ikke forstå, hvorfor hun sagde op.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "kan",
+    "explanation": "\"Jeg kan ikke forstå\" = I can’t understand – it is about the speaker’s ability to understand.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-17",
+    "level": 3,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Efter ulykken ___ han ikke huske noget.",
+    "options": [
+      "måtte",
+      "kunne"
+    ],
+    "answer": "kunne",
+    "explanation": "Memory loss is about ability: kunne ikke huske.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-18",
+    "level": 4,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Patienten ___ først spise igen, når bedøvelsen er gået ud af kroppen – det er hospitalets regel.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "må",
+    "explanation": "A hospital rule decides it: må først = is only allowed to … when.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-19",
+    "level": 3,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Vi ___ desværre ikke komme til jeres bryllup, for vi er i udlandet.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "kan",
+    "explanation": "Being abroad makes it impossible: kan ikke.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-20",
+    "level": 2,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Elevatoren er i stykker, så vi ___ desværre tage trappen.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "må",
+    "explanation": "With \"desværre\" (unfortunately) the stairs are a necessity, not an option: må = have to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-21",
+    "level": 4,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Det ___ ikke passe! Jeg har lige set ham i går.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "kan",
+    "explanation": "\"Det kan ikke passe\" is a fixed phrase: \"that can’t be true\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-22",
+    "level": 3,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Under eksamen ___ man ikke tale sammen – så bliver man smidt ud.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "må",
+    "explanation": "An exam rule with a punishment: må ikke (not allowed).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-23",
+    "level": 4,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Han løj for mig. Det ___ jeg aldrig tilgive ham.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "kan",
+    "explanation": "The speaker will never be able to forgive: kan aldrig.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maakan-24",
+    "level": 4,
+    "ruleId": "mv-maatte-kunne",
+    "prompt": "Vores køleskab er helt tomt. Vi ___ altså handle i dag.",
+    "options": [
+      "må",
+      "kan"
+    ],
+    "answer": "må",
+    "explanation": "An empty fridge makes shopping necessary: må = have to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-01",
+    "level": 2,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Det er ikke et krav, men man ___ have en cykelhjelm på.",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "bør",
+    "explanation": "\"Ikke et krav\" (not a requirement) shows advice: bør. Skal would make it compulsory.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-02",
+    "level": 2,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Ifølge loven ___ alle bilister have kørekort.",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "skal",
+    "explanation": "\"Ifølge loven\" (by law) is a real obligation: skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-03",
+    "level": 3,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Her er varmt. ___ jeg åbne vinduet for dig?",
+    "options": [
+      "Bør",
+      "Skal"
+    ],
+    "answer": "Skal",
+    "explanation": "\"Skal jeg … for dig?\" is an offer. \"Bør jeg\" would ask for advice, which does not fit \"for dig\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-04",
+    "level": 2,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Vi ___ flytte i næste måned – vi har allerede købt et hus.",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "skal",
+    "explanation": "The house is bought, so the move is a plan: skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-05",
+    "level": 3,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Ifølge avisen ___ den nye bro være Europas længste.",
+    "options": [
+      "burde",
+      "skulle"
+    ],
+    "answer": "skulle",
+    "explanation": "Passing on what the paper says is hearsay: skulle være = is said to be. \"Burde være\" would mean \"ought to be\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-06",
+    "level": 3,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Det er frivilligt at deltage i kurset, men alle nye medarbejdere ___ egentlig tage det.",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "bør",
+    "explanation": "\"Frivilligt\" (voluntary) means it is a recommendation, not a duty: bør.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-07",
+    "level": 2,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Chefen har bestemt, at alle ___ møde kl. 8 i morgen.",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "skal",
+    "explanation": "The boss has decided it, so it is an obligation: skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-08",
+    "level": 3,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Det er obligatorisk: Alle elever ___ deltage i prøven.",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "skal",
+    "explanation": "\"Obligatorisk\" (compulsory) requires skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-09",
+    "level": 3,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Jeg har hørt, at hun ___ være en fantastisk kok.",
+    "options": [
+      "burde",
+      "skulle"
+    ],
+    "answer": "skulle",
+    "explanation": "\"Jeg har hørt\" shows hearsay: skulle være = is said to be. \"Burde være\" (ought to be) makes no sense here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-10",
+    "level": 2,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Hvad ___ vi lave i aften? Har du nogen idéer?",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "skal",
+    "explanation": "Asking about plans for the evening: skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-11",
+    "level": 3,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Det er ikke forbudt at bruge mobilen ved middagsbordet, men man ___ lade være.",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "bør",
+    "explanation": "It is not forbidden, so this is only good manners: bør (ought to).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-12",
+    "level": 3,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Kontrakten er underskrevet, så nu ___ vi betale første rate den 1. maj.",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "skal",
+    "explanation": "A signed contract creates an obligation: skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-13",
+    "level": 3,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Man har ikke pligt til at stemme i Danmark, men man ___ alligevel gøre det.",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "bør",
+    "explanation": "\"Ikke pligt\" (no duty) shows a recommendation: bør.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-14",
+    "level": 2,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Ifølge køreplanen ___ toget afgå kl. 10.15 fra spor 3.",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "skal",
+    "explanation": "\"Ifølge køreplanen\" (according to the timetable) shows a fixed plan: skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-15",
+    "level": 4,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Ifølge reglerne ___ ansøgningen være modtaget senest den 15. marts.",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "skal",
+    "explanation": "A deadline in the rules is an obligation: skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-16",
+    "level": 3,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Det er ikke påkrævet at tale dansk for at få jobbet, men man ___ kunne forstå lidt.",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "bør",
+    "explanation": "\"Ikke påkrævet\" (not required) means advice only: bør.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-17",
+    "level": 2,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Min datter ___ starte i skole til august. Vi har lige købt en skoletaske.",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "skal",
+    "explanation": "Starting school in August is a fixed plan: skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-18",
+    "level": 4,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Det er ikke påbudt at bruge refleks, men fodgængere ___ have det på i mørke.",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "bør",
+    "explanation": "\"Ikke påbudt\" (not compulsory) means this is advice: bør.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-19",
+    "level": 3,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Jeg ___ til jobsamtale i morgen kl. 10.",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "skal",
+    "explanation": "An appointment at a fixed time: skal. Skal can stand without a verb of motion; bør cannot.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-20",
+    "level": 3,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "I Danmark ___ alle børn gå i skole eller modtage undervisning – det er undervisningspligt.",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "skal",
+    "explanation": "\"Undervisningspligt\" (compulsory education) is a legal duty: skal.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-21",
+    "level": 4,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Det er ikke ulovligt at køre uden lys om dagen, men man ___ alligevel tænde det.",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "bør",
+    "explanation": "It is not illegal, so turning the lights on is advice: bør.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-22",
+    "level": 3,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "___ jeg hente dig på stationen? Jeg har alligevel bilen i dag.",
+    "options": [
+      "Bør",
+      "Skal"
+    ],
+    "answer": "Skal",
+    "explanation": "An offer to help: \"Skal jeg …?\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-23",
+    "level": 4,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Ingen tvinger dig, men du ___ overveje at tage en uddannelse.",
+    "options": [
+      "bør",
+      "skal"
+    ],
+    "answer": "bør",
+    "explanation": "\"Ingen tvinger dig\" (nobody forces you) rules out an obligation: bør = ought to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-burskal-24",
+    "level": 4,
+    "ruleId": "mv-burde-skulle",
+    "prompt": "Ifølge rygterne ___ firmaet fyre 200 medarbejdere.",
+    "options": [
+      "burde",
+      "skulle"
+    ],
+    "answer": "skulle",
+    "explanation": "A rumour is hearsay: skulle (is said to be going to). \"Burde\" would be someone’s opinion that they ought to.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-01",
+    "level": 3,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Du vil ___, når du ser, hvor stor din nevø er blevet.",
+    "options": [
+      "overraskes",
+      "blive overrasket"
+    ],
+    "answer": "blive overrasket",
+    "explanation": "\"Overrasket\" is a feeling that happens to someone, so everyday Danish uses blive + participle; the s-form is rare and sounds stiff here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-02",
+    "level": 3,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Hvis du går ud uden jakke i det vejr, vil du ___.",
+    "options": [
+      "forkøles",
+      "blive forkølet"
+    ],
+    "answer": "blive forkølet",
+    "explanation": "Catching a cold is something that happens to you: \"blive forkølet\". There is no s-form \"forkøles\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-03",
+    "level": 4,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Du vil ___, hvis du forventer en stor middag – der er kun kaffe og kage.",
+    "options": [
+      "skuffes",
+      "blive skuffet"
+    ],
+    "answer": "blive skuffet",
+    "explanation": "\"Skuffet\" is a feeling that happens to someone, so everyday Danish uses blive + participle; the s-form is rare and sounds stiff here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-04",
+    "level": 4,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Din mor vil ___, når hun læser dit brev.",
+    "options": [
+      "røres",
+      "blive rørt"
+    ],
+    "answer": "blive rørt",
+    "explanation": "\"Blive rørt\" = be moved (emotionally). \"Røres\" would mean be stirred or physically touched.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-05",
+    "level": 3,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Børnene vil ___, når de ser alle gaverne.",
+    "options": [
+      "begejstres",
+      "blive begejstrede"
+    ],
+    "answer": "blive begejstrede",
+    "explanation": "\"Begejstret\" is a feeling that happens to someone, so everyday Danish uses blive + participle; the s-form is rare and sounds stiff here. Plural participle because of \"børnene\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-06",
+    "level": 4,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Dine forældre vil ___, hvis du ikke ringer, når du er kommet frem.",
+    "options": [
+      "bekymres",
+      "blive bekymrede"
+    ],
+    "answer": "blive bekymrede",
+    "explanation": "\"Bekymret\" is a feeling that happens to someone, so everyday Danish uses blive + participle; the s-form is rare and sounds stiff here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-07",
+    "level": 3,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Turister vil nemt ___ af de mange ens gader i den gamle bydel.",
+    "options": [
+      "forvirres",
+      "blive forvirrede"
+    ],
+    "answer": "blive forvirrede",
+    "explanation": "\"Forvirret\" is a feeling that happens to someone, so everyday Danish uses blive + participle; the s-form is rare and sounds stiff here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-08",
+    "level": 4,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Hun vil ___, hvis du ikke kommer til hendes fødselsdag.",
+    "options": [
+      "fornærmes",
+      "blive fornærmet"
+    ],
+    "answer": "blive fornærmet",
+    "explanation": "\"Fornærmet\" is a feeling that happens to someone, so everyday Danish uses blive + participle; the s-form is rare and sounds stiff here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-09",
+    "level": 3,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Jeg tror, du vil ___ i byen, så snart du ser den.",
+    "options": [
+      "forelskes",
+      "blive forelsket"
+    ],
+    "answer": "blive forelsket",
+    "explanation": "\"Blive forelsket (i)\" = fall in love (with). There is no s-form \"forelskes\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-10",
+    "level": 4,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Du vil ___, når du ser regningen fra håndværkeren.",
+    "options": [
+      "chokeres",
+      "blive chokeret"
+    ],
+    "answer": "blive chokeret",
+    "explanation": "\"Chokeret\" is a feeling that happens to someone, so everyday Danish uses blive + participle; the s-form is rare and sounds stiff here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-11",
+    "level": 5,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Mange ansatte vil ___, hvis de skal arbejde over hver dag.",
+    "options": [
+      "stresses",
+      "blive stressede"
+    ],
+    "answer": "blive stressede",
+    "explanation": "\"Blive stresset\" = get stressed, a state that happens to a person; \"stresses\" is not used.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-12",
+    "level": 4,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Jeg tror, at du vil ___, når du endelig får svar fra kommunen.",
+    "options": [
+      "lettes",
+      "blive lettet"
+    ],
+    "answer": "blive lettet",
+    "explanation": "\"Blive lettet\" = feel relieved. \"Lettes\" would mean be made lighter, which does not fit.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-13",
+    "level": 5,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Du vil ___ på, hvis du kommer for sent hjem igen.",
+    "options": [
+      "skændes",
+      "blive skændt"
+    ],
+    "answer": "blive skændt",
+    "explanation": "\"Blive skændt på\" = be told off. \"Skændes\" means quarrel with each other, which cannot take \"på\" like this.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-14",
+    "level": 4,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Hvis du cykler hjem i det regnvejr, vil du ___.",
+    "options": [
+      "gennemblødes",
+      "blive gennemblødt"
+    ],
+    "answer": "blive gennemblødt",
+    "explanation": "\"Blive gennemblødt\" = get soaked, something that happens to you; there is no s-form \"gennemblødes\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-15",
+    "level": 5,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Mange vil ___ over, hvor billigt det er at rejse med tog.",
+    "options": [
+      "forbløffes",
+      "blive forbløffede"
+    ],
+    "answer": "blive forbløffede",
+    "explanation": "\"Forbløffet\" (astonished) is a feeling that happens to someone, so everyday Danish uses blive + participle; the s-form is rare and sounds stiff here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-16",
+    "level": 4,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Du vil ___, når du går op ad alle trapperne til tårnet.",
+    "options": [
+      "forpustes",
+      "blive forpustet"
+    ],
+    "answer": "blive forpustet",
+    "explanation": "\"Blive forpustet\" = get out of breath; there is no s-form \"forpustes\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-17",
+    "level": 3,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Der vil altid ___ mennesker, som er uenige med dig.",
+    "options": [
+      "findes",
+      "blive fundet"
+    ],
+    "answer": "findes",
+    "explanation": "\"Der findes\" = there are / exist. \"Blive fundet\" means be found, which makes no sense here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-18",
+    "level": 3,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Vi har ikke set hinanden længe, så vi vil gerne ___ snart.",
+    "options": [
+      "mødes",
+      "blive mødt"
+    ],
+    "answer": "mødes",
+    "explanation": "\"Mødes\" = meet each other – a verb of its own, not a passive. \"Blive mødt\" would mean be met by someone.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-19",
+    "level": 4,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Mine to katte vil altid ___ om den bedste plads i sofaen.",
+    "options": [
+      "slås",
+      "blive slået"
+    ],
+    "answer": "slås",
+    "explanation": "\"Slås om\" = fight over. \"Blive slået\" means be hit or beaten, and cannot take \"om\" like this.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-20",
+    "level": 4,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Søskendene vil gerne ___ ad til skole om morgenen.",
+    "options": [
+      "følges",
+      "blive fulgt"
+    ],
+    "answer": "følges",
+    "explanation": "\"Følges ad\" = go together – a fixed s-verb. \"Blive fulgt ad\" is not Danish.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-21",
+    "level": 5,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Han skammer sig over sin bror og vil ikke ___ ved ham.",
+    "options": [
+      "kendes",
+      "blive kendt"
+    ],
+    "answer": "kendes",
+    "explanation": "\"Kendes ved\" = acknowledge, admit to knowing. \"Blive kendt\" means become famous.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-22",
+    "level": 3,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Min kæreste og jeg bor i hver sin by, men vi vil gerne ___ hver weekend.",
+    "options": [
+      "ses",
+      "blive set"
+    ],
+    "answer": "ses",
+    "explanation": "\"Ses\" = see each other. \"Blive set\" means be seen by others, which is not the point here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-23",
+    "level": 4,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Børnene vil altid ___ om, hvem der skal sidde på forsædet.",
+    "options": [
+      "skændes",
+      "blive skændt"
+    ],
+    "answer": "skændes",
+    "explanation": "\"Skændes om\" = quarrel about – an s-verb, not a passive. \"Blive skændt på\" means be told off.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-vilpas-24",
+    "level": 5,
+    "ruleId": "mv-vil-passive",
+    "prompt": "Om hundrede år vil der sikkert ___ teknologier, som vi slet ikke kan forestille os i dag.",
+    "options": [
+      "findes",
+      "blive fundet"
+    ],
+    "answer": "findes",
+    "explanation": "\"Der vil findes\" = there will exist. \"Blive fundet\" (be found) does not fit with \"der\" + new technologies.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-01",
+    "level": 3,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Kartoflerne skal ___ i 20 minutter.",
+    "options": [
+      "koges",
+      "blive kogt"
+    ],
+    "answer": "koges",
+    "explanation": "A recipe instruction: skal + s-passive. \"Skal blive kogt\" sounds clumsy in a recipe.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-02",
+    "level": 3,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Ansøgningen skal ___ senest den 1. marts.",
+    "options": [
+      "sendes",
+      "blive sendt"
+    ],
+    "answer": "sendes",
+    "explanation": "A rule with a deadline: instructions use skal + s-passive. \"Blive sendt\" is grammatical but sounds clumsy in an instruction or rule.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-03",
+    "level": 3,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Medicinen skal ___ utilgængeligt for børn.",
+    "options": [
+      "opbevares",
+      "blive opbevaret"
+    ],
+    "answer": "opbevares",
+    "explanation": "Standard instruction on a medicine label: s-passive. \"Blive opbevaret\" is grammatical but sounds clumsy in an instruction or rule.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-04",
+    "level": 3,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Skemaet skal ___ med blokbogstaver.",
+    "options": [
+      "udfyldes",
+      "blive udfyldt"
+    ],
+    "answer": "udfyldes",
+    "explanation": "How to fill in a form is an instruction: s-passive. \"Blive udfyldt\" is grammatical but sounds clumsy in an instruction or rule.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-05",
+    "level": 4,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Døren til køkkenet skal altid ___ lukket.",
+    "options": [
+      "holdes",
+      "blive holdt"
+    ],
+    "answer": "holdes",
+    "explanation": "\"Altid\" shows a general rule, so s-passive. \"Blive holdt\" is grammatical but sounds clumsy in an instruction or rule.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-06",
+    "level": 3,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Æggehviderne skal ___ stive, før sukkeret kommes i.",
+    "options": [
+      "piskes",
+      "blive pisket"
+    ],
+    "answer": "piskes",
+    "explanation": "A recipe step: s-passive (like \"kommes i\" in the same sentence). \"Blive pisket\" is grammatical but sounds clumsy in an instruction or rule.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-07",
+    "level": 4,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Affaldet skal ___ i madaffald, plast og papir.",
+    "options": [
+      "sorteres",
+      "blive sorteret"
+    ],
+    "answer": "sorteres",
+    "explanation": "A general rule about rubbish: s-passive. \"Blive sorteret\" is grammatical but sounds clumsy in an instruction or rule.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-08",
+    "level": 4,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Huslejen skal ___ senest den første i hver måned.",
+    "options": [
+      "betales",
+      "blive betalt"
+    ],
+    "answer": "betales",
+    "explanation": "A repeated obligation (\"hver måned\"): s-passive. \"Blive betalt\" is grammatical but sounds clumsy in an instruction or rule.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-09",
+    "level": 4,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Cyklen skal ___ i stativet, ikke foran indgangen.",
+    "options": [
+      "stilles",
+      "blive stillet"
+    ],
+    "answer": "stilles",
+    "explanation": "A house rule about where things go: s-passive. \"Blive stillet\" is grammatical but sounds clumsy in an instruction or rule.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-10",
+    "level": 5,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Ifølge reglerne skal alle fejl ___ til lederen med det samme.",
+    "options": [
+      "indberettes",
+      "blive indberettet"
+    ],
+    "answer": "indberettes",
+    "explanation": "\"Ifølge reglerne\" + \"alle fejl\": a general rule, so s-passive. \"Blive indberettet\" is grammatical but sounds clumsy in an instruction or rule.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-11",
+    "level": 4,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Tøjet skal ___ ved 40 grader.",
+    "options": [
+      "vaskes",
+      "blive vasket"
+    ],
+    "answer": "vaskes",
+    "explanation": "A washing instruction: s-passive. \"Blive vasket\" is grammatical but sounds clumsy in an instruction or rule.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-12",
+    "level": 5,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Formularen skal ___ af begge forældre.",
+    "options": [
+      "underskrives",
+      "blive underskrevet"
+    ],
+    "answer": "underskrives",
+    "explanation": "A requirement for a form: s-passive, even with an agent (af begge forældre). \"Blive underskrevet\" is grammatical but sounds clumsy in an instruction or rule.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-13",
+    "level": 4,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Vi skal ___ i morgen kl. 10 ved stationen.",
+    "options": [
+      "ses",
+      "blive set"
+    ],
+    "answer": "ses",
+    "explanation": "\"Ses\" = see each other / meet. \"Blive set\" would mean be seen by others.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-14",
+    "level": 5,
+    "ruleId": "mv-skal-passive",
+    "prompt": "De to bedste hold skal ___ i finalen på søndag.",
+    "options": [
+      "mødes",
+      "blive mødt"
+    ],
+    "answer": "mødes",
+    "explanation": "\"Mødes\" = meet each other (here: play against each other) – not a passive. \"Blive mødt\" would mean be met by someone.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-15",
+    "level": 4,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Børnene skal ___ ad til skole, så ingen går alene.",
+    "options": [
+      "følges",
+      "blive fulgt"
+    ],
+    "answer": "følges",
+    "explanation": "\"Følges ad\" = go together, a fixed s-verb. \"Blive fulgt ad\" is not Danish.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-16",
+    "level": 3,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Du skal ikke ___, hvis hunden gør – den er helt ufarlig.",
+    "options": [
+      "forskrækkes",
+      "blive forskrækket"
+    ],
+    "answer": "blive forskrækket",
+    "explanation": "\"Du skal ikke blive forskrækket\" = don’t be frightened. A feeling takes blive; \"forskrækkes\" is not everyday Danish.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-17",
+    "level": 3,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Du skal ikke ___, hvis du ikke får jobbet – der var 200 ansøgere.",
+    "options": [
+      "skuffes",
+      "blive skuffet"
+    ],
+    "answer": "blive skuffet",
+    "explanation": "\"Skuffet\" is a feeling that happens to someone, so everyday Danish uses blive + participle; the s-form is rare and sounds stiff here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-18",
+    "level": 4,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Du skal ikke ___, hvis han ikke hilser – han er bare genert.",
+    "options": [
+      "fornærmes",
+      "blive fornærmet"
+    ],
+    "answer": "blive fornærmet",
+    "explanation": "\"Fornærmet\" is a feeling that happens to someone, so everyday Danish uses blive + participle; the s-form is rare and sounds stiff here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-19",
+    "level": 4,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Tag en varm jakke på – du skal jo ikke ___ lige før ferien.",
+    "options": [
+      "forkøles",
+      "blive forkølet"
+    ],
+    "answer": "blive forkølet",
+    "explanation": "Catching a cold is \"blive forkølet\"; there is no s-form \"forkøles\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-20",
+    "level": 4,
+    "ruleId": "mv-skal-passive",
+    "prompt": "I skal ikke ___, hvis toget er lidt forsinket – det er normalt på den strækning.",
+    "options": [
+      "overraskes",
+      "blive overraskede"
+    ],
+    "answer": "blive overraskede",
+    "explanation": "\"I skal ikke blive overraskede, hvis …\" = don’t be surprised if … – a fixed pattern with blive.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-21",
+    "level": 5,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Du skal ikke ___ af alle de fine ord i brevet – det betyder bare, at du skal betale.",
+    "options": [
+      "forvirres",
+      "blive forvirret"
+    ],
+    "answer": "blive forvirret",
+    "explanation": "\"Forvirret\" is a feeling that happens to someone, so everyday Danish uses blive + participle; the s-form is rare and sounds stiff here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-22",
+    "level": 4,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Du skal ikke ___, hvis børnene larmer lidt – de er bare glade.",
+    "options": [
+      "irriteres",
+      "blive irriteret"
+    ],
+    "answer": "blive irriteret",
+    "explanation": "\"Irriteret\" is a feeling that happens to someone, so everyday Danish uses blive + participle; the s-form is rare and sounds stiff here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-23",
+    "level": 5,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Du skal ikke ___ i din nye kollega – det giver kun problemer.",
+    "options": [
+      "forelskes",
+      "blive forelsket"
+    ],
+    "answer": "blive forelsket",
+    "explanation": "\"Blive forelsket i\" = fall in love with. There is no s-form.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-skalpas-24",
+    "level": 5,
+    "ruleId": "mv-skal-passive",
+    "prompt": "Husk solcreme – du skal jo ikke ___ på første feriedag.",
+    "options": [
+      "solbrændes",
+      "blive solbrændt"
+    ],
+    "answer": "blive solbrændt",
+    "explanation": "\"Blive solbrændt\" = get sunburnt, something that happens to you; there is no s-form \"solbrændes\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-01",
+    "level": 3,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Sofaen kan ___ ud til en dobbeltseng.",
+    "options": [
+      "slås",
+      "blive slået"
+    ],
+    "answer": "slås",
+    "explanation": "What the sofa can do is a property, so kan + s-passive: \"kan slås ud\" = can be folded out. \"Blive slået\" is grammatical but sounds unnatural when you describe an option or a property.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-02",
+    "level": 3,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Billetter kan ___ på nettet eller i døren.",
+    "options": [
+      "købes",
+      "blive købt"
+    ],
+    "answer": "købes",
+    "explanation": "An option for the customer: kan + s-passive. \"Blive købt\" is grammatical but sounds unnatural when you describe an option or a property.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-03",
+    "level": 3,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Kjolen kan ___ i maskine ved 30 grader.",
+    "options": [
+      "vaskes",
+      "blive vasket"
+    ],
+    "answer": "vaskes",
+    "explanation": "Washing instructions describe a property: s-passive. \"Blive vasket\" is grammatical but sounds unnatural when you describe an option or a property.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-04",
+    "level": 4,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Opgaven kan ___ på flere forskellige måder.",
+    "options": [
+      "løses",
+      "blive løst"
+    ],
+    "answer": "løses",
+    "explanation": "A general possibility: s-passive. \"Blive løst\" is grammatical but sounds unnatural when you describe an option or a property.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-05",
+    "level": 3,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Stolene kan ___, så de ikke fylder så meget.",
+    "options": [
+      "stables",
+      "blive stablet"
+    ],
+    "answer": "stables",
+    "explanation": "A property of the chairs (they are stackable): s-passive. \"Blive stablet\" is grammatical but sounds unnatural when you describe an option or a property.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-06",
+    "level": 4,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Suppen kan sagtens ___ dagen før og varmes op.",
+    "options": [
+      "laves",
+      "blive lavet"
+    ],
+    "answer": "laves",
+    "explanation": "A tip in a recipe: s-passive, just like \"varmes op\". \"Blive lavet\" is grammatical but sounds unnatural when you describe an option or a property.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-07",
+    "level": 4,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Bilen kan ___ op på en halv time.",
+    "options": [
+      "lades",
+      "blive ladet"
+    ],
+    "answer": "lades",
+    "explanation": "A technical property of the car: s-passive. \"Blive ladet\" is grammatical but sounds unnatural when you describe an option or a property.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-08",
+    "level": 4,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Bordet kan ___ ud, når vi får gæster.",
+    "options": [
+      "trækkes",
+      "blive trukket"
+    ],
+    "answer": "trækkes",
+    "explanation": "The table is extendable – a property: s-passive. \"Blive trukket\" is grammatical but sounds unnatural when you describe an option or a property.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-09",
+    "level": 5,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Konflikten kan kun ___, hvis begge parter er villige til at give sig.",
+    "options": [
+      "bilægges",
+      "blive bilagt"
+    ],
+    "answer": "bilægges",
+    "explanation": "A general statement of what is possible: s-passive. \"Bilægge\" (settle) is formal and nearly always used in the s-form; \"blive bilagt\" sounds unnatural.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-10",
+    "level": 4,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Ordet \"lige\" kan ___ på flere måder.",
+    "options": [
+      "forstås",
+      "blive forstået"
+    ],
+    "answer": "forstås",
+    "explanation": "\"Kan forstås på flere måder\" is the fixed expression for a general possibility. \"Blive forstået\" is grammatical but unnatural here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-11",
+    "level": 5,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Ansøgningsskemaet kan ___ fra kommunens hjemmeside.",
+    "options": [
+      "downloades",
+      "blive downloadet"
+    ],
+    "answer": "downloades",
+    "explanation": "An option for the reader: s-passive. \"Blive downloadet\" is grammatical but sounds unnatural when you describe an option or a property.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-12",
+    "level": 4,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Resterne kan ___ i fryseren i op til tre måneder.",
+    "options": [
+      "gemmes",
+      "blive gemt"
+    ],
+    "answer": "gemmes",
+    "explanation": "Storage advice: s-passive. \"Blive gemt\" is grammatical but sounds unnatural when you describe an option or a property.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-13",
+    "level": 3,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Pas på hunden – du kan ___, hvis du stikker hånden ind gennem hegnet.",
+    "options": [
+      "bides",
+      "blive bidt"
+    ],
+    "answer": "blive bidt",
+    "explanation": "A risk that might happen to you: kan blive + participle. \"Kan bides\" is not natural.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-14",
+    "level": 3,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Gå ikke over for rødt – du kan ___ af en bil.",
+    "options": [
+      "påkøres",
+      "blive påkørt"
+    ],
+    "answer": "blive påkørt",
+    "explanation": "A warning about something that might happen to you: kan blive.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-15",
+    "level": 3,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Sid stille, ellers kan du ___ af en hveps.",
+    "options": [
+      "stikkes",
+      "blive stukket"
+    ],
+    "answer": "blive stukket",
+    "explanation": "A risk of one event happening to you: kan blive stukket.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-16",
+    "level": 4,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Hvis du ikke tjekker prisen først, kan du nemt ___.",
+    "options": [
+      "snydes",
+      "blive snydt"
+    ],
+    "answer": "blive snydt",
+    "explanation": "A risk to a person in a specific situation: \"kan blive snydt\" (be cheated).",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-17",
+    "level": 4,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Spillerne kan ___, hvis de ikke varmer ordentligt op.",
+    "options": [
+      "skades",
+      "blive skadet"
+    ],
+    "answer": "blive skadet",
+    "explanation": "A risk of injury that might happen to the players: kan blive skadet.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-18",
+    "level": 3,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Tag en hue på, ellers kan du ___.",
+    "options": [
+      "forkøles",
+      "blive forkølet"
+    ],
+    "answer": "blive forkølet",
+    "explanation": "\"Blive forkølet\" = catch a cold; the s-form does not exist.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-19",
+    "level": 4,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Vi kan ___ på grund af sneen, så vent ikke med maden.",
+    "options": [
+      "forsinkes",
+      "blive forsinkede"
+    ],
+    "answer": "blive forsinkede",
+    "explanation": "Something that might happen to us on the way: \"kan blive forsinkede\". Plural participle after \"vi\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-20",
+    "level": 4,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Du kan ___ af bolden, hvis du står så tæt på banen.",
+    "options": [
+      "rammes",
+      "blive ramt"
+    ],
+    "answer": "blive ramt",
+    "explanation": "A risk to you as a spectator, one event: kan blive ramt.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-21",
+    "level": 5,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Hun kan godt ___, hvis man glemmer hendes fødselsdag.",
+    "options": [
+      "fornærmes",
+      "blive fornærmet"
+    ],
+    "answer": "blive fornærmet",
+    "explanation": "\"Fornærmet\" is a feeling that happens to someone, so everyday Danish uses blive + participle; the s-form is rare and sounds stiff here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-22",
+    "level": 4,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Du kan godt ___, når du ser prisen – den er meget højere end sidste år.",
+    "options": [
+      "overraskes",
+      "blive overrasket"
+    ],
+    "answer": "blive overrasket",
+    "explanation": "\"Overrasket\" is a feeling that happens to someone, so everyday Danish uses blive + participle; the s-form is rare and sounds stiff here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-23",
+    "level": 5,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Gæsterne kan ___, hvis skiltningen ikke er tydelig.",
+    "options": [
+      "forvirres",
+      "blive forvirrede"
+    ],
+    "answer": "blive forvirrede",
+    "explanation": "\"Forvirret\" is a feeling that happens to someone, so everyday Danish uses blive + participle; the s-form is rare and sounds stiff here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-kanpas-24",
+    "level": 4,
+    "ruleId": "mv-kan-passive",
+    "prompt": "Du kan ___ af en flåt, når du går i skoven.",
+    "options": [
+      "bides",
+      "blive bidt"
+    ],
+    "answer": "blive bidt",
+    "explanation": "A risk that might happen to you in the forest: kan blive bidt.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-01",
+    "level": 3,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Når det er så varmt, må planterne ___ hver eneste dag.",
+    "options": [
+      "vandes",
+      "blive vandet"
+    ],
+    "answer": "vandes",
+    "explanation": "A repeated necessary action (\"hver eneste dag\"): må + s-passive. \"Blive vandet\" is grammatical but sounds heavy in a general rule or routine.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-02",
+    "level": 3,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Reglerne må ___, også selvom man er uenig i dem.",
+    "options": [
+      "følges",
+      "blive fulgt"
+    ],
+    "answer": "følges",
+    "explanation": "A general rule: s-passive. \"Må blive fulgt\" sounds heavy here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-03",
+    "level": 4,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Fisk må ___ i køleskab og spises inden for to dage.",
+    "options": [
+      "opbevares",
+      "blive opbevaret"
+    ],
+    "answer": "opbevares",
+    "explanation": "General storage advice: s-passive, like \"spises\" later in the sentence. \"Blive opbevaret\" is grammatical but sounds heavy in a general rule or routine.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-04",
+    "level": 4,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Den slags fejl må altid ___ til chefen med det samme.",
+    "options": [
+      "rapporteres",
+      "blive rapporteret"
+    ],
+    "answer": "rapporteres",
+    "explanation": "\"Altid\" + \"den slags\" make it a general rule: s-passive. \"Blive rapporteret\" is grammatical but sounds heavy in a general rule or routine.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-05",
+    "level": 4,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Når man bor i lejlighed, må affaldet ___ ned i containeren i gården.",
+    "options": [
+      "bæres",
+      "blive båret"
+    ],
+    "answer": "bæres",
+    "explanation": "A routine necessity for anyone living in a flat: s-passive. \"Blive båret\" is grammatical but sounds heavy in a general rule or routine.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-06",
+    "level": 4,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Gamle batterier må ___ i en særlig beholder, ikke i skraldespanden.",
+    "options": [
+      "afleveres",
+      "blive afleveret"
+    ],
+    "answer": "afleveres",
+    "explanation": "A general rule about batteries: s-passive. \"Blive afleveret\" is grammatical but sounds heavy in a general rule or routine.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-07",
+    "level": 5,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "I et demokrati må mindretallets rettigheder altid ___.",
+    "options": [
+      "respekteres",
+      "blive respekteret"
+    ],
+    "answer": "respekteres",
+    "explanation": "A general principle (\"altid\"): s-passive. \"Blive respekteret\" is grammatical but sounds heavy in a general rule or routine.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-08",
+    "level": 4,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Hunden må ___ tre gange om dagen, ellers bliver den urolig.",
+    "options": [
+      "luftes",
+      "blive luftet"
+    ],
+    "answer": "luftes",
+    "explanation": "A repeated routine (\"tre gange om dagen\"): s-passive. \"Blive luftet\" is grammatical but sounds heavy in a general rule or routine.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-09",
+    "level": 4,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Køkkenknivene må ___ i hånden – de tåler ikke opvaskemaskine.",
+    "options": [
+      "vaskes",
+      "blive vasket"
+    ],
+    "answer": "vaskes",
+    "explanation": "A care instruction (they cannot go in the dishwasher, so they must be washed by hand): s-passive. \"Blive vasket\" is grammatical but sounds heavy in an instruction.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-10",
+    "level": 4,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "En ny medarbejder må altid ___ grundigt, før hun arbejder alene.",
+    "options": [
+      "oplæres",
+      "blive oplært"
+    ],
+    "answer": "oplæres",
+    "explanation": "\"Altid\" + \"en ny medarbejder\" (any new employee) is a general rule: s-passive. \"Blive oplært\" is grammatical but sounds heavy in a general rule or routine.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-11",
+    "level": 5,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Fryseren må ___ mindst en gang om året, ellers bruger den for meget strøm.",
+    "options": [
+      "afrimes",
+      "blive afrimet"
+    ],
+    "answer": "afrimes",
+    "explanation": "A repeated maintenance task (\"mindst en gang om året\"): s-passive, like an instruction in a manual. \"Blive afrimet\" is grammatical but sounds heavy in a general rule or routine.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-12",
+    "level": 3,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Vi må ___ snart igen – det er alt for længe siden!",
+    "options": [
+      "ses",
+      "blive set"
+    ],
+    "answer": "ses",
+    "explanation": "\"Ses\" = see each other. \"Blive set\" would mean be seen by others.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-13",
+    "level": 4,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Vi må ___ og tale om det i ro og mag.",
+    "options": [
+      "mødes",
+      "blive mødt"
+    ],
+    "answer": "mødes",
+    "explanation": "\"Mødes\" = meet each other, a verb of its own – not a passive. \"Blive mødt\" is grammatical but sounds heavy in a general rule or routine.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-14",
+    "level": 5,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Lovens krav må ___ af alle virksomheder, store som små.",
+    "options": [
+      "overholdes",
+      "blive overholdt"
+    ],
+    "answer": "overholdes",
+    "explanation": "A general requirement for all companies: s-passive. \"Blive overholdt\" is grammatical but sounds heavy in a general rule or routine.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-15",
+    "level": 4,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Brugte sprøjter må altid ___ i en sikker beholder.",
+    "options": [
+      "smides",
+      "blive smidt"
+    ],
+    "answer": "smides",
+    "explanation": "A safety rule (\"altid\"): s-passive. \"Blive smidt\" is grammatical but sounds heavy in a general rule or routine.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-16",
+    "level": 3,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Hver gang man har brugt værktøjet, må det ___ på plads igen.",
+    "options": [
+      "lægges",
+      "blive lagt"
+    ],
+    "answer": "lægges",
+    "explanation": "\"Hver gang\" shows a repeated routine: s-passive. \"Blive lagt\" is grammatical but sounds heavy in a general rule or routine.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-17",
+    "level": 3,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Du må ikke ___, men jeg kan ikke komme til din fest.",
+    "options": [
+      "fornærmes",
+      "blive fornærmet"
+    ],
+    "answer": "blive fornærmet",
+    "explanation": "\"Du må ikke blive fornærmet, men …\" = please don’t be offended, but … A feeling takes blive.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-18",
+    "level": 3,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "I må ikke ___, når I hører larmen – det er bare en øvelse.",
+    "options": [
+      "forskrækkes",
+      "blive forskrækkede"
+    ],
+    "answer": "blive forskrækkede",
+    "explanation": "\"Forskrækket\" is a feeling that happens to someone, so everyday Danish uses blive + participle; the s-form is rare and sounds stiff here. Plural participle after \"I\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-19",
+    "level": 4,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Du må ikke ___, hvis du ikke består første gang – det gør mange ikke.",
+    "options": [
+      "skuffes",
+      "blive skuffet"
+    ],
+    "answer": "blive skuffet",
+    "explanation": "\"Skuffet\" is a feeling that happens to someone, so everyday Danish uses blive + participle; the s-form is rare and sounds stiff here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-20",
+    "level": 4,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Du må ikke ___ af alle papirerne – jeg hjælper dig med at udfylde dem.",
+    "options": [
+      "forvirres",
+      "blive forvirret"
+    ],
+    "answer": "blive forvirret",
+    "explanation": "\"Forvirret\" is a feeling that happens to someone, so everyday Danish uses blive + participle; the s-form is rare and sounds stiff here.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-21",
+    "level": 4,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Hun må endelig ikke ___ lige før sin eksamen, så hun holder sig fra syge venner.",
+    "options": [
+      "forkøles",
+      "blive forkølet"
+    ],
+    "answer": "blive forkølet",
+    "explanation": "\"Blive forkølet\" = catch a cold; the s-form does not exist.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-22",
+    "level": 5,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Du må ikke ___ på ham – han har haft en hård dag.",
+    "options": [
+      "irriteres",
+      "blive irriteret"
+    ],
+    "answer": "blive irriteret",
+    "explanation": "\"Blive irriteret på nogen\" = get annoyed with someone. A feeling takes blive.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-23",
+    "level": 5,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "Han må ikke ___ på arbejdet, for så kan han ikke koncentrere sig.",
+    "options": [
+      "stresses",
+      "blive stresset"
+    ],
+    "answer": "blive stresset",
+    "explanation": "\"Blive stresset\" = get stressed, a state; \"stresses\" is not used.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maapas-24",
+    "level": 5,
+    "ruleId": "mv-maa-passive-necessity",
+    "prompt": "I må ikke ___, hvis prisen er højere end ventet – det skyldes de nye afgifter.",
+    "options": [
+      "overraskes",
+      "blive overraskede"
+    ],
+    "answer": "blive overraskede",
+    "explanation": "\"I må ikke blive overraskede, hvis …\" = don’t be surprised if … – a reaction, so blive.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-01",
+    "level": 3,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Der må ikke ___ på hospitalets område.",
+    "options": [
+      "ryges",
+      "ryge",
+      "blive røget"
+    ],
+    "answer": "ryges",
+    "explanation": "\"Der må ikke ryges\" (no smoking): impersonal \"der\" + a rule takes the s-passive. \"Ryge\" has no subject to do it, and \"blive røget\" is not used in rules.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-02",
+    "level": 3,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Patienterne må ikke ___ på stuerne.",
+    "options": [
+      "ryges",
+      "ryge",
+      "blive røget"
+    ],
+    "answer": "ryge",
+    "explanation": "The patients are the ones who smoke, so the active infinitive. \"Patienterne må ikke ryges\" would mean someone smokes the patients!",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-03",
+    "level": 3,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Mobiltelefoner må ikke ___ under eksamen.",
+    "options": [
+      "bruges",
+      "bruge",
+      "blive brugt"
+    ],
+    "answer": "bruges",
+    "explanation": "The phones are what is used: s-passive. Rules do not use \"blive brugt\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-04",
+    "level": 3,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Eleverne må gerne ___ ordbog til den skriftlige prøve.",
+    "options": [
+      "bruges",
+      "bruge",
+      "blive brugt"
+    ],
+    "answer": "bruge",
+    "explanation": "The students do the using, so the active infinitive \"bruge\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-05",
+    "level": 4,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Her må ikke ___ – det er en brandvej.",
+    "options": [
+      "parkeres",
+      "parkere",
+      "blive parkeret"
+    ],
+    "answer": "parkeres",
+    "explanation": "A sign with \"her\" and no person as subject: s-passive, \"Her må ikke parkeres\". \"Blive parkeret\" is grammatical but is not used in rules and signs.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-06",
+    "level": 4,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Barnevogne må ikke ___ med ind i butikken.",
+    "options": [
+      "tages",
+      "tage",
+      "blive taget"
+    ],
+    "answer": "tages",
+    "explanation": "Prams are taken in by someone, so s-passive in this rule. \"Blive taget\" is grammatical but is not used in rules and signs.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-07",
+    "level": 4,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Gæsterne må gerne ___ deres egen vin med.",
+    "options": [
+      "tages",
+      "tage",
+      "blive taget"
+    ],
+    "answer": "tage",
+    "explanation": "The guests bring the wine themselves: active \"tage … med\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-08",
+    "level": 4,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Billederne på hjemmesiden må ikke ___ uden tilladelse.",
+    "options": [
+      "kopieres",
+      "kopiere",
+      "blive kopieret"
+    ],
+    "answer": "kopieres",
+    "explanation": "The pictures are what is copied: s-passive in a rule. \"Blive kopieret\" is grammatical but is not used in rules and signs.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-09",
+    "level": 4,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Man må ikke ___ billederne uden fotografens tilladelse.",
+    "options": [
+      "kopieres",
+      "kopiere",
+      "blive kopieret"
+    ],
+    "answer": "kopiere",
+    "explanation": "\"Man\" is the one who copies, and \"billederne\" is the object: active infinitive.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-10",
+    "level": 3,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Medicinen må ikke ___ sammen med alkohol.",
+    "options": [
+      "tages",
+      "tage",
+      "blive taget"
+    ],
+    "answer": "tages",
+    "explanation": "The medicine is what is taken: s-passive, as on a medicine label. \"Blive taget\" is grammatical but is not used in rules and signs.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-11",
+    "level": 3,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Du må ikke ___ medicinen sammen med alkohol.",
+    "options": [
+      "tages",
+      "tage",
+      "blive taget"
+    ],
+    "answer": "tage",
+    "explanation": "\"Du\" takes the medicine: active infinitive with \"medicinen\" as object.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-12",
+    "level": 4,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Bøgerne på hylden må gerne ___ med hjem.",
+    "options": [
+      "lånes",
+      "låne",
+      "blive lånt"
+    ],
+    "answer": "lånes",
+    "explanation": "The books are what is borrowed: s-passive for a permission. \"Blive lånt\" is grammatical but is not used in rules and signs.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-13",
+    "level": 4,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Rummet må kun ___ af personalet.",
+    "options": [
+      "benyttes",
+      "benytte",
+      "blive benyttet"
+    ],
+    "answer": "benyttes",
+    "explanation": "The room is used by the staff (\"af personalet\" = agent): s-passive in a rule. \"Blive benyttet\" is grammatical but is not used in rules and signs.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-14",
+    "level": 5,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Græsplænen må ikke ___.",
+    "options": [
+      "betrædes",
+      "betræde",
+      "blive betrådt"
+    ],
+    "answer": "betrædes",
+    "explanation": "The classic sign \"Græsplænen må ikke betrædes\" (keep off the grass): s-passive. \"Blive betrådt\" is grammatical but is not used in rules and signs.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-15",
+    "level": 4,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Der må gerne ___ i haven, bare I slukker grillen bagefter.",
+    "options": [
+      "grilles",
+      "grille",
+      "blive grillet"
+    ],
+    "answer": "grilles",
+    "explanation": "Impersonal \"der\" + permission: s-passive, \"Der må gerne grilles\". \"Blive grillet\" is grammatical but is not used in rules and signs.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-16",
+    "level": 3,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Børn under 12 år må ikke ___ alene i svømmehallen.",
+    "options": [
+      "bades",
+      "bade",
+      "blive badet"
+    ],
+    "answer": "bade",
+    "explanation": "The children do the swimming: active infinitive.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-17",
+    "level": 4,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Der må ikke ___ i søen, fordi vandet er forurenet.",
+    "options": [
+      "bades",
+      "bade",
+      "blive badet"
+    ],
+    "answer": "bades",
+    "explanation": "Impersonal \"der\" + a ban: s-passive, \"Der må ikke bades\". \"Blive badet\" is grammatical but is not used in rules and signs.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-18",
+    "level": 4,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Cykler må ikke ___ op ad husmuren.",
+    "options": [
+      "stilles",
+      "stille",
+      "blive stillet"
+    ],
+    "answer": "stilles",
+    "explanation": "The bikes are what is put there: s-passive in a house rule. \"Blive stillet\" is grammatical but is not used in rules and signs.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-19",
+    "level": 4,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Beboerne må ikke ___ barnevogne i opgangen.",
+    "options": [
+      "stilles",
+      "stille",
+      "blive stillet"
+    ],
+    "answer": "stille",
+    "explanation": "The residents do the putting, with \"barnevogne\" as object: active.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-20",
+    "level": 3,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Affald må ikke ___ i naturen.",
+    "options": [
+      "smides",
+      "smide",
+      "blive smidt"
+    ],
+    "answer": "smides",
+    "explanation": "Rubbish is what is thrown: s-passive in a ban. \"Blive smidt\" is grammatical but is not used in rules and signs.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-21",
+    "level": 4,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Opgaven må gerne ___ i hånden.",
+    "options": [
+      "skrives",
+      "skrive",
+      "blive skrevet"
+    ],
+    "answer": "skrives",
+    "explanation": "The assignment is what is written: s-passive for a permission. \"Blive skrevet\" is grammatical but is not used in rules and signs.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-22",
+    "level": 5,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Lejlighederne i boligforeningen må ikke ___ ud til turister.",
+    "options": [
+      "lejes",
+      "leje",
+      "blive lejet"
+    ],
+    "answer": "lejes",
+    "explanation": "The flats are what is rented out: s-passive, \"må ikke lejes ud\". \"Blive lejet\" is grammatical but is not used in rules and signs.",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-23",
+    "level": 5,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "Lejerne må ikke ___ deres lejlighed ud til turister.",
+    "options": [
+      "lejes",
+      "leje",
+      "blive lejet"
+    ],
+    "answer": "leje",
+    "explanation": "The tenants rent out their flat (object): active \"leje … ud\".",
+    "reviewed": false
+  },
+  {
+    "id": "mv-maaperm-24",
+    "level": 5,
+    "ruleId": "mv-maa-passive-permission",
+    "prompt": "I vores by må fyrværkeri kun ___ nytårsaften.",
+    "options": [
+      "affyres",
+      "affyre",
+      "blive affyret"
+    ],
+    "answer": "affyres",
+    "explanation": "Fireworks are what is set off: s-passive in a rule. \"Blive affyret\" is grammatical but is not used in rules and signs.",
+    "reviewed": false
+  }
+]
