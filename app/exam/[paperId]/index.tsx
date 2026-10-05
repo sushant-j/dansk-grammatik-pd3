@@ -5,9 +5,10 @@ import { PART_MINUTES, PART_NAMES, type ExamPart, type ReadingPaper } from '../.
 import {
   attemptsFor,
   bestTotal,
-  deadline,
   discardDraft,
   draftKey,
+  isPaused,
+  remainingMs,
   startDraft,
   useAttempts,
   type ExamMode,
@@ -59,8 +60,7 @@ function Overview({ paper }: { paper: ReadingPaper }) {
 
   const partCard = (part: ExamPart) => {
     const draft = drafts[draftKey(paper.id, part)];
-    const end = draft ? deadline(draft) : null;
-    const left = end !== null ? end - Date.now() : null;
+    const left = draft ? remainingMs(draft, Date.now()) : null;
     const detail =
       part === 'lf1'
         ? `Delprøve 1 · ${paper.lf1.theme} · ${paper.lf1.questions.length} short answers`
@@ -79,7 +79,9 @@ function Overview({ paper }: { paper: ReadingPaper }) {
             <Txt variant="body" color={t.c.textMuted}>
               {draft.mode === 'exam'
                 ? left !== null && left > 0
-                  ? `Exam in progress — ${formatClock(left)} left.`
+                  ? isPaused(draft)
+                    ? `Paused · ${formatClock(left)} left`
+                    : `Exam in progress — ${formatClock(left)} left.`
                   : 'Exam in progress — time is up; it will be handed in when you open it.'
                 : `Practice in progress — ${Object.values(draft.answers).filter((v) => v.trim()).length} answered.`}
             </Txt>

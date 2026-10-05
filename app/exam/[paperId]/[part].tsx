@@ -4,9 +4,12 @@ import { ActivityIndicator, Pressable, ScrollView, Text, View } from 'react-nati
 import type { ExamPart, InsertTask, Lf2Task, ReadingPaper } from '../../../src/content/exams/types';
 import { PART_NAMES } from '../../../src/content/exams/types';
 import {
-  deadline,
   draftKey,
+  isPaused,
   markChecked,
+  pauseDraft,
+  remainingMs,
+  resumeDraft,
   setAnswer,
   startDraft,
   submitDraft,
@@ -16,7 +19,7 @@ import {
 } from '../../../src/exam/attemptStore';
 import { lf2ItemId, partItemIds } from '../../../src/exam/grade';
 import { usePaper } from '../../../src/exam/papers';
-import { Countdown, useNow } from '../../../src/ui/exam/Clock';
+import { Countdown, formatClock, useNow } from '../../../src/ui/exam/Clock';
 import { ChoiceItem, InsertPicker, Lf1Item } from '../../../src/ui/exam/items';
 import { PassageBlocks, PassageTitle } from '../../../src/ui/exam/Passage';
 import { ReadingLayout, useIsWide, type Pane } from '../../../src/ui/exam/ReadingLayout';
@@ -99,14 +102,17 @@ function Desk({
   const sectionY = useRef<Record<number, number>>({});
 
   const practice = draft.mode === 'practice';
-  const end = deadline(draft);
-  const now = useNow(end !== null);
-  const remaining = end === null ? null : end - now;
+  const paused = isPaused(draft);
+  // The clock only ticks while it is running. Right after a resume `now` may
+  // still hold the time of its last tick, earlier than the real time, so for
+  // that one render `remaining` can only be overstated — it never expires early.
+  const now = useNow(!practice && !paused);
+  const remaining = remainingMs(draft, now);
 
-  // Time's up: hand the paper in, as the invigilator would.
+  // Time's up: hand the paper in, as the invigilator would. A paused clock never runs out.
   useEffect(() => {
-    if (remaining !== null && remaining <= 0) onFinish();
-  }, [remaining, onFinish]);
+    if (!paused && remaining !== null && remaining <= 0) onFinish();
+  }, [paused, remaining, onFinish]);
 
   const ids = useMemo(() => partItemIds(paper, part), [paper, part]);
   const answered = ids.filter((id) => (draft.answers[id] ?? '').trim()).length;
@@ -154,6 +160,14 @@ function Desk({
           </Txt>
         </View>
         {remaining !== null ? <Countdown remaining={remaining} /> : null}
+        {remaining !== null ? (
+          <Button
+            label={paused ? 'Resume' : 'Pause'}
+            tone="ghost"
+            onPress={() => (paused ? resumeDraft(paper.id, part) : pauseDraft(paper.id, part))}
+            style={{ paddingVertical: t.space(2), paddingHorizontal: t.space(4) }}
+          />
+        ) : null}
         <Button label="Hand in" onPress={() => setConfirming(true)} style={{ paddingVertical: t.space(2), paddingHorizontal: t.space(4) }} />
       </View>
       {part === 'lf2' ? (
@@ -444,7 +458,25 @@ function Desk({
       pane={pane}
       onPaneChange={setPane}
       questionsBadge={`${answered}/${ids.length}`}
+      cover={paused && remaining !== null ? <PausedPanel remaining={remaining} onResume={() => resumeDraft(paper.id, part)} /> : undefined}
     />
+  );
+}
+
+/** What stands in for the paper while the clock is stopped. */
+function PausedPanel({ remaining, onResume }: { remaining: number; onResume: () => void }) {
+  const t = useTheme();
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', padding: t.space(6) }}>
+      <Card tone="sunken" style={{ width: '100%', maxWidth: 440, padding: t.space(6), gap: t.space(3) }}>
+        <Txt variant="title">{`Paused — the clock is stopped at ${formatClock(remaining)}`}</Txt>
+        <Txt variant="body" color={t.c.textMuted} style={{ lineHeight: 22 }}>
+          The paper is hidden while the clock is stopped, so a break doesn’t become extra reading time. Your answers are
+          saved, and it stays paused if you leave — pick up where you were whenever you’re ready.
+        </Txt>
+        <Button label="Resume" onPress={onResume} style={{ marginTop: t.space(2) }} />
+      </Card>
+    </View>
   );
 }
 

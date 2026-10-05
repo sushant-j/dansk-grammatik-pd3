@@ -29,6 +29,7 @@ export function ReadingLayout({
   pane,
   onPaneChange,
   questionsBadge,
+  cover,
 }: {
   /** Sticky bar above both panes: title, timer, submit. */
   top: React.ReactNode;
@@ -41,6 +42,11 @@ export function ReadingLayout({
   onPaneChange: (p: Pane) => void;
   /** e.g. "7/15", shown on the Opgaver switch. */
   questionsBadge?: string;
+  /**
+   * Shown in place of both panes (e.g. while the exam is paused). The panes
+   * stay mounted underneath, so scroll positions survive.
+   */
+  cover?: React.ReactNode;
 }) {
   const t = useTheme();
   const wide = useIsWide();
@@ -84,7 +90,7 @@ export function ReadingLayout({
         }}
       >
         <View style={{ width: '100%', maxWidth: MAX_WIDTH, alignSelf: 'center' }}>{top}</View>
-        {wide ? null : (
+        {wide || cover ? null : (
           <Segmented
             compact
             options={[
@@ -96,9 +102,11 @@ export function ReadingLayout({
           />
         )}
       </View>
+      {cover ? <View style={{ flex: 1 }}>{cover}</View> : null}
       <View
         style={{
           flex: 1,
+          display: cover ? 'none' : 'flex',
           flexDirection: wide ? 'row' : 'column',
           width: '100%',
           maxWidth: MAX_WIDTH,
