@@ -716,13 +716,13 @@
     "id": "vt-plup-02",
     "level": 2,
     "ruleId": "vt-past-vs-pluperfect",
-    "prompt": "Toget ___, da vi kom ind på stationen.",
+    "prompt": "Toget ___ for længst, da vi kom ind på stationen, så vi måtte vente en time på det næste.",
     "options": [
-      "kørte allerede",
-      "var allerede kørt"
+      "kørte",
+      "var kørt"
     ],
-    "answer": "var allerede kørt",
-    "explanation": "The train left before we arrived (\"allerede\"), so use the past perfect.",
+    "answer": "var kørt",
+    "explanation": "\"For længst\" (long since) and the hour-long wait show the train had left before we arrived, so use the past perfect.",
     "reviewed": false
   },
   {
@@ -768,13 +768,13 @@
     "id": "vt-plup-06",
     "level": 3,
     "ruleId": "vt-past-vs-pluperfect",
-    "prompt": "Tyvene ___, da politiet kom.",
+    "prompt": "Tyvene ___ for længst, da politiet kom, og huset var tomt.",
     "options": [
-      "flygtede allerede",
-      "var allerede flygtet"
+      "flygtede",
+      "var flygtet"
     ],
-    "answer": "var allerede flygtet",
-    "explanation": "The thieves escaped before the police arrived (\"allerede\"), so use the past perfect.",
+    "answer": "var flygtet",
+    "explanation": "\"For længst\" and the empty house show the thieves escaped before the police arrived, so use the past perfect.",
     "reviewed": false
   },
   {
@@ -807,13 +807,13 @@
     "id": "vt-plup-09",
     "level": 3,
     "ruleId": "vt-past-vs-pluperfect",
-    "prompt": "Efter at hun ___ sin uddannelse, fik hun job på et hospital.",
+    "prompt": "Da hun fik job på et hospital, ___ sin uddannelse et halvt år forinden.",
     "options": [
-      "afsluttede",
-      "havde afsluttet"
+      "afsluttede hun",
+      "havde hun afsluttet"
     ],
-    "answer": "havde afsluttet",
-    "explanation": "The education was finished before she got the job; \"efter at\" + the earlier action normally takes the past perfect.",
+    "answer": "havde hun afsluttet",
+    "explanation": "The da-clause is the reference point, and \"et halvt år forinden\" (half a year before that) places the education before it, so use the past perfect.",
     "reviewed": false
   },
   {
@@ -848,11 +848,11 @@
     "ruleId": "vt-past-vs-pluperfect",
     "prompt": "Lejligheden var beskidt, da vi flyttede ind, fordi de forrige lejere ___ rent.",
     "options": [
-      "gjorde ikke",
-      "havde ikke gjort"
+      "ikke gjorde",
+      "ikke havde gjort"
     ],
-    "answer": "havde ikke gjort",
-    "explanation": "The previous tenants left before we moved in, so their (missing) cleaning is earlier: past perfect.",
+    "answer": "ikke havde gjort",
+    "explanation": "The previous tenants left before we moved in, so their (missing) cleaning is earlier: past perfect. In the fordi-clause \"ikke\" comes before the verb.",
     "reviewed": false
   },
   {
@@ -937,26 +937,26 @@
     "id": "vt-plup-19",
     "level": 3,
     "ruleId": "vt-past-vs-pluperfect",
-    "prompt": "Halvdelen af publikum ___, da filmen sluttede.",
+    "prompt": "Halvdelen af publikum ___, da filmen sluttede, så salen var næsten tom.",
     "options": [
       "gik allerede",
       "var allerede gået"
     ],
     "answer": "var allerede gået",
-    "explanation": "Half the audience left before the film ended (\"allerede\"), so use the past perfect.",
+    "explanation": "The hall was almost empty when the film ended, so half the audience had left before that (\"allerede\"): past perfect. \"Gik allerede\" would mean they were just leaving.",
     "reviewed": false
   },
   {
     "id": "vt-plup-20",
     "level": 2,
     "ruleId": "vt-past-vs-pluperfect",
-    "prompt": "Solen ___ op, da jeg vågnede.",
+    "prompt": "Solen ___ op, da jeg vågnede – den stod højt på himlen.",
     "options": [
       "stod allerede",
       "var allerede stået"
     ],
     "answer": "var allerede stået",
-    "explanation": "Sunrise came before I woke up (\"allerede\"), so use the past perfect.",
+    "explanation": "The sun was already high in the sky, so it had risen before I woke up: past perfect. \"Stod allerede op\" would mean it was just rising.",
     "reviewed": false
   },
   {
@@ -1490,24 +1490,23 @@
     "prompt": "Når vi ___ på pension, vil vi gerne bo ved havet.",
     "options": [
       "går",
-      "vil gå",
-      "skal gå"
+      "vil gå"
     ],
     "answer": "går",
-    "explanation": "In a \"når\"-clause about the future use the present tense.",
+    "explanation": "In a \"når\"-clause about the future use the present tense; \"vil gå\" is not used there.",
     "reviewed": false
   },
   {
     "id": "vt-fut-13",
     "level": 3,
     "ruleId": "vt-future",
-    "prompt": "Jeg lover, at jeg ___ ringe, så snart jeg lander.",
+    "prompt": "Jeg ___ ringe, så snart jeg lander – det lover jeg.",
     "options": [
       "skal nok",
       "vil gerne"
     ],
     "answer": "skal nok",
-    "explanation": "\"Lover\" (promise) matches \"skal nok\"; \"vil gerne\" only means \"would like to\".",
+    "explanation": "\"Det lover jeg\" (I promise) matches \"skal nok\", which expresses a promise; \"vil gerne\" only means \"would like to\".",
     "reviewed": false
   },
   {

@@ -183,7 +183,7 @@
     "id": "mv-meaning-13",
     "level": 3,
     "ruleId": "mv-meaning",
-    "prompt": "Gæsterne ___ ikke gå, før de havde fået kaffe og kage – de hyggede sig alt for meget.",
+    "prompt": "Gæsterne ___ slet ikke gå hjem – de hyggede sig alt for meget.",
     "options": [
       "måtte",
       "kunne",
@@ -246,7 +246,6 @@
     "prompt": "Jeg har fået lov af min chef, så jeg ___ gerne gå tidligt i dag.",
     "options": [
       "må",
-      "kan",
       "skal",
       "vil"
     ],
@@ -1247,7 +1246,7 @@
     "id": "mv-maakan-21",
     "level": 4,
     "ruleId": "mv-maatte-kunne",
-    "prompt": "Det ___ ikke passe! Jeg har lige set ham i går.",
+    "prompt": "Det ___ ikke passe! Jeg så ham jo i går.",
     "options": [
       "må",
       "kan"
@@ -1260,13 +1259,13 @@
     "id": "mv-maakan-22",
     "level": 3,
     "ruleId": "mv-maatte-kunne",
-    "prompt": "Under eksamen ___ man ikke tale sammen – så bliver man smidt ud.",
+    "prompt": "Eleverne ___ ikke tale sammen under eksamen, men nogle gør det alligevel, når vagten kigger væk.",
     "options": [
       "må",
       "kan"
     ],
     "answer": "må",
-    "explanation": "An exam rule with a punishment: må ikke (not allowed).",
+    "explanation": "They are able to talk (some do it anyway), so this is about a rule: må ikke (not allowed). \"Kan ikke\" would mean they are unable to.",
     "reviewed": false
   },
   {
@@ -2423,7 +2422,7 @@
       "blive stukket"
     ],
     "answer": "blive stukket",
-    "explanation": "A risk of one event happening to you: kan blive stukket.",
+    "explanation": "Being stung is a risk that might happen to you: kan blive stukket. \"Kan stikkes\" sounds stiff here.",
     "reviewed": false
   },
   {
@@ -2436,7 +2435,7 @@
       "blive snydt"
     ],
     "answer": "blive snydt",
-    "explanation": "A risk to a person in a specific situation: \"kan blive snydt\" (be cheated).",
+    "explanation": "Being cheated is a risk to you if you are not careful: \"kan blive snydt\". The s-form \"snydes\" is mostly used in general, written statements.",
     "reviewed": false
   },
   {
@@ -2488,7 +2487,7 @@
       "blive ramt"
     ],
     "answer": "blive ramt",
-    "explanation": "A risk to you as a spectator, one event: kan blive ramt.",
+    "explanation": "Being hit is a risk to you as a spectator: kan blive ramt. \"Kan rammes\" sounds formal here.",
     "reviewed": false
   },
   {
@@ -2709,7 +2708,7 @@
       "blive mødt"
     ],
     "answer": "mødes",
-    "explanation": "\"Mødes\" = meet each other, a verb of its own – not a passive. \"Blive mødt\" is grammatical but sounds heavy in a general rule or routine.",
+    "explanation": "\"Mødes\" = meet each other, a verb of its own – not a passive. \"Blive mødt\" would mean be met by someone.",
     "reviewed": false
   },
   {
@@ -2866,7 +2865,7 @@
       "blive røget"
     ],
     "answer": "ryges",
-    "explanation": "\"Der må ikke ryges\" (no smoking): impersonal \"der\" + a rule takes the s-passive. \"Ryge\" has no subject to do it, and \"blive røget\" is not used in rules.",
+    "explanation": "\"Der må ikke ryges\" (no smoking): impersonal \"der\" + a rule takes the s-passive. \"Ryge\" has no subject to do it, and \"blive røget\" is unusual in rules.",
     "reviewed": false
   },
   {
@@ -2894,7 +2893,7 @@
       "blive brugt"
     ],
     "answer": "bruges",
-    "explanation": "The phones are what is used: s-passive. Rules do not use \"blive brugt\".",
+    "explanation": "The phones are what is used: s-passive. Rules normally use the s-form, not \"blive brugt\".",
     "reviewed": false
   },
   {
@@ -2922,7 +2921,7 @@
       "blive parkeret"
     ],
     "answer": "parkeres",
-    "explanation": "A sign with \"her\" and no person as subject: s-passive, \"Her må ikke parkeres\". \"Blive parkeret\" is grammatical but is not used in rules and signs.",
+    "explanation": "A sign with \"her\" and no person as subject: s-passive, \"Her må ikke parkeres\". \"Blive parkeret\" is grammatical but unusual in rules and signs.",
     "reviewed": false
   },
   {
@@ -2936,7 +2935,7 @@
       "blive taget"
     ],
     "answer": "tages",
-    "explanation": "Prams are taken in by someone, so s-passive in this rule. \"Blive taget\" is grammatical but is not used in rules and signs.",
+    "explanation": "Prams are taken in by someone, so s-passive in this rule. \"Blive taget\" is grammatical but unusual in rules and signs.",
     "reviewed": false
   },
   {
@@ -2964,7 +2963,7 @@
       "blive kopieret"
     ],
     "answer": "kopieres",
-    "explanation": "The pictures are what is copied: s-passive in a rule. \"Blive kopieret\" is grammatical but is not used in rules and signs.",
+    "explanation": "The pictures are what is copied: s-passive in a rule. \"Blive kopieret\" is grammatical but unusual in rules and signs.",
     "reviewed": false
   },
   {
@@ -2992,7 +2991,7 @@
       "blive taget"
     ],
     "answer": "tages",
-    "explanation": "The medicine is what is taken: s-passive, as on a medicine label. \"Blive taget\" is grammatical but is not used in rules and signs.",
+    "explanation": "The medicine is what is taken: s-passive, as on a medicine label. \"Blive taget\" is grammatical but unusual in rules and signs.",
     "reviewed": false
   },
   {
@@ -3020,7 +3019,7 @@
       "blive lånt"
     ],
     "answer": "lånes",
-    "explanation": "The books are what is borrowed: s-passive for a permission. \"Blive lånt\" is grammatical but is not used in rules and signs.",
+    "explanation": "The books are what is borrowed: s-passive for a permission. \"Blive lånt\" is grammatical but unusual in rules and signs.",
     "reviewed": false
   },
   {
@@ -3034,7 +3033,7 @@
       "blive benyttet"
     ],
     "answer": "benyttes",
-    "explanation": "The room is used by the staff (\"af personalet\" = agent): s-passive in a rule. \"Blive benyttet\" is grammatical but is not used in rules and signs.",
+    "explanation": "The room is used by the staff (\"af personalet\" = agent): s-passive in a rule. \"Blive benyttet\" is grammatical but unusual in rules and signs.",
     "reviewed": false
   },
   {
@@ -3048,7 +3047,7 @@
       "blive betrådt"
     ],
     "answer": "betrædes",
-    "explanation": "The classic sign \"Græsplænen må ikke betrædes\" (keep off the grass): s-passive. \"Blive betrådt\" is grammatical but is not used in rules and signs.",
+    "explanation": "The classic sign \"Græsplænen må ikke betrædes\" (keep off the grass): s-passive. \"Blive betrådt\" is grammatical but unusual in rules and signs.",
     "reviewed": false
   },
   {
@@ -3062,7 +3061,7 @@
       "blive grillet"
     ],
     "answer": "grilles",
-    "explanation": "Impersonal \"der\" + permission: s-passive, \"Der må gerne grilles\". \"Blive grillet\" is grammatical but is not used in rules and signs.",
+    "explanation": "Impersonal \"der\" + permission: s-passive, \"Der må gerne grilles\". \"Blive grillet\" is grammatical but unusual in rules and signs.",
     "reviewed": false
   },
   {
@@ -3090,7 +3089,7 @@
       "blive badet"
     ],
     "answer": "bades",
-    "explanation": "Impersonal \"der\" + a ban: s-passive, \"Der må ikke bades\". \"Blive badet\" is grammatical but is not used in rules and signs.",
+    "explanation": "Impersonal \"der\" + a ban: s-passive, \"Der må ikke bades\". \"Blive badet\" is grammatical but unusual in rules and signs.",
     "reviewed": false
   },
   {
@@ -3104,7 +3103,7 @@
       "blive stillet"
     ],
     "answer": "stilles",
-    "explanation": "The bikes are what is put there: s-passive in a house rule. \"Blive stillet\" is grammatical but is not used in rules and signs.",
+    "explanation": "The bikes are what is put there: s-passive in a house rule. \"Blive stillet\" is grammatical but unusual in rules and signs.",
     "reviewed": false
   },
   {
@@ -3132,7 +3131,7 @@
       "blive smidt"
     ],
     "answer": "smides",
-    "explanation": "Rubbish is what is thrown: s-passive in a ban. \"Blive smidt\" is grammatical but is not used in rules and signs.",
+    "explanation": "Rubbish is what is thrown: s-passive in a ban. \"Blive smidt\" is grammatical but unusual in rules and signs.",
     "reviewed": false
   },
   {
@@ -3146,7 +3145,7 @@
       "blive skrevet"
     ],
     "answer": "skrives",
-    "explanation": "The assignment is what is written: s-passive for a permission. \"Blive skrevet\" is grammatical but is not used in rules and signs.",
+    "explanation": "The assignment is what is written: s-passive for a permission. \"Blive skrevet\" is grammatical but unusual in rules and signs.",
     "reviewed": false
   },
   {
@@ -3160,7 +3159,7 @@
       "blive lejet"
     ],
     "answer": "lejes",
-    "explanation": "The flats are what is rented out: s-passive, \"må ikke lejes ud\". \"Blive lejet\" is grammatical but is not used in rules and signs.",
+    "explanation": "The flats are what is rented out: s-passive, \"må ikke lejes ud\". \"Blive lejet\" is grammatical but unusual in rules and signs.",
     "reviewed": false
   },
   {
@@ -3188,7 +3187,7 @@
       "blive affyret"
     ],
     "answer": "affyres",
-    "explanation": "Fireworks are what is set off: s-passive in a rule. \"Blive affyret\" is grammatical but is not used in rules and signs.",
+    "explanation": "Fireworks are what is set off: s-passive in a rule. \"Blive affyret\" is grammatical but unusual in rules and signs.",
     "reviewed": false
   }
 ]

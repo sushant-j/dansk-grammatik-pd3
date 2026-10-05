@@ -78,7 +78,7 @@
     "da": "Måtte eller kunne?",
     "en": "Måtte or kunne?",
     "statement": "Kan/kunne is about ability and possibility; må/måtte is about permission (må gerne / må ikke) and necessity (må = have to).",
-    "explanation": "If the sentence is about being able to do something – a skill, strength, time, a working key – use kan/kunne. If it is about rules, being allowed or forbidden by someone, use må/måtte; må can also mean \"have to\" (\"Køleskabet er tomt, vi må handle\"). The classic trap is English \"can’t\" for a rule: \"Du må ikke ryge her\" is a prohibition, \"Han kan ikke svømme\" is a lack of ability. Fixed phrases: \"Det kan godt være\" (maybe) and \"Det kan ikke passe\" (that can’t be true).",
+    "explanation": "If the sentence is about being able to do something – a skill, strength, time, a working key – use kan/kunne. If it is about rules, being allowed or forbidden by someone, use må/måtte; må can also mean \"have to\" (\"Køleskabet er tomt, vi må handle\"). The classic trap is English \"can’t\" for a rule: \"Du må ikke ryge her\" is a prohibition, \"Han kan ikke svømme\" is a lack of ability (in casual speech \"kan ikke\" is sometimes heard for rules too, but \"må ikke\" is the clear choice). Fixed phrases: \"Det kan godt være\" (maybe) and \"Det kan ikke passe\" (that can’t be true).",
     "examples": [
       {
         "wrong": "Han må ikke svømme – han har aldrig lært det.",
@@ -125,7 +125,7 @@
     "da": "Passiv efter modalverber: vil blive + participium eller vil …-s",
     "en": "Passive after \"vil\": vil blive + participle or vil + s-form",
     "statement": "Both passives occur after vil, but feelings and states that happen to someone normally take blive + participle (vil blive overrasket); some s-forms after vil are not passives at all but verbs of their own (vil mødes = want to meet).",
-    "explanation": "Danish has two passives: the s-passive (sælges) and the blive-passive (blive solgt). The s-passive is typical for general statements, rules, instructions and repeated actions, and it is common after all modal verbs; blive is typical for one specific event that happens to someone. After vil, feelings and states such as overrasket, skuffet, forkølet and forelsket normally take blive: forms like \"forkøles\" do not exist, and forms like \"overraskes\" are rare and stiff. Watch out for s-verbs that are not passives at all: mødes (meet each other), ses (see each other), findes (exist), slås (fight), skændes (quarrel), følges ad (go together). With these, the blive-form would mean something else or not be Danish.",
+    "explanation": "Danish has two passives: the s-passive (sælges) and the blive-passive (blive solgt). The s-passive is typical for general statements, rules, instructions and repeated actions, and after modal verbs it is common even for single events; blive is preferred when the participle describes a feeling or state that comes over someone. After vil, feelings and states such as overrasket, skuffet, forkølet and forelsket normally take blive: forms like \"forkøles\" do not exist, and forms like \"overraskes\" are rare and stiff. Watch out for s-verbs that are not passives at all: mødes (meet each other), ses (see each other), findes (exist), slås (fight), skændes (quarrel), følges ad (go together). With these, the blive-form would mean something else or not be Danish.",
     "examples": [
       {
         "wrong": "Du vil overraskes, når du ser huset.",
@@ -154,7 +154,7 @@
       {
         "wrong": "Æggehviderne skal blive pisket stive.",
         "right": "Æggehviderne skal piskes stive.",
-        "note": "A recipe instruction: s-passive."
+        "note": "A recipe instruction: s-passive. \"Skal blive pisket\" is grammatical but sounds clumsy here."
       },
       {
         "wrong": "Du skal ikke forskrækkes, hvis hunden gør.",
@@ -173,7 +173,7 @@
     "da": "Kan blive eller kan …-s",
     "en": "Kan blive + participle or kan + s-form",
     "statement": "Kan + s-passive says what it is possible to do with something (a property or option); kan blive + participle says what might happen to someone (a risk).",
-    "explanation": "Use kan + s-form for options and properties: \"Sofaen kan slås ud\", \"Billetter kan købes på nettet\", \"Kjolen kan vaskes i maskine\". Here nobody is in danger; you describe what can be done. Use kan blive + participle for a risk, a single event that might happen to someone, often after \"pas på\" or \"hvis …\": \"Du kan blive bidt\", \"Du kan blive påkørt\", and for feelings: \"Hun kan godt blive fornærmet\". The trap is to translate English \"can be\" with blive every time: for options and instructions, the s-form is the natural choice.",
+    "explanation": "Use kan + s-form for options and properties: \"Sofaen kan slås ud\", \"Billetter kan købes på nettet\", \"Kjolen kan vaskes i maskine\". Here nobody is in danger; you describe what can be done. Use kan blive + participle for a risk, something that might happen to someone, often after \"pas på\" or \"hvis …\": \"Du kan blive bidt\", \"Du kan blive påkørt\", and for feelings: \"Hun kan godt blive fornærmet\". The trap is to translate English \"can be\" with blive every time: for options and instructions, the s-form is the natural choice.",
     "examples": [
       {
         "wrong": "Billetter kan blive købt på nettet.",
@@ -202,7 +202,7 @@
       {
         "wrong": "Planterne må blive vandet hver dag.",
         "right": "Planterne må vandes hver dag.",
-        "note": "A repeated necessary action: s-passive."
+        "note": "A repeated necessary action: s-passive. \"Må blive vandet\" is possible but heavy."
       },
       {
         "wrong": "Du må ikke fornærmes, men jeg kan ikke komme.",
@@ -221,7 +221,7 @@
     "da": "Må …-s (tilladelse og forbud)",
     "en": "Må + s-form for permission and prohibition",
     "statement": "Rules about what may or may not be done to something use må + s-passive (Mobiltelefoner må ikke bruges); if the subject is the person doing the action, use the active infinitive (Eleverne må ikke bruge mobiltelefoner).",
-    "explanation": "Signs, house rules and instructions about permission use må gerne / må ikke + s-passive: \"Her må ikke ryges\", \"Der må gerne grilles\", \"Bøgerne må gerne lånes med hjem\". First find the subject: if it is the thing being used, smoked or copied (or the empty \"der\"/\"her\"), you need the s-form; if it is the person who acts (patienter, eleverne, man, du), you need the active infinitive. The blive-passive (\"må ikke blive brugt\") is not used in rules and permissions – it sounds wrong in this kind of sentence.",
+    "explanation": "Signs, house rules and instructions about permission use må gerne / må ikke + s-passive: \"Her må ikke ryges\", \"Der må gerne grilles\", \"Bøgerne må gerne lånes med hjem\". First find the subject: if it is the thing being used, smoked or copied (or the empty \"der\"/\"her\"), you need the s-form; if it is the person who acts (patienter, eleverne, man, du), you need the active infinitive. The blive-passive (\"må ikke blive brugt\") is unusual in rules and permissions – it sounds heavy and unidiomatic in this kind of sentence.",
     "examples": [
       {
         "wrong": "Der må ikke ryge på hospitalets område.",
@@ -236,7 +236,7 @@
       {
         "wrong": "Mobiltelefoner må ikke blive brugt under eksamen.",
         "right": "Mobiltelefoner må ikke bruges under eksamen.",
-        "note": "Rules use the s-passive, not blive."
+        "note": "Rules use the s-passive; \"blive brugt\" is grammatical but unidiomatic in a rule."
       }
     ],
     "level": 4

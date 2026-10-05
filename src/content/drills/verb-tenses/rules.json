@@ -52,12 +52,12 @@
     "da": "Datid eller førdatid",
     "en": "Past tense or past perfect",
     "statement": "In a past story, use the past (datid) for events in the order they happen, and the past perfect (førdatid, havde/var + participle) for something that had already happened before another past event.",
-    "explanation": "Find the reference point in the past, often a \"da\"-clause (\"da jeg kom hjem\"). Things that happen at or after that point take the past; things that were already finished before it take the past perfect: \"Toget var allerede kørt, da vi kom.\" Clues for the past perfect are allerede, aldrig (før), lige, endnu ikke, efter at, and a period running up to the past point (\"i over en time\", \"siden ...\"). The trap is using the plain past for the earlier event, which makes the two events seem to happen at the same time.",
+    "explanation": "Find the reference point in the past, often a \"da\"-clause (\"da jeg kom hjem\"). Things that happen at or after that point take the past; things that were already finished before it take the past perfect: \"Toget var allerede kørt, da vi kom.\" Clues for the past perfect are allerede, for længst, aldrig (før), lige, endnu ikke and a period running up to the past point (\"i over en time\", \"siden ...\"). After \"efter at\" the past perfect is common, but the plain past is also used. The trap is using the plain past for the earlier event, which makes the two events seem to happen at the same time.",
     "examples": [
       {
-        "wrong": "Toget kørte allerede, da vi kom til stationen.",
-        "right": "Toget var allerede kørt, da vi kom til stationen.",
-        "note": "The train left before we arrived: past perfect."
+        "wrong": "Toget kørte for længst, da vi kom til stationen.",
+        "right": "Toget var for længst kørt, da vi kom til stationen.",
+        "note": "The train left long before we arrived: past perfect."
       },
       {
         "right": "Han havde boet i Danmark i fem år, da han fik statsborgerskab.",
@@ -75,7 +75,7 @@
     "da": "Førdatid: var eller havde",
     "en": "Past perfect: var or havde",
     "statement": "The past perfect uses \"var\" where the present perfect uses \"er\", and \"havde\" where it uses \"har\".",
-    "explanation": "Most verbs take \"havde\" (havde spist, havde boet, havde arbejdet). Verbs of movement towards a place or away (gå, komme, rejse til, flytte til, køre = leave) and verbs of change of state (blive, dø, falde i søvn, vågne, forsvinde, stige, ske) take \"var\", just as they take \"er\" in the present perfect. Ask yourself: would I say \"er\" or \"har\" in the present perfect? Then use \"var\" or \"havde\". The trap is \"havde kommet\" or \"havde blevet\", which are wrong.",
+    "explanation": "Most verbs take \"havde\" (havde spist, havde boet, havde arbejdet). Verbs of movement towards a place or away (gå, komme, rejse til, flytte til, køre = leave) and verbs of change of state (blive, dø, falde i søvn, vågne, forsvinde, stige, ske) take \"var\", just as they take \"er\" in the present perfect. Ask yourself: would I say \"er\" or \"har\" in the present perfect? Then use \"var\" or \"havde\". When a movement verb describes an activity rather than arriving somewhere, it takes \"har/havde\" (\"havde rejst meget\", \"havde gået en lang tur\"). The trap is \"havde blevet\" (always wrong) and \"havde kommet\" about a single arrival.",
     "examples": [
       {
         "wrong": "Gæsterne havde kommet, før maden var klar.",
