@@ -933,7 +933,7 @@
     "level": 3,
     "base": "sjælden",
     "tForm": "sjældent",
-    "eForm": "sjældene",
+    "eForm": "sjældne",
     "glossEn": "rare",
     "reviewed": false
   },
@@ -1239,7 +1239,7 @@
     "level": 3,
     "base": "kulturel",
     "tForm": "kulturelt",
-    "eForm": "kulturele",
+    "eForm": "kulturelle",
     "glossEn": "cultural",
     "reviewed": false
   },
@@ -1248,7 +1248,7 @@
     "level": 3,
     "base": "professionel",
     "tForm": "professionelt",
-    "eForm": "professionele",
+    "eForm": "professionelle",
     "glossEn": "professional",
     "reviewed": false
   },
@@ -1422,7 +1422,7 @@
     "level": 4,
     "base": "aktuel",
     "tForm": "aktuelt",
-    "eForm": "aktuele",
+    "eForm": "aktuelle",
     "glossEn": "current",
     "reviewed": false
   },
@@ -1431,7 +1431,7 @@
     "level": 4,
     "base": "officiel",
     "tForm": "officielt",
-    "eForm": "officiele",
+    "eForm": "officielle",
     "glossEn": "official",
     "reviewed": false
   },
@@ -1692,7 +1692,7 @@
     "level": 4,
     "base": "rationel",
     "tForm": "rationelt",
-    "eForm": "rationele",
+    "eForm": "rationelle",
     "glossEn": "rational",
     "reviewed": false
   },
@@ -1701,7 +1701,7 @@
     "level": 4,
     "base": "kontroversiel",
     "tForm": "kontroversielt",
-    "eForm": "kontroversiele",
+    "eForm": "kontroversielle",
     "glossEn": "controversial",
     "reviewed": false
   },
@@ -1936,7 +1936,7 @@
     "level": 5,
     "base": "multikulturel",
     "tForm": "multikulturelt",
-    "eForm": "multikulturele",
+    "eForm": "multikulturelle",
     "glossEn": "multicultural",
     "reviewed": false
   },
@@ -1945,7 +1945,7 @@
     "level": 5,
     "base": "essentiel",
     "tForm": "essentielt",
-    "eForm": "essentiele",
+    "eForm": "essentielle",
     "glossEn": "essential",
     "reviewed": false
   },
@@ -1954,7 +1954,7 @@
     "level": 5,
     "base": "potentiel",
     "tForm": "potentielt",
-    "eForm": "potentiele",
+    "eForm": "potentielle",
     "glossEn": "potential",
     "reviewed": false
   },

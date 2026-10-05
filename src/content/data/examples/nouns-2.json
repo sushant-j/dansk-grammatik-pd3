@@ -1,1 +1,2438 @@
-{}
+{
+  "w-n-skib": [
+    {
+      "form": "skib",
+      "da": "Min bedstefar arbejdede på et skib i mange år.",
+      "en": "My grandfather worked on a ship for many years."
+    },
+    {
+      "form": "skibet",
+      "da": "Skibet sejler fra havnen klokken otte i morgen tidlig.",
+      "en": "The ship sails from the harbour at eight tomorrow morning."
+    }
+  ],
+  "w-n-stoppested": [
+    {
+      "form": "stoppested",
+      "da": "Der ligger et stoppested lige uden for vores hus.",
+      "en": "There is a bus stop right outside our house."
+    },
+    {
+      "form": "stoppestedet",
+      "da": "Vi ventede på stoppestedet i tyve minutter, men bussen kom ikke.",
+      "en": "We waited at the bus stop for twenty minutes, but the bus didn't come."
+    }
+  ],
+  "w-n-kryds": [
+    {
+      "form": "kryds",
+      "da": "Drej til venstre ved næste kryds.",
+      "en": "Turn left at the next junction."
+    },
+    {
+      "form": "krydset",
+      "da": "Der skete en ulykke i krydset i går aftes.",
+      "en": "There was an accident at the junction last night."
+    }
+  ],
+  "w-n-hjoerne": [
+    {
+      "form": "hjørne",
+      "da": "Bageren ligger på et hjørne tæt på stationen.",
+      "en": "The bakery is on a corner close to the station."
+    },
+    {
+      "form": "hjørnet",
+      "da": "Vi har sat en stor plante i hjørnet af stuen.",
+      "en": "We have put a big plant in the corner of the living room."
+    }
+  ],
+  "w-n-omraade": [
+    {
+      "form": "område",
+      "da": "Vi bor i et roligt område med mange børnefamilier.",
+      "en": "We live in a quiet area with lots of families with children."
+    },
+    {
+      "form": "området",
+      "da": "Området omkring søen er perfekt til en gåtur.",
+      "en": "The area around the lake is perfect for a walk."
+    }
+  ],
+  "w-n-blod": [
+    {
+      "form": "blod",
+      "da": "Sygeplejersken tog lidt blod fra min arm.",
+      "en": "The nurse took a little blood from my arm."
+    },
+    {
+      "form": "blodet",
+      "da": "Lægen vil undersøge blodet for at finde årsagen.",
+      "en": "The doctor wants to test the blood to find the cause."
+    }
+  ],
+  "w-n-knae": [
+    {
+      "form": "knæ",
+      "da": "Han har fået et dårligt knæ af at spille fodbold.",
+      "en": "He has got a bad knee from playing football."
+    },
+    {
+      "form": "knæet",
+      "da": "Hun slog knæet, da hun faldt af cyklen.",
+      "en": "She hurt her knee when she fell off her bike."
+    }
+  ],
+  "w-n-haar": [
+    {
+      "form": "hår",
+      "da": "Min søn har langt, lyst hår.",
+      "en": "My son has long, fair hair."
+    },
+    {
+      "form": "håret",
+      "da": "Jeg skal have klippet håret på fredag.",
+      "en": "I'm getting my hair cut on Friday."
+    }
+  ],
+  "w-n-tal": [
+    {
+      "form": "tal",
+      "da": "Skriv et tal mellem et og ti.",
+      "en": "Write a number between one and ten."
+    },
+    {
+      "form": "tallet",
+      "da": "Tallet på regningen var meget højere, end jeg havde regnet med.",
+      "en": "The figure on the bill was much higher than I had expected."
+    }
+  ],
+  "w-n-minut": [
+    {
+      "form": "minut",
+      "da": "Toget kører om et minut, så vi må skynde os.",
+      "en": "The train leaves in a minute, so we have to hurry."
+    },
+    {
+      "form": "minuttet",
+      "da": "Hun kommer altid til tiden, nærmest på minuttet.",
+      "en": "She always arrives on time, almost to the minute."
+    }
+  ],
+  "w-n-doegn": [
+    {
+      "form": "døgn",
+      "da": "Jeg har ikke sovet i næsten et døgn.",
+      "en": "I haven't slept for almost a whole day."
+    },
+    {
+      "form": "døgnet",
+      "da": "Supermarkedet på hjørnet har åbent hele døgnet.",
+      "en": "The supermarket on the corner is open around the clock."
+    }
+  ],
+  "w-n-foraar": [
+    {
+      "form": "forår",
+      "da": "Vi håber på et varmt forår i år.",
+      "en": "We are hoping for a warm spring this year."
+    },
+    {
+      "form": "foråret",
+      "da": "Om foråret begynder blomsterne at komme frem i haven.",
+      "en": "In spring the flowers start coming up in the garden."
+    }
+  ],
+  "w-n-efteraar": [
+    {
+      "form": "efterår",
+      "da": "Det har været et meget vådt efterår.",
+      "en": "It has been a very wet autumn."
+    },
+    {
+      "form": "efteråret",
+      "da": "Til efteråret starter jeg på et nyt danskkursus.",
+      "en": "In the autumn I am starting a new Danish course."
+    }
+  ],
+  "w-n-kys": [
+    {
+      "form": "kys",
+      "da": "Hun gav sin datter et kys på kinden.",
+      "en": "She gave her daughter a kiss on the cheek."
+    },
+    {
+      "form": "kysset",
+      "da": "Han glemte aldrig kysset ved stationen.",
+      "en": "He never forgot the kiss at the station."
+    }
+  ],
+  "w-n-bad": [
+    {
+      "form": "bad",
+      "da": "Jeg tager altid et bad, når jeg kommer hjem fra træning.",
+      "en": "I always take a shower when I get home from training."
+    },
+    {
+      "form": "badet",
+      "da": "Efter badet tog børnene deres nattøj på.",
+      "en": "After the bath the children put on their pyjamas."
+    }
+  ],
+  "w-n-sommerhus": [
+    {
+      "form": "sommerhus",
+      "da": "Mine forældre har et sommerhus ved Vesterhavet.",
+      "en": "My parents have a summer house by the North Sea."
+    },
+    {
+      "form": "sommerhuset",
+      "da": "Vi lejer sommerhuset ud, når vi ikke selv bruger det.",
+      "en": "We rent out the summer house when we are not using it ourselves."
+    }
+  ],
+  "w-n-smil": [
+    {
+      "form": "smil",
+      "da": "Den nye kollega mødte os med et stort smil.",
+      "en": "The new colleague met us with a big smile."
+    },
+    {
+      "form": "smilet",
+      "da": "Smilet forsvandt fra hans ansigt, da han så regningen.",
+      "en": "The smile vanished from his face when he saw the bill."
+    }
+  ],
+  "w-n-kram": [
+    {
+      "form": "kram",
+      "da": "Kom her og giv mig et kram!",
+      "en": "Come here and give me a hug!"
+    },
+    {
+      "form": "krammet",
+      "da": "Krammet fra min mor gjorde mig straks glad igen.",
+      "en": "The hug from my mother made me happy again straight away."
+    }
+  ],
+  "w-n-taeppe": [
+    {
+      "form": "tæppe",
+      "da": "Hun sad i sofaen med et tæppe over benene.",
+      "en": "She sat on the sofa with a blanket over her legs."
+    },
+    {
+      "form": "tæppet",
+      "da": "Vi skal have renset tæppet i stuen.",
+      "en": "We need to get the carpet in the living room cleaned."
+    }
+  ],
+  "w-n-halstoerklaede": [
+    {
+      "form": "halstørklæde",
+      "da": "Tag et halstørklæde på, det er koldt i dag.",
+      "en": "Put on a scarf, it's cold today."
+    },
+    {
+      "form": "halstørklædet",
+      "da": "Jeg kan ikke finde halstørklædet, som min søster strikkede til mig.",
+      "en": "I can't find the scarf that my sister knitted for me."
+    }
+  ],
+  "w-n-postkontor": [
+    {
+      "form": "postkontor",
+      "da": "Der er ikke længere et postkontor i vores by.",
+      "en": "There is no longer a post office in our town."
+    },
+    {
+      "form": "postkontoret",
+      "da": "Jeg hentede pakken på postkontoret i går.",
+      "en": "I picked up the parcel at the post office yesterday."
+    }
+  ],
+  "w-n-marked": [
+    {
+      "form": "marked",
+      "da": "Hver lørdag er der marked på torvet.",
+      "en": "Every Saturday there is a market in the square."
+    },
+    {
+      "form": "markedet",
+      "da": "På markedet kan man købe friske grøntsager fra lokale bønder.",
+      "en": "At the market you can buy fresh vegetables from local farmers."
+    }
+  ],
+  "w-n-sovevaerelse": [
+    {
+      "form": "soveværelse",
+      "da": "Lejligheden har et soveværelse og en lille stue.",
+      "en": "The flat has one bedroom and a small living room."
+    },
+    {
+      "form": "soveværelset",
+      "da": "Soveværelset vender ud mod gården, så der er stille om natten.",
+      "en": "The bedroom faces the courtyard, so it is quiet at night."
+    }
+  ],
+  "w-n-ben": [
+    {
+      "form": "ben",
+      "da": "Hun står på ét ben og strækker ud efter løbeturen.",
+      "en": "She stands on one leg and stretches after her run."
+    },
+    {
+      "form": "benet",
+      "da": "Min nabo brækkede benet, da han faldt på isen.",
+      "en": "My neighbour broke his leg when he fell on the ice."
+    }
+  ],
+  "w-n-humoer": [
+    {
+      "form": "humør",
+      "da": "Chefen er i godt humør i dag.",
+      "en": "The boss is in a good mood today."
+    },
+    {
+      "form": "humøret",
+      "da": "Solen og det varme vejr løfter humøret hos alle.",
+      "en": "The sun and the warm weather lift everyone's mood."
+    }
+  ],
+  "w-n-flag": [
+    {
+      "form": "flag",
+      "da": "Til fødselsdage sætter danskerne et flag på kagen.",
+      "en": "For birthdays Danes put a flag on the cake."
+    },
+    {
+      "form": "flaget",
+      "da": "På min fars fødselsdag hejser vi altid flaget i haven.",
+      "en": "On my father's birthday we always raise the flag in the garden."
+    }
+  ],
+  "w-n-skilt": [
+    {
+      "form": "skilt",
+      "da": "Der hænger et skilt på døren med åbningstiderne.",
+      "en": "There is a sign on the door with the opening hours."
+    },
+    {
+      "form": "skiltet",
+      "da": "Jeg kunne ikke læse skiltet, fordi det var for langt væk.",
+      "en": "I couldn't read the sign because it was too far away."
+    }
+  ],
+  "w-n-kamera": [
+    {
+      "form": "kamera",
+      "da": "Jeg har købt et nyt kamera til ferien.",
+      "en": "I have bought a new camera for the holiday."
+    },
+    {
+      "form": "kameraet",
+      "da": "Kameraet i min telefon tager rigtig gode billeder.",
+      "en": "The camera in my phone takes really good pictures."
+    }
+  ],
+  "w-n-koerekort": [
+    {
+      "form": "kørekort",
+      "da": "Min datter fik kørekort, da hun var atten.",
+      "en": "My daughter got her driving licence when she was eighteen."
+    },
+    {
+      "form": "kørekortet",
+      "da": "Uden kørekortet kan du ikke leje en bil i udlandet.",
+      "en": "Without your driving licence you can't rent a car abroad."
+    }
+  ],
+  "w-n-ansoegning": [
+    {
+      "form": "ansøgning",
+      "da": "Jeg har sendt en ansøgning til et firma i Aarhus.",
+      "en": "I have sent an application to a company in Aarhus."
+    },
+    {
+      "form": "ansøgningen",
+      "da": "Ansøgningen skal være sendt senest fredag klokken tolv.",
+      "en": "The application must be sent by twelve o'clock on Friday at the latest."
+    }
+  ],
+  "w-n-stilling": [
+    {
+      "form": "stilling",
+      "da": "Hun har fået en fast stilling på et plejehjem.",
+      "en": "She has got a permanent position at a care home."
+    },
+    {
+      "form": "stillingen",
+      "da": "Stillingen kræver, at man taler flydende dansk.",
+      "en": "The position requires that you speak fluent Danish."
+    }
+  ],
+  "w-n-arbejdsgiver": [
+    {
+      "form": "arbejdsgiver",
+      "da": "En god arbejdsgiver lytter til sine medarbejdere.",
+      "en": "A good employer listens to their employees."
+    },
+    {
+      "form": "arbejdsgiveren",
+      "da": "Arbejdsgiveren betaler for kurset, hvis det er relevant for jobbet.",
+      "en": "The employer pays for the course if it is relevant to the job."
+    }
+  ],
+  "w-n-kontrakt": [
+    {
+      "form": "kontrakt",
+      "da": "Før man starter i et nyt job, bør man få en skriftlig kontrakt.",
+      "en": "Before you start a new job, you should get a written contract."
+    },
+    {
+      "form": "kontrakten",
+      "da": "Læs kontrakten grundigt, før du skriver under.",
+      "en": "Read the contract carefully before you sign."
+    }
+  ],
+  "w-n-opsigelse": [
+    {
+      "form": "opsigelse",
+      "da": "Han fik en opsigelse, fordi firmaet skulle spare.",
+      "en": "He was given notice because the company had to make cuts."
+    },
+    {
+      "form": "opsigelsen",
+      "da": "Opsigelsen kom som et chok for hele familien.",
+      "en": "The dismissal came as a shock to the whole family."
+    }
+  ],
+  "w-n-erfaring": [
+    {
+      "form": "erfaring",
+      "da": "Hun har mange års erfaring som sygeplejerske.",
+      "en": "She has many years of experience as a nurse."
+    },
+    {
+      "form": "erfaringen",
+      "da": "Erfaringen viser, at børn lærer sprog hurtigt.",
+      "en": "Experience shows that children learn languages quickly."
+    }
+  ],
+  "w-n-evne": [
+    {
+      "form": "evne",
+      "da": "Han har en særlig evne til at få folk til at slappe af.",
+      "en": "He has a special ability to make people relax."
+    },
+    {
+      "form": "evnen",
+      "da": "Evnen til at samarbejde er vigtig på enhver arbejdsplads.",
+      "en": "The ability to cooperate is important in any workplace."
+    }
+  ],
+  "w-n-kompetence": [
+    {
+      "form": "kompetence",
+      "da": "Det er en vigtig kompetence at kunne arbejde selvstændigt.",
+      "en": "Being able to work independently is an important skill."
+    },
+    {
+      "form": "kompetencen",
+      "da": "Kompetencen til at undervise voksne fik hun på et kursus.",
+      "en": "She gained the competence to teach adults on a course."
+    }
+  ],
+  "w-n-praktik": [
+    {
+      "form": "praktik",
+      "da": "Min søn skal i praktik i en bilforretning i to uger.",
+      "en": "My son is going on a two-week work placement at a car dealership."
+    },
+    {
+      "form": "praktikken",
+      "da": "Efter praktikken fik hun tilbudt et job i virksomheden.",
+      "en": "After the internship she was offered a job at the company."
+    }
+  ],
+  "w-n-vagt": [
+    {
+      "form": "vagt",
+      "da": "Jeg har en lang vagt på hospitalet i weekenden.",
+      "en": "I have a long shift at the hospital at the weekend."
+    },
+    {
+      "form": "vagten",
+      "da": "Vagten slutter først klokken syv i morgen tidlig.",
+      "en": "The shift doesn't end until seven tomorrow morning."
+    }
+  ],
+  "w-n-fagforening": [
+    {
+      "form": "fagforening",
+      "da": "Mange danskere er medlem af en fagforening.",
+      "en": "Many Danes are members of a trade union."
+    },
+    {
+      "form": "fagforeningen",
+      "da": "Fagforeningen hjalp mig, da jeg havde problemer med min chef.",
+      "en": "The trade union helped me when I had problems with my boss."
+    }
+  ],
+  "w-n-pension": [
+    {
+      "form": "pension",
+      "da": "Hun går på pension, når hun fylder 67.",
+      "en": "She is retiring when she turns 67."
+    },
+    {
+      "form": "pensionen",
+      "da": "Pensionen bliver udbetalt hver måned.",
+      "en": "The pension is paid out every month."
+    }
+  ],
+  "w-n-skat": [
+    {
+      "form": "skat",
+      "da": "I Danmark betaler man skat af sin løn.",
+      "en": "In Denmark you pay tax on your wages."
+    },
+    {
+      "form": "skatten",
+      "da": "Skatten finansierer blandt andet skoler og hospitaler.",
+      "en": "The tax finances schools and hospitals, among other things."
+    }
+  ],
+  "w-n-lov": [
+    {
+      "form": "lov",
+      "da": "Politikerne har vedtaget en ny lov om rygning.",
+      "en": "The politicians have passed a new law on smoking."
+    },
+    {
+      "form": "loven",
+      "da": "Ifølge loven må man ikke køre bil efter at have drukket.",
+      "en": "According to the law you must not drive after drinking."
+    }
+  ],
+  "w-n-regel": [
+    {
+      "form": "regel",
+      "da": "Vi har en regel om, at ingen bruger telefon ved middagsbordet.",
+      "en": "We have a rule that nobody uses their phone at the dinner table."
+    },
+    {
+      "form": "reglen",
+      "da": "Reglen gælder for alle medarbejdere, også for chefen.",
+      "en": "The rule applies to all employees, the boss included."
+    }
+  ],
+  "w-n-borger": [
+    {
+      "form": "borger",
+      "da": "Som borger har man både rettigheder og pligter.",
+      "en": "As a citizen you have both rights and duties."
+    },
+    {
+      "form": "borgeren",
+      "da": "Kommunen skal sørge for, at borgeren får den rigtige hjælp.",
+      "en": "The municipality must make sure that the citizen gets the right help."
+    }
+  ],
+  "w-n-sagsbehandler": [
+    {
+      "form": "sagsbehandler",
+      "da": "Jeg har fået en ny sagsbehandler på jobcentret.",
+      "en": "I have been given a new caseworker at the job centre."
+    },
+    {
+      "form": "sagsbehandleren",
+      "da": "Sagsbehandleren ringede for at fortælle, at min sag var afgjort.",
+      "en": "The caseworker called to tell me that my case had been decided."
+    }
+  ],
+  "w-n-blanket": [
+    {
+      "form": "blanket",
+      "da": "Du skal udfylde en blanket, før du kan få hjælp.",
+      "en": "You have to fill in a form before you can get help."
+    },
+    {
+      "form": "blanketten",
+      "da": "Blanketten kan man finde på kommunens hjemmeside.",
+      "en": "You can find the form on the municipality's website."
+    }
+  ],
+  "w-n-underskrift": [
+    {
+      "form": "underskrift",
+      "da": "Aftalen er først gyldig med en underskrift fra begge parter.",
+      "en": "The agreement is only valid with a signature from both parties."
+    },
+    {
+      "form": "underskriften",
+      "da": "Banken kunne ikke godkende papirerne, fordi underskriften manglede.",
+      "en": "The bank couldn't approve the papers because the signature was missing."
+    }
+  ],
+  "w-n-tilladelse": [
+    {
+      "form": "tilladelse",
+      "da": "Man skal have tilladelse fra kommunen for at bygge en carport.",
+      "en": "You need permission from the municipality to build a carport."
+    },
+    {
+      "form": "tilladelsen",
+      "da": "Tilladelsen kom endelig efter tre måneders ventetid.",
+      "en": "The permit finally came after a three-month wait."
+    }
+  ],
+  "w-n-opholdstilladelse": [
+    {
+      "form": "opholdstilladelse",
+      "da": "Hun har fået opholdstilladelse i Danmark i fem år.",
+      "en": "She has been granted a residence permit in Denmark for five years."
+    },
+    {
+      "form": "opholdstilladelsen",
+      "da": "Han skal forlænge opholdstilladelsen, før den udløber.",
+      "en": "He has to extend the residence permit before it expires."
+    }
+  ],
+  "w-n-flytning": [
+    {
+      "form": "flytning",
+      "da": "En flytning tager altid længere tid, end man tror.",
+      "en": "A move always takes longer than you think."
+    },
+    {
+      "form": "flytningen",
+      "da": "Vores venner hjalp os med flytningen i weekenden.",
+      "en": "Our friends helped us with the move at the weekend."
+    }
+  ],
+  "w-n-lejekontrakt": [
+    {
+      "form": "lejekontrakt",
+      "da": "Vi skrev under på en lejekontrakt på to år.",
+      "en": "We signed a two-year tenancy agreement."
+    },
+    {
+      "form": "lejekontrakten",
+      "da": "I lejekontrakten står der, at man ikke må have hund.",
+      "en": "The tenancy agreement says that you are not allowed to have a dog."
+    }
+  ],
+  "w-n-udlejer": [
+    {
+      "form": "udlejer",
+      "da": "Hvis vandhanen drypper, skal man kontakte sin udlejer.",
+      "en": "If the tap drips, you should contact your landlord."
+    },
+    {
+      "form": "udlejeren",
+      "da": "Udlejeren har lovet at male lejligheden, før vi flytter ind.",
+      "en": "The landlord has promised to paint the flat before we move in."
+    }
+  ],
+  "w-n-boligforening": [
+    {
+      "form": "boligforening",
+      "da": "Vi bor i en boligforening med en stor fælles have.",
+      "en": "We live in a housing association with a big shared garden."
+    },
+    {
+      "form": "boligforeningen",
+      "da": "Boligforeningen holder møde for beboerne én gang om året.",
+      "en": "The housing association holds a residents' meeting once a year."
+    }
+  ],
+  "w-n-andelsbolig": [
+    {
+      "form": "andelsbolig",
+      "da": "De har købt en andelsbolig tæt på centrum.",
+      "en": "They have bought a co-op flat close to the centre."
+    },
+    {
+      "form": "andelsboligen",
+      "da": "Andelsboligen var billigere end en ejerlejlighed i samme område.",
+      "en": "The co-op flat was cheaper than an owner-occupied flat in the same area."
+    }
+  ],
+  "w-n-ejerlejlighed": [
+    {
+      "form": "ejerlejlighed",
+      "da": "Det er svært for unge at købe en ejerlejlighed i København.",
+      "en": "It is hard for young people to buy a flat in Copenhagen."
+    },
+    {
+      "form": "ejerlejligheden",
+      "da": "Da de fik børn, solgte de ejerlejligheden og købte et hus.",
+      "en": "When they had children, they sold the flat and bought a house."
+    }
+  ],
+  "w-n-patient": [
+    {
+      "form": "patient",
+      "da": "Lægen har ikke tid til at tale længe med hver patient.",
+      "en": "The doctor doesn't have time to talk for long with each patient."
+    },
+    {
+      "form": "patienten",
+      "da": "Patienten måtte vente fire timer på at blive undersøgt.",
+      "en": "The patient had to wait four hours to be examined."
+    }
+  ],
+  "w-n-behandling": [
+    {
+      "form": "behandling",
+      "da": "Hun får behandling for sin ryg hos en fysioterapeut.",
+      "en": "She is getting treatment for her back from a physiotherapist."
+    },
+    {
+      "form": "behandlingen",
+      "da": "Behandlingen virkede, og efter en måned havde han ikke længere ondt.",
+      "en": "The treatment worked, and after a month he no longer had any pain."
+    }
+  ],
+  "w-n-undersoegelse": [
+    {
+      "form": "undersøgelse",
+      "da": "En ny undersøgelse viser, at danskerne sover for lidt.",
+      "en": "A new survey shows that Danes sleep too little."
+    },
+    {
+      "form": "undersøgelsen",
+      "da": "Undersøgelsen hos lægen tog kun et kvarter.",
+      "en": "The examination at the doctor's only took a quarter of an hour."
+    }
+  ],
+  "w-n-operation": [
+    {
+      "form": "operation",
+      "da": "Min mor skal have en operation i hoften i næste måned.",
+      "en": "My mother is having a hip operation next month."
+    },
+    {
+      "form": "operationen",
+      "da": "Operationen gik godt, og hun kunne komme hjem dagen efter.",
+      "en": "The operation went well, and she could go home the next day."
+    }
+  ],
+  "w-n-sygemelding": [
+    {
+      "form": "sygemelding",
+      "da": "Efter ulykken fik han en sygemelding på tre uger.",
+      "en": "After the accident he was put on sick leave for three weeks."
+    },
+    {
+      "form": "sygemeldingen",
+      "da": "Hun sendte sygemeldingen til sin chef tidligt om morgenen.",
+      "en": "She sent the sick note to her boss early in the morning."
+    }
+  ],
+  "w-n-diagnose": [
+    {
+      "form": "diagnose",
+      "da": "Det tog lang tid, før lægerne kunne stille en diagnose.",
+      "en": "It took a long time before the doctors could make a diagnosis."
+    },
+    {
+      "form": "diagnosen",
+      "da": "Diagnosen var heldigvis ikke så alvorlig, som vi havde frygtet.",
+      "en": "Fortunately the diagnosis was not as serious as we had feared."
+    }
+  ],
+  "w-n-skadestue": [
+    {
+      "form": "skadestue",
+      "da": "Byen har fået en ny skadestue, som har åbent hele natten.",
+      "en": "The town has got a new emergency room that is open all night."
+    },
+    {
+      "form": "skadestuen",
+      "da": "Vi kørte på skadestuen, da vores søn faldt ned fra trampolinen.",
+      "en": "We went to A&E when our son fell off the trampoline."
+    }
+  ],
+  "w-n-sundhed": [
+    {
+      "form": "sundhed",
+      "da": "Kommunen vil bruge flere penge på sundhed og forebyggelse.",
+      "en": "The municipality wants to spend more money on health and prevention."
+    },
+    {
+      "form": "sundheden",
+      "da": "Sundheden blandt børn er blevet bedre de sidste ti år.",
+      "en": "Children's health has improved over the last ten years."
+    }
+  ],
+  "w-n-motion": [
+    {
+      "form": "motion",
+      "da": "Det er vigtigt at få motion hver dag, også når man er ældre.",
+      "en": "It is important to get exercise every day, also when you are older."
+    },
+    {
+      "form": "motionen",
+      "da": "Motionen hjælper mig med at glemme stress fra arbejdet.",
+      "en": "The exercise helps me forget the stress from work."
+    }
+  ],
+  "w-n-kost": [
+    {
+      "form": "kost",
+      "da": "En sund kost består af masser af frugt og grøntsager.",
+      "en": "A healthy diet consists of plenty of fruit and vegetables."
+    },
+    {
+      "form": "kosten",
+      "da": "Efter at han ændrede kosten, tabte han ti kilo.",
+      "en": "After he changed his diet, he lost ten kilos."
+    }
+  ],
+  "w-n-soevn": [
+    {
+      "form": "søvn",
+      "da": "Teenagere har brug for meget søvn.",
+      "en": "Teenagers need a lot of sleep."
+    },
+    {
+      "form": "søvnen",
+      "da": "Hvis man kigger på skærmen før sengetid, kan det ødelægge søvnen.",
+      "en": "Looking at a screen before bedtime can ruin your sleep."
+    }
+  ],
+  "w-n-boernehave": [
+    {
+      "form": "børnehave",
+      "da": "Vores yngste datter starter i børnehave efter sommerferien.",
+      "en": "Our youngest daughter starts kindergarten after the summer holiday."
+    },
+    {
+      "form": "børnehaven",
+      "da": "Børnehaven ligger kun fem minutter fra vores hus.",
+      "en": "The kindergarten is only five minutes from our house."
+    }
+  ],
+  "w-n-vuggestue": [
+    {
+      "form": "vuggestue",
+      "da": "De fleste danske børn kommer i vuggestue, når de er cirka et år.",
+      "en": "Most Danish children start nursery when they are about one."
+    },
+    {
+      "form": "vuggestuen",
+      "da": "Pædagogerne i vuggestuen er meget søde ved vores søn.",
+      "en": "The staff at the nursery are very kind to our son."
+    }
+  ],
+  "w-n-dagpleje": [
+    {
+      "form": "dagpleje",
+      "da": "Vi valgte en dagpleje, fordi der er færre børn.",
+      "en": "We chose a childminder because there are fewer children."
+    },
+    {
+      "form": "dagplejen",
+      "da": "I dagplejen er børnene ofte ude i haven.",
+      "en": "At the childminder's the children are often out in the garden."
+    }
+  ],
+  "w-n-folkeskole": [
+    {
+      "form": "folkeskole",
+      "da": "Hun gik i folkeskole i en lille by på Fyn.",
+      "en": "She went to state school in a small town on Funen."
+    },
+    {
+      "form": "folkeskolen",
+      "da": "Folkeskolen er gratis for alle børn i Danmark.",
+      "en": "State school is free for all children in Denmark."
+    }
+  ],
+  "w-n-opdragelse": [
+    {
+      "form": "opdragelse",
+      "da": "Bedsteforældre har ofte en anden holdning til opdragelse end forældre.",
+      "en": "Grandparents often have a different view of upbringing than parents."
+    },
+    {
+      "form": "opdragelsen",
+      "da": "Forældrene er ikke altid enige om opdragelsen af børnene.",
+      "en": "The parents don't always agree on how to bring up the children."
+    }
+  ],
+  "w-n-barndom": [
+    {
+      "form": "barndom",
+      "da": "Han havde en lykkelig barndom på landet.",
+      "en": "He had a happy childhood in the countryside."
+    },
+    {
+      "form": "barndommen",
+      "da": "I barndommen boede hun i tre forskellige lande.",
+      "en": "In her childhood she lived in three different countries."
+    }
+  ],
+  "w-n-ungdom": [
+    {
+      "form": "ungdom",
+      "da": "Min far brugte sin ungdom på at rejse rundt i verden.",
+      "en": "My father spent his youth travelling around the world."
+    },
+    {
+      "form": "ungdommen",
+      "da": "Mange mener, at ungdommen i dag har mere stress end tidligere.",
+      "en": "Many think that young people today have more stress than before."
+    }
+  ],
+  "w-n-mening": [
+    {
+      "form": "mening",
+      "da": "Efter min mening burde bussen være gratis for pensionister.",
+      "en": "In my opinion the bus should be free for pensioners."
+    },
+    {
+      "form": "meningen",
+      "da": "Meningen med mødet var at høre, hvad borgerne synes om planen.",
+      "en": "The point of the meeting was to hear what residents think of the plan."
+    }
+  ],
+  "w-n-holdning": [
+    {
+      "form": "holdning",
+      "da": "Hun har en meget positiv holdning til sit arbejde.",
+      "en": "She has a very positive attitude to her work."
+    },
+    {
+      "form": "holdningen",
+      "da": "Holdningen til rygning har ændret sig meget de sidste tyve år.",
+      "en": "Attitudes to smoking have changed a lot in the last twenty years."
+    }
+  ],
+  "w-n-beslutning": [
+    {
+      "form": "beslutning",
+      "da": "At flytte til Danmark var en stor beslutning for os.",
+      "en": "Moving to Denmark was a big decision for us."
+    },
+    {
+      "form": "beslutningen",
+      "da": "Beslutningen om at lukke skolen vakte vrede blandt forældrene.",
+      "en": "The decision to close the school caused anger among the parents."
+    }
+  ],
+  "w-n-loesning": [
+    {
+      "form": "løsning",
+      "da": "Vi må finde en løsning, som alle kan være tilfredse med.",
+      "en": "We have to find a solution that everyone can be happy with."
+    },
+    {
+      "form": "løsningen",
+      "da": "Løsningen på problemet er måske at cykle mere.",
+      "en": "The solution to the problem may be to cycle more."
+    }
+  ],
+  "w-n-fordel": [
+    {
+      "form": "fordel",
+      "da": "Det er en stor fordel at kunne tale flere sprog.",
+      "en": "It is a big advantage to be able to speak several languages."
+    },
+    {
+      "form": "fordelen",
+      "da": "Fordelen ved at bo på landet er, at der er ro og fred.",
+      "en": "The advantage of living in the countryside is that there is peace and quiet."
+    }
+  ],
+  "w-n-ulempe": [
+    {
+      "form": "ulempe",
+      "da": "En ulempe ved hjemmearbejde er, at man ser sine kolleger mindre.",
+      "en": "One disadvantage of working from home is that you see your colleagues less."
+    },
+    {
+      "form": "ulempen",
+      "da": "Ulempen ved den billige lejlighed er, at den ligger langt fra byen.",
+      "en": "The drawback of the cheap flat is that it is far from town."
+    }
+  ],
+  "w-n-mulighed": [
+    {
+      "form": "mulighed",
+      "da": "Kurset giver en god mulighed for at møde nye mennesker.",
+      "en": "The course is a good opportunity to meet new people."
+    },
+    {
+      "form": "muligheden",
+      "da": "Hun fik muligheden for at arbejde i udlandet i et år.",
+      "en": "She got the chance to work abroad for a year."
+    }
+  ],
+  "w-n-aarsag": [
+    {
+      "form": "årsag",
+      "da": "Stress er en almindelig årsag til sygemeldinger.",
+      "en": "Stress is a common cause of sick leave."
+    },
+    {
+      "form": "årsagen",
+      "da": "Politiet undersøger stadig årsagen til branden.",
+      "en": "The police are still investigating the cause of the fire."
+    }
+  ],
+  "w-n-grund": [
+    {
+      "form": "grund",
+      "da": "Der er ingen grund til at være nervøs før prøven.",
+      "en": "There is no reason to be nervous before the test."
+    },
+    {
+      "form": "grunden",
+      "da": "Grunden til, at jeg kom for sent, var, at toget var aflyst.",
+      "en": "The reason I was late was that the train had been cancelled."
+    }
+  ],
+  "w-n-forskel": [
+    {
+      "form": "forskel",
+      "da": "Der er stor forskel på priserne i de to supermarkeder.",
+      "en": "There is a big difference in prices between the two supermarkets."
+    },
+    {
+      "form": "forskellen",
+      "da": "Kan du forklare forskellen mellem \"nogle\" og \"nogen\"?",
+      "en": "Can you explain the difference between \"nogle\" and \"nogen\"?"
+    }
+  ],
+  "w-n-aendring": [
+    {
+      "form": "ændring",
+      "da": "Der er sket en ændring i køreplanen fra i dag.",
+      "en": "There has been a change to the timetable from today."
+    },
+    {
+      "form": "ændringen",
+      "da": "Ændringen af reglerne betyder, at flere kan få hjælp.",
+      "en": "The change in the rules means that more people can get help."
+    }
+  ],
+  "w-n-situation": [
+    {
+      "form": "situation",
+      "da": "Vi står i en svær situation, fordi min mand har mistet sit job.",
+      "en": "We are in a difficult situation because my husband has lost his job."
+    },
+    {
+      "form": "situationen",
+      "da": "Situationen på boligmarkedet er svær for unge familier.",
+      "en": "The situation on the housing market is difficult for young families."
+    }
+  ],
+  "w-n-oplevelse": [
+    {
+      "form": "oplevelse",
+      "da": "Koncerten var en fantastisk oplevelse for hele familien.",
+      "en": "The concert was a fantastic experience for the whole family."
+    },
+    {
+      "form": "oplevelsen",
+      "da": "Oplevelsen af at blive mor ændrede hendes syn på livet.",
+      "en": "The experience of becoming a mother changed her view of life."
+    }
+  ],
+  "w-n-foelelse": [
+    {
+      "form": "følelse",
+      "da": "Det er en dejlig følelse at komme hjem efter en lang rejse.",
+      "en": "It is a lovely feeling to come home after a long journey."
+    },
+    {
+      "form": "følelsen",
+      "da": "Følelsen af ensomhed kan være svær at tale om.",
+      "en": "The feeling of loneliness can be hard to talk about."
+    }
+  ],
+  "w-n-glaede": [
+    {
+      "form": "glæde",
+      "da": "Børnene skreg af glæde, da de så sneen.",
+      "en": "The children screamed with joy when they saw the snow."
+    },
+    {
+      "form": "glæden",
+      "da": "Glæden var stor, da hun bestod sin danskprøve.",
+      "en": "There was great joy when she passed her Danish test."
+    }
+  ],
+  "w-n-sorg": [
+    {
+      "form": "sorg",
+      "da": "Efter sin mands død levede hun i dyb sorg i flere måneder.",
+      "en": "After her husband's death she lived in deep grief for several months."
+    },
+    {
+      "form": "sorgen",
+      "da": "Det hjalp at tale med andre om sorgen.",
+      "en": "It helped to talk to others about the grief."
+    }
+  ],
+  "w-n-kaerlighed": [
+    {
+      "form": "kærlighed",
+      "da": "Alle børn har brug for kærlighed og tryghed.",
+      "en": "All children need love and security."
+    },
+    {
+      "form": "kærligheden",
+      "da": "Kærligheden mellem dem blev stærkere med årene.",
+      "en": "The love between them grew stronger over the years."
+    }
+  ],
+  "w-n-tillid": [
+    {
+      "form": "tillid",
+      "da": "I Danmark har mange mennesker stor tillid til hinanden.",
+      "en": "In Denmark many people have great trust in each other."
+    },
+    {
+      "form": "tilliden",
+      "da": "Tilliden til politikerne er faldet efter skandalen.",
+      "en": "Trust in the politicians has fallen after the scandal."
+    }
+  ],
+  "w-n-respekt": [
+    {
+      "form": "respekt",
+      "da": "Man skal vise respekt for andres meninger.",
+      "en": "You should show respect for other people's opinions."
+    },
+    {
+      "form": "respekten",
+      "da": "Respekten for lærerne er ikke så stor som tidligere.",
+      "en": "Respect for teachers is not as great as it used to be."
+    }
+  ],
+  "w-n-personlighed": [
+    {
+      "form": "personlighed",
+      "da": "Hun har en stærk personlighed og siger altid sin mening.",
+      "en": "She has a strong personality and always speaks her mind."
+    },
+    {
+      "form": "personligheden",
+      "da": "Ved en jobsamtale betyder personligheden ofte lige så meget som uddannelsen.",
+      "en": "At a job interview personality often matters as much as education."
+    }
+  ],
+  "w-n-interesse": [
+    {
+      "form": "interesse",
+      "da": "Min søn har stor interesse for fodbold.",
+      "en": "My son has a great interest in football."
+    },
+    {
+      "form": "interessen",
+      "da": "Interessen for økologisk mad er vokset meget.",
+      "en": "Interest in organic food has grown a lot."
+    }
+  ],
+  "w-n-fritid": [
+    {
+      "form": "fritid",
+      "da": "I min fritid går jeg til yoga og spiller guitar.",
+      "en": "In my spare time I do yoga and play the guitar."
+    },
+    {
+      "form": "fritiden",
+      "da": "I fritiden spiller min datter håndbold to gange om ugen.",
+      "en": "In her spare time my daughter plays handball twice a week."
+    }
+  ],
+  "w-n-forening": [
+    {
+      "form": "forening",
+      "da": "Han er formand for en forening, der hjælper ældre.",
+      "en": "He is chairman of an association that helps elderly people."
+    },
+    {
+      "form": "foreningen",
+      "da": "Foreningen mødes hver tirsdag i det lokale kulturhus.",
+      "en": "The club meets every Tuesday at the local culture centre."
+    }
+  ],
+  "w-n-udstilling": [
+    {
+      "form": "udstilling",
+      "da": "På museet er der en ny udstilling om vikingetiden.",
+      "en": "At the museum there is a new exhibition about the Viking Age."
+    },
+    {
+      "form": "udstillingen",
+      "da": "Udstillingen er åben indtil udgangen af marts.",
+      "en": "The exhibition is open until the end of March."
+    }
+  ],
+  "w-n-forestilling": [
+    {
+      "form": "forestilling",
+      "da": "Vi så en sjov forestilling på teatret i lørdags.",
+      "en": "We saw a funny show at the theatre last Saturday."
+    },
+    {
+      "form": "forestillingen",
+      "da": "Forestillingen begynder klokken otte, så vi spiser før.",
+      "en": "The performance starts at eight, so we'll eat beforehand."
+    }
+  ],
+  "w-n-kultur": [
+    {
+      "form": "kultur",
+      "da": "Det er spændende at lære om en ny kultur.",
+      "en": "It is exciting to learn about a new culture."
+    },
+    {
+      "form": "kulturen",
+      "da": "Kulturen på min arbejdsplads er meget uformel.",
+      "en": "The culture at my workplace is very informal."
+    }
+  ],
+  "w-n-tradition": [
+    {
+      "form": "tradition",
+      "da": "Det er en dansk tradition at spise risalamande juleaften.",
+      "en": "It is a Danish tradition to eat rice pudding on Christmas Eve."
+    },
+    {
+      "form": "traditionen",
+      "da": "Traditionen tro holdt vi fest for hele familien til jul.",
+      "en": "As tradition dictates, we held a party for the whole family at Christmas."
+    }
+  ],
+  "w-n-rejse": [
+    {
+      "form": "rejse",
+      "da": "Vi planlægger en lang rejse til Asien næste år.",
+      "en": "We are planning a long journey to Asia next year."
+    },
+    {
+      "form": "rejsen",
+      "da": "Rejsen hjem tog over tolv timer på grund af forsinkelser.",
+      "en": "The journey home took over twelve hours because of delays."
+    }
+  ],
+  "w-n-udsigt": [
+    {
+      "form": "udsigt",
+      "da": "Fra vores altan har vi en smuk udsigt over havnen.",
+      "en": "From our balcony we have a beautiful view over the harbour."
+    },
+    {
+      "form": "udsigten",
+      "da": "Udsigten fra toppen af tårnet er fantastisk.",
+      "en": "The view from the top of the tower is fantastic."
+    }
+  ],
+  "w-n-natur": [
+    {
+      "form": "natur",
+      "da": "Danmark har meget smuk natur, især ved kysten.",
+      "en": "Denmark has very beautiful nature, especially along the coast."
+    },
+    {
+      "form": "naturen",
+      "da": "Om weekenden kan vi godt lide at gå ture i naturen.",
+      "en": "At weekends we like going for walks in nature."
+    }
+  ],
+  "w-n-energi": [
+    {
+      "form": "energi",
+      "da": "Efter ferien har jeg masser af energi.",
+      "en": "After the holiday I have lots of energy."
+    },
+    {
+      "form": "energien",
+      "da": "En stor del af energien i Danmark kommer fra vindmøller.",
+      "en": "A large part of the energy in Denmark comes from wind turbines."
+    }
+  ],
+  "w-n-temperatur": [
+    {
+      "form": "temperatur",
+      "da": "Barnet har høj temperatur og skal blive hjemme i dag.",
+      "en": "The child has a high temperature and has to stay at home today."
+    },
+    {
+      "form": "temperaturen",
+      "da": "I nat falder temperaturen til under nul grader.",
+      "en": "Tonight the temperature will drop below zero."
+    }
+  ],
+  "w-n-trafik": [
+    {
+      "form": "trafik",
+      "da": "Der er altid meget trafik på motorvejen om morgenen.",
+      "en": "There is always a lot of traffic on the motorway in the morning."
+    },
+    {
+      "form": "trafikken",
+      "da": "Trafikken i byen er blevet værre, efter at vejen blev lukket.",
+      "en": "The traffic in town has got worse since the road was closed."
+    }
+  ],
+  "w-n-rabat": [
+    {
+      "form": "rabat",
+      "da": "Studerende får rabat på billetter til biografen.",
+      "en": "Students get a discount on cinema tickets."
+    },
+    {
+      "form": "rabatten",
+      "da": "Rabatten gælder kun i weekenden.",
+      "en": "The discount only applies at the weekend."
+    }
+  ],
+  "w-n-kvalitet": [
+    {
+      "form": "kvalitet",
+      "da": "Jeg vil hellere betale lidt mere for god kvalitet.",
+      "en": "I would rather pay a bit more for good quality."
+    },
+    {
+      "form": "kvaliteten",
+      "da": "Kvaliteten af maden i kantinen er blevet meget bedre.",
+      "en": "The quality of the food in the canteen has become much better."
+    }
+  ],
+  "w-n-opsparing": [
+    {
+      "form": "opsparing",
+      "da": "Det er klogt at have en opsparing, hvis noget går i stykker.",
+      "en": "It is wise to have savings in case something breaks."
+    },
+    {
+      "form": "opsparingen",
+      "da": "Vi brugte hele opsparingen på en ny bil.",
+      "en": "We spent all our savings on a new car."
+    }
+  ],
+  "w-n-gaeld": [
+    {
+      "form": "gæld",
+      "da": "Mange unge har gæld, når de er færdige med at studere.",
+      "en": "Many young people are in debt when they finish studying."
+    },
+    {
+      "form": "gælden",
+      "da": "Det tog dem ti år at betale gælden tilbage.",
+      "en": "It took them ten years to pay back the debt."
+    }
+  ],
+  "w-n-konto": [
+    {
+      "form": "konto",
+      "da": "Lønnen bliver sat ind på min konto den sidste dag i måneden.",
+      "en": "My salary is paid into my account on the last day of the month."
+    },
+    {
+      "form": "kontoen",
+      "da": "Der var ikke penge nok på kontoen til at betale huslejen.",
+      "en": "There wasn't enough money in the account to pay the rent."
+    }
+  ],
+  "w-n-nyhed": [
+    {
+      "form": "nyhed",
+      "da": "Jeg har en god nyhed: Vi skal have en baby!",
+      "en": "I have some good news: we are having a baby!"
+    },
+    {
+      "form": "nyheden",
+      "da": "Nyheden om fabrikkens lukning spredte sig hurtigt i byen.",
+      "en": "The news of the factory's closure spread quickly in the town."
+    }
+  ],
+  "w-n-journalist": [
+    {
+      "form": "journalist",
+      "da": "Hun arbejder som journalist på en lokal avis.",
+      "en": "She works as a journalist on a local newspaper."
+    },
+    {
+      "form": "journalisten",
+      "da": "Journalisten interviewede flere borgere om de nye cykelstier.",
+      "en": "The journalist interviewed several residents about the new cycle paths."
+    }
+  ],
+  "w-n-artikel": [
+    {
+      "form": "artikel",
+      "da": "Jeg læste en interessant artikel om søvn i går.",
+      "en": "I read an interesting article about sleep yesterday."
+    },
+    {
+      "form": "artiklen",
+      "da": "I artiklen står der, at flere unge flytter fra landet.",
+      "en": "The article says that more young people are moving away from the countryside."
+    }
+  ],
+  "w-n-app": [
+    {
+      "form": "app",
+      "da": "Med denne app kan du købe billetter til bussen.",
+      "en": "With this app you can buy tickets for the bus."
+    },
+    {
+      "form": "appen",
+      "da": "Appen virker ikke, så jeg må ringe til banken.",
+      "en": "The app isn't working, so I have to phone the bank."
+    }
+  ],
+  "w-n-udtale": [
+    {
+      "form": "udtale",
+      "da": "Hun taler godt dansk, men hendes udtale er stadig svær at forstå.",
+      "en": "She speaks Danish well, but her pronunciation is still hard to understand."
+    },
+    {
+      "form": "udtalen",
+      "da": "Udtalen er det sværeste ved at lære dansk.",
+      "en": "The pronunciation is the hardest thing about learning Danish."
+    }
+  ],
+  "w-n-grammatik": [
+    {
+      "form": "grammatik",
+      "da": "Vi har grammatik på holdet hver mandag.",
+      "en": "We do grammar in class every Monday."
+    },
+    {
+      "form": "grammatikken",
+      "da": "Grammatikken er ikke så svær, men ordstillingen driller mig.",
+      "en": "The grammar isn't that hard, but the word order gives me trouble."
+    }
+  ],
+  "w-n-skilsmisse": [
+    {
+      "form": "skilsmisse",
+      "da": "En skilsmisse kan være hård for både børn og voksne.",
+      "en": "A divorce can be hard on both children and adults."
+    },
+    {
+      "form": "skilsmissen",
+      "da": "Efter skilsmissen bor børnene hos deres far hver anden uge.",
+      "en": "After the divorce the children live with their father every other week."
+    }
+  ],
+  "w-n-begravelse": [
+    {
+      "form": "begravelse",
+      "da": "Hele landsbyen kom til hans begravelse.",
+      "en": "The whole village came to his funeral."
+    },
+    {
+      "form": "begravelsen",
+      "da": "Begravelsen finder sted i kirken på fredag.",
+      "en": "The funeral will take place in the church on Friday."
+    }
+  ],
+  "w-n-festival": [
+    {
+      "form": "festival",
+      "da": "Hver sommer tager vi på festival med vennerne.",
+      "en": "Every summer we go to a festival with our friends."
+    },
+    {
+      "form": "festivalen",
+      "da": "Festivalen havde over tyve tusind gæster i år.",
+      "en": "The festival had over twenty thousand guests this year."
+    }
+  ],
+  "w-n-hverdag": [
+    {
+      "form": "hverdag",
+      "da": "Med tre børn og fuldtidsjob har vi en travl hverdag.",
+      "en": "With three children and full-time jobs we have a busy everyday life."
+    },
+    {
+      "form": "hverdagen",
+      "da": "Efter ferien er det svært at vende tilbage til hverdagen.",
+      "en": "After the holiday it is hard to get back to everyday life."
+    }
+  ],
+  "w-n-kunst": [
+    {
+      "form": "kunst",
+      "da": "Min datter vil gerne studere kunst efter gymnasiet.",
+      "en": "My daughter would like to study art after upper secondary school."
+    },
+    {
+      "form": "kunsten",
+      "da": "Kunsten på museet er fra det nittende århundrede.",
+      "en": "The art in the museum is from the nineteenth century."
+    }
+  ],
+  "w-n-medarbejder": [
+    {
+      "form": "medarbejder",
+      "da": "Virksomheden søger en ny medarbejder til kundeservice.",
+      "en": "The company is looking for a new employee for customer service."
+    },
+    {
+      "form": "medarbejderen",
+      "da": "Medarbejderen fik ros for sit gode arbejde.",
+      "en": "The employee was praised for his good work."
+    }
+  ],
+  "w-n-gymnasium": [
+    {
+      "form": "gymnasium",
+      "da": "Efter folkeskolen vil min søn gerne gå på et gymnasium.",
+      "en": "After state school my son would like to go to an upper secondary school."
+    },
+    {
+      "form": "gymnasiet",
+      "da": "Hun blev student fra gymnasiet sidste sommer.",
+      "en": "She graduated from upper secondary school last summer."
+    }
+  ],
+  "w-n-universitet": [
+    {
+      "form": "universitet",
+      "da": "Han læser medicin på et universitet i Odense.",
+      "en": "He is studying medicine at a university in Odense."
+    },
+    {
+      "form": "universitetet",
+      "da": "Biblioteket på universitetet har åbent til klokken ti om aftenen.",
+      "en": "The library at the university is open until ten in the evening."
+    }
+  ],
+  "w-n-emne": [
+    {
+      "form": "emne",
+      "da": "Til prøven skal du vælge et emne og tale om det i fem minutter.",
+      "en": "For the test you must choose a topic and talk about it for five minutes."
+    },
+    {
+      "form": "emnet",
+      "da": "Emnet for dagens møde er det nye budget.",
+      "en": "The topic of today's meeting is the new budget."
+    }
+  ],
+  "w-n-krav": [
+    {
+      "form": "krav",
+      "da": "Det er et krav, at man har en uddannelse inden for området.",
+      "en": "It is a requirement that you have training in the field."
+    },
+    {
+      "form": "kravet",
+      "da": "Kravet om flydende dansk gør det svært for mange at få jobbet.",
+      "en": "The requirement of fluent Danish makes it hard for many to get the job."
+    }
+  ],
+  "w-n-ansvar": [
+    {
+      "form": "ansvar",
+      "da": "Som forælder har man ansvar for sine børns sikkerhed.",
+      "en": "As a parent you are responsible for your children's safety."
+    },
+    {
+      "form": "ansvaret",
+      "da": "Chefen gav mig ansvaret for det nye projekt.",
+      "en": "The boss gave me responsibility for the new project."
+    }
+  ],
+  "w-n-forhold": [
+    {
+      "form": "forhold",
+      "da": "De har haft et forhold i tre år og vil nu flytte sammen.",
+      "en": "They have been in a relationship for three years and now want to move in together."
+    },
+    {
+      "form": "forholdet",
+      "da": "Forholdet mellem naboerne blev bedre efter gadefesten.",
+      "en": "The relationship between the neighbours improved after the street party."
+    }
+  ],
+  "w-n-oenske": [
+    {
+      "form": "ønske",
+      "da": "Mit største ønske er at få et fast job.",
+      "en": "My biggest wish is to get a permanent job."
+    },
+    {
+      "form": "ønsket",
+      "da": "Ønsket om et større hus fik dem til at flytte på landet.",
+      "en": "The wish for a bigger house made them move to the countryside."
+    }
+  ],
+  "w-n-maal": [
+    {
+      "form": "mål",
+      "da": "Mit mål er at bestå Prøve i Dansk 3 til sommer.",
+      "en": "My goal is to pass Prøve i Dansk 3 this summer."
+    },
+    {
+      "form": "målet",
+      "da": "Målet med kampagnen er at få flere til at cykle til arbejde.",
+      "en": "The aim of the campaign is to get more people to cycle to work."
+    }
+  ],
+  "w-n-formaal": [
+    {
+      "form": "formål",
+      "da": "Mødet har kun ét formål: at finde en løsning på problemet.",
+      "en": "The meeting has only one purpose: to find a solution to the problem."
+    },
+    {
+      "form": "formålet",
+      "da": "Formålet med kurset er at gøre deltagerne bedre til at skrive.",
+      "en": "The purpose of the course is to make the participants better at writing."
+    }
+  ],
+  "w-n-resultat": [
+    {
+      "form": "resultat",
+      "da": "Vi var meget tilfredse med et så godt resultat.",
+      "en": "We were very pleased with such a good result."
+    },
+    {
+      "form": "resultatet",
+      "da": "Resultatet af undersøgelsen kommer først om to uger.",
+      "en": "The result of the examination won't be ready for two weeks."
+    }
+  ],
+  "w-n-forslag": [
+    {
+      "form": "forslag",
+      "da": "Har du et forslag til, hvor vi kan spise i aften?",
+      "en": "Do you have a suggestion for where we can eat tonight?"
+    },
+    {
+      "form": "forslaget",
+      "da": "Kommunen har sagt nej til forslaget om en ny skøjtebane.",
+      "en": "The municipality has rejected the proposal for a new ice rink."
+    }
+  ],
+  "w-n-valg": [
+    {
+      "form": "valg",
+      "da": "Det var et svært valg mellem de to lejligheder.",
+      "en": "It was a difficult choice between the two flats."
+    },
+    {
+      "form": "valget",
+      "da": "Mange unge stemte ikke ved valget i november.",
+      "en": "Many young people didn't vote in the election in November."
+    }
+  ],
+  "w-n-raad": [
+    {
+      "form": "råd",
+      "da": "Min mor gav mig et godt råd, før jeg startede på jobbet.",
+      "en": "My mother gave me a good piece of advice before I started the job."
+    },
+    {
+      "form": "rådet",
+      "da": "Jeg fulgte rådet fra lægen og begyndte at gå mere.",
+      "en": "I followed the doctor's advice and started walking more."
+    }
+  ],
+  "w-n-behov": [
+    {
+      "form": "behov",
+      "da": "Der er et stort behov for flere pædagoger i kommunen.",
+      "en": "There is a great need for more childcare workers in the municipality."
+    },
+    {
+      "form": "behovet",
+      "da": "Behovet for billige boliger vokser i de store byer.",
+      "en": "The need for cheap housing is growing in the big cities."
+    }
+  ],
+  "w-n-forsoeg": [
+    {
+      "form": "forsøg",
+      "da": "Han bestod køreprøven i første forsøg.",
+      "en": "He passed the driving test at the first attempt."
+    },
+    {
+      "form": "forsøget",
+      "da": "Forsøget med gratis frugt i skolen blev en stor succes.",
+      "en": "The experiment with free fruit at school was a great success."
+    }
+  ],
+  "w-n-initiativ": [
+    {
+      "form": "initiativ",
+      "da": "Hun tog initiativ til en fælles madklub i opgangen.",
+      "en": "She took the initiative to start a shared dinner club in the building."
+    },
+    {
+      "form": "initiativet",
+      "da": "Initiativet skal hjælpe flere ældre med at bruge computere.",
+      "en": "The initiative is meant to help more elderly people use computers."
+    }
+  ],
+  "w-n-projekt": [
+    {
+      "form": "projekt",
+      "da": "Vi arbejder på et projekt om genbrug i skolen.",
+      "en": "We are working on a project about recycling at school."
+    },
+    {
+      "form": "projektet",
+      "da": "Projektet blev færdigt to måneder før tiden.",
+      "en": "The project was finished two months ahead of schedule."
+    }
+  ],
+  "w-n-fravaer": [
+    {
+      "form": "fravær",
+      "da": "Hun har haft meget fravær fra skolen på grund af sygdom.",
+      "en": "She has been absent from school a lot because of illness."
+    },
+    {
+      "form": "fraværet",
+      "da": "Læreren talte med forældrene om fraværet.",
+      "en": "The teacher talked to the parents about the absence."
+    }
+  ],
+  "w-n-produkt": [
+    {
+      "form": "produkt",
+      "da": "Firmaet lancerer et nyt produkt til efteråret.",
+      "en": "The company is launching a new product in the autumn."
+    },
+    {
+      "form": "produktet",
+      "da": "Hvis du ikke er tilfreds med produktet, kan du få pengene tilbage.",
+      "en": "If you are not satisfied with the product, you can get your money back."
+    }
+  ],
+  "w-n-salg": [
+    {
+      "form": "salg",
+      "da": "Huset er sat til salg, fordi de skal flytte til Jylland.",
+      "en": "The house has been put up for sale because they are moving to Jutland."
+    },
+    {
+      "form": "salget",
+      "da": "Salget af elbiler er steget meget i år.",
+      "en": "Sales of electric cars have risen a lot this year."
+    }
+  ],
+  "w-n-koeb": [
+    {
+      "form": "køb",
+      "da": "Et nyt køleskab er et stort køb for en studerende.",
+      "en": "A new fridge is a big purchase for a student."
+    },
+    {
+      "form": "købet",
+      "da": "Jeg fortryder købet, fordi jakken var for lille.",
+      "en": "I regret the purchase because the jacket was too small."
+    }
+  ],
+  "w-n-laan": [
+    {
+      "form": "lån",
+      "da": "De har taget et lån i banken for at købe hus.",
+      "en": "They have taken out a loan from the bank to buy a house."
+    },
+    {
+      "form": "lånet",
+      "da": "Lånet skal være betalt tilbage om tyve år.",
+      "en": "The loan has to be paid back in twenty years."
+    }
+  ],
+  "w-n-budget": [
+    {
+      "form": "budget",
+      "da": "Vi lægger et budget for hver måned, så vi kan spare op.",
+      "en": "We make a budget for each month so that we can save up."
+    },
+    {
+      "form": "budgettet",
+      "da": "Budgettet til kultur er blevet skåret ned i år.",
+      "en": "The budget for culture has been cut this year."
+    }
+  ],
+  "w-n-abonnement": [
+    {
+      "form": "abonnement",
+      "da": "Jeg har et abonnement på en avis, men læser den sjældent.",
+      "en": "I have a subscription to a newspaper, but I rarely read it."
+    },
+    {
+      "form": "abonnementet",
+      "da": "Jeg opsagde abonnementet, fordi prisen steg igen.",
+      "en": "I cancelled the subscription because the price went up again."
+    }
+  ],
+  "w-n-venskab": [
+    {
+      "form": "venskab",
+      "da": "Mellem de to piger opstod et tæt venskab.",
+      "en": "A close friendship developed between the two girls."
+    },
+    {
+      "form": "venskabet",
+      "da": "Venskabet har holdt i over tredive år.",
+      "en": "The friendship has lasted for over thirty years."
+    }
+  ],
+  "w-n-aegteskab": [
+    {
+      "form": "ægteskab",
+      "da": "Mine bedsteforældre havde et langt og lykkeligt ægteskab.",
+      "en": "My grandparents had a long and happy marriage."
+    },
+    {
+      "form": "ægteskabet",
+      "da": "Efter ti år var ægteskabet ved at gå i stykker.",
+      "en": "After ten years the marriage was falling apart."
+    }
+  ],
+  "w-n-liv": [
+    {
+      "form": "liv",
+      "da": "Hun vil gerne have et roligt liv på landet.",
+      "en": "She would like a quiet life in the countryside."
+    },
+    {
+      "form": "livet",
+      "da": "Livet i en storby er meget anderledes end i en lille landsby.",
+      "en": "Life in a big city is very different from life in a small village."
+    }
+  ],
+  "w-n-helbred": [
+    {
+      "form": "helbred",
+      "da": "Min far har et godt helbred, selvom han er over firs.",
+      "en": "My father is in good health even though he is over eighty."
+    },
+    {
+      "form": "helbredet",
+      "da": "Hun holdt op med at ryge for at passe på helbredet.",
+      "en": "She stopped smoking to look after her health."
+    }
+  ],
+  "w-n-tilfaelde": [
+    {
+      "form": "tilfælde",
+      "da": "Ring til 112 i tilfælde af brand.",
+      "en": "Call 112 in case of fire."
+    },
+    {
+      "form": "tilfældet",
+      "da": "Hvis det er tilfældet, må vi finde en anden løsning.",
+      "en": "If that is the case, we will have to find another solution."
+    }
+  ],
+  "w-n-miljoe": [
+    {
+      "form": "miljø",
+      "da": "Det er godt for miljø og klima at cykle i stedet for at køre bil.",
+      "en": "Cycling instead of driving is good for the environment and the climate."
+    },
+    {
+      "form": "miljøet",
+      "da": "Vi skal alle passe bedre på miljøet.",
+      "en": "We all need to take better care of the environment."
+    }
+  ],
+  "w-n-affald": [
+    {
+      "form": "affald",
+      "da": "Efter festen lå der affald overalt i parken.",
+      "en": "After the party there was rubbish everywhere in the park."
+    },
+    {
+      "form": "affaldet",
+      "da": "Husk at sortere affaldet i plast, papir og madaffald.",
+      "en": "Remember to sort the rubbish into plastic, paper and food waste."
+    }
+  ],
+  "w-n-klima": [
+    {
+      "form": "klima",
+      "da": "Danmark har et mildt klima med kølige somre.",
+      "en": "Denmark has a mild climate with cool summers."
+    },
+    {
+      "form": "klimaet",
+      "da": "Mange unge er bekymrede for klimaet.",
+      "en": "Many young people are worried about the climate."
+    }
+  ],
+  "w-n-hav": [
+    {
+      "form": "hav",
+      "da": "Danmark er omgivet af hav på næsten alle sider.",
+      "en": "Denmark is surrounded by sea on almost all sides."
+    },
+    {
+      "form": "havet",
+      "da": "Om sommeren bader vi i havet hver dag.",
+      "en": "In summer we swim in the sea every day."
+    }
+  ],
+  "w-n-boligomraade": [
+    {
+      "form": "boligområde",
+      "da": "Kommunen vil bygge et nyt boligområde ved skoven.",
+      "en": "The municipality wants to build a new residential area by the forest."
+    },
+    {
+      "form": "boligområdet",
+      "da": "I boligområdet er der både en legeplads og et fælleshus.",
+      "en": "In the residential area there is both a playground and a community house."
+    }
+  ],
+  "w-n-forbud": [
+    {
+      "form": "forbud",
+      "da": "Der er forbud mod at ryge på alle skoler.",
+      "en": "Smoking is banned at all schools."
+    },
+    {
+      "form": "forbuddet",
+      "da": "Forbuddet mod mobiltelefoner i timerne har givet mere ro i klassen.",
+      "en": "The ban on mobile phones in lessons has brought more calm to the class."
+    }
+  ],
+  "w-n-opslag": [
+    {
+      "form": "opslag",
+      "da": "Hun skrev et opslag på Facebook om sin bortløbne kat.",
+      "en": "She wrote a post on Facebook about her lost cat."
+    },
+    {
+      "form": "opslaget",
+      "da": "Opslaget om en ledig lejlighed blev delt over hundrede gange.",
+      "en": "The post about an available flat was shared over a hundred times."
+    }
+  ],
+  "w-n-indlaeg": [
+    {
+      "form": "indlæg",
+      "da": "Han har skrevet et indlæg i avisen om skolens nye regler.",
+      "en": "He has written a piece in the newspaper about the school's new rules."
+    },
+    {
+      "form": "indlægget",
+      "da": "Indlægget fik mange kommentarer fra både for- og modstandere.",
+      "en": "The post got many comments from both supporters and opponents."
+    }
+  ],
+  "w-n-netvaerk": [
+    {
+      "form": "netværk",
+      "da": "Et godt netværk kan hjælpe dig med at finde arbejde.",
+      "en": "A good network can help you find work."
+    },
+    {
+      "form": "netværket",
+      "da": "Netværket på kontoret var nede hele formiddagen.",
+      "en": "The network at the office was down all morning."
+    }
+  ],
+  "w-n-internet": [
+    {
+      "form": "internet",
+      "da": "I sommerhuset har vi desværre ikke internet.",
+      "en": "Unfortunately we don't have internet at the summer house."
+    },
+    {
+      "form": "internettet",
+      "da": "Mange ældre har svært ved at betale regninger over internettet.",
+      "en": "Many elderly people find it hard to pay bills over the internet."
+    }
+  ],
+  "w-n-indhold": [
+    {
+      "form": "indhold",
+      "da": "Avisen har meget interessant indhold om lokale forhold.",
+      "en": "The newspaper has a lot of interesting content about local matters."
+    },
+    {
+      "form": "indholdet",
+      "da": "Ved tolden ville de se indholdet af min kuffert.",
+      "en": "At customs they wanted to see the contents of my suitcase."
+    }
+  ],
+  "w-n-foredrag": [
+    {
+      "form": "foredrag",
+      "da": "I aften holder en læge et foredrag om stress på biblioteket.",
+      "en": "Tonight a doctor is giving a talk about stress at the library."
+    },
+    {
+      "form": "foredraget",
+      "da": "Foredraget var så spændende, at ingen kiggede på mobilen.",
+      "en": "The lecture was so exciting that nobody looked at their phone."
+    }
+  ],
+  "w-n-ophold": [
+    {
+      "form": "ophold",
+      "da": "Efter et ophold på hospitalet skal hun hvile sig derhjemme.",
+      "en": "After a stay in hospital she has to rest at home."
+    },
+    {
+      "form": "opholdet",
+      "da": "Opholdet i Spanien gav ham lyst til at lære spansk.",
+      "en": "The stay in Spain made him want to learn Spanish."
+    }
+  ],
+  "w-n-besoeg": [
+    {
+      "form": "besøg",
+      "da": "I weekenden får vi besøg af min svigermor.",
+      "en": "At the weekend my mother-in-law is coming to visit."
+    },
+    {
+      "form": "besøget",
+      "da": "Børnene glædede sig meget til besøget i zoologisk have.",
+      "en": "The children were really looking forward to the visit to the zoo."
+    }
+  ],
+  "w-n-arrangement": [
+    {
+      "form": "arrangement",
+      "da": "Biblioteket holder et arrangement for børn hver lørdag.",
+      "en": "The library holds an event for children every Saturday."
+    },
+    {
+      "form": "arrangementet",
+      "da": "Arrangementet blev aflyst på grund af dårligt vejr.",
+      "en": "The event was cancelled because of bad weather."
+    }
+  ],
+  "w-n-selskab": [
+    {
+      "form": "selskab",
+      "da": "Hun arbejder i et stort selskab, der sælger strøm.",
+      "en": "She works for a big company that sells electricity."
+    },
+    {
+      "form": "selskabet",
+      "da": "Selskabet har besluttet at åbne et nyt kontor i Aalborg.",
+      "en": "The company has decided to open a new office in Aalborg."
+    }
+  ],
+  "w-n-lokale": [
+    {
+      "form": "lokale",
+      "da": "Vi har lejet et lokale til min fars fødselsdag.",
+      "en": "We have rented a room for my father's birthday."
+    },
+    {
+      "form": "lokalet",
+      "da": "Lokalet var for lille til alle de gæster, der kom.",
+      "en": "The room was too small for all the guests who came."
+    }
+  ],
+  "w-n-nabolag": [
+    {
+      "form": "nabolag",
+      "da": "De flyttede til et nabolag med gode skoler.",
+      "en": "They moved to a neighbourhood with good schools."
+    },
+    {
+      "form": "nabolaget",
+      "da": "Alle i nabolaget kender hinanden og hjælper hinanden.",
+      "en": "Everybody in the neighbourhood knows each other and helps each other."
+    }
+  ],
+  "w-n-kollegium": [
+    {
+      "form": "kollegium",
+      "da": "Da han startede på universitetet, boede han på et kollegium.",
+      "en": "When he started university, he lived in a hall of residence."
+    },
+    {
+      "form": "kollegiet",
+      "da": "På kollegiet deler de studerende køkken med hinanden.",
+      "en": "In the hall of residence the students share a kitchen."
+    }
+  ],
+  "w-n-udseende": [
+    {
+      "form": "udseende",
+      "da": "Man skal ikke dømme folk på deres udseende.",
+      "en": "You shouldn't judge people by their appearance."
+    },
+    {
+      "form": "udseendet",
+      "da": "Udseendet betyder meget for mange teenagere.",
+      "en": "Appearance means a lot to many teenagers."
+    }
+  ],
+  "w-n-talent": [
+    {
+      "form": "talent",
+      "da": "Hun har et stort talent for musik.",
+      "en": "She has a great talent for music."
+    },
+    {
+      "form": "talentet",
+      "da": "Talentet har han fra sin far, som også var maler.",
+      "en": "He got his talent from his father, who was also a painter."
+    }
+  ],
+  "w-n-fremmedsprog": [
+    {
+      "form": "fremmedsprog",
+      "da": "Det tager tid at lære et fremmedsprog som voksen.",
+      "en": "It takes time to learn a foreign language as an adult."
+    },
+    {
+      "form": "fremmedsproget",
+      "da": "Hvis man bor i et land, hvor fremmedsproget tales, lærer man det hurtigere.",
+      "en": "If you live in a country where the foreign language is spoken, you learn it faster."
+    }
+  ],
+  "w-n-ordforraad": [
+    {
+      "form": "ordforråd",
+      "da": "Man får et større ordforråd ved at læse aviser og bøger.",
+      "en": "You get a bigger vocabulary by reading newspapers and books."
+    },
+    {
+      "form": "ordforrådet",
+      "da": "Ordforrådet er det vigtigste, når man skal forstå en tekst.",
+      "en": "Vocabulary is the most important thing when you need to understand a text."
+    }
+  ],
+  "w-n-tegn": [
+    {
+      "form": "tegn",
+      "da": "Det er et godt tegn, at han spiser igen.",
+      "en": "It is a good sign that he is eating again."
+    },
+    {
+      "form": "tegnet",
+      "da": "Han gav tegnet til, at koncerten kunne begynde.",
+      "en": "He gave the sign that the concert could begin."
+    }
+  ],
+  "w-n-arbejdsliv": [
+    {
+      "form": "arbejdsliv",
+      "da": "Hun har haft et langt arbejdsliv som skolelærer.",
+      "en": "She has had a long working life as a schoolteacher."
+    },
+    {
+      "form": "arbejdslivet",
+      "da": "Mange oplever, at arbejdslivet er blevet mere stressende.",
+      "en": "Many people feel that working life has become more stressful."
+    }
+  ],
+  "w-n-familieliv": [
+    {
+      "form": "familieliv",
+      "da": "Med to små børn og et travlt familieliv har hun ikke meget fritid.",
+      "en": "With two small children and a busy family life she doesn't have much free time."
+    },
+    {
+      "form": "familielivet",
+      "da": "Familielivet ændrede sig meget, da tvillingerne blev født.",
+      "en": "Family life changed a lot when the twins were born."
+    }
+  ],
+  "w-n-fagomraade": [
+    {
+      "form": "fagområde",
+      "da": "Hun er ekspert inden for et meget smalt fagområde.",
+      "en": "She is an expert in a very narrow field."
+    },
+    {
+      "form": "fagområdet",
+      "da": "Hun har arbejdet inden for fagområdet i over tyve år.",
+      "en": "She has worked in the field for over twenty years."
+    }
+  ],
+  "w-n-sundhedskort": [
+    {
+      "form": "sundhedskort",
+      "da": "Alle med bopæl i Danmark får et sundhedskort.",
+      "en": "Everyone resident in Denmark gets a health insurance card."
+    },
+    {
+      "form": "sundhedskortet",
+      "da": "Husk at tage sundhedskortet med, når du skal til lægen.",
+      "en": "Remember to take your health insurance card when you go to the doctor."
+    }
+  ],
+  "w-n-dokument": [
+    {
+      "form": "dokument",
+      "da": "Jeg har gemt et vigtigt dokument på computeren.",
+      "en": "I have saved an important document on the computer."
+    },
+    {
+      "form": "dokumentet",
+      "da": "Send venligst dokumentet til mig inden mandag.",
+      "en": "Please send me the document before Monday."
+    }
+  ],
+  "w-n-arbejdsloeshed": [
+    {
+      "form": "arbejdsløshed",
+      "da": "Høj arbejdsløshed rammer især unge uden uddannelse.",
+      "en": "High unemployment hits young people without an education especially hard."
+    },
+    {
+      "form": "arbejdsløsheden",
+      "da": "Arbejdsløsheden i Danmark er faldet det seneste år.",
+      "en": "Unemployment in Denmark has fallen over the past year."
+    }
+  ],
+  "w-n-loenmodtager": [
+    {
+      "form": "lønmodtager",
+      "da": "Som lønmodtager har man ret til fem ugers ferie om året.",
+      "en": "As a wage earner you are entitled to five weeks' holiday a year."
+    },
+    {
+      "form": "lønmodtageren",
+      "da": "Det er arbejdsgiveren, ikke lønmodtageren, der betaler for arbejdstøjet.",
+      "en": "It is the employer, not the wage earner, who pays for the work clothes."
+    }
+  ],
+  "w-n-leder": [
+    {
+      "form": "leder",
+      "da": "Hun er blevet leder af et team på femten personer.",
+      "en": "She has become the leader of a team of fifteen people."
+    },
+    {
+      "form": "lederen",
+      "da": "Lederen af børnehaven holdt et møde med alle forældrene.",
+      "en": "The head of the kindergarten held a meeting with all the parents."
+    }
+  ],
+  "w-n-ledelse": [
+    {
+      "form": "ledelse",
+      "da": "Medarbejderne ønsker en ledelse, der lytter til dem.",
+      "en": "The employees want a management that listens to them."
+    },
+    {
+      "form": "ledelsen",
+      "da": "Ledelsen har besluttet, at alle skal arbejde hjemme om fredagen.",
+      "en": "The management has decided that everyone should work from home on Fridays."
+    }
+  ],
+  "w-n-afdeling": [
+    {
+      "form": "afdeling",
+      "da": "Han arbejder i en afdeling, der tager sig af kundeklager.",
+      "en": "He works in a department that handles customer complaints."
+    },
+    {
+      "form": "afdelingen",
+      "da": "Afdelingen skal flytte til en anden bygning efter nytår.",
+      "en": "The department is moving to another building after New Year."
+    }
+  ],
+  "w-n-forfremmelse": [
+    {
+      "form": "forfremmelse",
+      "da": "Efter fem år i firmaet fik hun endelig en forfremmelse.",
+      "en": "After five years at the company she finally got a promotion."
+    },
+    {
+      "form": "forfremmelsen",
+      "da": "Med forfremmelsen fulgte både højere løn og mere ansvar.",
+      "en": "The promotion brought both higher pay and more responsibility."
+    }
+  ],
+  "w-n-indsats": [
+    {
+      "form": "indsats",
+      "da": "Alle gjorde en stor indsats for at blive færdige til tiden.",
+      "en": "Everyone made a big effort to finish on time."
+    },
+    {
+      "form": "indsatsen",
+      "da": "Chefen takkede alle for indsatsen i det travle år.",
+      "en": "The boss thanked everyone for their efforts during the busy year."
+    }
+  ],
+  "w-n-praestation": [
+    {
+      "form": "præstation",
+      "da": "At lære dansk på to år er en flot præstation.",
+      "en": "Learning Danish in two years is an impressive achievement."
+    },
+    {
+      "form": "præstationen",
+      "da": "Træneren var ikke tilfreds med præstationen i anden halvleg.",
+      "en": "The coach was not happy with the performance in the second half."
+    }
+  ],
+  "w-n-deadline": [
+    {
+      "form": "deadline",
+      "da": "Vi har en deadline på fredag, så der er travlt på kontoret.",
+      "en": "We have a deadline on Friday, so the office is busy."
+    },
+    {
+      "form": "deadlinen",
+      "da": "Hun nåede ikke deadlinen og måtte bede om en uges forlængelse.",
+      "en": "She didn't meet the deadline and had to ask for a week's extension."
+    }
+  ],
+  "w-n-overenskomst": [
+    {
+      "form": "overenskomst",
+      "da": "De fleste danske lønmodtagere er dækket af en overenskomst.",
+      "en": "Most Danish wage earners are covered by a collective agreement."
+    },
+    {
+      "form": "overenskomsten",
+      "da": "Ifølge overenskomsten får man tillæg for at arbejde om aftenen.",
+      "en": "According to the collective agreement you get extra pay for working in the evening."
+    }
+  ],
+  "w-n-strejke": [
+    {
+      "form": "strejke",
+      "da": "Buschaufførerne gik i strejke for at få bedre arbejdsforhold.",
+      "en": "The bus drivers went on strike to get better working conditions."
+    },
+    {
+      "form": "strejken",
+      "da": "Strejken varede i tre uger, før parterne blev enige.",
+      "en": "The strike lasted three weeks before the parties reached agreement."
+    }
+  ],
+  "w-n-arbejdstid": [
+    {
+      "form": "arbejdstid",
+      "da": "En dansk fuldtidsstilling har en arbejdstid på 37 timer om ugen.",
+      "en": "A Danish full-time position has working hours of 37 hours a week."
+    },
+    {
+      "form": "arbejdstiden",
+      "da": "Hun vil gerne sætte arbejdstiden ned, så hun kan være mere sammen med børnene.",
+      "en": "She would like to reduce her working hours so she can spend more time with the children."
+    }
+  ],
+  "w-n-barsel": [
+    {
+      "form": "barsel",
+      "da": "Min kollega er på barsel, indtil hendes søn er et år.",
+      "en": "My colleague is on maternity leave until her son is one."
+    },
+    {
+      "form": "barslen",
+      "da": "Mange fædre vil gerne dele barslen ligeligt med mødrene.",
+      "en": "Many fathers would like to share the parental leave equally with the mothers."
+    }
+  ],
+  "w-n-orlov": [
+    {
+      "form": "orlov",
+      "da": "Han har taget et års orlov for at rejse jorden rundt.",
+      "en": "He has taken a year's leave to travel around the world."
+    },
+    {
+      "form": "orloven",
+      "da": "Under orloven får hun ikke løn, men hun beholder sit job.",
+      "en": "During the leave she doesn't get paid, but she keeps her job."
+    }
+  ],
+  "w-n-efteruddannelse": [
+    {
+      "form": "efteruddannelse",
+      "da": "Virksomheden investerer hvert år i efteruddannelse af personalet.",
+      "en": "Every year the company invests in further training for its staff."
+    },
+    {
+      "form": "efteruddannelsen",
+      "da": "Efteruddannelsen gav ham nye kompetencer og et bedre job.",
+      "en": "The further education gave him new skills and a better job."
+    }
+  ],
+  "w-n-voksenuddannelse": [
+    {
+      "form": "voksenuddannelse",
+      "da": "Mange tager en voksenuddannelse for at skifte branche.",
+      "en": "Many people take adult education to change careers."
+    },
+    {
+      "form": "voksenuddannelsen",
+      "da": "Voksenuddannelsen foregår om aftenen, så man kan arbejde om dagen.",
+      "en": "The adult education takes place in the evening so you can work during the day."
+    }
+  ],
+  "w-n-undervisning": [
+    {
+      "form": "undervisning",
+      "da": "Børn i Danmark har ret til gratis undervisning.",
+      "en": "Children in Denmark have the right to free teaching."
+    },
+    {
+      "form": "undervisningen",
+      "da": "Undervisningen begynder klokken otte og slutter klokken halv tre.",
+      "en": "Lessons start at eight o'clock and end at half past two."
+    }
+  ],
+  "w-n-vejledning": [
+    {
+      "form": "vejledning",
+      "da": "Hvis du er i tvivl om din uddannelse, kan du få vejledning på skolen.",
+      "en": "If you are unsure about your education, you can get guidance at the school."
+    },
+    {
+      "form": "vejledningen",
+      "da": "Læs vejledningen, før du samler reolen.",
+      "en": "Read the instructions before you assemble the bookcase."
+    }
+  ],
+  "w-n-forebyggelse": [
+    {
+      "form": "forebyggelse",
+      "da": "Forebyggelse er billigere end behandling.",
+      "en": "Prevention is cheaper than treatment."
+    },
+    {
+      "form": "forebyggelsen",
+      "da": "Regeringen vil styrke forebyggelsen af sygdomme hos børn.",
+      "en": "The government wants to strengthen the prevention of illness among children."
+    }
+  ],
+  "w-n-genoptraening": [
+    {
+      "form": "genoptræning",
+      "da": "Efter operationen skal hun have genoptræning to gange om ugen.",
+      "en": "After the operation she has to have rehabilitation twice a week."
+    },
+    {
+      "form": "genoptræningen",
+      "da": "Genoptræningen tog et halvt år, men nu kan han gå uden krykker.",
+      "en": "The rehabilitation took six months, but now he can walk without crutches."
+    }
+  ],
+  "w-n-henvisning": [
+    {
+      "form": "henvisning",
+      "da": "Man skal have en henvisning fra lægen for at komme til en specialist.",
+      "en": "You need a referral from your doctor to see a specialist."
+    },
+    {
+      "form": "henvisningen",
+      "da": "Henvisningen til psykologen kom med posten i dag.",
+      "en": "The referral to the psychologist arrived in the post today."
+    }
+  ]
+}

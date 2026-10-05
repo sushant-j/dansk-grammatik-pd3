@@ -1,1 +1,2774 @@
-{}
+{
+  "w-v-slukke": [
+    {
+      "form": "slukke",
+      "da": "Husk at slukke lyset, når du går ud af stuen.",
+      "en": "Remember to turn off the light when you leave the living room."
+    },
+    {
+      "form": "slukker",
+      "da": "Min søn slukker aldrig computeren om aftenen.",
+      "en": "My son never turns off the computer in the evening."
+    },
+    {
+      "form": "slukkede",
+      "da": "Brandmændene slukkede ilden på under en time.",
+      "en": "The firefighters put out the fire in less than an hour."
+    },
+    {
+      "form": "slukket",
+      "da": "Har du slukket for komfuret, før vi går?",
+      "en": "Have you turned off the stove before we leave?"
+    }
+  ],
+  "w-v-slutte": [
+    {
+      "form": "slutte",
+      "da": "Mødet skal slutte senest klokken fire.",
+      "en": "The meeting has to end by four o'clock at the latest."
+    },
+    {
+      "form": "slutter",
+      "da": "Skolen slutter klokken halv tre om fredagen.",
+      "en": "School finishes at half past two on Fridays."
+    },
+    {
+      "form": "sluttede",
+      "da": "Filmen sluttede lidt trist, synes jeg.",
+      "en": "The film ended a bit sadly, I think."
+    },
+    {
+      "form": "sluttet",
+      "da": "Fodboldsæsonen er sluttet, så banen er lukket hele vinteren.",
+      "en": "The football season has ended, so the pitch is closed all winter."
+    }
+  ],
+  "w-v-slå": [
+    {
+      "form": "slå",
+      "da": "Det er forbudt at slå børn i Danmark.",
+      "en": "It is forbidden to hit children in Denmark."
+    },
+    {
+      "form": "slår",
+      "da": "Mit hjerte slår hurtigt, når jeg skal tale foran mange mennesker.",
+      "en": "My heart beats fast when I have to speak in front of many people."
+    },
+    {
+      "form": "slog",
+      "da": "Danmark slog Sverige med to mål i går aftes.",
+      "en": "Denmark beat Sweden by two goals last night."
+    },
+    {
+      "form": "slået",
+      "da": "Hun har slået hovedet mod skabsdøren.",
+      "en": "She has hit her head on the cupboard door."
+    }
+  ],
+  "w-v-slås": [
+    {
+      "form": "slås",
+      "da": "Mange familier må slås for at få økonomien til at hænge sammen.",
+      "en": "Many families have to struggle to make ends meet."
+    },
+    {
+      "form": "slås",
+      "da": "De to brødre slås altid om fjernbetjeningen.",
+      "en": "The two brothers always fight over the remote control."
+    },
+    {
+      "form": "sloges",
+      "da": "Drengene sloges i skolegården, indtil en lærer kom.",
+      "en": "The boys fought in the schoolyard until a teacher came."
+    },
+    {
+      "form": "sloges",
+      "da": "Brødrene har sloges om legetøjet hele formiddagen.",
+      "en": "The brothers have been fighting over the toys all morning."
+    }
+  ],
+  "w-v-smage": [
+    {
+      "form": "smage",
+      "da": "Vil du smage min nye suppe?",
+      "en": "Would you like to taste my new soup?"
+    },
+    {
+      "form": "smager",
+      "da": "Kaffen smager bedre med lidt mælk.",
+      "en": "The coffee tastes better with a little milk."
+    },
+    {
+      "form": "smagte",
+      "da": "Børnene smagte forsigtigt på frugten fra Thailand.",
+      "en": "The children carefully tasted the fruit from Thailand."
+    },
+    {
+      "form": "smagt",
+      "da": "Jeg havde aldrig smagt rugbrød, før jeg kom til Danmark.",
+      "en": "I had never tasted rye bread before I came to Denmark."
+    }
+  ],
+  "w-v-smide": [
+    {
+      "form": "smide",
+      "da": "Man må ikke smide affald på gaden.",
+      "en": "You must not throw litter in the street."
+    },
+    {
+      "form": "smider",
+      "da": "Hun smider altid gamle aviser i den blå container.",
+      "en": "She always throws old newspapers in the blue bin."
+    },
+    {
+      "form": "smed",
+      "da": "Drengen smed bolden over hækken.",
+      "en": "The boy threw the ball over the hedge."
+    },
+    {
+      "form": "smidt",
+      "da": "Har du smidt kvitteringen ud?",
+      "en": "Have you thrown the receipt away?"
+    }
+  ],
+  "w-v-smile": [
+    {
+      "form": "smile",
+      "da": "Prøv at smile til kunderne, selv om du er træt.",
+      "en": "Try to smile at the customers, even if you are tired."
+    },
+    {
+      "form": "smiler",
+      "da": "Babyen smiler til sin mor.",
+      "en": "The baby smiles at its mother."
+    },
+    {
+      "form": "smilede",
+      "da": "Ekspedienten smilede og sagde tak.",
+      "en": "The shop assistant smiled and said thank you."
+    },
+    {
+      "form": "smilet",
+      "da": "Hun har smilet hele dagen efter den gode nyhed.",
+      "en": "She has been smiling all day after the good news."
+    }
+  ],
+  "w-v-smitte": [
+    {
+      "form": "smitte",
+      "da": "Influenza kan smitte, før man selv får symptomer.",
+      "en": "Flu can be passed on before you get symptoms yourself."
+    },
+    {
+      "form": "smitter",
+      "da": "Godt humør smitter, siger man.",
+      "en": "Good humour is contagious, they say."
+    },
+    {
+      "form": "smittede",
+      "da": "Min datter smittede hele familien med sin forkølelse.",
+      "en": "My daughter gave her cold to the whole family."
+    },
+    {
+      "form": "smittet",
+      "da": "Mange ældre blev smittet med virussen sidste vinter.",
+      "en": "Many elderly people were infected with the virus last winter."
+    }
+  ],
+  "w-v-snakke": [
+    {
+      "form": "snakke",
+      "da": "Vi skal snakke om ferien i aften.",
+      "en": "We need to talk about the holiday tonight."
+    },
+    {
+      "form": "snakker",
+      "da": "Min nabo snakker altid om vejret.",
+      "en": "My neighbour always talks about the weather."
+    },
+    {
+      "form": "snakkede",
+      "da": "Vi snakkede længe i telefonen i søndags.",
+      "en": "We chatted on the phone for a long time last Sunday."
+    },
+    {
+      "form": "snakket",
+      "da": "Har du snakket med din chef om lønnen?",
+      "en": "Have you talked to your boss about your salary?"
+    }
+  ],
+  "w-v-sove": [
+    {
+      "form": "sove",
+      "da": "Børn har brug for at sove mindst ti timer.",
+      "en": "Children need to sleep at least ten hours."
+    },
+    {
+      "form": "sover",
+      "da": "Min mand sover altid foran fjernsynet.",
+      "en": "My husband always falls asleep in front of the TV."
+    },
+    {
+      "form": "sov",
+      "da": "Jeg sov dårligt i nat på grund af støjen.",
+      "en": "I slept badly last night because of the noise."
+    },
+    {
+      "form": "sovet",
+      "da": "Har du sovet godt i den nye seng?",
+      "en": "Have you slept well in the new bed?"
+    }
+  ],
+  "w-v-spare": [
+    {
+      "form": "spare",
+      "da": "Vi prøver at spare penge til en ny bil.",
+      "en": "We are trying to save money for a new car."
+    },
+    {
+      "form": "sparer",
+      "da": "Man sparer mange penge, hvis man laver mad hjemme.",
+      "en": "You save a lot of money if you cook at home."
+    },
+    {
+      "form": "sparede",
+      "da": "Kommunen sparede på rengøringen i skolerne.",
+      "en": "The municipality cut back on cleaning in the schools."
+    },
+    {
+      "form": "sparet",
+      "da": "De har sparet op i mange år til et hus.",
+      "en": "They have been saving up for a house for many years."
+    }
+  ],
+  "w-v-spille": [
+    {
+      "form": "spille",
+      "da": "Kan du lide at spille fodbold?",
+      "en": "Do you like playing football?"
+    },
+    {
+      "form": "spiller",
+      "da": "Min datter spiller klaver hver dag.",
+      "en": "My daughter plays the piano every day."
+    },
+    {
+      "form": "spillede",
+      "da": "Vi spillede kort hele aftenen.",
+      "en": "We played cards all evening."
+    },
+    {
+      "form": "spillet",
+      "da": "Har du nogensinde spillet tennis?",
+      "en": "Have you ever played tennis?"
+    }
+  ],
+  "w-v-spise": [
+    {
+      "form": "spise",
+      "da": "Hvad skal vi spise til aftensmad?",
+      "en": "What shall we have for dinner?"
+    },
+    {
+      "form": "spiser",
+      "da": "Familien spiser altid sammen klokken seks.",
+      "en": "The family always eats together at six o'clock."
+    },
+    {
+      "form": "spiste",
+      "da": "I går spiste vi frokost i parken.",
+      "en": "Yesterday we ate lunch in the park."
+    },
+    {
+      "form": "spist",
+      "da": "Jeg har ikke spist noget i dag.",
+      "en": "I haven't eaten anything today."
+    }
+  ],
+  "w-v-sprede": [
+    {
+      "form": "sprede",
+      "da": "Sociale medier kan sprede falske nyheder meget hurtigt.",
+      "en": "Social media can spread fake news very quickly."
+    },
+    {
+      "form": "spreder",
+      "da": "Røgen fra branden spreder sig over hele byen.",
+      "en": "The smoke from the fire is spreading over the whole town."
+    },
+    {
+      "form": "spredte",
+      "da": "Sygdommen spredte sig hurtigt blandt børnene i børnehaven.",
+      "en": "The illness spread quickly among the children in the kindergarten."
+    },
+    {
+      "form": "spredt",
+      "da": "Familien bor spredt over hele landet.",
+      "en": "The family lives spread out across the whole country."
+    }
+  ],
+  "w-v-springe": [
+    {
+      "form": "springe",
+      "da": "Du må ikke springe morgenmaden over.",
+      "en": "You mustn't skip breakfast."
+    },
+    {
+      "form": "springer",
+      "da": "Katten springer op på bordet.",
+      "en": "The cat jumps up onto the table."
+    },
+    {
+      "form": "sprang",
+      "da": "Hun sprang i vandet fra broen.",
+      "en": "She jumped into the water from the bridge."
+    },
+    {
+      "form": "sprunget",
+      "da": "Jeg har sprunget et kapitel over i bogen.",
+      "en": "I have skipped a chapter in the book."
+    }
+  ],
+  "w-v-spørge": [
+    {
+      "form": "spørge",
+      "da": "Du kan altid spørge læreren om hjælp.",
+      "en": "You can always ask the teacher for help."
+    },
+    {
+      "form": "spørger",
+      "da": "Min søn spørger om alt mellem himmel og jord.",
+      "en": "My son asks about everything under the sun."
+    },
+    {
+      "form": "spurgte",
+      "da": "Lægen spurgte, hvordan jeg sov om natten.",
+      "en": "The doctor asked how I slept at night."
+    },
+    {
+      "form": "spurgt",
+      "da": "Har du spurgt, om vi må parkere her?",
+      "en": "Have you asked whether we are allowed to park here?"
+    }
+  ],
+  "w-v-stamme": [
+    {
+      "form": "stamme",
+      "da": "Ordet menes at stamme fra latin.",
+      "en": "The word is thought to originate from Latin."
+    },
+    {
+      "form": "stammer",
+      "da": "Min bedstefar stammer fra en lille landsby i Jylland.",
+      "en": "My grandfather comes from a small village in Jutland."
+    },
+    {
+      "form": "stammede",
+      "da": "Som barn stammede han, når han var nervøs.",
+      "en": "As a child, he stammered when he was nervous."
+    },
+    {
+      "form": "stammet",
+      "da": "Hun har stammet, siden hun var lille.",
+      "en": "She has stammered since she was little."
+    }
+  ],
+  "w-v-standse": [
+    {
+      "form": "standse",
+      "da": "Bilisterne skal standse helt ved stopskiltet.",
+      "en": "Drivers must come to a complete stop at the stop sign."
+    },
+    {
+      "form": "standser",
+      "da": "Toget standser ikke ved denne station om søndagen.",
+      "en": "The train doesn't stop at this station on Sundays."
+    },
+    {
+      "form": "standsede",
+      "da": "Politiet standsede bilen på motorvejen.",
+      "en": "The police stopped the car on the motorway."
+    },
+    {
+      "form": "standset",
+      "da": "Byggeriet er blevet standset på grund af mangel på penge.",
+      "en": "The construction work has been stopped due to a lack of money."
+    }
+  ],
+  "w-v-starte": [
+    {
+      "form": "starte",
+      "da": "Hvornår skal du starte på dit nye arbejde?",
+      "en": "When are you starting your new job?"
+    },
+    {
+      "form": "starter",
+      "da": "Filmen starter klokken otte.",
+      "en": "The film starts at eight o'clock."
+    },
+    {
+      "form": "startede",
+      "da": "Jeg startede på danskkursus sidste år.",
+      "en": "I started a Danish course last year."
+    },
+    {
+      "form": "startet",
+      "da": "Min søster har startet sin egen virksomhed.",
+      "en": "My sister has started her own business."
+    }
+  ],
+  "w-v-stemme": [
+    {
+      "form": "stemme",
+      "da": "Alle borgere over 18 år har ret til at stemme.",
+      "en": "All citizens over 18 have the right to vote."
+    },
+    {
+      "form": "stemmer",
+      "da": "Hvem stemmer du på ved næste valg?",
+      "en": "Who are you voting for in the next election?"
+    },
+    {
+      "form": "stemte",
+      "da": "Flertallet stemte for den nye skole.",
+      "en": "The majority voted for the new school."
+    },
+    {
+      "form": "stemt",
+      "da": "Jeg har stemt ved alle kommunalvalg, siden jeg fik lov.",
+      "en": "I have voted in every local election since I was allowed to."
+    }
+  ],
+  "w-v-stege": [
+    {
+      "form": "stege",
+      "da": "Man skal stege kødet ved høj varme.",
+      "en": "You should fry the meat at a high heat."
+    },
+    {
+      "form": "steger",
+      "da": "Min far steger frikadeller hver fredag.",
+      "en": "My father fries meatballs every Friday."
+    },
+    {
+      "form": "stegte",
+      "da": "Vi stegte fisk over bålet på stranden.",
+      "en": "We fried fish over the fire on the beach."
+    },
+    {
+      "form": "stegt",
+      "da": "Jeg har stegt kyllingen i ovnen.",
+      "en": "I have roasted the chicken in the oven."
+    }
+  ],
+  "w-v-stige": [
+    {
+      "form": "stige",
+      "da": "Priserne på el forventes at stige i vinter.",
+      "en": "Electricity prices are expected to rise this winter."
+    },
+    {
+      "form": "stiger",
+      "da": "Temperaturen stiger år for år på grund af klimaforandringerne.",
+      "en": "The temperature is rising year by year because of climate change."
+    },
+    {
+      "form": "steg",
+      "da": "Antallet af turister steg kraftigt sidste sommer.",
+      "en": "The number of tourists rose sharply last summer."
+    },
+    {
+      "form": "steget",
+      "da": "Huslejen er steget med ti procent.",
+      "en": "The rent has gone up by ten percent."
+    }
+  ],
+  "w-v-stikke": [
+    {
+      "form": "stikke",
+      "da": "Pas på, bierne kan stikke!",
+      "en": "Careful, the bees can sting!"
+    },
+    {
+      "form": "stikker",
+      "da": "Sygeplejersken stikker forsigtigt nålen i armen.",
+      "en": "The nurse carefully sticks the needle into the arm."
+    },
+    {
+      "form": "stak",
+      "da": "En hveps stak mig i fingeren i går.",
+      "en": "A wasp stung me on the finger yesterday."
+    },
+    {
+      "form": "stukket",
+      "da": "Han har stukket hænderne i lommerne.",
+      "en": "He has put his hands in his pockets."
+    }
+  ],
+  "w-v-stikke-af": [
+    {
+      "form": "stikke",
+      "da": "Hunden prøver altid at stikke af, når lågen er åben.",
+      "en": "The dog always tries to run off when the gate is open."
+    },
+    {
+      "form": "stikker",
+      "da": "Han stikker ofte af fra sine problemer.",
+      "en": "He often runs away from his problems."
+    },
+    {
+      "form": "stak",
+      "da": "Tyven stak af, før politiet kom.",
+      "en": "The thief ran off before the police came."
+    },
+    {
+      "form": "stukket",
+      "da": "Vores kat er stukket af igen.",
+      "en": "Our cat has run away again."
+    }
+  ],
+  "w-v-stille": [
+    {
+      "form": "stille",
+      "da": "Kan du stille vasen på bordet?",
+      "en": "Can you put the vase on the table?"
+    },
+    {
+      "form": "stiller",
+      "da": "Hun stiller altid cyklen i kælderen.",
+      "en": "She always puts her bike in the basement."
+    },
+    {
+      "form": "stillede",
+      "da": "Journalisten stillede mange svære spørgsmål.",
+      "en": "The journalist asked many difficult questions."
+    },
+    {
+      "form": "stillet",
+      "da": "Vi har stillet stolene op i rækker til mødet.",
+      "en": "We have set the chairs out in rows for the meeting."
+    }
+  ],
+  "w-v-stjæle": [
+    {
+      "form": "stjæle",
+      "da": "Det er forkert at stjæle, også små ting.",
+      "en": "It is wrong to steal, even small things."
+    },
+    {
+      "form": "stjæler",
+      "da": "Nogen stjæler cykler fra stationen hver uge.",
+      "en": "Someone steals bikes from the station every week."
+    },
+    {
+      "form": "stjal",
+      "da": "Indbrudstyvene stjal både fjernsynet og smykkerne.",
+      "en": "The burglars stole both the TV and the jewellery."
+    },
+    {
+      "form": "stjålet",
+      "da": "Min pung er blevet stjålet i bussen.",
+      "en": "My wallet has been stolen on the bus."
+    }
+  ],
+  "w-v-stole-på": [
+    {
+      "form": "stole",
+      "da": "Man skal kunne stole på sine kolleger.",
+      "en": "You should be able to rely on your colleagues."
+    },
+    {
+      "form": "stoler",
+      "da": "Jeg stoler fuldt og helt på min læge.",
+      "en": "I trust my doctor completely."
+    },
+    {
+      "form": "stolede",
+      "da": "Vi stolede på, at bussen kom til tiden.",
+      "en": "We relied on the bus arriving on time."
+    },
+    {
+      "form": "stolet",
+      "da": "Hun har altid stolet på sin bedste veninde.",
+      "en": "She has always trusted her best friend."
+    }
+  ],
+  "w-v-stoppe": [
+    {
+      "form": "stoppe",
+      "da": "Du skal stoppe ved det røde lys.",
+      "en": "You must stop at the red light."
+    },
+    {
+      "form": "stopper",
+      "da": "Bussen stopper lige uden for mit hus.",
+      "en": "The bus stops just outside my house."
+    },
+    {
+      "form": "stoppede",
+      "da": "Regnen stoppede endelig ved middagstid.",
+      "en": "The rain finally stopped around midday."
+    },
+    {
+      "form": "stoppet",
+      "da": "Dommeren har stoppet kampen på grund af tordenvejr.",
+      "en": "The referee has stopped the match because of a thunderstorm."
+    }
+  ],
+  "w-v-straffe": [
+    {
+      "form": "straffe",
+      "da": "Det hjælper sjældent at straffe teenagere med husarrest.",
+      "en": "Punishing teenagers by grounding them rarely helps."
+    },
+    {
+      "form": "straffer",
+      "da": "Politiet straffer bilister, der kører for stærkt, med bøder.",
+      "en": "The police punish drivers who speed with fines."
+    },
+    {
+      "form": "straffede",
+      "da": "Læreren straffede hele klassen for en enkelt elevs opførsel.",
+      "en": "The teacher punished the whole class for one pupil's behaviour."
+    },
+    {
+      "form": "straffet",
+      "da": "Han er tidligere straffet for tyveri.",
+      "en": "He has a previous conviction for theft."
+    }
+  ],
+  "w-v-stramme": [
+    {
+      "form": "stramme",
+      "da": "Bankerne har valgt at stramme kravene til boliglån.",
+      "en": "The banks have chosen to tighten the requirements for home loans."
+    },
+    {
+      "form": "strammer",
+      "da": "De nye sko strammer over tæerne.",
+      "en": "The new shoes are tight over the toes."
+    },
+    {
+      "form": "strammede",
+      "da": "Hun strammede skruerne på cyklen med en nøgle.",
+      "en": "She tightened the screws on the bike with a spanner."
+    },
+    {
+      "form": "strammet",
+      "da": "Reglerne for parkering i centrum er blevet strammet.",
+      "en": "The rules for parking in the town centre have been tightened."
+    }
+  ],
+  "w-v-strække": [
+    {
+      "form": "strække",
+      "da": "Det er godt at strække ud efter en løbetur.",
+      "en": "It is good to stretch after a run."
+    },
+    {
+      "form": "strækker",
+      "da": "Skoven strækker sig helt ned til kysten.",
+      "en": "The forest stretches all the way down to the coast."
+    },
+    {
+      "form": "strakte",
+      "da": "Hun strakte armene op over hovedet.",
+      "en": "She stretched her arms up above her head."
+    },
+    {
+      "form": "strakt",
+      "da": "Projektet har strakt sig over tre år.",
+      "en": "The project has stretched over three years."
+    }
+  ],
+  "w-v-styre": [
+    {
+      "form": "styre",
+      "da": "Det kan være svært at styre sit forbrug, når man betaler med kort.",
+      "en": "It can be hard to control your spending when you pay by card."
+    },
+    {
+      "form": "styrer",
+      "da": "Min kone styrer familiens økonomi.",
+      "en": "My wife manages the family's finances."
+    },
+    {
+      "form": "styrede",
+      "da": "Han styrede bilen sikkert gennem sneen.",
+      "en": "He steered the car safely through the snow."
+    },
+    {
+      "form": "styret",
+      "da": "Landet blev styret af en konge i mange hundrede år.",
+      "en": "The country was ruled by a king for many hundreds of years."
+    }
+  ],
+  "w-v-styrke": [
+    {
+      "form": "styrke",
+      "da": "Motion kan styrke både krop og humør.",
+      "en": "Exercise can strengthen both body and mood."
+    },
+    {
+      "form": "styrker",
+      "da": "Fælles oplevelser styrker sammenholdet i en familie.",
+      "en": "Shared experiences strengthen the bond in a family."
+    },
+    {
+      "form": "styrkede",
+      "da": "Kurset styrkede mit selvværd.",
+      "en": "The course boosted my self-esteem."
+    },
+    {
+      "form": "styrket",
+      "da": "Samarbejdet mellem skole og hjem er blevet styrket.",
+      "en": "Cooperation between school and home has been strengthened."
+    }
+  ],
+  "w-v-støde": [
+    {
+      "form": "støde",
+      "da": "I det gamle hus er det let at støde hovedet mod loftet.",
+      "en": "In the old house it is easy to bump your head on the ceiling."
+    },
+    {
+      "form": "støder",
+      "da": "Han støder tit albuen mod bordkanten.",
+      "en": "He often bumps his elbow on the edge of the table."
+    },
+    {
+      "form": "stødte",
+      "da": "Cyklisten stødte ind i en lygtepæl.",
+      "en": "The cyclist crashed into a lamppost."
+    },
+    {
+      "form": "stødt",
+      "da": "Hun har stødt tåen mod sengen.",
+      "en": "She has stubbed her toe on the bed."
+    }
+  ],
+  "w-v-støde-på": [
+    {
+      "form": "støde",
+      "da": "Man kan støde på mange problemer, når man flytter til et nyt land.",
+      "en": "You can come across many problems when you move to a new country."
+    },
+    {
+      "form": "støder",
+      "da": "Jeg støder ofte på nye ord i avisen.",
+      "en": "I often come across new words in the newspaper."
+    },
+    {
+      "form": "stødte",
+      "da": "I går stødte jeg på en gammel ven i supermarkedet.",
+      "en": "Yesterday I ran into an old friend in the supermarket."
+    },
+    {
+      "form": "stødt",
+      "da": "Har du stødt på den slags problemer før?",
+      "en": "Have you come across that kind of problem before?"
+    }
+  ],
+  "w-v-støtte": [
+    {
+      "form": "støtte",
+      "da": "Forældre skal støtte deres børn i skolen.",
+      "en": "Parents should support their children at school."
+    },
+    {
+      "form": "støtter",
+      "da": "Staten støtter studerende med SU.",
+      "en": "The state supports students with student grants."
+    },
+    {
+      "form": "støttede",
+      "da": "Min familie støttede mig, da jeg mistede mit job.",
+      "en": "My family supported me when I lost my job."
+    },
+    {
+      "form": "støttet",
+      "da": "Projektet er støttet af kommunen.",
+      "en": "The project is supported by the municipality."
+    }
+  ],
+  "w-v-stå": [
+    {
+      "form": "stå",
+      "da": "Vi måtte stå i kø i en halv time.",
+      "en": "We had to stand in line for half an hour."
+    },
+    {
+      "form": "står",
+      "da": "Cyklen står i gården bag huset.",
+      "en": "The bike is in the courtyard behind the house."
+    },
+    {
+      "form": "stod",
+      "da": "Der stod en mand ved døren og ventede.",
+      "en": "A man was standing at the door, waiting."
+    },
+    {
+      "form": "stået",
+      "da": "Bilen har stået ubrugt i garagen hele vinteren.",
+      "en": "The car has stood unused in the garage all winter."
+    }
+  ],
+  "w-v-stå-op": [
+    {
+      "form": "stå",
+      "da": "Jeg hader at stå op tidligt om vinteren.",
+      "en": "I hate getting up early in the winter."
+    },
+    {
+      "form": "står",
+      "da": "Hvornår står du op om morgenen?",
+      "en": "What time do you get up in the morning?"
+    },
+    {
+      "form": "stod",
+      "da": "I morges stod jeg op klokken seks.",
+      "en": "This morning I got up at six o'clock."
+    },
+    {
+      "form": "stået",
+      "da": "Børnene er ikke stået op endnu.",
+      "en": "The children haven't got up yet."
+    }
+  ],
+  "w-v-svare": [
+    {
+      "form": "svare",
+      "da": "Du behøver ikke at svare på min besked i dag.",
+      "en": "You don't need to reply to my message today."
+    },
+    {
+      "form": "svarer",
+      "da": "Han svarer aldrig, når jeg ringer.",
+      "en": "He never answers when I call."
+    },
+    {
+      "form": "svarede",
+      "da": "Hun svarede hurtigt på min e-mail.",
+      "en": "She replied quickly to my email."
+    },
+    {
+      "form": "svaret",
+      "da": "Har du svaret på invitationen?",
+      "en": "Have you replied to the invitation?"
+    }
+  ],
+  "w-v-svigte": [
+    {
+      "form": "svigte",
+      "da": "Jeg vil aldrig svigte mine venner.",
+      "en": "I will never let my friends down."
+    },
+    {
+      "form": "svigter",
+      "da": "Hukommelsen svigter ofte, når man bliver ældre.",
+      "en": "Memory often fails as you get older."
+    },
+    {
+      "form": "svigtede",
+      "da": "Bremserne svigtede, og bilen kørte ind i et træ.",
+      "en": "The brakes failed, and the car hit a tree."
+    },
+    {
+      "form": "svigtet",
+      "da": "Mange ældre føler sig svigtet af systemet.",
+      "en": "Many elderly people feel let down by the system."
+    }
+  ],
+  "w-v-svinge": [
+    {
+      "form": "svinge",
+      "da": "Elpriserne kan svinge meget i løbet af en dag.",
+      "en": "Electricity prices can fluctuate a lot during a day."
+    },
+    {
+      "form": "svinger",
+      "da": "Bilen svinger til venstre ved rundkørslen.",
+      "en": "The car turns left at the roundabout."
+    },
+    {
+      "form": "svingede",
+      "da": "Temperaturen svingede mellem fem og femten grader i går.",
+      "en": "The temperature fluctuated between five and fifteen degrees yesterday."
+    },
+    {
+      "form": "svinget",
+      "da": "Hans humør har svinget meget den seneste tid.",
+      "en": "His mood has swung a lot recently."
+    }
+  ],
+  "w-v-sy": [
+    {
+      "form": "sy",
+      "da": "Min mormor lærte mig at sy.",
+      "en": "My grandmother taught me to sew."
+    },
+    {
+      "form": "syr",
+      "da": "Hun syr selv tøj til sine børn.",
+      "en": "She makes clothes for her children herself."
+    },
+    {
+      "form": "syede",
+      "da": "Jeg syede en knap på jakken i går.",
+      "en": "I sewed a button on the jacket yesterday."
+    },
+    {
+      "form": "syet",
+      "da": "Lægen har syet såret med fem sting.",
+      "en": "The doctor has stitched the wound with five stitches."
+    }
+  ],
+  "w-v-synes": [
+    {
+      "form": "synes",
+      "da": "Du må synes, hvad du vil.",
+      "en": "You can think what you like."
+    },
+    {
+      "form": "synes",
+      "da": "Jeg synes, at vi skal tage toget i stedet for bilen.",
+      "en": "I think we should take the train instead of the car."
+    },
+    {
+      "form": "syntes",
+      "da": "Hun syntes, at filmen var lidt for lang.",
+      "en": "She thought the film was a bit too long."
+    },
+    {
+      "form": "syntes",
+      "da": "Vi har altid syntes godt om vores naboer.",
+      "en": "We have always liked our neighbours."
+    }
+  ],
+  "w-v-synge": [
+    {
+      "form": "synge",
+      "da": "Børnene elsker at synge sange om julen.",
+      "en": "The children love singing songs about Christmas."
+    },
+    {
+      "form": "synger",
+      "da": "Min datter synger i et kor.",
+      "en": "My daughter sings in a choir."
+    },
+    {
+      "form": "sang",
+      "da": "Vi sang fødselsdagssang for farmor.",
+      "en": "We sang the birthday song for Grandma."
+    },
+    {
+      "form": "sunget",
+      "da": "Har du nogensinde sunget karaoke?",
+      "en": "Have you ever sung karaoke?"
+    }
+  ],
+  "w-v-synke": [
+    {
+      "form": "synke",
+      "da": "Han havde ondt i halsen og kunne næsten ikke synke.",
+      "en": "He had a sore throat and could hardly swallow."
+    },
+    {
+      "form": "synker",
+      "da": "Solen synker langsomt ned i havet.",
+      "en": "The sun slowly sinks into the sea."
+    },
+    {
+      "form": "sank",
+      "da": "Skibet sank i en storm for hundrede år siden.",
+      "en": "The ship sank in a storm a hundred years ago."
+    },
+    {
+      "form": "sunket",
+      "da": "Vandstanden i søen er sunket i løbet af sommeren.",
+      "en": "The water level in the lake has dropped during the summer."
+    }
+  ],
+  "w-v-sælge": [
+    {
+      "form": "sælge",
+      "da": "Vi vil gerne sælge vores gamle sofa.",
+      "en": "We would like to sell our old sofa."
+    },
+    {
+      "form": "sælger",
+      "da": "Bageren sælger friskt brød hver morgen.",
+      "en": "The baker sells fresh bread every morning."
+    },
+    {
+      "form": "solgte",
+      "da": "De solgte huset og flyttede til en lejlighed.",
+      "en": "They sold the house and moved to a flat."
+    },
+    {
+      "form": "solgt",
+      "da": "Alle billetterne til koncerten er allerede solgt.",
+      "en": "All the tickets for the concert have already been sold."
+    }
+  ],
+  "w-v-sænke": [
+    {
+      "form": "sænke",
+      "da": "Kommunen har besluttet at sænke hastigheden på vejen ved skolen.",
+      "en": "The municipality has decided to lower the speed limit on the road by the school."
+    },
+    {
+      "form": "sænker",
+      "da": "Banken sænker renten fra næste måned.",
+      "en": "The bank is lowering the interest rate from next month."
+    },
+    {
+      "form": "sænkede",
+      "da": "Han sænkede stemmen, fordi barnet sov.",
+      "en": "He lowered his voice because the child was asleep."
+    },
+    {
+      "form": "sænket",
+      "da": "Afgiften på el er blevet sænket.",
+      "en": "The tax on electricity has been lowered."
+    }
+  ],
+  "w-v-sætte": [
+    {
+      "form": "sætte",
+      "da": "Du kan sætte dig her ved vinduet.",
+      "en": "You can sit down here by the window."
+    },
+    {
+      "form": "sætter",
+      "da": "Jeg sætter altid vækkeuret til klokken seks.",
+      "en": "I always set the alarm clock for six o'clock."
+    },
+    {
+      "form": "satte",
+      "da": "Hun satte blomsterne i vand.",
+      "en": "She put the flowers in water."
+    },
+    {
+      "form": "sat",
+      "da": "Har du sat mælken i køleskabet?",
+      "en": "Have you put the milk in the fridge?"
+    }
+  ],
+  "w-v-søge": [
+    {
+      "form": "søge",
+      "da": "Jeg vil søge et job som pædagogmedhjælper.",
+      "en": "I am going to apply for a job as a nursery assistant."
+    },
+    {
+      "form": "søger",
+      "da": "Firmaet søger en ny medarbejder til lageret.",
+      "en": "The company is looking for a new employee for the warehouse."
+    },
+    {
+      "form": "søgte",
+      "da": "Hun søgte ind på sygeplejerskeuddannelsen sidste år.",
+      "en": "She applied to the nursing programme last year."
+    },
+    {
+      "form": "søgt",
+      "da": "Vi har søgt om en større lejlighed.",
+      "en": "We have applied for a bigger flat."
+    }
+  ],
+  "w-v-sørge-for": [
+    {
+      "form": "sørge",
+      "da": "Husk at sørge for, at døren er låst.",
+      "en": "Remember to make sure that the door is locked."
+    },
+    {
+      "form": "sørger",
+      "da": "Min mand sørger for madpakkerne om morgenen.",
+      "en": "My husband takes care of the packed lunches in the morning."
+    },
+    {
+      "form": "sørgede",
+      "da": "Kommunen sørgede for transport til de ældre.",
+      "en": "The municipality arranged transport for the elderly."
+    },
+    {
+      "form": "sørget",
+      "da": "Har du sørget for billetter til toget?",
+      "en": "Have you taken care of the train tickets?"
+    }
+  ],
+  "w-v-tabe": [
+    {
+      "form": "tabe",
+      "da": "Det er ikke sjovt at tabe en kamp.",
+      "en": "It is no fun to lose a match."
+    },
+    {
+      "form": "taber",
+      "da": "Han taber altid sine nøgler, når han har travlt.",
+      "en": "He always drops his keys when he is in a hurry."
+    },
+    {
+      "form": "tabte",
+      "da": "Jeg tabte min telefon på gulvet, og skærmen gik i stykker.",
+      "en": "I dropped my phone on the floor, and the screen broke."
+    },
+    {
+      "form": "tabt",
+      "da": "Holdet har tabt de sidste tre kampe.",
+      "en": "The team has lost the last three matches."
+    }
+  ],
+  "w-v-tage": [
+    {
+      "form": "tage",
+      "da": "Jeg glemte at tage min medicin i morges.",
+      "en": "I forgot to take my medicine this morning."
+    },
+    {
+      "form": "tager",
+      "da": "Hun tager bussen til arbejde hver dag.",
+      "en": "She takes the bus to work every day."
+    },
+    {
+      "form": "tog",
+      "da": "Vi tog mange billeder på ferien.",
+      "en": "We took a lot of photos on holiday."
+    },
+    {
+      "form": "taget",
+      "da": "Har du taget en paraply med?",
+      "en": "Have you brought an umbrella?"
+    }
+  ],
+  "w-v-tage-hjem": [
+    {
+      "form": "tage",
+      "da": "Jeg vil gerne tage hjem nu, for jeg er træt.",
+      "en": "I would like to go home now, because I am tired."
+    },
+    {
+      "form": "tager",
+      "da": "Hvornår tager du hjem fra festen?",
+      "en": "When are you going home from the party?"
+    },
+    {
+      "form": "tog",
+      "da": "Gæsterne tog hjem ved midnat.",
+      "en": "The guests went home at midnight."
+    },
+    {
+      "form": "taget",
+      "da": "Mine kolleger er allerede taget hjem.",
+      "en": "My colleagues have already gone home."
+    }
+  ],
+  "w-v-takke": [
+    {
+      "form": "takke",
+      "da": "Jeg vil gerne takke jer for hjælpen.",
+      "en": "I would like to thank you for your help."
+    },
+    {
+      "form": "takker",
+      "da": "Vi takker for en dejlig aften.",
+      "en": "Thank you for a lovely evening."
+    },
+    {
+      "form": "takkede",
+      "da": "Hun takkede naboen for blomsterne.",
+      "en": "She thanked the neighbour for the flowers."
+    },
+    {
+      "form": "takket",
+      "da": "Har du takket din moster for gaven?",
+      "en": "Have you thanked your aunt for the present?"
+    }
+  ],
+  "w-v-tale": [
+    {
+      "form": "tale",
+      "da": "Jeg vil gerne lære at tale flydende dansk.",
+      "en": "I would like to learn to speak fluent Danish."
+    },
+    {
+      "form": "taler",
+      "da": "Min lærer taler meget langsomt og tydeligt.",
+      "en": "My teacher speaks very slowly and clearly."
+    },
+    {
+      "form": "talte",
+      "da": "Vi talte om børnenes skole hele aftenen.",
+      "en": "We talked about the children's school all evening."
+    },
+    {
+      "form": "talt",
+      "da": "Har du talt med lægen om dine smerter?",
+      "en": "Have you talked to the doctor about your pain?"
+    }
+  ],
+  "w-v-tegne": [
+    {
+      "form": "tegne",
+      "da": "Min søn elsker at tegne dyr.",
+      "en": "My son loves drawing animals."
+    },
+    {
+      "form": "tegner",
+      "da": "Hun tegner huse for et arkitektfirma.",
+      "en": "She draws houses for an architecture firm."
+    },
+    {
+      "form": "tegnede",
+      "da": "Barnet tegnede et billede af sin familie.",
+      "en": "The child drew a picture of their family."
+    },
+    {
+      "form": "tegnet",
+      "da": "Vi har tegnet en forsikring på huset.",
+      "en": "We have taken out insurance on the house."
+    }
+  ],
+  "w-v-tilbringe": [
+    {
+      "form": "tilbringe",
+      "da": "Vi plejer at tilbringe sommerferien i et sommerhus.",
+      "en": "We usually spend the summer holiday in a summer house."
+    },
+    {
+      "form": "tilbringer",
+      "da": "Mange teenagere tilbringer flere timer foran skærmen hver dag.",
+      "en": "Many teenagers spend several hours in front of a screen every day."
+    },
+    {
+      "form": "tilbragte",
+      "da": "Hun tilbragte tre uger på hospitalet efter ulykken.",
+      "en": "She spent three weeks in hospital after the accident."
+    },
+    {
+      "form": "tilbragt",
+      "da": "Jeg har tilbragt hele min barndom på landet.",
+      "en": "I spent my whole childhood in the countryside."
+    }
+  ],
+  "w-v-tilbyde": [
+    {
+      "form": "tilbyde",
+      "da": "Kommunen kan tilbyde gratis danskundervisning.",
+      "en": "The municipality can offer free Danish lessons."
+    },
+    {
+      "form": "tilbyder",
+      "da": "Butikken tilbyder rabat til studerende.",
+      "en": "The shop offers a discount to students."
+    },
+    {
+      "form": "tilbød",
+      "da": "Min nabo tilbød at passe vores hund.",
+      "en": "My neighbour offered to look after our dog."
+    },
+    {
+      "form": "tilbudt",
+      "da": "Hun er blevet tilbudt et fast job.",
+      "en": "She has been offered a permanent job."
+    }
+  ],
+  "w-v-tilføje": [
+    {
+      "form": "tilføje",
+      "da": "Har du noget at tilføje, før vi slutter mødet?",
+      "en": "Do you have anything to add before we end the meeting?"
+    },
+    {
+      "form": "tilføjer",
+      "da": "Kokken tilføjer lidt salt til sidst.",
+      "en": "The chef adds a little salt at the end."
+    },
+    {
+      "form": "tilføjede",
+      "da": "Hun tilføjede et par billeder til sin ansøgning.",
+      "en": "She added a couple of pictures to her application."
+    },
+    {
+      "form": "tilføjet",
+      "da": "Der er tilføjet en ny regel i husordenen.",
+      "en": "A new rule has been added to the house rules."
+    }
+  ],
+  "w-v-tilhøre": [
+    {
+      "form": "tilhøre",
+      "da": "Det er vigtigt for mange mennesker at tilhøre et fællesskab.",
+      "en": "It is important for many people to belong to a community."
+    },
+    {
+      "form": "tilhører",
+      "da": "Denne jakke tilhører min bror.",
+      "en": "This jacket belongs to my brother."
+    },
+    {
+      "form": "tilhørte",
+      "da": "Gården tilhørte min oldefar.",
+      "en": "The farm belonged to my great-grandfather."
+    },
+    {
+      "form": "tilhørt",
+      "da": "Huset har tilhørt den samme familie i over hundrede år.",
+      "en": "The house has belonged to the same family for over a hundred years."
+    }
+  ],
+  "w-v-tillade": [
+    {
+      "form": "tillade",
+      "da": "Vi kan ikke tillade, at børnene leger på vejen.",
+      "en": "We cannot allow the children to play on the road."
+    },
+    {
+      "form": "tillader",
+      "da": "Min økonomi tillader ikke en dyr ferie i år.",
+      "en": "My finances don't allow an expensive holiday this year."
+    },
+    {
+      "form": "tillod",
+      "da": "Vejret tillod os at spise udenfor.",
+      "en": "The weather allowed us to eat outside."
+    },
+    {
+      "form": "tilladt",
+      "da": "Det er ikke tilladt at ryge på skolens område.",
+      "en": "Smoking is not allowed on the school premises."
+    }
+  ],
+  "w-v-tjene": [
+    {
+      "form": "tjene",
+      "da": "Han arbejder i weekenden for at tjene ekstra penge.",
+      "en": "He works at weekends to earn extra money."
+    },
+    {
+      "form": "tjener",
+      "da": "Hvor meget tjener en sygeplejerske om måneden?",
+      "en": "How much does a nurse earn a month?"
+    },
+    {
+      "form": "tjente",
+      "da": "Jeg tjente mine første penge som avisbud.",
+      "en": "I earned my first money delivering newspapers."
+    },
+    {
+      "form": "tjent",
+      "da": "Firmaet har tjent godt i år.",
+      "en": "The company has made good money this year."
+    }
+  ],
+  "w-v-tro": [
+    {
+      "form": "tro",
+      "da": "Jeg kan ikke tro, at sommeren allerede er slut.",
+      "en": "I can't believe that summer is already over."
+    },
+    {
+      "form": "tror",
+      "da": "Jeg tror, det bliver regnvejr i morgen.",
+      "en": "I think it will rain tomorrow."
+    },
+    {
+      "form": "troede",
+      "da": "Vi troede, at butikken var åben om søndagen.",
+      "en": "We thought the shop was open on Sundays."
+    },
+    {
+      "form": "troet",
+      "da": "Jeg havde aldrig troet, at jeg skulle bo i Danmark.",
+      "en": "I would never have thought that I would live in Denmark."
+    }
+  ],
+  "w-v-true": [
+    {
+      "form": "true",
+      "da": "Klimaforandringerne kan true mange dyrearter.",
+      "en": "Climate change can threaten many animal species."
+    },
+    {
+      "form": "truer",
+      "da": "Lukningen af fabrikken truer hundrede arbejdspladser.",
+      "en": "The closure of the factory threatens a hundred jobs."
+    },
+    {
+      "form": "truede",
+      "da": "Udlejeren truede med at sætte familien ud.",
+      "en": "The landlord threatened to evict the family."
+    },
+    {
+      "form": "truet",
+      "da": "Isbjørnen er en truet dyreart.",
+      "en": "The polar bear is an endangered species."
+    }
+  ],
+  "w-v-trykke": [
+    {
+      "form": "trykke",
+      "da": "Du skal trykke på den grønne knap for at starte.",
+      "en": "You have to press the green button to start."
+    },
+    {
+      "form": "trykker",
+      "da": "Hun trykker på dørklokken og venter.",
+      "en": "She presses the doorbell and waits."
+    },
+    {
+      "form": "trykkede",
+      "da": "Jeg trykkede forkert og slettede hele filen.",
+      "en": "I pressed the wrong button and deleted the whole file."
+    },
+    {
+      "form": "trykket",
+      "da": "Avisen bliver trykket om natten.",
+      "en": "The newspaper is printed at night."
+    }
+  ],
+  "w-v-træde": [
+    {
+      "form": "træde",
+      "da": "Man må ikke træde på græsset i parken.",
+      "en": "You must not walk on the grass in the park."
+    },
+    {
+      "form": "træder",
+      "da": "Den nye lov træder i kraft den første januar.",
+      "en": "The new law comes into force on the first of January."
+    },
+    {
+      "form": "trådte",
+      "da": "Han trådte på min fod i bussen.",
+      "en": "He stepped on my foot on the bus."
+    },
+    {
+      "form": "trådt",
+      "da": "Hun er trådt tilbage som formand for foreningen.",
+      "en": "She has stepped down as chair of the association."
+    }
+  ],
+  "w-v-træffe": [
+    {
+      "form": "træffe",
+      "da": "Hun skal træffe en vigtig beslutning om sit job.",
+      "en": "She has to make an important decision about her job."
+    },
+    {
+      "form": "træffer",
+      "da": "Ledelsen træffer den endelige beslutning i næste uge.",
+      "en": "Management will make the final decision next week."
+    },
+    {
+      "form": "traf",
+      "da": "Jeg traf min kone på et sprogkursus.",
+      "en": "I met my wife on a language course."
+    },
+    {
+      "form": "truffet",
+      "da": "Har I truffet en beslutning om flytningen?",
+      "en": "Have you made a decision about the move?"
+    }
+  ],
+  "w-v-trække": [
+    {
+      "form": "trække",
+      "da": "Kan du hjælpe mig med at trække sofaen ud fra væggen?",
+      "en": "Can you help me pull the sofa out from the wall?"
+    },
+    {
+      "form": "trækker",
+      "da": "Hunden trækker hårdt i snoren.",
+      "en": "The dog pulls hard on the lead."
+    },
+    {
+      "form": "trak",
+      "da": "Hun trak gardinerne for og gik i seng.",
+      "en": "She drew the curtains and went to bed."
+    },
+    {
+      "form": "trukket",
+      "da": "Han har trukket sin ansøgning tilbage.",
+      "en": "He has withdrawn his application."
+    }
+  ],
+  "w-v-trænge": [
+    {
+      "form": "trænge",
+      "da": "Min cykel er begyndt at trænge til nye dæk.",
+      "en": "My bike is starting to need new tyres."
+    },
+    {
+      "form": "trænger",
+      "da": "Huset trænger til at blive malet.",
+      "en": "The house needs painting."
+    },
+    {
+      "form": "trængte",
+      "da": "Folk trængte sig frem for at se koncerten.",
+      "en": "People pushed forward to see the concert."
+    },
+    {
+      "form": "trængt",
+      "da": "Jeg har længe trængt til en ny computer.",
+      "en": "I have needed a new computer for a long time."
+    }
+  ],
+  "w-v-trænge-ind": [
+    {
+      "form": "trænge",
+      "da": "Vandet kan trænge ind gennem taget, når det regner meget.",
+      "en": "Water can get in through the roof when it rains a lot."
+    },
+    {
+      "form": "trænger",
+      "da": "Kulden trænger ind gennem de gamle vinduer.",
+      "en": "The cold gets in through the old windows."
+    },
+    {
+      "form": "trængte",
+      "da": "Tyvene trængte ind gennem kældervinduet om natten.",
+      "en": "The thieves broke in through the basement window during the night."
+    },
+    {
+      "form": "trængt",
+      "da": "Der er trængt fugt ind i væggen.",
+      "en": "Moisture has got into the wall."
+    }
+  ],
+  "w-v-turde": [
+    {
+      "form": "turde",
+      "da": "Det kræver mod at turde sige sin mening på et møde.",
+      "en": "It takes courage to dare to speak your mind at a meeting."
+    },
+    {
+      "form": "tør",
+      "da": "Jeg tør ikke cykle i den tætte trafik.",
+      "en": "I don't dare to cycle in the heavy traffic."
+    },
+    {
+      "form": "turde",
+      "da": "Som barn turde hun ikke sove uden lys.",
+      "en": "As a child, she didn't dare to sleep without a light."
+    },
+    {
+      "form": "turdet",
+      "da": "Han har aldrig turdet springe fra den høje vippe.",
+      "en": "He has never dared to jump from the high diving board."
+    }
+  ],
+  "w-v-tvinge": [
+    {
+      "form": "tvinge",
+      "da": "Man kan ikke tvinge børn til at spise grøntsager.",
+      "en": "You can't force children to eat vegetables."
+    },
+    {
+      "form": "tvinger",
+      "da": "Den høje husleje tvinger mange studerende til at bo langt fra byen.",
+      "en": "The high rent forces many students to live far from the city."
+    },
+    {
+      "form": "tvang",
+      "da": "Sygdommen tvang ham til at stoppe med at arbejde.",
+      "en": "The illness forced him to stop working."
+    },
+    {
+      "form": "tvunget",
+      "da": "Butikken er blevet tvunget til at lukke.",
+      "en": "The shop has been forced to close."
+    }
+  ],
+  "w-v-tyde": [
+    {
+      "form": "tyde",
+      "da": "Det kan være svært at tyde lægens håndskrift.",
+      "en": "It can be hard to decipher the doctor's handwriting."
+    },
+    {
+      "form": "tyder",
+      "da": "Meget tyder på, at flere unge vælger at læse videre.",
+      "en": "There is much to suggest that more young people are choosing to continue their studies."
+    },
+    {
+      "form": "tydede",
+      "da": "Alt tydede på, at det ville blive en kold vinter.",
+      "en": "Everything suggested that it would be a cold winter."
+    },
+    {
+      "form": "tydet",
+      "da": "Resultaterne er blevet tydet forskelligt af eksperterne.",
+      "en": "The results have been interpreted differently by the experts."
+    }
+  ],
+  "w-v-tænde": [
+    {
+      "form": "tænde",
+      "da": "Kan du tænde lyset i gangen?",
+      "en": "Can you turn on the light in the hall?"
+    },
+    {
+      "form": "tænder",
+      "da": "Vi tænder altid stearinlys, når det bliver mørkt om vinteren.",
+      "en": "We always light candles when it gets dark in winter."
+    },
+    {
+      "form": "tændte",
+      "da": "Han tændte for radioen for at høre nyhederne.",
+      "en": "He turned on the radio to hear the news."
+    },
+    {
+      "form": "tændt",
+      "da": "Ovnen har været tændt hele dagen.",
+      "en": "The oven has been on all day."
+    }
+  ],
+  "w-v-tænke": [
+    {
+      "form": "tænke",
+      "da": "Jeg skal lige tænke over dit tilbud.",
+      "en": "I just need to think about your offer."
+    },
+    {
+      "form": "tænker",
+      "da": "Hun tænker tit på sin familie i hjemlandet.",
+      "en": "She often thinks about her family in her home country."
+    },
+    {
+      "form": "tænkte",
+      "da": "Vi tænkte, at det var en god idé.",
+      "en": "We thought it was a good idea."
+    },
+    {
+      "form": "tænkt",
+      "da": "Har du tænkt på, hvad du vil studere?",
+      "en": "Have you thought about what you want to study?"
+    }
+  ],
+  "w-v-tømme": [
+    {
+      "form": "tømme",
+      "da": "Kan du tømme opvaskemaskinen, før du går?",
+      "en": "Can you empty the dishwasher before you go?"
+    },
+    {
+      "form": "tømmer",
+      "da": "Skraldemanden tømmer containerne hver tirsdag.",
+      "en": "The bin man empties the bins every Tuesday."
+    },
+    {
+      "form": "tømte",
+      "da": "Hun tømte sin taske for at finde nøglerne.",
+      "en": "She emptied her bag to find the keys."
+    },
+    {
+      "form": "tømt",
+      "da": "Postkassen er ikke blevet tømt i flere dage.",
+      "en": "The postbox hasn't been emptied for several days."
+    }
+  ],
+  "w-v-tørre": [
+    {
+      "form": "tørre",
+      "da": "Vi hænger vasketøjet ud til tørre i haven.",
+      "en": "We hang the washing out to dry in the garden."
+    },
+    {
+      "form": "tørrer",
+      "da": "Han tørrer altid op efter aftensmaden.",
+      "en": "He always dries the dishes after dinner."
+    },
+    {
+      "form": "tørrede",
+      "da": "Barnet tørrede tårerne væk med ærmet.",
+      "en": "The child wiped the tears away with their sleeve."
+    },
+    {
+      "form": "tørret",
+      "da": "Malingen er endnu ikke tørret, så rør ikke ved døren.",
+      "en": "The paint hasn't dried yet, so don't touch the door."
+    }
+  ],
+  "w-v-tåle": [
+    {
+      "form": "tåle",
+      "da": "Mange mennesker kan ikke tåle mælk.",
+      "en": "Many people can't tolerate milk."
+    },
+    {
+      "form": "tåler",
+      "da": "Min søn tåler ikke gluten.",
+      "en": "My son can't tolerate gluten."
+    },
+    {
+      "form": "tålte",
+      "da": "Hun tålte ikke den stærke medicin.",
+      "en": "She couldn't tolerate the strong medicine."
+    },
+    {
+      "form": "tålt",
+      "da": "Jeg har aldrig tålt varmt vejr særlig godt.",
+      "en": "I have never coped very well with hot weather."
+    }
+  ],
+  "w-v-udarbejde": [
+    {
+      "form": "udarbejde",
+      "da": "Arbejdsgruppen skal udarbejde en plan for den nye skole.",
+      "en": "The working group is to draw up a plan for the new school."
+    },
+    {
+      "form": "udarbejder",
+      "da": "Kommunen udarbejder hvert år et budget.",
+      "en": "The municipality prepares a budget every year."
+    },
+    {
+      "form": "udarbejdede",
+      "da": "Eleverne udarbejdede en rapport om affaldssortering.",
+      "en": "The pupils prepared a report on waste sorting."
+    },
+    {
+      "form": "udarbejdet",
+      "da": "Rapporten er udarbejdet af en gruppe forskere.",
+      "en": "The report has been prepared by a group of researchers."
+    }
+  ],
+  "w-v-udbrede": [
+    {
+      "form": "udbrede",
+      "da": "Foreningen arbejder for at udbrede kendskabet til dansk kultur.",
+      "en": "The association works to spread knowledge of Danish culture."
+    },
+    {
+      "form": "udbreder",
+      "da": "Organisationen udbreder information om sund kost i skolerne.",
+      "en": "The organisation spreads information about healthy eating in schools."
+    },
+    {
+      "form": "udbredte",
+      "da": "Internettet udbredte sig hurtigt i 1990'erne.",
+      "en": "The internet spread quickly in the 1990s."
+    },
+    {
+      "form": "udbredt",
+      "da": "Det er meget udbredt at cykle til arbejde i Danmark.",
+      "en": "Cycling to work is very widespread in Denmark."
+    }
+  ],
+  "w-v-uddanne": [
+    {
+      "form": "uddanne",
+      "da": "Danmark har brug for at uddanne flere sygeplejersker.",
+      "en": "Denmark needs to train more nurses."
+    },
+    {
+      "form": "uddanner",
+      "da": "Skolen uddanner både kokke og tjenere.",
+      "en": "The school trains both chefs and waiters."
+    },
+    {
+      "form": "uddannede",
+      "da": "Hun uddannede sig til lærer i Aarhus.",
+      "en": "She trained as a teacher in Aarhus."
+    },
+    {
+      "form": "uddannet",
+      "da": "Min bror er uddannet elektriker.",
+      "en": "My brother is a trained electrician."
+    }
+  ],
+  "w-v-udelukke": [
+    {
+      "form": "udelukke",
+      "da": "Lægen kan ikke udelukke, at det er en infektion.",
+      "en": "The doctor cannot rule out that it is an infection."
+    },
+    {
+      "form": "udelukker",
+      "da": "Det ene udelukker ikke det andet.",
+      "en": "The one does not rule out the other."
+    },
+    {
+      "form": "udelukkede",
+      "da": "Politiet udelukkede hurtigt, at branden var påsat.",
+      "en": "The police quickly ruled out that the fire had been started deliberately."
+    },
+    {
+      "form": "udelukket",
+      "da": "Det er ikke udelukket, at vi flytter til Odense.",
+      "en": "It is not out of the question that we will move to Odense."
+    }
+  ],
+  "w-v-udføre": [
+    {
+      "form": "udføre",
+      "da": "Håndværkerne skal udføre arbejdet inden jul.",
+      "en": "The workmen have to carry out the work before Christmas."
+    },
+    {
+      "form": "udfører",
+      "da": "Robotten udfører de tunge opgaver på fabrikken.",
+      "en": "The robot performs the heavy tasks at the factory."
+    },
+    {
+      "form": "udførte",
+      "da": "Kirurgen udførte operationen uden problemer.",
+      "en": "The surgeon performed the operation without problems."
+    },
+    {
+      "form": "udført",
+      "da": "Arbejdet er udført efter alle reglerne.",
+      "en": "The work has been carried out according to all the rules."
+    }
+  ],
+  "w-v-udgive": [
+    {
+      "form": "udgive",
+      "da": "Hun drømmer om at udgive sin egen kogebog.",
+      "en": "She dreams of publishing her own cookbook."
+    },
+    {
+      "form": "udgiver",
+      "da": "Forlaget udgiver mange bøger for børn.",
+      "en": "The publishing house publishes many books for children."
+    },
+    {
+      "form": "udgav",
+      "da": "Bandet udgav sit første album i 2015.",
+      "en": "The band released its first album in 2015."
+    },
+    {
+      "form": "udgivet",
+      "da": "Romanen er udgivet på over tyve sprog.",
+      "en": "The novel has been published in over twenty languages."
+    }
+  ],
+  "w-v-udgøre": [
+    {
+      "form": "udgøre",
+      "da": "Ældre forventes at udgøre en større del af befolkningen i fremtiden.",
+      "en": "Older people are expected to make up a larger share of the population in the future."
+    },
+    {
+      "form": "udgør",
+      "da": "Huslejen udgør næsten halvdelen af min indkomst.",
+      "en": "The rent makes up almost half of my income."
+    },
+    {
+      "form": "udgjorde",
+      "da": "Kvinderne udgjorde flertallet på kurset.",
+      "en": "The women made up the majority on the course."
+    },
+    {
+      "form": "udgjort",
+      "da": "Landbruget har tidligere udgjort en stor del af økonomien.",
+      "en": "Agriculture used to make up a large part of the economy."
+    }
+  ],
+  "w-v-udkomme": [
+    {
+      "form": "udkomme",
+      "da": "Bogen forventes at udkomme til foråret.",
+      "en": "The book is expected to come out in the spring."
+    },
+    {
+      "form": "udkommer",
+      "da": "Avisen udkommer ikke på helligdage.",
+      "en": "The newspaper is not published on public holidays."
+    },
+    {
+      "form": "udkom",
+      "da": "Hendes første roman udkom for ti år siden.",
+      "en": "Her first novel came out ten years ago."
+    },
+    {
+      "form": "udkommet",
+      "da": "Der er netop udkommet en ny ordbog.",
+      "en": "A new dictionary has just been published."
+    }
+  ],
+  "w-v-udlevere": [
+    {
+      "form": "udlevere",
+      "da": "Apoteket må ikke udlevere medicinen uden recept.",
+      "en": "The pharmacy may not hand out the medicine without a prescription."
+    },
+    {
+      "form": "udleverer",
+      "da": "Skolen udleverer bøger til alle elever i august.",
+      "en": "The school hands out books to all pupils in August."
+    },
+    {
+      "form": "udleverede",
+      "da": "Kommunen udleverede nye affaldsspande til alle husstande.",
+      "en": "The municipality handed out new bins to all households."
+    },
+    {
+      "form": "udleveret",
+      "da": "Nøglerne bliver udleveret på kontoret ved indflytningen.",
+      "en": "The keys are handed out at the office when you move in."
+    }
+  ],
+  "w-v-udløse": [
+    {
+      "form": "udløse",
+      "da": "Stress kan udløse både hovedpine og søvnproblemer.",
+      "en": "Stress can trigger both headaches and sleep problems."
+    },
+    {
+      "form": "udløser",
+      "da": "Pollen udløser allergi hos mange mennesker om foråret.",
+      "en": "Pollen triggers allergies in many people in the spring."
+    },
+    {
+      "form": "udløste",
+      "da": "Røgen fra køkkenet udløste brandalarmen.",
+      "en": "The smoke from the kitchen set off the fire alarm."
+    },
+    {
+      "form": "udløst",
+      "da": "Den nye lov har udløst en stor debat.",
+      "en": "The new law has sparked a big debate."
+    }
+  ],
+  "w-v-udnytte": [
+    {
+      "form": "udnytte",
+      "da": "Vi skal udnytte det gode vejr og tage til stranden.",
+      "en": "We should make the most of the good weather and go to the beach."
+    },
+    {
+      "form": "udnytter",
+      "da": "Familien udnytter pladsen i den lille lejlighed godt.",
+      "en": "The family makes good use of the space in the small flat."
+    },
+    {
+      "form": "udnyttede",
+      "da": "Hun udnyttede ventetiden til at læse.",
+      "en": "She used the waiting time to read."
+    },
+    {
+      "form": "udnyttet",
+      "da": "Mange føler sig udnyttet af deres arbejdsgiver.",
+      "en": "Many feel exploited by their employer."
+    }
+  ],
+  "w-v-udstyre": [
+    {
+      "form": "udstyre",
+      "da": "Skolen vil udstyre alle klasselokaler med nye computere.",
+      "en": "The school wants to equip all classrooms with new computers."
+    },
+    {
+      "form": "udstyrer",
+      "da": "Firmaet udstyrer sine medarbejdere med telefon og computer.",
+      "en": "The company equips its employees with a phone and a computer."
+    },
+    {
+      "form": "udstyrede",
+      "da": "Vi udstyrede børnene med regntøj og gummistøvler.",
+      "en": "We equipped the children with rain gear and wellies."
+    },
+    {
+      "form": "udstyret",
+      "da": "Køkkenet er udstyret med opvaskemaskine.",
+      "en": "The kitchen is equipped with a dishwasher."
+    }
+  ],
+  "w-v-udsætte": [
+    {
+      "form": "udsætte",
+      "da": "Vi bliver nødt til at udsætte mødet til næste uge.",
+      "en": "We have to postpone the meeting until next week."
+    },
+    {
+      "form": "udsætter",
+      "da": "Man udsætter sig selv for fare, når man kører for stærkt.",
+      "en": "You put yourself in danger when you drive too fast."
+    },
+    {
+      "form": "udsatte",
+      "da": "Flyselskabet udsatte afgangen med to timer.",
+      "en": "The airline delayed the departure by two hours."
+    },
+    {
+      "form": "udsat",
+      "da": "Koncerten er blevet udsat på grund af sygdom.",
+      "en": "The concert has been postponed due to illness."
+    }
+  ],
+  "w-v-udtale": [
+    {
+      "form": "udtale",
+      "da": "Mange udlændinge synes, det er svært at udtale det bløde d.",
+      "en": "Many foreigners find it hard to pronounce the soft d."
+    },
+    {
+      "form": "udtaler",
+      "da": "Hvordan udtaler man det her ord?",
+      "en": "How do you pronounce this word?"
+    },
+    {
+      "form": "udtalte",
+      "da": "Hun udtalte mit navn helt korrekt.",
+      "en": "She pronounced my name completely correctly."
+    },
+    {
+      "form": "udtalt",
+      "da": "Ordet bliver udtalt anderledes i Jylland.",
+      "en": "The word is pronounced differently in Jutland."
+    }
+  ],
+  "w-v-udtrykke": [
+    {
+      "form": "udtrykke",
+      "da": "Det er vigtigt at kunne udtrykke sine følelser.",
+      "en": "It is important to be able to express your feelings."
+    },
+    {
+      "form": "udtrykker",
+      "da": "Mange unge udtrykker sig gennem musik.",
+      "en": "Many young people express themselves through music."
+    },
+    {
+      "form": "udtrykte",
+      "da": "Borgerne udtrykte stor utilfredshed med de nye busruter.",
+      "en": "The residents expressed great dissatisfaction with the new bus routes."
+    },
+    {
+      "form": "udtrykt",
+      "da": "Han har tydeligt udtrykt, at han ikke vil flytte.",
+      "en": "He has clearly said that he doesn't want to move."
+    }
+  ],
+  "w-v-udvide": [
+    {
+      "form": "udvide",
+      "da": "Vi vil gerne udvide huset med et ekstra værelse.",
+      "en": "We would like to extend the house with an extra room."
+    },
+    {
+      "form": "udvider",
+      "da": "Supermarkedet udvider sine åbningstider i december.",
+      "en": "The supermarket is extending its opening hours in December."
+    },
+    {
+      "form": "udvidede",
+      "da": "Kommunen udvidede cykelstien langs havnen.",
+      "en": "The municipality widened the cycle path along the harbour."
+    },
+    {
+      "form": "udvidet",
+      "da": "Biblioteket har udvidet sit tilbud til børnefamilier.",
+      "en": "The library has expanded its services for families with children."
+    }
+  ],
+  "w-v-udvikle": [
+    {
+      "form": "udvikle",
+      "da": "Børn har brug for leg for at udvikle sig.",
+      "en": "Children need play in order to develop."
+    },
+    {
+      "form": "udvikler",
+      "da": "Firmaet udvikler nye apps til sundhedssektoren.",
+      "en": "The company develops new apps for the health sector."
+    },
+    {
+      "form": "udviklede",
+      "da": "Situationen udviklede sig hurtigt i løbet af natten.",
+      "en": "The situation developed quickly during the night."
+    },
+    {
+      "form": "udviklet",
+      "da": "Forskerne har udviklet en ny vaccine.",
+      "en": "The researchers have developed a new vaccine."
+    }
+  ],
+  "w-v-underholde": [
+    {
+      "form": "underholde",
+      "da": "En klovn skal underholde børnene til festen.",
+      "en": "A clown is going to entertain the children at the party."
+    },
+    {
+      "form": "underholder",
+      "da": "Han underholder altid gæsterne med sjove historier.",
+      "en": "He always entertains the guests with funny stories."
+    },
+    {
+      "form": "underholdt",
+      "da": "Musikerne underholdt publikum i over to timer.",
+      "en": "The musicians entertained the audience for over two hours."
+    },
+    {
+      "form": "underholdt",
+      "da": "Vi blev godt underholdt i teatret i går.",
+      "en": "We were well entertained at the theatre yesterday."
+    }
+  ],
+  "w-v-understrege": [
+    {
+      "form": "understrege",
+      "da": "Jeg vil gerne understrege, at mødet er frivilligt.",
+      "en": "I would like to emphasise that the meeting is voluntary."
+    },
+    {
+      "form": "understreger",
+      "da": "Lægen understreger vigtigheden af motion.",
+      "en": "The doctor stresses the importance of exercise."
+    },
+    {
+      "form": "understregede",
+      "da": "Skolelederen understregede, at alle elever skal møde til tiden.",
+      "en": "The head teacher stressed that all pupils must arrive on time."
+    },
+    {
+      "form": "understreget",
+      "da": "Jeg har understreget de vigtigste ord i teksten.",
+      "en": "I have underlined the most important words in the text."
+    }
+  ],
+  "w-v-undersøge": [
+    {
+      "form": "undersøge",
+      "da": "Lægen vil undersøge dit knæ i næste uge.",
+      "en": "The doctor will examine your knee next week."
+    },
+    {
+      "form": "undersøger",
+      "da": "Politiet undersøger årsagen til ulykken.",
+      "en": "The police are investigating the cause of the accident."
+    },
+    {
+      "form": "undersøgte",
+      "da": "Vi undersøgte flere muligheder, før vi købte huset.",
+      "en": "We looked into several options before we bought the house."
+    },
+    {
+      "form": "undersøgt",
+      "da": "Forskerne har undersøgt, hvordan søvn påvirker indlæring.",
+      "en": "Researchers have studied how sleep affects learning."
+    }
+  ],
+  "w-v-undgå": [
+    {
+      "form": "undgå",
+      "da": "Jeg prøver at undgå sukker i hverdagen.",
+      "en": "I try to avoid sugar in my everyday life."
+    },
+    {
+      "form": "undgår",
+      "da": "Mange undgår myldretiden ved at cykle tidligt.",
+      "en": "Many people avoid rush hour by cycling early."
+    },
+    {
+      "form": "undgik",
+      "da": "Vi undgik køen ved at købe billetter på nettet.",
+      "en": "We avoided the queue by buying tickets online."
+    },
+    {
+      "form": "undgået",
+      "da": "Ulykken kunne være undgået med bedre lys på vejen.",
+      "en": "The accident could have been avoided with better lighting on the road."
+    }
+  ],
+  "w-v-undre-sig": [
+    {
+      "form": "undre",
+      "da": "Man kan undre sig over, hvorfor bussen altid er forsinket.",
+      "en": "You may wonder why the bus is always late."
+    },
+    {
+      "form": "undrer",
+      "da": "Jeg undrer mig over, at ingen har ringet.",
+      "en": "I am surprised that nobody has called."
+    },
+    {
+      "form": "undrede",
+      "da": "Naboerne undrede sig over den høje musik.",
+      "en": "The neighbours wondered about the loud music."
+    },
+    {
+      "form": "undret",
+      "da": "Har du nogensinde undret dig over, hvordan fly kan flyve?",
+      "en": "Have you ever wondered how planes can fly?"
+    }
+  ],
+  "w-v-vaccinere": [
+    {
+      "form": "vaccinere",
+      "da": "Mange forældre vælger at vaccinere deres børn mod mæslinger.",
+      "en": "Many parents choose to vaccinate their children against measles."
+    },
+    {
+      "form": "vaccinerer",
+      "da": "Lægen vaccinerer de ældre mod influenza hvert efterår.",
+      "en": "The doctor vaccinates the elderly against flu every autumn."
+    },
+    {
+      "form": "vaccinerede",
+      "da": "Sygeplejersken vaccinerede over hundrede personer i går.",
+      "en": "The nurse vaccinated over a hundred people yesterday."
+    },
+    {
+      "form": "vaccineret",
+      "da": "Er din hund blevet vaccineret i år?",
+      "en": "Has your dog been vaccinated this year?"
+    }
+  ],
+  "w-v-vare": [
+    {
+      "form": "vare",
+      "da": "Hvor længe kommer mødet til at vare?",
+      "en": "How long will the meeting last?"
+    },
+    {
+      "form": "varer",
+      "da": "Kurset varer i alt otte uger.",
+      "en": "The course lasts eight weeks in total."
+    },
+    {
+      "form": "varede",
+      "da": "Festen varede til langt ud på natten.",
+      "en": "The party went on until late into the night."
+    },
+    {
+      "form": "varet",
+      "da": "Regnvejret har varet hele ugen.",
+      "en": "The rainy weather has lasted all week."
+    }
+  ],
+  "w-v-variere": [
+    {
+      "form": "variere",
+      "da": "Det er sundt at variere sin kost.",
+      "en": "It is healthy to vary your diet."
+    },
+    {
+      "form": "varierer",
+      "da": "Ventetiden på en operation varierer fra region til region.",
+      "en": "The waiting time for an operation varies from region to region."
+    },
+    {
+      "form": "varierede",
+      "da": "Svarene i undersøgelsen varierede meget.",
+      "en": "The answers in the survey varied a lot."
+    },
+    {
+      "form": "varieret",
+      "da": "Menuen i kantinen er blevet mere varieret.",
+      "en": "The menu in the canteen has become more varied."
+    }
+  ],
+  "w-v-vaske": [
+    {
+      "form": "vaske",
+      "da": "Man skal vaske hænder, før man spiser.",
+      "en": "You should wash your hands before you eat."
+    },
+    {
+      "form": "vasker",
+      "da": "Jeg vasker tøj to gange om ugen.",
+      "en": "I do the laundry twice a week."
+    },
+    {
+      "form": "vaskede",
+      "da": "Han vaskede bilen i søndags.",
+      "en": "He washed the car last Sunday."
+    },
+    {
+      "form": "vasket",
+      "da": "Har du vasket op efter middagen?",
+      "en": "Have you done the washing-up after dinner?"
+    }
+  ],
+  "w-v-vedtage": [
+    {
+      "form": "vedtage",
+      "da": "Folketinget skal vedtage loven inden sommerferien.",
+      "en": "Parliament is to pass the law before the summer holidays."
+    },
+    {
+      "form": "vedtager",
+      "da": "Byrådet vedtager budgettet hvert efterår.",
+      "en": "The city council adopts the budget every autumn."
+    },
+    {
+      "form": "vedtog",
+      "da": "Foreningen vedtog nye regler på generalforsamlingen.",
+      "en": "The association adopted new rules at the general meeting."
+    },
+    {
+      "form": "vedtaget",
+      "da": "Forslaget blev vedtaget med stort flertal.",
+      "en": "The proposal was passed by a large majority."
+    }
+  ],
+  "w-v-veje": [
+    {
+      "form": "veje",
+      "da": "Du skal veje bagagen, før du går til skranken.",
+      "en": "You should weigh your luggage before you go to the counter."
+    },
+    {
+      "form": "vejer",
+      "da": "Hvor meget vejer den nyfødte baby?",
+      "en": "How much does the newborn baby weigh?"
+    },
+    {
+      "form": "vejede",
+      "da": "Jeg vejede melet på en digital vægt.",
+      "en": "I weighed the flour on a digital scale."
+    },
+    {
+      "form": "vejet",
+      "da": "Har sygeplejersken vejet dig i dag?",
+      "en": "Has the nurse weighed you today?"
+    }
+  ],
+  "w-v-vende": [
+    {
+      "form": "vende",
+      "da": "Du skal vende pandekagen, når den er gylden.",
+      "en": "You should turn the pancake when it is golden."
+    },
+    {
+      "form": "vender",
+      "da": "Stuens vinduer vender mod syd, så der er meget lys.",
+      "en": "The living room windows face south, so there is a lot of light."
+    },
+    {
+      "form": "vendte",
+      "da": "Hun vendte sig om og smilede.",
+      "en": "She turned around and smiled."
+    },
+    {
+      "form": "vendt",
+      "da": "Han er vendt hjem efter fem år i udlandet.",
+      "en": "He has returned home after five years abroad."
+    }
+  ],
+  "w-v-vente": [
+    {
+      "form": "vente",
+      "da": "Vi må vente på næste bus.",
+      "en": "We have to wait for the next bus."
+    },
+    {
+      "form": "venter",
+      "da": "Jeg venter stadig på svar fra kommunen.",
+      "en": "I am still waiting for a reply from the municipality."
+    },
+    {
+      "form": "ventede",
+      "da": "Vi ventede en time hos lægen.",
+      "en": "We waited an hour at the doctor's."
+    },
+    {
+      "form": "ventet",
+      "da": "Undskyld, har du ventet længe på mig?",
+      "en": "Sorry, have you been waiting long for me?"
+    }
+  ],
+  "w-v-vide": [
+    {
+      "form": "vide",
+      "da": "Jeg vil gerne vide, hvornår toget kører.",
+      "en": "I would like to know when the train leaves."
+    },
+    {
+      "form": "ved",
+      "da": "Ved du, hvor biblioteket ligger?",
+      "en": "Do you know where the library is?"
+    },
+    {
+      "form": "vidste",
+      "da": "Jeg vidste ikke, at butikken var lukket.",
+      "en": "I didn't know that the shop was closed."
+    },
+    {
+      "form": "vidst",
+      "da": "Hvis jeg havde vidst det, var jeg kommet tidligere.",
+      "en": "If I had known, I would have come earlier."
+    }
+  ],
+  "w-v-ville": [
+    {
+      "form": "ville",
+      "da": "For at lære et nyt sprog skal man virkelig ville det.",
+      "en": "To learn a new language, you really have to want it."
+    },
+    {
+      "form": "vil",
+      "da": "Hvad vil du gerne have til din fødselsdag?",
+      "en": "What would you like for your birthday?"
+    },
+    {
+      "form": "ville",
+      "da": "Han ville gerne komme, men han var syg.",
+      "en": "He wanted to come, but he was ill."
+    },
+    {
+      "form": "villet",
+      "da": "Jeg har altid villet lære at spille guitar.",
+      "en": "I have always wanted to learn to play the guitar."
+    }
+  ],
+  "w-v-vinde": [
+    {
+      "form": "vinde",
+      "da": "Vores hold håber at vinde turneringen.",
+      "en": "Our team hopes to win the tournament."
+    },
+    {
+      "form": "vinder",
+      "da": "Hvem tror du, der vinder valget?",
+      "en": "Who do you think will win the election?"
+    },
+    {
+      "form": "vandt",
+      "da": "Min nabo vandt en tur til Paris i et lotteri.",
+      "en": "My neighbour won a trip to Paris in a lottery."
+    },
+    {
+      "form": "vundet",
+      "da": "Hun har vundet mange medaljer i svømning.",
+      "en": "She has won many medals in swimming."
+    }
+  ],
+  "w-v-virke": [
+    {
+      "form": "virke",
+      "da": "Medicinen begynder først at virke efter en halv time.",
+      "en": "The medicine only starts to work after half an hour."
+    },
+    {
+      "form": "virker",
+      "da": "Hun virker meget glad for sit nye job.",
+      "en": "She seems very happy with her new job."
+    },
+    {
+      "form": "virkede",
+      "da": "Elevatoren virkede ikke, så vi tog trappen.",
+      "en": "The lift wasn't working, so we took the stairs."
+    },
+    {
+      "form": "virket",
+      "da": "Han har virket træt i den seneste tid.",
+      "en": "He has seemed tired lately."
+    }
+  ],
+  "w-v-vise": [
+    {
+      "form": "vise",
+      "da": "Kan du vise mig vej til stationen?",
+      "en": "Can you show me the way to the station?"
+    },
+    {
+      "form": "viser",
+      "da": "Undersøgelsen viser, at mange unge sover for lidt.",
+      "en": "The study shows that many young people sleep too little."
+    },
+    {
+      "form": "viste",
+      "da": "Guiden viste os rundt i den gamle by.",
+      "en": "The guide showed us around the old town."
+    },
+    {
+      "form": "vist",
+      "da": "Filmen bliver vist i biografen fra på fredag.",
+      "en": "The film will be shown in cinemas from Friday."
+    }
+  ],
+  "w-v-vokse": [
+    {
+      "form": "vokse",
+      "da": "Tomaterne har brug for sol for at vokse.",
+      "en": "The tomatoes need sun to grow."
+    },
+    {
+      "form": "vokser",
+      "da": "Byen vokser hurtigt, fordi mange børnefamilier flytter hertil.",
+      "en": "The town is growing fast because many families with children are moving here."
+    },
+    {
+      "form": "voksede",
+      "da": "Jeg voksede op i en lille by ved havet.",
+      "en": "I grew up in a small town by the sea."
+    },
+    {
+      "form": "vokset",
+      "da": "Hvor er du vokset, siden jeg så dig sidst!",
+      "en": "How you have grown since I last saw you!"
+    }
+  ],
+  "w-v-vurdere": [
+    {
+      "form": "vurdere",
+      "da": "Det er svært at vurdere, hvor lang tid opgaven tager.",
+      "en": "It is hard to estimate how long the task will take."
+    },
+    {
+      "form": "vurderer",
+      "da": "Ejendomsmægleren vurderer huset til to millioner kroner.",
+      "en": "The estate agent values the house at two million kroner."
+    },
+    {
+      "form": "vurderede",
+      "da": "Lægen vurderede, at operationen var nødvendig.",
+      "en": "The doctor judged that the operation was necessary."
+    },
+    {
+      "form": "vurderet",
+      "da": "Ansøgningerne bliver vurderet af et udvalg.",
+      "en": "The applications are assessed by a committee."
+    }
+  ],
+  "w-v-vælge": [
+    {
+      "form": "vælge",
+      "da": "Børnene må selv vælge, hvilken film vi skal se.",
+      "en": "The children can choose for themselves which film we will watch."
+    },
+    {
+      "form": "vælger",
+      "da": "Mange vælger at tage en uddannelse som voksne.",
+      "en": "Many people choose to get an education as adults."
+    },
+    {
+      "form": "valgte",
+      "da": "Vi valgte at holde ferie i Danmark i år.",
+      "en": "We chose to holiday in Denmark this year."
+    },
+    {
+      "form": "valgt",
+      "da": "Har I valgt en skole til jeres datter?",
+      "en": "Have you chosen a school for your daughter?"
+    }
+  ],
+  "w-v-vælte": [
+    {
+      "form": "vælte",
+      "da": "Barnet kom til at vælte koppen med saft.",
+      "en": "The child accidentally knocked over the cup of squash."
+    },
+    {
+      "form": "vælter",
+      "da": "Han vælter tit på cyklen, når vejene er glatte.",
+      "en": "He often falls off his bike when the roads are slippery."
+    },
+    {
+      "form": "væltede",
+      "da": "Stormen væltede flere træer i parken.",
+      "en": "The storm knocked down several trees in the park."
+    },
+    {
+      "form": "væltet",
+      "da": "Nogen har væltet skraldespanden ude på vejen.",
+      "en": "Someone has knocked over the bin out on the road."
+    }
+  ],
+  "w-v-være": [
+    {
+      "form": "være",
+      "da": "Det kan være svært at finde en lejlighed i København.",
+      "en": "It can be hard to find a flat in Copenhagen."
+    },
+    {
+      "form": "er",
+      "da": "Min søster er sygeplejerske på et stort hospital.",
+      "en": "My sister is a nurse at a large hospital."
+    },
+    {
+      "form": "var",
+      "da": "Vejret var dejligt i weekenden.",
+      "en": "The weather was lovely at the weekend."
+    },
+    {
+      "form": "været",
+      "da": "Har du nogensinde været i Skagen?",
+      "en": "Have you ever been to Skagen?"
+    }
+  ],
+  "w-v-vågne": [
+    {
+      "form": "vågne",
+      "da": "Jeg har svært ved at vågne om morgenen.",
+      "en": "I find it hard to wake up in the morning."
+    },
+    {
+      "form": "vågner",
+      "da": "Babyen vågner tit om natten.",
+      "en": "The baby often wakes up at night."
+    },
+    {
+      "form": "vågnede",
+      "da": "Jeg vågnede ved, at det tordnede.",
+      "en": "I woke up because it was thundering."
+    },
+    {
+      "form": "vågnet",
+      "da": "Er børnene vågnet endnu?",
+      "en": "Have the children woken up yet?"
+    }
+  ],
+  "w-v-yde": [
+    {
+      "form": "yde",
+      "da": "Kommunen skal yde hjælp til borgere, der ikke kan klare sig selv.",
+      "en": "The municipality must provide help to citizens who cannot manage on their own."
+    },
+    {
+      "form": "yder",
+      "da": "Banken yder lån til unge boligkøbere.",
+      "en": "The bank provides loans to young home buyers."
+    },
+    {
+      "form": "ydede",
+      "da": "Holdet ydede en flot indsats i kampen.",
+      "en": "The team put in a great effort in the match."
+    },
+    {
+      "form": "ydet",
+      "da": "Der er ydet økonomisk støtte til projektet.",
+      "en": "Financial support has been granted to the project."
+    }
+  ],
+  "w-v-ændre": [
+    {
+      "form": "ændre",
+      "da": "Mange vil gerne ændre deres vaner, men det tager tid.",
+      "en": "Many people want to change their habits, but it takes time."
+    },
+    {
+      "form": "ændrer",
+      "da": "Byen ændrer sig hele tiden med nye huse og veje.",
+      "en": "The town is changing all the time with new houses and roads."
+    },
+    {
+      "form": "ændrede",
+      "da": "Vi ændrede planerne på grund af vejret.",
+      "en": "We changed our plans because of the weather."
+    },
+    {
+      "form": "ændret",
+      "da": "Togets køreplan er blevet ændret.",
+      "en": "The train timetable has been changed."
+    }
+  ],
+  "w-v-ødelægge": [
+    {
+      "form": "ødelægge",
+      "da": "Regnen kan ødelægge hele udflugten.",
+      "en": "The rain could ruin the whole trip."
+    },
+    {
+      "form": "ødelægger",
+      "da": "For meget sukker ødelægger tænderne.",
+      "en": "Too much sugar ruins your teeth."
+    },
+    {
+      "form": "ødelagde",
+      "da": "Stormen ødelagde taget på vores skur.",
+      "en": "The storm destroyed the roof of our shed."
+    },
+    {
+      "form": "ødelagt",
+      "da": "Min telefon er ødelagt, så jeg kan ikke ringe.",
+      "en": "My phone is broken, so I can't call."
+    }
+  ],
+  "w-v-øge": [
+    {
+      "form": "øge",
+      "da": "Regelmæssig motion kan øge livskvaliteten.",
+      "en": "Regular exercise can increase quality of life."
+    },
+    {
+      "form": "øger",
+      "da": "Rygning øger risikoen for kræft.",
+      "en": "Smoking increases the risk of cancer."
+    },
+    {
+      "form": "øgede",
+      "da": "Virksomheden øgede antallet af ansatte sidste år.",
+      "en": "The company increased the number of employees last year."
+    },
+    {
+      "form": "øget",
+      "da": "Der er kommet øget fokus på mental sundhed.",
+      "en": "There is now increased focus on mental health."
+    }
+  ],
+  "w-v-ønske": [
+    {
+      "form": "ønske",
+      "da": "Jeg vil gerne ønske dig god rejse.",
+      "en": "I would like to wish you a good trip."
+    },
+    {
+      "form": "ønsker",
+      "da": "Hvad ønsker du dig til jul?",
+      "en": "What would you like for Christmas?"
+    },
+    {
+      "form": "ønskede",
+      "da": "Hun ønskede sig en hund, da hun var lille.",
+      "en": "She wanted a dog when she was little."
+    },
+    {
+      "form": "ønsket",
+      "da": "Han har altid ønsket at bo ved vandet.",
+      "en": "He has always wanted to live by the water."
+    }
+  ],
+  "w-v-åbne": [
+    {
+      "form": "åbne",
+      "da": "Kan du åbne vinduet, så vi får frisk luft?",
+      "en": "Can you open the window so we get some fresh air?"
+    },
+    {
+      "form": "åbner",
+      "da": "Butikken åbner klokken ni om morgenen.",
+      "en": "The shop opens at nine in the morning."
+    },
+    {
+      "form": "åbnede",
+      "da": "Hun åbnede brevet med det samme.",
+      "en": "She opened the letter straight away."
+    },
+    {
+      "form": "åbnet",
+      "da": "Der er åbnet en ny café på hjørnet.",
+      "en": "A new café has opened on the corner."
+    }
+  ],
+  "w-v-cykle": [
+    {
+      "form": "cykle",
+      "da": "Jeg kan godt lide at cykle på arbejde.",
+      "en": "I like cycling to work."
+    },
+    {
+      "form": "cykler",
+      "da": "Mange danskere cykler hele året rundt.",
+      "en": "Many Danes cycle all year round."
+    },
+    {
+      "form": "cyklede",
+      "da": "Vi cyklede rundt på Bornholm i sommerferien.",
+      "en": "We cycled around Bornholm in the summer holiday."
+    },
+    {
+      "form": "cyklet",
+      "da": "Har du cyklet hele vejen fra Roskilde?",
+      "en": "Have you cycled all the way from Roskilde?"
+    }
+  ]
+}
