@@ -1,0 +1,2358 @@
+[
+  {
+    "id": "vt-form-01",
+    "level": 1,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Min bror ___ på et hospital i Aarhus nu.",
+    "options": [
+      "arbejde",
+      "arbejder",
+      "arbejdede",
+      "arbejdet"
+    ],
+    "answer": "arbejder",
+    "explanation": "\"Nu\" tells you it is about the present, so use the present tense \"arbejder\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-02",
+    "level": 1,
+    "ruleId": "vt-verb-forms",
+    "prompt": "I går ___ vi pizza til aftensmad.",
+    "options": [
+      "spise",
+      "spiser",
+      "spiste",
+      "spist"
+    ],
+    "answer": "spiste",
+    "explanation": "\"I går\" is a finished time in the past, so use the past tense \"spiste\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-03",
+    "level": 1,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Jeg har aldrig ___ i Norge.",
+    "options": [
+      "bo",
+      "bor",
+      "boede",
+      "boet"
+    ],
+    "answer": "boet",
+    "explanation": "After \"har\" you need the past participle: \"har boet\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-04",
+    "level": 1,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Kan du ___ mig med at bære kassen?",
+    "options": [
+      "hjælpe",
+      "hjælper",
+      "hjalp",
+      "hjulpet"
+    ],
+    "answer": "hjælpe",
+    "explanation": "After the modal verb \"kan\" you use the infinitive \"hjælpe\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-05",
+    "level": 1,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Sidste sommer ___ de en tur til Bornholm.",
+    "options": [
+      "tage",
+      "tager",
+      "tog",
+      "taget"
+    ],
+    "answer": "tog",
+    "explanation": "\"Sidste sommer\" is finished past time, so use the past tense \"tog\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-06",
+    "level": 2,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Hun har ___ tre bøger om dansk historie.",
+    "options": [
+      "skrive",
+      "skriver",
+      "skrev",
+      "skrevet"
+    ],
+    "answer": "skrevet",
+    "explanation": "After \"har\" use the past participle \"skrevet\", not the past tense \"skrev\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-07",
+    "level": 2,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Vores børn er store nu, så de ___ selv i skole hver morgen.",
+    "options": [
+      "gå",
+      "går",
+      "gik",
+      "gået"
+    ],
+    "answer": "går",
+    "explanation": "\"Er store nu\" sets the sentence in the present, and \"hver morgen\" is a habit, so use \"går\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-08",
+    "level": 1,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Det er vigtigt at ___ nok vand, når det er varmt.",
+    "options": [
+      "drikke",
+      "drikker",
+      "drak",
+      "drukket"
+    ],
+    "answer": "drikke",
+    "explanation": "After \"at\" you use the infinitive \"drikke\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-09",
+    "level": 1,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Da jeg var barn, ___ jeg meget fodbold.",
+    "options": [
+      "spille",
+      "spiller",
+      "spillede",
+      "spillet"
+    ],
+    "answer": "spillede",
+    "explanation": "\"Da jeg var barn\" refers to a finished past period, so use the past tense \"spillede\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-10",
+    "level": 1,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Vi har lige ___ en ny sofa.",
+    "options": [
+      "købe",
+      "køber",
+      "købte",
+      "købt"
+    ],
+    "answer": "købt",
+    "explanation": "After \"har\" use the past participle \"købt\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-11",
+    "level": 2,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Han ___ sin mor hver søndag, men i dag kan han ikke.",
+    "options": [
+      "besøge",
+      "besøger",
+      "besøgte",
+      "besøgt"
+    ],
+    "answer": "besøger",
+    "explanation": "A present habit (\"hver søndag\") contrasted with \"i dag kan han ikke\" needs the present tense \"besøger\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-12",
+    "level": 2,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Jeg glemte at ___ døren, da jeg gik i morges.",
+    "options": [
+      "låse",
+      "låser",
+      "låste",
+      "låst"
+    ],
+    "answer": "låse",
+    "explanation": "\"At\" is always followed by the infinitive, even when the rest of the sentence is in the past: \"at låse\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-13",
+    "level": 2,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Hvornår ___ du til Danmark? – For fem år siden.",
+    "options": [
+      "komme",
+      "kommer",
+      "kom",
+      "kommet"
+    ],
+    "answer": "kom",
+    "explanation": "The answer \"for fem år siden\" shows a finished past time, so the question needs the past tense \"kom\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-14",
+    "level": 3,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Firmaet har ___ 20 nye medarbejdere i år.",
+    "options": [
+      "ansætte",
+      "ansætter",
+      "ansatte",
+      "ansat"
+    ],
+    "answer": "ansat",
+    "explanation": "After \"har\" use the past participle \"ansat\"; \"ansatte\" is the past tense.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-15",
+    "level": 2,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Hun ___ sig til kurset i sidste uge.",
+    "options": [
+      "melde",
+      "melder",
+      "meldte",
+      "meldt"
+    ],
+    "answer": "meldte",
+    "explanation": "\"I sidste uge\" is a finished past time, so use the past tense \"meldte\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-16",
+    "level": 2,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Vi skal ___ huset, før vi flytter.",
+    "options": [
+      "male",
+      "maler",
+      "malede",
+      "malet"
+    ],
+    "answer": "male",
+    "explanation": "After the modal verb \"skal\" use the infinitive \"male\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-17",
+    "level": 3,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Politikerne ___ i øjeblikket en ny skattereform.",
+    "options": [
+      "diskutere",
+      "diskuterer",
+      "diskuterede",
+      "diskuteret"
+    ],
+    "answer": "diskuterer",
+    "explanation": "\"I øjeblikket\" (at the moment) means now, so use the present tense \"diskuterer\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-18",
+    "level": 3,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Lægen har ___ mig til at holde fri en uge.",
+    "options": [
+      "råde",
+      "råder",
+      "rådede",
+      "rådet"
+    ],
+    "answer": "rådet",
+    "explanation": "After \"har\" use the past participle \"rådet\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-19",
+    "level": 2,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Sidste år ___ kommunen tre nye skoler.",
+    "options": [
+      "bygge",
+      "bygger",
+      "byggede",
+      "bygget"
+    ],
+    "answer": "byggede",
+    "explanation": "\"Sidste år\" is a finished past time, so use the past tense \"byggede\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-20",
+    "level": 1,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Jeg vil gerne ___ mere om dansk kultur.",
+    "options": [
+      "lære",
+      "lærer",
+      "lærte",
+      "lært"
+    ],
+    "answer": "lære",
+    "explanation": "After \"vil gerne\" use the infinitive \"lære\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-21",
+    "level": 2,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Min far har aldrig ___ en bil.",
+    "options": [
+      "eje",
+      "ejer",
+      "ejede",
+      "ejet"
+    ],
+    "answer": "ejet",
+    "explanation": "After \"har\" use the past participle \"ejet\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-22",
+    "level": 2,
+    "ruleId": "vt-verb-forms",
+    "prompt": "I 2019 ___ de deres første barn.",
+    "options": [
+      "få",
+      "får",
+      "fik",
+      "fået"
+    ],
+    "answer": "fik",
+    "explanation": "A year in the past (\"i 2019\") needs the past tense \"fik\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-23",
+    "level": 2,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Når jeg kommer hjem fra arbejde, ___ jeg altid en kop te.",
+    "options": [
+      "lave",
+      "laver",
+      "lavede",
+      "lavet"
+    ],
+    "answer": "laver",
+    "explanation": "\"Kommer\" is present tense and \"altid\" describes a habit, so use the present \"laver\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-24",
+    "level": 3,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Hvis man vil ___ dansk statsborgerskab, skal man bestå en prøve.",
+    "options": [
+      "opnå",
+      "opnår",
+      "opnåede",
+      "opnået"
+    ],
+    "answer": "opnå",
+    "explanation": "After the modal verb \"vil\" use the infinitive \"opnå\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-form-25",
+    "level": 3,
+    "ruleId": "vt-verb-forms",
+    "prompt": "Folketinget ___ loven i sidste måned.",
+    "options": [
+      "vedtage",
+      "vedtager",
+      "vedtog",
+      "vedtaget"
+    ],
+    "answer": "vedtog",
+    "explanation": "\"I sidste måned\" is a finished past time, so use the past tense \"vedtog\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-01",
+    "level": 1,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Vi ___ til Odense i 2015.",
+    "options": [
+      "flyttede",
+      "er flyttet"
+    ],
+    "answer": "flyttede",
+    "explanation": "A specific year in the past (\"i 2015\") is a finished time point, so use the past tense.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-02",
+    "level": 2,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Jeg ___ i Danmark i seks år nu.",
+    "options": [
+      "boede",
+      "har boet"
+    ],
+    "answer": "har boet",
+    "explanation": "\"I seks år nu\" means the period continues up to now, so use the present perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-03",
+    "level": 2,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Jeg ___ aldrig i Grønland, men jeg vil gerne derhen en dag.",
+    "options": [
+      "var",
+      "har været"
+    ],
+    "answer": "har været",
+    "explanation": "This is about life experience up to now (\"aldrig\" + \"vil gerne ... en dag\"), so use the present perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-04",
+    "level": 1,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "I går ___ jeg til lægen.",
+    "options": [
+      "gik",
+      "er gået"
+    ],
+    "answer": "gik",
+    "explanation": "\"I går\" is a finished time in the past, so use the past tense.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-05",
+    "level": 2,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Min datter ___ alle sine eksamener indtil nu.",
+    "options": [
+      "bestod",
+      "har bestået"
+    ],
+    "answer": "har bestået",
+    "explanation": "\"Indtil nu\" (until now) means the period reaches the present, so use the present perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-06",
+    "level": 1,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "For to år siden ___ jeg mit job i banken.",
+    "options": [
+      "mistede",
+      "har mistet"
+    ],
+    "answer": "mistede",
+    "explanation": "\"For to år siden\" is a finished time point, so use the past tense, never \"har\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-07",
+    "level": 2,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Vi ___ hinanden, siden vi gik i gymnasiet.",
+    "options": [
+      "så ikke",
+      "har ikke set"
+    ],
+    "answer": "har ikke set",
+    "explanation": "\"Siden\" means from then until now, so use the present perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-08",
+    "level": 2,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Det ___ meget i år – haven er helt grøn.",
+    "options": [
+      "regnede",
+      "har regnet"
+    ],
+    "answer": "har regnet",
+    "explanation": "\"I år\" is a period that is not finished yet, so use the present perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-09",
+    "level": 1,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Sidste weekend ___ vi min svigermors fødselsdag.",
+    "options": [
+      "fejrede",
+      "har fejret"
+    ],
+    "answer": "fejrede",
+    "explanation": "\"Sidste weekend\" is a finished time, so use the past tense.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-10",
+    "level": 3,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Hvor længe ___ dansk? – I halvandet år, og jeg fortsætter til sommer.",
+    "options": [
+      "læste du",
+      "har du læst"
+    ],
+    "answer": "har du læst",
+    "explanation": "The studying is still going on (\"jeg fortsætter\"), so the period reaches up to now: present perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-11",
+    "level": 1,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Da jeg var ung, ___ jeg på en fabrik.",
+    "options": [
+      "arbejdede",
+      "har arbejdet"
+    ],
+    "answer": "arbejdede",
+    "explanation": "\"Da jeg var ung\" is a finished period in the past, so use the past tense.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-12",
+    "level": 3,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Kommunen ___ tre nye børnehaver i år, og der kommer flere.",
+    "options": [
+      "byggede",
+      "har bygget"
+    ],
+    "answer": "har bygget",
+    "explanation": "\"I år\" is not over and more are coming, so use the present perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-13",
+    "level": 2,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Borgmesteren ___ en tale på rådhuset i aftes.",
+    "options": [
+      "holdt",
+      "har holdt"
+    ],
+    "answer": "holdt",
+    "explanation": "\"I aftes\" (last night) is a finished time point, so use the past tense.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-14",
+    "level": 2,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Han ___ på min mail endnu.",
+    "options": [
+      "svarede ikke",
+      "har ikke svaret"
+    ],
+    "answer": "har ikke svaret",
+    "explanation": "\"Endnu\" (yet) means up to now, so use the present perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-15",
+    "level": 2,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "I 1849 ___ Danmark sin første grundlov.",
+    "options": [
+      "fik",
+      "har fået"
+    ],
+    "answer": "fik",
+    "explanation": "A year in the past (\"i 1849\") is a finished time point, so use the past tense.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-16",
+    "level": 3,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Siden 2020 ___ flere og flere danskere elbil.",
+    "options": [
+      "købte",
+      "har købt"
+    ],
+    "answer": "har købt",
+    "explanation": "\"Siden 2020\" describes a development from 2020 until now, so use the present perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-17",
+    "level": 2,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Min mormor ___ i 2018.",
+    "options": [
+      "døde",
+      "er død"
+    ],
+    "answer": "døde",
+    "explanation": "The event happened at a finished time (\"i 2018\"), so use the past tense \"døde\"; \"er død\" only describes her state now.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-18",
+    "level": 2,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Vi ___ i den samme lejlighed, lige siden vi blev gift.",
+    "options": [
+      "boede",
+      "har boet"
+    ],
+    "answer": "har boet",
+    "explanation": "\"Lige siden\" means the period continues up to now, so use the present perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-19",
+    "level": 3,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Hvornår ___ du din køreprøve? – I marts sidste år.",
+    "options": [
+      "bestod",
+      "har bestået"
+    ],
+    "answer": "bestod",
+    "explanation": "A \"hvornår\" question asks for a time point in the past, so it takes the past tense.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-20",
+    "level": 2,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Jeg ___ tre kopper kaffe i dag, så nu vil jeg have vand.",
+    "options": [
+      "drak",
+      "har drukket"
+    ],
+    "answer": "har drukket",
+    "explanation": "\"I dag\" is not over yet and the result matters now, so use the present perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-21",
+    "level": 3,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Hun ___ som sygeplejerske i ti år, men nu er hun gået på pension.",
+    "options": [
+      "arbejdede",
+      "har arbejdet"
+    ],
+    "answer": "arbejdede",
+    "explanation": "The ten years are over because she has retired, so use the past tense.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-22",
+    "level": 3,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Han ___ som sygeplejerske i ti år, og han er stadig glad for jobbet.",
+    "options": [
+      "arbejdede",
+      "har arbejdet"
+    ],
+    "answer": "har arbejdet",
+    "explanation": "He still has the job (\"stadig\"), so the period reaches up to now: present perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-23",
+    "level": 1,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Sidste vinter ___ jeg influenza to gange.",
+    "options": [
+      "fik",
+      "har fået"
+    ],
+    "answer": "fik",
+    "explanation": "\"Sidste vinter\" is a finished period, so use the past tense.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-24",
+    "level": 3,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Prisen på strøm ___ meget i løbet af det sidste år, og den er stadig høj.",
+    "options": [
+      "steg",
+      "er steget"
+    ],
+    "answer": "er steget",
+    "explanation": "\"I løbet af det sidste år\" means the last twelve months up to now, and the price is still high, so use the present perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-perf-25",
+    "level": 3,
+    "ruleId": "vt-past-vs-perfect",
+    "prompt": "Efter krigen ___ mange familier fra landet ind til byerne.",
+    "options": [
+      "flyttede",
+      "er flyttet"
+    ],
+    "answer": "flyttede",
+    "explanation": "\"Efter krigen\" places the event at a finished time in history, so use the past tense.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-01",
+    "level": 3,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Min mand ___ mad, da jeg kom hjem, så vi kunne spise med det samme.",
+    "options": [
+      "lavede",
+      "havde lavet"
+    ],
+    "answer": "havde lavet",
+    "explanation": "The food was ready before I arrived (we could eat at once), so use the past perfect. \"Lavede\" would mean he was cooking when I came.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-02",
+    "level": 2,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Toget ___ for længst, da vi kom ind på stationen, så vi måtte vente en time på det næste.",
+    "options": [
+      "kørte",
+      "var kørt"
+    ],
+    "answer": "var kørt",
+    "explanation": "\"For længst\" (long since) and the hour-long wait show the train had left before we arrived, so use the past perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-03",
+    "level": 3,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Da jeg flyttede til Danmark, ___ sne.",
+    "options": [
+      "så jeg aldrig",
+      "havde jeg aldrig set"
+    ],
+    "answer": "havde jeg aldrig set",
+    "explanation": "Never seeing snow is the experience before the move, so use the past perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-04",
+    "level": 2,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Vi gik i biografen, men filmen ___.",
+    "options": [
+      "begyndte allerede",
+      "var allerede begyndt"
+    ],
+    "answer": "var allerede begyndt",
+    "explanation": "The film started before we got there (\"allerede\"), so use the past perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-05",
+    "level": 2,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Han fik et job i Aarhus og ___ derfor til byen i august.",
+    "options": [
+      "flyttede",
+      "var flyttet"
+    ],
+    "answer": "flyttede",
+    "explanation": "The events are told in the order they happened (first the job, then the move), so use the plain past.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-06",
+    "level": 3,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Tyvene ___ for længst, da politiet kom, og huset var tomt.",
+    "options": [
+      "flygtede",
+      "var flygtet"
+    ],
+    "answer": "var flygtet",
+    "explanation": "\"For længst\" and the empty house show the thieves escaped before the police arrived, so use the past perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-07",
+    "level": 3,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Tyvene ___ ud ad bagdøren i samme øjeblik, som politiet kom ind.",
+    "options": [
+      "løb",
+      "var løbet"
+    ],
+    "answer": "løb",
+    "explanation": "\"I samme øjeblik\" means the two things happened at the same time, so use the plain past.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-08",
+    "level": 3,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Jeg var sulten, fordi jeg ikke ___ noget siden morgenmaden.",
+    "options": [
+      "spiste",
+      "havde spist"
+    ],
+    "answer": "havde spist",
+    "explanation": "\"Siden morgenmaden\" is a period running up to a point in the past, so use the past perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-09",
+    "level": 3,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Da hun fik job på et hospital, ___ sin uddannelse et halvt år forinden.",
+    "options": [
+      "afsluttede hun",
+      "havde hun afsluttet"
+    ],
+    "answer": "havde hun afsluttet",
+    "explanation": "The da-clause is the reference point, and \"et halvt år forinden\" (half a year before that) places the education before it, so use the past perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-10",
+    "level": 3,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Han ___ i Danmark i fem år, da han fik statsborgerskab.",
+    "options": [
+      "boede",
+      "havde boet"
+    ],
+    "answer": "havde boet",
+    "explanation": "Five years up to a point in the past (\"da han fik statsborgerskab\") needs the past perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-11",
+    "level": 2,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Sidste lørdag ___ vi en tur i skoven og spiste frokost bagefter.",
+    "options": [
+      "gik",
+      "havde gået"
+    ],
+    "answer": "gik",
+    "explanation": "The events come in their natural order (\"bagefter\" = afterwards), so use the plain past.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-12",
+    "level": 3,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Lejligheden var beskidt, da vi flyttede ind, fordi de forrige lejere ___ rent.",
+    "options": [
+      "ikke gjorde",
+      "ikke havde gjort"
+    ],
+    "answer": "ikke havde gjort",
+    "explanation": "The previous tenants left before we moved in, so their (missing) cleaning is earlier: past perfect. In the fordi-clause \"ikke\" comes before the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-13",
+    "level": 3,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Jeg genkendte ham ikke, fordi jeg ikke ___ ham, siden vi gik i skole.",
+    "options": [
+      "så",
+      "havde set"
+    ],
+    "answer": "havde set",
+    "explanation": "\"Siden vi gik i skole\" is a period up to a past moment, so use the past perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-14",
+    "level": 3,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Da vi kom hjem fra ferie, opdagede vi, at nogen ___ ind i huset.",
+    "options": [
+      "brød",
+      "havde brudt"
+    ],
+    "answer": "havde brudt",
+    "explanation": "The break-in happened before we came home and discovered it, so use the past perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-15",
+    "level": 2,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Hun tog sin jakke på og ___ ud ad døren.",
+    "options": [
+      "gik",
+      "var gået"
+    ],
+    "answer": "gik",
+    "explanation": "Two actions in sequence (first the jacket, then out the door) take the plain past.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-16",
+    "level": 2,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Børnene sov allerede, da vi ___ hjem.",
+    "options": [
+      "kom",
+      "var kommet"
+    ],
+    "answer": "kom",
+    "explanation": "Coming home is the reference point in the story, not an earlier event, so use the plain past.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-17",
+    "level": 3,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Hun ___ nyheden, da jeg ringede til hende.",
+    "options": [
+      "hørte allerede",
+      "havde allerede hørt"
+    ],
+    "answer": "havde allerede hørt",
+    "explanation": "She heard the news before my call (\"allerede\"), so use the past perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-18",
+    "level": 2,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Vi ___ huset i 2010 og solgte det igen i 2020.",
+    "options": [
+      "købte",
+      "havde købt"
+    ],
+    "answer": "købte",
+    "explanation": "Both events are told in time order with their own dates, so use the plain past.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-19",
+    "level": 3,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Halvdelen af publikum ___, da filmen sluttede, så salen var næsten tom.",
+    "options": [
+      "gik allerede",
+      "var allerede gået"
+    ],
+    "answer": "var allerede gået",
+    "explanation": "The hall was almost empty when the film ended, so half the audience had left before that (\"allerede\"): past perfect. \"Gik allerede\" would mean they were just leaving.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-20",
+    "level": 2,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Solen ___ op, da jeg vågnede – den stod højt på himlen.",
+    "options": [
+      "stod allerede",
+      "var allerede stået"
+    ],
+    "answer": "var allerede stået",
+    "explanation": "The sun was already high in the sky, so it had risen before I woke up: past perfect. \"Stod allerede op\" would mean it was just rising.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-21",
+    "level": 2,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Hun ___ aldrig været i udlandet, før hun tog til Spanien som 30-årig.",
+    "options": [
+      "har",
+      "havde"
+    ],
+    "answer": "havde",
+    "explanation": "The whole story is in the past (\"tog\"), so the earlier experience takes \"havde\", not \"har\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-22",
+    "level": 4,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Mødet ___, da jeg endelig fandt lokalet, så jeg listede stille ind.",
+    "options": [
+      "begyndte allerede",
+      "var allerede begyndt"
+    ],
+    "answer": "var allerede begyndt",
+    "explanation": "The meeting was under way before I found the room (I had to sneak in), so use the past perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-23",
+    "level": 2,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "I går ___ jeg tidligt op, spiste morgenmad og cyklede på arbejde.",
+    "options": [
+      "stod",
+      "var stået"
+    ],
+    "answer": "stod",
+    "explanation": "A list of actions in the order they happened takes the plain past.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-plup-24",
+    "level": 4,
+    "ruleId": "vt-past-vs-pluperfect",
+    "prompt": "Jeg ___ i over en time, da han endelig ringede.",
+    "options": [
+      "ventede",
+      "havde ventet"
+    ],
+    "answer": "havde ventet",
+    "explanation": "Waiting \"i over en time\" is a period leading up to the call, so use the past perfect.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-01",
+    "level": 2,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Da vi ringede på, ___ de allerede gået i seng.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "var",
+    "explanation": "\"Gå i seng\" is movement, which takes \"er\" in the present perfect, so the past perfect is \"var gået\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-02",
+    "level": 2,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Hun ___ boet i Paris, før hun kom til Danmark.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "havde",
+    "explanation": "\"Bo\" takes \"har\" (har boet), so the past perfect is \"havde boet\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-03",
+    "level": 2,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Han ___ glemt sin madpakke, så han købte frokost i kantinen.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "havde",
+    "explanation": "\"Glemme\" takes \"har\" (har glemt), so use \"havde glemt\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-04",
+    "level": 2,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Gæsterne ___ kommet, før maden var klar.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "var",
+    "explanation": "\"Komme\" takes \"er\" (er kommet), so use \"var kommet\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-05",
+    "level": 3,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Min bedstefar ___ død, før jeg blev født.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "var",
+    "explanation": "\"Dø\" is a change of state and takes \"er\" (er død), so use \"var død\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-06",
+    "level": 1,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Vi ___ spist, så vi var ikke sultne.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "havde",
+    "explanation": "\"Spise\" takes \"har\" (har spist), so use \"havde spist\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-07",
+    "level": 2,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Det ___ blevet mørkt, da vi kom hjem.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "var",
+    "explanation": "\"Blive\" always takes \"er\" (er blevet), so use \"var blevet\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-08",
+    "level": 3,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Hun ___ flyttet til Aalborg, da jeg prøvede at kontakte hende.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "var",
+    "explanation": "\"Flytte til\" + a place is movement with a direction and takes \"er\", so use \"var flyttet\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-09",
+    "level": 4,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Jeg ___ aldrig rejst alene før den tur.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "havde",
+    "explanation": "Here \"rejse\" is an activity (travelling) with no destination, so it takes \"har\": \"havde rejst\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-10",
+    "level": 4,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Da jeg kom på arbejde, ___ min chef allerede rejst til Tyskland, så hun var ikke på kontoret.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "var",
+    "explanation": "\"Rejse til\" + a place means she had left (movement away), so it takes \"er\": \"var rejst\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-11",
+    "level": 3,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Børnene ___ faldet i søvn, inden filmen var slut.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "var",
+    "explanation": "\"Falde i søvn\" is a change of state and takes \"er\", so use \"var faldet\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-12",
+    "level": 2,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Vi ___ købt billetterne på nettet, så vi slap for at stå i kø.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "havde",
+    "explanation": "\"Købe\" takes \"har\" (har købt), so use \"havde købt\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-13",
+    "level": 3,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Prisen ___ steget med 20 procent, da vi endelig købte huset.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "var",
+    "explanation": "\"Stige\" is a change of level and takes \"er\" (er steget), so use \"var steget\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-14",
+    "level": 2,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Han ___ arbejdet på fabrikken i 30 år, da den lukkede.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "havde",
+    "explanation": "\"Arbejde\" takes \"har\" (har arbejdet), so use \"havde arbejdet\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-15",
+    "level": 3,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Bussen ___ kørt, så vi måtte gå.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "var",
+    "explanation": "Here \"køre\" means the bus had left (movement away), so it takes \"er\": \"var kørt\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-16",
+    "level": 4,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Da hun fik sin første bøde, ___ hun kørt bil i ti år uden problemer.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "havde",
+    "explanation": "Here \"køre bil\" is an activity over a period, not leaving a place, so it takes \"har\": \"havde kørt\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-17",
+    "level": 3,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Ingen vidste, hvad der ___ sket.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "var",
+    "explanation": "\"Ske\" takes \"er\" (er sket), so use \"var sket\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-18",
+    "level": 3,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Jeg kunne ikke finde mine nøgler; de ___ forsvundet.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "var",
+    "explanation": "\"Forsvinde\" is a change of state and takes \"er\", so use \"var forsvundet\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-19",
+    "level": 3,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Lægen sagde, at operationen ___ gået godt.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "var",
+    "explanation": "\"Gå godt\" takes \"er\" (er gået godt), so use \"var gået\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-20",
+    "level": 3,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Vi ___ vågnet tidligt, så vi nåede det første tog.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "var",
+    "explanation": "\"Vågne\" is a change of state and takes \"er\", so use \"var vågnet\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-21",
+    "level": 2,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Hun ___ været syg i en uge, da hun endelig gik til lægen.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "havde",
+    "explanation": "\"Være\" takes \"har\" (har været), so use \"havde været\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-22",
+    "level": 2,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Kursisterne ___ lært meget, da kurset sluttede.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "havde",
+    "explanation": "\"Lære\" takes \"har\" (har lært), so use \"havde lært\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-23",
+    "level": 3,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Han ___ blevet færdig med sin uddannelse, da krisen kom.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "var",
+    "explanation": "\"Blive\" always takes \"er\", so use \"var blevet\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-24",
+    "level": 4,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Sneen ___ smeltet, da vi kom op i bjergene.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "var",
+    "explanation": "\"Smelte\" (without an object) is a change of state and takes \"er\", so use \"var smeltet\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-varhav-25",
+    "level": 2,
+    "ruleId": "vt-pluperfect-var-havde",
+    "prompt": "Hun ___ ringet til mig tre gange, før jeg så det.",
+    "options": [
+      "var",
+      "havde"
+    ],
+    "answer": "havde",
+    "explanation": "\"Ringe\" takes \"har\" (har ringet), so use \"havde ringet\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-01",
+    "level": 2,
+    "ruleId": "vt-future",
+    "prompt": "Hvis det ___ i morgen, bliver udflugten aflyst.",
+    "options": [
+      "regner",
+      "vil regne",
+      "skal regne"
+    ],
+    "answer": "regner",
+    "explanation": "After \"hvis\" Danish uses the present tense, even about the future.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-02",
+    "level": 2,
+    "ruleId": "vt-future",
+    "prompt": "Når du ___ hjem, så send mig en sms.",
+    "options": [
+      "kommer",
+      "vil komme",
+      "skal komme"
+    ],
+    "answer": "kommer",
+    "explanation": "After \"når\" use the present tense for a future event.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-03",
+    "level": 3,
+    "ruleId": "vt-future",
+    "prompt": "Når toget ___ til Odense, skal vi skifte.",
+    "options": [
+      "kommer",
+      "vil komme"
+    ],
+    "answer": "kommer",
+    "explanation": "In a \"når\"-clause the present tense refers to the future; \"vil\" is not used there.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-04",
+    "level": 2,
+    "ruleId": "vt-future",
+    "prompt": "Vi ___ på ferie i Italien i juli – flybilletterne er allerede købt.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "The trip is planned and booked, so use \"skal\". \"Vi vil på ferie\" would only mean \"we want to go\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-05",
+    "level": 3,
+    "ruleId": "vt-future",
+    "prompt": "Bare rolig, jeg ___ nok hente børnene i dag.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "\"Skal nok\" is a promise or reassurance, which fits \"bare rolig\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-06",
+    "level": 3,
+    "ruleId": "vt-future",
+    "prompt": "Så snart butikken ___ i morgen, køber jeg billetterne.",
+    "options": [
+      "åbner",
+      "vil åbne"
+    ],
+    "answer": "åbner",
+    "explanation": "After \"så snart\" use the present tense for the future.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-07",
+    "level": 2,
+    "ruleId": "vt-future",
+    "prompt": "Jeg ___ til tandlæge på torsdag kl. 14.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "An appointment is a fixed arrangement, so use \"skal\". \"Vil til tandlæge\" would mean you want to go.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-08",
+    "level": 2,
+    "ruleId": "vt-future",
+    "prompt": "Jeg ___ gerne til Island en dag, men jeg har ikke råd lige nu.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "vil",
+    "explanation": "\"Vil gerne\" expresses a wish; \"skal gerne\" is not used this way.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-09",
+    "level": 4,
+    "ruleId": "vt-future",
+    "prompt": "Arbejdet på motorvejen ___ formentlig tage to år.",
+    "options": [
+      "vil",
+      "skal"
+    ],
+    "answer": "vil",
+    "explanation": "\"Formentlig\" (probably) marks a prediction, and predictions take \"vil\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-10",
+    "level": 3,
+    "ruleId": "vt-future",
+    "prompt": "Ring til mig, så snart du ___ resultatet.",
+    "options": [
+      "får",
+      "vil få",
+      "skal få"
+    ],
+    "answer": "får",
+    "explanation": "After \"så snart\" use the present tense, even about the future.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-11",
+    "level": 2,
+    "ruleId": "vt-future",
+    "prompt": "Hvis du ___ spørgsmål, kan du ringe til mig.",
+    "options": [
+      "har",
+      "vil have",
+      "skal have"
+    ],
+    "answer": "har",
+    "explanation": "After \"hvis\" use the present tense.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-12",
+    "level": 3,
+    "ruleId": "vt-future",
+    "prompt": "Når vi ___ på pension, vil vi gerne bo ved havet.",
+    "options": [
+      "går",
+      "vil gå"
+    ],
+    "answer": "går",
+    "explanation": "In a \"når\"-clause about the future use the present tense; \"vil gå\" is not used there.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-13",
+    "level": 3,
+    "ruleId": "vt-future",
+    "prompt": "Jeg ___ ringe, så snart jeg lander – det lover jeg.",
+    "options": [
+      "skal nok",
+      "vil gerne"
+    ],
+    "answer": "skal nok",
+    "explanation": "\"Det lover jeg\" (I promise) matches \"skal nok\", which expresses a promise; \"vil gerne\" only means \"would like to\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-14",
+    "level": 2,
+    "ruleId": "vt-future",
+    "prompt": "Hvis du ikke ___ dig, kommer vi for sent.",
+    "options": [
+      "skynder",
+      "vil skynde",
+      "skal skynde"
+    ],
+    "answer": "skynder",
+    "explanation": "After \"hvis\" use the present tense.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-15",
+    "level": 4,
+    "ruleId": "vt-future",
+    "prompt": "Kommunen har besluttet, at skolen ___ lukke næste sommer.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "A decision someone has made is a plan, so use \"skal\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-16",
+    "level": 3,
+    "ruleId": "vt-future",
+    "prompt": "Det er planen, at vi ___ flytte til Esbjerg til sommer.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "\"Det er planen\" shows an arrangement, which takes \"skal\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-17",
+    "level": 4,
+    "ruleId": "vt-future",
+    "prompt": "Mange tror, at det ___ blive svært at finde en bolig i København i fremtiden.",
+    "options": [
+      "vil",
+      "skal"
+    ],
+    "answer": "vil",
+    "explanation": "\"Mange tror\" introduces a prediction, so use \"vil\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-18",
+    "level": 2,
+    "ruleId": "vt-future",
+    "prompt": "Jeg kan ikke komme til mødet i morgen, fordi jeg ___ til lægen.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "A doctor's appointment is an arrangement, so use \"skal\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-19",
+    "level": 2,
+    "ruleId": "vt-future",
+    "prompt": "Når filmen ___ slut, går vi ud og spiser.",
+    "options": [
+      "er",
+      "vil være"
+    ],
+    "answer": "er",
+    "explanation": "After \"når\" use the present tense for the future.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-20",
+    "level": 3,
+    "ruleId": "vt-future",
+    "prompt": "Næste år ___ det 50 år siden, skolen åbnede.",
+    "options": [
+      "er",
+      "skal være"
+    ],
+    "answer": "er",
+    "explanation": "A fixed future fact with a time expression (\"næste år\") takes the present tense; \"skal\" would wrongly suggest a plan or obligation.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-21",
+    "level": 4,
+    "ruleId": "vt-future",
+    "prompt": "Om nogle år ___ robotter sikkert overtage mange af de kedelige opgaver på fabrikkerne.",
+    "options": [
+      "vil",
+      "skal"
+    ],
+    "answer": "vil",
+    "explanation": "\"Sikkert\" (probably) marks a guess about the future, and predictions take \"vil\"; \"skal\" would mean a plan or obligation.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-22",
+    "level": 4,
+    "ruleId": "vt-future",
+    "prompt": "Efter planen ___ det nye hospital stå færdigt i 2028.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "\"Efter planen\" (according to the plan) signals an arrangement, so use \"skal\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-23",
+    "level": 3,
+    "ruleId": "vt-future",
+    "prompt": "Min søster ___ giftes i august, og hele familien er inviteret.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "The wedding is planned and the guests are invited, so use \"skal\". \"Vil giftes\" means \"wants to get married\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-24",
+    "level": 2,
+    "ruleId": "vt-future",
+    "prompt": "Hvad gør vi, hvis bussen ikke ___?",
+    "options": [
+      "kommer",
+      "vil komme"
+    ],
+    "answer": "kommer",
+    "explanation": "After \"hvis\" use the present tense.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-25",
+    "level": 4,
+    "ruleId": "vt-future",
+    "prompt": "Nyheden ___ sandsynligvis skabe debat i hele landet.",
+    "options": [
+      "vil",
+      "skal"
+    ],
+    "answer": "vil",
+    "explanation": "\"Sandsynligvis\" (probably) marks a prediction, so use \"vil\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-fut-26",
+    "level": 2,
+    "ruleId": "vt-future",
+    "prompt": "Undskyld, jeg ___ gå nu – mit tog kører om ti minutter.",
+    "options": [
+      "skal",
+      "vil"
+    ],
+    "answer": "skal",
+    "explanation": "You have to go because of the train (an arrangement), so use \"skal\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-01",
+    "level": 1,
+    "ruleId": "vt-at-modal",
+    "prompt": "Min søn kan ___ 200 meter.",
+    "options": [
+      "svømme",
+      "at svømme"
+    ],
+    "answer": "svømme",
+    "explanation": "\"Kan\" is a modal verb, so the infinitive follows without \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-02",
+    "level": 1,
+    "ruleId": "vt-at-modal",
+    "prompt": "Hun prøver ___ dansk med sine naboer.",
+    "options": [
+      "tale",
+      "at tale"
+    ],
+    "answer": "at tale",
+    "explanation": "\"Prøver\" is not a modal verb, so it needs \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-03",
+    "level": 1,
+    "ruleId": "vt-at-modal",
+    "prompt": "Vi skal ___ bussen kl. 8.",
+    "options": [
+      "nå",
+      "at nå"
+    ],
+    "answer": "nå",
+    "explanation": "\"Skal\" is a modal verb: no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-04",
+    "level": 2,
+    "ruleId": "vt-at-modal",
+    "prompt": "Jeg glemte ___ min mor tillykke med fødselsdagen.",
+    "options": [
+      "ønske",
+      "at ønske"
+    ],
+    "answer": "at ønske",
+    "explanation": "\"Glemme\" is an ordinary verb, so the infinitive needs \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-05",
+    "level": 1,
+    "ruleId": "vt-at-modal",
+    "prompt": "Du må ikke ___ her.",
+    "options": [
+      "ryge",
+      "at ryge"
+    ],
+    "answer": "ryge",
+    "explanation": "\"Må\" is a modal verb: no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-06",
+    "level": 1,
+    "ruleId": "vt-at-modal",
+    "prompt": "Han plejer ___ på arbejde.",
+    "options": [
+      "cykle",
+      "at cykle"
+    ],
+    "answer": "at cykle",
+    "explanation": "\"Plejer\" always takes \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-07",
+    "level": 2,
+    "ruleId": "vt-at-modal",
+    "prompt": "Jeg gider ikke ___ opvasken i aften.",
+    "options": [
+      "tage",
+      "at tage"
+    ],
+    "answer": "tage",
+    "explanation": "\"Gide\" works like a modal verb: no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-08",
+    "level": 2,
+    "ruleId": "vt-at-modal",
+    "prompt": "Hun har lyst til ___ en tur i skoven.",
+    "options": [
+      "gå",
+      "at gå"
+    ],
+    "answer": "at gå",
+    "explanation": "After a preposition (\"lyst til\") the infinitive needs \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-09",
+    "level": 2,
+    "ruleId": "vt-at-modal",
+    "prompt": "Man bør ___ tænderne to gange om dagen.",
+    "options": [
+      "børste",
+      "at børste"
+    ],
+    "answer": "børste",
+    "explanation": "\"Bør\" is a modal verb: no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-10",
+    "level": 2,
+    "ruleId": "vt-at-modal",
+    "prompt": "Vi håber ___ et hus på landet.",
+    "options": [
+      "købe",
+      "at købe"
+    ],
+    "answer": "at købe",
+    "explanation": "\"Håbe\" is an ordinary verb, so it needs \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-11",
+    "level": 2,
+    "ruleId": "vt-at-modal",
+    "prompt": "Jeg tør ikke ___ med min chef om det.",
+    "options": [
+      "tale",
+      "at tale"
+    ],
+    "answer": "tale",
+    "explanation": "\"Tør\" is a modal verb: no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-12",
+    "level": 2,
+    "ruleId": "vt-at-modal",
+    "prompt": "Børnene begyndte ___, da filmen var slut.",
+    "options": [
+      "græde",
+      "at græde"
+    ],
+    "answer": "at græde",
+    "explanation": "\"Begynde\" takes \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-13",
+    "level": 2,
+    "ruleId": "vt-at-modal",
+    "prompt": "Hun ville ___ læge, da hun var lille.",
+    "options": [
+      "blive",
+      "at blive"
+    ],
+    "answer": "blive",
+    "explanation": "\"Ville\" is the past of the modal \"vil\": no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-14",
+    "level": 2,
+    "ruleId": "vt-at-modal",
+    "prompt": "Det er svært ___ et job uden erfaring.",
+    "options": [
+      "finde",
+      "at finde"
+    ],
+    "answer": "at finde",
+    "explanation": "After \"det er svært\" the infinitive needs \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-15",
+    "level": 3,
+    "ruleId": "vt-at-modal",
+    "prompt": "Du burde ___ til lægen med det knæ.",
+    "options": [
+      "gå",
+      "at gå"
+    ],
+    "answer": "gå",
+    "explanation": "\"Burde\" is the past of the modal \"bør\": no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-16",
+    "level": 2,
+    "ruleId": "vt-at-modal",
+    "prompt": "Jeg lovede ___ hende i weekenden.",
+    "options": [
+      "besøge",
+      "at besøge"
+    ],
+    "answer": "at besøge",
+    "explanation": "\"Love\" (promise) is an ordinary verb and takes \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-17",
+    "level": 1,
+    "ruleId": "vt-at-modal",
+    "prompt": "Han kunne ikke ___ sit pas.",
+    "options": [
+      "finde",
+      "at finde"
+    ],
+    "answer": "finde",
+    "explanation": "\"Kunne\" is the past of \"kan\": no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-18",
+    "level": 2,
+    "ruleId": "vt-at-modal",
+    "prompt": "Vi besluttede ___ huset.",
+    "options": [
+      "sælge",
+      "at sælge"
+    ],
+    "answer": "at sælge",
+    "explanation": "\"Beslutte\" takes \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-19",
+    "level": 3,
+    "ruleId": "vt-at-modal",
+    "prompt": "Du må hellere ___ dig, ellers kommer du for sent.",
+    "options": [
+      "skynde",
+      "at skynde"
+    ],
+    "answer": "skynde",
+    "explanation": "\"Må hellere\" is a modal expression: no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-20",
+    "level": 3,
+    "ruleId": "vt-at-modal",
+    "prompt": "Jeg kan godt lide ___ mad til mine venner.",
+    "options": [
+      "lave",
+      "at lave"
+    ],
+    "answer": "at lave",
+    "explanation": "The main verb here is \"lide\", not \"kan\", and \"kan lide\" takes \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-21",
+    "level": 3,
+    "ruleId": "vt-at-modal",
+    "prompt": "Vi bliver nødt til ___ tidligere i morgen.",
+    "options": [
+      "møde ind",
+      "at møde ind"
+    ],
+    "answer": "at møde ind",
+    "explanation": "\"Blive nødt til\" ends in a preposition, so it needs \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-22",
+    "level": 3,
+    "ruleId": "vt-at-modal",
+    "prompt": "Jeg nåede ikke ___ farvel til hende.",
+    "options": [
+      "sige",
+      "at sige"
+    ],
+    "answer": "at sige",
+    "explanation": "\"Nå\" (manage in time) is not a modal verb, so it takes \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-23",
+    "level": 3,
+    "ruleId": "vt-at-modal",
+    "prompt": "Skulle vi ikke ___ en pause?",
+    "options": [
+      "holde",
+      "at holde"
+    ],
+    "answer": "holde",
+    "explanation": "\"Skulle\" is the past of \"skal\": no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-24",
+    "level": 2,
+    "ruleId": "vt-at-modal",
+    "prompt": "Mange ældre er bange for ___ alene.",
+    "options": [
+      "være",
+      "at være"
+    ],
+    "answer": "at være",
+    "explanation": "After the preposition \"for\" the infinitive needs \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-25",
+    "level": 3,
+    "ruleId": "vt-at-modal",
+    "prompt": "Hun turde ikke ___ i det kolde vand.",
+    "options": [
+      "hoppe",
+      "at hoppe"
+    ],
+    "answer": "hoppe",
+    "explanation": "\"Turde\" is the past of the modal \"tør\": no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-mod-26",
+    "level": 3,
+    "ruleId": "vt-at-modal",
+    "prompt": "Lad være med ___ så meget larm!",
+    "options": [
+      "lave",
+      "at lave"
+    ],
+    "answer": "at lave",
+    "explanation": "\"Lad være med\" ends in a preposition, so it needs \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-01",
+    "level": 2,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Jeg så ham ___ ind i butikken.",
+    "options": [
+      "gå",
+      "at gå"
+    ],
+    "answer": "gå",
+    "explanation": "After \"se\" + object the infinitive comes without \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-02",
+    "level": 3,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Vi hørte naboerne ___ hele natten.",
+    "options": [
+      "skændes",
+      "at skændes"
+    ],
+    "answer": "skændes",
+    "explanation": "After \"høre\" + object: no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-03",
+    "level": 2,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Læreren bad os om ___ teksten til i morgen.",
+    "options": [
+      "læse",
+      "at læse"
+    ],
+    "answer": "at læse",
+    "explanation": "\"Bede nogen om\" ends in a preposition, so the infinitive needs \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-04",
+    "level": 3,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Hun lod børnene ___ længe i weekenden.",
+    "options": [
+      "sove",
+      "at sove"
+    ],
+    "answer": "sove",
+    "explanation": "\"Lade\" + object is followed by the infinitive without \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-05",
+    "level": 2,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Min far lærte mig ___ cykel.",
+    "options": [
+      "køre",
+      "at køre"
+    ],
+    "answer": "at køre",
+    "explanation": "\"Lære nogen\" takes \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-06",
+    "level": 3,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Kan du få ham til ___ op med at ryge?",
+    "options": [
+      "holde",
+      "at holde"
+    ],
+    "answer": "at holde",
+    "explanation": "\"Få nogen til\" ends in a preposition, so it needs \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-07",
+    "level": 3,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Lægen rådede mig til ___ mere motion.",
+    "options": [
+      "dyrke",
+      "at dyrke"
+    ],
+    "answer": "at dyrke",
+    "explanation": "\"Råde nogen til\" ends in a preposition, so it needs \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-08",
+    "level": 4,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Jeg mærkede jorden ___ under mine fødder.",
+    "options": [
+      "ryste",
+      "at ryste"
+    ],
+    "answer": "ryste",
+    "explanation": "\"Mærke\" is a verb of perception, so no \"at\" after the object.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-09",
+    "level": 2,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Lad mig ___ dig med tasken.",
+    "options": [
+      "hjælpe",
+      "at hjælpe"
+    ],
+    "answer": "hjælpe",
+    "explanation": "\"Lade\" + object: no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-10",
+    "level": 4,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Chefen tillod os ___ tidligt i fredags.",
+    "options": [
+      "gå",
+      "at gå"
+    ],
+    "answer": "at gå",
+    "explanation": "\"Tillade nogen\" (allow someone) takes \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-11",
+    "level": 2,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Har du nogensinde hørt hende ___?",
+    "options": [
+      "synge",
+      "at synge"
+    ],
+    "answer": "synge",
+    "explanation": "After \"høre\" + object: no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-12",
+    "level": 2,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Vi hjalp vores nabo med ___ flyttekasserne.",
+    "options": [
+      "bære",
+      "at bære"
+    ],
+    "answer": "at bære",
+    "explanation": "\"Hjælpe nogen med\" ends in a preposition, so it needs \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-13",
+    "level": 3,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Politiet bad bilisterne om ___ motorvejen.",
+    "options": [
+      "undgå",
+      "at undgå"
+    ],
+    "answer": "at undgå",
+    "explanation": "\"Bede nogen om\" needs \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-14",
+    "level": 3,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "De så solen ___ ned over havet.",
+    "options": [
+      "gå",
+      "at gå"
+    ],
+    "answer": "gå",
+    "explanation": "After \"se\" + object: no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-15",
+    "level": 3,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Hun fik sin mand til ___ opvasken.",
+    "options": [
+      "tage",
+      "at tage"
+    ],
+    "answer": "at tage",
+    "explanation": "\"Få nogen til\" needs \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-16",
+    "level": 3,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Mine forældre lod mig aldrig ___ alene i byen om aftenen.",
+    "options": [
+      "gå",
+      "at gå"
+    ],
+    "answer": "gå",
+    "explanation": "\"Lade\" + object: no \"at\", even with \"aldrig\" in between.",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-17",
+    "level": 4,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Kommunen opfordrer borgerne til ___ deres affald.",
+    "options": [
+      "sortere",
+      "at sortere"
+    ],
+    "answer": "at sortere",
+    "explanation": "\"Opfordre nogen til\" ends in a preposition, so it needs \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-18",
+    "level": 2,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Jeg hørte telefonen ___, men jeg nåede ikke at tage den.",
+    "options": [
+      "ringe",
+      "at ringe"
+    ],
+    "answer": "ringe",
+    "explanation": "After \"høre\" + object: no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-19",
+    "level": 4,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Han tvang sig selv til ___ op kl. 5.",
+    "options": [
+      "stå",
+      "at stå"
+    ],
+    "answer": "at stå",
+    "explanation": "\"Tvinge nogen til\" ends in a preposition, so it needs \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-20",
+    "level": 2,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Vi så børnene ___ i haven.",
+    "options": [
+      "lege",
+      "at lege"
+    ],
+    "answer": "lege",
+    "explanation": "After \"se\" + object: no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-21",
+    "level": 3,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Hun bad en kollega om ___ hendes vagt.",
+    "options": [
+      "tage",
+      "at tage"
+    ],
+    "answer": "at tage",
+    "explanation": "\"Bede nogen om\" needs \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-22",
+    "level": 4,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Vagten lod os ikke ___ ind uden billet.",
+    "options": [
+      "komme",
+      "at komme"
+    ],
+    "answer": "komme",
+    "explanation": "\"Lade\" + object: no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-23",
+    "level": 3,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Jeg har aldrig set ham ___ så vred.",
+    "options": [
+      "blive",
+      "at blive"
+    ],
+    "answer": "blive",
+    "explanation": "After \"se\" + object: no \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-24",
+    "level": 4,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Banken forbød ham ___ flere penge.",
+    "options": [
+      "låne",
+      "at låne"
+    ],
+    "answer": "at låne",
+    "explanation": "\"Forbyde nogen\" (forbid someone) takes \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-25",
+    "level": 3,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Musikken fik alle til ___.",
+    "options": [
+      "danse",
+      "at danse"
+    ],
+    "answer": "at danse",
+    "explanation": "\"Få nogen til\" needs \"at\".",
+    "reviewed": false
+  },
+  {
+    "id": "vt-obj-26",
+    "level": 4,
+    "ruleId": "vt-at-object-infinitive",
+    "prompt": "Han følte sit hjerte ___ hurtigt.",
+    "options": [
+      "slå",
+      "at slå"
+    ],
+    "answer": "slå",
+    "explanation": "\"Føle\" is a verb of perception, so no \"at\" after the object.",
+    "reviewed": false
+  }
+]

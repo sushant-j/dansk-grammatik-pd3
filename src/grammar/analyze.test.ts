@@ -116,6 +116,20 @@ describe('renderSentence', () => {
     };
     expect(renderSentence(ex, wrong)).toBe('Jeg gik ikke i går på arbejde.');
   });
+
+  it('sets a whole subordinate clause off with a comma, before or after it', () => {
+    const fronted = exerciseById('ex-hvis-regner-hjemme')!;
+    expect(renderSentence(fronted, fronted.solution)).toBe('Hvis det regner, bliver vi hjemme.');
+    expect(renderSentence(fronted, fronted.alternatives![0])).toBe('Vi bliver hjemme, hvis det regner.');
+    const reported = exerciseById('ex-siger-altid-travlt')!;
+    expect(renderSentence(reported, reported.solution)).toBe('Han siger altid, at han har travlt.');
+  });
+
+  it('ends a question with a question mark, with no comma after a fronted hv-word', () => {
+    const ex = exerciseById('ex-hvornaar-kommer-hjem')!;
+    expect(renderSentence(ex, ex.solution)).toBe('Hvornår kommer du hjem?');
+  });
+
 });
 
 describe('the ikke-regel', () => {

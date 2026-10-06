@@ -1,0 +1,185 @@
+[
+  {
+    "id": "wv-go",
+    "da": "At gå, skal, tage, køre eller rejse",
+    "en": "\"To go\": gå, skal, tage, køre or rejse",
+    "statement": "Danish chooses the verb for \"go\" by how you travel: gå on foot, køre in a vehicle, tage + a means of transport, rejse for longer trips, and skal (+ til/hjem) when you just mean you are going somewhere.",
+    "explanation": "Gå means to walk, so only use it when you go on foot (gå en tur, gå hen til bageren). Køre is for any vehicle (køre bil, køre med bussen), and tage takes the transport as its object (tage bussen, tage toget). Rejse is to travel, usually far or for a longer time. When English says \"I'm going to the doctor\" without saying how, Danish normally uses skal with no main verb: Jeg skal til lægen. The typical trap is translating every \"go\" with gå.",
+    "examples": [
+      {
+        "wrong": "Vi går til Spanien på ferie i juli.",
+        "right": "Vi skal til Spanien på ferie i juli.",
+        "note": "You can't walk to Spain; skal + til just says where you are going."
+      },
+      {
+        "wrong": "Jeg kører bussen til arbejde.",
+        "right": "Jeg tager bussen til arbejde.",
+        "note": "Tage + transport; køre bussen means you are the bus driver."
+      },
+      {
+        "right": "Hun kører på arbejde i bil, men hendes mand går.",
+        "note": "Køre = by vehicle, gå = on foot."
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "wv-change",
+    "da": "Lave om, ændre, forandre, bytte, skifte eller veksle",
+    "en": "\"To change\": lave om, ændre, forandre, bytte, skifte or veksle",
+    "statement": "Ændre and lave om mean to alter something, forandre means a deeper change in character, bytte means to exchange or swap, skifte means to replace one thing with another of the same kind, and veksle is for money.",
+    "explanation": "Ændre (and the more informal lave … om) is to modify something that stays the same thing: ændre en plan, lave teksten om; ændre sig = to change. Forandre is a bigger change of nature or character, often of people and life: Han har forandret sig. Bytte is to give one thing and get another back (bytte bukser i butikken, bytte med en ven), while skifte is to swap one thing for a new one of the same kind: skifte job, skifte tøj, skifte tog, skifte dæk. Veksle is only for money (veksle kroner til euro, veksle en seddel). The trap is using one English \"change\" for all of them.",
+    "examples": [
+      {
+        "wrong": "Jeg vil bytte 500 kroner til euro.",
+        "right": "Jeg vil veksle 500 kroner til euro.",
+        "note": "Money is vekslet."
+      },
+      {
+        "wrong": "Du skal bytte tog i Roskilde.",
+        "right": "Du skal skifte tog i Roskilde.",
+        "note": "Skifte = replace with another of the same kind."
+      },
+      {
+        "right": "Kan jeg bytte skjorten til en større størrelse?",
+        "note": "Bytte = exchange (e.g. goods in a shop)."
+      },
+      {
+        "right": "Vi må lave planen om.",
+        "note": "Lave … om: the particle om comes after the object."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "wv-make",
+    "da": "At gøre eller lave",
+    "en": "\"To make/do\": gøre or lave",
+    "statement": "Lave means to make, produce or work on something concrete; gøre means to do in a general sense, replaces another verb, and is used in fixed phrases such as gøre rent, gøre ondt and gøre + adjective.",
+    "explanation": "Use lave when something is made, cooked, repaired or worked on: lave mad, lave kaffe, lave lektier, lave en plan. Also \"Hvad laver du?\" = what are you doing / what is your job. Use gøre for the abstract \"do\", as a stand-in for another verb (Det gør jeg også), and in fixed phrases: gøre rent, gøre ondt, gøre godt, gøre en indsats, gøre nogen glad. The trap is choosing by the English verb: \"make someone happy\" is gøre, while \"do homework\" is lave.",
+    "examples": [
+      {
+        "wrong": "Jeg gør mad hver aften.",
+        "right": "Jeg laver mad hver aften.",
+        "note": "Cooking = lave mad."
+      },
+      {
+        "wrong": "Det laver ondt i min arm.",
+        "right": "Det gør ondt i min arm.",
+        "note": "Fixed phrase: gøre ondt."
+      },
+      {
+        "right": "Gaven gjorde hende glad.",
+        "note": "Gøre + adjective = make someone/something …"
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "wv-know",
+    "da": "At vide eller kende",
+    "en": "\"To know\": vide or kende",
+    "statement": "Vide is to know a fact or information (often followed by at, om or a question word); kende is to know a person, place or thing because you are familiar with it.",
+    "explanation": "If what you know could be said as a sentence (that…, whether…, where…, what…), use vide: Jeg ved, at…, Ved du, hvor…? If you know a person, a place, a song or a word because you have met or used it, use kende: Jeg kender hende, Jeg kender København. Kende til means to know about something. Remember the forms: vide – ved – vidste – vidst, kende – kender – kendte – kendt. The trap is \"Kender du, hvor…?\" – a question word after the verb always needs vide.",
+    "examples": [
+      {
+        "wrong": "Kender du, hvor stationen ligger?",
+        "right": "Ved du, hvor stationen ligger?",
+        "note": "Information (a hv-clause) = vide."
+      },
+      {
+        "wrong": "Jeg ved ikke hendes mand.",
+        "right": "Jeg kender ikke hendes mand.",
+        "note": "A person = kende."
+      },
+      {
+        "right": "Han vidste ikke, at butikken var lukket.",
+        "note": "Vide, at … = know a fact."
+      }
+    ],
+    "level": 1
+  },
+  {
+    "id": "wv-need",
+    "da": "Behøver, er nødt til, har brug for, skal bruge eller trænger til",
+    "en": "\"To need\": behøver, er nødt til, har brug for, skal bruge or trænger til",
+    "statement": "Er nødt til at = must/have to; behøver is mostly used in negatives and questions (du behøver ikke …); har brug for = need something in general; skal bruge = need something for a specific task; trænger til = something is badly needed because of a condition (tiredness, wear).",
+    "explanation": "If you are forced to do something, use er nødt til at + infinitive: Jeg er nødt til at gå. For \"don't need to\" use behøver ikke, usually with a bare infinitive: Du behøver ikke komme (er nødt til always needs at). Har brug for is a general need, often for help, support or a feeling (Hun har brug for at tale med nogen). Skal bruge is a practical need right now for a task or recipe: Jeg skal bruge tre æg. Trænger til says that something is lacking or worn out: Du trænger til en ferie, Huset trænger til at blive malet. Traps: er nødt til always needs at + verb, skal bruge never takes at + verb, and in positive sentences about obligation Danish prefers er nødt til to behøver.",
+    "examples": [
+      {
+        "wrong": "Jeg skal bruge at sove mere.",
+        "right": "Jeg har brug for at sove mere.",
+        "note": "Skal bruge only takes a thing (a noun), never at + verb."
+      },
+      {
+        "right": "Jeg er nødt til at gå nu, ellers kommer jeg for sent.",
+        "note": "Positive obligation = er nødt til at (positive behøver at is possible but much less idiomatic)."
+      },
+      {
+        "right": "Du behøver ikke vente på mig.",
+        "note": "Negative: behøver ikke + infinitive."
+      },
+      {
+        "right": "Jeg skal bruge en skruetrækker til at samle reolen.",
+        "note": "A concrete need for a task."
+      },
+      {
+        "right": "Bilen trænger til at blive vasket.",
+        "note": "Something is in a bad state."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "wv-say",
+    "da": "At sige eller fortælle",
+    "en": "\"To say/tell\": sige or fortælle",
+    "statement": "Sige is to say words (sige noget, sige ja, sige til nogen); fortælle is to tell or narrate (fortælle en historie, fortælle om noget, fortælle nogen noget).",
+    "explanation": "Use sige for the words themselves: quoted speech, greetings and short answers (sige goddag, sige tak, sige nej), and sige til + person. Use fortælle when you pass on a story or information, especially with om (fortælle om sin ferie) or with a person directly after the verb (fortælle sine forældre sandheden). Fortælle goes with historier, vittigheder and eventyr. The trap is \"tell someone\": Danish normally says fortælle nogen noget or sige noget til nogen, and fortælle nogen om noget – sige can't be followed by a person + om.",
+    "examples": [
+      {
+        "wrong": "Han sagde en sjov historie.",
+        "right": "Han fortalte en sjov historie.",
+        "note": "Stories and jokes are fortalt."
+      },
+      {
+        "wrong": "Hun fortalte goddag til alle.",
+        "right": "Hun sagde goddag til alle.",
+        "note": "Greetings and words = sige."
+      },
+      {
+        "right": "Kan du fortælle os om din rejse?",
+        "note": "Fortælle (nogen) om noget."
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "wv-think",
+    "da": "At tænke, tro, synes eller mene",
+    "en": "\"To think\": tænke, tro, synes or mene",
+    "statement": "Tænke is the mental activity (tænke på, tænke over); tro is to believe or guess when you are not sure; synes is a personal opinion based on your own experience or taste; mene is a considered opinion on an issue, and also \"to mean\".",
+    "explanation": "Tænke is what your brain does: Jeg tænker på dig, Jeg skal tænke over det. Tro is for facts you are unsure of (Jeg tror, toget kører kl. 10) and for belief (tro på spøgelser). Synes is for what you feel or experience yourself – food, weather, people, films (Jeg synes, suppen er god); you can't synes a fact you haven't checked. Mene is for a position on an issue, especially by parties, organisations or experts, and it also means \"mean\" (Hvad mener du med det?). Traps: synes vs tro – use tro when you are guessing a fact; synes vs mene – synes for personal taste, mene for a standpoint; tro vs mene – tro is uncertain, mene is a stated view.",
+    "examples": [
+      {
+        "wrong": "Jeg synes, bussen kommer klokken otte.",
+        "right": "Jeg tror, bussen kommer klokken otte.",
+        "note": "An unsure fact = tro."
+      },
+      {
+        "wrong": "Jeg tænker, kaffen er for stærk.",
+        "right": "Jeg synes, kaffen er for stærk.",
+        "note": "Your own taste = synes."
+      },
+      {
+        "right": "Fagforeningen mener, at lønnen skal stige.",
+        "note": "A standpoint on an issue = mene."
+      },
+      {
+        "right": "Hvad mener du med det?",
+        "note": "Mene also means \"to mean\"."
+      }
+    ],
+    "level": 3
+  }
+]

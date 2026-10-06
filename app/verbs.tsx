@@ -70,7 +70,7 @@ export default function Verbs() {
     >
       <View>
         <Txt variant="display" style={{ fontSize: 26 }}>
-          Verb tenses
+          Verb forms
         </Txt>
         <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
           {summary.solid} of {summary.total} rules solid. Weak verbs take a suffix; strong verbs

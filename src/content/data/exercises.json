@@ -5035,5 +5035,1101 @@
     ],
     "takeaway": "Manner (\"ens\"), place (\"i hele kommunen\"), time (\"fremover\").",
     "reviewed": false
+  },
+  {
+    "id": "ex-at-ikke-festen",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(He says) that he is not coming to the party.",
+    "sentence": "k:at | n:han | a:ikke | v:kommer | A:til festen",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "After \"Han siger\" the at-clause is subordinate, so \"ikke\" goes before the verb: \"at han ikke kommer\", never \"at han kommer ikke\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-at-altid-loerdag",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(She says) that she always works on Saturdays.",
+    "sentence": "k:at | n:hun | a:altid | v:arbejder | A:om lørdagen",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "Reported speech keeps subordinate order: \"altid\" sits before \"arbejder\", just as \"ikke\" would.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-at-gerne-hjaelpe-os",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(They say) that they would be glad to help us.",
+    "sentence": "k:at | n:de | a:gerne | v:vil | V:hjælpe | N:os",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Compare the main clause \"De vil gerne hjælpe os\" — after \"at\", \"gerne\" moves in front of the finite verb \"vil\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-at-ikke-modtaget-brevet",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(She writes) that she has not received the letter.",
+    "sentence": "k:at | n:hun | a:ikke | v:har | V:modtaget | N:brevet",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "In an at-clause \"ikke\" comes before the finite verb \"har\", and the participle \"modtaget\" still follows it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-at-aldrig-sverige",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(He tells me) that he has never been to Sweden.",
+    "sentence": "k:at | n:han | a:aldrig | v:har | V:været | A:i Sverige",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Main clause: \"Han har aldrig været i Sverige\". Reported with \"at\": \"at han aldrig har været\" — the adverb jumps the finite verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-at-ogsaa-aarhus",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "(He explains) that his wife also wants to move to Aarhus.",
+    "sentence": "k:at | n:hans kone | a:også | v:vil | V:flytte | A:til Aarhus",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"også\" behaves exactly like \"ikke\": in the at-clause it stands between the subject and the finite verb \"vil\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-at-desvaerre-aflyst",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "(The boss writes) that the meeting has unfortunately been cancelled.",
+    "sentence": "k:at | n:mødet | a:desværre | v:er | V:blevet | V:aflyst",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"desværre\" is a sentence adverb, so in reported speech it precedes the finite \"er\"; \"blevet aflyst\" waits in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-at-nok-ikke-naa",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "(We tell the customer) that we probably cannot make it today.",
+    "sentence": "k:at | n:vi | a:nok | a:ikke | v:kan | V:nå | N:det | A:i dag",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Two central adverbs, \"nok ikke\", travel together and both go before the finite verb \"kan\" in the at-clause.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-at-ikke-laengere-huslejen",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "(The tenant writes) that he can no longer pay the rent.",
+    "sentence": "k:at | n:han | a:ikke | a:længere | v:kan | V:betale | N:huslejen",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"ikke længere\" is a central adverbial pair; in the at-clause it lands before \"kan\" — \"at han ikke længere kan betale\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-at-heller-ikke-kommunen",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "(She writes) that she has not received an answer from the municipality either.",
+    "sentence": "k:at | n:hun | a:heller ikke | v:har | V:fået | N:svar | A:fra kommunen",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Negated \"også\" is \"heller ikke\", and in an at-clause it comes before the finite verb \"har\", like \"ikke\" alone.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-om-ogsaa-kan-komme",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(She asks) whether we can come too.",
+    "sentence": "k:om | n:vi | a:også | v:kan | V:komme",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "A reported yes/no question opens with \"om\" (never \"hvis\"), and then has subordinate order: subject, adverb, finite verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-om-stadig-koebenhavn",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(He asks) whether she still lives in Copenhagen.",
+    "sentence": "k:om | n:hun | a:stadig | v:bor | A:i København",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "The direct question is \"Bor hun stadig i København?\" — reported with \"om\", the subject comes first and \"stadig\" moves before \"bor\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-om-allerede-spist",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(Mum asks) whether the children have already eaten.",
+    "sentence": "k:om | n:børnene | a:allerede | v:har | V:spist",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "No inversion in a reported question: \"om børnene allerede har spist\", not \"om har børnene spist\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-om-gerne-hjaelpe-mig",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(I ask) whether you would like to help me tomorrow.",
+    "sentence": "k:om | n:du | a:gerne | v:vil | V:hjælpe | N:mig | A:i morgen",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Vil du gerne hjælpe mig?\" becomes \"om du gerne vil hjælpe mig\" — subject first, then \"gerne\", then the finite verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-om-nogensinde-norge",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "(She asks) whether I have ever been to Norway.",
+    "sentence": "k:om | n:jeg | a:nogensinde | v:har | V:været | A:i Norge",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"nogensinde\" is a central adverb, so after \"om\" it precedes the finite verb \"har\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-om-ogsaa-transport",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "(I would like to know) whether the municipality also covers transport costs.",
+    "sentence": "k:om | n:kommunen | a:også | v:dækker | N:udgifterne til transport",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "In a formal enquiry the om-clause still follows the ledsætning schema: \"om kommunen også dækker…\", adverb before verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-om-muligvis-naeste-uge",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "(I am writing to ask) whether we could possibly move the meeting to next week.",
+    "sentence": "k:om | n:vi | a:muligvis | v:kan | V:flytte | N:mødet | A:til næste uge",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "A polite request in an email is often an om-clause: \"om vi muligvis kan flytte mødet\" — \"muligvis\" before \"kan\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-om-faktisk-boligstoette",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "(I would like to know) whether I am actually entitled to housing benefit.",
+    "sentence": "k:om | n:jeg | a:faktisk | v:har | N:ret til boligstøtte",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "\"faktisk\" is a sentence adverb: inside the om-clause it goes before the finite verb \"har\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvorfor-ikke-kom-igaar",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(She asks) why he did not come yesterday.",
+    "sentence": "k:hvorfor | n:han | a:ikke | v:kom | A:i går",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "Direct: \"Hvorfor kom han ikke?\" Reported: \"hvorfor han ikke kom\" — subject before the verb, \"ikke\" before the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvornaar-egentlig-toget",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(Do you know) when the train actually leaves?",
+    "sentence": "k:hvornår | n:toget | a:egentlig | v:kører",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "A hv-word that opens a reported question works like \"at\" or \"om\": subject, then the adverb, then the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvor-altid-parkerer",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(I wonder) where he always parks his car.",
+    "sentence": "k:hvor | n:han | a:altid | v:parkerer | N:sin bil",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "\"Hvor parkerer han altid?\" becomes \"hvor han altid parkerer\" once it is reported — no inversion, adverb first.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvad-egentlig-weekenden",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(I wonder) what she actually does at the weekend.",
+    "sentence": "k:hvad | n:hun | a:egentlig | v:laver | A:i weekenden",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "In the reported question \"hvad\" opens the clause and the subject follows straight after it: \"hvad hun egentlig laver\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvorfor-aldrig-beskeder",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(I want to know) why you never answer my messages.",
+    "sentence": "k:hvorfor | n:du | a:aldrig | v:svarer | A:på mine beskeder",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "\"aldrig\" goes before \"svarer\" inside the hvorfor-clause, the mirror of the direct question \"Hvorfor svarer du aldrig?\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvad-ikke-forstaar",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(Tell me) what you do not understand.",
+    "sentence": "k:hvad | n:du | a:ikke | v:forstår",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "A reported hvad-question is a ledsætning: \"hvad du ikke forstår\", with \"ikke\" before the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvor-ikke-ryge",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(The sign shows) where you may not smoke.",
+    "sentence": "k:hvor | n:man | a:ikke | v:må | V:ryge",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "After \"hvor\", \"ikke\" precedes the finite modal \"må\", and the infinitive \"ryge\" follows.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvornaar-endelig-kurset",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "(I ask) when I can finally start the course.",
+    "sentence": "k:hvornår | n:jeg | a:endelig | v:kan | V:begynde | A:på kurset",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"endelig\" is a central adverb, so in the hvornår-clause it sits between \"jeg\" and \"kan\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvem-der-ikke-moedet",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "(Tell me) who is not coming to the meeting.",
+    "sentence": "k:hvem | n:der | a:ikke | v:kommer | A:til mødet",
+    "targets": [
+      "ikke-regel",
+      "subject-required"
+    ],
+    "takeaway": "When the hv-word is itself the subject of a reported question, Danish adds \"der\" in the subject slot: \"hvem der ikke kommer\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvorfor-endnu-ansoegning",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "(I would like to know) why I have not yet received a reply to my application.",
+    "sentence": "k:hvorfor | n:jeg | a:endnu | a:ikke | v:har | V:fået | N:svar | A:på min ansøgning",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "A classic complaint-letter clause: \"endnu ikke\" before the finite \"har\", the participle \"fået\" after it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvornaar-sandsynligvis-afgoerelse",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "(Please tell me) when the municipality is likely to reach a decision.",
+    "sentence": "k:hvornår | n:kommunen | a:sandsynligvis | v:vil | V:træffe | N:en afgørelse",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"sandsynligvis\" is a sentence adverb, so in the reported question it precedes the finite \"vil\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvornaar-kommer-hjem",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "When are you coming home?",
+    "sentence": "F:hvornår | v:kommer | n:du | A:hjem",
+    "targets": [
+      "finit-verb-second",
+      "v2-inversion"
+    ],
+    "takeaway": "The question word fills the Forfelt, so the verb comes second and the subject follows it: \"Hvornår kommer du…?\"",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvad-laver-aften",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "What are you doing this evening?",
+    "sentence": "F:hvad | v:laver | n:du | A:i aften",
+    "targets": [
+      "finit-verb-second",
+      "v2-inversion"
+    ],
+    "takeaway": "\"Hvad\" takes the front slot; the verb \"laver\" stays second and pushes \"du\" behind it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvor-bor-bror",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Where does your brother live?",
+    "sentence": "F:hvor | v:bor | n:din bror",
+    "targets": [
+      "finit-verb-second",
+      "v2-inversion"
+    ],
+    "takeaway": "No \"do\" in Danish questions: the verb itself goes second, right after the question word.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvorfor-ikke-fisk",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Why don’t you eat fish?",
+    "sentence": "F:hvorfor | v:spiser | n:du | a:ikke | N:fisk",
+    "targets": [
+      "v2-inversion",
+      "finit-verb-second"
+    ],
+    "takeaway": "In a direct question the main-clause schema applies: verb second, then the subject, then \"ikke\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvornaar-kan-moedes",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "When can we meet?",
+    "sentence": "F:hvornår | v:kan | n:vi | V:mødes",
+    "targets": [
+      "v2-inversion",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Only the finite \"kan\" is in slot 2; \"mødes\" waits at the end in V.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvad-ikke-forstaaet",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "What have you not understood?",
+    "sentence": "F:hvad | v:har | n:du | a:ikke | V:forstået",
+    "targets": [
+      "v2-inversion",
+      "verb-cluster-order"
+    ],
+    "takeaway": "A direct question keeps main-clause order: \"har du ikke forstået\". Compare the reported \"hvad du ikke har forstået\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvor-laenge-boet",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "How long have you lived in Denmark?",
+    "sentence": "F:hvor længe | v:har | n:du | V:boet | A:i Danmark",
+    "targets": [
+      "v2-inversion",
+      "forfelt-single",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Hvor længe\" is two words but one constituent — it fills the Forfelt alone, and \"har\" follows it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvorfor-aldrig-klage",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "Why have you never replied to my complaint?",
+    "sentence": "F:hvorfor | v:har | n:I | a:aldrig | V:svaret | A:på min klage",
+    "targets": [
+      "v2-inversion",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Main-clause question: \"har I aldrig svaret\" — the adverb follows the subject here, unlike in a reported question.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvis-regner-hjemme",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "If it rains, we will stay at home.",
+    "sentence": "F:hvis det regner | v:bliver | n:vi | A:hjemme",
+    "alternatives": [
+      "F:vi | v:bliver | A:hjemme | A:hvis det regner"
+    ],
+    "targets": [
+      "v2-inversion",
+      "forfelt-single"
+    ],
+    "takeaway": "A whole hvis-clause can fill the Forfelt. It counts as one constituent, so the verb comes next and the subject follows it: \"bliver vi\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvis-tid-ringer",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "If I have time, I will call you.",
+    "sentence": "F:hvis jeg har tid | v:ringer | n:jeg | A:til dig",
+    "alternatives": [
+      "F:jeg | v:ringer | A:til dig | A:hvis jeg har tid"
+    ],
+    "targets": [
+      "v2-inversion",
+      "forfelt-single"
+    ],
+    "takeaway": "Fronted hvis-clause, then verb, then subject: \"Hvis jeg har tid, ringer jeg\". Start with \"jeg\" and the clause goes to the end.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvis-syg-arbejde",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "If you are ill, you should not go to work.",
+    "sentence": "F:hvis du er syg | v:skal | n:du | a:ikke | V:gå | A:på arbejde",
+    "alternatives": [
+      "F:du | v:skal | a:ikke | V:gå | A:på arbejde | A:hvis du er syg"
+    ],
+    "targets": [
+      "v2-inversion",
+      "verb-cluster-order"
+    ],
+    "takeaway": "After the fronted hvis-clause the main clause is inverted — \"skal du ikke gå\" — with \"ikke\" after the subject, as in any main clause.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvis-bussen-forsinket",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "If the bus is delayed, I will be late.",
+    "sentence": "F:hvis bussen er forsinket | v:kommer | n:jeg | A:for sent",
+    "alternatives": [
+      "F:jeg | v:kommer | A:for sent | A:hvis bussen er forsinket"
+    ],
+    "targets": [
+      "v2-inversion",
+      "forfelt-single"
+    ],
+    "takeaway": "However long the hvis-clause is, it is one Forfelt constituent — the next thing must be the verb \"kommer\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvis-spoergsmaal-kontakte",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "If you have any questions, you are always welcome to contact me.",
+    "sentence": "F:hvis du har spørgsmål | v:kan | n:du | a:altid | V:kontakte | N:mig",
+    "alternatives": [
+      "F:du | v:kan | a:altid | V:kontakte | N:mig | A:hvis du har spørgsmål"
+    ],
+    "targets": [
+      "v2-inversion",
+      "verb-cluster-order"
+    ],
+    "takeaway": "A standard email closing: \"Hvis du har spørgsmål, kan du altid kontakte mig\" — verb, subject, then \"altid\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvis-svar-fredag-klage",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "If I do not get an answer by Friday, I will send a complaint to the department.",
+    "sentence": "F:hvis jeg ikke får svar inden fredag | v:vil | n:jeg | V:sende | N:en klage | A:til forvaltningen",
+    "alternatives": [
+      "F:jeg | v:vil | V:sende | N:en klage | A:til forvaltningen | A:hvis jeg ikke får svar inden fredag"
+    ],
+    "targets": [
+      "v2-inversion",
+      "forfelt-single",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Two rules in one sentence: \"ikke\" before \"får\" inside the hvis-clause, then inversion — \"vil jeg\" — once that clause is fronted.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvis-ikke-regner-imorgen",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(We are going to the beach) if it does not rain tomorrow.",
+    "sentence": "k:hvis | n:det | a:ikke | v:regner | A:i morgen",
+    "targets": [
+      "ikke-regel",
+      "subject-required"
+    ],
+    "takeaway": "At the end of the sentence the hvis-clause has its own subordinate order: \"hvis det ikke regner\" — and the dummy subject \"det\" stays.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvis-gerne-deltage",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(Sign up by Friday) if you would like to take part.",
+    "sentence": "k:hvis | n:I | a:gerne | v:vil | V:deltage",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"gerne\" goes before the finite verb inside a hvis-clause: \"hvis I gerne vil deltage\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-hvis-aldrig-svar-kommunen",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "(What do you do) if you never get an answer from the municipality?",
+    "sentence": "k:hvis | n:man | a:aldrig | v:får | N:svar | A:fra kommunen",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "\"aldrig\" sits before \"får\" in the hvis-clause — the same slot \"ikke\" would take.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-saa-gik-hjem",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Then we went home.",
+    "sentence": "F:så | v:gik | n:vi | A:hjem",
+    "alternatives": [
+      "F:vi | v:gik | a:så | A:hjem"
+    ],
+    "targets": [
+      "v2-inversion",
+      "finit-verb-second"
+    ],
+    "takeaway": "Fronted \"så\" (then) is an ordinary adverb in the Forfelt, so the verb comes second: \"Så gik vi\", never \"Så vi gik\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-saa-spiser-aftensmad",
+    "level": 1,
+    "exams": [
+      "PD1",
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Then we eat dinner.",
+    "sentence": "F:så | v:spiser | n:vi | N:aftensmad",
+    "alternatives": [
+      "F:vi | v:spiser | a:så | N:aftensmad"
+    ],
+    "targets": [
+      "v2-inversion",
+      "finit-verb-second"
+    ],
+    "takeaway": "Starting with \"så\" triggers inversion just like \"i dag\" or \"derfor\": verb, then subject.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-saa-kan-ikke-komme",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Then I can’t come.",
+    "sentence": "F:så | v:kan | n:jeg | a:ikke | V:komme",
+    "alternatives": [
+      "F:jeg | v:kan | a:så | a:ikke | V:komme"
+    ],
+    "targets": [
+      "v2-inversion",
+      "verb-cluster-order"
+    ],
+    "takeaway": "\"Så\" in front means \"in that case\": the verb \"kan\" stays second, the subject follows, then \"ikke\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-saa-bussen-byen",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Then she took the bus into town.",
+    "sentence": "F:så | v:tog | n:hun | N:bussen | A:ind til byen",
+    "alternatives": [
+      "F:hun | v:tog | a:så | N:bussen | A:ind til byen"
+    ],
+    "targets": [
+      "v2-inversion",
+      "finit-verb-second"
+    ],
+    "takeaway": "Telling a story in steps? Each fronted \"så\" pushes the subject behind the verb: \"Så tog hun bussen\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-saa-vente-imorgen",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "Then we will have to wait until tomorrow.",
+    "sentence": "F:så | v:må | n:vi | V:vente | A:til i morgen",
+    "alternatives": [
+      "F:vi | v:må | a:så | V:vente | A:til i morgen"
+    ],
+    "targets": [
+      "v2-inversion",
+      "verb-cluster-order"
+    ],
+    "takeaway": "Fronted \"så\" takes the Forfelt; \"må\" stays in slot 2 and \"vi\" follows it.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-saa-hjemme-ugen",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "So I stayed at home all week.",
+    "sentence": "F:så | v:blev | n:jeg | A:hjemme | A:hele ugen",
+    "alternatives": [
+      "F:jeg | v:blev | a:så | A:hjemme | A:hele ugen"
+    ],
+    "targets": [
+      "v2-inversion",
+      "adverbial-order"
+    ],
+    "takeaway": "As a new sentence, \"Så\" (so, therefore) is fronted and inverts: \"Så blev jeg hjemme\" — then place before time.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-saa-ikke-glemmer",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(I write it down) so that I don’t forget it.",
+    "sentence": "k:så | n:jeg | a:ikke | v:glemmer | N:det",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "\"Så\" meaning \"so that\" opens a subordinate clause, so \"ikke\" comes before the verb: \"så jeg ikke glemmer det\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-saa-ikke-for-sent",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "(Let’s leave now) so that we are not late.",
+    "sentence": "k:så | n:vi | a:ikke | v:kommer | A:for sent",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "A purpose clause with \"så\": subject, \"ikke\", then the verb — the ledsætning schema, not the main-clause one.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-saa-altid-kontakt",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "(We have extended our opening hours) so that customers can always get in touch with us.",
+    "sentence": "k:så | n:kunderne | a:altid | v:kan | V:komme | A:i kontakt med os",
+    "targets": [
+      "ikke-regel",
+      "verb-cluster-order"
+    ],
+    "takeaway": "In a \"so that\" clause \"altid\" goes before the finite \"kan\", exactly as \"ikke\" would.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-saa-ikke-dagpenge",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "(Remember to register in time) so that you do not lose your right to unemployment benefit.",
+    "sentence": "k:så | n:De | a:ikke | v:mister | N:Deres ret til dagpenge",
+    "targets": [
+      "ikke-regel"
+    ],
+    "takeaway": "Purpose \"så\" is subordinate: \"så De ikke mister…\". Main-clause order here would read as \"so (as a result) you don’t lose\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-kommer-ikke-fordi-syg",
+    "level": 2,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "She is not coming today because she is ill.",
+    "sentence": "F:hun | v:kommer | a:ikke | A:i dag | A:fordi hun er syg",
+    "alternatives": [
+      "F:fordi hun er syg | v:kommer | n:hun | a:ikke | A:i dag",
+      "F:i dag | v:kommer | n:hun | a:ikke | A:fordi hun er syg"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "v2-inversion"
+    ],
+    "takeaway": "The fordi-clause is one content adverbial: it goes at the end, or in the Forfelt — and then the main clause inverts.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-ringer-altid-naar-syg",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "I always call my mother when I am ill.",
+    "sentence": "F:jeg | v:ringer | a:altid | A:til min mor | A:når jeg er syg",
+    "alternatives": [
+      "F:når jeg er syg | v:ringer | n:jeg | a:altid | A:til min mor"
+    ],
+    "targets": [
+      "central-vs-content-adverbial",
+      "v2-inversion"
+    ],
+    "takeaway": "\"altid\" belongs in the central slot of the main clause; the når-clause is a content adverbial at the end — or fronted, with inversion.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-siger-altid-travlt",
+    "level": 3,
+    "exams": [
+      "PD2",
+      "PD3",
+      "FVU"
+    ],
+    "gloss": "He always says that he is busy.",
+    "sentence": "F:han | v:siger | a:altid | N:at han har travlt",
+    "targets": [
+      "central-vs-content-adverbial",
+      "finit-verb-second"
+    ],
+    "takeaway": "The at-clause is the object of \"siger\" and comes last; the main clause’s own \"altid\" stays right after the verb.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-vil-gerne-vide-orlov",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "I would like to know whether I can take leave.",
+    "sentence": "F:jeg | v:vil | a:gerne | V:vide | N:om jeg kan få orlov",
+    "targets": [
+      "verb-cluster-order",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "\"Jeg vil gerne vide\" is an ordinary main clause; the om-clause is simply its object, placed in N.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-spurgte-ogsaa-laereren",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "She also asked the teacher when the course starts.",
+    "sentence": "F:hun | v:spurgte | a:også | N:læreren | N:hvornår kurset begynder",
+    "targets": [
+      "object-order",
+      "central-vs-content-adverbial"
+    ],
+    "takeaway": "Two objects: the person asked (\"læreren\") first, then the reported question. \"også\" stays in the central slot.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-naar-naboerne-sove",
+    "level": 4,
+    "exams": [
+      "PD2",
+      "PD3"
+    ],
+    "gloss": "When the neighbours have a party, I can never sleep.",
+    "sentence": "F:når naboerne fester | v:kan | n:jeg | a:aldrig | V:sove",
+    "alternatives": [
+      "F:jeg | v:kan | a:aldrig | V:sove | A:når naboerne fester"
+    ],
+    "targets": [
+      "v2-inversion",
+      "verb-cluster-order"
+    ],
+    "takeaway": "A fronted når-clause fills the Forfelt, so \"kan\" comes next, then \"jeg\", then \"aldrig\" — main-clause order.",
+    "reviewed": false
+  },
+  {
+    "id": "ex-selvom-skrevet-svaret",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "Although I have written several times, the municipality still has not replied.",
+    "sentence": "F:selvom jeg har skrevet flere gange | v:har | n:kommunen | a:stadig | a:ikke | V:svaret",
+    "alternatives": [
+      "F:kommunen | v:har | a:stadig | a:ikke | V:svaret | A:selvom jeg har skrevet flere gange"
+    ],
+    "targets": [
+      "v2-inversion",
+      "forfelt-single",
+      "verb-cluster-order"
+    ],
+    "takeaway": "A fronted selvom-clause is one constituent; the main clause then inverts: \"har kommunen stadig ikke svaret\".",
+    "reviewed": false
+  },
+  {
+    "id": "ex-mener-ikke-forslaget",
+    "level": 5,
+    "exams": [
+      "PD3"
+    ],
+    "gloss": "I do not think that the proposal solves the problem.",
+    "sentence": "F:jeg | v:mener | a:ikke | N:at forslaget løser problemet",
+    "targets": [
+      "central-vs-content-adverbial",
+      "finit-verb-second"
+    ],
+    "takeaway": "In an opinion text the negation belongs to \"mener\": \"Jeg mener ikke, at…\" — \"ikke\" after the main verb, the at-clause last.",
+    "reviewed": false
   }
 ]

@@ -1,0 +1,2312 @@
+[
+  {
+    "id": "wv-go-01",
+    "level": 1,
+    "ruleId": "wv-go",
+    "prompt": "Vi har ingen bil, og supermarkedet ligger kun 200 meter væk, så vi ___ altid derhen.",
+    "options": [
+      "går",
+      "kører",
+      "rejser"
+    ],
+    "answer": "går",
+    "explanation": "It is only 200 metres and they have no car, so they go on foot: gå. Køre needs a vehicle.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-02",
+    "level": 1,
+    "ruleId": "wv-go",
+    "prompt": "Min mand ___ på arbejde i bil hver dag.",
+    "options": [
+      "kører",
+      "går",
+      "rejser"
+    ],
+    "answer": "kører",
+    "explanation": "\"I bil\" tells you he travels by car, and vehicles take køre.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-03",
+    "level": 1,
+    "ruleId": "wv-go",
+    "prompt": "Jeg ___ bussen til skole, fordi det regner.",
+    "options": [
+      "tager",
+      "kører",
+      "går"
+    ],
+    "answer": "tager",
+    "explanation": "With the transport as the object (bussen) Danish uses tage. Køre bussen would mean that you drive the bus.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-04",
+    "level": 2,
+    "ruleId": "wv-go",
+    "prompt": "Næste sommer ___ vi til Thailand i tre uger.",
+    "options": [
+      "rejser",
+      "går",
+      "kører"
+    ],
+    "answer": "rejser",
+    "explanation": "A long trip abroad is rejse. You can't walk or drive to Thailand from Denmark.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-05",
+    "level": 2,
+    "ruleId": "wv-go",
+    "prompt": "Mine forældre ___ til Paris i weekenden, så vi passer deres hund.",
+    "options": [
+      "skal",
+      "går"
+    ],
+    "answer": "skal",
+    "explanation": "Skal + til just says where someone is going. Gå would mean they walk all the way to Paris.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-06",
+    "level": 2,
+    "ruleId": "wv-go",
+    "prompt": "Jeg ___ til Aarhus i morgen, men jeg ved endnu ikke, om jeg tager toget eller flyver.",
+    "options": [
+      "skal",
+      "kører",
+      "går"
+    ],
+    "answer": "skal",
+    "explanation": "You don't know yet how you will travel (train or plane), so you can't choose køre or gå. Skal til Aarhus only gives the destination.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-07",
+    "level": 1,
+    "ruleId": "wv-go",
+    "prompt": "Hunden skal ud, så jeg ___ en tur rundt om søen.",
+    "options": [
+      "går",
+      "kører",
+      "rejser"
+    ],
+    "answer": "går",
+    "explanation": "Taking the dog for a walk is gå en tur, on foot.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-08",
+    "level": 2,
+    "ruleId": "wv-go",
+    "prompt": "Hvordan kommer du til lufthavnen? – Jeg ___ en taxa.",
+    "options": [
+      "tager",
+      "kører",
+      "går"
+    ],
+    "answer": "tager",
+    "explanation": "Tage + a means of transport: tage en taxa. Køre en taxa would mean you are the taxi driver.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-09",
+    "level": 2,
+    "ruleId": "wv-go",
+    "prompt": "Min datter ___ til Australien efter gymnasiet og bliver væk et helt år.",
+    "options": [
+      "rejser",
+      "kører",
+      "går"
+    ],
+    "answer": "rejser",
+    "explanation": "A long journey far away is rejse. You can't drive or walk to Australia.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-10",
+    "level": 1,
+    "ruleId": "wv-go",
+    "prompt": "Min lille søn er kun ti måneder og kan ikke ___ endnu.",
+    "options": [
+      "gå",
+      "køre",
+      "rejse"
+    ],
+    "answer": "gå",
+    "explanation": "A baby learning to walk: gå means to walk on your own legs.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-11",
+    "level": 2,
+    "ruleId": "wv-go",
+    "prompt": "Hun har ikke kørekort, så hun kan ikke ___ bil.",
+    "options": [
+      "køre",
+      "gå",
+      "tage"
+    ],
+    "answer": "køre",
+    "explanation": "To drive a car is køre bil; kørekort (driving licence) is the clue.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-12",
+    "level": 2,
+    "ruleId": "wv-go",
+    "prompt": "Kan du ___ mig hjem efter festen? Min cykel er punkteret.",
+    "options": [
+      "køre",
+      "gå",
+      "rejse"
+    ],
+    "answer": "køre",
+    "explanation": "Køre nogen hjem = drive someone home. You can't \"gå\" or \"rejse\" another person somewhere.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-13",
+    "level": 3,
+    "ruleId": "wv-go",
+    "prompt": "Som sælger ___ han meget i sit arbejde og er ofte i Tyskland og Sverige.",
+    "options": [
+      "rejser",
+      "går",
+      "tager"
+    ],
+    "answer": "rejser",
+    "explanation": "Travelling a lot for work, often abroad, is rejse. Tage would need an object or til + place.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-14",
+    "level": 2,
+    "ruleId": "wv-go",
+    "prompt": "Der er langt til stationen, så jeg ___ med bussen.",
+    "options": [
+      "kører",
+      "går",
+      "rejser"
+    ],
+    "answer": "kører",
+    "explanation": "Køre med bussen = go by bus. You can't gå med bussen, because gå means on foot.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-15",
+    "level": 2,
+    "ruleId": "wv-go",
+    "prompt": "I aften ___ vi i biografen, så vi kan ikke passe børnene.",
+    "options": [
+      "skal",
+      "kører",
+      "rejser"
+    ],
+    "answer": "skal",
+    "explanation": "Skal + place gives a plan for tonight. Kører and rejser don't go with i biografen (you can't drive inside the cinema).",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-16",
+    "level": 1,
+    "ruleId": "wv-go",
+    "prompt": "Jeg bor kun fem minutters gang fra kontoret, så jeg ___ hjem fra arbejde.",
+    "options": [
+      "går",
+      "kører",
+      "rejser"
+    ],
+    "answer": "går",
+    "explanation": "\"Fem minutters gang\" means five minutes on foot, so gå.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-17",
+    "level": 3,
+    "ruleId": "wv-go",
+    "prompt": "Når de går på pension, vil de sælge huset og ___ jorden rundt.",
+    "options": [
+      "rejse",
+      "gå",
+      "tage"
+    ],
+    "answer": "rejse",
+    "explanation": "Travelling around the world is rejse jorden rundt. You can't walk across the oceans, and tage needs an object or til + place.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-18",
+    "level": 2,
+    "ruleId": "wv-go",
+    "prompt": "Skal vi ___ toget eller bilen til sommerhuset?",
+    "options": [
+      "tage",
+      "køre",
+      "gå"
+    ],
+    "answer": "tage",
+    "explanation": "Tage + transport: tage toget / tage bilen. Køre toget would mean driving the train.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-19",
+    "level": 3,
+    "ruleId": "wv-go",
+    "prompt": "Han ___ til Spanien med fly hvert forår for at besøge sin bror.",
+    "options": [
+      "rejser",
+      "kører",
+      "går"
+    ],
+    "answer": "rejser",
+    "explanation": "A trip abroad by plane is rejse. Kører and går contradict \"med fly\".",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-20",
+    "level": 2,
+    "ruleId": "wv-go",
+    "prompt": "Min kone ___ bilen, og jeg sidder ved siden af og læser kortet.",
+    "options": [
+      "kører",
+      "tager",
+      "går"
+    ],
+    "answer": "kører",
+    "explanation": "She is the driver, so køre bilen. Tage bilen only means using the car, not who is driving it.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-21",
+    "level": 3,
+    "ruleId": "wv-go",
+    "prompt": "Jeg er træt af at sidde stille, så jeg ___ lige en tur ned til havnen for at strække benene.",
+    "options": [
+      "går",
+      "kører",
+      "rejser"
+    ],
+    "answer": "går",
+    "explanation": "\"Strække benene\" (stretch your legs) shows that you walk: gå en tur.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-22",
+    "level": 3,
+    "ruleId": "wv-go",
+    "prompt": "Hvis du ___ linje 5A, kommer du direkte til hospitalet.",
+    "options": [
+      "tager",
+      "kører",
+      "rejser"
+    ],
+    "answer": "tager",
+    "explanation": "Tage + a bus line: tage linje 5A. Køre would need med (køre med linje 5A).",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-23",
+    "level": 2,
+    "ruleId": "wv-go",
+    "prompt": "Jeg ___ til lægen klokken to, men jeg ved ikke, om jeg går eller tager bussen.",
+    "options": [
+      "skal",
+      "går",
+      "kører"
+    ],
+    "answer": "skal",
+    "explanation": "How you travel isn't decided, so only skal (til lægen) works. Går or kører would choose the means of transport.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-24",
+    "level": 3,
+    "ruleId": "wv-go",
+    "prompt": "Det er dyrt at ___ med fly, så vi har valgt at tage toget til Italien.",
+    "options": [
+      "rejse",
+      "gå",
+      "køre"
+    ],
+    "answer": "rejse",
+    "explanation": "Rejse med fly = travel by plane. Gå is on foot, and køre is for vehicles on the ground.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-go-25",
+    "level": 1,
+    "ruleId": "wv-go",
+    "prompt": "Jeg ___ elevatoren op til femte sal, for jeg er træt i benene.",
+    "options": [
+      "tager",
+      "kører",
+      "går"
+    ],
+    "answer": "tager",
+    "explanation": "Tage elevatoren = take the lift. Køre would need med, and går means using the stairs.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-01",
+    "level": 1,
+    "ruleId": "wv-change",
+    "prompt": "Jeg vil gerne ___ 500 kroner til euro, før vi rejser.",
+    "options": [
+      "veksle",
+      "skifte",
+      "ændre"
+    ],
+    "answer": "veksle",
+    "explanation": "Changing money into another currency is veksle.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-02",
+    "level": 1,
+    "ruleId": "wv-change",
+    "prompt": "Bukserne er for små. Kan jeg ___ dem til en større størrelse?",
+    "options": [
+      "bytte",
+      "veksle",
+      "forandre"
+    ],
+    "answer": "bytte",
+    "explanation": "Taking goods back to the shop and getting another item instead is bytte (bytte … til en anden størrelse). Veksle is only for money, and forandre is a deep change in character.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-03",
+    "level": 2,
+    "ruleId": "wv-change",
+    "prompt": "Han er træt af sit arbejde og vil gerne ___ job.",
+    "options": [
+      "skifte",
+      "veksle",
+      "ændre"
+    ],
+    "answer": "skifte",
+    "explanation": "Skifte job = get a new job instead of the old one. Ændre would mean altering the job itself, and veksle is for money.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-04",
+    "level": 1,
+    "ruleId": "wv-change",
+    "prompt": "Du er helt våd! Gå op og ___ tøj.",
+    "options": [
+      "skift",
+      "byt",
+      "veksl"
+    ],
+    "answer": "skift",
+    "explanation": "Putting on other clothes is skifte tøj, here in the imperative skift.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-05",
+    "level": 2,
+    "ruleId": "wv-change",
+    "prompt": "Vi må ___ planerne om, fordi det regner.",
+    "options": [
+      "lave",
+      "ændre",
+      "skifte"
+    ],
+    "answer": "lave",
+    "explanation": "The particle om after the object shows the phrasal verb lave … om (= change). Ændre and skifte don't take om.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-06",
+    "level": 2,
+    "ruleId": "wv-change",
+    "prompt": "Regeringen vil ___ loven om dagpenge.",
+    "options": [
+      "ændre",
+      "veksle",
+      "bytte"
+    ],
+    "answer": "ændre",
+    "explanation": "Modifying a law that stays the same law is ændre.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-07",
+    "level": 2,
+    "ruleId": "wv-change",
+    "prompt": "I Roskilde skal du ___ tog, hvis du vil til Holbæk.",
+    "options": [
+      "skifte",
+      "bytte",
+      "veksle"
+    ],
+    "answer": "skifte",
+    "explanation": "Changing from one train to another is skifte tog.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-08",
+    "level": 3,
+    "ruleId": "wv-change",
+    "prompt": "Det er utroligt, hvor meget han har ___ sig, siden han fik børn.",
+    "options": [
+      "forandret",
+      "byttet",
+      "skiftet"
+    ],
+    "answer": "forandret",
+    "explanation": "A person changing in character is forandre sig. Bytte and skifte can't be used with sig like this.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-09",
+    "level": 1,
+    "ruleId": "wv-change",
+    "prompt": "Min søster og jeg ___ ofte bøger, når vi har læst dem.",
+    "options": [
+      "bytter",
+      "skifter",
+      "veksler"
+    ],
+    "answer": "bytter",
+    "explanation": "Giving each other things in exchange is bytte.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-10",
+    "level": 2,
+    "ruleId": "wv-change",
+    "prompt": "Kan du ___ en 100-kroneseddel? Jeg skal bruge mønter til parkeringsautomaten.",
+    "options": [
+      "veksle",
+      "skifte",
+      "ændre"
+    ],
+    "answer": "veksle",
+    "explanation": "Changing a note into coins is veksle.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-11",
+    "level": 2,
+    "ruleId": "wv-change",
+    "prompt": "Vi skal have ___ dæk på bilen før vinteren.",
+    "options": [
+      "skiftet",
+      "vekslet",
+      "forandret"
+    ],
+    "answer": "skiftet",
+    "explanation": "Replacing old tyres with new ones of the same kind is skifte dæk.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-12",
+    "level": 3,
+    "ruleId": "wv-change",
+    "prompt": "Teksten er fin, men du skal ___ slutningen lidt.",
+    "options": [
+      "ændre",
+      "veksle",
+      "bytte"
+    ],
+    "answer": "ændre",
+    "explanation": "Making a small change to a text that stays the same text is ændre. Bytte means swapping one thing for another, and veksle is only for money.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-13",
+    "level": 2,
+    "ruleId": "wv-change",
+    "prompt": "Den gamle pære virker ikke. Vil du ___ den?",
+    "options": [
+      "skifte",
+      "veksle",
+      "ændre"
+    ],
+    "answer": "skifte",
+    "explanation": "Putting in a new bulb instead of the old one is skifte.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-14",
+    "level": 3,
+    "ruleId": "wv-change",
+    "prompt": "Da vi fik vores første barn, blev hele vores liv ___.",
+    "options": [
+      "forandret",
+      "vekslet",
+      "byttet"
+    ],
+    "answer": "forandret",
+    "explanation": "A deep change in your whole life is forandre. Veksle is for money and bytte is an exchange.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-15",
+    "level": 2,
+    "ruleId": "wv-change",
+    "prompt": "Min mobil virker ikke, så jeg går tilbage til butikken og ___ den. Jeg har heldigvis kvitteringen.",
+    "options": [
+      "bytter",
+      "ændrer",
+      "veksler"
+    ],
+    "answer": "bytter",
+    "explanation": "Taking an item back to the shop with the receipt and getting another is bytte.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-16",
+    "level": 1,
+    "ruleId": "wv-change",
+    "prompt": "Han har ___ adresse tre gange i år.",
+    "options": [
+      "skiftet",
+      "byttet",
+      "vekslet"
+    ],
+    "answer": "skiftet",
+    "explanation": "Moving to a new address instead of the old one is skifte adresse.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-17",
+    "level": 3,
+    "ruleId": "wv-change",
+    "prompt": "Hun ___ hele tiden mening, så man ved aldrig, hvad hun synes.",
+    "options": [
+      "skifter",
+      "bytter",
+      "veksler"
+    ],
+    "answer": "skifter",
+    "explanation": "Skifte mening = change your mind (one opinion replaced by another). Bytte would need someone to swap with.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-18",
+    "level": 2,
+    "ruleId": "wv-change",
+    "prompt": "Arkitekten har ___ tegningerne om tre gange.",
+    "options": [
+      "lavet",
+      "ændret",
+      "skiftet"
+    ],
+    "answer": "lavet",
+    "explanation": "Om after the object signals lave … om. Ændret om and skiftet om are not Danish.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-19",
+    "level": 3,
+    "ruleId": "wv-change",
+    "prompt": "Klimaet ___ sig, og vintrene bliver mildere.",
+    "options": [
+      "ændrer",
+      "bytter",
+      "skifter"
+    ],
+    "answer": "ændrer",
+    "explanation": "Ændre sig = to change (by itself). Bytte and skifte can't be used reflexively like this.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-20",
+    "level": 1,
+    "ruleId": "wv-change",
+    "prompt": "Jeg giver dig mit æble, hvis du giver mig din banan. Skal vi ___?",
+    "options": [
+      "bytte",
+      "ændre",
+      "veksle"
+    ],
+    "answer": "bytte",
+    "explanation": "Two people giving each other things is bytte.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-21",
+    "level": 1,
+    "ruleId": "wv-change",
+    "prompt": "På banegården kan man ___ dollars til kroner.",
+    "options": [
+      "veksle",
+      "skifte",
+      "ændre"
+    ],
+    "answer": "veksle",
+    "explanation": "Currency is vekslet, e.g. at a bureau de change.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-22",
+    "level": 3,
+    "ruleId": "wv-change",
+    "prompt": "Firmaet har ___ navn, men det sælger stadig de samme produkter.",
+    "options": [
+      "skiftet",
+      "vekslet",
+      "byttet"
+    ],
+    "answer": "skiftet",
+    "explanation": "Getting a new name instead of the old one is skifte navn.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-23",
+    "level": 3,
+    "ruleId": "wv-change",
+    "prompt": "Det nye job har ___ ham; han er blevet meget gladere og mere åben.",
+    "options": [
+      "forandret",
+      "skiftet",
+      "byttet"
+    ],
+    "answer": "forandret",
+    "explanation": "A change in someone's personality is forandre. Skifte and bytte are about replacing or exchanging things.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-24",
+    "level": 2,
+    "ruleId": "wv-change",
+    "prompt": "Jakken er for lang i ærmerne, men en skrædder kan ___ den om.",
+    "options": [
+      "lave",
+      "ændre",
+      "bytte"
+    ],
+    "answer": "lave",
+    "explanation": "Om at the end shows lave … om (alter). Ændre and bytte don't take om.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-change-25",
+    "level": 3,
+    "ruleId": "wv-change",
+    "prompt": "Banken har ___ sine åbningstider, så den nu lukker klokken 16.",
+    "options": [
+      "ændret",
+      "vekslet",
+      "byttet"
+    ],
+    "answer": "ændret",
+    "explanation": "Adjusting existing opening hours is ændre.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-01",
+    "level": 1,
+    "ruleId": "wv-make",
+    "prompt": "Min far ___ mad hver aften.",
+    "options": [
+      "laver",
+      "gør"
+    ],
+    "answer": "laver",
+    "explanation": "Cooking is lave mad.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-02",
+    "level": 1,
+    "ruleId": "wv-make",
+    "prompt": "Det ___ ondt i min ryg.",
+    "options": [
+      "gør",
+      "laver"
+    ],
+    "answer": "gør",
+    "explanation": "Pain: the fixed phrase is gøre ondt.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-03",
+    "level": 1,
+    "ruleId": "wv-make",
+    "prompt": "Børnene sidder og ___ lektier ved køkkenbordet.",
+    "options": [
+      "laver",
+      "gør"
+    ],
+    "answer": "laver",
+    "explanation": "Homework is lave lektier.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-04",
+    "level": 1,
+    "ruleId": "wv-make",
+    "prompt": "Vi ___ rent hver lørdag.",
+    "options": [
+      "gør",
+      "laver"
+    ],
+    "answer": "gør",
+    "explanation": "Cleaning is the fixed phrase gøre rent.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-05",
+    "level": 2,
+    "ruleId": "wv-make",
+    "prompt": "Kan du ___ en kop kaffe til mig?",
+    "options": [
+      "lave",
+      "gøre"
+    ],
+    "answer": "lave",
+    "explanation": "Making a drink or food is lave.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-06",
+    "level": 2,
+    "ruleId": "wv-make",
+    "prompt": "Den gode nyhed ___ hende meget glad.",
+    "options": [
+      "gjorde",
+      "lavede"
+    ],
+    "answer": "gjorde",
+    "explanation": "Gøre + person + adjective = make someone feel something.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-07",
+    "level": 2,
+    "ruleId": "wv-make",
+    "prompt": "Jeg kan godt lide at svømme. – Det ___ jeg også.",
+    "options": [
+      "gør",
+      "laver"
+    ],
+    "answer": "gør",
+    "explanation": "Gøre replaces the verb in the first sentence (kan godt lide) to avoid repeating it.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-08",
+    "level": 2,
+    "ruleId": "wv-make",
+    "prompt": "Mekanikeren har ___ min cykel, så nu virker bremserne igen.",
+    "options": [
+      "lavet",
+      "gjort"
+    ],
+    "answer": "lavet",
+    "explanation": "Repairing something is lave (lave cyklen = fix the bike).",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-09",
+    "level": 2,
+    "ruleId": "wv-make",
+    "prompt": "Kan du ___ en kopi af kontrakten til mig?",
+    "options": [
+      "lave",
+      "gøre"
+    ],
+    "answer": "lave",
+    "explanation": "Producing a copy is lave en kopi.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-10",
+    "level": 3,
+    "ruleId": "wv-make",
+    "prompt": "Du ___ det rigtig godt til eksamen – tillykke!",
+    "options": [
+      "gjorde",
+      "lavede"
+    ],
+    "answer": "gjorde",
+    "explanation": "Gøre det godt = do well. It is about how you performed, not something you made.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-11",
+    "level": 2,
+    "ruleId": "wv-make",
+    "prompt": "Lad være med at ___ sjov med din lillebror.",
+    "options": [
+      "lave",
+      "gøre"
+    ],
+    "answer": "lave",
+    "explanation": "Lave sjov med nogen = make fun of someone (fixed phrase).",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-12",
+    "level": 3,
+    "ruleId": "wv-make",
+    "prompt": "Den nye motorvej har ___ det lettere at pendle til Aarhus.",
+    "options": [
+      "gjort",
+      "lavet"
+    ],
+    "answer": "gjort",
+    "explanation": "Gøre + det + adjective = make it easier, harder, etc.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-13",
+    "level": 2,
+    "ruleId": "wv-make",
+    "prompt": "Hvad skal jeg ___, hvis jeg mister mit sundhedskort?",
+    "options": [
+      "gøre",
+      "lave"
+    ],
+    "answer": "gøre",
+    "explanation": "Asking what action to take in a situation is gøre.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-14",
+    "level": 1,
+    "ruleId": "wv-make",
+    "prompt": "Vi ___ en kage til mormors fødselsdag.",
+    "options": [
+      "laver",
+      "gør"
+    ],
+    "answer": "laver",
+    "explanation": "Baking or making food is lave.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-15",
+    "level": 3,
+    "ruleId": "wv-make",
+    "prompt": "Det ___ ikke noget, at du kommer lidt for sent.",
+    "options": [
+      "gør",
+      "laver"
+    ],
+    "answer": "gør",
+    "explanation": "Det gør ikke noget = it doesn't matter (fixed phrase).",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-16",
+    "level": 2,
+    "ruleId": "wv-make",
+    "prompt": "Skolen vil ___ en plan for, hvordan eleverne kan bevæge sig mere.",
+    "options": [
+      "lave",
+      "gøre"
+    ],
+    "answer": "lave",
+    "explanation": "Producing a plan is lave en plan.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-17",
+    "level": 3,
+    "ruleId": "wv-make",
+    "prompt": "Han ___ alt, hvad han kan, for at hjælpe sine forældre.",
+    "options": [
+      "gør",
+      "laver"
+    ],
+    "answer": "gør",
+    "explanation": "Gøre alt, hvad man kan = do everything you can; an abstract \"do\".",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-18",
+    "level": 1,
+    "ruleId": "wv-make",
+    "prompt": "Hvad ___ du lige nu? – Jeg ser fjernsyn.",
+    "options": [
+      "laver",
+      "gør"
+    ],
+    "answer": "laver",
+    "explanation": "Asking what someone is doing right now: Hvad laver du?",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-19",
+    "level": 3,
+    "ruleId": "wv-make",
+    "prompt": "Medicinen ___ mig søvnig, så jeg må ikke køre bil.",
+    "options": [
+      "gør",
+      "laver"
+    ],
+    "answer": "gør",
+    "explanation": "Gøre + person + adjective = make someone sleepy.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-20",
+    "level": 2,
+    "ruleId": "wv-make",
+    "prompt": "Hun har ___ en flot tegning af sin hund.",
+    "options": [
+      "lavet",
+      "gjort"
+    ],
+    "answer": "lavet",
+    "explanation": "Creating a drawing is lave.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-21",
+    "level": 3,
+    "ruleId": "wv-make",
+    "prompt": "Han lovede at ringe, men det ___ han ikke.",
+    "options": [
+      "gjorde",
+      "lavede"
+    ],
+    "answer": "gjorde",
+    "explanation": "Gøre replaces the verb ringe so it isn't repeated.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-22",
+    "level": 2,
+    "ruleId": "wv-make",
+    "prompt": "Vi skal ___ et nyt badeværelse i huset.",
+    "options": [
+      "lave",
+      "gøre"
+    ],
+    "answer": "lave",
+    "explanation": "Building or renovating something is lave.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-23",
+    "level": 3,
+    "ruleId": "wv-make",
+    "prompt": "Motion ___ godt for både krop og humør.",
+    "options": [
+      "gør",
+      "laver"
+    ],
+    "answer": "gør",
+    "explanation": "Gøre godt = be good for (fixed phrase).",
+    "reviewed": false
+  },
+  {
+    "id": "wv-make-24",
+    "level": 3,
+    "ruleId": "wv-make",
+    "prompt": "Kommunen har ___ en stor indsats for at plante flere træer.",
+    "options": [
+      "gjort",
+      "lavet"
+    ],
+    "answer": "gjort",
+    "explanation": "Gøre en indsats = make an effort (fixed phrase).",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-01",
+    "level": 1,
+    "ruleId": "wv-know",
+    "prompt": "Jeg ___ ikke, hvad klokken er.",
+    "options": [
+      "ved",
+      "kender"
+    ],
+    "answer": "ved",
+    "explanation": "A question word (hvad) follows, so it is information: vide.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-02",
+    "level": 1,
+    "ruleId": "wv-know",
+    "prompt": "___ du min bror? Han arbejder også her.",
+    "options": [
+      "Kender",
+      "Ved"
+    ],
+    "answer": "Kender",
+    "explanation": "Knowing a person is kende.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-03",
+    "level": 1,
+    "ruleId": "wv-know",
+    "prompt": "Hun ___ godt, at mødet er i morgen.",
+    "options": [
+      "ved",
+      "kender"
+    ],
+    "answer": "ved",
+    "explanation": "Vide, at … = know a fact.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-04",
+    "level": 1,
+    "ruleId": "wv-know",
+    "prompt": "Vi ___ ikke mange mennesker i den nye by endnu.",
+    "options": [
+      "kender",
+      "ved"
+    ],
+    "answer": "kender",
+    "explanation": "People you are acquainted with: kende.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-05",
+    "level": 2,
+    "ruleId": "wv-know",
+    "prompt": "___ du, hvor biblioteket ligger?",
+    "options": [
+      "Ved",
+      "Kender"
+    ],
+    "answer": "Ved",
+    "explanation": "A hv-clause (hvor …) after the verb always needs vide.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-06",
+    "level": 2,
+    "ruleId": "wv-know",
+    "prompt": "Jeg ___ ham kun fra arbejdet.",
+    "options": [
+      "kender",
+      "ved"
+    ],
+    "answer": "kender",
+    "explanation": "Knowing a person from somewhere is kende.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-07",
+    "level": 2,
+    "ruleId": "wv-know",
+    "prompt": "Det ___ jeg ikke noget om.",
+    "options": [
+      "ved",
+      "kender"
+    ],
+    "answer": "ved",
+    "explanation": "Vide noget om = know something about (information). Kende would need til.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-08",
+    "level": 2,
+    "ruleId": "wv-know",
+    "prompt": "Jeg ___ godt den sang – vi sang den i skolen.",
+    "options": [
+      "kender",
+      "ved"
+    ],
+    "answer": "kender",
+    "explanation": "Being familiar with a song is kende.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-09",
+    "level": 2,
+    "ruleId": "wv-know",
+    "prompt": "Han ___ ikke, at butikken var lukket, så han gik forgæves.",
+    "options": [
+      "vidste",
+      "kendte"
+    ],
+    "answer": "vidste",
+    "explanation": "Vide, at … about a fact; the past tense is vidste.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-10",
+    "level": 2,
+    "ruleId": "wv-know",
+    "prompt": "Da jeg flyttede til Odense, ___ jeg ingen.",
+    "options": [
+      "kendte",
+      "vidste"
+    ],
+    "answer": "kendte",
+    "explanation": "Not knowing any people = kende ingen; past tense kendte.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-11",
+    "level": 3,
+    "ruleId": "wv-know",
+    "prompt": "Ingen ___ præcist, hvor mange der vil stemme ved valget.",
+    "options": [
+      "ved",
+      "kender"
+    ],
+    "answer": "ved",
+    "explanation": "Hvor mange … is information, so vide.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-12",
+    "level": 3,
+    "ruleId": "wv-know",
+    "prompt": "Lægen ___ godt til den slags allergi.",
+    "options": [
+      "kender",
+      "ved"
+    ],
+    "answer": "kender",
+    "explanation": "Kende til = know about, be familiar with. Vide can't be followed by til.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-13",
+    "level": 3,
+    "ruleId": "wv-know",
+    "prompt": "Jeg har ___ hende, siden vi gik i børnehave sammen.",
+    "options": [
+      "kendt",
+      "vidst"
+    ],
+    "answer": "kendt",
+    "explanation": "Knowing a person for a long time is kende; the participle is kendt.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-14",
+    "level": 2,
+    "ruleId": "wv-know",
+    "prompt": "Hvordan ___ du det? Det var en hemmelighed!",
+    "options": [
+      "ved",
+      "kender"
+    ],
+    "answer": "ved",
+    "explanation": "Det refers to a piece of information (the secret), so vide.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-15",
+    "level": 1,
+    "ruleId": "wv-know",
+    "prompt": "Jeg ___ ikke, om hun kommer i aften.",
+    "options": [
+      "ved",
+      "kender"
+    ],
+    "answer": "ved",
+    "explanation": "Om … (whether) introduces information, so vide.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-16",
+    "level": 3,
+    "ruleId": "wv-know",
+    "prompt": "Turisterne ___ ikke området, og de gik forkert i skoven.",
+    "options": [
+      "kendte",
+      "vidste"
+    ],
+    "answer": "kendte",
+    "explanation": "Being familiar with a place is kende; past tense kendte.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-17",
+    "level": 2,
+    "ruleId": "wv-know",
+    "prompt": "___ du nogen, der kan hjælpe mig med at flytte?",
+    "options": [
+      "Kender",
+      "Ved"
+    ],
+    "answer": "Kender",
+    "explanation": "Knowing people (nogen) is kende.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-18",
+    "level": 3,
+    "ruleId": "wv-know",
+    "prompt": "Hvis jeg havde ___, at det var din fødselsdag, havde jeg købt en gave.",
+    "options": [
+      "vidst",
+      "kendt"
+    ],
+    "answer": "vidst",
+    "explanation": "Vide, at … about a fact; the participle after havde is vidst.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-19",
+    "level": 2,
+    "ruleId": "wv-know",
+    "prompt": "Jeg ___ ikke det ord. Hvad betyder det?",
+    "options": [
+      "kender",
+      "ved"
+    ],
+    "answer": "kender",
+    "explanation": "Being familiar with a word is kende.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-20",
+    "level": 3,
+    "ruleId": "wv-know",
+    "prompt": "Det er svært at få job, hvis man ikke ___ nogen i branchen.",
+    "options": [
+      "kender",
+      "ved"
+    ],
+    "answer": "kender",
+    "explanation": "Having contacts (knowing people) is kende.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-21",
+    "level": 3,
+    "ruleId": "wv-know",
+    "prompt": "Man ___ aldrig, hvad fremtiden bringer.",
+    "options": [
+      "ved",
+      "kender"
+    ],
+    "answer": "ved",
+    "explanation": "Hvad fremtiden bringer is information, so vide.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-22",
+    "level": 2,
+    "ruleId": "wv-know",
+    "prompt": "Kender du Lise? – Nej, men jeg ___, hvem hun er.",
+    "options": [
+      "ved",
+      "kender"
+    ],
+    "answer": "ved",
+    "explanation": "Hvem hun er is a piece of information, so vide, even though it is about a person.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-23",
+    "level": 3,
+    "ruleId": "wv-know",
+    "prompt": "Forældrene ___ ikke noget til problemerne i klassen, før læreren ringede.",
+    "options": [
+      "kendte",
+      "vidste"
+    ],
+    "answer": "kendte",
+    "explanation": "Kende til noget = know about something. With vide the preposition would be om.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-know-24",
+    "level": 1,
+    "ruleId": "wv-know",
+    "prompt": "Jeg ___ godt København, for jeg har boet der i fem år.",
+    "options": [
+      "kender",
+      "ved"
+    ],
+    "answer": "kender",
+    "explanation": "Being familiar with a city is kende.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-01",
+    "level": 2,
+    "ruleId": "wv-need",
+    "prompt": "Jeg ___ at gå nu, ellers kommer jeg for sent til bussen.",
+    "options": [
+      "er nødt til",
+      "skal bruge"
+    ],
+    "answer": "er nødt til",
+    "explanation": "A positive obligation (\"ellers kommer jeg for sent\") is er nødt til at. Skal bruge can only take a thing, never at + verb.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-02",
+    "level": 1,
+    "ruleId": "wv-need",
+    "prompt": "Du ___ ikke komme i morgen; vi klarer det selv.",
+    "options": [
+      "behøver",
+      "er nødt til",
+      "trænger til"
+    ],
+    "answer": "behøver",
+    "explanation": "Behøver ikke + bare infinitive = don't need to. Er nødt til would need at, and trænger til doesn't fit.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-03",
+    "level": 2,
+    "ruleId": "wv-need",
+    "prompt": "Jeg ___ tre æg og et halvt kilo mel til kagen.",
+    "options": [
+      "skal bruge",
+      "trænger til",
+      "er nødt til"
+    ],
+    "answer": "skal bruge",
+    "explanation": "A concrete need for a recipe is skal bruge + the thing.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-04",
+    "level": 2,
+    "ruleId": "wv-need",
+    "prompt": "Du ser træt ud. Du ___ en ferie.",
+    "options": [
+      "trænger til",
+      "er nødt til"
+    ],
+    "answer": "trænger til",
+    "explanation": "You are worn out, so you badly need a break: trænge til. Er nødt til can't be followed by a noun.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-05",
+    "level": 3,
+    "ruleId": "wv-need",
+    "prompt": "Huset ___ at blive malet; malingen skaller af overalt.",
+    "options": [
+      "trænger til",
+      "skal bruge"
+    ],
+    "answer": "trænger til",
+    "explanation": "The peeling paint shows a bad condition: trænge til at blive … . Skal bruge can't take at + verb.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-06",
+    "level": 2,
+    "ruleId": "wv-need",
+    "prompt": "Hun ___ støtte fra sin familie efter ulykken.",
+    "options": [
+      "har brug for",
+      "er nødt til"
+    ],
+    "answer": "har brug for",
+    "explanation": "An emotional need for something (støtte): have brug for + noun. Er nødt til must be followed by at + verb.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-07",
+    "level": 2,
+    "ruleId": "wv-need",
+    "prompt": "Vi ___ at sælge bilen, fordi vi ikke har råd til den længere.",
+    "options": [
+      "er nødt til",
+      "trænger til",
+      "skal bruge"
+    ],
+    "answer": "er nødt til",
+    "explanation": "They are forced to sell (no money), so er nødt til at.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-08",
+    "level": 1,
+    "ruleId": "wv-need",
+    "prompt": "___ jeg tage noget med til festen?",
+    "options": [
+      "Behøver",
+      "Har brug for",
+      "Trænger til"
+    ],
+    "answer": "Behøver",
+    "explanation": "In a question with a bare infinitive (tage) only behøver works.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-09",
+    "level": 2,
+    "ruleId": "wv-need",
+    "prompt": "Kan du låne mig en skruetrækker? Jeg ___ den til at samle reolen.",
+    "options": [
+      "skal bruge",
+      "trænger til",
+      "er nødt til"
+    ],
+    "answer": "skal bruge",
+    "explanation": "A tool needed for a specific task right now: skal bruge.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-10",
+    "level": 3,
+    "ruleId": "wv-need",
+    "prompt": "Jeg har arbejdet hele weekenden og ___ en fridag.",
+    "options": [
+      "trænger til",
+      "er nødt til"
+    ],
+    "answer": "trænger til",
+    "explanation": "Being exhausted after a long weekend of work = trænge til en fridag. Er nødt til can't be followed by a noun.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-11",
+    "level": 2,
+    "ruleId": "wv-need",
+    "prompt": "Man ___ ikke være ekspert for at bruge appen.",
+    "options": [
+      "behøver",
+      "er nødt til",
+      "har brug for"
+    ],
+    "answer": "behøver",
+    "explanation": "Behøver ikke + bare infinitive (være). The other two can't be followed by a bare infinitive.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-12",
+    "level": 3,
+    "ruleId": "wv-need",
+    "prompt": "Firmaet ___ at fyre ti medarbejdere på grund af krisen.",
+    "options": [
+      "var nødt til",
+      "skulle bruge",
+      "trængte til"
+    ],
+    "answer": "var nødt til",
+    "explanation": "The crisis forced the company, so var nødt til at.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-13",
+    "level": 2,
+    "ruleId": "wv-need",
+    "prompt": "Vi ___ mindst 30 stole til festen.",
+    "options": [
+      "skal bruge",
+      "er nødt til",
+      "trænger til"
+    ],
+    "answer": "skal bruge",
+    "explanation": "A practical number of things for an event: skal bruge. Er nødt til needs at + verb.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-14",
+    "level": 3,
+    "ruleId": "wv-need",
+    "prompt": "Børn ___ at føle sig trygge for at kunne lære.",
+    "options": [
+      "har brug for",
+      "skal bruge"
+    ],
+    "answer": "har brug for",
+    "explanation": "A general, emotional need: have brug for at. Skal bruge can't take at + verb.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-15",
+    "level": 1,
+    "ruleId": "wv-need",
+    "prompt": "Vi ___ at købe ind; køleskabet er tomt.",
+    "options": [
+      "er nødt til",
+      "skal bruge"
+    ],
+    "answer": "er nødt til",
+    "explanation": "The empty fridge forces you: er nødt til at. Skal bruge can't take at + verb.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-16",
+    "level": 2,
+    "ruleId": "wv-need",
+    "prompt": "Du ___ ikke at ringe, før du kommer; døren er altid åben.",
+    "options": [
+      "behøver",
+      "skal bruge",
+      "trænger til"
+    ],
+    "answer": "behøver",
+    "explanation": "Behøver ikke (at) = don't need to.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-17",
+    "level": 3,
+    "ruleId": "wv-need",
+    "prompt": "Bilen ___ et eftersyn; den larmer, når jeg bremser.",
+    "options": [
+      "trænger til",
+      "er nødt til"
+    ],
+    "answer": "trænger til",
+    "explanation": "The noise shows the car is in a bad state: trænge til et eftersyn.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-18",
+    "level": 2,
+    "ruleId": "wv-need",
+    "prompt": "Jeg ___ dit cpr-nummer for at kunne udfylde formularen.",
+    "options": [
+      "skal bruge",
+      "trænger til",
+      "er nødt til"
+    ],
+    "answer": "skal bruge",
+    "explanation": "Information needed for a specific task: skal bruge.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-19",
+    "level": 3,
+    "ruleId": "wv-need",
+    "prompt": "Ældre mennesker, der bor alene, ___ hjælp til indkøb og rengøring.",
+    "options": [
+      "har brug for",
+      "er nødt til"
+    ],
+    "answer": "har brug for",
+    "explanation": "A general need for help: have brug for + noun. Er nødt til must be followed by at + verb.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-20",
+    "level": 2,
+    "ruleId": "wv-need",
+    "prompt": "Han ___ at tage medicin hver dag for sit blodtryk.",
+    "options": [
+      "er nødt til",
+      "trænger til",
+      "skal bruge"
+    ],
+    "answer": "er nødt til",
+    "explanation": "He must take the medicine: er nødt til at.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-21",
+    "level": 1,
+    "ruleId": "wv-need",
+    "prompt": "Jeg ___ en blyant. Har du en, jeg kan låne?",
+    "options": [
+      "skal bruge",
+      "er nødt til",
+      "trænger til"
+    ],
+    "answer": "skal bruge",
+    "explanation": "A thing you need right now for a task: skal bruge.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-22",
+    "level": 3,
+    "ruleId": "wv-need",
+    "prompt": "Man ___ at læse i mange år, hvis man vil være læge.",
+    "options": [
+      "er nødt til",
+      "skal bruge",
+      "trænger til"
+    ],
+    "answer": "er nødt til",
+    "explanation": "A requirement you can't avoid: er nødt til at.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-23",
+    "level": 3,
+    "ruleId": "wv-need",
+    "prompt": "Mange unge ___ en voksen, de kan tale med om deres problemer.",
+    "options": [
+      "har brug for",
+      "er nødt til"
+    ],
+    "answer": "har brug for",
+    "explanation": "A general, emotional need for a person: have brug for + noun. Er nødt til must be followed by at + verb, never by a noun.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-need-24",
+    "level": 2,
+    "ruleId": "wv-need",
+    "prompt": "Planterne ___ vand; jorden er helt tør.",
+    "options": [
+      "trænger til",
+      "er nødt til"
+    ],
+    "answer": "trænger til",
+    "explanation": "The dry soil shows a lack: trænge til vand. Er nødt til needs at + verb.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-01",
+    "level": 1,
+    "ruleId": "wv-say",
+    "prompt": "Hun ___ godmorgen til alle i klassen.",
+    "options": [
+      "siger",
+      "fortæller"
+    ],
+    "answer": "siger",
+    "explanation": "Greetings are words you say: sige godmorgen.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-02",
+    "level": 1,
+    "ruleId": "wv-say",
+    "prompt": "Farfar ___ en historie, før børnene skal sove.",
+    "options": [
+      "fortæller",
+      "siger"
+    ],
+    "answer": "fortæller",
+    "explanation": "Stories are fortalt.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-03",
+    "level": 1,
+    "ruleId": "wv-say",
+    "prompt": "Hvordan ___ man \"thank you\" på dansk?",
+    "options": [
+      "siger",
+      "fortæller"
+    ],
+    "answer": "siger",
+    "explanation": "Asking for the words themselves: Hvordan siger man …?",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-04",
+    "level": 2,
+    "ruleId": "wv-say",
+    "prompt": "Kan du ___ os om din rejse til Island?",
+    "options": [
+      "fortælle",
+      "sige"
+    ],
+    "answer": "fortælle",
+    "explanation": "Fortælle nogen om noget = tell someone about something. Sige can't take a person directly after it.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-05",
+    "level": 2,
+    "ruleId": "wv-say",
+    "prompt": "Han ___ nej til jobbet, fordi lønnen var for lav.",
+    "options": [
+      "sagde",
+      "fortalte"
+    ],
+    "answer": "sagde",
+    "explanation": "Short answers like ja and nej go with sige.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-06",
+    "level": 2,
+    "ruleId": "wv-say",
+    "prompt": "Min kollega ___ en sjov vittighed i frokostpausen.",
+    "options": [
+      "fortalte",
+      "sagde"
+    ],
+    "answer": "fortalte",
+    "explanation": "Jokes are fortalt, like stories.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-07",
+    "level": 1,
+    "ruleId": "wv-say",
+    "prompt": "Du skal ___ undskyld til din søster.",
+    "options": [
+      "sige",
+      "fortælle"
+    ],
+    "answer": "sige",
+    "explanation": "Sige undskyld = say sorry.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-08",
+    "level": 2,
+    "ruleId": "wv-say",
+    "prompt": "Læreren ___ til eleverne: \"Tag jeres bøger frem.\"",
+    "options": [
+      "sagde",
+      "fortalte"
+    ],
+    "answer": "sagde",
+    "explanation": "Quoted words with til + person: sige til nogen.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-09",
+    "level": 2,
+    "ruleId": "wv-say",
+    "prompt": "Hvad ___ du? Jeg kunne ikke høre dig.",
+    "options": [
+      "sagde",
+      "fortalte"
+    ],
+    "answer": "sagde",
+    "explanation": "Asking for the words someone just said: Hvad sagde du?",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-10",
+    "level": 3,
+    "ruleId": "wv-say",
+    "prompt": "Hun har ikke ___ nogen om sin graviditet endnu.",
+    "options": [
+      "fortalt",
+      "sagt"
+    ],
+    "answer": "fortalt",
+    "explanation": "Fortælle nogen om noget. Sige can't have the person directly after it.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-11",
+    "level": 2,
+    "ruleId": "wv-say",
+    "prompt": "Jeg ___ tak for maden og gik hjem.",
+    "options": [
+      "sagde",
+      "fortalte"
+    ],
+    "answer": "sagde",
+    "explanation": "Sige tak for maden is a fixed phrase.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-12",
+    "level": 3,
+    "ruleId": "wv-say",
+    "prompt": "Bogen ___ om en familie, der flygter fra krigen.",
+    "options": [
+      "fortæller",
+      "siger"
+    ],
+    "answer": "fortæller",
+    "explanation": "A book narrating a story: fortælle om.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-13",
+    "level": 2,
+    "ruleId": "wv-say",
+    "prompt": "Mor, Jonas ___ grimme ord til mig!",
+    "options": [
+      "siger",
+      "fortæller"
+    ],
+    "answer": "siger",
+    "explanation": "Words said to someone: sige noget til nogen.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-14",
+    "level": 3,
+    "ruleId": "wv-say",
+    "prompt": "Han ___ sine forældre om ulykken.",
+    "options": [
+      "fortalte",
+      "sagde"
+    ],
+    "answer": "fortalte",
+    "explanation": "Fortælle nogen om noget: the person (sine forældre) comes right after the verb, followed by om. Sige can't be used like that.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-15",
+    "level": 1,
+    "ruleId": "wv-say",
+    "prompt": "Hvad ___ man, når man møder nogen første gang?",
+    "options": [
+      "siger",
+      "fortæller"
+    ],
+    "answer": "siger",
+    "explanation": "Asking which words to use: Hvad siger man?",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-16",
+    "level": 3,
+    "ruleId": "wv-say",
+    "prompt": "Det er svært at ___ farvel til gode kolleger.",
+    "options": [
+      "sige",
+      "fortælle"
+    ],
+    "answer": "sige",
+    "explanation": "Sige farvel = say goodbye.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-17",
+    "level": 2,
+    "ruleId": "wv-say",
+    "prompt": "Ved middagen ___ min onkel om sin tid som sømand.",
+    "options": [
+      "fortalte",
+      "sagde"
+    ],
+    "answer": "fortalte",
+    "explanation": "Telling about past experiences: fortælle om.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-18",
+    "level": 3,
+    "ruleId": "wv-say",
+    "prompt": "Hvad ___ du til, at vi tager i biografen i aften?",
+    "options": [
+      "siger",
+      "fortæller"
+    ],
+    "answer": "siger",
+    "explanation": "Hvad siger du til …? = What do you say to …? / How about …? (fixed phrase).",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-19",
+    "level": 1,
+    "ruleId": "wv-say",
+    "prompt": "Han ___ ikke et ord hele aftenen.",
+    "options": [
+      "sagde",
+      "fortalte"
+    ],
+    "answer": "sagde",
+    "explanation": "Words: sige et ord.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-20",
+    "level": 2,
+    "ruleId": "wv-say",
+    "prompt": "Børnene elsker, når jeg ___ eventyr.",
+    "options": [
+      "fortæller",
+      "siger"
+    ],
+    "answer": "fortæller",
+    "explanation": "Fairy tales are fortalt, like stories.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-21",
+    "level": 3,
+    "ruleId": "wv-say",
+    "prompt": "Det er vigtigt at ___ sin mening på mødet.",
+    "options": [
+      "sige",
+      "fortælle"
+    ],
+    "answer": "sige",
+    "explanation": "Sige sin mening = say what you think (fixed phrase).",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-22",
+    "level": 2,
+    "ruleId": "wv-say",
+    "prompt": "Hun ___ ja, da han friede til hende.",
+    "options": [
+      "sagde",
+      "fortalte"
+    ],
+    "answer": "sagde",
+    "explanation": "Sige ja = say yes.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-23",
+    "level": 1,
+    "ruleId": "wv-say",
+    "prompt": "Han kom hjem og ___ om sin dag.",
+    "options": [
+      "fortalte",
+      "sagde"
+    ],
+    "answer": "fortalte",
+    "explanation": "Fortælle om = tell about something.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-24",
+    "level": 2,
+    "ruleId": "wv-say",
+    "prompt": "Han ___ til mig, at han var træt.",
+    "options": [
+      "sagde",
+      "fortalte"
+    ],
+    "answer": "sagde",
+    "explanation": "With til + person it must be sige til nogen. Fortælle takes the person directly (fortalte mig).",
+    "reviewed": false
+  },
+  {
+    "id": "wv-say-25",
+    "level": 3,
+    "ruleId": "wv-say",
+    "prompt": "Han har ___ sine kolleger om sine planer om at gå på pension.",
+    "options": [
+      "fortalt",
+      "sagt"
+    ],
+    "answer": "fortalt",
+    "explanation": "Fortælle nogen om noget; sige would need til before the person.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-01",
+    "level": 1,
+    "ruleId": "wv-think",
+    "prompt": "Jeg savner min familie i Polen og ___ tit på dem.",
+    "options": [
+      "tænker",
+      "tror",
+      "synes"
+    ],
+    "answer": "tænker",
+    "explanation": "Tænke på = think about someone you miss. Tro på would mean believe in, and synes på is not Danish.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-02",
+    "level": 1,
+    "ruleId": "wv-think",
+    "prompt": "Jeg ___, det bliver regnvejr i morgen, men jeg er ikke sikker.",
+    "options": [
+      "tror",
+      "synes"
+    ],
+    "answer": "tror",
+    "explanation": "\"Ikke sikker\" shows a guess about a fact: tro.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-03",
+    "level": 1,
+    "ruleId": "wv-think",
+    "prompt": "Mmm, jeg ___, kagen smager dejligt.",
+    "options": [
+      "synes",
+      "tror"
+    ],
+    "answer": "synes",
+    "explanation": "Your own taste after trying it is synes. Tror would mean you are only guessing.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-04",
+    "level": 2,
+    "ruleId": "wv-think",
+    "prompt": "Hvad ___ du med det? Jeg forstår dig ikke.",
+    "options": [
+      "mener",
+      "synes",
+      "tror"
+    ],
+    "answer": "mener",
+    "explanation": "Mene med = mean by. Hvad mener du med det? = What do you mean?",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-05",
+    "level": 2,
+    "ruleId": "wv-think",
+    "prompt": "___ du på spøgelser?",
+    "options": [
+      "Tror",
+      "Mener",
+      "Synes"
+    ],
+    "answer": "Tror",
+    "explanation": "Tro på = believe in.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-06",
+    "level": 2,
+    "ruleId": "wv-think",
+    "prompt": "Hvad ___ du om din nye lejlighed? – Den er dejlig lys.",
+    "options": [
+      "synes",
+      "tror"
+    ],
+    "answer": "synes",
+    "explanation": "Asking for an opinion based on your own experience: Hvad synes du om …?",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-07",
+    "level": 2,
+    "ruleId": "wv-think",
+    "prompt": "Han sidder og ___ over, hvad han skal sige til sin chef.",
+    "options": [
+      "tænker",
+      "tror",
+      "synes"
+    ],
+    "answer": "tænker",
+    "explanation": "Tænke over = think something through; it is the mental activity.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-08",
+    "level": 3,
+    "ruleId": "wv-think",
+    "prompt": "Hvad ___ du egentlig med \"billig\"? Under 100 kroner?",
+    "options": [
+      "mener",
+      "synes",
+      "tænker"
+    ],
+    "answer": "mener",
+    "explanation": "Mene med = mean by: asking what a word means to someone. Synes and tænker can't be used with med like this.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-09",
+    "level": 2,
+    "ruleId": "wv-think",
+    "prompt": "Jeg ___ ikke, han kommer i dag; han er vist syg.",
+    "options": [
+      "tror",
+      "synes"
+    ],
+    "answer": "tror",
+    "explanation": "\"Vist\" shows you are not sure, so it is a guess: tro.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-10",
+    "level": 1,
+    "ruleId": "wv-think",
+    "prompt": "Jeg ___ godt om min nye lærer.",
+    "options": [
+      "synes",
+      "tror"
+    ],
+    "answer": "synes",
+    "explanation": "Synes godt om = like (fixed phrase). Tro godt om is not Danish.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-11",
+    "level": 3,
+    "ruleId": "wv-think",
+    "prompt": "Eksperterne ___, at priserne vil stige næste år, men ingen ved det med sikkerhed.",
+    "options": [
+      "tror",
+      "synes"
+    ],
+    "answer": "tror",
+    "explanation": "A forecast that nobody is sure of is tro. Synes is for experience and taste, not future facts.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-12",
+    "level": 2,
+    "ruleId": "wv-think",
+    "prompt": "Brr! Jeg ___, vandet er alt for koldt til at bade i.",
+    "options": [
+      "synes",
+      "tror"
+    ],
+    "answer": "synes",
+    "explanation": "\"Brr!\" shows you have felt the water yourself, so it is your experience: synes.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-13",
+    "level": 3,
+    "ruleId": "wv-think",
+    "prompt": "Hun ___ det, hun siger, så tag hende alvorligt.",
+    "options": [
+      "mener",
+      "synes"
+    ],
+    "answer": "mener",
+    "explanation": "Mene det = mean it, be serious about what you say.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-14",
+    "level": 2,
+    "ruleId": "wv-think",
+    "prompt": "Jeg kan ikke lade være med at ___ på eksamen i morgen.",
+    "options": [
+      "tænke",
+      "tro",
+      "synes"
+    ],
+    "answer": "tænke",
+    "explanation": "Tænke på = have something on your mind.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-15",
+    "level": 3,
+    "ruleId": "wv-think",
+    "prompt": "Jeg ___ ikke på hans undskyldning; han har løjet før.",
+    "options": [
+      "tror",
+      "mener",
+      "synes"
+    ],
+    "answer": "tror",
+    "explanation": "Tro på noget = believe something is true or sincere.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-16",
+    "level": 2,
+    "ruleId": "wv-think",
+    "prompt": "Hvornår ___ du, at pakken kommer? – Måske på fredag.",
+    "options": [
+      "tror",
+      "synes"
+    ],
+    "answer": "tror",
+    "explanation": "Guessing a future fact (when the parcel arrives): tro. Synes is for opinions, not facts.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-17",
+    "level": 3,
+    "ruleId": "wv-think",
+    "prompt": "Undskyld, jeg ville ikke såre dig. Det var ikke sådan, jeg ___ det.",
+    "options": [
+      "mente",
+      "syntes"
+    ],
+    "answer": "mente",
+    "explanation": "Mene det = mean it: you explain what you intended. Synes can't be used like this.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-18",
+    "level": 1,
+    "ruleId": "wv-think",
+    "prompt": "Hvad er din yndlingsfarve? – Jeg ___, blå er den flotteste.",
+    "options": [
+      "synes",
+      "tror"
+    ],
+    "answer": "synes",
+    "explanation": "Your favourite colour is personal taste, so synes. Tro would mean you are guessing a fact you are unsure of.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-19",
+    "level": 3,
+    "ruleId": "wv-think",
+    "prompt": "Hun ___ sig om, før hun svarer.",
+    "options": [
+      "tænker",
+      "tror",
+      "mener"
+    ],
+    "answer": "tænker",
+    "explanation": "Tænke sig om = think carefully (fixed phrase).",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-20",
+    "level": 2,
+    "ruleId": "wv-think",
+    "prompt": "Jeg ___, butikken lukker klokken 18, men tjek det lige på nettet.",
+    "options": [
+      "tror",
+      "synes"
+    ],
+    "answer": "tror",
+    "explanation": "\"Tjek det\" shows you are not sure about the fact: tro.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-21",
+    "level": 3,
+    "ruleId": "wv-think",
+    "prompt": "Når jeg siger \"snart\", ___ jeg inden for en uge.",
+    "options": [
+      "mener",
+      "tror",
+      "synes"
+    ],
+    "answer": "mener",
+    "explanation": "Mene = mean: explaining what your words mean.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-22",
+    "level": 2,
+    "ruleId": "wv-think",
+    "prompt": "Jeg har ___ meget over dit forslag, og jeg siger ja.",
+    "options": [
+      "tænkt",
+      "troet",
+      "ment"
+    ],
+    "answer": "tænkt",
+    "explanation": "Tænke over = consider something; participle tænkt.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-23",
+    "level": 2,
+    "ruleId": "wv-think",
+    "prompt": "Vi så filmen i går, og jeg ___, den var lidt kedelig.",
+    "options": [
+      "synes",
+      "tror"
+    ],
+    "answer": "synes",
+    "explanation": "You saw the film yourself, so your opinion of it is synes. Tror would mean you are only guessing.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-24",
+    "level": 2,
+    "ruleId": "wv-think",
+    "prompt": "Lad mig ___ over det til i morgen.",
+    "options": [
+      "tænke",
+      "tro",
+      "mene"
+    ],
+    "answer": "tænke",
+    "explanation": "Tænke over det = think it over.",
+    "reviewed": false
+  },
+  {
+    "id": "wv-think-25",
+    "level": 3,
+    "ruleId": "wv-think",
+    "prompt": "Børnene ___ stadig på julemanden.",
+    "options": [
+      "tror",
+      "mener",
+      "synes"
+    ],
+    "answer": "tror",
+    "explanation": "Tro på = believe in.",
+    "reviewed": false
+  }
+]

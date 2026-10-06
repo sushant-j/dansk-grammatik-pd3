@@ -1,0 +1,189 @@
+[
+  {
+    "id": "vb-passive-blive",
+    "da": "Passiv med blive + kort tillægsform",
+    "en": "Passive with blive + past participle",
+    "statement": "When the subject receives the action (something is done to it), you can use a form of blive + the past participle: bliver/blev/er blevet + malet.",
+    "explanation": "In the passive the subject does not do the action; something happens to it, and the doer can be added with af. Danish often forms this passive with blive in the right tense plus the past participle (bygget, sendt, inviteret). Only blive itself changes tense: bliver bygget, blev bygget, er blevet bygget. The perfect takes er, not har (er blevet, never har blevet). A common trap is using the active verb (byggede) without an object. Danish also has an s-passive (Huset bygges, Mødet vil holdes), which is common in the present, after modal verbs and in rules and instructions; this drill practises the blive-passive. Være + participle usually describes the resulting state (Døren er låst), though er/var + participle can also work like a perfect passive (Huset er bygget i 1925).",
+    "examples": [
+      {
+        "wrong": "Huset byggede i 1925.",
+        "right": "Huset blev bygget i 1925.",
+        "note": "The house didn't build anything; it was built, so use blev + participle."
+      },
+      {
+        "wrong": "Jeg har blevet inviteret til festen.",
+        "right": "Jeg er blevet inviteret til festen.",
+        "note": "The perfect of blive takes er: er blevet inviteret."
+      },
+      {
+        "right": "Pakken bliver leveret i morgen af et fragtfirma.",
+        "note": "Future action with an agent (af …): bliver + participle."
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "vb-vaere-blive-state-change",
+    "da": "Være eller blive 1 – tilstand eller forandring",
+    "en": "Være or blive 1 – state or change",
+    "statement": "Use være for a state (how something is) and blive for a change (how something becomes).",
+    "explanation": "Være describes a situation that simply holds: Han er træt (he is tired). Blive describes the moment or process of change: Han blev træt, da han havde løbet (he got tired). Look for clues of change: da (when something happened), efterhånden, mere og mere, a future result (når …, hvis …) or a new age or job. Clues of state are words like hele dagen, altid or a description of how things are. English 'be' and 'get/become' map well onto være and blive.",
+    "examples": [
+      {
+        "wrong": "Jeg er 40 år på søndag.",
+        "right": "Jeg bliver 40 år på søndag.",
+        "note": "Turning a new age is a change at a point in time: bliver."
+      },
+      {
+        "right": "Min bror er læge på et stort hospital.",
+        "note": "His job now is a state: er."
+      },
+      {
+        "right": "Min bror bliver læge næste sommer.",
+        "note": "He will become a doctor (a change): bliver."
+      }
+    ],
+    "level": 1
+  },
+  {
+    "id": "vb-vaere-blive-passive-state",
+    "da": "Være eller blive 2 – handling (passiv) eller resultat",
+    "en": "Være or blive 2 – passive action or resulting state",
+    "statement": "Blive + participle describes the action being done (process); være + participle describes the state or result afterwards.",
+    "explanation": "Both are built with a past participle, but they mean different things. Blive + participle is a real passive: the action happens at a certain time, often with af + doer or a word like hver dag (Døren bliver låst kl. 22). Være + participle describes how things look or are as a result (Døren er låst = it is locked now). Ask yourself: is something being done right then (blive), or am I describing the result (være)? Clues for blive are a time point for the action, a doer with af, or repetition; clues for være are nu, stadig, allerede or a description of the situation. Note: er + participle can also report a finished action, like a perfect (Skolen er renoveret for nylig = has been renovated), but for repeated or ongoing actions only blive works.",
+    "examples": [
+      {
+        "wrong": "Døren er låst af viceværten hver aften kl. 22.",
+        "right": "Døren bliver låst af viceværten hver aften kl. 22.",
+        "note": "A repeated action with a doer (af viceværten, hver aften): bliver."
+      },
+      {
+        "right": "Butikken er lukket i dag, så vi må handle et andet sted.",
+        "note": "The result/state today: er lukket."
+      },
+      {
+        "right": "Vinduet var åbent, da jeg kom hjem.",
+        "note": "Describing how things were: var."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "vb-vil-vaere-blive",
+    "da": "Vil være eller vil blive",
+    "en": "Vil være or vil blive",
+    "statement": "Vil være = will be (a future state, or 'wants to be'); vil blive = will become (a future change) or will be + participle (future passive).",
+    "explanation": "The same contrast as være/blive applies after vil. Vil være describes how something will be in the future (Det vil være en fordel). Vil blive describes a future change (Priserne vil blive højere) or a future passive action (Mødet vil blive holdt i salen; the s-passive Mødet vil holdes is also common). Look for change words like højere, større, efterhånden, or a passive action with a time or a doer. Note that with a person as subject, vil være can also mean 'wants to be'.",
+    "examples": [
+      {
+        "wrong": "Mødet vil være holdt i den store sal på mandag.",
+        "right": "Mødet vil blive holdt i den store sal på mandag.",
+        "note": "A future passive action: vil blive + participle."
+      },
+      {
+        "right": "Det vil være en stor fordel at kunne tale dansk.",
+        "note": "A future state/situation: vil være."
+      },
+      {
+        "right": "Med tiden vil det blive lettere at forstå dialekterne.",
+        "note": "A change over time (lettere): vil blive."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "vb-skal-vaere-blive",
+    "da": "Skal være eller skal blive",
+    "en": "Skal være or skal blive",
+    "statement": "Skal være = must be / is going to be (a state, where an event takes place, or 'is said to be'); skal blive = is going to become, or must stay.",
+    "explanation": "Skal være describes a required or planned state (Du skal være stille), where an event will take place (Festen skal være hos Mette), or something people say (Filmen skal være god = it is said to be good). Skal blive describes a future change (Hun skal blive mor) and a passive action at a specific time. Remember that blive also means 'stay': skal blive hjemme, skal blive boende, skal blive ved med. A typical trap is translating 'is going to be' word for word when the meaning is really 'become'.",
+    "examples": [
+      {
+        "wrong": "Festen skal blive hos min søster på lørdag.",
+        "right": "Festen skal være hos min søster på lørdag.",
+        "note": "Where an event takes place: skal være."
+      },
+      {
+        "right": "Min datter skal blive mor til sommer.",
+        "note": "A change (becoming a mother): skal blive."
+      },
+      {
+        "right": "Vi skal blive boende her et år mere.",
+        "note": "Blive boende = stay living somewhere."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "vb-have-faa-state-change",
+    "da": "Have eller få 1 – tilstand eller forandring",
+    "en": "Have or få 1 – having or getting",
+    "statement": "Use have when you already possess something (state) and få when you receive or get it (change).",
+    "explanation": "Have describes possession or a situation that continues: Jeg har en bil, Han havde influenza hele ugen. Få describes the moment you receive or start having something: Jeg fik en bil i gave, Han fik influenza i mandags. It is the same idea as være (state) and blive (change). Clues for få are gifts, letters, answers and illnesses that start; clues for have are descriptions and words like hele, altid, stadig and lige nu. With visits both occur: Vi får besøg (the visitor arrives), Vi har besøg (the visitor is there).",
+    "examples": [
+      {
+        "wrong": "Jeg havde en ny telefon i fødselsdagsgave.",
+        "right": "Jeg fik en ny telefon i fødselsdagsgave.",
+        "note": "A gift is received: fik."
+      },
+      {
+        "right": "Vi har to børn og en hund.",
+        "note": "Possession now: har."
+      },
+      {
+        "right": "Hun fik feber i går og har stadig feber i dag.",
+        "note": "Fik = the fever started; har = it continues."
+      }
+    ],
+    "level": 1
+  },
+  {
+    "id": "vb-vil-have-faa",
+    "da": "Vil have eller vil få",
+    "en": "Vil have or vil få",
+    "statement": "Vil have usually means 'want' (Jeg vil have en kaffe); vil få means 'will get/receive' in the future.",
+    "explanation": "Vil have expresses a wish or demand: someone wants something, wants something done, or wants someone else to do something (Hun vil have, at vi kommer). Vil få is a neutral prediction that something will be received or will happen (Hvis du parkerer der, vil du få en bøde). A useful test: if the subject is a thing (a law, a price, the weather), it cannot want anything, so vil få … til at (will make … do) is the only choice. Fixed expressions such as få at vide (be told), få øje på and få noget ud af are built with få; but note vil have at vide = want to know, demand to know. In formal Danish vil have can also simply mean 'will have' with abstract nouns (Det vil have stor betydning).",
+    "examples": [
+      {
+        "wrong": "Jeg vil få en kop kaffe, tak.",
+        "right": "Jeg vil have en kop kaffe, tak.",
+        "note": "Ordering what you want: vil have."
+      },
+      {
+        "wrong": "Den nye cykelsti vil have flere til at cykle.",
+        "right": "Den nye cykelsti vil få flere til at cykle.",
+        "note": "A thing cannot want; få … til at = make someone do."
+      },
+      {
+        "right": "Chefen vil have, at vi møder kl. 8.",
+        "note": "Vil have + at-clause = wants that …"
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "vb-skal-have-faa",
+    "da": "Skal have eller skal få",
+    "en": "Skal have or skal få",
+    "statement": "Skal have is the normal choice for plans, orders and what you must have; skal få is used in fixed få-expressions and in promises or reassurance (skal nok få).",
+    "explanation": "In everyday Danish skal have covers most plans and needs: Vi skal have fisk i aften, Jeg skal have en kaffe, Man skal have pas med. Skal få appears mainly in expressions that are always built with få: få at vide (be told), få øje på (catch sight of), få det bedste ud af (make the best of), and in promises or comfort with nok: Du skal nok få dine penge. When a thing or event is the subject, få … til at means 'make … do' (Det skal nok få ham til at tænke sig om). With clothes, have på means wear. If none of these få-patterns applies, skal have is usually right.",
+    "examples": [
+      {
+        "wrong": "Jeg skal få en stor kaffe med mælk, tak.",
+        "right": "Jeg skal have en stor kaffe med mælk, tak.",
+        "note": "Ordering: skal have."
+      },
+      {
+        "wrong": "Du skal have at vide på fredag, om du har bestået.",
+        "right": "Du skal få at vide på fredag, om du har bestået.",
+        "note": "'Be told' is få at vide."
+      },
+      {
+        "right": "Bare rolig, du skal nok få dine penge tilbage.",
+        "note": "Reassurance/promise: skal nok få."
+      }
+    ],
+    "level": 3
+  }
+]

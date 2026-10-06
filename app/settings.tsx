@@ -17,7 +17,7 @@ import {
   type ThemeMode,
 } from '../src/profile/settings';
 import { ALL_LEVELS, LEVELS } from '../src/content/levels';
-import { DOMAIN_LABELS, LEVEL_DOMAINS, useCurrentLevel, useLevels, type LevelDomain } from '../src/profile/levelStore';
+import { DOMAIN_LABELS, isVisibleLevelDomain, LEVEL_DOMAINS, useCurrentLevel, useLevels, type LevelDomain } from '../src/profile/levelStore';
 import { ExamDatePicker } from '../src/ui/ExamDatePicker';
 import { Button, Card, Label, Txt, s } from '../src/ui/primitives';
 import { Screen } from '../src/ui/Screen';
@@ -359,7 +359,7 @@ export default function Settings() {
       </View>
       <Card>
         <View style={{ gap: t.space(4) }}>
-          {LEVEL_DOMAINS.map((domain) => (
+          {LEVEL_DOMAINS.filter(isVisibleLevelDomain).map((domain) => (
             <NiveauPicker key={domain} domain={domain} />
           ))}
         </View>

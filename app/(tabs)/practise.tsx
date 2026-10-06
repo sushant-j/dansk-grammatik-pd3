@@ -1,6 +1,7 @@
 import { useRouter } from 'expo-router';
 import React from 'react';
 import { VOCABULARY } from '../../src/content/vocabulary';
+import { DRILL_DOMAINS, drillDomain, type DrillDomainKey } from '../../src/drills/registry';
 import type { DomainKey } from '../../src/profile/overview';
 import { useOverview } from '../../src/profile/useOverview';
 import { DomainMeter, domainStatus } from '../../src/ui/DomainMeter';
@@ -16,7 +17,10 @@ import { useTheme } from '../../src/ui/theme';
  */
 type Entry = { key: DomainKey; detail: string };
 
-const GROUPS: { title: string; entries: Entry[] }[] = [
+/** A drill domain's row: its detail line is the registry's blurb. */
+const drill = (key: DrillDomainKey): Entry => ({ key, detail: drillDomain(key).blurb });
+
+const LISTED: { title: string; entries: Entry[] }[] = [
   {
     title: 'Sentences',
     entries: [
@@ -25,19 +29,50 @@ const GROUPS: { title: string; entries: Entry[] }[] = [
     ],
   },
   {
+    title: 'Verbs',
+    entries: [
+      { key: 'verbs', detail: '"Gik", not "gåede" — and "er" vs. "har".' },
+      drill('verb-tenses'),
+      drill('verb-blive-faa'),
+      drill('modal-verbs'),
+    ],
+  },
+  {
     title: 'Word forms',
     entries: [
       { key: 'nouns', detail: 'En or et, and "den røde bil" — never "bilen".' },
+      drill('noun-usage'),
       { key: 'adjectives', detail: 'Rød, rødt or røde: the noun decides.' },
-      { key: 'verbs', detail: '"Gik", not "gåede" — and "er" vs. "har".' },
+      drill('adjective-usage'),
+      drill('adverbs'),
       { key: 'spelling', detail: 'When the sound doesn’t match the spelling. Mainly for FVU.' },
     ],
   },
   {
+    title: 'Small words',
+    entries: [drill('pronouns'), drill('conjunctions'), drill('prepositions')],
+  },
+  {
     title: 'Words',
-    entries: [{ key: 'vocab', detail: `${VOCABULARY.length.toLocaleString('en')} words, from first nouns to PD3 connectors.` }],
+    entries: [
+      { key: 'vocab', detail: `${VOCABULARY.length.toLocaleString('en')} words, from first nouns to PD3 connectors.` },
+      drill('word-choice-verbs'),
+      drill('word-choice-other'),
+    ],
   },
 ];
+
+/**
+ * The groups as shown. The order above is hand-picked (a drill sits next to
+ * the trainer it extends), but no drill domain can go missing: one not placed
+ * above still appears, at the end of its registry group. Rows without an
+ * overview entry — drill domains with no topics yet — are left out.
+ */
+const PLACED = new Set(LISTED.flatMap((g) => g.entries.map((e) => e.key)));
+const GROUPS = LISTED.map((g) => {
+  const rest = DRILL_DOMAINS.filter((d) => d.group === g.title && !PLACED.has(d.key)).map((d) => drill(d.key));
+  return { title: g.title, entries: [...g.entries, ...rest] };
+});
 
 export default function Practise() {
   const t = useTheme();
@@ -50,26 +85,32 @@ export default function Practise() {
         Pick any trainer. Each one tracks its own rules, and the bar shows how many you have made solid.
       </Txt>
 
-      {GROUPS.map((g) => (
-        <ListGroup key={g.title} title={g.title}>
-          {g.entries.map((e) => {
-            const d = byKey[e.key];
-            const status = domainStatus(d, t);
-            return (
-              <ListRow
-                key={e.key}
-                title={d.label}
-                detail={e.detail}
-                meta={status.text}
-                metaColor={status.color}
-                onPress={() => router.push(d.route as never)}
-              >
-                <DomainMeter d={d} />
-              </ListRow>
-            );
-          })}
-        </ListGroup>
-      ))}
+      {GROUPS.map((g) => {
+        const rows = g.entries.flatMap((e) => {
+          const d = byKey[e.key];
+          return d ? [{ e, d }] : [];
+        });
+        if (rows.length === 0) return null;
+        return (
+          <ListGroup key={g.title} title={g.title}>
+            {rows.map(({ e, d }) => {
+              const status = domainStatus(d, t);
+              return (
+                <ListRow
+                  key={e.key}
+                  title={d.label}
+                  detail={e.detail}
+                  meta={status.text}
+                  metaColor={status.color}
+                  onPress={() => router.push(d.route as never)}
+                >
+                  <DomainMeter d={d} />
+                </ListRow>
+              );
+            })}
+          </ListGroup>
+        );
+      })}
 
       <ListGroup title="Writing">
         <ListRow

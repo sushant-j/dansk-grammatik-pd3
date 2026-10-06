@@ -18,21 +18,54 @@
 import { create } from 'zustand';
 import { MAX_LEVEL, startLevelFor, type Level } from '../content/levels';
 import type { Exam } from '../grammar/rules';
+import {
+  DRILL_DOMAIN_KEYS,
+  DRILL_DOMAINS,
+  drillDomain,
+  drillRoute,
+  isDrillDomainKey,
+  isDrillDomainLive,
+  type DrillDomainKey,
+} from '../drills/registry';
 import { recordSetLevel } from '../sync/bus';
 import { useSettings } from './settings';
 
-export type LevelDomain = 'grammar' | 'nouns' | 'verbs' | 'adjectives' | 'comma' | 'spelling' | 'vocab';
+/**
+ * Every domain with a niveau of its own: the hand-built trainers, then each
+ * drill domain from the registry (src/drills/registry.ts) — those are never
+ * listed by hand here, so a new drill domain climbs without touching this file.
+ */
+export type LevelDomain = 'grammar' | 'nouns' | 'verbs' | 'adjectives' | 'comma' | 'spelling' | 'vocab' | DrillDomainKey;
 
-export const LEVEL_DOMAINS: LevelDomain[] = ['grammar', 'nouns', 'verbs', 'adjectives', 'comma', 'spelling', 'vocab'];
+/** All of them, always — replay and the log need every key, content or not. */
+export const LEVEL_DOMAINS: LevelDomain[] = [
+  'grammar',
+  'nouns',
+  'verbs',
+  'adjectives',
+  'comma',
+  'spelling',
+  'vocab',
+  ...DRILL_DOMAIN_KEYS,
+];
+
+/**
+ * The domains worth showing a learner (Progress, Settings): all of them but
+ * drill domains that have no topics yet, which have nothing to climb through.
+ */
+export function isVisibleLevelDomain(domain: LevelDomain): boolean {
+  return !isDrillDomainKey(domain) || isDrillDomainLive(drillDomain(domain));
+}
 
 export const DOMAIN_LABELS: Record<LevelDomain, string> = {
   grammar: 'Word order',
   nouns: 'Gender: en / et',
-  verbs: 'Verbs',
+  verbs: 'Verb forms',
   adjectives: 'Adjectives',
   comma: 'Commas',
   spelling: 'Spelling',
   vocab: 'Vocabulary',
+  ...(Object.fromEntries(DRILL_DOMAINS.map((d) => [d.key, d.label])) as Record<DrillDomainKey, string>),
 };
 
 /** Attempts at the current niveau needed before a climb, and the window the hit rate is measured over. */
@@ -128,4 +161,5 @@ export const DOMAIN_ROUTES: Record<LevelDomain, string> = {
   comma: '/comma',
   spelling: '/spelling',
   vocab: '/vocab',
+  ...(Object.fromEntries(DRILL_DOMAIN_KEYS.map((k) => [k, drillRoute(k)])) as Record<DrillDomainKey, string>),
 };

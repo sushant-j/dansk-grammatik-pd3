@@ -131,9 +131,11 @@ function RootStack() {
         <Stack.Screen name="vocab" options={{ title: 'Vocabulary', ...OWN_HEADING }} />
         <Stack.Screen name="nouns" options={{ title: 'Gender: en / et', ...OWN_HEADING }} />
         <Stack.Screen name="adjectives" options={{ title: 'Adjective agreement', ...OWN_HEADING }} />
-        <Stack.Screen name="verbs" options={{ title: 'Verb tenses', ...OWN_HEADING }} />
+        <Stack.Screen name="verbs" options={{ title: 'Verb forms', ...OWN_HEADING }} />
         <Stack.Screen name="comma" options={{ title: 'Comma rules', ...OWN_HEADING }} />
         <Stack.Screen name="spelling" options={{ title: 'Spelling', ...OWN_HEADING }} />
+        {/* Each drill domain sets its own title from the registry. */}
+        <Stack.Screen name="drill/[domain]" options={{ title: 'Drill', ...OWN_HEADING }} />
         <Stack.Screen name="settings" options={{ title: 'Settings' }} />
         <Stack.Screen name="rule/[id]" options={{ title: 'Rule', ...OWN_HEADING }} />
         <Stack.Screen name="topics/index" options={{ title: 'Oral exam topics', ...OWN_HEADING }} />

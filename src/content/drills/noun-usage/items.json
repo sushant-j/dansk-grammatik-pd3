@@ -1,0 +1,1391 @@
+[
+  {
+    "id": "nu-nf-01",
+    "level": 1,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Jeg har købt en ny ___.",
+    "options": [
+      "bil",
+      "bilen",
+      "biler",
+      "bilerne"
+    ],
+    "answer": "bil",
+    "explanation": "After \"en ny\" you need the indefinite singular, so bil with no ending.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-02",
+    "level": 1,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Vi har to ___ derhjemme, en rød og en blå.",
+    "options": [
+      "bil",
+      "bilen",
+      "biler",
+      "bilerne"
+    ],
+    "answer": "biler",
+    "explanation": "The number \"to\" needs the plural, and it is indefinite: biler.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-03",
+    "level": 1,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Hvor har du parkeret ___? Jeg kan ikke se den.",
+    "options": [
+      "bil",
+      "bilen",
+      "biler",
+      "bilerne"
+    ],
+    "answer": "bilen",
+    "explanation": "\"den\" shows it is one car, and both speakers know which car: definite singular bilen.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-04",
+    "level": 2,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Jeg har tabt ___ til hoveddøren. Den lå i min lomme.",
+    "options": [
+      "nøgle",
+      "nøglen",
+      "nøgler",
+      "nøglerne"
+    ],
+    "answer": "nøglen",
+    "explanation": "\"Den\" shows one key, and it is a specific key (the one for the front door): nøglen.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-05",
+    "level": 1,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Min søster har et ___ i Aarhus.",
+    "options": [
+      "hus",
+      "huset",
+      "huse",
+      "husene"
+    ],
+    "answer": "hus",
+    "explanation": "After \"et\" the noun stays in the indefinite singular: et hus.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-06",
+    "level": 2,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Vi bor i ___ ved siden af skolen. Det er gult.",
+    "options": [
+      "hus",
+      "huset",
+      "huse",
+      "husene"
+    ],
+    "answer": "huset",
+    "explanation": "\"Det\" shows one house, and \"ved siden af skolen\" points out which one: definite huset.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-07",
+    "level": 2,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Der er mange gamle ___ i den her gade.",
+    "options": [
+      "hus",
+      "huset",
+      "huse",
+      "husene"
+    ],
+    "answer": "huse",
+    "explanation": "\"mange\" needs the plural, and it is indefinite: huse.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-08",
+    "level": 2,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Hvornår blev ___ i vores gade bygget? De ser meget gamle ud.",
+    "options": [
+      "hus",
+      "huset",
+      "huse",
+      "husene"
+    ],
+    "answer": "husene",
+    "explanation": "\"De\" shows plural, and \"i vores gade\" tells us exactly which houses: husene.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-09",
+    "level": 1,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Hvor mange ___ har I?",
+    "options": [
+      "barn",
+      "barnet",
+      "børn",
+      "børnene"
+    ],
+    "answer": "børn",
+    "explanation": "\"Hvor mange\" asks about a number, so you need the indefinite plural, which is irregular: børn.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-10",
+    "level": 2,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Vi henter ___ i børnehaven klokken fire. De er begge to trætte.",
+    "options": [
+      "barn",
+      "barnet",
+      "børn",
+      "børnene"
+    ],
+    "answer": "børnene",
+    "explanation": "\"De er begge to\" shows two known children: definite plural børnene.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-11",
+    "level": 2,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Min nabo venter et ___ i maj.",
+    "options": [
+      "barn",
+      "barnet",
+      "børn",
+      "børnene"
+    ],
+    "answer": "barn",
+    "explanation": "After \"et\" use the indefinite singular: et barn.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-12",
+    "level": 2,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Moren gav ___ et glas mælk, og så faldt han i søvn.",
+    "options": [
+      "barn",
+      "barnet",
+      "børn",
+      "børnene"
+    ],
+    "answer": "barnet",
+    "explanation": "\"han\" shows one child, and it is the child we are talking about: barnet.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-13",
+    "level": 2,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Har du set ___ fra i dag? Den lå på køkkenbordet i morges.",
+    "options": [
+      "avis",
+      "avisen",
+      "aviser",
+      "aviserne"
+    ],
+    "answer": "avisen",
+    "explanation": "\"Den\" and \"fra i dag\" show one particular paper that you both know about: avisen.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-14",
+    "level": 2,
+    "ruleId": "nu-noun-forms",
+    "prompt": "På biblioteket kan man læse både bøger og ___.",
+    "options": [
+      "avis",
+      "avisen",
+      "aviser",
+      "aviserne"
+    ],
+    "answer": "aviser",
+    "explanation": "Like \"bøger\", this means newspapers in general: indefinite plural aviser.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-15",
+    "level": 2,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Der sad tre ___ og ventede på bussen.",
+    "options": [
+      "mand",
+      "manden",
+      "mænd",
+      "mændene"
+    ],
+    "answer": "mænd",
+    "explanation": "\"tre\" needs the plural, and mand has an irregular plural: mænd.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-16",
+    "level": 3,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Kender du ___, der bor på tredje sal? Han hedder Jens.",
+    "options": [
+      "mand",
+      "manden",
+      "mænd",
+      "mændene"
+    ],
+    "answer": "manden",
+    "explanation": "\"Han\" shows one man, and the relative clause points out which one: manden.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-17",
+    "level": 3,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Har du læst ___, som jeg gav dig til jul? Den er virkelig god.",
+    "options": [
+      "bog",
+      "bogen",
+      "bøger",
+      "bøgerne"
+    ],
+    "answer": "bogen",
+    "explanation": "\"Den\" shows one book, and \"som jeg gav dig\" identifies it: bogen.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-18",
+    "level": 1,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Jeg skal købe tre ___ til mit danskkursus.",
+    "options": [
+      "bog",
+      "bogen",
+      "bøger",
+      "bøgerne"
+    ],
+    "answer": "bøger",
+    "explanation": "\"tre\" needs the plural; bog has a vowel change in the plural: bøger.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-19",
+    "level": 3,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Hvor har du lagt ___ fra biblioteket? Jeg kan ikke finde dem.",
+    "options": [
+      "bog",
+      "bogen",
+      "bøger",
+      "bøgerne"
+    ],
+    "answer": "bøgerne",
+    "explanation": "\"dem\" shows plural, and both speakers know which library books: bøgerne.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-20",
+    "level": 2,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Hun har store blå ___.",
+    "options": [
+      "øje",
+      "øjet",
+      "øjne",
+      "øjnene"
+    ],
+    "answer": "øjne",
+    "explanation": "A description with adjectives and no article takes the indefinite plural: øjne.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-21",
+    "level": 3,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Lægen kiggede på mit venstre ___.",
+    "options": [
+      "øje",
+      "øjet",
+      "øjne",
+      "øjnene"
+    ],
+    "answer": "øje",
+    "explanation": "After the possessive \"mit\" the noun gets no definite ending: mit venstre øje.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-22",
+    "level": 3,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Luk ___, og prøv at slappe af.",
+    "options": [
+      "øje",
+      "øjet",
+      "øjne",
+      "øjnene"
+    ],
+    "answer": "øjnene",
+    "explanation": "You close both of your own eyes, and body parts are definite in Danish: øjnene.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-23",
+    "level": 3,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Min ___ går i 3. klasse.",
+    "options": [
+      "dreng",
+      "drengen",
+      "drenge",
+      "drengene"
+    ],
+    "answer": "dreng",
+    "explanation": "After the possessive \"min\" use the bare form: min dreng, never *min drengen.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-24",
+    "level": 3,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Vores ___ er flyttet hjemmefra, så nu er huset stille.",
+    "options": [
+      "barn",
+      "barnet",
+      "børn",
+      "børnene"
+    ],
+    "answer": "børn",
+    "explanation": "After the possessive \"vores\" there is no definite ending; the plural of barn is børn.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-nf-25",
+    "level": 3,
+    "ruleId": "nu-noun-forms",
+    "prompt": "Jeg kan godt lide ___ på min datters skole. De er altid søde.",
+    "options": [
+      "lærer",
+      "læreren",
+      "lærere",
+      "lærerne"
+    ],
+    "answer": "lærerne",
+    "explanation": "\"De\" shows plural, and \"på min datters skole\" says exactly which teachers: lærerne.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-01",
+    "level": 1,
+    "ruleId": "nu-general-singular",
+    "prompt": "Vi spiser ___ til aftensmad i dag.",
+    "options": [
+      "fisk",
+      "en fisk"
+    ],
+    "answer": "fisk",
+    "explanation": "Fish as food is a substance, so there is no article: spise fisk.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-02",
+    "level": 1,
+    "ruleId": "nu-general-singular",
+    "prompt": "Jeg kan godt lide ___, især laks.",
+    "options": [
+      "fisk",
+      "en fisk"
+    ],
+    "answer": "fisk",
+    "explanation": "You like fish as a kind of food in general, so use the bare noun.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-03",
+    "level": 2,
+    "ruleId": "nu-general-singular",
+    "prompt": "Der svømmer ___ i akvariet. Den er orange.",
+    "options": [
+      "fisk",
+      "en fisk"
+    ],
+    "answer": "en fisk",
+    "explanation": "\"Den\" shows one single, countable fish, so you need the article en.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-04",
+    "level": 1,
+    "ruleId": "nu-general-singular",
+    "prompt": "Min mand er ___.",
+    "options": [
+      "læge",
+      "en læge"
+    ],
+    "answer": "læge",
+    "explanation": "A profession after \"er\" takes no article in Danish: Han er læge.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-05",
+    "level": 2,
+    "ruleId": "nu-general-singular",
+    "prompt": "Hun blev ___ efter seks år på universitetet.",
+    "options": [
+      "læge",
+      "en læge"
+    ],
+    "answer": "læge",
+    "explanation": "A profession after \"blive\" also takes no article.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-06",
+    "level": 4,
+    "ruleId": "nu-general-singular",
+    "prompt": "Min mand er ___, som alle patienterne kan lide.",
+    "options": [
+      "læge",
+      "en læge"
+    ],
+    "answer": "en læge",
+    "explanation": "The relative clause describes what kind of doctor he is, so the article comes back: en læge, som …",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-07",
+    "level": 3,
+    "ruleId": "nu-general-singular",
+    "prompt": "Hans far er ___, og han har selv bygget deres hus.",
+    "options": [
+      "dygtig tømrer",
+      "en dygtig tømrer"
+    ],
+    "answer": "en dygtig tømrer",
+    "explanation": "With an adjective (dygtig) a profession noun needs the article: en dygtig tømrer.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-08",
+    "level": 2,
+    "ruleId": "nu-general-singular",
+    "prompt": "Jeg vil gerne være ___, når jeg bliver stor.",
+    "options": [
+      "politibetjent",
+      "en politibetjent"
+    ],
+    "answer": "politibetjent",
+    "explanation": "A job after \"være\" takes no article.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-09",
+    "level": 2,
+    "ruleId": "nu-general-singular",
+    "prompt": "Min bror er ___ og arbejder på et hospital.",
+    "options": [
+      "sygeplejerske",
+      "en sygeplejerske"
+    ],
+    "answer": "sygeplejerske",
+    "explanation": "Profession after \"er\" with no adjective: no article.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-10",
+    "level": 3,
+    "ruleId": "nu-general-singular",
+    "prompt": "Hun er ___ og har undervist i tyve år.",
+    "options": [
+      "lærer",
+      "en lærer"
+    ],
+    "answer": "lærer",
+    "explanation": "This simply states her job, so no article: Hun er lærer.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-11",
+    "level": 4,
+    "ruleId": "nu-general-singular",
+    "prompt": "Han er ___ af den gamle skole, der altid kræver ro i klassen.",
+    "options": [
+      "lærer",
+      "en lærer"
+    ],
+    "answer": "en lærer",
+    "explanation": "Here the noun describes what kind of teacher he is (af den gamle skole, der …), so it needs en.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-12",
+    "level": 2,
+    "ruleId": "nu-general-singular",
+    "prompt": "Jeg tager altid ___ på arbejde.",
+    "options": [
+      "bus",
+      "en bus"
+    ],
+    "answer": "bus",
+    "explanation": "\"tage bus\" is a fixed expression for a means of transport: no article.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-13",
+    "level": 2,
+    "ruleId": "nu-general-singular",
+    "prompt": "Han kører ___ til arbejde hver dag.",
+    "options": [
+      "bil",
+      "en bil"
+    ],
+    "answer": "bil",
+    "explanation": "\"køre bil\" names the activity of driving, not one particular car: no article.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-14",
+    "level": 2,
+    "ruleId": "nu-general-singular",
+    "prompt": "De har lige købt ___ til 80.000 kroner.",
+    "options": [
+      "bil",
+      "en bil"
+    ],
+    "answer": "en bil",
+    "explanation": "They bought one concrete car with a price, so use the article.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-15",
+    "level": 2,
+    "ruleId": "nu-general-singular",
+    "prompt": "Min søn spiller ___ hver tirsdag.",
+    "options": [
+      "klaver",
+      "et klaver"
+    ],
+    "answer": "klaver",
+    "explanation": "\"spille klaver\" (play the piano as an activity) has no article.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-16",
+    "level": 3,
+    "ruleId": "nu-general-singular",
+    "prompt": "Vi har købt ___ til stuen. Det var brugt, men det lyder godt.",
+    "options": [
+      "klaver",
+      "et klaver"
+    ],
+    "answer": "et klaver",
+    "explanation": "Here it is one physical object you can buy, shown by \"Det\", so you need et.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-17",
+    "level": 2,
+    "ruleId": "nu-general-singular",
+    "prompt": "Hun har ___ og bliver hjemme fra skole i dag.",
+    "options": [
+      "feber",
+      "en feber"
+    ],
+    "answer": "feber",
+    "explanation": "\"have feber\" is a fixed expression for being ill: no article.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-18",
+    "level": 2,
+    "ruleId": "nu-general-singular",
+    "prompt": "Jeg har ikke ___ til at hjælpe dig i dag.",
+    "options": [
+      "tid",
+      "en tid"
+    ],
+    "answer": "tid",
+    "explanation": "Time as an uncountable amount takes no article; \"en tid\" would mean an appointment.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-19",
+    "level": 1,
+    "ruleId": "nu-general-singular",
+    "prompt": "Børnene skal i ___ igen på mandag efter ferien.",
+    "options": [
+      "skole",
+      "en skole"
+    ],
+    "answer": "skole",
+    "explanation": "\"gå/skulle i skole\" means attending school as an institution: no article.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-20",
+    "level": 2,
+    "ruleId": "nu-general-singular",
+    "prompt": "De har købt ___ med en stor have.",
+    "options": [
+      "hus",
+      "et hus"
+    ],
+    "answer": "et hus",
+    "explanation": "One concrete house that was bought: et hus.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-21",
+    "level": 1,
+    "ruleId": "nu-general-singular",
+    "prompt": "Jeg drikker aldrig ___ om aftenen, for så sover jeg dårligt.",
+    "options": [
+      "kaffe",
+      "en kaffe"
+    ],
+    "answer": "kaffe",
+    "explanation": "Coffee as a drink in general is a substance: no article.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-22",
+    "level": 1,
+    "ruleId": "nu-general-singular",
+    "prompt": "Vi hører altid ___, når vi laver mad.",
+    "options": [
+      "musik",
+      "en musik"
+    ],
+    "answer": "musik",
+    "explanation": "\"musik\" is uncountable and takes no article here.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-23",
+    "level": 1,
+    "ruleId": "nu-general-singular",
+    "prompt": "Har du ___, jeg kan låne? Jeg har glemt min.",
+    "options": [
+      "kuglepen",
+      "en kuglepen"
+    ],
+    "answer": "en kuglepen",
+    "explanation": "You ask for one countable object, so you need the article en.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-24",
+    "level": 1,
+    "ruleId": "nu-general-singular",
+    "prompt": "I weekenden spiller jeg ___ med mine venner.",
+    "options": [
+      "fodbold",
+      "en fodbold"
+    ],
+    "answer": "fodbold",
+    "explanation": "\"spille fodbold\" is the game (activity): no article.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-25",
+    "level": 2,
+    "ruleId": "nu-general-singular",
+    "prompt": "Min søn fik ___ i fødselsdagsgave. Den er hvid og sort.",
+    "options": [
+      "fodbold",
+      "en fodbold"
+    ],
+    "answer": "en fodbold",
+    "explanation": "Here it is the ball, one object shown by \"Den\": en fodbold.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-26",
+    "level": 3,
+    "ruleId": "nu-general-singular",
+    "prompt": "Det var ___, og vi sad ude hele eftermiddagen.",
+    "options": [
+      "dejlig dag",
+      "en dejlig dag"
+    ],
+    "answer": "en dejlig dag",
+    "explanation": "A countable noun with an adjective needs the article: en dejlig dag.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gs-27",
+    "level": 3,
+    "ruleId": "nu-general-singular",
+    "prompt": "Hun læser ___ på universitetet og vil gerne være læge.",
+    "options": [
+      "medicin",
+      "en medicin"
+    ],
+    "answer": "medicin",
+    "explanation": "\"læse medicin\" names a subject of study: no article.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-01",
+    "level": 2,
+    "ruleId": "nu-general-plural",
+    "prompt": "Min datter er bange for ___. Hun skriger, hver gang hun ser en.",
+    "options": [
+      "edderkopper",
+      "en edderkop"
+    ],
+    "answer": "edderkopper",
+    "explanation": "She fears spiders in general, so use the plural without an article.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-02",
+    "level": 2,
+    "ruleId": "nu-general-plural",
+    "prompt": "Jeg kan godt lide ___, men jeg er allergisk over for dem.",
+    "options": [
+      "katte",
+      "en kat"
+    ],
+    "answer": "katte",
+    "explanation": "Likes about a whole kind of animal use the plural; \"dem\" confirms it.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-03",
+    "level": 1,
+    "ruleId": "nu-general-plural",
+    "prompt": "Vi har ___. Den hedder Felix.",
+    "options": [
+      "katte",
+      "en kat"
+    ],
+    "answer": "en kat",
+    "explanation": "\"Den hedder Felix\" shows one individual cat: en kat.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-04",
+    "level": 2,
+    "ruleId": "nu-general-plural",
+    "prompt": "Hun samler på ___ fra hele verden.",
+    "options": [
+      "frimærker",
+      "et frimærke"
+    ],
+    "answer": "frimærker",
+    "explanation": "A collection is many things of one kind: plural frimærker.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-05",
+    "level": 2,
+    "ruleId": "nu-general-plural",
+    "prompt": "Min søn ønsker sig ___ til jul – en rød med tre gear.",
+    "options": [
+      "cykler",
+      "en cykel"
+    ],
+    "answer": "en cykel",
+    "explanation": "\"en rød\" shows that he wants one particular bike: en cykel.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-06",
+    "level": 3,
+    "ruleId": "nu-general-plural",
+    "prompt": "I Danmark spiser mange mennesker ___ til frokost.",
+    "options": [
+      "rugbrød",
+      "et rugbrød"
+    ],
+    "answer": "rugbrød",
+    "explanation": "Bread as food is a mass noun, so use the bare form; \"et rugbrød\" would be one whole loaf.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-07",
+    "level": 2,
+    "ruleId": "nu-general-plural",
+    "prompt": "Jeg køber ___ til hele familien hos bageren hver lørdag.",
+    "options": [
+      "rundstykker",
+      "et rundstykke"
+    ],
+    "answer": "rundstykker",
+    "explanation": "For the whole family you buy several rolls: plural rundstykker.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-08",
+    "level": 2,
+    "ruleId": "nu-general-plural",
+    "prompt": "Mine børn elsker ___, især elefanter og giraffer.",
+    "options": [
+      "dyr",
+      "et dyr"
+    ],
+    "answer": "dyr",
+    "explanation": "Animals in general: plural, which for dyr has the same form as the singular.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-09",
+    "level": 3,
+    "ruleId": "nu-general-plural",
+    "prompt": "Hun arbejder med ___ på et plejehjem.",
+    "options": [
+      "ældre mennesker",
+      "et ældre menneske"
+    ],
+    "answer": "ældre mennesker",
+    "explanation": "Her job is with old people as a group: plural without an article.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-10",
+    "level": 2,
+    "ruleId": "nu-general-plural",
+    "prompt": "Jeg læser mest ___ om historie.",
+    "options": [
+      "bøger",
+      "en bog"
+    ],
+    "answer": "bøger",
+    "explanation": "\"mest\" talks about your reading habits in general: plural bøger.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-11",
+    "level": 2,
+    "ruleId": "nu-general-plural",
+    "prompt": "Lige nu læser jeg ___ om Anden Verdenskrig. Den er spændende.",
+    "options": [
+      "bøger",
+      "en bog"
+    ],
+    "answer": "en bog",
+    "explanation": "\"Lige nu\" and \"Den\" point to one particular book: en bog.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-12",
+    "level": 1,
+    "ruleId": "nu-general-plural",
+    "prompt": "Der ligger ___ i skålen. Vil du have et?",
+    "options": [
+      "æbler",
+      "et æble"
+    ],
+    "answer": "æbler",
+    "explanation": "\"Vil du have et?\" means one of several, so there are many apples: æbler.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-13",
+    "level": 2,
+    "ruleId": "nu-general-plural",
+    "prompt": "På markedet sælger de ___ fra lokale gårde.",
+    "options": [
+      "grøntsager",
+      "en grøntsag"
+    ],
+    "answer": "grøntsager",
+    "explanation": "A market sells vegetables in general: plural grøntsager.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-14",
+    "level": 2,
+    "ruleId": "nu-general-plural",
+    "prompt": "Vi skal have ___ til aftensmad; jeg har købt to kilo.",
+    "options": [
+      "kartofler",
+      "en kartoffel"
+    ],
+    "answer": "kartofler",
+    "explanation": "Two kilos are many potatoes: plural kartofler.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-15",
+    "level": 3,
+    "ruleId": "nu-general-plural",
+    "prompt": "Hun er god til ___ og taler både fransk, tysk og spansk.",
+    "options": [
+      "sprog",
+      "et sprog"
+    ],
+    "answer": "sprog",
+    "explanation": "Languages in general (she speaks three): plural, which for sprog looks like the singular.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-16",
+    "level": 3,
+    "ruleId": "nu-general-plural",
+    "prompt": "Han er i gang med at lære ___. Det er japansk.",
+    "options": [
+      "nye sprog",
+      "et nyt sprog"
+    ],
+    "answer": "et nyt sprog",
+    "explanation": "\"Det er japansk\" names one language: et nyt sprog.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-17",
+    "level": 3,
+    "ruleId": "nu-general-plural",
+    "prompt": "Elbiler er bedre for miljøet end ___ med benzinmotor.",
+    "options": [
+      "biler",
+      "en bil"
+    ],
+    "answer": "biler",
+    "explanation": "A general comparison of two types of car: plural, like \"Elbiler\".",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-18",
+    "level": 3,
+    "ruleId": "nu-general-plural",
+    "prompt": "Hun har repareret ___ i tredive år.",
+    "options": [
+      "cykler",
+      "en cykel"
+    ],
+    "answer": "cykler",
+    "explanation": "Thirty years of work means bikes in general: plural cykler.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-19",
+    "level": 3,
+    "ruleId": "nu-general-plural",
+    "prompt": "Afdelingen har brug for ___ – mindst fem nye.",
+    "options": [
+      "sygeplejersker",
+      "en sygeplejerske"
+    ],
+    "answer": "sygeplejersker",
+    "explanation": "\"mindst fem\" shows that several nurses are needed: plural.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-20",
+    "level": 3,
+    "ruleId": "nu-general-plural",
+    "prompt": "Kommunen søger ___ til rengøring i svømmehallen. Der er kun én stilling.",
+    "options": [
+      "medarbejdere",
+      "en medarbejder"
+    ],
+    "answer": "en medarbejder",
+    "explanation": "\"kun én stilling\" means one person: en medarbejder.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-21",
+    "level": 3,
+    "ruleId": "nu-general-plural",
+    "prompt": "Jeg er allergisk over for ___ og kan ikke spise kage med mandler.",
+    "options": [
+      "nødder",
+      "en nød"
+    ],
+    "answer": "nødder",
+    "explanation": "An allergy is to nuts in general: plural nødder.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-22",
+    "level": 2,
+    "ruleId": "nu-general-plural",
+    "prompt": "Jeg kan ikke lide ___; de larmer så meget.",
+    "options": [
+      "motorcykler",
+      "en motorcykel"
+    ],
+    "answer": "motorcykler",
+    "explanation": "A general dislike of a kind of thing, confirmed by \"de\": plural.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-23",
+    "level": 2,
+    "ruleId": "nu-general-plural",
+    "prompt": "Der sidder ___ i vinduet. Den er helt sort.",
+    "options": [
+      "fugle",
+      "en fugl"
+    ],
+    "answer": "en fugl",
+    "explanation": "\"Den\" shows one bird: en fugl.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-24",
+    "level": 3,
+    "ruleId": "nu-general-plural",
+    "prompt": "Vi har købt nye ___ til stuen: en sofa og to lænestole.",
+    "options": [
+      "møbler",
+      "et møbel"
+    ],
+    "answer": "møbler",
+    "explanation": "\"nye\" and the list show several pieces of furniture: plural møbler.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-gp-25",
+    "level": 3,
+    "ruleId": "nu-general-plural",
+    "prompt": "Om vinteren er ___ ofte mere trætte end om sommeren.",
+    "options": [
+      "mennesker",
+      "et menneske"
+    ],
+    "answer": "mennesker",
+    "explanation": "A general statement about people, and \"trætte\" is a plural adjective: mennesker.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-01",
+    "level": 2,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Der lå ___ i postkassen i morges. Det var fra kommunen.",
+    "options": [
+      "et brev",
+      "brevet"
+    ],
+    "answer": "et brev",
+    "explanation": "The letter is mentioned for the first time, so it is new information: et brev.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-02",
+    "level": 2,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Jeg har fået et brev fra kommunen, men jeg forstår ikke ___.",
+    "options": [
+      "et brev",
+      "brevet"
+    ],
+    "answer": "brevet",
+    "explanation": "The letter has just been mentioned, so now it is known: brevet.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-03",
+    "level": 2,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Vi har købt ___ på Østerbro. Den har tre værelser.",
+    "options": [
+      "en lejlighed",
+      "lejligheden"
+    ],
+    "answer": "en lejlighed",
+    "explanation": "First mention of the flat: indefinite en lejlighed.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-04",
+    "level": 1,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Det er dejligt vejr i dag; ___ skinner.",
+    "options": [
+      "en sol",
+      "solen"
+    ],
+    "answer": "solen",
+    "explanation": "There is only one sun, so it is always definite: solen.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-05",
+    "level": 2,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Jeg har ondt i ___.",
+    "options": [
+      "et hoved",
+      "hovedet"
+    ],
+    "answer": "hovedet",
+    "explanation": "Your own body parts are definite in Danish: ondt i hovedet.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-06",
+    "level": 2,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Undskyld, hvor er ___ henne? – Nede ad gangen til venstre.",
+    "options": [
+      "et toilet",
+      "toilettet"
+    ],
+    "answer": "toilettet",
+    "explanation": "You ask about the toilet of the place you are in, which both people know exists: toilettet.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-07",
+    "level": 1,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Min søster har ___ og to katte.",
+    "options": [
+      "en hund",
+      "hunden"
+    ],
+    "answer": "en hund",
+    "explanation": "First mention of the dog: en hund.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-08",
+    "level": 2,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Min søster har en hund og to katte. ___ hedder Bastian.",
+    "options": [
+      "En hund",
+      "Hunden"
+    ],
+    "answer": "Hunden",
+    "explanation": "The dog was just mentioned, so it is known: Hunden.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-09",
+    "level": 2,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Kan du lukke ___? Det trækker.",
+    "options": [
+      "et vindue",
+      "vinduet"
+    ],
+    "answer": "vinduet",
+    "explanation": "You both know which window (the open one in the room): vinduet.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-10",
+    "level": 2,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Hvem har spist ___? Jeg havde lagt den i køleskabet.",
+    "options": [
+      "en kage",
+      "kagen"
+    ],
+    "answer": "kagen",
+    "explanation": "It is a specific cake the speaker put in the fridge: kagen.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-11",
+    "level": 2,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Jeg har bagt ___ med chokolade og hindbær. Vil du smage?",
+    "options": [
+      "en kage",
+      "kagen"
+    ],
+    "answer": "en kage",
+    "explanation": "The cake is new information to the listener: en kage.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-12",
+    "level": 3,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Jeg mødte ___ i bussen i går. Hun talte kun spansk.",
+    "options": [
+      "en kvinde",
+      "kvinden"
+    ],
+    "answer": "en kvinde",
+    "explanation": "An unknown woman is introduced for the first time: en kvinde.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-13",
+    "level": 4,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Vi bor i et gammelt hus på landet, og ___ er så stor, at børnene kan spille fodbold.",
+    "options": [
+      "en have",
+      "haven"
+    ],
+    "answer": "haven",
+    "explanation": "The garden belongs to the house just mentioned, so the listener knows which one: haven.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-14",
+    "level": 4,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Vi var på restaurant i går. Maden var god, men ___ var meget langsom.",
+    "options": [
+      "en tjener",
+      "tjeneren"
+    ],
+    "answer": "tjeneren",
+    "explanation": "The waiter is the one at that restaurant, already known from context: tjeneren.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-15",
+    "level": 4,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Jeg har købt en brugt cykel, men ___ virker ikke.",
+    "options": [
+      "et lys",
+      "lyset"
+    ],
+    "answer": "lyset",
+    "explanation": "The light is part of the bike just mentioned: lyset.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-16",
+    "level": 2,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Kan du række mig ___? Kartoflerne mangler lidt salt.",
+    "options": [
+      "et salt",
+      "saltet"
+    ],
+    "answer": "saltet",
+    "explanation": "You mean the salt on the table that you both can see: saltet.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-17",
+    "level": 3,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Jeg arbejder tre dage om ___.",
+    "options": [
+      "en uge",
+      "ugen"
+    ],
+    "answer": "ugen",
+    "explanation": "\"om ugen\" (per week) is a fixed phrase with the definite form.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-18",
+    "level": 3,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Vi tager på ferie to gange om ___.",
+    "options": [
+      "et år",
+      "året"
+    ],
+    "answer": "året",
+    "explanation": "\"om året\" (per year) is a fixed phrase with the definite form.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-19",
+    "level": 3,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Hun har boet i Danmark i ___ nu, og hun taler allerede godt dansk.",
+    "options": [
+      "et år",
+      "året"
+    ],
+    "answer": "et år",
+    "explanation": "This is a length of time (one year), not a known year: i et år.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-20",
+    "level": 3,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Vi så ___ i biografen i går, men jeg kan ikke huske, hvad den hed.",
+    "options": [
+      "en film",
+      "filmen"
+    ],
+    "answer": "en film",
+    "explanation": "The listener does not know which film; you cannot even remember its name: en film.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-21",
+    "level": 3,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Hvordan var ___, du så i går?",
+    "options": [
+      "en film",
+      "filmen"
+    ],
+    "answer": "filmen",
+    "explanation": "\"du så i går\" points out exactly which film: filmen.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-22",
+    "level": 4,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "De har ___, der hedder Max.",
+    "options": [
+      "en søn",
+      "sønnen"
+    ],
+    "answer": "en søn",
+    "explanation": "The son is new information; the relative clause only gives his name, so keep en søn.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-23",
+    "level": 3,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Hvem er ___ i den blå jakke derovre?",
+    "options": [
+      "en mand",
+      "manden"
+    ],
+    "answer": "manden",
+    "explanation": "\"i den blå jakke derovre\" points out one man you can both see: manden.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-24",
+    "level": 2,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Kan du tage ___ ud? Det lugter.",
+    "options": [
+      "et skrald",
+      "skraldet"
+    ],
+    "answer": "skraldet",
+    "explanation": "You mean the household rubbish you both know about: skraldet.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-25",
+    "level": 3,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Kan du huske ___, vi boede i, da vi var børn?",
+    "options": [
+      "et hus",
+      "huset"
+    ],
+    "answer": "huset",
+    "explanation": "\"vi boede i\" identifies one particular house: huset.",
+    "reviewed": false
+  },
+  {
+    "id": "nu-di-26",
+    "level": 3,
+    "ruleId": "nu-definite-indefinite",
+    "prompt": "Hun søgte et job i en bank, og i går fik hun ___.",
+    "options": [
+      "et job",
+      "jobbet"
+    ],
+    "answer": "jobbet",
+    "explanation": "It is the job just mentioned (the one she applied for): jobbet.",
+    "reviewed": false
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "nu-noun-forms",
+    "da": "Substantivets former",
+    "en": "Noun forms: indefinite/definite, singular/plural",
+    "statement": "Every Danish noun has four forms — indefinite and definite, singular and plural (bil, bilen, biler, bilerne) — and the sentence decides which one you need.",
+    "explanation": "Use the indefinite singular after en/et, and remember that possessives (min, vores, Peters) always take the bare form without an ending. Use the definite (-en/-et, -ne) when the listener knows which one you mean, e.g. it was mentioned before or a relative clause points it out. Numbers and words like mange/flere need the plural. Learn the irregular plurals (barn – børn, mand – mænd, bog – bøger, øje – øjne). The classic trap is adding a definite ending after a possessive: min bil, not *min bilen.",
+    "examples": [
+      {
+        "wrong": "Min bilen er rød.",
+        "right": "Min bil er rød.",
+        "note": "After a possessive the noun has no definite ending."
+      },
+      {
+        "right": "Vi har tre børn. Børnene går i skole.",
+        "note": "Plural after a number; definite plural once we know which children."
+      },
+      {
+        "wrong": "Han har to barner.",
+        "right": "Han har to børn.",
+        "note": "barn has an irregular plural: børn, børnene."
+      }
+    ],
+    "level": 1
+  },
+  {
+    "id": "nu-general-singular",
+    "da": "Generel form eller ubestemt form – ental",
+    "en": "General (no article) vs indefinite form — singular",
+    "statement": "Use the bare noun with no article for a substance, an activity, a profession or a fixed expression, and en/et + noun for one countable individual thing.",
+    "explanation": "Danish leaves out the article when a noun names a substance or something in general (Jeg spiser fisk, Jeg drikker kaffe), a job or role after være/blive (Han er læge), and in fixed verb phrases (spille fodbold, køre bil, have feber, gå i skole). Use en/et when you mean one concrete, countable thing (Der svømmer en fisk i akvariet) or when the profession noun has an adjective or a relative clause describing the person (Han er en dygtig læge). The typical trap is copying English: *Hun er en sygeplejerske.",
+    "examples": [
+      {
+        "wrong": "Hun er en sygeplejerske.",
+        "right": "Hun er sygeplejerske.",
+        "note": "Profession after være: no article."
+      },
+      {
+        "right": "Hun er en dygtig sygeplejerske.",
+        "note": "With an adjective the article comes back."
+      },
+      {
+        "right": "Jeg spiser fisk. / Jeg fangede en fisk.",
+        "note": "Fish as food (substance) vs one fish (countable)."
+      }
+    ],
+    "level": 2
+  },
+  {
+    "id": "nu-general-plural",
+    "da": "Generel form eller ubestemt form – flertal",
+    "en": "General vs indefinite form — plural",
+    "statement": "When you talk about a kind of thing in general, use the plural without an article (Jeg kan godt lide katte); use en/et + singular only for one individual.",
+    "explanation": "Statements about likes, fears, hobbies, jobs and categories use the indefinite plural: Hun er bange for hunde, Han samler på frimærker, Hun reparerer biler. Use en/et + singular when you mean one particular (or one single) thing, often shown by den/det later in the text. Mass nouns such as rugbrød, mælk, kaffe have no such plural and stay in the bare singular. The learner trap is using the singular for a whole category (*Jeg kan godt lide en kat).",
+    "examples": [
+      {
+        "wrong": "Jeg er bange for en hund.",
+        "right": "Jeg er bange for hunde.",
+        "note": "A general fear of the whole category: plural, no article."
+      },
+      {
+        "right": "Vi har en hund. Den hedder Max.",
+        "note": "One particular animal: en + singular."
+      },
+      {
+        "wrong": "Vi spiser rugbrøder til frokost.",
+        "right": "Vi spiser rugbrød til frokost.",
+        "note": "Mass noun: bare singular, no plural."
+      }
+    ],
+    "level": 3
+  },
+  {
+    "id": "nu-definite-indefinite",
+    "da": "Bestemt eller ubestemt form",
+    "en": "Definite (known) vs indefinite (unknown) form",
+    "statement": "Use the indefinite form (en/et) for something new to the listener and the definite form (-en/-et/-ne) for something the listener can identify.",
+    "explanation": "First mention is usually indefinite (Jeg har fået et brev); the next mention is definite (Brevet er fra kommunen). Things that are unique (solen), part of something already mentioned (et hus … haven), or pointed out by a following relative clause (filmen, du så) are definite. Several fixed phrases are definite too: ondt i hovedet, tre dage om ugen. Be careful: a relative clause that only describes does not make the noun definite (De har en søn, der hedder Max).",
+    "examples": [
+      {
+        "right": "Jeg har købt en lejlighed. Lejligheden har tre værelser.",
+        "note": "New information first, known information second."
+      },
+      {
+        "wrong": "Jeg har ondt i et hoved.",
+        "right": "Jeg har ondt i hovedet.",
+        "note": "Your own body parts are definite."
+      },
+      {
+        "wrong": "Jeg arbejder tre dage om en uge.",
+        "right": "Jeg arbejder tre dage om ugen.",
+        "note": "Fixed phrase: om ugen, om året."
+      }
+    ],
+    "level": 2
+  }
+]

@@ -1,0 +1,1679 @@
+[
+  {
+    "id": "pp-fortil-01",
+    "level": 1,
+    "ruleId": "pp-for-til",
+    "prompt": "Tak ___ hjælpen i går!",
+    "options": [
+      "for",
+      "til"
+    ],
+    "answer": "for",
+    "explanation": "tak always takes for: tak for hjælpen.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-02",
+    "level": 1,
+    "ruleId": "pp-for-til",
+    "prompt": "Jeg har købt en gave ___ min mor.",
+    "options": [
+      "til",
+      "for"
+    ],
+    "answer": "til",
+    "explanation": "A present is given to a receiver, so it is en gave til – not “for” as in English.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-03",
+    "level": 1,
+    "ruleId": "pp-for-til",
+    "prompt": "Toget ___ København kører fra spor 3.",
+    "options": [
+      "for",
+      "til"
+    ],
+    "answer": "til",
+    "explanation": "A destination takes til: toget til København.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-04",
+    "level": 1,
+    "ruleId": "pp-for-til",
+    "prompt": "Hun flytter ___ Odense efter sommerferien.",
+    "options": [
+      "til",
+      "for"
+    ],
+    "answer": "til",
+    "explanation": "Movement to a place takes til: flytte til Odense.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-05",
+    "level": 1,
+    "ruleId": "pp-for-til",
+    "prompt": "Der ligger en pakke ___ dig på bordet.",
+    "options": [
+      "for",
+      "til"
+    ],
+    "answer": "til",
+    "explanation": "The parcel is meant to be given to you (receiver), so til.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-06",
+    "level": 1,
+    "ruleId": "pp-for-til",
+    "prompt": "Ring ___ mig, når du er kommet hjem.",
+    "options": [
+      "til",
+      "for"
+    ],
+    "answer": "til",
+    "explanation": "ringe til nogen = to call someone.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-07",
+    "level": 2,
+    "ruleId": "pp-for-til",
+    "prompt": "Hvad skal vi have ___ aftensmad i dag?",
+    "options": [
+      "for",
+      "til"
+    ],
+    "answer": "til",
+    "explanation": "Meals take til: til morgenmad, til frokost, til aftensmad.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-08",
+    "level": 2,
+    "ruleId": "pp-for-til",
+    "prompt": "Min søn er bange ___ store hunde.",
+    "options": [
+      "til",
+      "for"
+    ],
+    "answer": "for",
+    "explanation": "bange (afraid) always takes for: bange for.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-09",
+    "level": 2,
+    "ruleId": "pp-for-til",
+    "prompt": "Vi betalte 3.000 kr. ___ den gamle cykel.",
+    "options": [
+      "for",
+      "til"
+    ],
+    "answer": "for",
+    "explanation": "Paying in exchange for something takes for: betale … for cyklen.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-10",
+    "level": 2,
+    "ruleId": "pp-for-til",
+    "prompt": "Det er svært ___ mig at forstå jysk.",
+    "options": [
+      "til",
+      "for"
+    ],
+    "answer": "for",
+    "explanation": "“Difficult for someone” is svært for nogen.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-11",
+    "level": 2,
+    "ruleId": "pp-for-til",
+    "prompt": "Jeg er meget glad ___ min nye lejlighed.",
+    "options": [
+      "for",
+      "til"
+    ],
+    "answer": "for",
+    "explanation": "glad for = happy with / fond of something lasting.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-12",
+    "level": 2,
+    "ruleId": "pp-for-til",
+    "prompt": "Butikken har åbent ___ klokken 20 i dag.",
+    "options": [
+      "til",
+      "for"
+    ],
+    "answer": "til",
+    "explanation": "An end point in time takes til: åbent til klokken 20.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-13",
+    "level": 2,
+    "ruleId": "pp-for-til",
+    "prompt": "Hun takkede ham ___ blomsterne.",
+    "options": [
+      "for",
+      "til"
+    ],
+    "answer": "for",
+    "explanation": "takke (thank) takes for, like tak for.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-14",
+    "level": 2,
+    "ruleId": "pp-for-til",
+    "prompt": "Vi har brug ___ flere sygeplejersker på afdelingen.",
+    "options": [
+      "til",
+      "for"
+    ],
+    "answer": "for",
+    "explanation": "have brug for = need; the expression always uses for.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-15",
+    "level": 2,
+    "ruleId": "pp-for-til",
+    "prompt": "Jeg glæder mig ___ sommerferien.",
+    "options": [
+      "for",
+      "til"
+    ],
+    "answer": "til",
+    "explanation": "glæde sig til = look forward to something in the future.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-16",
+    "level": 2,
+    "ruleId": "pp-for-til",
+    "prompt": "Jeg har lyst ___ en kop kaffe.",
+    "options": [
+      "til",
+      "for"
+    ],
+    "answer": "til",
+    "explanation": "have lyst til = feel like / want something.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-17",
+    "level": 3,
+    "ruleId": "pp-for-til",
+    "prompt": "Hun gjorde det kun ___ børnenes skyld.",
+    "options": [
+      "for",
+      "til"
+    ],
+    "answer": "for",
+    "explanation": "The fixed expression is for … skyld (for the sake of).",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-18",
+    "level": 3,
+    "ruleId": "pp-for-til",
+    "prompt": "Vi har inviteret naboerne ___ min fødselsdag på lørdag.",
+    "options": [
+      "til",
+      "for"
+    ],
+    "answer": "til",
+    "explanation": "You invite someone to an event: invitere til.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-19",
+    "level": 3,
+    "ruleId": "pp-for-til",
+    "prompt": "Jeg har ikke råd ___ en ny bil lige nu.",
+    "options": [
+      "for",
+      "til"
+    ],
+    "answer": "til",
+    "explanation": "have råd til = can afford something.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-20",
+    "level": 3,
+    "ruleId": "pp-for-til",
+    "prompt": "Hun stemte ___ forslaget på mødet.",
+    "options": [
+      "til",
+      "for"
+    ],
+    "answer": "for",
+    "explanation": "To vote in favour of something is stemme for (against = imod).",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-21",
+    "level": 3,
+    "ruleId": "pp-for-til",
+    "prompt": "Han er ansvarlig ___ økonomien i firmaet.",
+    "options": [
+      "for",
+      "til"
+    ],
+    "answer": "for",
+    "explanation": "ansvarlig (responsible) always takes for.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-22",
+    "level": 3,
+    "ruleId": "pp-for-til",
+    "prompt": "Lejligheden er for lille ___ en familie med tre børn.",
+    "options": [
+      "til",
+      "for"
+    ],
+    "answer": "til",
+    "explanation": "“Too … for” is for … til in Danish: for lille til en familie.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-23",
+    "level": 3,
+    "ruleId": "pp-for-til",
+    "prompt": "Hun forklarede problemet ___ sine kolleger.",
+    "options": [
+      "for",
+      "til"
+    ],
+    "answer": "for",
+    "explanation": "forklare noget for nogen = explain something to someone. Standard written Danish uses for here; \"forklare til nogen\" is heard in speech, but avoid it in writing and at the exam.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-fortil-24",
+    "level": 3,
+    "ruleId": "pp-for-til",
+    "prompt": "Mange unge er bekymrede ___ klimaet.",
+    "options": [
+      "til",
+      "for"
+    ],
+    "answer": "for",
+    "explanation": "bekymret (worried) takes for: bekymret for klimaet.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-01",
+    "level": 1,
+    "ruleId": "pp-af-fra",
+    "prompt": "Jeg kommer ___ Polen.",
+    "options": [
+      "af",
+      "fra"
+    ],
+    "answer": "fra",
+    "explanation": "Origin (where you come from) takes fra.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-02",
+    "level": 1,
+    "ruleId": "pp-af-fra",
+    "prompt": "Bordet er lavet ___ egetræ.",
+    "options": [
+      "fra",
+      "af"
+    ],
+    "answer": "af",
+    "explanation": "Material takes af: lavet af egetræ.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-03",
+    "level": 1,
+    "ruleId": "pp-af-fra",
+    "prompt": "Jeg har fået en sms ___ min søster.",
+    "options": [
+      "af",
+      "fra"
+    ],
+    "answer": "fra",
+    "explanation": "The sender of a message is the source, so fra.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-04",
+    "level": 1,
+    "ruleId": "pp-af-fra",
+    "prompt": "En ___ mine kolleger er syg i dag.",
+    "options": [
+      "fra",
+      "af"
+    ],
+    "answer": "af",
+    "explanation": "“One of” is en af.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-05",
+    "level": 1,
+    "ruleId": "pp-af-fra",
+    "prompt": "Toget ___ Aalborg er forsinket.",
+    "options": [
+      "af",
+      "fra"
+    ],
+    "answer": "fra",
+    "explanation": "The place the train starts from takes fra.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-06",
+    "level": 1,
+    "ruleId": "pp-af-fra",
+    "prompt": "Lægen har telefontid ___ klokken 8.",
+    "options": [
+      "fra",
+      "af"
+    ],
+    "answer": "fra",
+    "explanation": "A starting point in time takes fra: fra klokken 8.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-07",
+    "level": 2,
+    "ruleId": "pp-af-fra",
+    "prompt": "Huset blev bygget ___ min bedstefar.",
+    "options": [
+      "af",
+      "fra"
+    ],
+    "answer": "af",
+    "explanation": "In a passive sentence (blev bygget) the doer is introduced with af.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-08",
+    "level": 2,
+    "ruleId": "pp-af-fra",
+    "prompt": "Kan jeg låne en oplader ___ dig?",
+    "options": [
+      "fra",
+      "af"
+    ],
+    "answer": "af",
+    "explanation": "låne (borrow) takes af in Danish – “låne fra” is a typical mistake.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-09",
+    "level": 2,
+    "ruleId": "pp-af-fra",
+    "prompt": "Mange ___ eleverne cykler i skole.",
+    "options": [
+      "af",
+      "fra"
+    ],
+    "answer": "af",
+    "explanation": "“Many of” is mange af.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-10",
+    "level": 2,
+    "ruleId": "pp-af-fra",
+    "prompt": "Hvor langt er der ___ Aarhus til Vejle?",
+    "options": [
+      "fra",
+      "af"
+    ],
+    "answer": "fra",
+    "explanation": "fra … til = from … to (start point to end point).",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-11",
+    "level": 2,
+    "ruleId": "pp-af-fra",
+    "prompt": "Brevet var ___ kommunen.",
+    "options": [
+      "af",
+      "fra"
+    ],
+    "answer": "fra",
+    "explanation": "The sender of a letter is the source: fra kommunen.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-12",
+    "level": 2,
+    "ruleId": "pp-af-fra",
+    "prompt": "Maleriet er malet ___ en ukendt kunstner.",
+    "options": [
+      "fra",
+      "af"
+    ],
+    "answer": "af",
+    "explanation": "Passive (er malet): the doer is introduced with af.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-13",
+    "level": 2,
+    "ruleId": "pp-af-fra",
+    "prompt": "Han er meget stolt ___ sin datter.",
+    "options": [
+      "af",
+      "fra"
+    ],
+    "answer": "af",
+    "explanation": "stolt (proud) always takes af.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-14",
+    "level": 2,
+    "ruleId": "pp-af-fra",
+    "prompt": "Rapporten er skrevet ___ to studerende.",
+    "options": [
+      "fra",
+      "af"
+    ],
+    "answer": "af",
+    "explanation": "Passive (er skrevet): the doer takes af.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-15",
+    "level": 2,
+    "ruleId": "pp-af-fra",
+    "prompt": "Hun oversatte teksten ___ engelsk til dansk.",
+    "options": [
+      "af",
+      "fra"
+    ],
+    "answer": "fra",
+    "explanation": "fra … til marks the starting and target language.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-16",
+    "level": 2,
+    "ruleId": "pp-af-fra",
+    "prompt": "Kjolen er syet ___ gamle gardiner.",
+    "options": [
+      "fra",
+      "af"
+    ],
+    "answer": "af",
+    "explanation": "What something is made from (material) takes af.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-17",
+    "level": 2,
+    "ruleId": "pp-af-fra",
+    "prompt": "Han blev bidt ___ en hund i parken.",
+    "options": [
+      "af",
+      "fra"
+    ],
+    "answer": "af",
+    "explanation": "Passive (blev bidt): the doer is af en hund.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-18",
+    "level": 3,
+    "ruleId": "pp-af-fra",
+    "prompt": "Hun rystede ___ kulde.",
+    "options": [
+      "fra",
+      "af"
+    ],
+    "answer": "af",
+    "explanation": "The cause of a physical reaction takes af: ryste af kulde.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-19",
+    "level": 3,
+    "ruleId": "pp-af-fra",
+    "prompt": "Hun blev syg ___ den dårlige mad.",
+    "options": [
+      "af",
+      "fra"
+    ],
+    "answer": "af",
+    "explanation": "The cause of becoming ill takes af: syg af maden.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-20",
+    "level": 3,
+    "ruleId": "pp-af-fra",
+    "prompt": "Jeg har lært meget ___ min gamle chef.",
+    "options": [
+      "fra",
+      "af"
+    ],
+    "answer": "af",
+    "explanation": "lære af nogen = learn from someone; Danish uses af.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-21",
+    "level": 3,
+    "ruleId": "pp-af-fra",
+    "prompt": "Hun græd ___ glæde, da hun bestod prøven.",
+    "options": [
+      "af",
+      "fra"
+    ],
+    "answer": "af",
+    "explanation": "The cause of a feeling or reaction takes af: græde af glæde.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-22",
+    "level": 3,
+    "ruleId": "pp-af-fra",
+    "prompt": "Jeg er træt ___ at vente på bussen hver morgen.",
+    "options": [
+      "fra",
+      "af"
+    ],
+    "answer": "af",
+    "explanation": "træt af = fed up with / tired of.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-23",
+    "level": 3,
+    "ruleId": "pp-af-fra",
+    "prompt": "___ mandag skal alle bruge den nye indgang.",
+    "options": [
+      "Af",
+      "Fra"
+    ],
+    "answer": "Fra",
+    "explanation": "A starting point in time (from Monday on) takes fra.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-24",
+    "level": 3,
+    "ruleId": "pp-af-fra",
+    "prompt": "Jeg har ikke hørt noget ___ ham i flere uger.",
+    "options": [
+      "fra",
+      "af"
+    ],
+    "answer": "fra",
+    "explanation": "høre fra nogen = get news from someone (the source).",
+    "reviewed": false
+  },
+  {
+    "id": "pp-affra-25",
+    "level": 3,
+    "ruleId": "pp-af-fra",
+    "prompt": "Suppen smager ikke ___ noget.",
+    "options": [
+      "af",
+      "fra"
+    ],
+    "answer": "af",
+    "explanation": "smage af = taste of; the verb always takes af.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-01",
+    "level": 1,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Hun flyttede til Danmark ___ studere.",
+    "options": [
+      "for at",
+      "til at"
+    ],
+    "answer": "for at",
+    "explanation": "Purpose (in order to study): for at. English “to” tempts learners into til at.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-02",
+    "level": 2,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Jeg går i fitnesscenter ___ holde mig i form.",
+    "options": [
+      "til at",
+      "for at"
+    ],
+    "answer": "for at",
+    "explanation": "This is why I go (in order to keep fit), so: for at.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-03",
+    "level": 2,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Hun har ikke tid ___ lave mad i dag.",
+    "options": [
+      "for at",
+      "til at"
+    ],
+    "answer": "til at",
+    "explanation": "tid takes til, so: tid til at.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-04",
+    "level": 2,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Jeg har lyst ___ tage på ferie.",
+    "options": [
+      "til at",
+      "for at"
+    ],
+    "answer": "til at",
+    "explanation": "lyst takes til, so: lyst til at.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-05",
+    "level": 2,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Vi tog tidligt af sted ___ nå toget.",
+    "options": [
+      "for at",
+      "til at"
+    ],
+    "answer": "for at",
+    "explanation": "Purpose (in order to catch the train): for at.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-06",
+    "level": 2,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Min kollega er god ___ forklare tingene.",
+    "options": [
+      "til at",
+      "for at"
+    ],
+    "answer": "til at",
+    "explanation": "god til = good at, so: god til at.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-07",
+    "level": 2,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Han ringede til kommunen ___ spørge om reglerne.",
+    "options": [
+      "for at",
+      "til at"
+    ],
+    "answer": "for at",
+    "explanation": "Purpose (he called in order to ask): for at.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-08",
+    "level": 2,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Børnene er klar ___ gå i skole.",
+    "options": [
+      "til at",
+      "for at"
+    ],
+    "answer": "til at",
+    "explanation": "klar takes til, so: klar til at.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-09",
+    "level": 2,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Jeg slukker lyset ___ spare på strømmen.",
+    "options": [
+      "for at",
+      "til at"
+    ],
+    "answer": "for at",
+    "explanation": "Purpose (in order to save electricity): for at.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-10",
+    "level": 2,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Vi holdt en fest ___ fejre vores bryllupsdag.",
+    "options": [
+      "til at",
+      "for at"
+    ],
+    "answer": "for at",
+    "explanation": "Purpose (in order to celebrate): for at.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-11",
+    "level": 2,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Hvornår har du tid ___ hjælpe mig med flytningen?",
+    "options": [
+      "for at",
+      "til at"
+    ],
+    "answer": "til at",
+    "explanation": "tid takes til, so: tid til at.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-12",
+    "level": 3,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Han sparer op ___ kunne købe en lejlighed.",
+    "options": [
+      "til at",
+      "for at"
+    ],
+    "answer": "for at",
+    "explanation": "Purpose + “be able to” is always for at kunne.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-13",
+    "level": 3,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Hun læser avisen hver dag ___ kunne følge med i debatten.",
+    "options": [
+      "for at",
+      "til at"
+    ],
+    "answer": "for at",
+    "explanation": "Purpose + “be able to”: for at kunne.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-14",
+    "level": 3,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Man skal være 18 år ___ kunne stemme ved valg.",
+    "options": [
+      "til at",
+      "for at"
+    ],
+    "answer": "for at",
+    "explanation": "A condition you need in order to be able to vote: for at kunne.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-15",
+    "level": 3,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Hun tog et sprogkursus ___ kunne tale med sine svigerforældre.",
+    "options": [
+      "for at",
+      "til at"
+    ],
+    "answer": "for at",
+    "explanation": "Purpose + “be able to”: for at kunne.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-16",
+    "level": 3,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Lægen fik mig ___ holde op med at ryge.",
+    "options": [
+      "til at",
+      "for at"
+    ],
+    "answer": "til at",
+    "explanation": "få nogen til at gøre noget = make someone do something.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-17",
+    "level": 3,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Vi har ikke råd ___ tage på ferie i år.",
+    "options": [
+      "for at",
+      "til at"
+    ],
+    "answer": "til at",
+    "explanation": "råd takes til, so: råd til at.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-18",
+    "level": 3,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Jeg har brug ___ tale med dig.",
+    "options": [
+      "til at",
+      "for at"
+    ],
+    "answer": "for at",
+    "explanation": "Not purpose: brug takes for, so: brug for at.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-19",
+    "level": 3,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Hun er bange ___ miste sit job.",
+    "options": [
+      "for at",
+      "til at"
+    ],
+    "answer": "for at",
+    "explanation": "Not purpose: bange takes for, so: bange for at.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-20",
+    "level": 3,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Hun er ikke vant ___ arbejde om natten.",
+    "options": [
+      "til at",
+      "for at"
+    ],
+    "answer": "til at",
+    "explanation": "vant takes til, so: vant til at (used to).",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-21",
+    "level": 3,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Han stod tidligt op ___ undgå trafikken.",
+    "options": [
+      "for at",
+      "til at"
+    ],
+    "answer": "for at",
+    "explanation": "Purpose (in order to avoid the traffic): for at.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-22",
+    "level": 4,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Firmaet opfordrer medarbejderne ___ cykle på arbejde.",
+    "options": [
+      "til at",
+      "for at"
+    ],
+    "answer": "til at",
+    "explanation": "opfordre nogen til at = encourage someone to.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-23",
+    "level": 4,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Han har en tendens ___ glemme sine nøgler.",
+    "options": [
+      "for at",
+      "til at"
+    ],
+    "answer": "til at",
+    "explanation": "tendens takes til, so: en tendens til at.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-24",
+    "level": 4,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Om vinteren er der stor risiko ___ blive smittet med influenza.",
+    "options": [
+      "til at",
+      "for at"
+    ],
+    "answer": "for at",
+    "explanation": "Not purpose: risiko takes for, so: risiko for at.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-foratt-25",
+    "level": 4,
+    "ruleId": "pp-for-at-til-at",
+    "prompt": "Kommunen giver borgerne mulighed ___ aflevere storskrald gratis.",
+    "options": [
+      "for at",
+      "til at"
+    ],
+    "answer": "for at",
+    "explanation": "Not purpose: mulighed takes for, so: mulighed for at.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-01",
+    "level": 1,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Jeg har boet i Danmark ___ fem år.",
+    "options": [
+      "siden",
+      "i"
+    ],
+    "answer": "i",
+    "explanation": "fem år is a length of time, so i (not “for” as in English).",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-02",
+    "level": 1,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Jeg har boet i Danmark ___ 2019.",
+    "options": [
+      "i",
+      "siden",
+      "(ingen)"
+    ],
+    "answer": "siden",
+    "explanation": "2019 is a starting point, so siden.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-03",
+    "level": 1,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Jeg har lært dansk ___ et år.",
+    "options": [
+      "siden",
+      "i"
+    ],
+    "answer": "i",
+    "explanation": "et år is a length of time, so i.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-04",
+    "level": 2,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Hun har arbejdet på hospitalet ___ sidste sommer.",
+    "options": [
+      "siden",
+      "i",
+      "(ingen)"
+    ],
+    "answer": "siden",
+    "explanation": "sidste sommer is a starting point, so siden.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-05",
+    "level": 2,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Det tager ___ en halv time at cykle til arbejde.",
+    "options": [
+      "i",
+      "(ingen)",
+      "siden"
+    ],
+    "answer": "(ingen)",
+    "explanation": "tage + an amount of time has no preposition: det tager en halv time.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-06",
+    "level": 2,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Vi har ikke set hinanden ___ mange år.",
+    "options": [
+      "i",
+      "siden"
+    ],
+    "answer": "i",
+    "explanation": "mange år is a length of time, so i.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-07",
+    "level": 2,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Jeg har ikke spist noget ___ i morges.",
+    "options": [
+      "i",
+      "siden"
+    ],
+    "answer": "siden",
+    "explanation": "i morges is a point in time (this morning), so siden.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-08",
+    "level": 2,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Han boede i Berlin ___ to år, før han flyttede hertil.",
+    "options": [
+      "siden",
+      "i"
+    ],
+    "answer": "i",
+    "explanation": "to år is a length of time, so i.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-09",
+    "level": 2,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Hun har været sygemeldt ___ en måned.",
+    "options": [
+      "i",
+      "siden"
+    ],
+    "answer": "i",
+    "explanation": "en måned is a length of time, so i.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-10",
+    "level": 2,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Hun har været sygemeldt ___ den 1. marts.",
+    "options": [
+      "(ingen)",
+      "siden",
+      "i"
+    ],
+    "answer": "siden",
+    "explanation": "den 1. marts is a date (starting point), so siden.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-11",
+    "level": 2,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Turen tager ___ fem timer med bus og færge.",
+    "options": [
+      "(ingen)",
+      "i",
+      "siden"
+    ],
+    "answer": "(ingen)",
+    "explanation": "tage + an amount of time has no preposition.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-12",
+    "level": 2,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Vi skal være i Spanien ___ tre uger i juli.",
+    "options": [
+      "siden",
+      "i"
+    ],
+    "answer": "i",
+    "explanation": "tre uger is a length of time, so i.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-13",
+    "level": 2,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Der har ikke været en læge i byen ___ 2015.",
+    "options": [
+      "siden",
+      "(ingen)",
+      "i"
+    ],
+    "answer": "siden",
+    "explanation": "2015 is a starting point, so siden.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-14",
+    "level": 2,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Butikken har været lukket ___ jul.",
+    "options": [
+      "i",
+      "siden",
+      "(ingen)"
+    ],
+    "answer": "siden",
+    "explanation": "jul is a point in time, so siden.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-15",
+    "level": 2,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Vi har haft hund ___ tre år nu.",
+    "options": [
+      "i",
+      "siden"
+    ],
+    "answer": "i",
+    "explanation": "tre år is a length of time, so i.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-16",
+    "level": 3,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Jeg brugte ___ tre timer på at gøre lejligheden ren.",
+    "options": [
+      "i",
+      "siden",
+      "(ingen)"
+    ],
+    "answer": "(ingen)",
+    "explanation": "bruge + time + på has no preposition before the time: brugte tre timer på.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-17",
+    "level": 3,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Vi har kendt hinanden ___ længe.",
+    "options": [
+      "(ingen)",
+      "siden",
+      "i"
+    ],
+    "answer": "(ingen)",
+    "explanation": "længe (a long time) never takes a preposition.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-18",
+    "level": 3,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Han har gået på sprogskole, ___ han kom til Danmark.",
+    "options": [
+      "i",
+      "siden"
+    ],
+    "answer": "siden",
+    "explanation": "A whole clause marking when it started (han kom til Danmark) takes siden.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-19",
+    "level": 3,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Jeg har ventet ___ længe på svar fra kommunen.",
+    "options": [
+      "i",
+      "(ingen)",
+      "siden"
+    ],
+    "answer": "(ingen)",
+    "explanation": "længe never takes a preposition: Jeg har ventet længe.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-20",
+    "level": 3,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Det tog ___ to år at bygge den nye skole.",
+    "options": [
+      "siden",
+      "(ingen)",
+      "i"
+    ],
+    "answer": "(ingen)",
+    "explanation": "tage + an amount of time has no preposition: det tog to år.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-21",
+    "level": 3,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Min far har ikke røget ___ ti år.",
+    "options": [
+      "siden",
+      "i"
+    ],
+    "answer": "i",
+    "explanation": "ti år is a length of time, so i.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-22",
+    "level": 3,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Min far har ikke røget, ___ jeg blev født.",
+    "options": [
+      "siden",
+      "i"
+    ],
+    "answer": "siden",
+    "explanation": "The clause jeg blev født marks the starting point, so siden.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-23",
+    "level": 3,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Det tager ___ lang tid at lære et nyt sprog.",
+    "options": [
+      "i",
+      "(ingen)",
+      "siden"
+    ],
+    "answer": "(ingen)",
+    "explanation": "tage + lang tid has no preposition.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-varighed-24",
+    "level": 3,
+    "ruleId": "pp-tid-varighed",
+    "prompt": "Min mand har haft ondt i ryggen ___ sidste weekend.",
+    "options": [
+      "(ingen)",
+      "i",
+      "siden"
+    ],
+    "answer": "siden",
+    "explanation": "sidste weekend is a point in time, so siden.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-01",
+    "level": 1,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Jeg kom til Danmark ___ seks år siden.",
+    "options": [
+      "i",
+      "om",
+      "for",
+      "på"
+    ],
+    "answer": "for",
+    "explanation": "“Ago” is for … siden: for seks år siden.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-02",
+    "level": 1,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Vi ses ___ mandag!",
+    "options": [
+      "i",
+      "på",
+      "om",
+      "for"
+    ],
+    "answer": "på",
+    "explanation": "A coming weekday takes på: på mandag.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-03",
+    "level": 1,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Jeg drikker altid te ___ morgenen.",
+    "options": [
+      "om",
+      "i",
+      "på",
+      "for"
+    ],
+    "answer": "om",
+    "explanation": "A habit (every morning) is om + definite form: om morgenen.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-04",
+    "level": 1,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Hvad lavede du ___ går?",
+    "options": [
+      "om",
+      "for",
+      "i",
+      "på"
+    ],
+    "answer": "i",
+    "explanation": "Yesterday is i går.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-05",
+    "level": 1,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "___ dag er det min fødselsdag.",
+    "options": [
+      "På",
+      "I",
+      "Om",
+      "For"
+    ],
+    "answer": "I",
+    "explanation": "Today is i dag.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-06",
+    "level": 1,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Hun er født ___ 1985.",
+    "options": [
+      "på",
+      "om",
+      "for",
+      "i"
+    ],
+    "answer": "i",
+    "explanation": "Years take i: i 1985.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-07",
+    "level": 1,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Børnene har fri fra skole ___ juli.",
+    "options": [
+      "i",
+      "på",
+      "for",
+      "om"
+    ],
+    "answer": "i",
+    "explanation": "Months take i: i juli.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-08",
+    "level": 2,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Jeg sov meget dårligt ___ nat.",
+    "options": [
+      "om",
+      "i",
+      "for",
+      "på"
+    ],
+    "answer": "i",
+    "explanation": "Last night (one specific night) is i nat.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-09",
+    "level": 2,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Toget kører ___ ti minutter. (The train leaves ten minutes from now.)",
+    "options": [
+      "i",
+      "om",
+      "for",
+      "på"
+    ],
+    "answer": "om",
+    "explanation": "“In ten minutes (from now)” is om ti minutter; i ti minutter would mean “for ten minutes”.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-10",
+    "level": 2,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "___ sommer skal vi på ferie i Grækenland.",
+    "options": [
+      "I",
+      "Om",
+      "På",
+      "For"
+    ],
+    "answer": "I",
+    "explanation": "This summer (one specific summer) is i sommer, with no -en.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-11",
+    "level": 2,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "___ sommeren er der mange turister i byen.",
+    "options": [
+      "For",
+      "I",
+      "Om",
+      "På"
+    ],
+    "answer": "Om",
+    "explanation": "A general habit every summer is om + definite form: om sommeren.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-12",
+    "level": 2,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Jeg var hos lægen ___ morges, og nu har jeg det bedre.",
+    "options": [
+      "om",
+      "på",
+      "i",
+      "for"
+    ],
+    "answer": "i",
+    "explanation": "This morning (already past) is i morges.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-13",
+    "level": 2,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Vi spiser altid hos min mor ___ søndagen.",
+    "options": [
+      "på",
+      "om",
+      "i",
+      "for"
+    ],
+    "answer": "om",
+    "explanation": "altid shows a habit, and a habit is om + definite form: om søndagen.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-14",
+    "level": 2,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Vi var i biografen ___ aftes.",
+    "options": [
+      "i",
+      "om",
+      "på",
+      "for"
+    ],
+    "answer": "i",
+    "explanation": "Yesterday evening / last night is i aftes.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-15",
+    "level": 2,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Han startede på sit nye job ___ en uge siden.",
+    "options": [
+      "om",
+      "i",
+      "på",
+      "for"
+    ],
+    "answer": "for",
+    "explanation": "“Ago” is for … siden.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-16",
+    "level": 2,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Hvad skal du lave ___ weekenden? (this coming weekend)",
+    "options": [
+      "om",
+      "i",
+      "for",
+      "på"
+    ],
+    "answer": "i",
+    "explanation": "One specific weekend (this one) is i weekenden; om weekenden would mean “at weekends” in general.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-17",
+    "level": 2,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Lægen ringede ___ en time siden.",
+    "options": [
+      "for",
+      "om",
+      "i",
+      "på"
+    ],
+    "answer": "for",
+    "explanation": "“Ago” is for … siden: for en time siden.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-18",
+    "level": 2,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Hun læser altid lidt ___ aftenen, før hun sover.",
+    "options": [
+      "i",
+      "på",
+      "for",
+      "om"
+    ],
+    "answer": "om",
+    "explanation": "altid shows a habit: om aftenen.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-19",
+    "level": 2,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "___ år har vi haft meget regn.",
+    "options": [
+      "Om",
+      "I",
+      "For",
+      "På"
+    ],
+    "answer": "I",
+    "explanation": "This year is i år.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-20",
+    "level": 3,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Butikken lukker ___ en halv time. (It closes half an hour from now.)",
+    "options": [
+      "på",
+      "i",
+      "om",
+      "for"
+    ],
+    "answer": "om",
+    "explanation": "“In half an hour (from now)” is om en halv time; i en halv time would mean “for half an hour”.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-21",
+    "level": 3,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Jeg arbejder ___ natten, så jeg sover om dagen.",
+    "options": [
+      "i",
+      "om",
+      "på",
+      "for"
+    ],
+    "answer": "om",
+    "explanation": "A regular habit (working nights) is om natten, like om dagen later in the sentence.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-22",
+    "level": 3,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Vi flyttede ind i lejligheden ___ fredags.",
+    "options": [
+      "på",
+      "for",
+      "om",
+      "i"
+    ],
+    "answer": "i",
+    "explanation": "Last Friday is i fredags (i + weekday + -s).",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-23",
+    "level": 3,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Der er møde ___ eftermiddag klokken 14.",
+    "options": [
+      "i",
+      "om",
+      "på",
+      "for"
+    ],
+    "answer": "i",
+    "explanation": "This afternoon is i eftermiddag (no -en).",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-24",
+    "level": 2,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Jeg begynder på mit nye job ___ en uge. (a week from now)",
+    "options": [
+      "i",
+      "for",
+      "på",
+      "om"
+    ],
+    "answer": "om",
+    "explanation": "“In a week (from now)” is om en uge; i en uge would mean “for a week”.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-25",
+    "level": 3,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Vi skal giftes ___ præcis et år.",
+    "options": [
+      "for",
+      "i",
+      "om",
+      "på"
+    ],
+    "answer": "om",
+    "explanation": "“In a year (from now)” is om et år.",
+    "reviewed": false
+  },
+  {
+    "id": "pp-tidspunkt-26",
+    "level": 3,
+    "ruleId": "pp-tid-tidspunkt",
+    "prompt": "Min datter blev født ___ en mandag.",
+    "options": [
+      "om",
+      "på",
+      "i",
+      "for"
+    ],
+    "answer": "på",
+    "explanation": "A weekday as a specific day takes på: på en mandag.",
+    "reviewed": false
+  }
+]
