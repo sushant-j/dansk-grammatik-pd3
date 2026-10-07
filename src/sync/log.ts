@@ -28,6 +28,7 @@ import { emptyStats as verbEmpty, useVerbProfile } from '../profile/verbStore';
 import { useVocabProfile } from '../profile/vocabStore';
 import { emptyDrillStats, useDrillProfile } from '../drills/drillStore';
 import { DRILL_DOMAIN_KEYS } from '../drills/registry';
+import { usePathResults } from '../path/store';
 import { setEventSink, type AnswerInput } from './bus';
 import { replay } from './replay';
 import type { Baseline, Derived, Domain, ProgressEvent } from './types';
@@ -97,6 +98,7 @@ export function publish(): Derived {
   });
   useActivity.setState({ activeDays: d.activeDays });
   useLevels.setState({ domains: d.levels });
+  usePathResults.setState({ results: d.path });
   return d;
 }
 

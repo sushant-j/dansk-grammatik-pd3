@@ -15,7 +15,7 @@ import type { Exam } from '../grammar/rules';
 import { applyLevelOutcome, EMPTY_DOMAIN_LEVEL, LEVEL_DOMAINS, type DomainLevel, type LevelDomain } from '../profile/levelStore';
 import { applyOutcome, EMPTY_STAT, type ItemStat } from '../profile/mastery';
 import { todayIso } from '../profile/settings';
-import { ALL_DOMAINS, type Baseline, type Derived, type Domain, type ProgressEvent } from './types';
+import { ALL_DOMAINS, PATH_DOMAIN, type AnswerEvent, type Baseline, type Derived, type Domain, type PathResult, type ProgressEvent } from './types';
 
 /** Grammar answers kept in `history`, as before accounts. */
 export const HISTORY_LIMIT = 300;
@@ -29,6 +29,25 @@ export function emptyDerived(): Derived {
     history: [],
     activeDays: [],
     levels: {},
+    path: {},
+  };
+}
+
+/**
+ * Fold one finished path session into its node's result. The best score is
+ * the one with the most right; a tie keeps the larger session.
+ */
+function foldPath(prev: PathResult | undefined, e: AnswerEvent): PathResult {
+  const outcomes = Object.values(e.outcomes);
+  const right = outcomes.filter(Boolean).length;
+  const total = outcomes.length;
+  const better = !prev || right > prev.best || (right === prev.best && total > prev.total);
+  return {
+    best: better ? right : prev.best,
+    total: better ? total : prev.total,
+    passes: (prev?.passes ?? 0) + (e.correct ? 1 : 0),
+    attempts: (prev?.attempts ?? 0) + 1,
+    lastAt: Math.max(prev?.lastAt ?? 0, e.at),
   };
 }
 
@@ -72,7 +91,10 @@ export function replay(baselines: Baseline[], events: ProgressEvent[], exam: Exa
           out.history = [];
         }
       }
-      if (e.domain === 'all') days.clear();
+      if (e.domain === 'all') {
+        days.clear();
+        out.path = {};
+      }
       continue;
     }
 
@@ -82,6 +104,12 @@ export function replay(baselines: Baseline[], events: ProgressEvent[], exam: Exa
     }
 
     // An answer.
+    if (e.domain === PATH_DOMAIN) {
+      // A finished path session. It carries no mastery: its questions were
+      // each logged as answers in their own domains as they were asked.
+      out.path[e.itemId] = foldPath(out.path[e.itemId], e);
+      continue;
+    }
     if (!isDomain(e.domain)) continue; // a domain from a newer app version: keep it in the log, skip it here
     const stats = out.stats[e.domain];
     for (const [key, ok] of Object.entries(e.outcomes)) {

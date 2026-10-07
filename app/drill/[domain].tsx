@@ -5,9 +5,6 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import {
   drillRuleProgress,
   nextDrillQuestion,
-  NO_WORD,
-  optionLabel,
-  splitPrompt,
   summarizeDrill,
   type DrillQuestion,
 } from '../../src/drills/drillExercise';
@@ -16,6 +13,7 @@ import { drillDomain, isDrillDomainKey, type DrillDomain } from '../../src/drill
 import { levelLabel } from '../../src/profile/mastery';
 import { currentLevelNow } from '../../src/profile/levelStore';
 import { LevelBadge, LevelUpNotice } from '../../src/ui/LevelBadge';
+import { ChoiceQuestion } from '../../src/ui/ChoiceQuestion';
 import { TrainerScreen } from '../../src/ui/RulesPane';
 import { Button, Card, Label, StrengthBar, Txt, s } from '../../src/ui/primitives';
 import { useTheme } from '../../src/ui/theme';
@@ -254,113 +252,21 @@ function QuestionView({
   }
 
   const rule = domain.rules.find((r) => r.id === question.ruleId);
-  const revealed = picked !== null;
-  const right = picked === question.correctIndex;
-  const answer = question.item.answer;
-  const pickedOption = picked !== null ? question.options[picked] : undefined;
-  // The gap closes up only when nothing is left to show in it: "no word" was
-  // the answer and the learner picked it.
-  const closed = revealed && right && answer === NO_WORD;
-  const { before, after } = splitPrompt(question.item.prompt, closed ? NO_WORD : undefined);
-
-  // Until an answer is given the gap is a visible blank; after, it shows the
-  // word that was picked — green when right, struck through beside the right
-  // one when not — so the finished sentence can be read as a whole. A "no
-  // word" answer shows as nothing, never as the literal "(ingen)".
-  const word = (text: string, ok: boolean) => (
-    <Txt
-      variant="title"
-      color={ok ? t.c.success : t.c.textFaint}
-      style={{ textDecorationLine: ok ? 'underline' : 'line-through' }}
-    >
-      {text}
-    </Txt>
-  );
-  const gap = !revealed ? (
-    <Txt variant="title" color={t.c.accent}>
-      _____
-    </Txt>
-  ) : closed ? null : right ? (
-    word(answer, true)
-  ) : answer === NO_WORD ? (
-    word(pickedOption ?? '', false)
-  ) : pickedOption === NO_WORD ? (
-    word(answer, true)
-  ) : (
-    <>
-      {word(pickedOption ?? '', false)} {word(answer, true)}
-    </>
-  );
 
   return (
     <>
       {back}
-
-      <Card tone="sunken">
-        <View style={[s.rowBetween, { alignItems: 'flex-start', gap: t.space(3) }]}>
-          <View style={{ flex: 1 }}>
-            <Label>{rule?.en ?? domain.label}</Label>
-          </View>
-          <LevelBadge level={question.item.level} />
-        </View>
-        <Txt variant="title" style={{ marginTop: t.space(2) }}>
-          {before}
-          {gap}
-          {after}
-        </Txt>
-      </Card>
-
-      <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: t.space(2.5) }}>
-        {question.options.map((opt, i) => {
-          const isCorrect = i === question.correctIndex;
-          const isPicked = i === picked;
-
-          const bg = !revealed ? t.c.surface : isCorrect ? t.c.successSoft : isPicked ? t.c.accentSoft : t.c.surface;
-          const border = !revealed ? t.c.border : isCorrect ? t.c.success : isPicked ? t.c.accent : t.c.border;
-
-          return (
-            <Pressable
-              key={opt}
-              onPress={() => onChoose(i)}
-              disabled={revealed}
-              accessibilityRole="button"
-              // Short options sit two or three to a row; a long one takes the row.
-              style={{ flexGrow: 1, flexBasis: 140, maxWidth: '100%' }}
-            >
-              <View
-                style={{
-                  backgroundColor: bg,
-                  borderWidth: 1.5,
-                  borderColor: border,
-                  borderRadius: t.radius.md,
-                  paddingVertical: t.space(3.5),
-                  paddingHorizontal: t.space(4),
-                }}
-              >
-                <Txt
-                  variant="heading"
-                  color={revealed && isCorrect ? t.c.success : t.c.text}
-                  style={{ fontSize: 17, lineHeight: 24 }}
-                >
-                  {optionLabel(opt)}
-                </Txt>
-              </View>
-            </Pressable>
-          );
-        })}
-      </View>
-
-      {revealed ? (
-        <View style={{ gap: t.space(3) }}>
-          <Card tone={right ? 'success' : 'warning'}>
-            <Label color={right ? t.c.success : t.c.warning}>{right ? 'Correct' : 'Not quite'}</Label>
-            <Txt variant="body" style={{ marginTop: t.space(2), lineHeight: 22 }}>
-              {question.item.explanation}
-            </Txt>
-          </Card>
-          <Button label="Next" onPress={onNext} />
-        </View>
-      ) : null}
+      <ChoiceQuestion
+        label={rule?.en ?? domain.label}
+        level={question.item.level}
+        prompt={question.item.prompt}
+        options={question.options}
+        correctIndex={question.correctIndex}
+        picked={picked}
+        onChoose={onChoose}
+        explanation={question.item.explanation}
+        onNext={onNext}
+      />
     </>
   );
 }

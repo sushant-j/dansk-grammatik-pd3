@@ -17,6 +17,7 @@ import { ALL_RULE_IDS } from '../grammar/rules';
 import { ALL_SPELLING_RULE_IDS } from '../grammar/spellingRules';
 import { ALL_VERB_RULE_IDS } from '../grammar/verbRules';
 import { DRILL_DOMAINS } from '../drills/registry';
+import { ALL_NODE_IDS } from '../path/curriculum';
 import { ADJECTIVE_BANK } from './adjectives';
 import { COMMA_EXAMPLES } from './commaExamples';
 import { SIMULATED_PAPERS } from './exams/simulated';
@@ -55,6 +56,8 @@ const current: Record<string, string[]> = {
       [`drill:${d.key}:items`, ids(d.items)],
     ]),
   ),
+  // Grammar path lessons and checkpoints: path results point at these.
+  'path:nodes': ALL_NODE_IDS,
 };
 
 /** Ids that rule aliases may point at: every rule-like id, drill topics included. */

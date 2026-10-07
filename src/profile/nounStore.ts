@@ -90,6 +90,8 @@ export function nextNounQuestion(
   lastNounId?: string,
   now = Date.now(),
   level: Level = MAX_LEVEL,
+  /** Ask about this rule rather than the weakest one (the grammar path does). */
+  onlyRule?: NounRuleId,
 ): NounQuestion {
   const progress = nounRuleProgress(stats, now);
 
@@ -100,7 +102,7 @@ export function nextNounQuestion(
     }))
     .sort((a, b) => b.score - a.score);
 
-  const ruleId = scoredRules[0].ruleId;
+  const ruleId = onlyRule ?? scoredRules[0].ruleId;
   const kind = KIND_FOR_RULE[ruleId];
 
   const pool = poolForLevel(NOUN_BANK, level);

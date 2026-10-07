@@ -25,6 +25,17 @@ Three commitments follow from that:
 
 ## What works today
 
+- **Grammar path** (the landing tab) — all 102 grammar rules in the app, from
+  every trainer and drill, in one learning order: four worlds on the niveau
+  scale, themed units of at most eight lessons, a checkpoint per unit.
+  Lessons open one after another; a lesson can build on lessons elsewhere and
+  then mixes in two review questions on them. 6 of 8 passes a lesson (7 and 8
+  earn the second and third star); a unit's checkpoint (10 of 12) doubles as a
+  test-out. A passed lesson whose mastery has faded shows a crack and asks for
+  a five-question repair. The **rule book** (`/rules`) lists every rule in path
+  order, searchable, and every rule card opens from it, locked or not. The
+  order lives in `src/path/curriculum.ts`; free practice in the trainers stays
+  open to everyone.
 - **Sætningsskema trainer** — tap-to-place word ordering across both clause
   topologies, with a live preview reading your arrangement back as a sentence.
   Includes complex sentences: double objects with fixed receiver-then-thing
@@ -336,6 +347,12 @@ derived by replaying it (`src/sync/replay.ts`). Consequences:
 - **Progress from before accounts is kept**: the first account that signs in
   on a device takes over that device's old saves as a starting baseline
   (`src/sync/legacy.ts`). The old saves are never deleted.
+
+Grammar-path results go into the same log: a finished lesson or checkpoint is
+an `answer` event in the `path` domain, `itemId` the lesson or checkpoint id,
+`outcomes` its questions. Older app versions skip that domain, and no database
+change was needed. Each question in it is also logged in its own trainer's
+domain as it is answered, so path practice counts towards mastery and niveau.
 
 ### Setting up Supabase (once)
 

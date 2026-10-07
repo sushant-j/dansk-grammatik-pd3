@@ -25,6 +25,14 @@ export type Domain = LevelDomain | 'vocab';
  */
 export const ALL_DOMAINS: Domain[] = ['grammar', 'nouns', 'verbs', 'adjectives', 'comma', 'spelling', 'vocab', ...DRILL_DOMAIN_KEYS];
 
+/**
+ * The grammar path's finished sessions. Logged as answers so they need no new
+ * event kind (and no database change): `itemId` is the lesson or checkpoint,
+ * `outcomes` the questions asked, `correct` whether it passed. It is not a
+ * Domain — it keeps no mastery stats — so older app versions skip it.
+ */
+export const PATH_DOMAIN = 'path';
+
 interface EventBase {
   /** Client-generated uuid: the upload is idempotent on it. */
   id: string;
@@ -34,7 +42,7 @@ interface EventBase {
 
 export interface AnswerEvent extends EventBase {
   kind: 'answer';
-  domain: Domain;
+  domain: Domain | typeof PATH_DOMAIN;
   /** The exercise, noun, verb, sentence or word answered. */
   itemId: string;
   /** The item's niveau; null for vocabulary, which has no niveau climb. */
@@ -93,4 +101,18 @@ export interface Derived {
   /** ISO dates with at least one answer, ascending. */
   activeDays: string[];
   levels: Partial<Record<LevelDomain, DomainLevel>>;
+  /** Grammar path: the best session per lesson or checkpoint id. */
+  path: Record<string, PathResult>;
+}
+
+/** A path node's best result, folded from its path answers. */
+export interface PathResult {
+  /** Most questions right in one session. */
+  best: number;
+  /** Questions in that session. */
+  total: number;
+  /** Sessions that passed. */
+  passes: number;
+  attempts: number;
+  lastAt: number;
 }
