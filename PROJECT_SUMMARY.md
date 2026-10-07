@@ -94,8 +94,12 @@ The noun, adjective, verb, comma, spelling and vocabulary trainers follow the sa
 |---|---|
 | `app/_layout.tsx` | Root Stack navigator, screen titles, theme resolution for the header and status bar |
 | `app/index.tsx` | Home: first-run onboarding, grammar map, "widest gap" card, study-plan readiness, entry cards for all modules |
-| `app/train.tsx` | Word-order trainer (the core loop) |
-| `app/rule/[id].tsx` | Rule card: explanation, common mistakes, wrong/right pairs, learner's mastery |
+| `app/(tabs)/index.tsx` | Grammar path: the landing tab, every rule in learning order |
+| `app/path/[nodeId].tsx`, `app/path/run/[nodeId].tsx` | Lesson/checkpoint sheet, and the scored session with its result |
+| `app/rules.tsx` | Rule book: all rules in path order, searchable |
+| `src/path/*.ts` | Rule index across families, curriculum, unlock/star/crack derivation, session plans, question sourcing |
+| `app/train.tsx` | Word-order trainer (the core loop); the board itself is `src/ui/SchemaQuestion.tsx` |
+| `app/rule/[id].tsx` | Rule card for any rule: explanation, common mistakes, wrong/right pairs, learner's mastery, links to its lesson and trainer |
 | `app/nouns.tsx`, `adjectives.tsx`, `verbs.tsx`, `comma.tsx`, `spelling.tsx`, `vocab.tsx` | Six more trainers (multiple choice or flashcards) |
 | `app/sets/index.tsx`, `app/sets/[id].tsx` | The learner's own vocabulary sets: list, and one set's words (practise, add, edit, remove) |
 | `app/write.tsx` | Writing studio: tasks grouped by exam (`src/content/writingTasks.ts`: official PD3 2022 and PD2 2023 tasks, plus labelled practice tasks including FVU), checked by `activeProvider()` |
@@ -164,6 +168,11 @@ The noun, adjective, verb, comma, spelling and vocabulary trainers follow the sa
 | **Grammar features** | ✅ Implemented | See below |
 
 **What the grammar features include:**
+- **Grammar path.** Every rule (10 word-order, 19 form-trainer rules, 73 drill topics) in one order: 4 worlds × themed units × lessons, plus a checkpoint per unit (`src/path/curriculum.ts`).
+  - Lessons unlock in sequence within a unit and through explicit `requires` edges. Each lesson asks 6 questions on its rule and 2 on what it builds on (`src/path/session.ts`).
+  - Stars from the best score; a checkpoint passed early tests the whole unit out; a "crack" appears when a passed rule's mastery decays (`src/path/progress.ts`, all derived, nothing stored but results).
+  - Questions come from each trainer's own items and are recorded through its store (`src/path/questions.ts`); the finished session is a `path` answer event folded by `replay.ts`.
+  - Screens: `app/(tabs)/index.tsx` (map), `app/path/[nodeId].tsx` (lesson sheet), `app/path/run/[nodeId].tsx` (session and result), `app/rules.tsx` (rule book).
 - **Word order (the core).** Interactive *sætningsskema* with main-clause and subordinate-clause layouts (`src/grammar/fields.ts`, `src/ui/SchemaBoard.tsx`).
   - Accepts alternative valid orders (`Exercise.alternatives`).
   - `evaluate()` diagnoses 10 named rules (`src/grammar/rules.ts`): V2 inversion, ikke-regel, single Forfelt, finite verb second, subject required, verb-cluster order, central vs. content adverbial, object order, relative clauses, adverbial order.
