@@ -140,6 +140,9 @@ function RootStack() {
         <Stack.Screen name="drill/[domain]" options={{ title: 'Drill', ...OWN_HEADING }} />
         <Stack.Screen name="settings" options={{ title: 'Settings' }} />
         <Stack.Screen name="rule/[id]" options={{ title: 'Rule', ...OWN_HEADING }} />
+        <Stack.Screen name="rules" options={{ title: 'Rule book', ...OWN_HEADING }} />
+        <Stack.Screen name="path/[nodeId]" options={{ title: 'Lesson', ...OWN_HEADING }} />
+        <Stack.Screen name="path/run/[nodeId]" options={{ title: 'Lesson', ...OWN_HEADING }} />
         <Stack.Screen name="topics/index" options={{ title: 'Oral exam topics', ...OWN_HEADING }} />
         <Stack.Screen name="topics/[id]" options={{ title: 'Topic', ...OWN_HEADING }} />
         <Stack.Screen name="topics/practice" options={{ title: 'Practice topics', ...OWN_HEADING }} />

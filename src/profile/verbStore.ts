@@ -94,6 +94,8 @@ export function nextVerbQuestion(
   lastVerbId?: string,
   now = Date.now(),
   level: Level = MAX_LEVEL,
+  /** Ask about this rule rather than the weakest one (the grammar path does). */
+  onlyRule?: VerbRuleId,
 ): VerbQuestion {
   const progress = verbRuleProgress(stats, now);
 
@@ -104,7 +106,7 @@ export function nextVerbQuestion(
     }))
     .sort((a, b) => b.score - a.score);
 
-  const ruleId = scoredRules[0].ruleId;
+  const ruleId = onlyRule ?? scoredRules[0].ruleId;
   const kind = KIND_FOR_RULE[ruleId];
 
   const pool = poolForLevel(

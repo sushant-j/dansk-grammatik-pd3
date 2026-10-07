@@ -102,3 +102,37 @@ describe('replay', () => {
     expect(() => replay([], [odd])).not.toThrow();
   });
 });
+
+describe('replay: grammar path sessions', () => {
+  const session = (itemId: string, right: number, total: number, at?: number) =>
+    answer({
+      domain: 'path',
+      itemId,
+      level: null,
+      outcomes: Object.fromEntries(Array.from({ length: total }, (_, i) => [`q${i}`, i < right])),
+      correct: right >= Math.ceil(total * 0.75),
+      ...(at ? { at } : {}),
+    });
+
+  it('keeps the best session per node and counts passes', () => {
+    const d = replay([], [session('vt-past-vs-perfect', 5, 8), session('vt-past-vs-perfect', 7, 8), session('vt-past-vs-perfect', 6, 8)]);
+    expect(d.path['vt-past-vs-perfect']).toMatchObject({ best: 7, total: 8, passes: 2, attempts: 3 });
+  });
+
+  it('leaves mastery, niveaus, seen and history alone', () => {
+    const d = replay([], [session('cp-w1-first', 12, 12)]);
+    expect(d.path['cp-w1-first'].best).toBe(12);
+    expect(Object.values(d.stats).every((s) => Object.keys(s).length === 0)).toBe(true);
+    expect(d.levels).toEqual({});
+    expect(d.seen).toEqual([]);
+    expect(d.history).toEqual([]);
+  });
+
+  it('is cleared by a full reset but not by a domain reset', () => {
+    const before = session('subject-required', 8, 8);
+    const domainReset: ProgressEvent = { kind: 'reset', domain: 'grammar', id: 'r1', at: before.at + 1 };
+    expect(replay([], [before, domainReset]).path['subject-required']).toBeDefined();
+    const fullReset: ProgressEvent = { kind: 'reset', domain: 'all', id: 'r2', at: before.at + 1 };
+    expect(replay([], [before, fullReset]).path).toEqual({});
+  });
+});

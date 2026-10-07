@@ -8,14 +8,16 @@ import { HeaderActions } from '../../src/ui/ThemeToggle';
 type IconName = React.ComponentProps<typeof Ionicons>['name'];
 
 /**
- * The four places a learner goes:
+ * The five places a learner goes:
+ *   Path     — every grammar rule in order, lesson by lesson (the landing tab)
  *   Today    — the one thing to do next, and how close the exam is
  *   Practise — every trainer, grouped by what it trains
  *   Exam     — what the exam looks like, past oral topics, writing tasks
  *   Progress — mastery, streak, and the full grammar map
  */
 const TABS: { name: string; title: string; icon: IconName; iconActive: IconName }[] = [
-  { name: 'index', title: 'Today', icon: 'today-outline', iconActive: 'today' },
+  { name: 'index', title: 'Path', icon: 'map-outline', iconActive: 'map' },
+  { name: 'today', title: 'Today', icon: 'today-outline', iconActive: 'today' },
   { name: 'practise', title: 'Practise', icon: 'barbell-outline', iconActive: 'barbell' },
   { name: 'exam', title: 'Exam', icon: 'document-text-outline', iconActive: 'document-text' },
   { name: 'progress', title: 'Progress', icon: 'stats-chart-outline', iconActive: 'stats-chart' },

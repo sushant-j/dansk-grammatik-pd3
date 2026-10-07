@@ -8,6 +8,10 @@ import { RULES, type RuleId } from '../../src/grammar/rules';
 import { ruleProgress, useProfile } from '../../src/profile/store';
 import { Button, Card, Divider, Label, StrengthBar, Txt, s } from '../../src/ui/primitives';
 import { useTheme } from '../../src/ui/theme';
+import { EMPTY_STAT, progressFor } from '../../src/profile/mastery';
+import { lessonById } from '../../src/path/curriculum';
+import { indexedRule } from '../../src/path/ruleIndex';
+import { currentMastery, usePathState } from '../../src/path/store';
 
 /**
  * The rule card — the destination every piece of feedback points at.
@@ -18,12 +22,19 @@ import { useTheme } from '../../src/ui/theme';
  */
 export default function RuleCard() {
   const { id } = useLocalSearchParams<{ id: string }>();
+  // Word-order rules have the full card with schema diagrams; every other
+  // family (verbs, commas, drill topics …) gets the general card.
+  if (RULES[id as RuleId]) return <WordOrderRuleCard id={id as RuleId} />;
+  return <GeneralRuleCard id={id} />;
+}
+
+function WordOrderRuleCard({ id }: { id: RuleId }) {
   const t = useTheme();
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const stats = useProfile((st) => st.stats);
 
-  const r = RULES[id as RuleId];
+  const r = RULES[id];
 
   if (!r) {
     return (
@@ -144,47 +155,152 @@ export default function RuleCard() {
 
         <Divider />
 
-        {/* Examples */}
-        <Label>Contrasting pairs</Label>
-        {r.examples.map((ex, i) => (
-          <Card key={i}>
-            {ex.wrong ? (
-              <View style={{ marginBottom: t.space(2.5) }}>
-                <View style={[s.row, { gap: t.space(2) }]}>
-                  <Txt variant="heading" color={t.c.accent}>
-                    ✕
-                  </Txt>
-                  <Txt
-                    variant="body"
-                    color={t.c.textMuted}
-                    style={{ flex: 1, textDecorationLine: 'line-through' }}
-                  >
-                    {ex.wrong}
-                  </Txt>
-                </View>
-              </View>
-            ) : null}
-            <View style={[s.row, { gap: t.space(2) }]}>
-              <Txt variant="heading" color={t.c.success}>
-                ✓
-              </Txt>
-              <Txt variant="heading" style={{ flex: 1 }}>
-                {ex.right}
-              </Txt>
-            </View>
-            <Txt
-              variant="body"
-              color={t.c.textMuted}
-              style={{ marginTop: t.space(2.5), fontSize: 14 }}
-            >
-              {ex.note}
-            </Txt>
-          </Card>
-        ))}
+        <Examples examples={r.examples} />
 
-        <Button label="Practise this" onPress={() => router.push('/train')} />
+        <PracticeButtons ruleId={r.id} freeRoute="/train" />
       </Screen>
     </>
+  );
+}
+
+/**
+ * Every rule that is not word order: the same reading order — rule, mastery,
+ * mechanism, why it's hard, contrasting pairs — without the schema diagram.
+ */
+function GeneralRuleCard({ id }: { id: string }) {
+  const t = useTheme();
+  const router = useRouter();
+  const insets = useSafeAreaInsets();
+  // Re-renders when any mastery changes, which is when this card's would.
+  usePathState();
+
+  const r = indexedRule(id);
+  if (!r) {
+    return (
+      <View style={{ flex: 1, backgroundColor: t.c.bg, padding: t.space(4) }}>
+        <Txt variant="title">Unknown rule</Txt>
+        <Button tone="ghost" label="Back" onPress={() => router.back()} style={{ marginTop: 16 }} />
+      </View>
+    );
+  }
+  const lesson = lessonById(r.id);
+  const stat = lesson ? currentMastery(lesson) : undefined;
+  const p = progressFor(r.id, stat ?? EMPTY_STAT);
+
+  return (
+    <>
+      <Stack.Screen options={{ title: r.da }} />
+      <Screen
+        contentContainerStyle={{
+          padding: t.space(4),
+          paddingBottom: insets.bottom + t.space(8),
+          gap: t.space(4),
+        }}
+      >
+        <View>
+          <Txt variant="display" style={{ fontSize: 28 }}>
+            {r.da}
+          </Txt>
+          <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1), fontStyle: 'italic' }}>
+            {r.en}
+          </Txt>
+          <Txt variant="title" style={{ marginTop: t.space(3), fontSize: 20 }}>
+            {r.statement}
+          </Txt>
+          <View style={[s.row, { gap: t.space(2), marginTop: t.space(3) }]}>
+            <Pill text={r.familyLabel} />
+          </View>
+        </View>
+
+        <Card tone="sunken">
+          <View style={s.rowBetween}>
+            <Label>Your mastery</Label>
+            <Txt variant="label" color={t.c.textMuted}>
+              {p.attempts ? `${p.attempts} attempt${p.attempts === 1 ? '' : 's'}` : 'Not practised yet'}
+            </Txt>
+          </View>
+          <View style={{ marginTop: t.space(2.5) }}>
+            <StrengthBar
+              value={p.strength}
+              color={p.strength >= 0.7 ? t.c.success : p.strength >= 0.4 ? t.c.warning : t.c.accent}
+            />
+          </View>
+        </Card>
+
+        <View>
+          <Label>How it works</Label>
+          <Txt variant="body" style={{ marginTop: t.space(2), lineHeight: 23 }}>
+            {r.explanation}
+          </Txt>
+        </View>
+
+        {r.whyHard ? (
+          <Card tone="warning">
+            <Label color={t.c.warning}>Why this one is hard</Label>
+            <Txt variant="body" style={{ marginTop: t.space(2), lineHeight: 23 }}>
+              {r.whyHard}
+            </Txt>
+          </Card>
+        ) : null}
+
+        <Divider />
+
+        <Examples examples={r.examples} />
+
+        <PracticeButtons ruleId={r.id} freeRoute={r.practiceRoute} />
+      </Screen>
+    </>
+  );
+}
+
+/** The wrong/right pairs: the highest-value element on a rule card. */
+function Examples({ examples }: { examples: { wrong?: string; right: string; note: string }[] }) {
+  const t = useTheme();
+  return (
+    <>
+      <Label>Contrasting pairs</Label>
+      {examples.map((ex, i) => (
+        <Card key={i}>
+          {ex.wrong ? (
+            <View style={{ marginBottom: t.space(2.5) }}>
+              <View style={[s.row, { gap: t.space(2) }]}>
+                <Txt variant="heading" color={t.c.accent}>
+                  ✕
+                </Txt>
+                <Txt variant="body" color={t.c.textMuted} style={{ flex: 1, textDecorationLine: 'line-through' }}>
+                  {ex.wrong}
+                </Txt>
+              </View>
+            </View>
+          ) : null}
+          <View style={[s.row, { gap: t.space(2) }]}>
+            <Txt variant="heading" color={t.c.success}>
+              ✓
+            </Txt>
+            <Txt variant="heading" style={{ flex: 1 }}>
+              {ex.right}
+            </Txt>
+          </View>
+          <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(2.5), fontSize: 14 }}>
+            {ex.note}
+          </Txt>
+        </Card>
+      ))}
+    </>
+  );
+}
+
+/** Practise on the path (its lesson) or freely in the rule's own trainer. */
+function PracticeButtons({ ruleId, freeRoute }: { ruleId: string; freeRoute: string }) {
+  const t = useTheme();
+  const router = useRouter();
+  return (
+    <View style={{ gap: t.space(2) }}>
+      {lessonById(ruleId) ? (
+        <Button label="Open its lesson on the path" onPress={() => router.push(`/path/${ruleId}` as never)} />
+      ) : null}
+      <Button tone="ghost" label="Free practice" onPress={() => router.push(freeRoute as never)} />
+    </View>
   );
 }
 
