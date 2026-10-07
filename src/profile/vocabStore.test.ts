@@ -2,7 +2,16 @@ import { describe, expect, it } from 'vitest';
 import { VOCABULARY } from '../content/vocabulary';
 import { EMPTY_STAT, applyOutcome, type ItemStat } from './mastery';
 import { MAX_LEVEL } from '../content/levels';
-import { SESSION_CATEGORIES, countByCategory, nextWord, summarizeVocab, vocabProgress } from './vocabStore';
+import { setEventSink, type AnswerInput } from '../sync/bus';
+import {
+  SESSION_CATEGORIES,
+  countByCategory,
+  nextFromPool,
+  nextWord,
+  summarizeVocab,
+  useVocabProfile,
+  vocabProgress,
+} from './vocabStore';
 
 const NOW = 1_700_000_000_000;
 
@@ -152,5 +161,44 @@ describe('a vocabulary session', () => {
       expect(counts[c]).toBe(VOCABULARY.filter((v) => v.category === c && v.level <= 3).length);
     }
     expect(countByCategory(1).noun).toBeLessThanOrEqual(counts.noun);
+  });
+});
+
+describe('nextFromPool', () => {
+  const pool = [{ id: 'a' }, { id: 'b' }, { id: 'c' }];
+
+  it('returns null for an empty pool', () => {
+    expect(nextFromPool({}, [])).toBeNull();
+  });
+
+  it('serves what hasn’t been shown, until the pool runs dry', () => {
+    for (let i = 0; i < 20; i++) expect(nextFromPool({}, pool, undefined, NOW, new Set(['a', 'b']))?.id).toBe('c');
+    expect(nextFromPool({}, pool, undefined, NOW, new Set(['a', 'b', 'c']))).not.toBeNull();
+  });
+
+  it('prefers the weakest word over a solid one', () => {
+    let solid = { ...EMPTY_STAT };
+    for (let i = 0; i < 6; i++) solid = applyOutcome(solid, true, NOW);
+    const weak = applyOutcome({ ...EMPTY_STAT }, false, NOW);
+    for (let i = 0; i < 20; i++) {
+      expect(nextFromPool({ a: solid, b: weak }, [{ id: 'a' }, { id: 'b' }], undefined, NOW)?.id).toBe('b');
+    }
+  });
+
+  it('serves a one-card pool again rather than nothing', () => {
+    expect(nextFromPool({}, [{ id: 'a' }], 'a', NOW)?.id).toBe('a');
+  });
+});
+
+describe('record', () => {
+  it('counts a set word toward its card but never toward the vocab niveau', () => {
+    const seen: AnswerInput[] = [];
+    setEventSink({ answer: (e) => seen.push(e), setLevel: () => {}, reset: () => {} });
+    const id = VOCABULARY[0].id;
+    useVocabProfile.getState().record(id, true);
+    useVocabProfile.getState().record(id, true, { ownSet: true });
+    setEventSink(null);
+    expect(seen.map((e) => e.level)).toEqual([VOCABULARY[0].level, null]);
+    expect(seen[1].outcomes).toEqual({ [id]: true });
   });
 });

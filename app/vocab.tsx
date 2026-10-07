@@ -1,16 +1,18 @@
-import React, { useCallback, useMemo, useState } from 'react';
+import { useLocalSearchParams } from 'expo-router';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Pressable, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Screen } from '../src/ui/Screen';
 import { splitAtForm, type VocabExample } from '../src/content/examples';
 import { MAX_LEVEL, type Level } from '../src/content/levels';
-import type { VocabCategory, VocabEntry } from '../src/content/vocabulary';
+import type { VocabCategory } from '../src/content/vocabulary';
 import { currentLevelNow, useCurrentLevel } from '../src/profile/levelStore';
 import { useVocabSession, type SessionLength } from '../src/profile/vocabSession';
 import { LevelBadge, LevelUpNotice } from '../src/ui/LevelBadge';
 import {
   SESSION_CATEGORIES,
   countByCategory,
+  nextFromPool,
   nextWord,
   summarizeVocab,
   useVocabProfile,
@@ -18,6 +20,9 @@ import {
 import { Segmented } from '../src/ui/Segmented';
 import { Button, Card, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
+import { cardsFor, type SetCard } from '../src/vocabSets/cards';
+import { splitAtPhrase } from '../src/vocabSets/match';
+import { itemsInSet, liveSets, useVocabSets } from '../src/vocabSets/store';
 
 const CATEGORY_LABEL: Record<VocabCategory, string> = {
   connector: 'Connector',
@@ -47,11 +52,20 @@ const MAX_EXAMPLES = 4;
 
 interface Session {
   categories: VocabCategory[];
-  length: SessionLength;
+  /** A round of a small set can be shorter than any of the length options. */
+  length: SessionLength | number;
   allLevels: boolean;
+  /** A round of the learner's own sets instead of the deck: these sets' cards, no niveau. */
+  setIds?: string[];
   /** Every word shown this round, the current card included — none repeats until these run out. */
   served: Set<string>;
-  results: { word: VocabEntry; knewIt: boolean }[];
+  results: { word: SetCard; knewIt: boolean }[];
+}
+
+/** The cards in these of the learner's sets, read fresh from the store. */
+function setPool(setIds: string[]): SetCard[] {
+  const { items } = useVocabSets.getState();
+  return cardsFor(setIds.flatMap((id) => itemsInSet(items, id)));
 }
 
 /**
@@ -76,7 +90,7 @@ export default function Vocab() {
   const level = useCurrentLevel('vocab');
   const [session, setSession] = useState<Session | null>(null);
   const [finished, setFinished] = useState(false);
-  const [word, setWord] = useState<VocabEntry | null>(null);
+  const [word, setWord] = useState<SetCard | null>(null);
   const [flipped, setFlipped] = useState(false);
 
   const summary = useMemo(() => summarizeVocab(stats, Date.now(), level), [stats, level]);
@@ -92,6 +106,28 @@ export default function Vocab() {
     setFinished(false);
   }, []);
 
+  const startSets = useCallback((setIds: string[], length: SessionLength) => {
+    const pool = setPool(setIds);
+    const first = nextFromPool(useVocabProfile.getState().stats, pool);
+    if (!first) return;
+    // A round is never longer than the sets it draws from.
+    const fitted = length === 'endless' ? length : Math.min(length, pool.length);
+    setSession({ categories: [], length: fitted, allLevels: true, setIds, served: new Set([first.id]), results: [] });
+    setWord(first);
+    setFlipped(false);
+    setFinished(false);
+  }, []);
+
+  // Arriving from a set's own screen ("Practise this set"): start a round of it straight away.
+  const { sets: setsParam } = useLocalSearchParams<{ sets?: string }>();
+  const hydratedSets = useVocabSets((st) => st.hydrated);
+  const startedFromParam = useRef(false);
+  useEffect(() => {
+    if (!setsParam || !hydratedSets || startedFromParam.current) return;
+    startedFromParam.current = true;
+    startSets(setsParam.split(','), useVocabSession.getState().length);
+  }, [setsParam, hydratedSets, startSets]);
+
   const backToSetup = useCallback(() => {
     setSession(null);
     setWord(null);
@@ -106,19 +142,23 @@ export default function Vocab() {
   const grade = useCallback(
     (knewIt: boolean) => {
       if (!session || !word) return;
-      record(word.id, knewIt);
+      record(word.id, knewIt, { ownSet: !!session.setIds });
       const results = [...session.results, { word, knewIt }];
       if (session.length !== 'endless' && results.length >= session.length) {
         setSession({ ...session, results });
         setFinished(true);
         return;
       }
-      const nxt = nextWord(useVocabProfile.getState().stats, word.id, Date.now(), currentLevelNow('vocab'), {
-        categories: session.categories,
-        allLevels: session.allLevels,
-        // A fixed round never repeats a card; Endless lets weak words come back, as before.
-        exclude: session.length === 'endless' ? undefined : session.served,
-      });
+      // A fixed round never repeats a card; Endless lets weak words come back, as before.
+      const exclude = session.length === 'endless' ? undefined : session.served;
+      const stats = useVocabProfile.getState().stats;
+      const nxt = session.setIds
+        ? (nextFromPool(stats, setPool(session.setIds), word.id, Date.now(), exclude) ?? word)
+        : nextWord(stats, word.id, Date.now(), currentLevelNow('vocab'), {
+            categories: session.categories,
+            allLevels: session.allLevels,
+            exclude,
+          });
       setSession({ ...session, results, served: new Set(session.served).add(nxt.id) });
       setWord(nxt);
       setFlipped(false);
@@ -150,11 +190,15 @@ export default function Vocab() {
       <LevelUpNotice domain="vocab" />
 
       {!session ? (
-        <SessionSetup level={level} onStart={start} />
+        <SessionSetup level={level} onStart={start} onStartSets={startSets} />
       ) : finished ? (
         <SessionSummary
           session={session}
-          onAgain={() => start(session.categories, session.length, session.allLevels)}
+          onAgain={() =>
+            session.setIds
+              ? startSets(session.setIds, useVocabSession.getState().length)
+              : start(session.categories, session.length as SessionLength, session.allLevels)
+          }
           onChange={backToSetup}
         />
       ) : word ? (
@@ -185,8 +229,8 @@ export default function Vocab() {
               {!flipped ? (
                 <View style={{ alignItems: 'center', gap: t.space(2) }}>
                   <View style={[s.row, { gap: t.space(2) }]}>
-                    <Label color={t.c.textFaint}>{CATEGORY_LABEL[word.category]}</Label>
-                    <LevelBadge level={word.level} />
+                    <Label color={t.c.textFaint}>{word.own ? 'My word' : CATEGORY_LABEL[word.category]}</Label>
+                    {word.own ? null : <LevelBadge level={word.level} />}
                   </View>
                   <Txt variant="display" style={{ textAlign: 'center', fontSize: 26 }}>
                     {word.word}
@@ -232,15 +276,30 @@ export default function Vocab() {
   );
 }
 
-/** Pick the round: which word types, how many cards. Remembered for next time. */
+/**
+ * Pick the round: the deck (which word types, which levels) or the learner's
+ * own sets, and how many cards. Remembered for next time, except the source.
+ */
 function SessionSetup({
   level,
   onStart,
+  onStartSets,
 }: {
   level: Level;
   onStart: (categories: VocabCategory[], length: SessionLength, allLevels: boolean) => void;
+  onStartSets: (setIds: string[], length: SessionLength) => void;
 }) {
   const t = useTheme();
+  const allSets = useVocabSets((st) => st.sets);
+  const setItems = useVocabSets((st) => st.items);
+  const sets = useMemo(
+    () => liveSets(allSets).map((x) => ({ ...x, count: cardsFor(itemsInSet(setItems, x.id)).length })),
+    [allSets, setItems],
+  );
+  const [source, setSource] = useState<'deck' | 'sets'>('deck');
+  // Every set to begin with: the usual wish is "my words", not one list of them.
+  const [picked, setPicked] = useState<string[]>(() => sets.map((x) => x.id));
+  const chosen = picked.filter((id) => sets.some((x) => x.id === id && x.count > 0));
   const categories = useVocabSession((st) => st.categories);
   const length = useVocabSession((st) => st.length);
   const setCategories = useVocabSession((st) => st.setCategories);
@@ -254,8 +313,60 @@ function SessionSetup({
   const toggle = (c: VocabCategory) =>
     setCategories(categories.includes(c) ? categories.filter((x) => x !== c) : [...categories, c]);
 
+  const lengthPicker = (
+    <View style={{ gap: t.space(2) }}>
+      <Label color={t.c.textFaint}>CARDS PER ROUND</Label>
+      <Segmented
+        compact
+        options={LENGTH_OPTIONS}
+        value={String(length)}
+        onChange={(k) => setLength(k === 'endless' ? 'endless' : (Number(k) as SessionLength))}
+      />
+    </View>
+  );
+
+  const sourcePicker = sets.length ? (
+    <View style={{ gap: t.space(2) }}>
+      <Label color={t.c.textFaint}>PRACTISE</Label>
+      <Segmented
+        compact
+        options={[
+          { key: 'deck', label: 'Deck' },
+          { key: 'sets', label: 'My sets' },
+        ]}
+        value={source}
+        onChange={(k) => setSource(k === 'sets' ? 'sets' : 'deck')}
+      />
+    </View>
+  ) : null;
+
+  if (source === 'sets' && sets.length) {
+    return (
+      <Card style={{ gap: t.space(4) }}>
+        {sourcePicker}
+        <View style={{ gap: t.space(2) }}>
+          <Label color={t.c.textFaint}>SETS</Label>
+          <View style={[s.wrap, { gap: t.space(2) }]}>
+            {sets.map((x) => (
+              <ToggleChip
+                key={x.id}
+                label={x.name}
+                count={x.count}
+                on={chosen.includes(x.id)}
+                onPress={() => setPicked(picked.includes(x.id) ? picked.filter((id) => id !== x.id) : [...picked, x.id])}
+              />
+            ))}
+          </View>
+        </View>
+        {lengthPicker}
+        <Button label="Start" onPress={() => onStartSets(chosen, length)} disabled={chosen.length === 0} />
+      </Card>
+    );
+  }
+
   return (
     <Card style={{ gap: t.space(4) }}>
+      {sourcePicker}
       <View style={{ gap: t.space(2) }}>
         <Label color={t.c.textFaint}>WORD TYPES</Label>
         <View style={[s.wrap, { gap: t.space(2) }]}>
@@ -282,15 +393,7 @@ function SessionSetup({
           onChange={(k) => setAllLevels(k === 'all')}
         />
       </View>
-      <View style={{ gap: t.space(2) }}>
-        <Label color={t.c.textFaint}>CARDS PER ROUND</Label>
-        <Segmented
-          compact
-          options={LENGTH_OPTIONS}
-          value={String(length)}
-          onChange={(k) => setLength(k === 'endless' ? 'endless' : (Number(k) as SessionLength))}
-        />
-      </View>
+      {lengthPicker}
       <Button label="Start" onPress={() => onStart(categories, length, allLevels)} disabled={available === 0} />
     </Card>
   );
@@ -382,17 +485,24 @@ function SessionSummary({
   );
 }
 
-function CardBack({ word }: { word: VocabEntry }) {
+function CardBack({ word }: { word: SetCard }) {
   const t = useTheme();
   const examples = word.examples?.slice(0, MAX_EXAMPLES) ?? [];
   return (
     <View style={{ gap: t.space(3) }}>
       <View>
-        <Label color={t.c.accent}>ENGLISH</Label>
-        <Txt variant="heading" style={{ marginTop: t.space(1) }}>
-          {word.glossEn}
-        </Txt>
+        <Label color={t.c.accent}>{word.own ? 'YOUR MEANING' : 'ENGLISH'}</Label>
+        {word.glossEn ? (
+          <Txt variant="heading" style={{ marginTop: t.space(1) }}>
+            {word.glossEn}
+          </Txt>
+        ) : (
+          <Txt variant="body" color={t.c.textFaint} style={{ marginTop: t.space(1) }}>
+            No meaning added yet — you can add one in the set.
+          </Txt>
+        )}
       </View>
+      {word.fromText ? <FromYourText {...word.fromText} /> : null}
       {word.forms ? (
         <View>
           <Label color={t.c.textFaint}>FORMS</Label>
@@ -433,6 +543,37 @@ function CardBack({ word }: { word: VocabEntry }) {
           ))}
         </View>
       ) : null}
+    </View>
+  );
+}
+
+/** The sentence a set word was picked out of, with the word in bold and where it came from. */
+function FromYourText({ sentence, form, source }: NonNullable<SetCard['fromText']>) {
+  const t = useTheme();
+  const parts = splitAtPhrase(sentence, form);
+  return (
+    <View style={{ gap: t.space(1) }}>
+      <Label color={t.c.textFaint}>FROM YOUR TEXT</Label>
+      <View style={{ borderLeftWidth: 3, borderLeftColor: t.c.accent, paddingLeft: t.space(3) }}>
+        <Txt variant="body" style={{ lineHeight: 22 }}>
+          {parts ? (
+            <>
+              {parts.before}
+              <Txt variant="body" style={{ lineHeight: 22, fontWeight: '700' }}>
+                {parts.match}
+              </Txt>
+              {parts.after}
+            </>
+          ) : (
+            sentence
+          )}
+        </Txt>
+        {source ? (
+          <Txt variant="body" color={t.c.textFaint} style={{ marginTop: t.space(1), fontSize: 13 }}>
+            {source.label}
+          </Txt>
+        ) : null}
+      </View>
     </View>
   );
 }

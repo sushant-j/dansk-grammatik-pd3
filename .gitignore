@@ -51,3 +51,6 @@ scripts/sources/
 # Transcriptions are served to signed-in users from Supabase instead.
 data-from-past-tests-pdf/
 content-private/
+
+# Supabase CLI state (project link, versions)
+supabase/.temp/

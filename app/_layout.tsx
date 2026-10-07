@@ -129,6 +129,8 @@ function RootStack() {
         <Stack.Screen name="train" options={{ title: 'Word order' }} />
         <Stack.Screen name="write" options={{ title: 'Writing studio' }} />
         <Stack.Screen name="vocab" options={{ title: 'Vocabulary', ...OWN_HEADING }} />
+        <Stack.Screen name="sets/index" options={{ title: 'My sets', ...OWN_HEADING }} />
+        <Stack.Screen name="sets/[id]" options={{ title: 'Set', ...OWN_HEADING }} />
         <Stack.Screen name="nouns" options={{ title: 'Gender: en / et', ...OWN_HEADING }} />
         <Stack.Screen name="adjectives" options={{ title: 'Adjective agreement', ...OWN_HEADING }} />
         <Stack.Screen name="verbs" options={{ title: 'Verb forms', ...OWN_HEADING }} />
