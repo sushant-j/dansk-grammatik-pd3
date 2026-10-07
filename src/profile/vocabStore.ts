@@ -21,8 +21,13 @@ interface VocabState {
   stats: Record<string, ItemStat>;
   hydrated: boolean;
 
-  /** Learner self-grades recall after flipping the card: knew it or not. */
-  record: (wordId: string, knewIt: boolean) => void;
+  /**
+   * Learner self-grades recall after flipping the card: knew it or not.
+   * `ownSet`: practised from one of the learner's own sets, which counts
+   * toward the word but never moves the vocab niveau — the learner picked
+   * these words, so how they do on them says nothing about their level.
+   */
+  record: (wordId: string, knewIt: boolean, opts?: { ownSet?: boolean }) => void;
   reset: () => void;
 }
 
@@ -30,11 +35,11 @@ interface VocabState {
 export const useVocabProfile = create<VocabState>()(() => ({
   stats: {},
   hydrated: true,
-  record: (wordId, knewIt) =>
+  record: (wordId, knewIt, opts) =>
     recordAnswer({
       domain: 'vocab',
       itemId: wordId,
-      level: vocabById(wordId)?.level ?? null,
+      level: opts?.ownSet ? null : (vocabById(wordId)?.level ?? null),
       outcomes: { [wordId]: knewIt },
       correct: knewIt,
     }),
@@ -130,6 +135,32 @@ export function nextWord(
   // The niveau split favours the learner's own level; with every level open
   // there's no level to favour, so weakness alone decides.
   const pool = allLevels ? candidates : poolForLevel(candidates, level);
+  return pickWeakest(stats, pool, lastWordId, now);
+}
+
+/**
+ * Next card from a fixed pool — one of the learner's own sets — with no
+ * niveau split: weakest-first, unseen words first, never the card just
+ * answered, and nothing in `exclude` until the pool runs dry.
+ */
+export function nextFromPool<T extends { id: string }>(
+  stats: Record<string, ItemStat>,
+  pool: readonly T[],
+  lastWordId?: string,
+  now = Date.now(),
+  exclude?: ReadonlySet<string>,
+): T | null {
+  if (!pool.length) return null;
+  const fresh = exclude?.size ? pool.filter((v) => !exclude.has(v.id)) : pool;
+  return pickWeakest(stats, fresh.length ? fresh : pool, lastWordId, now);
+}
+
+function pickWeakest<T extends { id: string }>(
+  stats: Record<string, ItemStat>,
+  pool: readonly T[],
+  lastWordId: string | undefined,
+  now: number,
+): T {
   const scored = pool.map((v) => {
     const p = progressFor(v.id, stats[v.id] ?? EMPTY_STAT, now);
     const weakness = p.attempts ? 1 - p.strength : 0.6;

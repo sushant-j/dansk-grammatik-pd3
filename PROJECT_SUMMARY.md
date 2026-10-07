@@ -97,6 +97,7 @@ The noun, adjective, verb, comma, spelling and vocabulary trainers follow the sa
 | `app/train.tsx` | Word-order trainer (the core loop) |
 | `app/rule/[id].tsx` | Rule card: explanation, common mistakes, wrong/right pairs, learner's mastery |
 | `app/nouns.tsx`, `adjectives.tsx`, `verbs.tsx`, `comma.tsx`, `spelling.tsx`, `vocab.tsx` | Six more trainers (multiple choice or flashcards) |
+| `app/sets/index.tsx`, `app/sets/[id].tsx` | The learner's own vocabulary sets: list, and one set's words (practise, add, edit, remove) |
 | `app/write.tsx` | Writing studio: tasks grouped by exam (`src/content/writingTasks.ts`: official PD3 2022 and PD2 2023 tasks, plus labelled practice tasks including FVU), checked by `activeProvider()` |
 | `app/topics/index.tsx`, `[id].tsx`, `practice.tsx`, `practice/[id].tsx` | Oral-exam topic archive with search and year filter, topic Q&A with model answers, practice topics |
 | `app/exam.tsx` | Exam guide with a PD3 / PD2 / FVU switcher, driven by `src/content/examGuides.ts` (format, timings, tips, links to official sample PDFs and the FVU rules) |
@@ -115,6 +116,10 @@ The noun, adjective, verb, comma, spelling and vocabulary trainers follow the sa
 | `src/profile/studyplan.ts` | Exam-date pacing → readiness tag |
 | `src/profile/activity.ts` | Active-days store and `computeStreak()` |
 | `src/profile/settings.ts` | Settings store, `resolveThemeMode`, date helpers |
+| `src/vocabSets/*.ts` | Vocabulary sets: store (tombstones, newer-wins merge), Supabase sync, deck matching by any word form, set words as flashcards, suggested meanings |
+| `src/ui/exam/SelectionCapture.web.tsx` | Web-only text selection in reading papers → "Add to set" pill (native file is a pass-through) |
+| `src/ui/vocab/AddToSetSheet.tsx` | Add or edit a set word: deck match, suggested meaning, source sentence, set picker |
+| `supabase/functions/gloss/index.ts` | Edge Function: DeepL translation of a picked-out word, with its sentence as context; signed-in users only |
 | `src/feedback/types.ts` | `WritingTask`, `Correction`, `WritingFeedback`, `FeedbackProvider` contracts |
 | `src/feedback/offlineRules.ts` | Deterministic regex writing checker |
 | `src/feedback/claudeCoach.ts` | LLM coach provider (stubbed transport) and system prompt |
@@ -154,7 +159,7 @@ The noun, adjective, verb, comma, spelling and vocabulary trainers follow the sa
 | Feature | Status | Evidence |
 |---|---|---|
 | **Conversational Danish practice** | ❌ Not implemented as conversation | No chat UI, no LLM call, no speech input or output (no audio dependencies in `package.json`; nothing in `app/`). The nearest thing is the oral-exam Q&A archive: learners read a real exam question, answer aloud on their own, then reveal a fixed model answer (`app/topics/[id].tsx`, `src/content/topics.ts`). That's static content, not dialogue. |
-| **Contextual translations** | 🟡 Partial: static only | Each vocabulary entry carries `glossEn`, a Danish `definitionDa`, an `example` sentence from the topic archive, and `exampleEn` (`src/content/vocabulary.ts`, shown in `app/vocab.tsx`). Each word-order exercise has an English `gloss` (`src/grammar/types.ts`). No on-demand translation of arbitrary text, and no translation API. |
+| **Contextual translations** | 🟡 Partial: static only | Each vocabulary entry carries `glossEn`, a Danish `definitionDa`, an `example` sentence from the topic archive, and `exampleEn` (`src/content/vocabulary.ts`, shown in `app/vocab.tsx`). Each word-order exercise has an English `gloss` (`src/grammar/types.ts`). **On-demand, for picked-out words:** a word selected in a reading text and added to a vocabulary set gets a suggested English meaning from DeepL, with its sentence passed as context (`supabase/functions/gloss`, `src/vocabSets/gloss.ts`). The key lives in a Supabase secret. Words the deck already has use the deck's gloss instead. There is still no translation of whole texts. |
 | **Adaptive lesson generation** | 🟡 Partial: adaptive *selection*, not *generation* | Exercises are hand-written. What adapts is which item comes next. `nextExercise()` (`src/profile/store.ts`) scores each exercise by `(1 − weakest targeted rule strength) + unseen bonus + not-yet-solved bonus + target-exam bonus − repeat penalty + jitter`. The per-domain `next*Question()` functions (e.g. `src/profile/nounStore.ts`) and `nextWord()` (`src/profile/vocabStore.ts`) pick the weakest rule or word first. Strength decays with a 12-day half-life (`HALF_LIFE_DAYS`, `src/profile/mastery.ts`). `buildStudyPlan()` (`src/profile/studyplan.ts`) paces work against an exam date. **No content is generated.** |
 | **Grammar features** | ✅ Implemented | See below |
 
@@ -177,6 +182,7 @@ The noun, adjective, verb, comma, spelling and vocabulary trainers follow the sa
 - System/Light/Dark theme (`src/profile/settings.ts`)
 - Onboarding exam picker (`src/ui/Onboarding.tsx`)
 - Exam guides for PD3, PD2 and FVU-dansk (`app/exam.tsx`, `src/content/examGuides.ts`)
+- Custom vocabulary sets: select a word or phrase in a reading text (web) and add it, with its sentence, to a set; practise sets in the flashcard trainer without moving the vocab niveau (`app/sets/`, `src/vocabSets/`, `app/vocab.tsx`)
 
 ---
 
@@ -196,7 +202,7 @@ The noun, adjective, verb, comma, spelling and vocabulary trainers follow the sa
 | `skema-settings-v1` | `src/profile/settings.ts` |
 | `skema-activity-v1` | `src/profile/activity.ts` |
 
-There are no accounts, no server and no sync. Word-order history is capped at 300 entries (`src/profile/store.ts`) and active days at 400 (`MAX_DAYS`, `src/profile/activity.ts`).
+*(This table predates accounts.)* Progress, reading-paper attempts and vocabulary sets now sync to the signed-in account in Supabase (`src/sync/`, `src/exam/attemptSync.ts`, `src/vocabSets/sync.ts`; schema in `supabase/migrations/`). Word-order history is capped at 300 entries (`src/profile/store.ts`) and active days at 400 (`MAX_DAYS`, `src/profile/activity.ts`).
 
 **Configuration.** The only environment variable is `EXPO_PUBLIC_COACH_URL`, which is unset (`src/feedback/claudeCoach.ts`). App identity is in `app.json`: name "Skema", bundle id `dk.skema.app`, scheme `skema`.
 
@@ -229,7 +235,7 @@ The README says Android builds and runs, and that iOS needs Xcode or EAS (`READM
 
 ## 9. Tests
 
-The test runner is Vitest with a Node environment (`vitest.config.ts`). It runs `src/**/*.test.ts`, with AsyncStorage aliased to an in-memory mock (`src/test/asyncStorageMock.ts`). Current state: **20 test files, 193 tests, all passing.**
+The test runner is Vitest with a Node environment (`vitest.config.ts`). It runs `src/**/*.test.ts`, with AsyncStorage aliased to an in-memory mock (`src/test/asyncStorageMock.ts`). Current state: **38 test files, 614 tests passing (plus one skipped end-to-end file).**
 
 What the tests cover:
 - **Diagnostic engine:** `src/grammar/analyze.test.ts`
@@ -238,6 +244,7 @@ What the tests cover:
 - **Per-store behaviour:** `src/profile/*Store.test.ts`
 - **Overview, study plan, streak and settings:** `src/profile/{overview,studyplan,activity,settings}.test.ts`
 - **Offline checker:** `src/feedback/offlineRules.test.ts`
+- **Vocabulary sets:** `src/vocabSets/{match,store,sync,cards}.test.ts` (deck matching, sentence cutting, merge and tombstones, sync with a fake server)
 - **Content integrity:** `src/content/topics.test.ts`, `src/content/examContent.test.ts`
 
 What isn't tested:
@@ -254,6 +261,7 @@ What isn't tested:
 - **The content pool is small.** There are 25 word-order exercises (`src/content/exercises.ts`), so the "never repeat a solved one" bonus runs out quickly.
 - **Speaking can't be practised with a partner.** There's no speech or conversation feature.
 - **Exam coverage is uneven.** PD2 and FVU now have guides, but there's no official FVU sample material (FVU papers aren't published), and PD2 has no oral topic archive (`src/content/examGuides.ts`).
+- **Picking words from a text is web-only.** React Native `Text` has no selection events, so on iOS/Android words are added from a set's own screen. The suggested meaning is a translation, not an explanation, and goes away if the DeepL free quota runs out.
 - **The noun trainer ignores per-noun history.** `nextNounQuestion()` picks a random noun inside the weakest rule (`src/profile/nounStore.ts`).
 
 **Risks**

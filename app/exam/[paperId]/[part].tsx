@@ -23,6 +23,7 @@ import { Countdown, formatClock, useNow } from '../../../src/ui/exam/Clock';
 import { ChoiceItem, InsertPicker, Lf1Item } from '../../../src/ui/exam/items';
 import { PassageBlocks, PassageTitle } from '../../../src/ui/exam/Passage';
 import { ReadingLayout, useIsWide, type Pane } from '../../../src/ui/exam/ReadingLayout';
+import { GAP_MARK, SelectionCapture } from '../../../src/ui/exam/SelectionCapture';
 import { Button, Card, Label, Txt, s, withFont } from '../../../src/ui/primitives';
 import { Segmented } from '../../../src/ui/Segmented';
 import { useTheme } from '../../../src/ui/theme';
@@ -151,6 +152,11 @@ function Desk({
   const sectionY = useRef<Record<number, number>>({});
 
   const practice = draft.mode === 'practice';
+  // Where a word picked out of the text for a vocabulary set came from.
+  const pickSource = useMemo(
+    () => ({ paperId: paper.id, part, label: `${paper.title} · ${PART_NAMES[part]}` }),
+    [paper.id, paper.title, part],
+  );
   const paused = isPaused(draft);
   // The clock only ticks while it is running. Right after a resume `now` may
   // still hold the time of its last tick, earlier than the real time, so for
@@ -500,7 +506,7 @@ function Desk({
   return (
     <ReadingLayout
       top={top}
-      passage={passage}
+      passage={<SelectionCapture source={pickSource}>{passage}</SelectionCapture>}
       questions={questions}
       passageRef={passageRef}
       questionsRef={questionsRef}
@@ -557,6 +563,7 @@ function GapChip({
   const t = useTheme();
   return (
     <Text
+      {...GAP_MARK}
       onPress={onPress}
       accessibilityRole={onPress ? 'button' : undefined}
       style={withFont({

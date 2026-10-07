@@ -63,6 +63,15 @@ Three commitments follow from that:
   with the same decaying-mastery model as the grammar map (`profile/mastery.ts`
   is shared between the two) — a word "known" once and never revisited fades
   back to "needs review" instead of a false permanent green checkmark.
+- **My sets (your own vocabulary)** — select a word or phrase in any reading
+  text (web) and choose **＋ Add to set** to file it, with the sentence it came
+  from, into a set of your own. A word the deck already has (in any of its
+  forms) links to that card and shares its progress; anything else becomes your
+  own card, with an English meaning suggested by DeepL from the sentence
+  (editable, never overwriting what you type). Sets are practised in the same
+  flashcard trainer (Vocabulary → *My sets*), never move your vocab niveau, and
+  sync to your account. On a phone, words are added from the set's own screen —
+  React Native text has no selection events to hook a menu into.
 - **Responsive web build** — content is capped at a comfortable reading width
   and centered, so the same screens that were designed at phone width don't
   stretch edge-to-edge on a desktop browser. `npm run build:web` produces a
@@ -176,7 +185,9 @@ app/                       expo-router screens
   (tabs)/progress.tsx      overall mastery, streak, per trainer, grammar map
   train.tsx                the schema trainer
   write.tsx                writing studio
-  vocab.tsx                vocabulary flashcards
+  vocab.tsx                vocabulary flashcards (the deck, or your own sets)
+  sets/index.tsx           your vocabulary sets
+  sets/[id].tsx            one set: its words, practise, add / edit / remove
   nouns.tsx                en/et gender & double-definiteness trainer
   adjectives.tsx           adjective agreement trainer
   verbs.tsx                tense trainer (weak suffix, strong verbs, er/har)
@@ -231,6 +242,12 @@ src/
     settings.ts                     target-exam preference + exam date (persisted); shared day-maths
     overview.ts                      cross-domain roll-up — the app-wide "widest gap"
     studyplan.ts                     exam date + roll-up → paced, honest readiness plan
+  vocabSets/
+    store.ts               your sets and their words; tombstones, newer-wins merge
+    sync.ts                pull / upload, as for reading-paper attempts
+    match.ts               deck lookup by any form, phrase tidying, sentence cutting
+    cards.ts               set words as flashcards (the deck's card, or your own)
+    gloss.ts               suggested English meaning, from the `gloss` function
   sync/
     types.ts               progress events and baselines
     replay.ts              rebuilds all progress from the log (pure)
@@ -249,6 +266,12 @@ src/
     Onboarding.tsx           first-open "which exam?" welcome (shown once)
     LevelBadge.tsx           "Niveau 3 · B1" badge and the level-up notice
     Screen.tsx              max-width wrapper — the phone→web responsive seam
+    exam/SelectionCapture.web.tsx  select text in a reading paper → "Add to set"
+    vocab/AddToSetSheet.tsx  add / edit a set word (deck match, meaning, set)
+    Snackbar.tsx             short confirmation with Undo
+supabase/
+  migrations/              numbered, additive-only schema changes
+  functions/gloss/         Edge Function: DeepL meaning for a picked-out word
     theme.ts, primitives.tsx, SchemaBoard.tsx
 ```
 
@@ -354,6 +377,24 @@ served from Supabase to signed-in users only. To set them up:
 
 Simulated papers ship with the app (`src/content/exams/simulated/`) and need
 none of this.
+
+### Vocabulary sets and suggested meanings
+
+1. In the SQL editor, run `supabase/migrations/0003_vocab_sets.sql` (the
+   `vocab_sets` and `vocab_set_items` tables). Until then sets are kept on
+   the device and their upload quietly retries.
+2. For the suggested English meanings, deploy the `gloss` Edge Function with a
+   DeepL API key (the free tier is plenty; context characters aren't billed).
+   Run these in your own terminal — `supabase login` needs an interactive one:
+
+   ```
+   npx supabase login
+   npx supabase secrets set --project-ref <ref> DEEPL_API_KEY=<key>
+   npx supabase functions deploy gloss --project-ref <ref>
+   ```
+
+   The key stays in Supabase; the function only answers signed-in users.
+   Without it, adding words still works — the meaning is just typed by hand.
 
 ## Content
 

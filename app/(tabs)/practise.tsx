@@ -4,6 +4,7 @@ import { VOCABULARY } from '../../src/content/vocabulary';
 import { DRILL_DOMAINS, drillDomain, type DrillDomainKey } from '../../src/drills/registry';
 import type { DomainKey } from '../../src/profile/overview';
 import { useOverview } from '../../src/profile/useOverview';
+import { liveSets, useVocabSets } from '../../src/vocabSets/store';
 import { DomainMeter, domainStatus } from '../../src/ui/DomainMeter';
 import { Screen } from '../../src/ui/Screen';
 import { ListGroup, ListRow, Txt } from '../../src/ui/primitives';
@@ -78,6 +79,11 @@ export default function Practise() {
   const t = useTheme();
   const router = useRouter();
   const { byKey } = useOverview();
+  const sets = useVocabSets((st) => st.sets);
+  const items = useVocabSets((st) => st.items);
+  const live = liveSets(sets);
+  const liveIds = new Set(live.map((x) => x.id));
+  const setWords = items.filter((i) => i.deletedAt === null && liveIds.has(i.setId)).length;
 
   return (
     <Screen contentContainerStyle={{ padding: t.space(4), paddingBottom: t.space(10), gap: t.space(6) }}>
@@ -93,9 +99,9 @@ export default function Practise() {
         if (rows.length === 0) return null;
         return (
           <ListGroup key={g.title} title={g.title}>
-            {rows.map(({ e, d }) => {
+            {rows.flatMap(({ e, d }) => {
               const status = domainStatus(d, t);
-              return (
+              const row = (
                 <ListRow
                   key={e.key}
                   title={d.label}
@@ -107,6 +113,21 @@ export default function Practise() {
                   <DomainMeter d={d} />
                 </ListRow>
               );
+              // The learner's own sets sit right under the deck they are practised with.
+              if (e.key !== 'vocab') return [row];
+              return [
+                row,
+                <ListRow
+                  key="sets"
+                  title="My sets"
+                  detail={
+                    live.length
+                      ? `${live.length} ${live.length === 1 ? 'set' : 'sets'} · ${setWords} ${setWords === 1 ? 'word' : 'words'} you picked out yourself.`
+                      : 'Your own word lists, picked out of the reading texts.'
+                  }
+                  onPress={() => router.push('/sets' as never)}
+                />,
+              ];
             })}
           </ListGroup>
         );
