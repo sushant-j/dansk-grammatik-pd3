@@ -32,7 +32,7 @@ Skema is a Danish grammar and exam-prep app for adult learners preparing for the
 | `zustand` ^5 | State stores with `persist` middleware | `src/profile/*Store.ts`, `store.ts`, `settings.ts`, `activity.ts` |
 | `@react-native-async-storage/async-storage` | Persistence backend for zustand (uses `localStorage` on web) | `createJSONStorage(() => AsyncStorage)` in `src/profile/store.ts` |
 | `react-native-safe-area-context` | Safe-area insets on every screen | e.g. `app/progress.tsx` |
-| `react-native-screens`, `react-native-gesture-handler`, `react-native-reanimated` | Navigation and runtime peers that expo-router needs. The app code doesn't use gestures or animations directly (it uses tap-to-place, see `src/ui/SchemaBoard.tsx`) | `package.json`, `babel.config.js` |
+| `react-native-screens`, `react-native-gesture-handler`, `react-native-reanimated` | Navigation and runtime peers that expo-router needs. The app code doesn't use gestures or animations directly (answers are typed, see `src/ui/SchemaBoard.tsx`) | `package.json`, `babel.config.js` |
 | `expo-status-bar` | Status-bar style follows the theme | `app/_layout.tsx` |
 | `expo-constants`, `expo-linking` | Expo runtime / deep-link support (`app.json` → `"scheme": "skema"`). The app's own outbound links use React Native's `Linking` | `app/exam.tsx`, `app/topics/[id].tsx` |
 | `babel-preset-expo` | Babel preset. `babel.config.js` also loads `react-native-worklets/plugin` (installed as a transitive dependency of reanimated, not listed in `package.json`) | `babel.config.js` |
@@ -51,8 +51,8 @@ Skema is a client-only app. A "request" is a learner action: the screen calls pu
 
 ```mermaid
 flowchart TD
-  U[Learner] -->|taps word into a field| TR[app/train.tsx]
-  TR --> SB[src/ui/SchemaBoard.tsx<br/>tap-to-place board]
+  U[Learner] -->|types words into fields| TR[app/train.tsx]
+  TR --> SB[src/ui/SchemaBoard.tsx<br/>typed schema board]
   TR -->|Check| EV[src/grammar/analyze.ts<br/>evaluate exercise, placement]
   EV -->|correct? + diagnoses with ruleIds| TR
   EV -.reads.-> F[src/grammar/fields.ts<br/>helsætning / ledsætning fields]
@@ -100,7 +100,7 @@ The noun, adjective, verb, comma, spelling and vocabulary trainers follow the sa
 | `src/path/*.ts` | Rule index across families, curriculum, unlock/star/crack derivation, session plans, question sourcing |
 | `app/train.tsx` | Word-order trainer (the core loop); the board itself is `src/ui/SchemaQuestion.tsx` |
 | `app/rule/[id].tsx` | Rule card for any rule: explanation, common mistakes, wrong/right pairs, learner's mastery, links to its lesson and trainer |
-| `app/nouns.tsx`, `adjectives.tsx`, `verbs.tsx`, `comma.tsx`, `spelling.tsx`, `vocab.tsx` | Six more trainers (multiple choice or flashcards) |
+| `app/nouns.tsx`, `adjectives.tsx`, `verbs.tsx`, `comma.tsx`, `spelling.tsx`, `vocab.tsx` | Six more trainers (typed answers or flashcards) |
 | `app/sets/index.tsx`, `app/sets/[id].tsx` | The learner's own vocabulary sets: list, and one set's words (practise, add, edit, remove) |
 | `app/write.tsx` | Writing studio: tasks grouped by exam (`src/content/writingTasks.ts`: official PD3 2022 and PD2 2023 tasks, plus labelled practice tasks including FVU), checked by `activeProvider()` |
 | `app/topics/index.tsx`, `[id].tsx`, `practice.tsx`, `practice/[id].tsx` | Oral-exam topic archive with search and year filter, topic Q&A with model answers, practice topics |

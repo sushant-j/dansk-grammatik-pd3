@@ -36,7 +36,7 @@ Three commitments follow from that:
   order, searchable, and every rule card opens from it, locked or not. The
   order lives in `src/path/curriculum.ts`; free practice in the trainers stays
   open to everyone.
-- **Sætningsskema trainer** — tap-to-place word ordering across both clause
+- **Sætningsskema trainer** — tap or type each word into its field, across both clause
   topologies, with a live preview reading your arrangement back as a sentence.
   Includes complex sentences: double objects with fixed receiver-then-thing
   order, three-way stacked adverbials (manner/place/time), and "som" relative
@@ -87,19 +87,18 @@ Three commitments follow from that:
   and centered, so the same screens that were designed at phone width don't
   stretch edge-to-edge on a desktop browser. `npm run build:web` produces a
   fully static export deployable to any static host.
-- **En-ord og et-ord (gender & double definiteness)** — multiple-choice, not
-  tap-to-place, because gender is a lexical fact to recognise rather than a
-  position to arrange. Three rules (en/et gender, the definite suffix,
-  double definiteness), each wrong option the specific mistake that noun
-  invites rather than an arbitrary distractor, mastery tracked per rule via
+- **En-ord og et-ord (gender & double definiteness)** — pick or type the form
+  ("en", "manden", "den unge mand") rather than arrange words, because gender is a
+  lexical fact to produce, not a position to arrange. Three rules (en/et gender, the definite suffix,
+  double definiteness), each wrong form the question knows about the specific
+  mistake that noun invites, mastery tracked per rule via
   the same shared `mastery.ts`.
-- **Adjektivets former (adjective agreement)** — the same multiple-choice
+- **Adjektivets former (adjective agreement)** — the same question
   shape, one level up: base form before an en-word, -t before an et-word, -e
   for every plural or definite phrase regardless of gender. Distractors are
   built by deduping an adjective's three real forms against whichever is
   correct, so the two deliberately irregular entries ("dansk", "lille")
-  produce a clean two-option question instead of two identical buttons —
-  no special-casing needed.
+  produce a clean two-form question — no special-casing needed.
 - **Datid og førnutid (tense)** — three rules that are genuinely different in
   kind, not just in vocabulary: the weak -ede/-te suffix choice (a leaky
   phonological pattern), strong-verb forms (pure memorisation, the verb
@@ -110,8 +109,9 @@ Three commitments follow from that:
 - **Kommaregler (comma rules)** — a different shape from every other module:
   a comma decision depends on the structure of a whole sentence, not a
   property of one word, so there is no per-word generator — the exercise
-  bank is hand-written correct/incorrect sentence pairs, and the options
-  shown are full sentences rather than single words. Scoped to three rules
+  bank is hand-written correct/incorrect sentence pairs, and the learner
+  picks the correctly punctuated sentence or, typing, puts the commas back into
+  the bare sentence. Scoped to three rules
   that are genuinely unambiguous (comma before "men" but never before "og";
   no comma before the final item in a list; commas around a non-defining
   relative clause). The contested "startkomma" — optional under the modern
@@ -202,7 +202,7 @@ app/                       expo-router screens
   nouns.tsx                en/et gender & double-definiteness trainer
   adjectives.tsx           adjective agreement trainer
   verbs.tsx                tense trainer (weak suffix, strong verbs, er/har)
-  comma.tsx                comma trainer (full-sentence multiple choice)
+  comma.tsx                comma trainer (put the commas back in a sentence)
   spelling.tsx             FVU spelling trainer (silent d, silent h, nogen/nogle)
   settings.tsx             exam-target picker (bias, not a filter)
   rule/[id].tsx            rule card
@@ -220,9 +220,10 @@ src/
     commaRules.ts               comma rule catalogue
     spellingRules.ts              FVU spelling rule catalogue
     analyze.ts              diagnostic engine (word order)
-    nounExercise.ts          multiple-choice question builder (nouns)
-    adjectiveExercise.ts      multiple-choice question builder (adjectives)
-    verbExercise.ts            multiple-choice question builder (verbs)
+    nounExercise.ts          question builder (nouns)
+    adjectiveExercise.ts      question builder (adjectives)
+    verbExercise.ts            question builder (verbs)
+    typedAnswer.ts           grades typed answers: option match, comma sentence, schema fields → tokens
     commaExercise.ts             packages a comma-example entry into a question
     spellingExercise.ts            packages a spelling-example entry into a question
     types.ts
@@ -289,11 +290,26 @@ supabase/
 Key design decisions and their rationale live in the header comment of each
 module.
 
-### Tap-to-place, not drag-and-drop
+### Tap or type, never drag
 
-Dragging a word across seven narrow targets on a 390pt screen is a dexterity
-test, not a grammar test, and it is unusable with a screen reader. Tap the word,
-tap its field.
+Every grammar exercise can be answered two ways, chosen in Settings ("Answering
+exercises") or with the link under each exercise. **Auto**, the default, taps
+where the exercise has a narrow layout (a phone) and types where it lays out
+wide (a desktop). Tapping: tap a word, then its field, or tap one of the
+options — quick on a phone, where the keyboard would cover half the board.
+Typing: each schema field is a text box, and other questions take the missing
+form in a box (drills and spelling list the candidate words, since their
+prompts don't name them) or, for commas, the comma-less sentence to fix — closer
+to the exam, and quick with a keyboard. `src/grammar/typedAnswer.ts` matches
+what was typed back to an option or to the board's tokens — case and spacing
+forgiven, æ/ø/å never folded — so grading, mastery and the stored events are the
+same either way. Never drag: moving a word across seven narrow targets on a
+390pt screen is a dexterity test, not a grammar test, and it is unusable with a
+screen reader.
+
+On a wide screen the schema board is drawn as the textbook's columns (wrapping
+to two lines when the columns would be too narrow) and a question sits beside
+its feedback, so the task, the answer and the explanation fit on one screen.
 
 ### The Forfelt accepts two words
 
