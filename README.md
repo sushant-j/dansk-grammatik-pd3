@@ -348,6 +348,17 @@ deployable as-is to Netlify, Vercel, GitHub Pages, S3, or any static host.
 `npm run serve:web` serves that build locally to sanity-check it before
 deploying.
 
+### Analytics
+
+The production web build reports page views to Vercel Web Analytics
+(cookieless; enabled on the project's Analytics tab). `src/analytics/` loads
+Vercel's script from `/_vercel/insights/script.js` and sends one page view per
+screen under its route pattern (`/sets/[id]`, not one page per set), with query
+strings and `#` fragments removed so sign-in tokens never leave the browser.
+It is off in development and on iOS/Android. The `@vercel/analytics` package
+isn't used: its optional SvelteKit peers conflict with Vitest's Vite, and its
+build-time config comes from an env var that Metro doesn't inline.
+
 ## Accounts and progress
 
 Progress is an **append-only log of events** — every answer, every niveau set
