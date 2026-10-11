@@ -7,12 +7,14 @@ import {
   AtkinsonHyperlegibleNext_800ExtraBold,
   useFonts,
 } from '@expo-google-fonts/atkinson-hyperlegible-next';
-import { Stack } from 'expo-router';
+import { Stack, usePathname, useSegments } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import React, { useEffect } from 'react';
 import { ActivityIndicator, View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { startAnalytics, trackPageview } from '../src/analytics';
+import { routeFromSegments } from '../src/analytics/route';
 import { buildTheme } from '../src/theme';
 import { useSettings } from '../src/profile/settings';
 import { startAuth, useSession } from '../src/auth/session';
@@ -63,6 +65,18 @@ export default function RootLayout() {
   );
 }
 
+/** One analytics page view per screen shown, under its route pattern (web only; see src/analytics). */
+function usePageviews() {
+  const pathname = usePathname();
+  const segments = useSegments();
+  const route = routeFromSegments(segments);
+  useEffect(() => startAnalytics(), []);
+  useEffect(() => {
+    trackPageview(route, pathname);
+    // A new path is a new page view; the route only names it.
+  }, [pathname]);
+}
+
 function RootStack() {
   const mode = useResolvedMode();
   const t = buildTheme(mode);
@@ -74,6 +88,7 @@ function RootStack() {
   const setTargetExam = useSettings((s) => s.setTargetExam);
   const setOnboarded = useSettings((s) => s.setOnboarded);
   useEffect(() => startAuth(), []);
+  usePageviews();
 
   // Sign-in gate first: progress belongs to an account. While the stored
   // session (and then the account's profile) loads, show a blank screen
