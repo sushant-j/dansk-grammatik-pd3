@@ -61,7 +61,7 @@ export function buildVerbQuestion(
       kind,
       ruleId: 'weak-suffix-choice',
       verb,
-      prompt: `Vælg datid af "at ${verb.infinitive}" (${verb.glossEn}): ${pastFrame(verb, rng)}`,
+      prompt: `Datid af "at ${verb.infinitive}" (${verb.glossEn}): ${pastFrame(verb, rng)}`,
       options,
       correctIndex: options.indexOf(verb.past),
       explanation:
@@ -80,7 +80,7 @@ export function buildVerbQuestion(
       kind,
       ruleId: 'strong-verb-forms',
       verb,
-      prompt: `Vælg datid af "at ${verb.infinitive}" (${verb.glossEn}): ${pastFrame(verb, rng)}`,
+      prompt: `Datid af "at ${verb.infinitive}" (${verb.glossEn}): ${pastFrame(verb, rng)}`,
       options,
       correctIndex: options.indexOf(verb.past),
       explanation: `"${verb.infinitive}" er stærkt/uregelmæssigt: datid er "${verb.past}" — der tilføjes ingen endelse, formen skal huskes.`,
@@ -95,7 +95,7 @@ export function buildVerbQuestion(
     kind,
     ruleId: 'perfect-auxiliary',
     verb,
-    prompt: `Vælg hjælpeverbet: ${subject} ___ ${verb.participle}.`,
+    prompt: `Hjælpeverbet, har eller er: ${subject} ___ ${verb.participle}.`,
     options,
     correctIndex: options.indexOf(verb.perfectAux),
     explanation:

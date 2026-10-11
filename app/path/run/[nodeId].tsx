@@ -27,6 +27,10 @@ import { useTheme } from '../../../src/ui/theme';
  * A scored session allows no retries within it: the result should say what
  * the learner knew, and "Try again" on the result screen is always there.
  */
+
+/** Families whose prompts name the word to write, so their candidates stay hidden. */
+const WORD_NAMED_FAMILIES = new Set<string>(['verbs', 'nouns', 'adjectives']);
+
 export default function RunScreen() {
   const { nodeId, mode: modeParam } = useLocalSearchParams<{ nodeId: string; mode?: string }>();
   const t = useTheme();
@@ -228,6 +232,9 @@ function Session({ nodeId, mode, onRetry }: { nodeId: string; mode: SessionMode;
             explanationEn={question.explanationEn}
             onNext={next}
             nextLabel={nextLabel}
+            // Verb, noun and adjective prompts name the word to write; the others need the candidates shown.
+            showOptions={!WORD_NAMED_FAMILIES.has(question.family)}
+            mode={question.family === 'comma' ? 'sentence' : 'word'}
           />
         ) : (
           <SchemaQuestion
@@ -253,6 +260,7 @@ function Session({ nodeId, mode, onRetry }: { nodeId: string; mode: SessionMode;
 function missedText(q: PathQuestion): string {
   if (q.kind === 'schema') return renderSentence(q.exercise, q.exercise.solution);
   const answer = q.options[q.correctIndex];
+  if (q.family === 'comma') return answer;
   return q.prompt.includes(GAP) ? q.prompt.replace(GAP, answer) : `${q.prompt} → ${answer}`;
 }
 

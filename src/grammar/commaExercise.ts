@@ -34,7 +34,7 @@ export function buildCommaQuestion(entry: CommaEntry, rng: () => number = Math.r
   return {
     ruleId: entry.ruleId,
     entry,
-    prompt: 'Vælg den korrekt kommaterede sætning:',
+    prompt: 'Hvor skal der være komma?',
     options,
     correctIndex: options.indexOf(entry.correct),
     explanation: entry.explanation,

@@ -20,7 +20,8 @@ describe('versioned persistence', () => {
 
     const rewritten = JSON.parse((await AsyncStorage.getItem('skema-settings-v1'))!);
     expect(rewritten.version).toBe(STORE_VERSION);
-    expect(rewritten.state).toEqual(saved);
+    // Saved values come through untouched; settings added since take their defaults.
+    expect(rewritten.state).toEqual({ ...saved, answerMode: 'auto' });
   });
 });
 

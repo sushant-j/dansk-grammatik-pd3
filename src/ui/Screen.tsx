@@ -20,14 +20,20 @@ export function Screen({
   children,
   style,
   contentContainerStyle,
+  maxWidth = MAX_WIDTH,
   ...rest
-}: ScrollViewProps) {
+}: ScrollViewProps & { maxWidth?: number }) {
   const t = useTheme();
   return (
     <ScrollView
+      // Answers are typed: a tap on Check with the keyboard up must press it,
+      // not just dismiss the keyboard, and a focused box must scroll clear of it.
+      keyboardShouldPersistTaps="handled"
+      keyboardDismissMode="interactive"
+      automaticallyAdjustKeyboardInsets
       style={[{ flex: 1, backgroundColor: t.c.bg }, style]}
       contentContainerStyle={[
-        { width: '100%', maxWidth: MAX_WIDTH, alignSelf: 'center' } as ViewStyle,
+        { width: '100%', maxWidth, alignSelf: 'center' } as ViewStyle,
         contentContainerStyle,
       ]}
       {...rest}

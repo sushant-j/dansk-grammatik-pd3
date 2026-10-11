@@ -20,12 +20,21 @@ import { persistOptions } from './persistOptions';
 /** How the app chooses light vs dark. 'system' follows the OS setting. */
 export type ThemeMode = 'system' | 'light' | 'dark';
 
+/**
+ * How grammar exercises are answered. Typing suits a keyboard; on a phone,
+ * tapping a word and then its field (or one of the options) is quicker and
+ * the on-screen keyboard doesn't cover the exercise. 'auto' decides by the
+ * room the exercise has: typing where it lays out wide, tapping where narrow.
+ */
+export type AnswerMode = 'auto' | 'tap' | 'type';
+
 interface SettingsState {
   targetExam: Exam | null;
   /** Exam day as 'YYYY-MM-DD', or null when unset. Drives the study plan. */
   examDate: string | null;
   /** Light/dark preference; 'system' defers to the OS. */
   themeMode: ThemeMode;
+  answerMode: AnswerMode;
   /**
    * Whether the first-open welcome has been completed. Persisted, so a shared
    * newcomer sees the "which exam?" prompt once and never again — while a
@@ -38,6 +47,7 @@ interface SettingsState {
   setTargetExam: (exam: Exam | null) => void;
   setExamDate: (date: string | null) => void;
   setThemeMode: (mode: ThemeMode) => void;
+  setAnswerMode: (mode: AnswerMode) => void;
   setOnboarded: (done: boolean) => void;
 }
 
@@ -47,17 +57,20 @@ export const useSettings = create<SettingsState>()(
       targetExam: null,
       examDate: null,
       themeMode: 'system',
+      answerMode: 'auto',
       onboarded: false,
       hydrated: false,
       setTargetExam: (exam) => set({ targetExam: exam }),
       setExamDate: (date) => set({ examDate: date }),
       setThemeMode: (mode) => set({ themeMode: mode }),
+      setAnswerMode: (mode) => set({ answerMode: mode }),
       setOnboarded: (done) => set({ onboarded: done }),
     }),
     persistOptions('skema-settings-v1', (s: SettingsState) => ({
       targetExam: s.targetExam,
       examDate: s.examDate,
       themeMode: s.themeMode,
+      answerMode: s.answerMode,
       onboarded: s.onboarded,
     })),
   ),
@@ -75,6 +88,12 @@ export function resolveThemeMode(
 ): 'light' | 'dark' {
   if (pref === 'light' || pref === 'dark') return pref;
   return systemScheme === 'dark' ? 'dark' : 'light';
+}
+
+/** Tap or type for this exercise: the preference, or for 'auto', by whether it has a wide layout. */
+export function resolveAnswerMode(pref: AnswerMode, wide: boolean): 'tap' | 'type' {
+  if (pref === 'tap' || pref === 'type') return pref;
+  return wide ? 'type' : 'tap';
 }
 
 /**

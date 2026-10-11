@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import {
+  resolveAnswerMode,
   EXAM_DESCRIPTIONS,
   EXAM_LABELS,
   dateFromIso,
@@ -135,6 +136,17 @@ describe('toggledThemeMode', () => {
     const next = toggledThemeMode(shown);
     expect(next).toBe('light');
     expect(resolveThemeMode(next, 'dark')).toBe('light');
+  });
+});
+
+describe('resolveAnswerMode', () => {
+  it('auto taps on a narrow layout and types on a wide one', () => {
+    expect(resolveAnswerMode('auto', false)).toBe('tap');
+    expect(resolveAnswerMode('auto', true)).toBe('type');
+  });
+  it('an explicit choice holds at any width', () => {
+    expect(resolveAnswerMode('tap', true)).toBe('tap');
+    expect(resolveAnswerMode('type', false)).toBe('type');
   });
 });
 

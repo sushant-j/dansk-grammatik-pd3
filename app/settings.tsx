@@ -14,6 +14,7 @@ import {
   shiftIso,
   todayIso,
   useSettings,
+  type AnswerMode,
   type ThemeMode,
 } from '../src/profile/settings';
 import { ALL_LEVELS, LEVELS } from '../src/content/levels';
@@ -237,6 +238,14 @@ export default function Settings() {
   const setExamDate = useSettings((st) => st.setExamDate);
   const themeMode = useSettings((st) => st.themeMode);
   const setThemeMode = useSettings((st) => st.setThemeMode);
+  const answerMode = useSettings((st) => st.answerMode);
+  const setAnswerMode = useSettings((st) => st.setAnswerMode);
+
+  const ANSWER_OPTIONS: { mode: AnswerMode; label: string }[] = [
+    { mode: 'auto', label: 'Auto' },
+    { mode: 'tap', label: 'Tap' },
+    { mode: 'type', label: 'Type' },
+  ];
 
   const THEME_OPTIONS: { mode: ThemeMode; label: string }[] = [
     { mode: 'system', label: 'System' },
@@ -268,6 +277,46 @@ export default function Settings() {
           const active = themeMode === o.mode;
           return (
             <Pressable key={o.mode} onPress={() => setThemeMode(o.mode)} style={{ flex: 1 }}>
+              <View
+                style={{
+                  borderWidth: 1.5,
+                  borderColor: active ? t.c.accent : t.c.border,
+                  backgroundColor: active ? t.c.accentSoft : t.c.surface,
+                  borderRadius: t.radius.md,
+                  paddingVertical: t.space(3),
+                  alignItems: 'center',
+                }}
+              >
+                <Txt variant="heading" color={active ? t.c.accent : t.c.text} style={{ fontSize: 15 }}>
+                  {o.label}
+                </Txt>
+              </View>
+            </Pressable>
+          );
+        })}
+      </View>
+
+      {/* ── Answering ─────────────────────────────────────────────────── */}
+      <View style={{ marginTop: t.space(2) }}>
+        <Txt variant="display" style={{ fontSize: 26 }}>
+          Answering exercises
+        </Txt>
+        <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(1) }}>
+          Tap a word and then its field (or one of the options), or type the answer. Auto taps on a
+          phone and types on a wide screen. Every exercise also has a link to switch.
+        </Txt>
+      </View>
+      <View style={[s.row, { gap: t.space(2) }]}>
+        {ANSWER_OPTIONS.map((o) => {
+          const active = answerMode === o.mode;
+          return (
+            <Pressable
+              key={o.mode}
+              onPress={() => setAnswerMode(o.mode)}
+              accessibilityRole="button"
+              accessibilityState={{ selected: active }}
+              style={{ flex: 1 }}
+            >
               <View
                 style={{
                   borderWidth: 1.5,

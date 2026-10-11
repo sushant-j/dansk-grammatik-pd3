@@ -177,12 +177,13 @@ function TopicList({
 
       <Button label="Mixed practice — weakest first" onPress={() => onStart(null)} />
 
-      <View style={{ gap: t.space(3) }}>
+      {/* A grid when there is room: up to ten topics fit on one screen. */}
+      <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: t.space(3) }}>
         {domain.rules.map((rule, i) => {
           const p = progress[i];
           const color = p.strength >= 0.7 ? t.c.success : p.strength >= 0.4 ? t.c.warning : t.c.accent;
           return (
-            <Card key={rule.id}>
+            <Card key={rule.id} style={{ flexGrow: 1, flexBasis: 320, justifyContent: 'space-between' }}>
               <View style={[s.rowBetween, { alignItems: 'flex-start', gap: t.space(3) }]}>
                 <View style={{ flex: 1, gap: 2 }}>
                   <Txt variant="heading">{rule.en}</Txt>
@@ -266,6 +267,7 @@ function QuestionView({
         onChoose={onChoose}
         explanation={question.item.explanation}
         onNext={onNext}
+        showOptions
       />
     </>
   );

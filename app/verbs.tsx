@@ -1,15 +1,16 @@
 import React, { useCallback, useState } from 'react';
-import { Pressable, View } from 'react-native';
+import { View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { VERB_RULES } from '../src/grammar/verbRules';
 import type { VerbQuestion } from '../src/grammar/verbExercise';
 import { nextVerbQuestion, summarizeVerbs, useVerbProfile, verbRuleProgress } from '../src/profile/verbStore';
+import { ChoiceQuestion } from '../src/ui/ChoiceQuestion';
 import { TrainerScreen } from '../src/ui/RulesPane';
-import { Button, Card, Label, StrengthBar, Txt, s } from '../src/ui/primitives';
+import { StrengthBar, Txt, s } from '../src/ui/primitives';
 import { useTheme } from '../src/ui/theme';
 import { levelLabel } from '../src/profile/mastery';
 import { currentLevelNow } from '../src/profile/levelStore';
-import { LevelBadge, LevelUpNotice } from '../src/ui/LevelBadge';
+import { LevelUpNotice } from '../src/ui/LevelBadge';
 
 /**
  * The tense trainer.
@@ -78,9 +79,10 @@ export default function Verbs() {
         </Txt>
       </View>
 
-      <View style={{ gap: t.space(2) }}>
+      {/* One bar per rule; side by side when there is room, so the question stays on screen. */}
+      <View style={{ flexDirection: 'row', flexWrap: 'wrap', columnGap: t.space(6), rowGap: t.space(2) }}>
         {progress.map((p) => (
-          <View key={p.id} style={{ gap: t.space(1) }}>
+          <View key={p.id} style={{ gap: t.space(1), flexGrow: 1, flexBasis: 220 }}>
             <View style={s.rowBetween}>
               <Txt variant="body" color={t.c.textMuted} style={{ fontSize: 13 }}>
                 {VERB_RULES[p.id].da}
@@ -99,74 +101,18 @@ export default function Verbs() {
 
       <LevelUpNotice domain="verbs" />
 
-      <Card tone="sunken">
-        <View style={s.rowBetween}>
-          <Label>{rule.da}</Label>
-          <LevelBadge level={question.verb.level} />
-        </View>
-        <Txt variant="title" style={{ marginTop: t.space(2) }}>
-          {question.prompt}
-        </Txt>
-      </Card>
-
-      <View style={{ gap: t.space(2.5) }}>
-        {question.options.map((opt, i) => {
-          const isCorrect = i === question.correctIndex;
-          const isPicked = i === picked;
-          const revealed = picked !== null;
-
-          const bg = !revealed
-            ? t.c.surface
-            : isCorrect
-              ? t.c.successSoft
-              : isPicked
-                ? t.c.accentSoft
-                : t.c.surface;
-          const border = !revealed
-            ? t.c.border
-            : isCorrect
-              ? t.c.success
-              : isPicked
-                ? t.c.accent
-                : t.c.border;
-
-          return (
-            <Pressable key={i} onPress={() => choose(i)} disabled={revealed}>
-              <View
-                style={{
-                  backgroundColor: bg,
-                  borderWidth: 1.5,
-                  borderColor: border,
-                  borderRadius: t.radius.md,
-                  paddingVertical: t.space(3.5),
-                  paddingHorizontal: t.space(4),
-                }}
-              >
-                <Txt variant="heading" color={revealed && isCorrect ? t.c.success : t.c.text}>
-                  {opt}
-                </Txt>
-              </View>
-            </Pressable>
-          );
-        })}
-      </View>
-
-      {picked !== null ? (
-        <View style={{ gap: t.space(3) }}>
-          <Card tone={picked === question.correctIndex ? 'success' : 'warning'}>
-            <Label color={picked === question.correctIndex ? t.c.success : t.c.warning}>
-              {picked === question.correctIndex ? 'Correct' : 'Not quite'}
-            </Label>
-            <Txt variant="body" style={{ marginTop: t.space(2), lineHeight: 22 }}>
-              {question.explanation}
-            </Txt>
-            <Txt variant="body" color={t.c.textMuted} style={{ marginTop: t.space(2), lineHeight: 22 }}>
-              {question.explanationEn}
-            </Txt>
-          </Card>
-          <Button label="Next" onPress={advance} />
-        </View>
-      ) : null}
+      <ChoiceQuestion
+        label={rule.da}
+        level={question.verb.level}
+        prompt={question.prompt}
+        options={question.options}
+        correctIndex={question.correctIndex}
+        picked={picked}
+        onChoose={choose}
+        explanation={question.explanation}
+        explanationEn={question.explanationEn}
+        onNext={advance}
+      />
     </TrainerScreen>
   );
 }

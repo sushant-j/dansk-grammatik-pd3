@@ -47,7 +47,7 @@ export function buildQuestion(
       kind,
       ruleId: 'en-et-gender',
       noun,
-      prompt: `${capitalize(noun.word)} — en-ord eller et-ord?`,
+      prompt: `En eller et? ___ ${noun.word}.`,
       options,
       correctIndex: options.indexOf(noun.gender),
       explanation: `"${noun.word}" er et ${noun.gender}-ord: "${noun.gender} ${noun.word}" (${noun.glossEn}).`,
@@ -61,7 +61,7 @@ export function buildQuestion(
       kind,
       ruleId: 'definite-suffix',
       noun,
-      prompt: `Vælg den bestemte form af "${noun.word}".`,
+      prompt: `Den bestemte form af "${noun.word}":`,
       options,
       correctIndex: options.indexOf(noun.definite),
       explanation: `"${noun.word}" er et ${noun.gender}-ord, så den bestemte form er "${noun.definite}" — endelsen følger kønnet, ikke omvendt.`,
@@ -81,14 +81,10 @@ export function buildQuestion(
     kind,
     ruleId: 'double-definiteness',
     noun,
-    prompt: `Vælg den korrekte form: "the ${noun.adjectiveGlossEn} ${noun.glossEn}".`,
+    prompt: `På dansk: "the ${noun.adjectiveGlossEn} ${noun.glossEn}" (med "${noun.adjectiveE}" og "${noun.word}"):`,
     options,
     correctIndex: options.indexOf(correct),
     explanation: `"${article}" markerer bestemtheden foran adjektivet, så "${noun.word}" bliver i grundform — "${correct}", aldrig "${doubleMarked}".`,
     explanationEn: `With an adjective in front, "the" is the separate word "${article}" (${article} for an ${noun.gender}-word), and that already makes the phrase definite — so the noun stays in its base form: "${correct}", never "${doubleMarked}".`,
   };
-}
-
-function capitalize(s: string): string {
-  return s.charAt(0).toUpperCase() + s.slice(1);
 }

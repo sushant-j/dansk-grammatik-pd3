@@ -15,9 +15,15 @@ export interface PaneRule {
   examples: { wrong?: string; right: string; note: string }[];
 }
 
-/** Wide enough for the 760px practice column and the pane side by side. */
+/** Wide enough for a 720px practice column and the pane side by side. */
 const SIDE_PANE_MIN_WIDTH = 1100;
 const PANE_WIDTH = 380;
+/**
+ * The practice column may grow well past the 760px reading width: on a wide
+ * window the exercises lay themselves out sideways (see useWide), so the whole
+ * question — task, answer, feedback — fits on one screen without scrolling.
+ */
+const PRACTICE_MAX_WIDTH = 1400;
 
 /**
  * A trainer screen with its rules a glance away.
@@ -43,7 +49,9 @@ export function TrainerScreen({
   if (width >= SIDE_PANE_MIN_WIDTH) {
     return (
       <View style={{ flex: 1, flexDirection: 'row', backgroundColor: t.c.bg }}>
-        <Screen {...screenProps}>{children}</Screen>
+        <Screen maxWidth={PRACTICE_MAX_WIDTH} {...screenProps}>
+          {children}
+        </Screen>
         <View style={{ width: PANE_WIDTH, borderLeftWidth: 1, borderLeftColor: t.c.border, backgroundColor: t.c.surface }}>
           <RulesList rules={rules} activeRuleId={activeRuleId} />
         </View>
