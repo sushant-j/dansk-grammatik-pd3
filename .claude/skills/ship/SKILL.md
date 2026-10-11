@@ -64,10 +64,10 @@ Write the implementation diary at `docs/diary/YYYY-MM-DD-<slug>.md`:
 
 The Vercel project `dansk-grammatik` is connected to GitHub (`.vercel/project.json`; it has a `-git-main` alias), so a push to `main` starts a production deploy by itself. Do not run `vercel deploy` as well.
 
-- Poll `vercel ls dansk-grammatik` until the newest **Production** deployment created after the push shows `● Ready` (a build takes about 1 minute). Use the Monitor tool or an until-loop rather than sleeping.
+- Poll `vercel ls dansk-grammatik 2>&1` (the status table goes to stderr; without `2>&1` only bare URLs come through) until the newest **Production** deployment created after the push shows `● Ready` (a build takes about 1 minute). Use the Monitor tool or an until-loop rather than sleeping.
 - If its status is `● Error`, run `vercel inspect <url> --logs`, report the failing lines, and stop. Don't attempt a fix without asking.
 - If no new deployment appears within about 3 minutes, say so: the Git integration may be disconnected. Offer `vercel deploy --prod` rather than running it.
-- Once it is Ready, report the deployment URL.
+- Once it is Ready, report the deployment URL. Production is aliased to https://dansk-grammatik.vercel.app; check that it returns 200. The `-git-main` alias returns 302 because of deployment protection, which is expected.
 
 ## 7. Database
 
